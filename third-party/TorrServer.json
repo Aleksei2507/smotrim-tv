@@ -1,0 +1,20 @@
+{
+  "component": "TorrServer",
+  "version": "MatriX.147",
+  "license": "GPL-3.0",
+  "release": "https://github.com/YouROK/TorrServer/releases/tag/MatriX.147",
+  "source": "https://github.com/YouROK/TorrServer/archive/refs/tags/MatriX.147.tar.gz",
+  "unmodified": true,
+  "binaries": [
+    {
+      "abi": "arm64-v8a",
+      "asset": "TorrServer-android-arm64",
+      "sha256": "92ccc46a21d87e5861dabf31ece084ac910499dbb752ed5a37f6dceeb91fcf03"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "asset": "TorrServer-android-arm7",
+      "sha256": "8cb44454ff201bd902a9c454e6f046d4fb25937a3b628270d0c7b48f1cc7b94c"
+    }
+  ]
+}
