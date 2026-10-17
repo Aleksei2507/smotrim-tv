@@ -89,7 +89,7 @@ public class MainActivity extends Activity {
             try {
                 JSONObject a=new JSONObject(args);Object answer;
                 switch(method){
-                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",new JSONObject(cached("movies.json","movies.json")).getJSONArray("metas")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("update",updates.state()).put("preferences",playbackPreferences());break;
+                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",new JSONObject(cached("movies.json","movies.json")).getJSONArray("metas")).put("series",new JSONObject(cached("series.json","series.json")).getJSONArray("metas")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("update",updates.state()).put("preferences",playbackPreferences());break;
                     case "preferences": answer=playbackPreferences();break;
                     case "preferences-set": {
                         SharedPreferences.Editor editor=getSharedPreferences("playback",MODE_PRIVATE).edit();
@@ -107,14 +107,17 @@ public class MainActivity extends Activity {
                         getSharedPreferences("playback",MODE_PRIVATE).edit().putInt("torrentBufferMb",mb).apply();answer=mb;break;
                     }
                     case "catalog": {
-                        String query=a.optString("query").trim(),extra=query.isEmpty()?"":"/search="+Sources.encode(query);
-                        String data=Sources.text(Sources.CINEMA+"/catalog/movie/top"+extra+".json");
-                        answer=new JSONObject(data).getJSONArray("metas");if(query.isEmpty())cache("movies.json",data);break;
+                        String query=a.optString("query").trim(),extra=query.isEmpty()?("series".equals(a.optString("type"))?"/skip=0":""):"/search="+Sources.encode(query);
+                        String type="series".equals(a.optString("type"))?"series":"movie";
+                        String data=Sources.text(Sources.CINEMA+"/catalog/"+type+"/top"+extra+".json");
+                        answer=new JSONObject(data).getJSONArray("metas");if(query.isEmpty())cache(type.equals("series")?"series.json":"movies.json",data);break;
                     }
                     case "detail": {
                         String imdb=a.getString("id");if(!imdb.matches("tt\\d+"))throw new IOException("Некорректный фильм");
                         answer=new JSONObject(Sources.text(Sources.CINEMA+"/meta/movie/"+imdb+".json")).getJSONObject("meta");break;
                     }
+                    case "series-detail": answer=SeriesCatalog.detail(new File(getCacheDir(),"series"),a.getString("id"),a.optBoolean("refresh"));break;
+                    case "series-torrents": answer=SeriesCatalog.torrents(a.getString("name"),a.getString("id"),a.getInt("season"),a.getInt("episode"));break;
                     case "torrents": answer=Sources.torrents(a.optString("name"),a.optString("id"),a.optString("year"));break;
                     case "channels": {
                         String data=Sources.text(Sources.IPTV);JSONArray channels=Sources.parseM3u(data);if(channels.length()==0)throw new IOException("Список каналов пуст");cache("channels.m3u",data);liveChannels=channels;customPlaylist=false;getSharedPreferences("iptv",MODE_PRIVATE).edit().putBoolean("custom",false).apply();refreshChannelBackups();answer=channels;break;
@@ -191,7 +194,8 @@ public class MainActivity extends Activity {
                         pendingFiles=choices;event("files",choices);
                         int savedIndex=item.optInt("fileIndex",-1);boolean foundSaved=false;
                         for(int i=0;i<choices.length();i++)if(choices.optJSONObject(i).optInt("index")==savedIndex)foundSaved=true;
-                        if(foundSaved)selectFile(engine,savedIndex,generation);
+                        if(item.optJSONObject("seriesEpisode")!=null){selectingFile=true;event("choose-files",choices);}
+                        else if(foundSaved)selectFile(engine,savedIndex,generation);
                         else if(choices.length()==1)selectFile(engine,choices.optJSONObject(0).optInt("index"),generation);
                         else {
                             selectingFile=true;event("choose-files",choices);
@@ -239,7 +243,7 @@ public class MainActivity extends Activity {
     private void commandPlayer(String cmd){
         if(cmd.equals("stop")){stopPlayback(true);return;}
         if(cmd.startsWith("sleep:")){try{int minutes=Integer.parseInt(cmd.substring(6));if(now==null)return;sleepTimer.set(minutes,SystemClock.elapsedRealtime());publishSleep();}catch(IllegalArgumentException ignored){}return;}
-        if(cmd.startsWith("file:")&&selectingFile&&torrent!=null){try{int index=Integer.parseInt(cmd.substring(5));boolean valid=false;for(int i=0;i<pendingFiles.length();i++)if(pendingFiles.optJSONObject(i).optInt("index")==index)valid=true;if(valid){selectingFile=false;selectFile(torrent,index,playbackGeneration);}}catch(NumberFormatException ignored){}return;}
+        if(cmd.startsWith("file:")&&selectingFile&&torrent!=null){try{String[] parts=cmd.split(":");if(parts.length<2||parts.length>3)return;int index=Integer.parseInt(parts[1]);long position=parts.length>2?Math.max(0,Long.parseLong(parts[2])):resumePosition;boolean valid=false;for(int i=0;i<pendingFiles.length();i++)if(pendingFiles.optJSONObject(i).optInt("index")==index)valid=true;if(valid){resumePosition=position;selectingFile=false;selectFile(torrent,index,playbackGeneration);}}catch(NumberFormatException ignored){}return;}
         if(player==null)return;
         switch(cmd){
             case "pause":if(player.isPlaying())player.pause();else player.play();break;

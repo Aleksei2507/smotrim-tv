@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Смотрим — проверка UX без воспроизведения</title>
+<link rel="stylesheet" href="ui/styles.css"><link rel="stylesheet" href="ui/app.css"></head>
+<body><div id="stage-wrap"><main id="tv" aria-label="Смотрим — тест UI"></main></div>
+<div style="position:fixed;top:0;left:30%;z-index:100;background:#802;color:white;font-size:12px">
+ТЕСТ: видео и обновления не запускаются
+<button id="finish">Конец серии</button><button id="channel-up">CH+</button><button id="channel-back">Предыдущий канал</button><span id="test-log"></span><button data-fixture="results">Результаты</button><button data-fixture="empty">Нет результатов</button><button data-fixture="error">Ошибка поиска</button><button id="simulate-error">Ошибка видео</button>
+</div>
+<script src="series-fixture.js"></script><script src="ui/features.js"></script><script src="ui/app.js"></script></body></html>
