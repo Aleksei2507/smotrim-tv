@@ -4,7 +4,8 @@ package ru.smotrim.tv;
 final class TorrentBufferPolicy {
     static final long MIB = 1024L * 1024;
     static final int DEFAULT_MB = 96;
-    private static final int[] OPTIONS = {96, 128, 256, 512};
+    static final int MIN_MB = 64;
+    private static final int[] OPTIONS = {64, 96, 128, 256, 512};
 
     static boolean supported(int mb) {
         for (int option : OPTIONS) if (mb == option) return true;
@@ -15,19 +16,21 @@ final class TorrentBufferPolicy {
 
     // The Go soft limit must grow with the cache, leaving room for the engine itself.
     static long runtimeLimitMiB(long cacheBytes) {
-        return Math.max(256, (cacheBytes + MIB - 1) / MIB + 160);
+        return Math.max(224, (cacheBytes + MIB - 1) / MIB + 160);
     }
 
     static int effective(int requested, long total, long available, long threshold, boolean lowMemory) {
         requested = requested(requested);
-        if (lowMemory || total <= 0 || available <= 0) return DEFAULT_MB;
-        long reserve = Math.max(192 * MIB, threshold);
+        if (lowMemory || total <= 0 || available <= 0) return MIN_MB;
+        // Decoder, Media3, WebView and Android all need headroom beyond the torrent cache.
+        long reserve = Math.max(384 * MIB, Math.max(0, threshold) + 256 * MIB);
         for (int i = OPTIONS.length - 1; i >= 0; i--) {
             int mb = OPTIONS[i];
             if (mb > requested) continue;
             long cache = mb * MIB;
-            if (cache <= total / 3 && runtimeLimitMiB(cache) * MIB <= available - reserve) return mb;
+            long engineBudget = runtimeLimitMiB(cache) * MIB;
+            if (engineBudget <= total / 4 && engineBudget <= available - reserve) return mb;
         }
-        return DEFAULT_MB;
+        return MIN_MB;
     }
 }

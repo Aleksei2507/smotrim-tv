@@ -5,7 +5,7 @@ const fixtureChannels=[
  {id:'Friday.ru',name:'Пятница! (1080p)',group:'Entertainment',url:'https://example.test/friday.m3u8',logo:''},
  {id:'NTV.ru',name:'НТВ (1080p)',group:'General',url:'https://example.test/ntv.m3u8',logo:''}
 ];
-let fixtureMode='results',fixtureUpdate={status:'current',installedVersion:'0.4.0',autoCheck:true,repository:'Aleksei2507/smotrim-tv'};
+let fixtureMode='results',fixtureUpdate={status:'current',installedVersion:'0.4.1',autoCheck:true,repository:'Aleksei2507/smotrim-tv'};
 document.querySelectorAll('[data-fixture]').forEach(b=>b.addEventListener('click',()=>{fixtureMode=b.dataset.fixture;}));
 window.Native={
  async request(id,method,json){
@@ -16,6 +16,7 @@ window.Native={
   else if(method==='detail')result=data.metas.find(m=>m.id===args.id);
   else if(method==='preferences-set')result=args;
   else if(method==='epg')result={channels:Object.fromEntries(fixtureChannels.map(c=>[c.url,{current:{title:'Сейчас: передача',start:Date.now()-600000,end:Date.now()+1200000},next:{title:'Следующая передача',start:Date.now()+1200000,end:Date.now()+3600000},programs:[]}]))};
+  else if(method==='memory-info')result={totalMb:2048,availableMb:420,playerTargetMb:24,lowMemory:false,exitTime:Date.now(),exitReason:'Android завершил приложение из-за нехватки оперативной памяти'};
   else if(method==='storage')result=0;
   else if(method==='buffer-set')result=args.mb;
   else if(method==='update-state'||method==='update-check')result=fixtureUpdate;
@@ -45,3 +46,4 @@ function fixturePlayback(){window.nativeEvent('playback',{playing:false,loading:
 document.getElementById('finish').onclick=()=>window.nativeEvent('finished',{sleep:false});
 document.getElementById('channel-up').onclick=()=>window.tvKey('ChannelUp');
 document.getElementById('channel-back').onclick=()=>window.tvKey('LastChannel');
+document.getElementById('simulate-stall').onclick=()=>window.nativeEvent('playback',{playing:false,playWhenReady:true,preparing:false,loading:true,position:fixturePosition,duration:1800000,buffered:fixturePosition,peers:1,rate:314573,cached:134217728,cacheLimit:134217728});

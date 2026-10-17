@@ -20,9 +20,11 @@ function rankedSources(items,prefs){const resolution=s=>/2160|4k/i.test(s.qualit
  const language=s=>(prefs.language==='ru'?/(?:rus|рус|дубл|dvo|mvo|avo|dub)/i:prefs.language==='en'?/(?:eng|англ|original)/i:prefs.language==='uk'?/(?:ukr|укр)/i:/$a/).test(s.title);
  return items.map((s,i)=>({s,i})).sort((a,b)=>Number(a.s.seeds===0)-Number(b.s.seeds===0)||(prefs.quality!=='auto'?Number(resolution(b.s)===+prefs.quality)-Number(resolution(a.s)===+prefs.quality):0)||(Number(language(b.s))-Number(language(a.s)))||(b.s.seeds||0)-(a.s.seeds||0)||a.i-b.i).map(x=>x.s);
 }
-function diagnosis(p,live=false){const seconds=Math.max(0,((p.buffered||0)-(p.position||0))/1000);if(live)return p.loading?'Эфир загружается. Если ожидание затянулось, попробуйте переподключиться.':'Эфир воспроизводится.';
+function bufferAhead(p){return Math.max(0,Math.floor(((p.buffered||0)-(p.position||0))/1000));}
+function bufferingLabel(p,fallback){if(p.playWhenReady===false)return 'Видео на паузе';return p.preparing===false?'Подгружаем следующий фрагмент…':fallback||'Подключаемся к раздающим…';}
+function diagnosis(p,live=false){const seconds=bufferAhead(p);if(p.playWhenReady===false)return 'Видео на паузе.'+(live?'':` Запас: ${seconds} сек. Загрузка фрагментов может продолжаться.`);if(live)return p.loading?'Эфир загружается. Если ожидание затянулось, попробуйте переподключиться.':'Эфир воспроизводится.';
  if(p.loading&&!p.rate&&!p.peers)return 'Нет активной загрузки. Ждём раздающих; если ожидание затянулось, выберите другой вариант.';
- if(p.loading)return `Видео подгружается. Запас: ${Math.floor(seconds)} сек. Если паузы повторяются, выберите вариант меньшего размера.`;
+ if(p.loading)return `Видео подгружается. Запас: ${seconds} сек. ${p.cacheLimit&&p.cached>=p.cacheLimit*.98?'Заполненный кэш не означает, что следующий фрагмент готов к просмотру. ':''}Если ожидание повторяется, выберите другую раздачу или вариант меньшего размера.`;
  return `Запас видео: ${Math.floor(seconds)} сек. ${p.playing?'Воспроизведение идёт.':'Видео на паузе.'}`;
 }
 const channelKey=c=>c.id||c.url;
@@ -46,6 +48,6 @@ function sourceScope(text,target){
 function episodeSources(items,target,prefs){return rankedSources(items,prefs).map(s=>({...s,episodeScope:sourceScope(s.title,target)})).filter(s=>s.episodeScope!==3).sort((a,b)=>Number(a.seeds===0)-Number(b.seeds===0)||a.episodeScope-b.episodeScope);}
 function readability(value){return {size:['normal','large','largest'].includes(value?.size)?value.size:'normal',contrast:value?.contrast===true,motion:value?.motion===true};}
 
-const api={catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
+const api={bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
 if(typeof module!=='undefined')module.exports=api;else root.TVFeatures=api;
 })(typeof window!=='undefined'?window:globalThis);

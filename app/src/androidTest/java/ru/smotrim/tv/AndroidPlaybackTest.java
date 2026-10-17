@@ -16,6 +16,7 @@ import static org.junit.Assert.*;
 public class AndroidPlaybackTest {
     @Test(timeout=120000) public void verifiedPiecesCanBeReadAcrossBoundariesAndAfterSeeking()throws Exception{checkPlayback(TorrentEngine.CACHE_BYTES);}
     @Test(timeout=120000) public void largerBufferSupportsPlaybackAndSeeking()throws Exception{checkPlayback(256L*1024*1024);}
+    @Test(timeout=120000) public void smallBufferSupportsPlaybackAndSeeking()throws Exception{checkPlayback(64L*1024*1024);}
     private void checkPlayback(long cacheBytes)throws Exception{
         ByteArrayOutputStream clip=new ByteArrayOutputStream();try(InputStream input=androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().getContext().getAssets().open("playback.mp4")){byte[] buffer=new byte[16384];int count;while((count=input.read(buffer))!=-1)clip.write(buffer,0,count);}byte[] video=clip.toByteArray();
         System.setProperty("smotrim.torrserver.log",new File(androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().getTargetContext().getCacheDir(),"torrserver-test.log").getAbsolutePath());
@@ -34,7 +35,7 @@ public class AndroidPlaybackTest {
             android.app.Instrumentation instrumentation=androidx.test.platform.app.InstrumentationRegistry.getInstrumentation();
             instrumentation.runOnMainSync(()->{
                 reader.setOnImageAvailableListener(r->{android.media.Image image=r.acquireLatestImage();if(image!=null){frames.incrementAndGet();image.close();}},new android.os.Handler(android.os.Looper.getMainLooper()));
-                player[0]=new androidx.media3.exoplayer.ExoPlayer.Builder(instrumentation.getTargetContext()).build();
+                player[0]=new androidx.media3.exoplayer.ExoPlayer.Builder(instrumentation.getTargetContext()).setLoadControl(PlaybackLoadControl.create()).build();
                 player[0].setVideoSurface(reader.getSurface());player[0].setVolume(0);
                 player[0].addListener(new androidx.media3.common.Player.Listener(){@Override public void onPlayerError(androidx.media3.common.PlaybackException e){error.set(e.getErrorCodeName());}});
                 player[0].setMediaSource(new androidx.media3.exoplayer.source.ProgressiveMediaSource.Factory(()->new TorrentDataSource(engine)).createMediaSource(androidx.media3.common.MediaItem.fromUri(android.net.Uri.fromFile(engine.file()))));player[0].seekTo(10000);player[0].prepare();player[0].play();

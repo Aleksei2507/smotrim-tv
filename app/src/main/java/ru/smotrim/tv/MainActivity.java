@@ -24,7 +24,8 @@ import java.util.concurrent.*;
 @androidx.annotation.OptIn(markerClass = androidx.media3.common.util.UnstableApi.class)
 public class MainActivity extends Activity {
     private static final String LOCAL="https://appassets.androidplatform.net/assets/ui/index.html";
-    private WebView web;private PlayerView video;private ExoPlayer player;
+    private WebView web;private PlayerView video;private ExoPlayer player;private FrameLayout root;
+    private volatile int webGeneration;private AlertDialog recoveryDialog;
     private final Handler ui=new Handler(Looper.getMainLooper());
     private final ExecutorService network=Executors.newFixedThreadPool(4),torrentWork=Executors.newSingleThreadExecutor(),cleanup=Executors.newSingleThreadExecutor();
     private volatile TorrentEngine torrent;
@@ -41,23 +42,37 @@ public class MainActivity extends Activity {
             public void changed(JSONObject state){event("update",state);}
             public void ready(){ui.post(()->{if(!destroyed&&resumed&&now==null)installUpdate();});}
         });
-        FrameLayout root=new FrameLayout(this);root.setBackgroundColor(Color.rgb(17,21,27));
+        root=new FrameLayout(this);root.setBackgroundColor(Color.rgb(17,21,27));
         video=new PlayerView(this);video.setUseController(false);video.setKeepContentOnPlayerReset(false);root.addView(video,new FrameLayout.LayoutParams(-1,-1));
-        web=new WebView(this);web.setBackgroundColor(Color.TRANSPARENT);root.addView(web,new FrameLayout.LayoutParams(-1,-1));setContentView(root);
+        setContentView(root);attachWebView();
+        File old=new File(getFilesDir(),"torrents");torrentWork.execute(()->TorrentEngine.deleteTree(old));
+        ui.postDelayed(ticker,1000);
+    }
+    private void attachWebView(){
+        if(destroyed)return;webGeneration++;
+        web=new WebView(this);web.setBackgroundColor(Color.TRANSPARENT);root.addView(web,new FrameLayout.LayoutParams(-1,-1));
         WebSettings s=web.getSettings();s.setJavaScriptEnabled(true);s.setDomStorageEnabled(true);s.setAllowFileAccess(false);s.setAllowContentAccess(false);s.setMediaPlaybackRequiresUserGesture(true);s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);s.setSupportZoom(false);
         WebViewAssetLoader loader=new WebViewAssetLoader.Builder().addPathHandler("/assets/",new WebViewAssetLoader.AssetsPathHandler(this)).build();
         web.setWebViewClient(new WebViewClient(){
             @Override public WebResourceResponse shouldInterceptRequest(WebView view,WebResourceRequest request){return loader.shouldInterceptRequest(request.getUrl());}
             @Override public boolean shouldOverrideUrlLoading(WebView view,WebResourceRequest request){return !request.getUrl().toString().equals(LOCAL);}
+            @Override public boolean onRenderProcessGone(WebView view,RenderProcessGoneDetail detail){return recoverRenderer(view,detail.didCrash());}
         });
         web.addJavascriptInterface(new Bridge(),"Native");
         if((getApplicationInfo().flags&android.content.pm.ApplicationInfo.FLAG_DEBUGGABLE)!=0)WebView.setWebContentsDebuggingEnabled(true);
         web.loadUrl(LOCAL);web.requestFocus();
-        File old=new File(getFilesDir(),"torrents");torrentWork.execute(()->TorrentEngine.deleteTree(old));
-        ui.postDelayed(ticker,1000);
+    }
+    private boolean recoverRenderer(WebView failed,boolean crashed){
+        boolean current=failed==web;
+        if(current){web=null;webGeneration++;stopPlayback(false);PlaybackHealth.rendererGone(this,crashed);}
+        root.removeView(failed);failed.destroy();
+        if(current&&!destroyed){recoveryDialog=new AlertDialog.Builder(this).setTitle("Восстановим интерфейс")
+            .setMessage(crashed?"Произошёл сбой интерфейса. Просмотр остановлен. Вернитесь в приложение и продолжите видео из истории.":"Android остановил интерфейс. Возможно, не хватило оперативной памяти. Просмотр остановлен, последний сохранённый прогресс доступен в истории.")
+            .setCancelable(false).setPositiveButton("Вернуться",(dialog,which)->{recoveryDialog=null;attachWebView();}).create();recoveryDialog.show();}
+        return true;
     }
     private void fullscreen(){getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN|View.SYSTEM_UI_FLAG_HIDE_NAVIGATION|View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY|View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN|View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION|View.SYSTEM_UI_FLAG_LAYOUT_STABLE);}
-    private void js(String script){if(!destroyed)ui.post(()->{if(!destroyed)web.evaluateJavascript(script,null);});}
+    private void js(String script){WebView target=web;if(!destroyed&&target!=null)ui.post(()->{if(!destroyed&&web==target)target.evaluateJavascript(script,null);});}
     private static String jsonValue(Object value){if(value==null)return "null";if(value instanceof String)return JSONObject.quote((String)value);return value.toString();}
     private void event(String type,Object value){js("window.nativeEvent&&window.nativeEvent("+JSONObject.quote(type)+","+jsonValue(value)+")");}
     private void reply(int id,Object value,String error){js("window.nativeReply&&window.nativeReply("+id+","+(value==null?"null":jsonValue(value))+","+(error==null?"null":JSONObject.quote(error))+")");}
@@ -85,12 +100,16 @@ public class MainActivity extends Activity {
         }catch(Exception ignored){}});
     }
     public final class Bridge {
+        private final int generation=webGeneration;
+        private void post(Runnable action){ui.post(()->{if(generation==webGeneration&&!destroyed)action.run();});}
         @JavascriptInterface public void request(int id,String method,String args){network.execute(()->{
+            if(generation!=webGeneration||destroyed)return;
             try {
                 JSONObject a=new JSONObject(args);Object answer;
                 switch(method){
                     case "bootstrap": loadChannels();answer=new JSONObject().put("movies",new JSONObject(cached("movies.json","movies.json")).getJSONArray("metas")).put("series",new JSONObject(cached("series.json","series.json")).getJSONArray("metas")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("update",updates.state()).put("preferences",playbackPreferences());break;
                     case "preferences": answer=playbackPreferences();break;
+                    case "memory-info": answer=PlaybackHealth.snapshot(MainActivity.this);break;
                     case "preferences-set": {
                         SharedPreferences.Editor editor=getSharedPreferences("playback",MODE_PRIVATE).edit();
                         String quality=a.optString("quality","auto"),language=a.optString("language","ru");
@@ -125,17 +144,17 @@ public class MainActivity extends Activity {
                     case "storage": answer=getFilesDir().getUsableSpace();break;
                     default:throw new IOException("Неизвестный запрос");
                 }
-                reply(id,answer,null);
-            }catch(Exception e){reply(id,null,message(e));}
+                post(()->reply(id,answer,null));
+            }catch(Exception e){post(()->reply(id,null,message(e)));}
         });}
-        @JavascriptInterface public void play(String json){ui.post(()->{try{startPlayback(new JSONObject(json));}catch(Exception e){event("error",message(e));}});}
-        @JavascriptInterface public void trailer(String videoId){ui.post(()->{if(!TrailerLauncher.open(MainActivity.this,videoId))event("toast","Не удалось открыть трейлер. Установите или включите YouTube на телевизоре.");});}
-        @JavascriptInterface public void command(String cmd){ui.post(()->commandPlayer(cmd));}
-        @JavascriptInterface public void input(String kind){ui.post(()->showInput(kind,kind.equals("epg")?getSharedPreferences("iptv",MODE_PRIVATE).getString("epg",ProgrammeGuide.DEFAULT_URL):""));}
-        @JavascriptInterface public void inputSearch(String kind,String value){if(kind.equals("search")||kind.equals("search-channel"))ui.post(()->showInput(kind,value));}
-        @JavascriptInterface public void voiceSearch(String kind){if("search".equals(kind)||"search-channel".equals(kind))ui.post(()->startVoiceSearch("search-channel".equals(kind)));}
-        @JavascriptInterface public void installUpdate(){ui.post(MainActivity.this::installUpdate);}
-        @JavascriptInterface public void exit(){ui.post(()->new AlertDialog.Builder(MainActivity.this).setTitle("Выйти из Смотрим?").setNegativeButton("Остаться",null).setPositiveButton("Выйти",(d,w)->finish()).show());}
+        @JavascriptInterface public void play(String json){post(()->{try{startPlayback(new JSONObject(json));}catch(Exception e){event("error",message(e));}});}
+        @JavascriptInterface public void trailer(String videoId){post(()->{if(!TrailerLauncher.open(MainActivity.this,videoId))event("toast","Не удалось открыть трейлер. Установите или включите YouTube на телевизоре.");});}
+        @JavascriptInterface public void command(String cmd){post(()->commandPlayer(cmd));}
+        @JavascriptInterface public void input(String kind){post(()->showInput(kind,kind.equals("epg")?getSharedPreferences("iptv",MODE_PRIVATE).getString("epg",ProgrammeGuide.DEFAULT_URL):""));}
+        @JavascriptInterface public void inputSearch(String kind,String value){if(kind.equals("search")||kind.equals("search-channel"))post(()->showInput(kind,value));}
+        @JavascriptInterface public void voiceSearch(String kind){if("search".equals(kind)||"search-channel".equals(kind))post(()->startVoiceSearch("search-channel".equals(kind)));}
+        @JavascriptInterface public void installUpdate(){post(MainActivity.this::installUpdate);}
+        @JavascriptInterface public void exit(){post(()->new AlertDialog.Builder(MainActivity.this).setTitle("Выйти из Смотрим?").setNegativeButton("Остаться",null).setPositiveButton("Выйти",(d,w)->finish()).show());}
     }
     private static String readStream(InputStream in)throws IOException{ByteArrayOutputStream out=new ByteArrayOutputStream();byte[] b=new byte[8192];int n;while((n=in.read(b))!=-1)out.write(b,0,n);return out.toString("UTF-8");}
     private static JSONObject inputResult(String kind,String value){JSONObject o=new JSONObject();try{o.put("kind",kind).put("value",value);}catch(JSONException ignored){}return o;}
@@ -178,13 +197,13 @@ public class MainActivity extends Activity {
             }catch(Exception e){ui.post(()->{installPreparing=false;event("update",updates.state());event("toast",message(e));});}
         });
     }
-    private int availableBufferMb(int requested){ActivityManager manager=(ActivityManager)getSystemService(ACTIVITY_SERVICE);if(manager==null)return TorrentBufferPolicy.DEFAULT_MB;ActivityManager.MemoryInfo memory=new ActivityManager.MemoryInfo();manager.getMemoryInfo(memory);return TorrentBufferPolicy.effective(requested,memory.totalMem,memory.availMem,memory.threshold,memory.lowMemory);}
+    private int availableBufferMb(int requested){ActivityManager manager=(ActivityManager)getSystemService(ACTIVITY_SERVICE);if(manager==null)return TorrentBufferPolicy.MIN_MB;ActivityManager.MemoryInfo memory=new ActivityManager.MemoryInfo();manager.getMemoryInfo(memory);return TorrentBufferPolicy.effective(requested,memory.totalMem,memory.availMem,memory.threshold,memory.lowMemory);}
     private void startPlayback(JSONObject item)throws Exception {
         stopPlayback(false,false);now=item;resumePosition=Math.max(0,item.optLong("position"));final int generation=playbackGeneration;
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         if("torrent".equals(item.optString("kind"))){
             int requested=selectedBufferMb(),bufferMb=availableBufferMb(requested);
-            if(bufferMb<requested)event("toast","Буфер уменьшен до "+bufferMb+" МБ: сейчас недостаточно свободной оперативной памяти для "+requested+" МБ.");
+            if(bufferMb<requested)event("toast","Используем буфер "+bufferMb+" МБ вместо "+requested+" МБ, чтобы оставить оперативную память плееру и Android.");
             TorrentEngine engine=new TorrentEngine(new File(getApplicationInfo().nativeLibraryDir,"libtorrserver.so"),new File(getFilesDir(),"torrents/"+UUID.randomUUID()),bufferMb*TorrentBufferPolicy.MIB);torrent=engine;
             event("loading","Подключаемся к раздающим…");
             torrentWork.execute(()->{
@@ -227,7 +246,7 @@ public class MainActivity extends Activity {
     }
     private void playbackError(int generation,Throwable error){ui.post(()->{if(generation!=playbackGeneration)return;String msg=message(error);stopPlayback(false);event("error",msg);});}
     private void createPlayer(MediaSource source){
-        player=new ExoPlayer.Builder(this).setSeekBackIncrementMs(10000).setSeekForwardIncrementMs(10000).build();
+        player=new ExoPlayer.Builder(this).setLoadControl(PlaybackLoadControl.create()).setSeekBackIncrementMs(10000).setSeekForwardIncrementMs(10000).build();
         player.setAudioAttributes(new AudioAttributes.Builder().setUsage(C.USAGE_MEDIA).setContentType(C.AUDIO_CONTENT_TYPE_MOVIE).build(),true);
         player.setTrackSelectionParameters(PlaybackTracks.apply(this,player.getTrackSelectionParameters()));
         video.setPlayer(player);final ExoPlayer created=player;final int generation=playbackGeneration;final boolean live=source==null;
@@ -246,7 +265,7 @@ public class MainActivity extends Activity {
         if(cmd.startsWith("file:")&&selectingFile&&torrent!=null){try{String[] parts=cmd.split(":");if(parts.length<2||parts.length>3)return;int index=Integer.parseInt(parts[1]);long position=parts.length>2?Math.max(0,Long.parseLong(parts[2])):resumePosition;boolean valid=false;for(int i=0;i<pendingFiles.length();i++)if(pendingFiles.optJSONObject(i).optInt("index")==index)valid=true;if(valid){resumePosition=position;selectingFile=false;selectFile(torrent,index,playbackGeneration);}}catch(NumberFormatException ignored){}return;}
         if(player==null)return;
         switch(cmd){
-            case "pause":if(player.isPlaying())player.pause();else player.play();break;
+            case "pause":if(player.getPlayWhenReady())player.pause();else player.play();break;
             case "back":player.seekBack();break;
             case "forward":player.seekForward();break;
             case "audio":chooseTrack(C.TRACK_TYPE_AUDIO);break;
@@ -294,6 +313,7 @@ public class MainActivity extends Activity {
         if(now!=null){try{
             JSONObject status=torrent==null?new JSONObject():torrent.status();
             status.put("playing",player!=null&&player.isPlaying()).put("loading",player==null||player.getPlaybackState()==Player.STATE_BUFFERING);
+            status.put("preparing",player==null).put("playWhenReady",player==null||player.getPlayWhenReady());
             if(player!=null)status.put("position",player.getCurrentPosition()).put("duration",Math.max(0,player.getDuration())).put("buffered",player.getBufferedPosition());
             status.put("sleepRemaining",sleepTimer.remaining(SystemClock.elapsedRealtime())).put("sleepEpisode",sleepTimer.afterEpisode());
             event("playback",status);
@@ -328,5 +348,5 @@ public class MainActivity extends Activity {
     @Override protected void onPause(){resumed=false;super.onPause();}
     @Override protected void onStop(){super.onStop();if(now!=null)stopPlayback(true);}
     @Override protected void onResume(){super.onResume();resumed=true;fullscreen();if(awaitingUpdatePermission){awaitingUpdatePermission=false;if(getPackageManager().canRequestPackageInstalls())ui.post(this::installUpdate);else event("toast","Разрешение не выдано. APK сохранён: установку можно повторить из раздела «Обновления»");}}
-    @Override protected void onDestroy(){stopPlayback(false);destroyed=true;if(updates!=null)updates.close();ui.removeCallbacks(ticker);web.removeJavascriptInterface("Native");web.destroy();network.shutdownNow();torrentWork.shutdownNow();cleanup.shutdown();super.onDestroy();}
+    @Override protected void onDestroy(){stopPlayback(false);destroyed=true;webGeneration++;if(recoveryDialog!=null){recoveryDialog.dismiss();recoveryDialog=null;}if(updates!=null)updates.close();ui.removeCallbacks(ticker);if(web!=null){web.removeJavascriptInterface("Native");web.destroy();web=null;}network.shutdownNow();torrentWork.shutdownNow();cleanup.shutdown();super.onDestroy();}
 }

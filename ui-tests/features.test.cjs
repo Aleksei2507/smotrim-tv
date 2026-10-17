@@ -27,3 +27,16 @@ test('diagnostics distinguishes cache and playable reserve',()=>{
  assert.match(f.diagnosis({loading:true,rate:0,peers:0}),/Нет активной загрузки/);
  assert.match(f.diagnosis({loading:true,rate:10,peers:2}),/Видео подгружается/);
 });
+test('full torrent cache does not inflate playable reserve',()=>{
+ const p={loading:true,preparing:false,playWhenReady:true,position:42000,buffered:42000,cached:134217728,cacheLimit:134217728,peers:1,rate:314573};
+ assert.equal(f.bufferAhead(p),0);assert.match(f.diagnosis(p),/Запас: 0 сек/);assert.match(f.diagnosis(p),/Заполненный кэш не означает/);
+ assert.equal(f.bufferingLabel(p,'Подключаемся к раздающим…'),'Подгружаем следующий фрагмент…');
+});
+test('user pause differs from automatic buffering',()=>{
+ const p={playWhenReady:false,playing:false,loading:true,preparing:false,position:5000,buffered:25000};
+ assert.equal(f.bufferingLabel(p,''),'Видео на паузе');assert.match(f.diagnosis(p),/^Видео на паузе\. Запас: 20 сек/);
+});
+test('initial connection and seek with stale buffered position are handled',()=>{
+ assert.equal(f.bufferingLabel({preparing:true},'Открываем видео…'),'Открываем видео…');
+ assert.equal(f.bufferAhead({position:90000,buffered:50000}),0);
+});
