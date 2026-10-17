@@ -47,3 +47,36 @@ html.playing{background:transparent}
 .query-slot{display:inline-block;position:relative;width:5px;height:1.1em;vertical-align:-.18em}
 .query-slot .query-caret{position:absolute;inset:0 1px;width:3px;height:100%;margin:0;vertical-align:baseline}
 .query-letter{display:inline}
+
+/* Playback tools share a bounded, remote-friendly modal. */
+.tools-sheet,.episode-sheet,.order-sheet,.guide-sheet{width:1120px;max-height:900px;padding:36px 44px;display:flex;flex-direction:column;gap:16px}
+.tools-sheet h2,.episode-sheet h2,.order-sheet h2,.guide-sheet h2{font-size:36px;margin:0}
+.tools-sheet h3{font-size:25px;margin:8px 0 0}
+.tools-sheet p,.episode-sheet p,.order-sheet p,.guide-sheet p{font-size:24px;line-height:1.4;margin:0}
+.tool-list{display:flex;flex-direction:column;gap:12px;overflow-y:auto;padding:8px;min-height:0}
+.tool-list .button{height:68px;min-height:68px;margin:0;text-align:left}
+.tool-list small{margin-left:auto;font-size:22px;opacity:.7}
+.tools-sheet .chips,.episode-seasons{flex-wrap:wrap;gap:12px;margin:8px 0}
+.tools-sheet .chip,.episode-seasons .chip{font-size:23px;padding:12px 18px}
+.episode-list,.order-list,.guide-programs{overflow-y:auto;min-height:0;max-height:485px;padding:10px;scrollbar-width:thin;scrollbar-color:#596471 transparent}
+.episode-row,.order-row,.history-row{width:100%;margin:0 0 14px!important;min-height:88px;height:auto!important;padding:16px 22px!important;gap:22px;text-align:left}
+.episode-row>span:first-child,.history-row>span:first-child{min-width:0;flex:1}
+.episode-row strong,.history-row strong{display:block;font-size:26px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.episode-row small,.history-row small{display:block;color:var(--muted);font-size:21px;margin-top:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.episode-row>span:last-child,.history-row>span:last-child{flex-shrink:0;font-size:22px}
+.episode-sheet>.button,.guide-sheet .button,.order-sheet .button{height:68px;margin:0}
+.order-row strong{flex:1;min-width:0;font-size:25px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.order-number{color:var(--muted);width:48px;flex-shrink:0}.order-row.moving{outline:4px dashed var(--focus);background:#47533a}
+.order-sheet .actions{gap:16px}.order-sheet .actions .button{width:auto;flex:1;font-size:24px}
+.order-sheet #order-help{min-height:68px}.order-row>span:last-child{font-size:22px;white-space:nowrap}
+.history-list{max-height:690px;overflow-y:auto;padding:10px}.history-episode{display:block;font-size:19px!important;margin-top:5px;color:#c8d5de}
+.home-bottom .section-title .button{height:48px;font-size:21px;padding:0 20px}.home-bottom .section-title{align-items:center}
+.player-controls{gap:14px}.player-controls .button{font-size:23px;padding:0 18px}.player-controls .right{gap:10px}
+.seek-preview{position:absolute;left:430px;right:100px;bottom:300px;background:#182837f5;padding:26px;border-radius:16px;text-align:center;font-size:28px;z-index:6;border:2px solid var(--focus)}
+.diagnostic-grid{display:grid;grid-template-columns:1fr auto;gap:20px;font-size:26px;margin:22px 0}.diagnostic-grid dd{margin:0;color:var(--focus)}
+.now-next{display:flex;flex-direction:column;gap:10px;margin:18px 0;min-height:90px}.now-next strong{font-size:25px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.now-next small{font-size:20px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tv-preview .preview{height:200px}.tv-preview h2{font-size:32px;margin:16px 0}.tv-preview .guide-actions{margin-top:16px}.guide-actions .button{height:60px}
+.programme{display:flex;gap:24px;padding:18px 0;border-bottom:1px solid #ffffff20;font-size:24px}.programme span{flex-shrink:0;color:var(--muted);min-width:150px}.programme strong{font-weight:500}
+.tv-layout .guide-list{height:586px}.page-bar>.button{height:60px;font-size:23px;padding:0 20px}.page-bar .chip{font-size:22px;padding:12px 18px}
+
+.episode-row.focused small,.history-row.focused small,.order-row.focused .order-number{color:inherit;opacity:.8}

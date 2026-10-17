@@ -20,3 +20,7 @@
 ## Исходники TorrServer
 
 Используются немодифицированные Android arm64 / arm7 сборки из [официального релиза MatriX.147](https://github.com/YouROK/TorrServer/releases/tag/MatriX.147). Соответствующий полный архив исходников и сборочных файлов приложен отдельно как `TorrServer-MatriX.147-source.tar.gz`. Точная копия доступна [у автора](https://github.com/YouROK/TorrServer/archive/refs/tags/MatriX.147.tar.gz). Происхождение и SHA-256 бинарников записаны в `third-party/TorrServer.json`. Сервер запускается только на время просмотра, слушает loopback и использует случайный пароль для каждого запуска.
+
+## Programme guide
+
+The optional default XMLTV programme guide is provided by https://epg.pw/xmltv.html. Programme availability and accuracy depend on the provider. Users may supply another XMLTV URL. Only a bounded local cache of near-term schedule data is retained.

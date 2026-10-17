@@ -80,7 +80,7 @@ public final class TorrentEngine implements AutoCloseable {
         if(files==null||files.length()==0)throw new IOException("Раздающие не ответили. Попробуйте раздачу с большим числом сидов.");
         JSONArray choices=new JSONArray();
         for(int i=0;i<files.length();i++){JSONObject f=files.getJSONObject(i);String path=f.getString("path");Sources.safeFile(root,path);
-            if(Sources.videoFile(path)&&f.optLong("length")>0)choices.put(new JSONObject().put("index",f.getInt("id")).put("name",new File(path).getName()).put("bytes",f.getLong("length")));
+            if(Sources.videoFile(path)&&f.optLong("length")>0)choices.put(new JSONObject().put("index",f.getInt("id")).put("name",new File(path).getName()).put("path",path).put("bytes",f.getLong("length")));
         }
         if(choices.length()==0)throw new IOException("В этой раздаче нет поддерживаемого видео");
         updateStatus(info);

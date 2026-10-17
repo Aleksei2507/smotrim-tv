@@ -31,6 +31,8 @@ public class MainActivity extends Activity {
     private volatile JSONArray liveChannels=new JSONArray(),liveBackups=new JSONArray();
     private volatile boolean customPlaylist;private LivePlayback livePlayback;
     private int playbackGeneration;private boolean destroyed;private long resumePosition;private JSONObject now;
+    private final SleepTimer sleepTimer=new SleepTimer();
+    private boolean selectingFile;private JSONArray pendingFiles=new JSONArray();
     private ApkUpdates updates;private boolean resumed,awaitingUpdatePermission,installPreparing;
 
     @Override public void onCreate(Bundle state){
@@ -87,7 +89,15 @@ public class MainActivity extends Activity {
             try {
                 JSONObject a=new JSONObject(args);Object answer;
                 switch(method){
-                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",new JSONObject(cached("movies.json","movies.json")).getJSONArray("metas")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("update",updates.state());break;
+                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",new JSONObject(cached("movies.json","movies.json")).getJSONArray("metas")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("update",updates.state()).put("preferences",playbackPreferences());break;
+                    case "preferences": answer=playbackPreferences();break;
+                    case "preferences-set": {
+                        SharedPreferences.Editor editor=getSharedPreferences("playback",MODE_PRIVATE).edit();
+                        String quality=a.optString("quality","auto"),language=a.optString("language","ru");
+                        if(!Arrays.asList("auto","720","1080","2160").contains(quality)||!language.matches("(?:auto|[a-zA-Z]{2,3}(?:-[a-zA-Z0-9]{2,8})*)"))throw new IOException("Неизвестное предпочтение");
+                        editor.putString("quality",quality).putString("audioLanguage",language).putBoolean("subtitles",a.optBoolean("subtitles")).apply();answer=playbackPreferences();break;
+                    }
+                    case "epg": answer=ProgrammeGuide.load(new File(getCacheDir(),"epg.json"),getSharedPreferences("iptv",MODE_PRIVATE).getString("epg",ProgrammeGuide.DEFAULT_URL),liveChannels,a.optBoolean("refresh"));break;
                     case "update-state": answer=updates.state();break;
                     case "update-check": updates.check(a.optBoolean("automatic"));answer=updates.state();break;
                     case "update-download": updates.download();answer=updates.state();break;
@@ -118,7 +128,7 @@ public class MainActivity extends Activity {
         @JavascriptInterface public void play(String json){ui.post(()->{try{startPlayback(new JSONObject(json));}catch(Exception e){event("error",message(e));}});}
         @JavascriptInterface public void trailer(String videoId){ui.post(()->{if(!TrailerLauncher.open(MainActivity.this,videoId))event("toast","Не удалось открыть трейлер. Установите или включите YouTube на телевизоре.");});}
         @JavascriptInterface public void command(String cmd){ui.post(()->commandPlayer(cmd));}
-        @JavascriptInterface public void input(String kind){ui.post(()->showInput(kind,""));}
+        @JavascriptInterface public void input(String kind){ui.post(()->showInput(kind,kind.equals("epg")?getSharedPreferences("iptv",MODE_PRIVATE).getString("epg",ProgrammeGuide.DEFAULT_URL):""));}
         @JavascriptInterface public void inputSearch(String kind,String value){if(kind.equals("search")||kind.equals("search-channel"))ui.post(()->showInput(kind,value));}
         @JavascriptInterface public void voiceSearch(String kind){if("search".equals(kind)||"search-channel".equals(kind))ui.post(()->startVoiceSearch("search-channel".equals(kind)));}
         @JavascriptInterface public void installUpdate(){ui.post(MainActivity.this::installUpdate);}
@@ -138,6 +148,10 @@ public class MainActivity extends Activity {
         String value=VoiceSearch.result(data);
         if(value.isEmpty())event("toast","Не удалось разобрать речь. Попробуйте ещё раз.");
         else event("voice-input",inputResult(requestCode==VoiceSearch.CHANNELS?"search-channel":"search",value));
+    }
+    private JSONObject playbackPreferences()throws JSONException{
+        SharedPreferences p=getSharedPreferences("playback",MODE_PRIVATE);
+        return new JSONObject().put("quality",p.getString("quality","auto")).put("language",p.getString("audioLanguage","ru")).put("subtitles",p.getBoolean("subtitles",false));
     }
     private int selectedBufferMb(){return TorrentBufferPolicy.requested(getSharedPreferences("playback",MODE_PRIVATE).getInt("torrentBufferMb",TorrentBufferPolicy.DEFAULT_MB));}
     private void installUpdate(){
@@ -163,7 +177,7 @@ public class MainActivity extends Activity {
     }
     private int availableBufferMb(int requested){ActivityManager manager=(ActivityManager)getSystemService(ACTIVITY_SERVICE);if(manager==null)return TorrentBufferPolicy.DEFAULT_MB;ActivityManager.MemoryInfo memory=new ActivityManager.MemoryInfo();manager.getMemoryInfo(memory);return TorrentBufferPolicy.effective(requested,memory.totalMem,memory.availMem,memory.threshold,memory.lowMemory);}
     private void startPlayback(JSONObject item)throws Exception {
-        stopPlayback(false);now=item;resumePosition=Math.max(0,item.optLong("position"));final int generation=playbackGeneration;
+        stopPlayback(false,false);now=item;resumePosition=Math.max(0,item.optLong("position"));final int generation=playbackGeneration;
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         if("torrent".equals(item.optString("kind"))){
             int requested=selectedBufferMb(),bufferMb=availableBufferMb(requested);
@@ -174,14 +188,13 @@ public class MainActivity extends Activity {
                 try {
                     JSONArray choices=engine.prepare(item.getString("url"));
                     ui.post(()->{if(generation!=playbackGeneration||engine.isClosed())return;
+                        pendingFiles=choices;event("files",choices);
                         int savedIndex=item.optInt("fileIndex",-1);boolean foundSaved=false;
                         for(int i=0;i<choices.length();i++)if(choices.optJSONObject(i).optInt("index")==savedIndex)foundSaved=true;
                         if(foundSaved)selectFile(engine,savedIndex,generation);
                         else if(choices.length()==1)selectFile(engine,choices.optJSONObject(0).optInt("index"),generation);
                         else {
-                            ArrayList<JSONObject> sorted=new ArrayList<>();for(int i=0;i<choices.length();i++)sorted.add(choices.optJSONObject(i));sorted.sort((a,b)->Long.compare(b.optLong("bytes"),a.optLong("bytes")));
-                            String[] names=new String[sorted.size()];for(int i=0;i<names.length;i++){JSONObject f=sorted.get(i);names[i]=f.optString("name")+String.format(Locale.US," · %.2f ГБ",f.optLong("bytes")/1073741824.0);}
-                            new AlertDialog.Builder(this).setTitle("Выберите видеофайл").setItems(names,(d,w)->selectFile(engine,sorted.get(w).optInt("index"),generation)).setOnCancelListener(d->stopPlayback(true)).show();
+                            selectingFile=true;event("choose-files",choices);
                         }
                     });
                 }catch(Throwable e){playbackError(generation,e);}
@@ -204,7 +217,7 @@ public class MainActivity extends Activity {
             engine.select(index);
             ui.post(()->{if(generation!=playbackGeneration||engine.isClosed())return;
                 MediaSource source=new ProgressiveMediaSource.Factory(()->new TorrentDataSource(engine)).createMediaSource(MediaItem.fromUri(Uri.fromFile(engine.file())));
-                event("selectedFile",index);createPlayer(source);
+                selectingFile=false;event("selectedFile",index);createPlayer(source);
             });
         }catch(Throwable e){playbackError(generation,e);}});
     }
@@ -212,16 +225,21 @@ public class MainActivity extends Activity {
     private void createPlayer(MediaSource source){
         player=new ExoPlayer.Builder(this).setSeekBackIncrementMs(10000).setSeekForwardIncrementMs(10000).build();
         player.setAudioAttributes(new AudioAttributes.Builder().setUsage(C.USAGE_MEDIA).setContentType(C.AUDIO_CONTENT_TYPE_MOVIE).build(),true);
-        player.setTrackSelectionParameters(player.getTrackSelectionParameters().buildUpon().setPreferredAudioLanguage("ru").setPreferredTextLanguage("ru").setTrackTypeDisabled(C.TRACK_TYPE_TEXT,true).build());
+        player.setTrackSelectionParameters(PlaybackTracks.apply(this,player.getTrackSelectionParameters()));
         video.setPlayer(player);final ExoPlayer created=player;final int generation=playbackGeneration;final boolean live=source==null;
         player.addListener(new Player.Listener(){
             @Override public void onPlayerError(PlaybackException error){if(player==created&&!live)playbackError(generation,new IOException("Не удалось воспроизвести: "+error.getErrorCodeName()+". Попробуйте другую раздачу."));}
-            @Override public void onPlaybackStateChanged(int state){if(player==created&&!live&&state==Player.STATE_ENDED)event("finished",true);}
+            @Override public void onPlaybackStateChanged(int state){if(player==created&&!live&&state==Player.STATE_ENDED){
+                try{event("finished",new JSONObject().put("sleep",sleepTimer.afterEpisode()));}catch(JSONException ignored){}
+                if(sleepTimer.afterEpisode()){stopPlayback(true);event("toast","Просмотр остановлен: таймер сна");}
+            }}
         });
         if(source!=null){player.setMediaSource(source);if(resumePosition>0)player.seekTo(resumePosition);player.prepare();player.play();}
     }
     private void commandPlayer(String cmd){
         if(cmd.equals("stop")){stopPlayback(true);return;}
+        if(cmd.startsWith("sleep:")){try{int minutes=Integer.parseInt(cmd.substring(6));if(now==null)return;sleepTimer.set(minutes,SystemClock.elapsedRealtime());publishSleep();}catch(IllegalArgumentException ignored){}return;}
+        if(cmd.startsWith("file:")&&selectingFile&&torrent!=null){try{int index=Integer.parseInt(cmd.substring(5));boolean valid=false;for(int i=0;i<pendingFiles.length();i++)if(pendingFiles.optJSONObject(i).optInt("index")==index)valid=true;if(valid){selectingFile=false;selectFile(torrent,index,playbackGeneration);}}catch(NumberFormatException ignored){}return;}
         if(player==null)return;
         switch(cmd){
             case "pause":if(player.isPlaying())player.pause();else player.play();break;
@@ -229,50 +247,61 @@ public class MainActivity extends Activity {
             case "forward":player.seekForward();break;
             case "audio":chooseTrack(C.TRACK_TYPE_AUDIO);break;
             case "subtitles":chooseTrack(C.TRACK_TYPE_TEXT);break;
-            default:if(cmd.startsWith("seek:"))try{player.seekTo(Long.parseLong(cmd.substring(5)));}catch(NumberFormatException ignored){}
+            default:if(cmd.startsWith("seek:"))try{player.seekTo(Math.max(0,Math.min(Math.max(0,player.getDuration()-1000),Long.parseLong(cmd.substring(5)))));}catch(NumberFormatException ignored){}
         }
     }
     private void chooseTrack(int type){
-        List<String> labels=new ArrayList<>();List<TrackSelectionOverride> overrides=new ArrayList<>();
-        labels.add(type==C.TRACK_TYPE_TEXT?"Выключены":"Автоматически · русский предпочтительно");overrides.add(null);
+        List<String> labels=new ArrayList<>();List<TrackSelectionOverride> overrides=new ArrayList<>();List<String> languages=new ArrayList<>();languages.add("auto");final ExoPlayer choosing=player;int selected=0;
+        labels.add(type==C.TRACK_TYPE_TEXT?"Выключены":"Автоматически · язык по умолчанию");overrides.add(null);
         for(Tracks.Group group:player.getCurrentTracks().getGroups())if(group.getType()==type){
             for(int i=0;i<group.length;i++)if(group.isTrackSupported(i)){
                 Format f=group.getTrackFormat(i);String language=f.language==null?"Без языка":Locale.forLanguageTag(f.language).getDisplayLanguage(new Locale("ru"));
-                labels.add(language+(f.label==null?"":" · "+f.label)+(f.channelCount>0?" · "+f.channelCount+" кан.":""));overrides.add(new TrackSelectionOverride(group.getMediaTrackGroup(),i));
+                labels.add(language+(f.label==null?"":" · "+f.label)+(f.channelCount>0?" · "+f.channelCount+" кан.":""));overrides.add(new TrackSelectionOverride(group.getMediaTrackGroup(),i));languages.add(f.language==null?"":f.language);if(group.isTrackSelected(i))selected=labels.size()-1;
             }
         }
-        new AlertDialog.Builder(this).setTitle(type==C.TRACK_TYPE_AUDIO?"Звуковая дорожка":"Субтитры").setItems(labels.toArray(new String[0]),(d,which)->{
-            if(player==null)return;TrackSelectionParameters.Builder b=player.getTrackSelectionParameters().buildUpon().clearOverridesOfType(type).setTrackTypeDisabled(type,type==C.TRACK_TYPE_TEXT&&which==0);
-            if(which>0)b.setOverrideForType(overrides.get(which));player.setTrackSelectionParameters(b.build());event("toast",labels.get(which));
+        if(labels.size()==1){event("toast",type==C.TRACK_TYPE_AUDIO?"Звуковые дорожки ещё не доступны":"В этом видео нет доступных субтитров");return;}
+        new AlertDialog.Builder(this).setTitle(type==C.TRACK_TYPE_AUDIO?"Звуковая дорожка":"Субтитры").setSingleChoiceItems(labels.toArray(new String[0]),selected,(d,which)->{
+            d.dismiss();if(player==null||player!=choosing)return;TrackSelectionParameters.Builder b=player.getTrackSelectionParameters().buildUpon().clearOverridesOfType(type).setTrackTypeDisabled(type,type==C.TRACK_TYPE_TEXT&&which==0);
+            String language=languages.get(which);PlaybackTracks.remember(this,type,language,which>0);
+            if(type==C.TRACK_TYPE_AUDIO&&!language.isEmpty())b.setPreferredAudioLanguage(language.equals("auto")?null:language);
+            if(type==C.TRACK_TYPE_TEXT&&which>0&&!language.isEmpty())b.setPreferredTextLanguage(language);
+            if(which>0)b.setOverrideForType(overrides.get(which));player.setTrackSelectionParameters(b.build());event("toast",labels.get(which)+" · выбор языка сохранён");try{event("preferences",playbackPreferences());}catch(JSONException ignored){}
         }).show();
     }
     private void showInput(String kind,String currentValue){
         EditText input=new EditText(this);input.setSingleLine(true);input.setTextSize(18);input.setPadding(28,16,28,16);
         input.setText(currentValue);input.setSelection(input.length());
-        String title=kind.equals("magnet")?"Вставьте magnet-ссылку":kind.equals("playlist")?"Ссылка на M3U-плейлист":kind.equals("search-channel")?"Название телеканала":"Фильм, сериал или шоу";
-        input.setHint(kind.equals("magnet")?"magnet:?xt=urn:btih:…":kind.equals("playlist")?"https://…/playlist.m3u":"Поиск");
+        String title=kind.equals("magnet")?"Вставьте magnet-ссылку":kind.equals("epg")?"Ссылка на программу передач XMLTV":kind.equals("playlist")?"Ссылка на M3U-плейлист":kind.equals("search-channel")?"Название телеканала":"Фильм, сериал или шоу";
+        input.setHint(kind.equals("magnet")?"magnet:?xt=urn:btih:…":(kind.equals("playlist")||kind.equals("epg"))?"https://…":"Поиск");
         AlertDialog dialog=new AlertDialog.Builder(this).setTitle(title).setView(input).setNegativeButton("Отмена",null).setPositiveButton(kind.startsWith("search")?"Найти":"Открыть",(d,w)->{
             String value=input.getText().toString().trim();
-            if(kind.equals("playlist")){
+            if(kind.equals("epg")){
+                if(!Sources.webUrl(value)){event("toast","Нужна HTTP-ссылка на XMLTV или XMLTV.GZ");return;}
+                getSharedPreferences("iptv",MODE_PRIVATE).edit().putString("epg",value).apply();event("epg-source",value);
+            }else if(kind.equals("playlist")){
                 event("toast","Загружаем плейлист…");network.execute(()->{try{String data=Sources.text(value);JSONArray channels=Sources.parseM3u(data);if(channels.length()==0)throw new IOException("В плейлисте нет HTTP-каналов");cache("channels.m3u",data);liveChannels=channels;customPlaylist=true;getSharedPreferences("iptv",MODE_PRIVATE).edit().putBoolean("custom",true).apply();event("channels",channels);}catch(Exception e){event("toast",message(e));}});
             }else event("input",inputResult(kind,value));
         }).create();dialog.show();input.requestFocus();dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
     }
+    private void publishSleep(){try{event("sleep",new JSONObject().put("episode",sleepTimer.afterEpisode()).put("remaining",sleepTimer.remaining(SystemClock.elapsedRealtime())));}catch(JSONException ignored){}}
     private final Runnable ticker=new Runnable(){@Override public void run(){
         if(destroyed)return;
+        if(now!=null&&sleepTimer.expired(SystemClock.elapsedRealtime())){stopPlayback(true);event("toast","Просмотр остановлен: таймер сна");}
         if(now!=null){try{
             JSONObject status=torrent==null?new JSONObject():torrent.status();
             status.put("playing",player!=null&&player.isPlaying()).put("loading",player==null||player.getPlaybackState()==Player.STATE_BUFFERING);
             if(player!=null)status.put("position",player.getCurrentPosition()).put("duration",Math.max(0,player.getDuration())).put("buffered",player.getBufferedPosition());
+            status.put("sleepRemaining",sleepTimer.remaining(SystemClock.elapsedRealtime())).put("sleepEpisode",sleepTimer.afterEpisode());
             event("playback",status);
         }catch(Exception ignored){}}
         ui.postDelayed(this,1000);
     }};
-    private void stopPlayback(boolean notify){
-        playbackGeneration++;
+    private void stopPlayback(boolean notify){stopPlayback(notify,true);}
+    private void stopPlayback(boolean notify,boolean reportPosition){
+        playbackGeneration++;selectingFile=false;pendingFiles=new JSONArray();if(notify)sleepTimer.clear();
         if(livePlayback!=null){livePlayback.close();livePlayback=null;}
         TorrentEngine old=torrent;torrent=null;if(old!=null)old.cancel();
-        if(player!=null){event("position",player.getCurrentPosition());video.setPlayer(null);player.release();player=null;}
+        if(player!=null){if(reportPosition)event("position",player.getCurrentPosition());video.setPlayer(null);player.release();player=null;}
         if(old!=null)cleanup.execute(old::close);
         now=null;getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);if(notify)event("stopped",true);
     }
@@ -281,9 +310,10 @@ public class MainActivity extends Activity {
             case KeyEvent.KEYCODE_DPAD_UP->"ArrowUp";case KeyEvent.KEYCODE_DPAD_DOWN->"ArrowDown";
             case KeyEvent.KEYCODE_DPAD_LEFT->"ArrowLeft";case KeyEvent.KEYCODE_DPAD_RIGHT->"ArrowRight";
             case KeyEvent.KEYCODE_DPAD_CENTER,KeyEvent.KEYCODE_ENTER,KeyEvent.KEYCODE_NUMPAD_ENTER->"Enter";
+            case KeyEvent.KEYCODE_CHANNEL_UP->"ChannelUp";case KeyEvent.KEYCODE_CHANNEL_DOWN->"ChannelDown";case KeyEvent.KEYCODE_LAST_CHANNEL->"LastChannel";
             case KeyEvent.KEYCODE_BACK->"Escape";default->null;
         };
-        if(key!=null){if(e.getAction()==KeyEvent.ACTION_DOWN)js("window.tvKey&&window.tvKey("+JSONObject.quote(key)+")");return true;}
+        if(key!=null){if(key.equals("Enter")&&e.getRepeatCount()>0)return true;if(e.getAction()==KeyEvent.ACTION_DOWN)js("window.tvKey&&window.tvKey("+JSONObject.quote(key)+","+e.getRepeatCount()+")");return true;}
         if(e.getAction()==KeyEvent.ACTION_DOWN){
             if(e.getKeyCode()==KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE){commandPlayer("pause");return true;}
             if(e.getKeyCode()==KeyEvent.KEYCODE_MEDIA_FAST_FORWARD){commandPlayer("forward");return true;}
