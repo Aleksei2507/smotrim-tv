@@ -22,3 +22,28 @@ html.playing{background:transparent}
 .update-page{top:130px}.update-page .eyebrow{font-size:23px;color:var(--muted)}.update-page .page-title{margin:12px 0 25px}.update-card{padding:28px 34px;border-radius:18px;background:#ffffff08;border:1px solid #ffffff18}.update-card h2{font-size:33px;margin:0 0 20px}.update-card .actions{gap:18px}.update-card .button{height:70px;font-size:25px;padding:0 24px}.update-card .subtext{font-size:23px;line-height:1.45;max-width:1250px;margin:22px 0 0}.update-error{color:#ffcaad;font-size:24px;margin:0 0 20px}.update-error:empty{display:none}.update-auto{width:100%;height:76px;margin:24px 0;font-size:26px}.update-auto small{margin-left:auto;opacity:.7;font-size:22px}.update-track{height:10px;background:#ffffff18;border-radius:9px;overflow:hidden}.update-track span{display:block;height:100%;background:var(--focus);transition:width .2s}.update-card #update-progress{font-size:23px;color:var(--muted);margin:10px 0 20px}.update-notes{max-height:230px;overflow-y:auto;padding:0 16px 0 0;scrollbar-width:none}.update-notes h3{font-size:26px;margin:0 0 10px}.update-notes p{font-size:23px;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere;margin:0;color:#c2cbd6}.update-source{font-size:23px;line-height:1.5;color:var(--muted)}
 
 .update-notes{display:block;width:100%;text-align:left;border:0;background:transparent;color:inherit;border-radius:8px}.update-notes:focus{outline:3px solid var(--focus);outline-offset:7px}
+
+/* TV usability: keep long titles readable and scrolling lists above the remote hints. */
+.catalog .movie-card .poster{height:180px}
+.movie-title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;white-space:normal;overflow:hidden;line-height:1.2;height:60px;overflow-wrap:anywhere}
+.source-panel{bottom:110px;display:flex;flex-direction:column}
+.source-heading{display:block;flex-shrink:0}
+.source-panel h1,.source-note,.source-tools,.source-footnote{flex-shrink:0}
+.source-tools{flex-wrap:wrap;row-gap:12px}
+.source-warning{flex-basis:100%;line-height:1.4}
+.source-list{height:auto;flex:1;min-height:0}
+.source-row{height:145px}
+.source-description strong{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;white-space:normal;line-height:1.25;max-height:60px;overflow-wrap:anywhere}
+.source-status{min-width:190px;white-space:nowrap}
+.source-footnote{font-size:21px;color:var(--muted);line-height:1.4;margin:12px 0 0}
+.info-block strong{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.3}
+.empty h2{font-size:32px;margin:0 0 14px}
+.empty p{margin:0 0 24px}
+.empty .button{width:max-content;max-width:100%;font-size:25px}
+.section-search{min-width:0;flex-shrink:1}
+.settings-list{scrollbar-width:thin;scrollbar-color:#596471 transparent}
+
+/* Every insertion position reserves the same width, whether the caret is there or not. */
+.query-slot{display:inline-block;position:relative;width:5px;height:1.1em;vertical-align:-.18em}
+.query-slot .query-caret{position:absolute;inset:0 1px;width:3px;height:100%;margin:0;vertical-align:baseline}
+.query-letter{display:inline}
