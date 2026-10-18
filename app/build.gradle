@@ -7,8 +7,8 @@ android {
         applicationId 'ru.smotrim.tv'
         minSdk 28
         targetSdk 35
-        versionCode = (project.findProperty('smotrimVersionCode') ?: '12').toInteger()
-        versionName = (project.findProperty('smotrimVersionName') ?: '0.5.2')
+        versionCode = (project.findProperty('smotrimVersionCode') ?: '13').toInteger()
+        versionName = (project.findProperty('smotrimVersionName') ?: '0.5.3')
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         ndk { abiFilters 'armeabi-v7a', 'arm64-v8a' }
     }
@@ -35,10 +35,6 @@ dependencies {
     implementation 'androidx.media3:media3-exoplayer-dash:1.5.1'
     implementation 'androidx.media3:media3-ui:1.5.1'
     implementation 'org.jsoup:jsoup:1.18.3'
-    testImplementation 'org.libtorrent4j:libtorrent4j:2.1.0-39'
-    testRuntimeOnly 'org.libtorrent4j:libtorrent4j-macos:2.1.0-39'
-    androidTestImplementation 'org.libtorrent4j:libtorrent4j:2.1.0-39'
-    androidTestImplementation 'org.libtorrent4j:libtorrent4j-android-arm64:2.1.0-39'
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'org.json:json:20240303'
     androidTestImplementation 'androidx.test:runner:1.6.2'
@@ -46,14 +42,6 @@ dependencies {
 }
 
 tasks.withType(Test).configureEach {
-    doFirst {
-        def nativeJar = classpath.files.find { it.name.startsWith('libtorrent4j-macos-') }
-        if (nativeJar != null) {
-            def nativeDir = layout.buildDirectory.dir('native-test').get().asFile
-            copy { from zipTree(nativeJar); include '**/*.dylib'; into nativeDir }
-            systemProperty 'libtorrent4j.jni.path', new File(nativeDir, 'lib/arm64/libtorrent4j.dylib').absolutePath
-        }
-    }
     systemProperty 'smotrim.torrserver.log', rootProject.file('../.toolchain/torrserver-test.log').absolutePath
     systemProperty 'smotrim.torrserver', rootProject.file('../.toolchain/downloads/TorrServer-darwin-arm64').absolutePath
 }

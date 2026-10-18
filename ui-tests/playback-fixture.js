@@ -1,4 +1,7 @@
 // Deterministic, isolated browser fixture. Never included in Android assets.
+const OriginalDate=Date;let fixtureClockOffset=0;
+window.Date=class extends OriginalDate{constructor(...args){super(...(args.length?args:[OriginalDate.now()+fixtureClockOffset]));}static now(){return OriginalDate.now()+fixtureClockOffset;}};
+document.getElementById('advance-clock').onclick=()=>{fixtureClockOffset+=120000;};
 const fixtureData=fetch('movies.json').then(r=>r.json());
 const fixtureChannels=[
  {id:'Friday.ru',name:'Пятница! (1080p)',group:'Entertainment',url:'https://example.test/friday.m3u8',logo:''},
@@ -9,13 +12,13 @@ document.querySelectorAll('[data-fixture]').forEach(b=>b.addEventListener('click
 window.Native={
  async request(id,method,json){
   const args=JSON.parse(json),data=await fixtureData;let result;
-  if(method==='bootstrap')result={movies:data.metas,channels:fixtureChannels,customPlaylist:true,freeBytes:0,bufferMb:96,update:fixtureUpdate};
+  if(method==='bootstrap')result={movies:data.metas,channels:fixtureChannels,customPlaylist:true,freeBytes:4294967296,bufferMb:96,bufferStorage:"ram",update:fixtureUpdate};
   else if(method==='catalog')result=data.metas;
   else if(method==='detail')result=data.metas.find(m=>m.id===args.id);
   else if(method==='preferences-set')result=args;
   else if(method==='epg')result={channels:Object.fromEntries(fixtureChannels.map(c=>[c.url,{current:{title:'Сейчас: передача',start:Date.now()-600000,end:Date.now()+1200000},next:{title:'Следующая передача',start:Date.now()+1200000,end:Date.now()+3600000},programs:[]}]))};
   else if(method==='storage')result=0;
-  else if(method==='buffer-set')result=args.mb;
+  else if(method==='buffer-set')result=args;
   else if(method==='update-state'||method==='update-check')result=fixtureUpdate;
   else if(method==='update-auto')result=fixtureUpdate={...fixtureUpdate,autoCheck:args.enabled};
   else if(method==='torrents'){

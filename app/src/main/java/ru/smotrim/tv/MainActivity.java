@@ -107,7 +107,7 @@ public class MainActivity extends Activity {
             try {
                 JSONObject a=new JSONObject(args);Object answer;
                 switch(method){
-                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",new JSONObject(cached("movies.json","movies.json")).getJSONArray("metas")).put("series",new JSONObject(cached("series.json","series.json")).getJSONArray("metas")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("update",updates.state()).put("preferences",playbackPreferences());break;
+                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",new JSONObject(cached("movies.json","movies.json")).getJSONArray("metas")).put("series",new JSONObject(cached("series.json","series.json")).getJSONArray("metas")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("bufferStorage",selectedBufferStorage()).put("update",updates.state()).put("preferences",playbackPreferences());break;
                     case "preferences": answer=playbackPreferences();break;
                     case "memory-info": answer=PlaybackHealth.snapshot(MainActivity.this);break;
                     case "preferences-set": {
@@ -122,8 +122,10 @@ public class MainActivity extends Activity {
                     case "update-download": updates.download();answer=updates.state();break;
                     case "update-auto": updates.setAutoCheck(a.getBoolean("enabled"));answer=updates.state();break;
                     case "buffer-set": {
-                        int mb=a.getInt("mb");if(!TorrentBufferPolicy.supported(mb))throw new IOException("Недопустимый размер буфера");
-                        getSharedPreferences("playback",MODE_PRIVATE).edit().putInt("torrentBufferMb",mb).apply();answer=mb;break;
+                        int mb=a.getInt("mb");String storage=a.optString("storage","ram");
+                        if(!Arrays.asList("ram","disk").contains(storage)||!(storage.equals("disk")?TorrentBufferPolicy.diskSupported(mb):TorrentBufferPolicy.supported(mb)))throw new IOException("Недопустимый размер буфера");
+                        getSharedPreferences("playback",MODE_PRIVATE).edit().putString("torrentBufferStorage",storage).putInt(storage.equals("disk")?"torrentDiskBufferMb":"torrentBufferMb",mb).apply();
+                        answer=new JSONObject().put("mb",mb).put("storage",storage);break;
                     }
                     case "catalog-state": answer=mediaCatalog().state();break;
                     case "catalog": {
@@ -187,7 +189,9 @@ public class MainActivity extends Activity {
         SharedPreferences p=getSharedPreferences("playback",MODE_PRIVATE);
         return new JSONObject().put("quality",p.getString("quality","auto")).put("language",p.getString("audioLanguage","ru")).put("subtitles",p.getBoolean("subtitles",false));
     }
-    private int selectedBufferMb(){return TorrentBufferPolicy.requested(getSharedPreferences("playback",MODE_PRIVATE).getInt("torrentBufferMb",TorrentBufferPolicy.DEFAULT_MB));}
+    private String selectedBufferStorage(){return "disk".equals(getSharedPreferences("playback",MODE_PRIVATE).getString("torrentBufferStorage","ram"))?"disk":"ram";}
+    private int selectedRamBufferMb(){return TorrentBufferPolicy.requested(getSharedPreferences("playback",MODE_PRIVATE).getInt("torrentBufferMb",TorrentBufferPolicy.DEFAULT_MB));}
+    private int selectedBufferMb(){return "disk".equals(selectedBufferStorage())?TorrentBufferPolicy.diskRequested(getSharedPreferences("playback",MODE_PRIVATE).getInt("torrentDiskBufferMb",TorrentBufferPolicy.DISK_DEFAULT_MB)):selectedRamBufferMb();}
     private void installUpdate(){
         if(destroyed||!resumed||installPreparing)return;
         if(now!=null){event("toast","Завершите просмотр, затем откройте Настройки → Обновления");return;}
@@ -214,9 +218,11 @@ public class MainActivity extends Activity {
         stopPlayback(false,false);now=item;resumePosition=Math.max(0,item.optLong("position"));final int generation=playbackGeneration;
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         if("torrent".equals(item.optString("kind"))){
-            int requested=selectedBufferMb(),bufferMb=availableBufferMb(requested);
-            if(bufferMb<requested)event("toast","Используем буфер "+bufferMb+" МБ вместо "+requested+" МБ, чтобы оставить оперативную память плееру и Android.");
-            TorrentEngine engine=new TorrentEngine(new File(getApplicationInfo().nativeLibraryDir,"libtorrserver.so"),new File(getFilesDir(),"torrents/"+UUID.randomUUID()),bufferMb*TorrentBufferPolicy.MIB);torrent=engine;
+            int requested=selectedBufferMb();boolean disk="disk".equals(selectedBufferStorage());
+            int bufferMb=disk?TorrentBufferPolicy.diskEffective(requested,getFilesDir().getUsableSpace()):availableBufferMb(requested);
+            if(disk&&bufferMb==0){disk=false;bufferMb=availableBufferMb(selectedRamBufferMb());event("toast","Для дискового буфера мало места. Используем "+bufferMb+" МБ оперативной памяти.");}
+            else if(bufferMb<requested)event("toast",disk?"Буфер уменьшен до "+bufferMb+" МБ: оставляем свободное место для Android.":"Используем буфер "+bufferMb+" МБ вместо "+requested+" МБ, чтобы оставить оперативную память плееру и Android.");
+            TorrentEngine engine=new TorrentEngine(new File(getApplicationInfo().nativeLibraryDir,"libtorrserver.so"),new File(getFilesDir(),"torrents/"+UUID.randomUUID()),bufferMb*TorrentBufferPolicy.MIB,disk);torrent=engine;
             event("loading","Подключаемся к раздающим…");
             torrentWork.execute(()->{
                 try {
@@ -263,7 +269,7 @@ public class MainActivity extends Activity {
         player.setTrackSelectionParameters(PlaybackTracks.apply(this,player.getTrackSelectionParameters()));
         video.setPlayer(player);final ExoPlayer created=player;final int generation=playbackGeneration;final boolean live=source==null;
         player.addListener(new Player.Listener(){
-            @Override public void onPlayerError(PlaybackException error){if(player==created&&!live)playbackError(generation,new IOException("Не удалось воспроизвести: "+error.getErrorCodeName()+". Попробуйте другую раздачу."));}
+            @Override public void onPlayerError(PlaybackException error){if(player==created&&!live)playbackError(generation,new IOException(torrent!=null&&torrent.failure()!=null?torrent.failure():"Не удалось воспроизвести: "+error.getErrorCodeName()+". Попробуйте другую раздачу."));}
             @Override public void onPlaybackStateChanged(int state){if(player==created&&!live&&state==Player.STATE_ENDED){
                 try{event("finished",new JSONObject().put("sleep",sleepTimer.afterEpisode()));}catch(JSONException ignored){}
                 if(sleepTimer.afterEpisode()){stopPlayback(true);event("toast","Просмотр остановлен: таймер сна");}
@@ -324,6 +330,7 @@ public class MainActivity extends Activity {
         if(destroyed)return;
         if(now!=null&&sleepTimer.expired(SystemClock.elapsedRealtime())){stopPlayback(true);event("toast","Просмотр остановлен: таймер сна");}
         if(now!=null){try{
+            if(torrent!=null&&torrent.failure()!=null){playbackError(playbackGeneration,new IOException(torrent.failure()));ui.postDelayed(this,1000);return;}
             JSONObject status=torrent==null?new JSONObject():torrent.status();
             status.put("playing",player!=null&&player.isPlaying()).put("loading",player==null||player.getPlaybackState()==Player.STATE_BUFFERING);
             status.put("preparing",player==null).put("playWhenReady",player==null||player.getPlayWhenReady());

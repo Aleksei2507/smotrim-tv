@@ -5,6 +5,22 @@ import static org.junit.Assert.*;
 import static ru.smotrim.tv.TorrentBufferPolicy.*;
 
 public class TorrentBufferPolicyTest {
+    @Test public void diskCacheReservesStorageAndFallsBackWhenFull() {
+        assertEquals(2048,diskEffective(2048,4096*MIB));
+        assertEquals(1024,diskEffective(2048,2500*MIB));
+        assertEquals(512,diskEffective(512,4096*MIB));
+        assertEquals(256,diskEffective(512,1500*MIB));
+        assertEquals(256,diskEffective(512,1408*MIB));
+        assertEquals(0,diskEffective(512,1408*MIB-1));
+        assertEquals(0,diskEffective(512,0));
+        assertEquals(0,diskEffective(512,-1));
+        assertEquals(512,diskRequested(Integer.MAX_VALUE));
+        assertFalse(diskSupported(96));
+    }
+    @Test public void diskCacheDoesNotRaiseTheRamBudget() {
+        for(int mb:new int[]{256,512,1024,2048})assertEquals(224,runtimeLimitMiB(mb*MIB,true));
+        assertEquals(416,runtimeLimitMiB(256*MIB,false));
+    }
     @Test public void acceptsOnlyBoundedSizesAndDefaultsOldSettings() {
         for (int mb : new int[]{64,96,128,256,512}) assertEquals(mb, requested(mb));
         for (int mb : new int[]{-1,0,32,1024,Integer.MAX_VALUE}) assertEquals(96, requested(mb));

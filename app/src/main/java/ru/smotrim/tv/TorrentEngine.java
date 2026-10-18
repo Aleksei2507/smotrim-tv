@@ -9,12 +9,14 @@ import java.nio.file.Files;
 import java.util.*;
 import java.util.concurrent.*;
 
-/** Owns a loopback-only TorrServer process. Video pieces live in a bounded RAM cache. */
+/** Owns a loopback-only TorrServer process with a rolling RAM or disk piece cache. */
 public final class TorrentEngine implements AutoCloseable {
     public static final long CACHE_BYTES=96L*1024*1024;
     private final Object lifecycle=new Object();
     private final File root,executable;
     private final long cacheBytes;
+    private final boolean diskCache;
+    private volatile String failure;
     private final Set<HttpURLConnection> requests=ConcurrentHashMap.newKeySet();
     private volatile boolean closed;
     private volatile Process process;
@@ -29,9 +31,11 @@ public final class TorrentEngine implements AutoCloseable {
     private ScheduledExecutorService poller;
 
     public TorrentEngine(File root){this(new File(System.getProperty("smotrim.torrserver","missing-torrserver")),root,CACHE_BYTES);}
-    public TorrentEngine(File executable,File root,long cacheBytes){this.executable=executable;this.root=root;this.cacheBytes=cacheBytes;}
+    public TorrentEngine(File executable,File root,long cacheBytes){this(executable,root,cacheBytes,false);}
+    public TorrentEngine(File executable,File root,long cacheBytes,boolean diskCache){this.executable=executable;this.root=root;this.cacheBytes=cacheBytes;this.diskCache=diskCache;}
     public boolean isClosed(){return closed;}
-    private void check()throws IOException{if(closed||Thread.currentThread().isInterrupted())throw new InterruptedIOException("Просмотр остановлен");}
+    public String failure(){return failure;}
+    private void check()throws IOException{if(failure!=null)throw new IOException(failure);if(closed||Thread.currentThread().isInterrupted())throw new InterruptedIOException("Просмотр остановлен");}
     private void sleep()throws IOException{check();try{Thread.sleep(150);}catch(InterruptedException e){Thread.currentThread().interrupt();throw new InterruptedIOException("Просмотр остановлен");}}
 
     private void start()throws Exception{
@@ -39,7 +43,8 @@ public final class TorrentEngine implements AutoCloseable {
             check();if(process!=null)return;
             if(!executable.isFile()||!executable.canExecute())throw new IOException("Не удалось запустить встроенный торрент-движок. Переустановите APK.");
             if(!root.mkdirs()&&!root.isDirectory())throw new IOException("Не удалось создать папку настроек плеера");
-            JSONObject initial=new JSONObject().put("CacheSize",cacheBytes).put("UseDisk",false).put("ReaderReadAHead",50).put("PreloadCache",5)
+            if(diskCache&&root.getUsableSpace()<cacheBytes+TorrentBufferPolicy.DISK_RESERVE)throw new IOException("Недостаточно свободного места для выбранного буфера. Уменьшите его в настройках или выберите оперативную память.");
+            JSONObject initial=new JSONObject().put("CacheSize",cacheBytes).put("UseDisk",diskCache).put("TorrentsSavePath",diskCache?new File(root,"pieces").getAbsolutePath():"").put("RemoveCacheOnDrop",true).put("ReaderReadAHead",diskCache?90:50).put("PreloadCache",preloadPercent())
                 .put("EnableDLNA",false).put("EnableBonjour",false).put("EnableLPD",false).put("DisableUPNP",true)
                 .put("StoreSettingsInJson",true).put("ConnectionsLimit",40).put("TorrentDisconnectTimeout",120).put("ResponsiveMode",false);
             Files.write(new File(root,"settings.json").toPath(),new JSONObject().put("BitTorr",initial).toString().getBytes(StandardCharsets.UTF_8));
@@ -50,7 +55,7 @@ public final class TorrentEngine implements AutoCloseable {
             base="http://127.0.0.1:"+port;
             ProcessBuilder builder=new ProcessBuilder(executable.getAbsolutePath(),"--ip","127.0.0.1","--port",String.valueOf(port),"--path",root.getAbsolutePath(),"--httpauth");
             builder.directory(root);builder.redirectErrorStream(true);builder.redirectOutput(new File(System.getProperty("smotrim.torrserver.log","/dev/null")));
-            builder.environment().put("GOMEMLIMIT",TorrentBufferPolicy.runtimeLimitMiB(cacheBytes)+"MiB");builder.environment().put("TMPDIR",root.getAbsolutePath());
+            builder.environment().put("GOMEMLIMIT",TorrentBufferPolicy.runtimeLimitMiB(cacheBytes,diskCache)+"MiB");builder.environment().put("TMPDIR",root.getAbsolutePath());
             process=builder.start();
         }
         long until=System.currentTimeMillis()+15000;
@@ -60,14 +65,15 @@ public final class TorrentEngine implements AutoCloseable {
             try{settings=api("/settings",new JSONObject().put("action","get"),1000);break;}catch(IOException ignored){sleep();}
         }
         if(settings==null)throw new IOException("Торрент-движок не ответил при запуске");
-        settings.put("CacheSize",cacheBytes).put("UseDisk",false).put("TorrentsSavePath","").put("RemoveCacheOnDrop",true)
-            .put("ReaderReadAHead",50).put("PreloadCache",5).put("ConnectionsLimit",40).put("UploadRateLimit",256)
+        settings.put("CacheSize",cacheBytes).put("UseDisk",diskCache).put("TorrentsSavePath",diskCache?new File(root,"pieces").getAbsolutePath():"").put("RemoveCacheOnDrop",true)
+            .put("ReaderReadAHead",diskCache?90:50).put("PreloadCache",preloadPercent()).put("ConnectionsLimit",40).put("UploadRateLimit",256)
             .put("EnableDLNA",false).put("EnableBonjour",false).put("EnableLPD",false).put("DisableUPNP",true)
             .put("EnableDebug",false).put("ResponsiveMode",false).put("TorrentDisconnectTimeout",120);
         api("/settings",new JSONObject().put("action","set").put("sets",settings),5000);
         JSONObject confirmed=api("/settings",new JSONObject().put("action","get"),5000);
-        if(confirmed.optBoolean("UseDisk",true)||confirmed.optLong("CacheSize")!=cacheBytes)throw new IOException("Не удалось включить ограниченный буфер в памяти");
+        if(!confirmed.has("UseDisk")||confirmed.optBoolean("UseDisk")!=diskCache||confirmed.optLong("CacheSize")!=cacheBytes||diskCache&&!new File(root,"pieces").getAbsolutePath().equals(confirmed.optString("TorrentsSavePath")))throw new IOException("Не удалось настроить буфер видео");
     }
+    private int preloadPercent(){return diskCache?(int)Math.max(1,Math.min(5,32*TorrentBufferPolicy.MIB*100/cacheBytes)):5;}
     public JSONArray prepare(String link)throws Exception{
         check();if(link==null||(!link.startsWith("magnet:?")&&!Sources.webUrl(link))||link.length()>16384)throw new IOException("Нужна magnet-ссылка или HTTP-ссылка на .torrent");
         start();JSONObject info=api("/torrents",new JSONObject().put("action","add").put("link",link).put("save_to_db",false),20000);
@@ -85,7 +91,10 @@ public final class TorrentEngine implements AutoCloseable {
         if(choices.length()==0)throw new IOException("В этой раздаче нет поддерживаемого видео");
         updateStatus(info);
         synchronized(lifecycle){check();poller=Executors.newSingleThreadScheduledExecutor(r->{Thread t=new Thread(r,"torrent-status");t.setDaemon(true);return t;});
-            poller.scheduleWithFixedDelay(()->{try{updateStatus(api("/torrents",new JSONObject().put("action","get").put("hash",hash),1500));}catch(Exception ignored){}},1,1,TimeUnit.SECONDS);}
+            poller.scheduleWithFixedDelay(()->{try{
+                if(diskCache&&root.getUsableSpace()<TorrentBufferPolicy.DISK_EMERGENCY_RESERVE){failure="Во внутренней памяти заканчивается место. Просмотр остановлен, кэш будет очищен. Уменьшите буфер или выберите оперативную память в настройках.";cancel();return;}
+                updateStatus(api("/torrents",new JSONObject().put("action","get").put("hash",hash),1500));
+            }catch(Exception ignored){}},1,1,TimeUnit.SECONDS);}
         return choices;
     }
     public void select(int id)throws Exception{
@@ -123,7 +132,7 @@ public final class TorrentEngine implements AutoCloseable {
         }finally{requests.remove(c);c.disconnect();}
     }
     private void updateStatus(JSONObject value)throws Exception{cachedStatus=new JSONObject().put("peers",value.optInt("active_peers")).put("rate",value.optDouble("download_speed",0))
-        .put("downloaded",value.optLong("bytes_read_data")).put("cached",value.optLong("loaded_size")).put("cacheLimit",cacheBytes).put("total",fileSize);}
+        .put("downloaded",value.optLong("bytes_read_data")).put("cached",value.optLong("loaded_size")).put("cacheLimit",cacheBytes).put("cacheStorage",diskCache?"disk":"ram").put("total",fileSize);}
     public JSONObject status(){try{return new JSONObject(cachedStatus.toString());}catch(Exception ignored){return new JSONObject();}}
     public void cancel(){synchronized(lifecycle){closed=true;if(poller!=null)poller.shutdownNow();Process p=process;if(p!=null)p.destroy();}for(HttpURLConnection c:requests)c.disconnect();closeReader();}
     @Override public void close(){cancel();Process p=process;if(p!=null)try{if(!p.waitFor(2,TimeUnit.SECONDS)){p.destroyForcibly();p.waitFor(2,TimeUnit.SECONDS);}}catch(InterruptedException e){p.destroyForcibly();Thread.currentThread().interrupt();}deleteTree(root);}
