@@ -19,16 +19,31 @@ public final class MediaCatalog {
     public MediaCatalog(File directory,String kpKey,String tmdbToken){this(directory,!kpKey.isEmpty(),!tmdbToken.isEmpty(),(provider,path)->request(provider,path,provider.equals("kp")?kpKey:tmdbToken));}
     MediaCatalog(File directory,boolean kp,boolean tmdb,Transport transport){this.directory=directory;this.kp=kp;this.tmdb=tmdb;this.transport=transport;}
     static JSONObject request(String provider,String path,String credential)throws Exception{
+        return request(provider,path,credential,url->(HttpURLConnection)url.openConnection());
+    }
+    interface ConnectionFactory { HttpURLConnection open(URL url)throws IOException; }
+    static URL redirect(String provider,URL current,String location)throws IOException{
+        if(!"cinemeta".equals(provider)||location==null||location.trim().isEmpty())throw new IOException("Каталог перенаправил запрос на неподдерживаемый адрес");
+        URL next=new URL(current,location);
+        if(!"https".equals(next.getProtocol())||next.getUserInfo()!=null||(next.getPort()!=-1&&next.getPort()!=443)||!Arrays.asList("v3-cinemeta.strem.io","cinemeta-live.strem.io").contains(next.getHost().toLowerCase(Locale.ROOT)))throw new IOException("Каталог перенаправил запрос на неподдерживаемый адрес");
+        return next;
+    }
+    static JSONObject request(String provider,String path,String credential,ConnectionFactory connections)throws Exception{
         String base=provider.equals("kp")?"https://kinopoiskapiunofficial.tech":provider.equals("tmdb")?"https://api.themoviedb.org/3":Sources.CINEMA;
         boolean apiKey=provider.equals("tmdb")&&credential.matches("[a-fA-F0-9]{32}");
         URL url=new URL(base+path+(apiKey?(path.contains("?")?"&":"?")+"api_key="+credential:""));
-        HttpURLConnection c=(HttpURLConnection)url.openConnection();c.setInstanceFollowRedirects(false);c.setConnectTimeout(8000);c.setReadTimeout(12000);
+        long deadline=System.nanoTime()+TimeUnit.SECONDS.toNanos(20);
+        for(int hop=0;hop<=3;hop++){
+        int remaining=(int)TimeUnit.NANOSECONDS.toMillis(deadline-System.nanoTime());if(remaining<=0)throw new IOException("Каталог отвечает слишком долго");
+        HttpURLConnection c=connections.open(url);c.setInstanceFollowRedirects(false);c.setConnectTimeout(Math.min(8000,remaining));c.setReadTimeout(Math.min(12000,remaining));
         c.setRequestProperty("User-Agent","SmotrimTV/0.5");c.setRequestProperty("Accept","application/json");
         if(provider.equals("kp"))c.setRequestProperty("X-API-KEY",credential);
         if(provider.equals("tmdb")&&!apiKey)c.setRequestProperty("Authorization","Bearer "+credential);
-        try{int status=c.getResponseCode();if(status!=200)throw new IOException(status==401||status==403?"Проверьте ключ доступа":status==402||status==429?"Исчерпан лимит каталога":"Каталог недоступен (HTTP "+status+")");
-            try(InputStream in=c.getInputStream();ByteArrayOutputStream out=new ByteArrayOutputStream()){byte[] bytes=new byte[8192];int n;while((n=in.read(bytes))!=-1){if(out.size()+n>4*1024*1024)throw new IOException("Слишком большой ответ каталога");out.write(bytes,0,n);}return new JSONObject(out.toString("UTF-8"));}
+        try{int status=c.getResponseCode();if(status==301||status==302||status==303||status==307||status==308){if(hop==3)throw new IOException("Слишком много перенаправлений каталога");url=redirect(provider,url,c.getHeaderField("Location"));continue;}if(status!=200)throw new IOException(status==401||status==403?"Проверьте ключ доступа":status==402||status==429?"Исчерпан лимит каталога":"Каталог недоступен (HTTP "+status+")");
+            try(InputStream in=c.getInputStream();ByteArrayOutputStream out=new ByteArrayOutputStream()){byte[] bytes=new byte[8192];int n;while((n=in.read(bytes))!=-1){if(System.nanoTime()>deadline)throw new IOException("Каталог отвечает слишком долго");if(out.size()+n>4*1024*1024)throw new IOException("Слишком большой ответ каталога");out.write(bytes,0,n);}return new JSONObject(out.toString("UTF-8"));}
         }finally{c.disconnect();}
+        }
+        throw new IOException("Каталог недоступен");
     }
     public JSONObject state()throws JSONException{return new JSONObject().put("kinopoisk",kp).put("tmdb",tmdb);}
     static String text(JSONObject o,String... keys){for(String key:keys)if(o!=null&&!o.isNull(key)){String s=o.optString(key).trim();if(!s.isEmpty())return s;}return "";}
@@ -80,8 +95,9 @@ public final class MediaCatalog {
     }
     static JSONObject merge(JSONObject a,JSONObject b)throws JSONException{
         JSONObject out=new JSONObject(a.toString());boolean translated=b.optBoolean("localized")&&(!a.optBoolean("localized")||"kp".equals(b.optString("provider"))&&!"kp".equals(a.optString("provider")));
+        if(!a.optBoolean("localized")&&!text(a,"name").matches(".*[А-Яа-яЁё].*")&&text(b,"name").matches(".*[А-Яа-яЁё].*"))out.put("name",text(b,"name"));
         for(Iterator<String> it=b.keys();it.hasNext();){String key=it.next();if(!key.equals("id")&&!key.equals("ids")&&!key.equals("aliases")&&(!out.has(key)||out.isNull(key)||out.optString(key).isEmpty()||out.optString(key).equals("[]")||out.optString(key).equals("unknown")||translated&&Arrays.asList("name","description","genres","localized","originalName").contains(key)))out.put(key,b.get(key));}
-        out.put("ids",strings(a.optJSONArray("ids"),b.optJSONArray("ids"),text(a,"id"),text(b,"id"))).put("aliases",strings(a.optJSONArray("aliases"),b.optJSONArray("aliases")));return out;
+        out.put("ids",strings(a.optJSONArray("ids"),b.optJSONArray("ids"),text(a,"id"),text(b,"id"))).put("aliases",strings(a.optJSONArray("aliases"),b.optJSONArray("aliases"),text(a,"name"),text(b,"name")));return out;
     }
     static JSONArray mix(List<JSONArray> lists)throws JSONException{List<JSONObject> out=new ArrayList<>();for(int row=0;row<100;row++)for(JSONArray list:lists){JSONObject item=list.optJSONObject(row);if(item==null)continue;int match=-1;for(int i=0;i<out.size();i++)if(same(out.get(i),item)){match=i;break;}if(match<0)out.add(item);else out.set(match,merge(out.get(match),item));}return new JSONArray(out);}
     private JSONObject list(String provider,String type,String query,int page)throws Exception{
@@ -117,7 +133,7 @@ public final class MediaCatalog {
         if(kp)try{if(kpId==0&&!imdb.isEmpty()){JSONArray found=detailGet("kp","/api/v2.2/films?imdbId="+imdb).optJSONArray("items");if(found!=null&&found.length()==1)kpId=found.getJSONObject(0).optLong("kinopoiskId");}if(kpId>0){JSONObject raw=detailGet("kp","/api/v2.2/films/"+kpId),m=kinopoisk(raw);if(m!=null){result=merge(result,m);loaded=true;if(type.equals("series"))try{JSONArray episodes=kpEpisodes(detailGet("kp","/api/v2.2/films/"+kpId+"/seasons"));result.put("videos",episodes);if(episodes.length()>0)result.put("episodeProvider","kp");}catch(Exception e){warnings.put("Не удалось загрузить серии русского каталога");}}}}catch(Exception e){warnings.put("Описание русского каталога недоступно");}
         if(tmdb&&tmdbId==0&&!imdb.isEmpty())try{JSONArray found=detailGet("tmdb","/find/"+imdb+"?external_source=imdb_id&language=ru-RU").optJSONArray(type.equals("series")?"tv_results":"movie_results");if(found!=null&&found.length()==1)tmdbId=found.getJSONObject(0).optLong("id");}catch(Exception ignored){}
         if(tmdb&&tmdbId>0)try{JSONObject raw=detailGet("tmdb","/"+(type.equals("series")?"tv":"movie")+"/"+tmdbId+"?language=ru-RU&append_to_response=external_ids,videos"),m=tmdb(raw,type);if(m!=null){result=merge(result,m);loaded=true;}}catch(Exception e){warnings.put("Описание TMDB недоступно");}
-        imdb=text(result,"imdbId");if(!imdb.isEmpty())try{JSONObject m=cinemeta(detailGet("cinemeta","/meta/"+type+"/"+imdb+".json").getJSONObject("meta"));if(m!=null){result=merge(result,m);loaded=true;}}catch(Exception e){warnings.put("Описание Cinemeta недоступно");}
+        String resolvedImdb=text(result,"imdbId");if(!resolvedImdb.isEmpty())imdb=resolvedImdb;if(!imdb.isEmpty())try{JSONObject m=cinemeta(detailGet("cinemeta","/meta/"+type+"/"+imdb+".json").getJSONObject("meta"));if(m!=null){result=merge(result,m);loaded=true;}}catch(Exception e){warnings.put("Описание Cinemeta недоступно");}
         if(!loaded){if(cached!=null)return cached.put("stale",true);throw new IOException("Не удалось загрузить описание. Можно повторить или выбрать вариант просмотра.");}
         if(type.equals("series")){result=SeriesCatalog.normalize(result,id);if(!"kp".equals(result.optString("episodeProvider"))&&tmdb&&result.optLong("tmdbId")>0){JSONArray seasons=result.optJSONArray("seasons");if(seasons!=null&&seasons.length()>0){int s=seasons.getJSONObject(0).optInt("number");for(int i=0;i<seasons.length();i++)if(seasons.getJSONObject(i).optInt("number")>0){s=seasons.getJSONObject(i).optInt("number");break;}try{JSONArray localized=season(result,s);if(localized.length()>0){JSONArray combined=new JSONArray();JSONArray existing=result.getJSONArray("videos");for(int i=0;i<existing.length();i++)if(existing.getJSONObject(i).optInt("season")!=s)combined.put(existing.getJSONObject(i));for(int i=0;i<localized.length();i++)combined.put(localized.getJSONObject(i));result.put("videos",combined);}result.put("loadedSeasons",new JSONArray().put(s));result.put("episodeProvider","tmdb");}catch(Exception e){warnings.put("Серии не загрузились. Выберите сезон, чтобы повторить.");}}}}
         result.put("metadataWarnings",warnings);save(key,result);return result;

@@ -7,6 +7,25 @@ import java.util.*;
 import static org.junit.Assert.*;
 
 public class MediaCatalogTest {
+    @Test public void cinemetaDetailWorksWithoutKeysAndLocalizesOldImdbCard()throws Exception{
+        List<String> calls=new ArrayList<>();
+        MediaCatalog c=new MediaCatalog(Files.createTempDirectory("catalog-no-keys").toFile(),false,false,(provider,path)->{
+            calls.add(provider+path);
+            return new JSONObject().put("meta",new JSONObject().put("id","tt31531192").put("type","series").put("name","Выживалити: Миссия Альфа").put("description","Show description").put("videos",new JSONArray().put(new JSONObject().put("season",2).put("episode",1).put("overview",""))));
+        });
+        JSONObject selected=new JSONObject().put("id","tt31531192").put("type","series").put("name","Vyzhivaliti. Missiya Alfa"),detail=c.detail(selected,false);
+        assertEquals(Collections.singletonList("cinemeta/meta/series/tt31531192.json"),calls);
+        assertEquals("Выживалити: Миссия Альфа",detail.getString("name"));
+        assertEquals("Show description",detail.getString("description"));
+        assertEquals(2,detail.getJSONArray("videos").getJSONObject(0).getInt("season"));
+        assertEquals("",detail.getJSONArray("videos").getJSONObject(0).getString("description"));
+        assertEquals("Выживалити: Миссия Альфа",c.detail(selected,false).getString("name"));assertEquals("Repeated opening uses the metadata cache",1,calls.size());assertTrue(detail.getJSONArray("aliases").toString().contains("Vyzhivaliti"));
+    }
+    @Test public void cinemetaCannotReplaceRussianProviderTitle()throws Exception{
+        MediaCatalog c=new MediaCatalog(Files.createTempDirectory("catalog-localized").toFile(),false,false,(provider,path)->new JSONObject().put("meta",new JSONObject().put("id","tt31531192").put("type","series").put("name","Другое имя")));
+        JSONObject selected=MediaCatalog.kinopoisk(kp(123,"Выживалити. Миссия Альфа",2024).put("imdbId","tt31531192"));
+        assertEquals("Выживалити. Миссия Альфа",c.detail(selected,false).getString("name"));
+    }
     private JSONObject kp(int id,String name,int year)throws Exception{return new JSONObject().put("kinopoiskId",id).put("nameRu",name).put("nameOriginal","Original title").put("type","TV_SHOW").put("year",year).put("countries",new JSONArray().put(new JSONObject().put("country","Россия")));}
     @Test public void russianShowHasStableIdentityWithoutImdbAndNoLiteralNull()throws Exception{JSONObject m=MediaCatalog.kinopoisk(kp(123,"Выживалити",2024).put("description",JSONObject.NULL).put("imdbId",JSONObject.NULL));assertEquals("kp:123",m.getString("id"));assertEquals("series",m.getString("type"));assertEquals("show",m.getString("kind"));assertEquals("ru",m.getString("origin"));assertEquals("",m.getString("description"));assertTrue(MediaCatalog.validId(m.getString("id")));assertFalse(MediaCatalog.validId("kp:../../secret"));}
     @Test public void mergeKeepsOneCardAndRussianTextWithoutMergingRemakes()throws Exception{JSONObject a=MediaCatalog.cinemeta(new JSONObject().put("id","tt1234567").put("type","series").put("name","Original title").put("year","2024")),b=MediaCatalog.kinopoisk(kp(123,"Русское название",2024).put("imdbId","tt1234567"));JSONArray mixed=MediaCatalog.mix(Arrays.asList(new JSONArray().put(a),new JSONArray().put(b)));assertEquals(1,mixed.length());assertEquals("Русское название",mixed.getJSONObject(0).getString("name"));assertEquals("tt1234567",mixed.getJSONObject(0).getString("id"));assertTrue(mixed.getJSONObject(0).getJSONArray("ids").toString().contains("kp:123"));assertFalse(MediaCatalog.same(a,MediaCatalog.kinopoisk(kp(456,"Original title",1990))));assertFalse(MediaCatalog.same(a,MediaCatalog.kinopoisk(kp(456,"Original title",2024).put("imdbId","tt7654321"))));}
