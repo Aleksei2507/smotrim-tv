@@ -11,14 +11,14 @@ import java.util.concurrent.*;
 public final class SeriesCatalog {
     private SeriesCatalog() {}
     static String validId(String id) throws IOException {
-        if(id==null||!id.matches("tt[0-9]{5,12}"))throw new IOException("Некорректный сериал");
+        if(!MediaCatalog.validId(id))throw new IOException("Некорректный сериал");
         return id;
     }
     public static JSONObject normalize(JSONObject raw,String id) throws IOException,JSONException {
         validId(id);
         if(!id.equals(raw.optString("id"))||!"series".equals(raw.optString("type"))||raw.optString("name").trim().isEmpty())throw new IOException("Каталог не вернул карточку сериала");
         JSONObject result=new JSONObject();
-        for(String key:Arrays.asList("id","type","name","poster","background","description","year","releaseInfo","imdbRating","runtime","genres","genre","cast","director","trailers","trailerStreams"))if(raw.has(key))result.put(key,raw.get(key));
+        for(String key:Arrays.asList("id","ids","imdbId","kpId","tmdbId","provider","kind","localized","originalName","aliases","countries","origin","seasons","loadedSeasons","episodeProvider","type","name","poster","background","description","year","releaseInfo","imdbRating","ratingSource","runtime","genres","genre","cast","director","trailers","trailerStreams"))if(raw.has(key))result.put(key,raw.get(key));
         JSONArray videos=raw.optJSONArray("videos");List<JSONObject> list=new ArrayList<>();Set<String> seen=new HashSet<>();
         if(videos!=null)for(int i=0;i<videos.length()&&list.size()<3000;i++){
             JSONObject v=videos.optJSONObject(i);if(v==null)continue;

@@ -15,7 +15,12 @@ function episode(file){
 }
 function files(items){return items.map(episode).sort((a,b)=>(a.season??999)-(b.season??999)||(a.episode??9999)-(b.episode??9999)||a.name.localeCompare(b.name,'ru',{numeric:true}));}
 function nextFile(items,index){const list=files(items),current=list.find(f=>f.index===index);if(!current||current.episode===null)return null;return list.find(f=>f.episode!==null&&(f.season>current.season||f.season===current.season&&f.episode>current.episode))||null;}
-function seriesId(item,file){if(item.movie?.type==='series'&&/^tt\d+$/.test(item.movie.id))return 'series:'+item.movie.id;if(file?.episode==null)return item.movie?.id||'link:'+item.url;const name=file.seriesName||String(item.sourceMovie?.name||item.movie?.name||'').split(/(?:s\d|сезон|season|\d+\s*сезон|серии)/i)[0];return name.trim()?'series:'+clean(name).toLowerCase():'series:'+item.url;}
+const contentId=m=>m?.historyId||m?.imdbId||m?.id;
+const mediaIds=m=>[m?.id,m?.imdbId,m?.historyId,...(Array.isArray(m?.ids)?m.ids:[])].filter(Boolean);
+const sameMedia=(a,b)=>(a?.type||'movie')===(b?.type||'movie')&&mediaIds(a).some(id=>mediaIds(b).includes(id));
+function uniqueMedia(items){const out=[];for(const m of items){if(!m?.id)continue;const i=out.findIndex(v=>sameMedia(v,m));if(i<0)out.push(m);else out[i]={...out[i],...m,id:out[i].id,ids:[...new Set([...mediaIds(out[i]),...mediaIds(m)])]};}return out;}
+function filterMedia(items,kind='all',origin='all'){return items.filter(m=>(kind==='all'||(kind==='series'?m.type==='series'&&m.kind!=='show':kind===(m.kind||m.type)))&&(origin==='all'||m.origin===origin));}
+function seriesId(item,file){if(item.movie?.type==='series'&&contentId(item.movie))return 'series:'+contentId(item.movie);if(file?.episode==null)return contentId(item.movie)||'link:'+item.url;const name=file.seriesName||String(item.sourceMovie?.name||item.movie?.name||'').split(/(?:s\d|сезон|season|\d+\s*сезон|серии)/i)[0];return name.trim()?'series:'+clean(name).toLowerCase():'series:'+item.url;}
 function rankedSources(items,prefs){const resolution=s=>/2160|4k/i.test(s.quality+' '+s.title)?2160:/1080/i.test(s.quality+' '+s.title)?1080:/720/i.test(s.quality+' '+s.title)?720:0;
  const language=s=>(prefs.language==='ru'?/(?:rus|рус|дубл|dvo|mvo|avo|dub)/i:prefs.language==='en'?/(?:eng|англ|original)/i:prefs.language==='uk'?/(?:ukr|укр)/i:/$a/).test(s.title);
  return items.map((s,i)=>({s,i})).sort((a,b)=>Number(a.s.seeds===0)-Number(b.s.seeds===0)||(prefs.quality!=='auto'?Number(resolution(b.s)===+prefs.quality)-Number(resolution(a.s)===+prefs.quality):0)||(Number(language(b.s))-Number(language(a.s)))||(b.s.seeds||0)-(a.s.seeds||0)||a.i-b.i).map(x=>x.s);
@@ -48,6 +53,6 @@ function sourceScope(text,target){
 function episodeSources(items,target,prefs){return rankedSources(items,prefs).map(s=>({...s,episodeScope:sourceScope(s.title,target)})).filter(s=>s.episodeScope!==3).sort((a,b)=>Number(a.seeds===0)-Number(b.seeds===0)||a.episodeScope-b.episodeScope);}
 function readability(value){return {size:['normal','large','largest'].includes(value?.size)?value.size:'normal',contrast:value?.contrast===true,motion:value?.motion===true};}
 
-const api={bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
+const api={contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
 if(typeof module!=='undefined')module.exports=api;else root.TVFeatures=api;
 })(typeof window!=='undefined'?window:globalThis);

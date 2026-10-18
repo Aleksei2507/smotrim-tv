@@ -155,3 +155,24 @@ body.reduce-motion #tv button.focused,body.reduce-motion #tv button:active{trans
 body[data-text-size=large] .side-item,body[data-text-size=largest] .side-item{font-size:28px}
 body[data-text-size=large] .side-bottom .side-item,body[data-text-size=largest] .side-bottom .side-item{font-size:27px}
 .brand{font-size:31px}.brand-mark{flex-shrink:0}
+
+
+/* Metadata search: six readable cards, stable footer and remote-control focus. */
+.catalog-results{bottom:95px;display:flex;flex-direction:column;gap:12px}
+.catalog-results .page-title{font-size:44px}.catalog-results .page-bar{margin:0}.catalog-results .lead{margin:0 0 4px}.result-query{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.catalog-results .chips{gap:12px}.catalog-results .chip{padding:0 20px;font-size:calc(23px * var(--text-scale,1))}
+.catalog-results .catalog-notice{font-size:calc(20px * var(--text-scale,1));min-height:54px;margin:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.result-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:24px;flex:1;min-height:0;padding:8px}
+.result-card{display:flex;align-items:stretch;text-align:left;background:#263543;border:0;border-radius:16px;padding:0;overflow:hidden;color:var(--text);min-height:0;min-width:0}
+.result-cover{width:125px;flex:none;background-position:center;background-size:cover;background-color:#314553}
+.result-copy{padding:22px 18px;min-width:0;overflow:hidden}.result-copy strong{font-size:calc(26px * var(--text-scale,1));line-height:1.18;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.result-copy small{font-size:calc(20px * var(--text-scale,1));display:block;margin-top:12px;color:var(--muted)}.result-copy p{font-size:calc(21px * var(--text-scale,1));line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin:12px 0 0;color:#c7d2df}
+.result-card.focused{outline:4px solid var(--focus);outline-offset:4px;background:#344c60}.result-grid>.empty,.result-grid>.loading{grid-column:1/-1;grid-row:1/-1}.result-grid .empty .button{margin-right:15px}
+.results-footer{display:flex;gap:20px;align-items:center;padding-top:14px;flex:none}.results-footer .button{font-size:calc(22px * var(--text-scale,1));height:66px}.results-footer>span{margin-left:auto;color:var(--muted);font-size:calc(20px * var(--text-scale,1))}
+.catalog-status{display:flex;align-items:center;gap:20px;font-size:calc(20px * var(--text-scale,1));color:#c3cbd7;min-height:56px;margin:0 0 12px}.catalog-status>span{flex:1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.catalog-status .button{flex:none}
+.series-summary,body:not([data-text-size=normal]) .series-summary{grid-template-columns:155px minmax(0,1fr) 350px;gap:24px}.series-cover{border-radius:14px;background-size:cover;background-position:center;max-height:230px;min-height:180px;background-color:#293d4d}.series-summary-actions .button{min-height:52px;height:54px;font-size:calc(21px * var(--text-scale,1))}
+.episode-description{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:#bfcbd8;font-size:calc(20px * var(--text-scale,1));line-height:1.3;margin-top:8px}.catalog-episode-play{height:auto;min-height:100px}
+.search-modes{gap:10px}.search-modes .chip{font-size:calc(23px * var(--text-scale,1));padding:0 18px}
+body[data-text-size=largest] .result-cover{width:100px}body[data-text-size=largest] .result-copy{padding:14px}body[data-text-size=largest] .result-copy p{-webkit-line-clamp:2}
+.result-card.focused small,.result-card.focused p{color:#d3deed}body.strong-focus .result-card.focused small,body.strong-focus .result-card.focused p{color:#303740}.result-copy strong{font-size:calc(24px * var(--text-scale,1))}.result-copy small{font-size:calc(18px * var(--text-scale,1));margin-top:8px}.result-copy p{font-size:calc(18px * var(--text-scale,1));margin-top:8px;-webkit-line-clamp:2}
+.catalog-episode-play.focused .episode-description{color:#303740}

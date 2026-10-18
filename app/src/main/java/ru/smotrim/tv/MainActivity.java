@@ -125,19 +125,17 @@ public class MainActivity extends Activity {
                         int mb=a.getInt("mb");if(!TorrentBufferPolicy.supported(mb))throw new IOException("Недопустимый размер буфера");
                         getSharedPreferences("playback",MODE_PRIVATE).edit().putInt("torrentBufferMb",mb).apply();answer=mb;break;
                     }
+                    case "catalog-state": answer=mediaCatalog().state();break;
                     case "catalog": {
-                        String query=a.optString("query").trim(),extra=query.isEmpty()?("series".equals(a.optString("type"))?"/skip=0":""):"/search="+Sources.encode(query);
-                        String type="series".equals(a.optString("type"))?"series":"movie";
-                        String data=Sources.text(Sources.CINEMA+"/catalog/"+type+"/top"+extra+".json");
-                        answer=new JSONObject(data).getJSONArray("metas");if(query.isEmpty())cache(type.equals("series")?"series.json":"movies.json",data);break;
+                        JSONObject result=mediaCatalog().catalog(a.optString("query"),a.optString("type"),a.optInt("page",1));answer=result;
+                        if(a.optString("query").isEmpty()&&a.optInt("page",1)==1&&result.getJSONArray("items").length()>0)cache("series".equals(a.optString("type"))?"series.json":"movies.json",new JSONObject().put("metas",result.getJSONArray("items")).toString());break;
                     }
-                    case "detail": {
-                        String imdb=a.getString("id");if(!imdb.matches("tt\\d+"))throw new IOException("Некорректный фильм");
-                        answer=new JSONObject(Sources.text(Sources.CINEMA+"/meta/movie/"+imdb+".json")).getJSONObject("meta");break;
+                    case "detail": case "series-detail": {
+                        JSONObject selected=a.optJSONObject("item");if(selected==null)selected=new JSONObject().put("id",a.getString("id")).put("type",method.equals("series-detail")?"series":"movie");
+                        answer=mediaCatalog().detail(selected,a.optBoolean("refresh"));break;
                     }
-                    case "series-detail": answer=SeriesCatalog.detail(new File(getCacheDir(),"series"),a.getString("id"),a.optBoolean("refresh"));break;
-                    case "series-torrents": answer=SeriesCatalog.torrents(a.getString("name"),a.getString("id"),a.getInt("season"),a.getInt("episode"));break;
-                    case "torrents": answer=Sources.torrents(a.optString("name"),a.optString("id"),a.optString("year"));break;
+                    case "series-season": answer=mediaCatalog().season(a.getJSONObject("item"),a.getInt("season"));break;
+                    case "series-torrents": case "torrents": answer=CatalogSources.search(a,method.equals("series-torrents"));break;
                     case "channels": {
                         String data=Sources.text(Sources.IPTV);JSONArray channels=Sources.parseM3u(data);if(channels.length()==0)throw new IOException("Список каналов пуст");cache("channels.m3u",data);liveChannels=channels;customPlaylist=false;getSharedPreferences("iptv",MODE_PRIVATE).edit().putBoolean("custom",false).apply();refreshChannelBackups();answer=channels;break;
                     }
@@ -159,6 +157,20 @@ public class MainActivity extends Activity {
     private static String readStream(InputStream in)throws IOException{ByteArrayOutputStream out=new ByteArrayOutputStream();byte[] b=new byte[8192];int n;while((n=in.read(b))!=-1)out.write(b,0,n);return out.toString("UTF-8");}
     private static JSONObject inputResult(String kind,String value){JSONObject o=new JSONObject();try{o.put("kind",kind).put("value",value);}catch(JSONException ignored){}return o;}
     private static String message(Throwable e){String m=e.getMessage();return m==null?e.getClass().getSimpleName():m;}
+    private MediaCatalog mediaCatalog(){SharedPreferences p=getSharedPreferences("catalog-credentials",MODE_PRIVATE);return new MediaCatalog(new File(getCacheDir(),"media-catalog"),p.getString("kp",""),p.getString("tmdb",""));}
+    private void catalogCredential(String provider){
+        if(!provider.equals("kp")&&!provider.equals("tmdb"))return;
+        EditText input=new EditText(this);input.setSingleLine(true);input.setTextSize(18);input.setPadding(28,16,28,16);input.setInputType(android.text.InputType.TYPE_CLASS_TEXT|android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD);
+        input.setHint(provider.equals("kp")?"Ключ Kinopoisk API Unofficial":"API key или Read Access Token TMDB");
+        AlertDialog dialog=new AlertDialog.Builder(this).setTitle(provider.equals("kp")?"Подключить русский каталог":"Подключить TMDB")
+            .setMessage((provider.equals("kp")?"Ключ из личного кабинета kinopoiskapiunofficial.tech. Это независимый сервис.":"Ключ из themoviedb.org → Настройки → API.")+" Ключ хранится только в приложении на этом телевизоре.")
+            .setView(input).setNegativeButton("Отмена",null).setNeutralButton("Отключить",(d,w)->{getSharedPreferences("catalog-credentials",MODE_PRIVATE).edit().remove(provider).apply();catalogChanged();})
+            .setPositiveButton("Проверить и сохранить",null).create();dialog.show();
+        dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(v->{String value=input.getText().toString().trim();if(!value.matches("[A-Za-z0-9._-]{16,2048}")){input.setError("Проверьте ключ");return;}dialog.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(false);
+            network.execute(()->{boolean ok=false;try{MediaCatalog.request(provider,provider.equals("kp")?"/api/v2.2/films/301":"/configuration",value);ok=true;}catch(Exception ignored){}final boolean success=ok;ui.post(()->{if(destroyed)return;if(success){getSharedPreferences("catalog-credentials",MODE_PRIVATE).edit().putString(provider,value).apply();dialog.dismiss();catalogChanged();}else{dialog.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(true);input.setError("Не удалось подключиться. Проверьте ключ и интернет.");}});});});
+        input.requestFocus();dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
+    }
+    private void catalogChanged(){TorrentEngine.deleteTree(new File(getCacheDir(),"media-catalog"));try{event("catalog-state",mediaCatalog().state());}catch(Exception ignored){}}
     private void startVoiceSearch(boolean channels){
         try{startActivityForResult(VoiceSearch.intent(channels),channels?VoiceSearch.CHANNELS:VoiceSearch.MOVIES);}
         catch(ActivityNotFoundException|SecurityException unavailable){event("toast","Голосовой ввод недоступен. Проверьте приложение Google и микрофон пульта или введите название клавиатурой.");}
@@ -292,6 +304,7 @@ public class MainActivity extends Activity {
         }).show();
     }
     private void showInput(String kind,String currentValue){
+        if(kind.startsWith("catalog-")){catalogCredential(kind.substring(8));return;}
         EditText input=new EditText(this);input.setSingleLine(true);input.setTextSize(18);input.setPadding(28,16,28,16);
         input.setText(currentValue);input.setSelection(input.length());
         String title=kind.equals("magnet")?"Вставьте magnet-ссылку":kind.equals("epg")?"Ссылка на программу передач XMLTV":kind.equals("playlist")?"Ссылка на M3U-плейлист":kind.equals("search-channel")?"Название телеканала":"Фильм, сериал или шоу";
