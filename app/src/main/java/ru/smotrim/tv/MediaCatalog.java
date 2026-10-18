@@ -47,7 +47,7 @@ public final class MediaCatalog {
             .put("aliases",strings(text(raw,"nameRu"),text(raw,"nameOriginal"),text(raw,"nameEn"))).put("year",text(raw,"year","startYear"))
             .put("poster",image(text(raw,"posterUrlPreview","posterUrl"))).put("background",image(text(raw,"coverUrl")))
             .put("description",text(raw,"description","shortDescription")).put("genres",fields(raw.optJSONArray("genres"),"genre")).put("countries",countries)
-            
+
             .put("imdbRating",text(raw,"ratingKinopoisk","ratingImdb")).put("ratingSource","Кинопоиск");
         out.put("origin",countries.length()==0?"unknown":countries.toString().contains("Россия")||countries.toString().contains("СССР")?"ru":"other");
         if(raw.optInt("filmLength")>0)out.put("runtime",raw.optInt("filmLength")+" мин");return out;
