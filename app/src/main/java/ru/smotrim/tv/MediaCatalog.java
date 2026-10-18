@@ -116,7 +116,7 @@ public final class MediaCatalog {
         labels.add("Cinemeta");jobs.add(()->list("cinemeta",t,q,p));
         if(!q.isEmpty()){labels.add("Сериалы Cinemeta");jobs.add(()->list("cinemeta",t.equals("movie")?"series":"movie",q,p));}
         ExecutorService pool=Executors.newFixedThreadPool(jobs.size());List<JSONArray> lists=new ArrayList<>();JSONArray warnings=new JSONArray();boolean more=false;int successful=0;
-        try{List<Future<JSONObject>> results=pool.invokeAll(jobs,22,TimeUnit.SECONDS);for(int i=0;i<results.size();i++)try{JSONObject r=results.get(i).get();lists.add(r.getJSONArray("items"));more|=r.optBoolean("hasMore");successful++;}catch(Exception e){warnings.put(labels.get(i)+": временно недоступен. Проверьте подключение и ключ в настройках.");}}finally{pool.shutdownNow();}
+        try{List<Future<JSONObject>> results=pool.invokeAll(jobs,22,TimeUnit.SECONDS);for(int i=0;i<results.size();i++)try{JSONObject r=results.get(i).get();lists.add(r.getJSONArray("items"));more|=r.optBoolean("hasMore");successful++;}catch(Exception e){warnings.put(labels.get(i)+": временно недоступен. "+(labels.get(i).contains("Cinemeta")?"Повторите поиск позже.":"Проверьте подключение и ключ в настройках."));}}finally{pool.shutdownNow();}
         if(!kp)warnings.put("Русский каталог не подключён. Добавьте ключ в настройках, чтобы находить больше российских фильмов и шоу.");
         if(successful==0)throw new IOException("Каталоги не ответили. Проверьте интернет и повторите поиск.");
         return new JSONObject().put("items",mix(lists)).put("warnings",warnings).put("hasMore",more&&page<20).put("page",page).put("providers",state());

@@ -7,6 +7,18 @@ import java.util.*;
 import static org.junit.Assert.*;
 
 public class MediaCatalogTest {
+    @Test public void russianSearchHintIsUsedForAnEnglishCardAndSeasonPacks()throws Exception{
+        JSONObject args=new JSONObject().put("name","Dune: Prophecy").put("searchHint","ДЮНА ПРОРОЧЕСТВО").put("season",1).put("episode",3).put("aliases",new JSONArray().put("Dune Prophecy").put("Dune: Prophecy"));
+        assertEquals(Arrays.asList("ДЮНА ПРОРОЧЕСТВО S01E03","Dune: Prophecy S01E03","ДЮНА ПРОРОЧЕСТВО 1 сезон"),CatalogSources.queries(args,true));
+        args.getJSONArray("aliases").put("Дюна: Пророчество");args.put("searchHint","ДЮНА");
+        assertEquals("Дюна: Пророчество S01E03",CatalogSources.queries(args,true).get(0));
+        assertEquals(Arrays.asList("Дюна: Пророчество","Dune: Prophecy"),CatalogSources.queries(args,false));
+    }
+    @Test public void cinemetaFailureDoesNotAskForAnApiKey()throws Exception{
+        MediaCatalog c=new MediaCatalog(Files.createTempDirectory("catalog-warning").toFile(),true,false,(provider,path)->{if(provider.equals("kp"))return new JSONObject().put("items",new JSONArray().put(kp(123,"Шоу",2024)));throw new IOException("offline");});
+        JSONArray warnings=c.catalog("Шоу","series",1).getJSONArray("warnings");assertEquals(2,warnings.length());
+        for(int i=0;i<warnings.length();i++)assertFalse(warnings.getString(i).contains("ключ"));
+    }
     @Test public void cinemetaDetailWorksWithoutKeysAndLocalizesOldImdbCard()throws Exception{
         List<String> calls=new ArrayList<>();
         MediaCatalog c=new MediaCatalog(Files.createTempDirectory("catalog-no-keys").toFile(),false,false,(provider,path)->{

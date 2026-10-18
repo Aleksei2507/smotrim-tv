@@ -20,10 +20,18 @@ const mediaIds=m=>[m?.id,m?.imdbId,m?.historyId,...(Array.isArray(m?.ids)?m.ids:
 const sameMedia=(a,b)=>(a?.type||'movie')===(b?.type||'movie')&&mediaIds(a).some(id=>mediaIds(b).includes(id));
 function uniqueMedia(items){const out=[];for(const m of items){if(!m?.id)continue;const i=out.findIndex(v=>sameMedia(v,m));if(i<0)out.push(m);else out[i]={...out[i],...m,id:out[i].id,ids:[...new Set([...mediaIds(out[i]),...mediaIds(m)])]};}return out;}
 function filterMedia(items,kind='all',origin='all'){return items.filter(m=>(kind==='all'||(kind==='series'?m.type==='series'&&m.kind!=='show':kind===(m.kind||m.type)))&&(origin==='all'||m.origin===origin));}
+function searchSelection(item,query){const hint=String(query||'').trim();return {...item,...(hint&&hint.length<=100?{searchHint:hint}:{})};}
+function audioLanguages(source){const s=String(source?.title||'').replace(/[_.]+/g,' ').replace(/(?:\bsub(?:s|titles)?\b|субтитры)[\s:([+-]*(?:(?:rus|russian|рус|eng|english|ukr|ukrainian)\b[\s,)/+\]-]*)+/gi,' ').replace(/\b(?:rus|russian|eng|english|ukr|ukrainian)\s+sub(?:s|titles)?\b/gi,' '),out=[];
+ if(/\b(?:rus|russian|dvo|mvo|avo)\b|русск(?:ая|ий|ое)\s+(?:озвучк|перевод|звук)|дубляж/i.test(s))out.push('ru');
+ if(/\b(?:eng|english)\b|английск(?:ая|ий|ое)\s+(?:озвучк|звук)/i.test(s))out.push('en');
+ if(/\b(?:ukr|ukrainian)\b|украинск(?:ая|ий|ое)\s+(?:озвучк|звук)/i.test(s))out.push('uk');
+ return out;
+}
+function audioLabel(source){const langs=audioLanguages(source);return langs.length?langs.map(v=>({ru:'RUS',en:'ENG',uk:'UKR'})[v]).join(' / ')+' · по названию раздачи':'Язык звука не указан';}
+function languageRank(source,prefs){if(!prefs.language||prefs.language==='auto')return 0;const langs=audioLanguages(source);return langs.includes(prefs.language)?2:langs.length?0:1;}
 function seriesId(item,file){if(item.movie?.type==='series'&&contentId(item.movie))return 'series:'+contentId(item.movie);if(file?.episode==null)return contentId(item.movie)||'link:'+item.url;const name=file.seriesName||String(item.sourceMovie?.name||item.movie?.name||'').split(/(?:s\d|сезон|season|\d+\s*сезон|серии)/i)[0];return name.trim()?'series:'+clean(name).toLowerCase():'series:'+item.url;}
 function rankedSources(items,prefs){const resolution=s=>/2160|4k/i.test(s.quality+' '+s.title)?2160:/1080/i.test(s.quality+' '+s.title)?1080:/720/i.test(s.quality+' '+s.title)?720:0;
- const language=s=>(prefs.language==='ru'?/(?:rus|рус|дубл|dvo|mvo|avo|dub)/i:prefs.language==='en'?/(?:eng|англ|original)/i:prefs.language==='uk'?/(?:ukr|укр)/i:/$a/).test(s.title);
- return items.map((s,i)=>({s,i})).sort((a,b)=>Number(a.s.seeds===0)-Number(b.s.seeds===0)||(prefs.quality!=='auto'?Number(resolution(b.s)===+prefs.quality)-Number(resolution(a.s)===+prefs.quality):0)||(Number(language(b.s))-Number(language(a.s)))||(b.s.seeds||0)-(a.s.seeds||0)||a.i-b.i).map(x=>x.s);
+ return items.map((s,i)=>({s,i})).sort((a,b)=>Number(a.s.seeds===0)-Number(b.s.seeds===0)||languageRank(b.s,prefs)-languageRank(a.s,prefs)||(prefs.quality!=='auto'?Number(resolution(b.s)===+prefs.quality)-Number(resolution(a.s)===+prefs.quality):0)||(b.s.seeds||0)-(a.s.seeds||0)||a.i-b.i).map(x=>x.s);
 }
 function bufferAhead(p){return Math.max(0,Math.floor(((p.buffered||0)-(p.position||0))/1000));}
 function bufferingLabel(p,fallback){if(p.playWhenReady===false)return 'Видео на паузе';return p.preparing===false?'Подгружаем следующий фрагмент…':fallback||'Подключаемся к раздающим…';}
@@ -50,9 +58,9 @@ function sourceScope(text,target){
  if(season)return 1;
  return 2;
 }
-function episodeSources(items,target,prefs){return rankedSources(items,prefs).map(s=>({...s,episodeScope:sourceScope(s.title,target)})).filter(s=>s.episodeScope!==3).sort((a,b)=>Number(a.seeds===0)-Number(b.seeds===0)||a.episodeScope-b.episodeScope);}
+function episodeSources(items,target,prefs){return rankedSources(items,prefs).map(s=>({...s,episodeScope:sourceScope(s.title,target)})).filter(s=>s.episodeScope!==3).sort((a,b)=>Number(a.seeds===0)-Number(b.seeds===0)||languageRank(b,prefs)-languageRank(a,prefs)||a.episodeScope-b.episodeScope);}
 function readability(value){return {size:['normal','large','largest'].includes(value?.size)?value.size:'normal',contrast:value?.contrast===true,motion:value?.motion===true};}
 
-const api={contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
+const api={searchSelection,audioLanguages,audioLabel,contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
 if(typeof module!=='undefined')module.exports=api;else root.TVFeatures=api;
 })(typeof window!=='undefined'?window:globalThis);
