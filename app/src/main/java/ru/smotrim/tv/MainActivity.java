@@ -35,9 +35,12 @@ public class MainActivity extends Activity {
     private final SleepTimer sleepTimer=new SleepTimer();
     private boolean selectingFile;private JSONArray pendingFiles=new JSONArray();
     private ApkUpdates updates;private boolean resumed,awaitingUpdatePermission,installPreparing;
+    private boolean backgrounded,resumePlaybackOnForeground=true;
+    private volatile JSONObject pendingPlaybackRestore;
 
     @Override public void onCreate(Bundle state){
         super.onCreate(state);fullscreen();
+        pendingPlaybackRestore=state==null?null:PlaybackSnapshot.restore(state.getString(PlaybackSnapshot.STATE_KEY));
         updates=new ApkUpdates(this,new ApkUpdates.Listener(){
             public void changed(JSONObject state){event("update",state);}
             public void ready(){ui.post(()->{if(!destroyed&&resumed&&now==null)installUpdate();});}
@@ -107,7 +110,7 @@ public class MainActivity extends Activity {
             try {
                 JSONObject a=new JSONObject(args);Object answer;
                 switch(method){
-                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",new JSONObject(cached("movies.json","movies.json")).getJSONArray("metas")).put("series",new JSONObject(cached("series.json","series.json")).getJSONArray("metas")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("bufferStorage",selectedBufferStorage()).put("update",updates.state()).put("preferences",playbackPreferences());break;
+                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",new JSONObject(cached("movies.json","movies.json")).getJSONArray("metas")).put("series",new JSONObject(cached("series.json","series.json")).getJSONArray("metas")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("bufferStorage",selectedBufferStorage()).put("update",updates.state()).put("preferences",playbackPreferences()).put("restorePlayback",pendingPlaybackRestore);break;
                     case "preferences": answer=playbackPreferences();break;
                     case "memory-info": answer=PlaybackHealth.snapshot(MainActivity.this);break;
                     case "preferences-set": {
@@ -215,7 +218,7 @@ public class MainActivity extends Activity {
     }
     private int availableBufferMb(int requested){ActivityManager manager=(ActivityManager)getSystemService(ACTIVITY_SERVICE);if(manager==null)return TorrentBufferPolicy.MIN_MB;ActivityManager.MemoryInfo memory=new ActivityManager.MemoryInfo();manager.getMemoryInfo(memory);return TorrentBufferPolicy.effective(requested,memory.totalMem,memory.availMem,memory.threshold,memory.lowMemory);}
     private void startPlayback(JSONObject item)throws Exception {
-        stopPlayback(false,false);now=item;resumePosition=Math.max(0,item.optLong("position"));final int generation=playbackGeneration;
+        stopPlayback(false,false);now=item;pendingPlaybackRestore=null;resumePlaybackOnForeground=!item.optBoolean("paused");resumePosition=Math.max(0,item.optLong("position"));final int generation=playbackGeneration;
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         if("torrent".equals(item.optString("kind"))){
             int requested=selectedBufferMb();boolean disk="disk".equals(selectedBufferStorage());
@@ -250,13 +253,14 @@ public class MainActivity extends Activity {
                 public void connecting(String message){if(generation==playbackGeneration)event("loading",message);}
                 public void playing(String workingUrl){if(generation==playbackGeneration)prefs.edit().putString("working:"+channelId,workingUrl).apply();}
                 public void failed(String message){playbackError(generation,new IOException(message));}
-            });livePlayback.start();
+            });livePlayback.start(resumed&&resumePlaybackOnForeground);
         }
     }
     private void selectFile(TorrentEngine engine,int index,int generation){
         torrentWork.execute(()->{try{
             engine.select(index);
             ui.post(()->{if(generation!=playbackGeneration||engine.isClosed())return;
+                try{now.put("fileIndex",index);}catch(JSONException ignored){}
                 MediaSource source=new ProgressiveMediaSource.Factory(()->new TorrentDataSource(engine)).createMediaSource(MediaItem.fromUri(Uri.fromFile(engine.file())));
                 selectingFile=false;event("selectedFile",index);createPlayer(source);
             });
@@ -269,19 +273,20 @@ public class MainActivity extends Activity {
         player.setTrackSelectionParameters(PlaybackTracks.apply(this,player.getTrackSelectionParameters()));
         video.setPlayer(player);final ExoPlayer created=player;final int generation=playbackGeneration;final boolean live=source==null;
         player.addListener(new Player.Listener(){
+            @Override public void onPlayWhenReadyChanged(boolean playWhenReady,int reason){if(player==created&&playWhenReady&&!resumed)created.pause();}
             @Override public void onPlayerError(PlaybackException error){if(player==created&&!live)playbackError(generation,new IOException(torrent!=null&&torrent.failure()!=null?torrent.failure():"Не удалось воспроизвести: "+error.getErrorCodeName()+". Попробуйте другую раздачу."));}
             @Override public void onPlaybackStateChanged(int state){if(player==created&&!live&&state==Player.STATE_ENDED){
                 try{event("finished",new JSONObject().put("sleep",sleepTimer.afterEpisode()));}catch(JSONException ignored){}
                 if(sleepTimer.afterEpisode()){stopPlayback(true);event("toast","Просмотр остановлен: таймер сна");}
             }}
         });
-        if(source!=null){player.setMediaSource(source);if(resumePosition>0)player.seekTo(resumePosition);player.prepare();player.play();}
+        if(source!=null){player.setMediaSource(source);if(resumePosition>0)player.seekTo(resumePosition);player.prepare();player.setPlayWhenReady(resumed&&resumePlaybackOnForeground);}
     }
     private void commandPlayer(String cmd){
         if(cmd.equals("stop")){stopPlayback(true);return;}
         if(cmd.startsWith("sleep:")){try{int minutes=Integer.parseInt(cmd.substring(6));if(now==null)return;sleepTimer.set(minutes,SystemClock.elapsedRealtime());publishSleep();}catch(IllegalArgumentException ignored){}return;}
         if(cmd.startsWith("file:")&&selectingFile&&torrent!=null){try{String[] parts=cmd.split(":");if(parts.length<2||parts.length>3)return;int index=Integer.parseInt(parts[1]);long position=parts.length>2?Math.max(0,Long.parseLong(parts[2])):resumePosition;boolean valid=false;for(int i=0;i<pendingFiles.length();i++)if(pendingFiles.optJSONObject(i).optInt("index")==index)valid=true;if(valid){resumePosition=position;selectingFile=false;selectFile(torrent,index,playbackGeneration);}}catch(NumberFormatException ignored){}return;}
-        if(player==null)return;
+        if(player==null){if(cmd.equals("pause"))resumePlaybackOnForeground=!resumePlaybackOnForeground;return;}
         switch(cmd){
             case "pause":if(player.getPlayWhenReady())player.pause();else player.play();break;
             case "back":player.seekBack();break;
@@ -333,16 +338,16 @@ public class MainActivity extends Activity {
             if(torrent!=null&&torrent.failure()!=null){playbackError(playbackGeneration,new IOException(torrent.failure()));ui.postDelayed(this,1000);return;}
             JSONObject status=torrent==null?new JSONObject():torrent.status();
             status.put("playing",player!=null&&player.isPlaying()).put("loading",player==null||player.getPlaybackState()==Player.STATE_BUFFERING);
-            status.put("preparing",player==null).put("playWhenReady",player==null||player.getPlayWhenReady());
+            status.put("preparing",player==null).put("playWhenReady",player==null?resumePlaybackOnForeground:player.getPlayWhenReady());
             if(player!=null)status.put("position",player.getCurrentPosition()).put("duration",Math.max(0,player.getDuration())).put("buffered",player.getBufferedPosition());
             status.put("sleepRemaining",sleepTimer.remaining(SystemClock.elapsedRealtime())).put("sleepEpisode",sleepTimer.afterEpisode());
-            event("playback",status);
+            if(resumed)event("playback",status);
         }catch(Exception ignored){}}
         ui.postDelayed(this,1000);
     }};
     private void stopPlayback(boolean notify){stopPlayback(notify,true);}
     private void stopPlayback(boolean notify,boolean reportPosition){
-        playbackGeneration++;selectingFile=false;pendingFiles=new JSONArray();if(notify)sleepTimer.clear();
+        playbackGeneration++;selectingFile=false;pendingFiles=new JSONArray();pendingPlaybackRestore=null;if(notify)sleepTimer.clear();
         if(livePlayback!=null){livePlayback.close();livePlayback=null;}
         TorrentEngine old=torrent;torrent=null;if(old!=null)old.cancel();
         if(player!=null){if(reportPosition)event("position",player.getCurrentPosition());video.setPlayer(null);player.release();player=null;}
@@ -365,8 +370,26 @@ public class MainActivity extends Activity {
         }
         return super.dispatchKeyEvent(e);
     }
-    @Override protected void onPause(){resumed=false;super.onPause();}
-    @Override protected void onStop(){super.onStop();if(now!=null)stopPlayback(true);}
-    @Override protected void onResume(){super.onResume();resumed=true;fullscreen();if(awaitingUpdatePermission){awaitingUpdatePermission=false;if(getPackageManager().canRequestPackageInstalls())ui.post(this::installUpdate);else event("toast","Разрешение не выдано. APK сохранён: установку можно повторить из раздела «Обновления»");}}
+    @Override protected void onPause(){
+        resumed=false;backgrounded=true;
+        if(now!=null&&player!=null){resumePlaybackOnForeground=player.getPlayWhenReady();player.pause();event("position",player.getCurrentPosition());}
+        super.onPause();
+    }
+    @Override protected void onStop(){super.onStop();if(isFinishing())stopPlayback(true);}
+    @Override protected void onResume(){
+        super.onResume();resumed=true;fullscreen();
+        if(backgrounded&&now!=null){
+            if(sleepTimer.expired(SystemClock.elapsedRealtime()))stopPlayback(true);
+            else {if(player!=null)player.setPlayWhenReady(resumePlaybackOnForeground);event("foreground",true);}
+        }
+        backgrounded=false;
+        if(awaitingUpdatePermission){awaitingUpdatePermission=false;if(getPackageManager().canRequestPackageInstalls())ui.post(this::installUpdate);else event("toast","Разрешение не выдано. APK сохранён: установку можно повторить из раздела «Обновления»");}
+    }
+    @Override protected void onNewIntent(Intent intent){super.onNewIntent(intent);setIntent(intent);}
+    @Override protected void onSaveInstanceState(Bundle state){
+        JSONObject snapshot=now==null?pendingPlaybackRestore:PlaybackSnapshot.capture(now,player==null?resumePosition:player.getCurrentPosition(),backgrounded?resumePlaybackOnForeground:player==null?resumePlaybackOnForeground:player.getPlayWhenReady());
+        if(snapshot!=null)state.putString(PlaybackSnapshot.STATE_KEY,snapshot.toString());
+        super.onSaveInstanceState(state);
+    }
     @Override protected void onDestroy(){stopPlayback(false);destroyed=true;webGeneration++;if(recoveryDialog!=null){recoveryDialog.dismiss();recoveryDialog=null;}if(updates!=null)updates.close();ui.removeCallbacks(ticker);if(web!=null){web.removeJavascriptInterface("Native");web.destroy();web=null;}network.shutdownNow();torrentWork.shutdownNow();cleanup.shutdown();super.onDestroy();}
 }

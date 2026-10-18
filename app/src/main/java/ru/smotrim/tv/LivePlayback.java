@@ -31,8 +31,12 @@ public final class LivePlayback implements AutoCloseable,Player.Listener {
         this.player=player;this.streams=streams;this.listener=listener;player.addListener(this);
     }
     public void start(){
+        start(true);
+    }
+    public void start(boolean playWhenReady){
         if(closed)return;
         if(streams.isEmpty()){listener.failed("В плейлисте нет подходящей ссылки на этот канал.");return;}
+        player.setPlayWhenReady(playWhenReady);
         open();
     }
     private void open(){
@@ -51,7 +55,7 @@ public final class LivePlayback implements AutoCloseable,Player.Listener {
             }
         };
         player.setMediaSource(new DefaultMediaSourceFactory(http).setLoadErrorHandlingPolicy(policy).createMediaSource(MediaItem.fromUri(stream.optString("url"))));
-        player.prepare();player.play();
+        player.prepare();
         handler.postDelayed(()->{if(!closed&&!pending&&token==attempt&&player.getPlaybackState()!=Player.STATE_READY)recover(new IOException("Сервер не начал передачу за 15 секунд"),false);},15000);
     }
     @Override public void onPlayerError(PlaybackException error){

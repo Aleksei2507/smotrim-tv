@@ -32,9 +32,12 @@ public class LivePlaybackTest {
                     public void connecting(String message){}
                     public void playing(String url){working.set(url);}
                     public void failed(String message){error.set(message);}
-                });live[0].start();
+                });live[0].start(false);
             });
             try{
+                long prepared=System.currentTimeMillis()+15000;while(working.get()==null&&error.get()==null&&System.currentTimeMillis()<prepared)Thread.sleep(100);
+                assertNull(error.get());assertNotNull("Fallback prepared while paused",working.get());
+                ins.runOnMainSync(()->{assertFalse("Fallback must preserve pause",player[0].getPlayWhenReady());player[0].play();});
                 long deadline=System.currentTimeMillis()+25000;while(frames.get()<5&&error.get()==null&&System.currentTimeMillis()<deadline)Thread.sleep(100);
                 assertNull(error.get());assertTrue("Video frames after fallback: "+frames.get(),frames.get()>=5);
                 assertTrue(server.missing.get()>0);assertTrue(server.good.get()>0);assertEquals(0,server.denied.get());assertEquals(server.url("/video.mp4"),working.get());
