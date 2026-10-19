@@ -1,0 +1,482 @@
+{
+  "id": "tt21064076",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/18fb6f0fe84e0993e4ffef44e3b06ddbee096d7d34442485cad8f130864c7c3c.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/998971a755c2a9125037edeb955192f7d0a9f5c2332b370dbaa88101df61df13.jpg",
+  "genres": [
+    "Детектив",
+    "Драма",
+    "Криминал"
+  ],
+  "runtime": "50 мин",
+  "imdbRating": "6.8",
+  "releaseInfo": "2023–",
+  "trailers": [],
+  "name": "Фишер",
+  "description": "Интеллигентный следователь Валерий Козырев, его дерзкий напарник из Ростова Евгений Боков и другие коллеги расследуют преступления, связанные с серийными убийствами.",
+  "aliases": [
+    "Фишер",
+    "Fisher"
+  ],
+  "kpId": 4443734,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt21064076.json",
+    "https://www.kinopoisk.ru/film/4443734/"
+  ],
+  "year": "2023",
+  "imdbId": "tt21064076",
+  "ids": [
+    "tt21064076"
+  ],
+  "originalName": "Fisher",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T07:04:57Z",
+  "videos": [
+    {
+      "id": "tt21064076:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "Мальчик Игорь видит в лесу человека с убитым ребенком на руках. Из Ростова приезжает следователь Боков, специалист по маньякам.",
+      "released": "2023-02-08"
+    },
+    {
+      "id": "tt21064076:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "Боков с коллегами Козыревым и Добровольской находят на одной из дач череп подростка. У них новый подозреваемый — грузчик Макурин.",
+      "released": "2023-02-15"
+    },
+    {
+      "id": "tt21064076:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "Обыск у Макурина подтверждает худшие подозрения. В округе снова пропадает мальчик, а Игорь с приятелями явно что-то скрывают.",
+      "released": "2023-02-22"
+    },
+    {
+      "id": "tt21064076:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "Отец Игоря пишет статью о маньяке, а следователи ищут Фишера среди шахматистов. Боков пытается устроить жену в московскую клинику.",
+      "released": "2023-03-01"
+    },
+    {
+      "id": "tt21064076:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "Задержанный в лесу шахматист Дима кажется идеальным кандидатом на роль маньяка. Оставленный Фишером ребус указывает на новый труп.",
+      "released": "2023-03-08"
+    },
+    {
+      "id": "tt21064076:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "Следователи проводят обыск на даче Игоря, и тот признается в обмане. Врачи считают, что у жены Бокова есть шанс выздороветь.",
+      "released": "2023-03-15"
+    },
+    {
+      "id": "tt21064076:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "Пять лет спустя детей опять начинают убивать. Боков и Козырев снова вместе ищут Фишера, а Добровольская ведет свое расследование.",
+      "released": "2023-03-22"
+    },
+    {
+      "id": "tt21064076:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "Анализ крови помогает установить личность маньяка. Запертая в подвале Добровольская пытается спасти жизнь похищенному подростку.",
+      "released": "2023-03-29"
+    },
+    {
+      "id": "tt21064076:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "Боков пытается узнать, где Фишер закопал тело мальчика Саши. В городе Курортный неизвестный похищает двоих детей и требует выкуп.",
+      "released": "2025-05-29"
+    },
+    {
+      "id": "tt21064076:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "Боков старается поддержать молодого следователя Злобина. Начальник милиции Райкина ищет пропавшую девочку и её мать, Ершову.",
+      "released": "2025-06-05"
+    },
+    {
+      "id": "tt21064076:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "Боков надеется выйти на маньяка, зверски убита ещё одна девушка. Злобин уверен, что его жена Дина связалась с сектой.",
+      "released": "2025-06-12"
+    },
+    {
+      "id": "tt21064076:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "Мэр города требует от Райкиной быстрых результатов. Следователи пытаются разобраться в обстоятельствах гибели Ершовой.",
+      "released": "2025-06-19"
+    },
+    {
+      "id": "tt21064076:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-06-26"
+    },
+    {
+      "id": "tt21064076:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-07-03"
+    },
+    {
+      "id": "tt21064076:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2025-07-10"
+    },
+    {
+      "id": "tt21064076:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2025-07-17"
+    },
+    {
+      "id": "tt21064076:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-05-28"
+    },
+    {
+      "id": "tt21064076:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-06-04"
+    },
+    {
+      "id": "tt21064076:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-06-11"
+    },
+    {
+      "id": "tt21064076:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-06-18"
+    },
+    {
+      "id": "tt21064076:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-06-25"
+    },
+    {
+      "id": "tt21064076:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-07-02"
+    },
+    {
+      "id": "tt21064076:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-07-09"
+    },
+    {
+      "id": "tt21064076:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-07-16"
+    },
+    {
+      "id": "tt21064076:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt21064076:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt21064076:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt21064076:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt21064076:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt21064076:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt21064076:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt21064076:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Фишер [S01] (2022) WEB-DL 1080p",
+      "magnet": "magnet:?xt=urn:btih:73bb37f016f52aca19330d2b76aeeeacac6c340a&dn=Fisher-S01-2022-WEB-DL-1080p&xl=20396716007&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/63145/",
+      "quality": "1080p",
+      "source": "JacRed · torrentby",
+      "bytes": 20401094656,
+      "size": "19.00 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер [S01] (2022) WEB-DL 1080p"
+    },
+    {
+      "title": "Фишер (1 сезон: 1-8 серии из 8) / 2022 / РУ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:315E3907CDE78F6BAF8121BECCCAF4ADCD3384F8",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 20111184363,
+      "size": "18.73 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер (1 сезон: 1-8 серии из 8) / 2022 / РУ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Фишер / Сезон: 1 / Серии: 1-8 из 8 (Сергей Тарамаев, Любовь Львова) [2022, Детектив, драма, криминал, триллер, WEBRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:D4506EFF2843EC2B1BBFA46B7E47E2FA5C95ECF2&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 7784628224,
+      "size": "7.25 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер / Сезон: 1 / Серии: 1-8 из 8 (Сергей Тарамаев, Любовь Львова) [2022, Детектив, драма, криминал, триллер, WEBRip 720p]"
+    },
+    {
+      "title": "Фишер (2023) WERip [H.264/720p] (сезон 1, серии 1-8 из 8)",
+      "magnet": "magnet:?xt=urn:btih:92CF7D4F5A354250C1E3D9AF14FC673D8D1F32DB",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 11166914969,
+      "size": "10.40 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер (2023) WERip [H.264/720p] (сезон 1, серии 1-8 из 8)"
+    },
+    {
+      "title": "Фишер [02x01 из 08] (2025) WEBRip 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:81b9a037de3955e9a1e731576f00077c4a0b22d1&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 1374389534,
+      "size": "1.28 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер [02x01 из 08] (2025) WEBRip 1080p от ExKinoRay"
+    },
+    {
+      "title": "Фишер [02x01-03 из 08] (2025) WEBRip 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:714c885757c0238a2040e0e4ce7d6902aa7a0396&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 4294967296,
+      "size": "4.00 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер [02x01-03 из 08] (2025) WEBRip 1080p от ExKinoRay"
+    },
+    {
+      "title": "Фишер [02x01-04 из 08] (2025) WEBRip 720p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:18cd8bab3b732fdc798c79ffd91d34e8c722ec77&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 4015794421,
+      "size": "3.74 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер [02x01-04 из 08] (2025) WEBRip 720p от ExKinoRay"
+    },
+    {
+      "title": "Фишер [02x01-07 из 08] (2025) WEBRip 720p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:22b579e2fb4fc13edc4e42d74aa0c7436935bd1e&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 8257074626,
+      "size": "7.69 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер [02x01-07 из 08] (2025) WEBRip 720p от ExKinoRay"
+    },
+    {
+      "title": "Фишер (После Фишера. Инквизитор) / Сезон: 3 / Серии: 1-8 из 8 (Ольга Френкель) [2026, Россия, детектив, драма, криминал, WEBRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:41E7D36370353C9E9BD3A77D072036D557D2F0D7&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 12476879994,
+      "size": "11.62 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер (После Фишера. Инквизитор) / Сезон: 3 / Серии: 1-8 из 8 (Ольга Френкель) [2026, Россия, детектив, драма, криминал, WEBRip 1080p]"
+    },
+    {
+      "title": "Фишер (После Фишера. Инквизитор) (3 сезон) [+8 серия] [Оригинал] [1080p]",
+      "magnet": "magnet:?xt=urn:btih:FE6EF482E9F18F8293A79F6834424ECA6A4844B0&xl=21976550028&dn=Fisher.S03.WEB-DL.1080p.torrent&tr=http%3A%2F%2Fultradox.studio%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.fatkhoala.org%3A13760%2Fannounce&tr=udp%3A%2F%2Ftracker.tallpenguin.org%3A15790%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · ultradox",
+      "bytes": 21979495137,
+      "size": "20.47 GB",
+      "episode": 0,
+      "episodeFrom": 8,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер (После Фишера. Инквизитор) (3 сезон) [+8 серия] [Оригинал] [1080p]"
+    },
+    {
+      "title": "Фишер / После Фишера. Инквизитор [S03] (2026) WEBRip 720p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:ee35ca0f6bb58e34d3d5959a35dd97f76a4db05c&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 6506875453,
+      "size": "6.06 GB",
+      "episode": 0,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фишер / После Фишера. Инквизитор [S03] (2026) WEBRip 720p от ExKinoRay"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T07:03:52Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt21064076/img",
+    "background": "https://live.metahub.space/background/medium/tt21064076/img"
+  }
+}

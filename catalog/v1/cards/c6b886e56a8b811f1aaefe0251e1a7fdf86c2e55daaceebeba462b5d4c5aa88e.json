@@ -1,0 +1,126 @@
+{
+  "id": "tt21097264",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b9ac076405e8523e0699d5ae79b5ac3511459607b2abc0c1669943804aec1f8a.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9eda6e77359d3660107027a7477c3e654b1c1d86852beddae3231cfe6114ddfe.jpg",
+  "genres": [
+    "Драма"
+  ],
+  "runtime": "59 мин",
+  "imdbRating": "8.1",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "M9NWvGZViCg",
+      "type": "Trailer"
+    }
+  ],
+  "name": "К востоку от Эдема",
+  "description": "сериал",
+  "origin": "other",
+  "aliases": [
+    "К востоку от Эдема",
+    "East of Eden"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt21097264.json",
+    "https://www.wikidata.org/wiki/Q130633026"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt21097264",
+  "ids": [
+    "tt21097264"
+  ],
+  "originalName": "East of Eden",
+  "year": "2026",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T07:03:52Z",
+  "videos": [
+    {
+      "id": "tt21097264:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-10-01"
+    },
+    {
+      "id": "tt21097264:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-10-01"
+    },
+    {
+      "id": "tt21097264:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-10-01"
+    },
+    {
+      "id": "tt21097264:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-10-01"
+    },
+    {
+      "id": "tt21097264:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-10-01"
+    },
+    {
+      "id": "tt21097264:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-10-01"
+    },
+    {
+      "id": "tt21097264:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-10-01"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "К востоку от Эдема / East of Eden / Сезон: 1 / Серии: 1-7 из 7 (Гарт Дэвис, Лор де Клермон-Тоннер) [2026, США, драма, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:BC9018ED091C497F631DD9A1E225D85F67D4053B&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 19746112143,
+      "size": "18.39 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "К востоку от Эдема / East of Eden / Сезон: 1 / Серии: 1-7 из 7 (Гарт Дэвис, Лор де Клермон-Тоннер) [2026, США, драма, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T07:03:52Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt21097264/img",
+    "background": "https://images.metahub.space/background/medium/tt21097264/img"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "tt22526100",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fdc48276b8503ce21514857d5aaf5de719e111a6500be0e10fd244ec7c0b0011.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/afe032dd03acaec986e408131559be4ba1d6b7a1fa6f72944eb2466316ef0f55.jpg",
+  "genres": [
+    "Комедия",
+    "Мелодрама"
+  ],
+  "runtime": "112 мин",
+  "imdbRating": "",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "xwdamnfS6IM",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Гипотеза любви",
+  "description": "фильм Клэр Скэнлон (2026)",
+  "origin": "other",
+  "aliases": [
+    "Гипотеза любви",
+    "The Love Hypothesis"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt22526100.json",
+    "https://www.wikidata.org/wiki/Q136540069"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt22526100",
+  "ids": [
+    "tt22526100"
+  ],
+  "originalName": "The Love Hypothesis",
+  "year": "2026",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T07:04:57Z",
+  "sources": [
+    {
+      "title": "Гипотеза любви / The Love Hypothesis (2026) WEB-DL [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:14023FCCB090814FF7A6BD853CFB9AF9F53CA0D6",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 9159017758,
+      "size": "8.53 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гипотеза любви / The Love Hypothesis (2026) WEB-DL [H.264/1080p] [MVO]"
+    },
+    {
+      "title": "Гипотеза любви / The Love Hypothesis (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:27385A0C6B4675621A9A3C5107C4ED0BAE49EC01",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 17501991731,
+      "size": "16.30 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гипотеза любви / The Love Hypothesis (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] [MVO]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T07:03:52Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt22526100/img",
+    "background": "https://images.metahub.space/background/medium/tt22526100/img"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "tt0099785",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7cb0d7e3d9dd025633aae0fa2f23ee36cf3f32fd809092615f3c89d207980275.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bea73a9b2f1968b8b18bd6709742562aa2aec5f1855627198682ab1a2fc93259.jpg",
+  "genres": [
+    "Комедия",
+    "Семейный"
+  ],
+  "runtime": "103 мин",
+  "imdbRating": "7.8",
+  "releaseInfo": "1990",
+  "trailers": [
+    {
+      "source": "sptc2IcHnc4",
+      "type": "Trailer"
+    },
+    {
+      "source": "dzdpqRGA1qc",
+      "type": "Trailer"
+    },
+    {
+      "source": "1iZBw5Qybuo",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Один дома",
+  "description": "Американское семейство отправляется из Чикаго в Европу, но в спешке сборов бестолковые родители забывают дома... одного из своих детей. Юное создание, однако, не теряется и демонстрирует чудеса изобретательности. И когда в дом залезают грабители, им приходится не раз пожалеть о встрече с милым крошкой.",
+  "aliases": [
+    "Один дома",
+    "Home Alone"
+  ],
+  "kpId": 8124,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0099785.json",
+    "https://www.kinopoisk.ru/film/8124/"
+  ],
+  "year": "1990",
+  "imdbId": "tt0099785",
+  "ids": [
+    "tt0099785"
+  ],
+  "originalName": "Home Alone",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T07:04:57Z",
+  "sources": [
+    {
+      "title": "Один дома / Home Alone (Крис Коламбус / Chris Columbus) [1990, США, комедия, семейный, WEB-DL 1080p] Dub + 4x MVO + 4x DVO + 6x AVO + 4x VO + 2x Ukr + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:97331361D839AEDADC8896FCEAB1C2C72DD79FDE&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 15665893212,
+      "size": "14.59 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Один дома / Home Alone (Крис Коламбус / Chris Columbus) [1990, США, комедия, семейный, WEB-DL 1080p] Dub + 4x MVO + 4x DVO + 6x AVO + 4x VO + 2x Ukr + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Один дома / Home Alone (Крис Коламбус / Chris Columbus) [1990, США, комедия, BDRip 1080p] 3 x MVO (Family Fan Edition, ОРТ) + AVO (Михалев) + Original Eng + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:D3918AF52F846602087FCE963FD55467C4B4B5E9&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 13443247636,
+      "size": "12.52 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Один дома / Home Alone (Крис Коламбус / Chris Columbus) [1990, США, комедия, BDRip 1080p] 3 x MVO (Family Fan Edition, ОРТ) + AVO (Михалев) + Original Eng + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Один дома / Home Alone (Крис Коламбус / Chris Columbus) [1990, США, комедия, семейный, UHD BDRemux 2160p, HDR10, Dolby Vision] [Hybrid] Dub + 4x MVO + 5x DVO + 6x AVO + 4x VO + 2x MVO (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:2D0B98AE658EEAED1571CBBB18F0082E36C9E879&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 79843442032,
+      "size": "74.36 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Один дома / Home Alone (Крис Коламбус / Chris Columbus) [1990, США, комедия, семейный, UHD BDRemux 2160p, HDR10, Dolby Vision] [Hybrid] Dub + 4x MVO + 5x DVO + 6x AVO + 4x VO + 2x MVO (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Один дома / Home Alone (Крис Коламбус / Chris Columbus) [1990, США, комедия, приключения, семейный, BDRip 720p] Dub + 3x MVO + 2x AVO + Ukr + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:05D27CE933686862C7CEFF8F040F94D8948610FE&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 8042326261,
+      "size": "7.49 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Один дома / Home Alone (Крис Коламбус / Chris Columbus) [1990, США, комедия, приключения, семейный, BDRip 720p] Dub + 3x MVO + 2x AVO + Ukr + Sub Rus, Eng + Original Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T07:03:52Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt0099785/img",
+    "background": "https://images.metahub.space/background/medium/tt0099785/img"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "tt0137523",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fb2d6112ccfdc1858e44bcec46e7daabaabc5b75c8513b37fcf87d451ea7b6b6.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4ac5cdfde15e08e4b41e38783f6fc94d41a75c186be72fe105afb5e690aa15ad.jpg",
+  "genres": [
+    "Криминал",
+    "Драма",
+    "Триллер"
+  ],
+  "runtime": "139 мин",
+  "imdbRating": "8.8",
+  "releaseInfo": "1999",
+  "trailers": [
+    {
+      "source": "dfeUzm6KF4g",
+      "type": "Trailer"
+    },
+    {
+      "source": "6JnN1DmbqoU",
+      "type": "Trailer"
+    },
+    {
+      "source": "BdJKm16Co6M",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Бойцовский клуб",
+  "description": "Сотрудник страховой компании страдает хронической бессонницей и отчаянно пытается вырваться из мучительно скучной жизни. Однажды в очередной командировке он встречает некоего Тайлера Дёрдена — харизматического торговца мылом с извращенной философией. Тайлер уверен, что самосовершенствование — удел слабых, а единственное, ради чего стоит жить, — саморазрушение.\n\nПроходит немного времени, и вот уже новые друзья лупят друг друга почем зря на стоянке перед баром, и очищающий мордобой доставляет им высшее блаженство. Приобщая других мужчин к простым радостям физической жестокости, они основывают тайный Бойцовский клуб, который начинает пользоваться невероятной популярностью.",
+  "aliases": [
+    "Бойцовский клуб",
+    "Fight Club"
+  ],
+  "kpId": 361,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0137523.json",
+    "https://www.kinopoisk.ru/film/361/"
+  ],
+  "year": "1999",
+  "imdbId": "tt0137523",
+  "ids": [
+    "tt0137523"
+  ],
+  "originalName": "Fight Club",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T07:04:57Z",
+  "sources": [
+    {
+      "title": "Бойцовский клуб / Fight Club (Дэвид Финчер / David Fincher) [1999, США, Германия, триллер, драма, криминал, BDRemux 1080p] [Collector's Edition] Dub (BD CEE) + 4x MVO + 3x DVO + 7x AVO + 4x VO + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:52749AE52F8787BBD58915C2962AD2321F68C781&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 75816910192,
+      "size": "70.61 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бойцовский клуб / Fight Club (Дэвид Финчер / David Fincher) [1999, США, Германия, триллер, драма, криминал, BDRemux 1080p] [Collector's Edition] Dub (BD CEE) + 4x MVO + 3x DVO + 7x AVO + 4x VO + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Бойцовский клуб / Fight Club (Дэвид Финчер / David Fincher) [1999, США, Германия, триллер, драма, криминал, HDTVRip 1080p] Dub + AVO (Диктор CDV) + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:FB85FB02E7B37AACFE94A1FF008A43678B83E9CA&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 14184129495,
+      "size": "13.21 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бойцовский клуб / Fight Club (Дэвид Финчер / David Fincher) [1999, США, Германия, триллер, драма, криминал, HDTVRip 1080p] Dub + AVO (Диктор CDV) + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Бойцовский клуб / Fight Club (Дэвид Финчер / David Fincher) [1999, США, Германия, триллер, драма, криминал, BDRemux 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub + 5x MVO + DVO + 4x VO + 7x AVO + Original (Eng) + Sub (Rus,Eng)",
+      "magnet": "magnet:?xt=urn:btih:1140FB426BE75C3263A21010CFE4F41E88890616&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 115792318300,
+      "size": "107.84 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бойцовский клуб / Fight Club (Дэвид Финчер / David Fincher) [1999, США, Германия, триллер, драма, криминал, BDRemux 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub + 5x MVO + DVO + 4x VO + 7x AVO + Original (Eng) + Sub (Rus,Eng)"
+    },
+    {
+      "title": "Бойцовский клуб / Fight Club (Дэвид Финчер / David Fincher) [1999, США, Германия, триллер, драма, криминал, BDRip 720p] Dub + 3x MVO + DVO + 2x AVO + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:372AEAAB0408BCF12669CBE6A97449DE7EB9E7B6&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 15440407429,
+      "size": "14.38 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бойцовский клуб / Fight Club (Дэвид Финчер / David Fincher) [1999, США, Германия, триллер, драма, криминал, BDRip 720p] Dub + 3x MVO + DVO + 2x AVO + Sub Rus, Eng + Original Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T07:03:52Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt0137523/img",
+    "background": "https://images.metahub.space/background/medium/tt0137523/img"
+  }
+}

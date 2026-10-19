@@ -1,0 +1,65 @@
+{
+  "id": "tt22526100",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt22526100/img",
+  "background": "https://images.metahub.space/background/medium/tt22526100/img",
+  "genres": [
+    "Комедия",
+    "Мелодрама"
+  ],
+  "runtime": "112 мин",
+  "imdbRating": "",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "xwdamnfS6IM",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Гипотеза любви",
+  "description": "фильм Клэр Скэнлон (2026)",
+  "origin": "other",
+  "aliases": [
+    "Гипотеза любви",
+    "The Love Hypothesis"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt22526100.json",
+    "https://www.wikidata.org/wiki/Q136540069"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt22526100",
+  "ids": [
+    "tt22526100"
+  ],
+  "originalName": "The Love Hypothesis",
+  "year": "2026",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T07:03:52Z",
+  "sources": [
+    {
+      "title": "Гипотеза любви / The Love Hypothesis (2026) WEB-DL [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:14023FCCB090814FF7A6BD853CFB9AF9F53CA0D6",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 9159017758,
+      "size": "8.53 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гипотеза любви / The Love Hypothesis (2026) WEB-DL [H.264/1080p] [MVO]"
+    },
+    {
+      "title": "Гипотеза любви / The Love Hypothesis (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:27385A0C6B4675621A9A3C5107C4ED0BAE49EC01",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 17501991731,
+      "size": "16.30 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гипотеза любви / The Love Hypothesis (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] [MVO]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T07:03:52Z"
+}

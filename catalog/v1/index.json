@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792393098,
-  "updatedAt": "2026-10-19T06:57:50Z",
+  "revision": 1792393498,
+  "updatedAt": "2026-10-19T07:04:57Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -1090,12 +1090,11 @@
       "origin": "other",
       "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/856f182a7f790de0dcad843485ff5748f1a27abceef993af2ee744094c530864.jpg",
       "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/39645087ee911fd98bae974b15c0eb78046d261510c7e2a18d4c1dcab534f8fa.jpg",
-      "description": "мини-сериал Майка Флэнагана",
+      "description": "После загадочного пожара на школьном выпускном полиция пытается восстановить цепочку событий, приведших к трагедии. Кэрри Уайт выросла в полной изоляции под контролем религиозной матери Маргарет. После смерти отца девочка впервые оказывается в обычной школе, где наивность, страх и жестокость свер…",
       "originalName": "Carrie",
       "aliases": [
         "Кэрри",
-        "Carrie",
-        "Кэрри (мини-сериал)"
+        "Carrie"
       ],
       "genres": [
         "Драма",
@@ -1103,8 +1102,8 @@
       ],
       "imdbRating": "7.8",
       "runtime": "52 мин",
-      "card": "cards/d93dbff9b1504758c54192afde75a304061e67e8429113ac9adec52a9fa2deba.json",
-      "sha256": "d93dbff9b1504758c54192afde75a304061e67e8429113ac9adec52a9fa2deba",
+      "card": "cards/40a24e9f6aa012182dcaff792e27a04c8bbb219a9c5b05353534d9e31d8fed10.json",
+      "sha256": "40a24e9f6aa012182dcaff792e27a04c8bbb219a9c5b05353534d9e31d8fed10",
       "localized": true,
       "provider": "github"
     },
@@ -1255,8 +1254,8 @@
       ],
       "imdbRating": "8.1",
       "runtime": "59 мин",
-      "card": "cards/f4b195cae52195d19cbc063f0868c8fbcfd70b5723be361238e3a98da6583869.json",
-      "sha256": "f4b195cae52195d19cbc063f0868c8fbcfd70b5723be361238e3a98da6583869",
+      "card": "cards/c6b886e56a8b811f1aaefe0251e1a7fdf86c2e55daaceebeba462b5d4c5aa88e.json",
+      "sha256": "c6b886e56a8b811f1aaefe0251e1a7fdf86c2e55daaceebeba462b5d4c5aa88e",
       "localized": true,
       "provider": "github"
     },
@@ -1314,8 +1313,8 @@
       ],
       "imdbRating": "8.3",
       "runtime": "47 мин",
-      "card": "cards/a62414e722bb06cb3c8a041d26f10ea523070354ec566043fabf206bf35fe746.json",
-      "sha256": "a62414e722bb06cb3c8a041d26f10ea523070354ec566043fabf206bf35fe746",
+      "card": "cards/f474a2a1cac903334163be1e0b219f611621a3c00cd0bcbce9564c42dadfe62a.json",
+      "sha256": "f474a2a1cac903334163be1e0b219f611621a3c00cd0bcbce9564c42dadfe62a",
       "localized": true,
       "provider": "github"
     },
@@ -1434,8 +1433,8 @@
       ],
       "imdbRating": "7.8",
       "runtime": "53 мин",
-      "card": "cards/0d5f81fc4a86d7b63e20e495b4f956c862526e01e0e02ff8b618d7f2f689d679.json",
-      "sha256": "0d5f81fc4a86d7b63e20e495b4f956c862526e01e0e02ff8b618d7f2f689d679",
+      "card": "cards/8fe3652bd58142fc8b354055d2eb7b0813601e2d8c6c28056138b8e05c9eac57.json",
+      "sha256": "8fe3652bd58142fc8b354055d2eb7b0813601e2d8c6c28056138b8e05c9eac57",
       "localized": true,
       "provider": "github"
     },
@@ -1552,8 +1551,8 @@
       ],
       "imdbRating": "8.1",
       "runtime": "53 мин",
-      "card": "cards/40bbae7ac3a0caf4aa2570db7b074b9f85bd9ed6b4e29fee14b0ece8cfe1020c.json",
-      "sha256": "40bbae7ac3a0caf4aa2570db7b074b9f85bd9ed6b4e29fee14b0ece8cfe1020c",
+      "card": "cards/717f26336ba7c4866ea84ebee4456aaaf002f6ac7f8d0dbaa4e8d883007f7a1d.json",
+      "sha256": "717f26336ba7c4866ea84ebee4456aaaf002f6ac7f8d0dbaa4e8d883007f7a1d",
       "localized": true,
       "provider": "github"
     },
@@ -1734,6 +1733,243 @@
       "runtime": "43 мин",
       "card": "cards/233d53180c3aa6ee72d94c7f491909edec0c6dfa09b47920a1cbed5246f91a3a.json",
       "sha256": "233d53180c3aa6ee72d94c7f491909edec0c6dfa09b47920a1cbed5246f91a3a",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt36983905",
+      "ids": [
+        "tt36983905"
+      ],
+      "imdbId": "tt36983905",
+      "name": "Восставший",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/dce76523f264e0069cd3cc332c492c28213904df7723e109232aafc640b2a7dd.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0964cb2d0da7214ccae820926ce5e271b29372b0a2d0eecd3efc81db8da90385.jpg",
+      "description": "1381 год, Англия охвачена беспорядками. Во главе восставших оказывается обычный крестьянин Уот Тайлер, чья семья погибла во время эпидемии чумы. Он никогда не мечтал стать лидером, но именно ему предстоит изменить ход истории.",
+      "originalName": "The Uprising",
+      "aliases": [
+        "Восставший",
+        "The Uprising"
+      ],
+      "genres": [
+        "Боевик",
+        "Драма",
+        "История"
+      ],
+      "imdbRating": "",
+      "runtime": "128 мин",
+      "card": "cards/457437b4dc0d50b7dcf5eebd57fd1ba63b4f2c0b7f9545839b318945dbdd57c1.json",
+      "sha256": "457437b4dc0d50b7dcf5eebd57fd1ba63b4f2c0b7f9545839b318945dbdd57c1",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0238883",
+      "ids": [
+        "tt0238883"
+      ],
+      "imdbId": "tt0238883",
+      "name": "Брат 2",
+      "type": "movie",
+      "year": "2000",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1f722c1cf252610d33ba721420d85e0e238d1680c14415f98f8d54a8c0b8c066.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b085c62d08ab8e9a14bca77c31409545fbf9efa8f9ed5324556587a0898c1f72.jpg",
+      "description": "Участвуя в программе на телевидении, Данила Багров встречает своих друзей по службе в Чечне. Одного из них внезапно убивают. Выясняется, что у того были неприятности из-за брата-хоккеиста в Америке. Данила должен разобраться. Он вылетает в Америку и за компанию берёт с собой старшего брата.",
+      "originalName": "Brat 2",
+      "aliases": [
+        "Брат 2",
+        "Brat 2"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.6",
+      "runtime": "122 мин",
+      "card": "cards/95f9959578e3e42fff45769a3b438bed34daed639aa2a9ba50fedb15c6b84c00.json",
+      "sha256": "95f9959578e3e42fff45769a3b438bed34daed639aa2a9ba50fedb15c6b84c00",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt22526100",
+      "ids": [
+        "tt22526100"
+      ],
+      "imdbId": "tt22526100",
+      "name": "Гипотеза любви",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fdc48276b8503ce21514857d5aaf5de719e111a6500be0e10fd244ec7c0b0011.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/afe032dd03acaec986e408131559be4ba1d6b7a1fa6f72944eb2466316ef0f55.jpg",
+      "description": "фильм Клэр Скэнлон (2026)",
+      "originalName": "The Love Hypothesis",
+      "aliases": [
+        "Гипотеза любви",
+        "The Love Hypothesis"
+      ],
+      "genres": [
+        "Комедия",
+        "Мелодрама"
+      ],
+      "imdbRating": "",
+      "runtime": "112 мин",
+      "card": "cards/14a70dce0012b2f3fce06236171fd576978c7a6efc80b1d0456e161765372f77.json",
+      "sha256": "14a70dce0012b2f3fce06236171fd576978c7a6efc80b1d0456e161765372f77",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt5875444",
+      "ids": [
+        "tt5875444"
+      ],
+      "imdbId": "tt5875444",
+      "name": "Медленные лошади",
+      "type": "series",
+      "year": "2022",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/35e47af47b3f788ca14e52fabef4b3b1159125d3a4f7db5bcd196a4e2689e071.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e4d69bde8a4a68d9501e21f635d36abe1e19a3948c15f397569316a5e8b19185.jpg",
+      "description": "После неудачной миссии агента британской разведки Ривера Картрайта ссылают в Слоу-Хаус. Там собраны такие же провинившиеся агенты, которые выполняют скучные задачи для деспотичного босса Джексона Лэмба. Но всё становится интереснее, когда отделу дают второй шанс.",
+      "originalName": "Slow Horses",
+      "aliases": [
+        "Медленные лошади",
+        "Slow Horses"
+      ],
+      "genres": [
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "46 мин",
+      "card": "cards/188dd667cf8ae660c2c8642e30ed2db92e459c9071aa68eba4e4428dce205a6f.json",
+      "sha256": "188dd667cf8ae660c2c8642e30ed2db92e459c9071aa68eba4e4428dce205a6f",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0099785",
+      "ids": [
+        "tt0099785"
+      ],
+      "imdbId": "tt0099785",
+      "name": "Один дома",
+      "type": "movie",
+      "year": "1990",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7cb0d7e3d9dd025633aae0fa2f23ee36cf3f32fd809092615f3c89d207980275.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bea73a9b2f1968b8b18bd6709742562aa2aec5f1855627198682ab1a2fc93259.jpg",
+      "description": "Американское семейство отправляется из Чикаго в Европу, но в спешке сборов бестолковые родители забывают дома... одного из своих детей. Юное создание, однако, не теряется и демонстрирует чудеса изобретательности. И когда в дом залезают грабители, им приходится не раз пожалеть о встрече с милым кр…",
+      "originalName": "Home Alone",
+      "aliases": [
+        "Один дома",
+        "Home Alone"
+      ],
+      "genres": [
+        "Комедия",
+        "Семейный"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "103 мин",
+      "card": "cards/58a95336327f101c4672a15720c3b1211529a61c99e8a353cfce86ec1a24b402.json",
+      "sha256": "58a95336327f101c4672a15720c3b1211529a61c99e8a353cfce86ec1a24b402",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0137523",
+      "ids": [
+        "tt0137523"
+      ],
+      "imdbId": "tt0137523",
+      "name": "Бойцовский клуб",
+      "type": "movie",
+      "year": "1999",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fb2d6112ccfdc1858e44bcec46e7daabaabc5b75c8513b37fcf87d451ea7b6b6.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4ac5cdfde15e08e4b41e38783f6fc94d41a75c186be72fe105afb5e690aa15ad.jpg",
+      "description": "Сотрудник страховой компании страдает хронической бессонницей и отчаянно пытается вырваться из мучительно скучной жизни. Однажды в очередной командировке он встречает некоего Тайлера Дёрдена — харизматического торговца мылом с извращенной философией. Тайлер уверен, что самосовершенствование — уде…",
+      "originalName": "Fight Club",
+      "aliases": [
+        "Бойцовский клуб",
+        "Fight Club"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "8.8",
+      "runtime": "139 мин",
+      "card": "cards/70e0b52f4a3124d72d1b4c1466eabec6889153fd927e91053df061cb9d24f0ed.json",
+      "sha256": "70e0b52f4a3124d72d1b4c1466eabec6889153fd927e91053df061cb9d24f0ed",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt21064076",
+      "ids": [
+        "tt21064076"
+      ],
+      "imdbId": "tt21064076",
+      "name": "Фишер",
+      "type": "series",
+      "year": "2023",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/18fb6f0fe84e0993e4ffef44e3b06ddbee096d7d34442485cad8f130864c7c3c.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/998971a755c2a9125037edeb955192f7d0a9f5c2332b370dbaa88101df61df13.jpg",
+      "description": "Интеллигентный следователь Валерий Козырев, его дерзкий напарник из Ростова Евгений Боков и другие коллеги расследуют преступления, связанные с серийными убийствами.",
+      "originalName": "Fisher",
+      "aliases": [
+        "Фишер",
+        "Fisher"
+      ],
+      "genres": [
+        "Детектив",
+        "Драма",
+        "Криминал"
+      ],
+      "imdbRating": "6.8",
+      "runtime": "50 мин",
+      "card": "cards/e8cc02204c546a2afd4dcb73c5448071f6e8fb6ec09444adc16f53c5ffd96197.json",
+      "sha256": "e8cc02204c546a2afd4dcb73c5448071f6e8fb6ec09444adc16f53c5ffd96197",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt27543632",
+      "ids": [
+        "tt27543632"
+      ],
+      "imdbId": "tt27543632",
+      "name": "Горничная",
+      "type": "movie",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/aa3207efe6e331d7628da6b0fed72c4aefbc8e7775dc97d6d97b001d306e56a1.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9759e7584a1218bcb0d5a4ce19e25b32a80c5627d36178f6455a705839de4477.jpg",
+      "description": "Милли устраивается прислугой с проживанием к состоятельной семье Винчестер, живущей в загородном особняке. Девушка только что вышла по УДО, и ей необходима эта работа, но находить общий язык с хозяйкой Ниной становится всё сложнее: та заметно не в себе и регулярно к ней цепляется. Зато её супруг…",
+      "originalName": "The Housemaid",
+      "aliases": [
+        "Горничная",
+        "The Housemaid"
+      ],
+      "genres": [
+        "Драма",
+        "Детектив",
+        "Триллер"
+      ],
+      "imdbRating": "6.7",
+      "runtime": "131 мин",
+      "card": "cards/4f35e4ea661731f7eeeffd459011311718b27b73de9699eb4e42f3907792cdcf.json",
+      "sha256": "4f35e4ea661731f7eeeffd459011311718b27b73de9699eb4e42f3907792cdcf",
       "localized": true,
       "provider": "github"
     }

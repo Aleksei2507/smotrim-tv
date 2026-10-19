@@ -1,0 +1,856 @@
+{
+  "id": "tt5875444",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/35e47af47b3f788ca14e52fabef4b3b1159125d3a4f7db5bcd196a4e2689e071.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e4d69bde8a4a68d9501e21f635d36abe1e19a3948c15f397569316a5e8b19185.jpg",
+  "genres": [
+    "Драма",
+    "Триллер"
+  ],
+  "runtime": "46 мин",
+  "imdbRating": "8.4",
+  "releaseInfo": "2022–",
+  "trailers": [
+    {
+      "source": "O9ZJChzPn0U",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Медленные лошади",
+  "description": "После неудачной миссии агента британской разведки Ривера Картрайта ссылают в Слоу-Хаус. Там собраны такие же провинившиеся агенты, которые выполняют скучные задачи для деспотичного босса Джексона Лэмба. Но всё становится интереснее, когда отделу дают второй шанс.",
+  "aliases": [
+    "Медленные лошади",
+    "Slow Horses"
+  ],
+  "kpId": 1331649,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt5875444.json",
+    "https://www.kinopoisk.ru/film/1331649/"
+  ],
+  "year": "2022",
+  "imdbId": "tt5875444",
+  "ids": [
+    "tt5875444"
+  ],
+  "originalName": "Slow Horses",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T07:04:57Z",
+  "videos": [
+    {
+      "id": "tt5875444:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Недотепство заразно",
+      "description": "",
+      "released": "2022-04-01"
+    },
+    {
+      "id": "tt5875444:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Работа под градусом",
+      "description": "",
+      "released": "2022-04-01"
+    },
+    {
+      "id": "tt5875444:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Непрофессионально",
+      "description": "",
+      "released": "2022-04-08"
+    },
+    {
+      "id": "tt5875444:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Приемные часы",
+      "description": "",
+      "released": "2022-04-15"
+    },
+    {
+      "id": "tt5875444:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Фиаско",
+      "description": "",
+      "released": "2022-04-22"
+    },
+    {
+      "id": "tt5875444:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Безрассудство",
+      "description": "",
+      "released": "2022-04-29"
+    },
+    {
+      "id": "tt5875444:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Конечная",
+      "description": "",
+      "released": "2022-12-02"
+    },
+    {
+      "id": "tt5875444:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Из Апшотта с любовью",
+      "description": "",
+      "released": "2022-12-02"
+    },
+    {
+      "id": "tt5875444:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Кто кого перепьёт",
+      "description": "",
+      "released": "2022-12-09"
+    },
+    {
+      "id": "tt5875444:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Цикада",
+      "description": "",
+      "released": "2022-12-16"
+    },
+    {
+      "id": "tt5875444:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Политическое закулисье",
+      "description": "",
+      "released": "2022-12-23"
+    },
+    {
+      "id": "tt5875444:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Старые счета",
+      "description": "",
+      "released": "2022-12-30"
+    },
+    {
+      "id": "tt5875444:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Странные игры",
+      "description": "",
+      "released": "2023-01-01"
+    },
+    {
+      "id": "tt5875444:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Жестокие уроки",
+      "description": "",
+      "released": "2023-12-01"
+    },
+    {
+      "id": "tt5875444:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Переговоры с тиграми",
+      "description": "",
+      "released": "2023-12-08"
+    },
+    {
+      "id": "tt5875444:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Незваные гости",
+      "description": "",
+      "released": "2023-12-15"
+    },
+    {
+      "id": "tt5875444:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Уборка",
+      "description": "",
+      "released": "2023-12-22"
+    },
+    {
+      "id": "tt5875444:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Следы",
+      "description": "",
+      "released": "2023-12-29"
+    },
+    {
+      "id": "tt5875444:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Кража личности",
+      "description": "",
+      "released": "2024-09-04"
+    },
+    {
+      "id": "tt5875444:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "В город приезжает незнакомец",
+      "description": "",
+      "released": "2024-09-04"
+    },
+    {
+      "id": "tt5875444:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "О чём думаешь?",
+      "description": "",
+      "released": "2024-09-11"
+    },
+    {
+      "id": "tt5875444:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Возвращение",
+      "description": "",
+      "released": "2024-09-18"
+    },
+    {
+      "id": "tt5875444:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Смертельная опасность",
+      "description": "",
+      "released": "2024-09-25"
+    },
+    {
+      "id": "tt5875444:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Здравствуй и прощай",
+      "description": "",
+      "released": "2024-10-02"
+    },
+    {
+      "id": "tt5875444:5:1",
+      "season": 5,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt5875444:5:2",
+      "season": 5,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt5875444:5:3",
+      "season": 5,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt5875444:5:4",
+      "season": 5,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt5875444:5:5",
+      "season": 5,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt5875444:5:6",
+      "season": 5,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt5875444:6:1",
+      "season": 6,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt5875444:6:2",
+      "season": 6,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt5875444:6:3",
+      "season": 6,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt5875444:6:4",
+      "season": 6,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt5875444:6:5",
+      "season": 6,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt5875444:6:6",
+      "season": 6,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt5875444:6:7",
+      "season": 6,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    },
+    {
+      "number": 5,
+      "name": "Сезон 5"
+    },
+    {
+      "number": 6,
+      "name": "Сезон 6"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Медленные лошади / Хромые лошади / Slow Horses [S01] (2022) WEB-DL 1080p | Невафильм",
+      "magnet": "magnet:?xt=urn:btih:84e04002398ca50213414be39dd87f93159dcd75&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 24846385807,
+      "size": "23.14 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые лошади / Slow Horses [S01] (2022) WEB-DL 1080p | Невафильм"
+    },
+    {
+      "title": "Медленные лошади / Хромые лошади / Slow Horses [01x01-02 из 06] (2022) WEB-DL 1080p | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:86aef69c9638ed6f17903e59b9d892ad4e7a8b04&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 8718783610,
+      "size": "8.12 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые лошади / Slow Horses [01x01-02 из 06] (2022) WEB-DL 1080p | HDrezka Studio"
+    },
+    {
+      "title": "Медленные лошади / Хромые лошади / Slow Horses [S01] (2022) WEB-DL-HEVC 2160p | 4K | HDR | Невафильм, HDrezka Studio, LostFilm",
+      "magnet": "magnet:?xt=urn:btih:1dfeb01ef35c60d5d8095e965164393d10f35510&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "4K",
+      "source": "JacRed · korsars",
+      "bytes": 56532507033,
+      "size": "52.65 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые лошади / Slow Horses [S01] (2022) WEB-DL-HEVC 2160p | 4K | HDR | Невафильм, HDrezka Studio, LostFilm"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 1 / Серии: 1-6 из 6 (Джеймс Хоуз) [2022, Великобритания, США, триллер, драма, HEVC, HDR10, WEB-DL 2160p, 4k] Dub (Невафильм) + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:DEE94CA43484E0AEF9417DA71B82B988CA654D1E&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 54760833024,
+      "size": "51.00 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 1 / Серии: 1-6 из 6 (Джеймс Хоуз) [2022, Великобритания, США, триллер, драма, HEVC, HDR10, WEB-DL 2160p, 4k] Dub (Невафильм) + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Хромые лошади / Slow Horses [S01] (2022) WEB-DL 720p | Невафильм",
+      "magnet": "magnet:?xt=urn:btih:f400af889dfa4d58bb71a13fab062ac9a1ce0415&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 10060960890,
+      "size": "9.37 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые лошади / Slow Horses [S01] (2022) WEB-DL 720p | Невафильм"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 1 / Серии: 1-6 из 6 (Джеймс Хоуз) [2022, Великобритания, США, триллер, драма, WEB-DL 720p] MVO (HDrezka Studio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:906ADF4B81B0A7865E9B0F206885D4409E8C028C&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 9373766123,
+      "size": "8.73 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 1 / Серии: 1-6 из 6 (Джеймс Хоуз) [2022, Великобритания, США, триллер, драма, WEB-DL 720p] MVO (HDrezka Studio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Хромые лошади / Slow Horses [02x01-02 из 06] (2022) WEB-DL 1080p | Невафильм",
+      "magnet": "magnet:?xt=urn:btih:71bb2b188d5a6c64dcb192857749cd0a012d4515&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 8042326261,
+      "size": "7.49 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые лошади / Slow Horses [02x01-02 из 06] (2022) WEB-DL 1080p | Невафильм"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 2 / Серии: 1-6 из 6 (Джереми Лавринг) [2022, Великобритания, США, триллер, детектив, WEB-DL 1080p] Dub (Невафильм) + Original + Sub (Rus, Eng, Heb, Ukr)",
+      "magnet": "magnet:?xt=urn:btih:C2DA31B2E9077D5EC0EA9DEC8B30FF02E664F1D6&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 24159191040,
+      "size": "22.50 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 2 / Серии: 1-6 из 6 (Джереми Лавринг) [2022, Великобритания, США, триллер, детектив, WEB-DL 1080p] Dub (Невафильм) + Original + Sub (Rus, Eng, Heb, Ukr)"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 2 / Серии: 1-6 из 6 (Джереми Лавринг) [2022, Великобритания, США, триллер, детектив, HDR10, WEB-DL 2160p, 4k] Dub (Невафильм) + 3 x MVO (LostFilm, HDrezka Studio, TVShows)+ Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:28493500D9262AF45B07EC2241E86692FB60B239&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 56027848376,
+      "size": "52.18 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 2 / Серии: 1-6 из 6 (Джереми Лавринг) [2022, Великобритания, США, триллер, детектив, HDR10, WEB-DL 2160p, 4k] Dub (Невафильм) + 3 x MVO (LostFilm, HDrezka Studio, TVShows)+ Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 2 / Серии: 1-6 из 6 (Джереми Лавринг) [2022, Великобритания, США, триллер, детектив, HEVC, HDR10, WEB-DL 2160p, 4K] Dub (Невафильм) + 3 x MVO (LostFilm, HDrezka Studio, TVShows)+ Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:2A0932F6B9A32936E74345E2D20745E79C97AE15&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 56027848376,
+      "size": "52.18 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 2 / Серии: 1-6 из 6 (Джереми Лавринг) [2022, Великобритания, США, триллер, детектив, HEVC, HDR10, WEB-DL 2160p, 4K] Dub (Невафильм) + 3 x MVO (LostFilm, HDrezka Studio, TVShows)+ Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Хромые лошади / Slow Horses [S02] (2022) WEB-DL 720p | Невафильм",
+      "magnet": "magnet:?xt=urn:btih:c499a679107e6dcbd06d1221fd4734a8c0923f0f&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 8128225607,
+      "size": "7.57 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые лошади / Slow Horses [S02] (2022) WEB-DL 720p | Невафильм"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 2 / Серии: 1-6 из 6 (Джеймс Хоуз) [2022, Великобритания, США, триллер, детектив, WEB-DL 720p] Dub (Невафильм) + MVO (LostFilm, HDrezka Studio, TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:28990EE6CACE4E147A0E16326E8502D5F59C7540&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 11607149117,
+      "size": "10.81 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 2 / Серии: 1-6 из 6 (Джеймс Хоуз) [2022, Великобритания, США, триллер, детектив, WEB-DL 720p] Dub (Невафильм) + MVO (LostFilm, HDrezka Studio, TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Хромые лошади / Slow Horses [S03] (2023) WEB-DLRip 1080p | LostFilm, NewStudio, HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:5ac3ae414e8bd170b5f9d47fd68afae51577b155&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 23761906565,
+      "size": "22.13 GB",
+      "episode": 0,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые лошади / Slow Horses [S03] (2023) WEB-DLRip 1080p | LostFilm, NewStudio, HDRezka Studio"
+    },
+    {
+      "title": "Медленные лошади / Хромые лошади / Slow Horses [03x01-05 из 06] (2023) WEB-DLRip 1080p | LostFilm, NewStudio, HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:a4f70829b9d3d40870dd601b22b974aaab8df986&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 19649475379,
+      "size": "18.30 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые лошади / Slow Horses [03x01-05 из 06] (2023) WEB-DLRip 1080p | LostFilm, NewStudio, HDRezka Studio"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 3 / Серии: 1-6 из 6 (Сауль Метцштайн) [2023, Великобритания, США, Триллер, детектив, HEVC, Dolby Vision, HDR10+, HDR10, WEB-DL 2160p, 4k] [Hybrid] 4 x MVO (LostFilm, NewStudio, HDRezka, TVShows) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:42582EEF641AA4035547632BF59569CEA8799485&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 52602611957,
+      "size": "48.99 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 3 / Серии: 1-6 из 6 (Сауль Метцштайн) [2023, Великобритания, США, Триллер, детектив, HEVC, Dolby Vision, HDR10+, HDR10, WEB-DL 2160p, 4k] [Hybrid] 4 x MVO (LostFilm, NewStudio, HDRezka, TVShows) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 3 / Серии: 1-6 из 6 (Сауль Метцштайн) [2023, Великобритания, США, Триллер, детектив, HEVC, SDR, WEB-DL 2160p, 4k] 4 x MVO (LostFilm, NewStudio, HDRezka, TVShows) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:53681C6D511044E271D68A6C0EC2FD7F66EDD5DB&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 45676977192,
+      "size": "42.54 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 3 / Серии: 1-6 из 6 (Сауль Метцштайн) [2023, Великобритания, США, Триллер, детектив, HEVC, SDR, WEB-DL 2160p, 4k] 4 x MVO (LostFilm, NewStudio, HDRezka, TVShows) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 3 / Серии: 1-6 из 6 (Сауль Метцштайн) [2023, Великобритания, США, триллер, детектив, WEB-DL 720p] MVO (LostFilm, NewStudio, TVShows, HDrezka) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:A9F9DD9E090BDB4583CC97ACBBE80BC9A68D5F8D&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 10995116277,
+      "size": "10.24 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 3 / Серии: 1-6 из 6 (Сауль Метцштайн) [2023, Великобритания, США, триллер, детектив, WEB-DL 720p] MVO (LostFilm, NewStudio, TVShows, HDrezka) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади (3 сезон: 1-5 серии из 6) / Slow Horses / 2023 / ПМ (HDRezka Studio, LostFilm, NewStudio, TVShows), АП (Сербин), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:100ADD6203DF256115FDB5AE1DF44352B552318C",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 11607149117,
+      "size": "10.81 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади (3 сезон: 1-5 серии из 6) / Slow Horses / 2023 / ПМ (HDRezka Studio, LostFilm, NewStudio, TVShows), АП (Сербин), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 4 / Серии: 1-6 из 6 (Адам Рэндолл) [2024, Великобритания, США, Триллер, детектив, WEB-DL 1080p] 4 x MVO (HDRezka Studio, LostFilm, TVShows, LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Ukr, Eng, Heb)",
+      "magnet": "magnet:?xt=urn:btih:E62866F40466B0A9713428F8EF7B21E33D795EDF&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 24900072898,
+      "size": "23.19 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 4 / Серии: 1-6 из 6 (Адам Рэндолл) [2024, Великобритания, США, Триллер, детектив, WEB-DL 1080p] 4 x MVO (HDRezka Studio, LostFilm, TVShows, LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Ukr, Eng, Heb)"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses [4 сезон] (2024) WEB-DL 1080p | P, L | LostFilm, HDRezka Studio, LE-Production",
+      "magnet": "magnet:?xt=urn:btih:87aeb1ff38402a40c8749c5c478b9c59dc4214ac&dn=Медленные лошади (Slow Horses) Сезон 4&tr=udp://exodus.desync.com:6969&tr=http://bt.piratbit.club/fffffffff0ca8bcf84d4c8ba3769bb91/announce&tr=udp://explodie.org:6969&tr=udp://tracker.torrent.eu.org:451/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://tracker.dler.org:6969/announce",
+      "quality": "1080p",
+      "source": "JacRed · megapeer",
+      "bytes": 24105503948,
+      "size": "22.45 GB",
+      "episode": 0,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses [4 сезон] (2024) WEB-DL 1080p | P, L | LostFilm, HDRezka Studio, LE-Production"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 4 / Серии: 1-6 из 6 (Адам Рэндолл) [2024, Великобритания, США, Триллер, детектив, Dolby Vision, HDR10+, HDR10, WEB-DL 2160p, 4k] [Hybrid] 4 x MVO (LostFilm, HDRezka, TVShows, LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:E5475179399BD1B2288B90FE701207BDF6D81309&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 54148800184,
+      "size": "50.43 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 4 / Серии: 1-6 из 6 (Адам Рэндолл) [2024, Великобритания, США, Триллер, детектив, Dolby Vision, HDR10+, HDR10, WEB-DL 2160p, 4k] [Hybrid] 4 x MVO (LostFilm, HDRezka, TVShows, LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 4 / Серии: 1-6 из 6 (Адам Рэндолл) [2024, Великобритания, США, Триллер, детектив, SDR, WEB-DL 2160p, 4k] 4 x MVO (LostFilm, HDRezka, TVShows, LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:6153F0E252D5D4D6AD95442A5AF60961431FF527&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 46589657743,
+      "size": "43.39 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 4 / Серии: 1-6 из 6 (Адам Рэндолл) [2024, Великобритания, США, Триллер, детектив, SDR, WEB-DL 2160p, 4k] 4 x MVO (LostFilm, HDRezka, TVShows, LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 4 / Серии: 1-6 из 6 (Адам Рэндолл) [2024, Великобритания, США, триллер, детектив, WEB-DL 720p] MVO (LostFilm) + MVO (TVShows) + MVO (HDrezka) + MVO (LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:9CF7589D6F401D8FE968ECDA0B1355EB05387E18&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 10436770529,
+      "size": "9.72 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 4 / Серии: 1-6 из 6 (Адам Рэндолл) [2024, Великобритания, США, триллер, детектив, WEB-DL 720p] MVO (LostFilm) + MVO (TVShows) + MVO (HDrezka) + MVO (LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади (4 сезон: 1-2 серии из 6) / Slow Horses / 2024 / ПМ (HDRezka, LostFilm, TVShows), АП (Сербин), ЛМ (LE-Production), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:836CE7F2DA4F7BAFE42277D88ACA8EDD71C9ACCE",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 3457448673,
+      "size": "3.22 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади (4 сезон: 1-2 серии из 6) / Slow Horses / 2024 / ПМ (HDRezka, LostFilm, TVShows), АП (Сербин), ЛМ (LE-Production), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 5 / Серии: 1-6 из 6 (Сауль Метцштайн) [2025, Великобритания, США, Триллер, детектив, WEB-DL 1080p] 6 x MVO (TVShows, LostFilm, WStudio, HDRezka Studio, Red Head Sound, LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Ukr, Eng, Heb)",
+      "magnet": "magnet:?xt=urn:btih:6EDD482981981C13C81C6305FA7A497156C7A9F6&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 26145613414,
+      "size": "24.35 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 5 / Серии: 1-6 из 6 (Сауль Метцштайн) [2025, Великобритания, США, Триллер, детектив, WEB-DL 1080p] 6 x MVO (TVShows, LostFilm, WStudio, HDRezka Studio, Red Head Sound, LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Ukr, Eng, Heb)"
+    },
+    {
+      "title": "Медленные лошади (Хромые кони) (5 сезон: 1-6 серии из 6) / Slow Horses / 2025 / ПМ (LostFilm) / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:626136B4E95839A0D133D25DC6E9385E921A4918",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 15333033246,
+      "size": "14.28 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади (Хромые кони) (5 сезон: 1-6 серии из 6) / Slow Horses / 2025 / ПМ (LostFilm) / WEB-DL (1080p)"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 5 / Серии: 1-6 из 6 (Сауль Метцштайн) [2025, Великобритания, США, Триллер, детектив, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] MVO (TVShows, LostFilm, WStudio, HDRezka Studio, Red Head Sound, LE-Production) + AVO + Original + Sub (Rus, Ukr, Eng, Heb)",
+      "magnet": "magnet:?xt=urn:btih:55BE6EF6AA0D02830A764F9D799C49EDBD0CCD0D&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 55136642662,
+      "size": "51.35 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 5 / Серии: 1-6 из 6 (Сауль Метцштайн) [2025, Великобритания, США, Триллер, детектив, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] MVO (TVShows, LostFilm, WStudio, HDRezka Studio, Red Head Sound, LE-Production) + AVO + Original + Sub (Rus, Ukr, Eng, Heb)"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 5 / Серии: 1-6 из 6 (Адам Рэндолл) [2025, Великобритания, США, Триллер, детектив, SDR, WEB-DL 2160p, 4k] 6 x MVO (LostFilm, HDRezka, Red Head Sound, WStudio, TVShows, LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:04C49EBA3927D1144466E30F746AF69285E9B3E9&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 47717086658,
+      "size": "44.44 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses / Сезон: 5 / Серии: 1-6 из 6 (Адам Рэндолл) [2025, Великобритания, США, Триллер, детектив, SDR, WEB-DL 2160p, 4k] 6 x MVO (LostFilm, HDRezka, Red Head Sound, WStudio, TVShows, LE-Production) + AVO (Ю. Сербин) + Original + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 5 / Серии: 1-6 из 6 (Сауль Метцштайн) [2025, Великобритания, США, триллер, детектив, WEB-DL 720p] 6 x MVO + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:AA6CE056B8CCB00D42C5814157391B83310DF306&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 11735998136,
+      "size": "10.93 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 5 / Серии: 1-6 из 6 (Сауль Метцштайн) [2025, Великобритания, США, триллер, детектив, WEB-DL 720p] 6 x MVO + AVO (Ю. Сербин) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses (2026) WEB-DL [H.264/1080p] (сезон 6, серии 1-3 из 6) HDRezka Studio, TVShows, LostFilm, Red Head Sound, Сербин (обновляемая)",
+      "magnet": "magnet:?xt=urn:btih:BE80381C34F381431550504B3FBAADB9B66630D9",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 12777527705,
+      "size": "11.90 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 6,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses (2026) WEB-DL [H.264/1080p] (сезон 6, серии 1-3 из 6) HDRezka Studio, TVShows, LostFilm, Red Head Sound, Сербин (обновляемая)"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses (2026) WEB-DL [H.264/1080p] (сезон 6, серии 1-5 из 6) LostFilm, HDRezka, RHS (обновляемая)",
+      "magnet": "magnet:?xt=urn:btih:62793E40888FEE99E9993A8AF20AA65B58E8E708",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 21474836480,
+      "size": "20.00 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 6,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses (2026) WEB-DL [H.264/1080p] (сезон 6, серии 1-5 из 6) LostFilm, HDRezka, RHS (обновляемая)"
+    },
+    {
+      "title": "Медленные лошади / Хромые кони / Slow Horses (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] (сезон 6, серии 1-3 из 6) HDRezka Studio, TVShows, LostFilm, Red Head Sound, Сербин (обновляемая)",
+      "magnet": "magnet:?xt=urn:btih:50865293B4AD78EF51158E97D5C28DB9819CCBE7",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 28561532518,
+      "size": "26.60 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 6,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Хромые кони / Slow Horses (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] (сезон 6, серии 1-3 из 6) HDRezka Studio, TVShows, LostFilm, Red Head Sound, Сербин (обновляемая)"
+    },
+    {
+      "title": "Медленные лошади / Slow Horses / Сезон: 6 / Серии: 1-3 из 6 (Адам Рэндолл) [2026, Великобритания, США, Триллер, детектив, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] MVO + AVO (Ю. Сербин) + Original + Sub (Rus, Ukr, Eng, Heb)",
+      "magnet": "magnet:?xt=urn:btih:9C72BE84B206D2DA0CD910FC8E029A2980340D25&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 29162827939,
+      "size": "27.16 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 6,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Медленные лошади / Slow Horses / Сезон: 6 / Серии: 1-3 из 6 (Адам Рэндолл) [2026, Великобритания, США, Триллер, детектив, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] MVO + AVO (Ю. Сербин) + Original + Sub (Rus, Ukr, Eng, Heb)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T07:03:52Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt5875444/img",
+    "background": "https://images.metahub.space/background/medium/tt5875444/img"
+  }
+}

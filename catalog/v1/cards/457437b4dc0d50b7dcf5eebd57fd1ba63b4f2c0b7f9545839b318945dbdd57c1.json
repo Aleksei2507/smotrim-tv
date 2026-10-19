@@ -1,0 +1,75 @@
+{
+  "id": "tt36983905",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/dce76523f264e0069cd3cc332c492c28213904df7723e109232aafc640b2a7dd.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0964cb2d0da7214ccae820926ce5e271b29372b0a2d0eecd3efc81db8da90385.jpg",
+  "genres": [
+    "Боевик",
+    "Драма",
+    "История"
+  ],
+  "runtime": "128 мин",
+  "imdbRating": "",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "lyhCxZN4Ro8",
+      "type": "Trailer"
+    },
+    {
+      "source": "ZVkrhHebz1Q",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Восставший",
+  "description": "1381 год, Англия охвачена беспорядками. Во главе восставших оказывается обычный крестьянин Уот Тайлер, чья семья погибла во время эпидемии чумы. Он никогда не мечтал стать лидером, но именно ему предстоит изменить ход истории.",
+  "aliases": [
+    "Восставший",
+    "The Uprising"
+  ],
+  "kpId": 8005532,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt36983905.json",
+    "https://www.kinopoisk.ru/film/8005532/"
+  ],
+  "year": "2026",
+  "imdbId": "tt36983905",
+  "ids": [
+    "tt36983905"
+  ],
+  "originalName": "The Uprising",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T07:04:57Z",
+  "sources": [
+    {
+      "title": "Восставший / The Uprising (2026) UHD WEB-DL 2160p | 4K | HDR10 | Dolby Vision P8 | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:2e9d0d0f5ea026c7b0e02688e9902a746bf84145&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "4K",
+      "source": "JacRed · korsars",
+      "bytes": 24653112279,
+      "size": "22.96 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Восставший / The Uprising (2026) UHD WEB-DL 2160p | 4K | HDR10 | Dolby Vision P8 | D, P | HDRezka Studio"
+    },
+    {
+      "title": "Восставший / The Uprising (2026) WEB-DLRip 720p от New-Team | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:7570c3ddf01556fa8a0a6a47f452303f48e8acd4&dn=Vosstavshiy-The-Uprising-2026-WEB-DLRip-720p-ot-New-Team-D-P-HDRezka-Studio&xl=5003991058&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/216926/Vosstavshiy-The-Uprising-2026-WEB-DLRip-720p-ot-New-Team-D-P-HDRezka-Studio",
+      "quality": "720p",
+      "source": "JacRed · torrentby",
+      "bytes": 5003636899,
+      "size": "4.66 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Восставший / The Uprising (2026) WEB-DLRip 720p от New-Team | D, P | HDRezka Studio"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T07:03:52Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt36983905/img",
+    "background": "https://images.metahub.space/background/medium/tt36983905/img"
+  }
+}
