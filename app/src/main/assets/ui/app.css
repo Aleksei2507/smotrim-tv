@@ -183,10 +183,12 @@ body[data-text-size=largest] .result-cover{width:100px}body[data-text-size=large
 .main.catalog{bottom:110px;display:flex;flex-direction:column}
 .main.catalog>*{flex-shrink:0}
 .main.catalog .page-bar{margin:18px 0}
-.main.catalog .movie-grid{flex:1;min-height:0;grid-template-rows:repeat(2,minmax(0,1fr));gap:28px 24px;margin:0 -14px;padding:14px}
-.main.catalog .movie-card{display:flex;flex-direction:column;align-self:stretch;min-height:0}
+.main.catalog .movie-grid{flex:1;min-height:0;grid-template-columns:repeat(5,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:28px 24px;margin:0 -14px;padding:14px}
+/* Android button defaults must not size flex children by their unbroken text. */
+.main.catalog .movie-card{display:flex;flex-direction:column;align-items:stretch;align-self:stretch;width:100%;max-width:100%;min-width:0;min-height:0;overflow:hidden}
+.main.catalog .movie-title,.main.catalog .movie-meta{width:100%;max-width:100%;min-width:0;box-sizing:border-box;overflow:hidden}
 .main.catalog .movie-card .poster,body:not([data-text-size=normal]) .main.catalog .movie-card .poster{flex:1;min-height:0;height:auto;width:100%}
 .main.catalog .movie-title{flex:none;height:2.4em;margin-top:12px}
-.main.catalog .movie-meta{flex:none;line-height:1.25;min-height:1.25em}
+.main.catalog .movie-meta{display:block;flex:none;white-space:nowrap;text-overflow:ellipsis;line-height:1.25;min-height:1.25em}
 .main.catalog .movie-grid>.empty{grid-column:1/-1;grid-row:1/-1;align-self:start}
 .main.catalog .catalog-notice{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}

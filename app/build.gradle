@@ -7,8 +7,8 @@ android {
         applicationId 'ru.smotrim.tv'
         minSdk 28
         targetSdk 35
-        versionCode = (project.findProperty('smotrimVersionCode') ?: '16').toInteger()
-        versionName = (project.findProperty('smotrimVersionName') ?: '0.6.1')
+        versionCode = (project.findProperty('smotrimVersionCode') ?: '17').toInteger()
+        versionName = (project.findProperty('smotrimVersionName') ?: '0.6.2')
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         ndk { abiFilters 'armeabi-v7a', 'arm64-v8a' }
     }
