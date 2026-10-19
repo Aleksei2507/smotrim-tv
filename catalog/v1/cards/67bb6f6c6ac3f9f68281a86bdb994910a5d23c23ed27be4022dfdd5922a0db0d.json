@@ -1,0 +1,59 @@
+{
+  "id": "tt0118767",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt0118767/img",
+  "background": "https://images.metahub.space/background/medium/tt0118767/img",
+  "genres": [
+    "Криминал",
+    "Драма",
+    "Триллер"
+  ],
+  "runtime": "96 мин",
+  "imdbRating": "7.7",
+  "releaseInfo": "1998",
+  "trailers": [],
+  "name": "Брат",
+  "origin": "ru",
+  "description": "Данила Багров приезжает в Петербург к старшему брату и оказывается в центре криминальных разборок.",
+  "year": "1997",
+  "imdbId": "tt0118767",
+  "ids": [
+    "tt0118767"
+  ],
+  "originalName": "Brother",
+  "aliases": [
+    "Брат",
+    "Brother"
+  ],
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:34:15Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0118767.json"
+  ],
+  "sources": [
+    {
+      "title": "Брат (1997) HDDVDRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:f06373f9eba6a8ed4fc8f54be4c9fae2bab880f8&dn=Brat.1997.HDDVDRip.1080p.mkv&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://opentracker.i2p.rocks:6969/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=udp://tracker.bitsearch.to:1337/announce&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://exodus.desync.com:6969&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · megapeer",
+      "bytes": 4692251770,
+      "size": "4.37 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Брат (1997) HDDVDRip 1080p"
+    },
+    {
+      "title": "Брат (1997) WEB-DL 720p",
+      "magnet": "magnet:?xt=urn:btih:6ee3cea2b8db930e650250744eb9383a3a907d13&dn=Brat.1997.720p.WEB-DL.Rus.HDCLUB.mkv&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://opentracker.i2p.rocks:6969/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=udp://tracker.bitsearch.to:1337/announce&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://exodus.desync.com:6969&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · megapeer",
+      "bytes": 2985002270,
+      "size": "2.78 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Брат (1997) WEB-DL 720p"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:34:15Z"
+}

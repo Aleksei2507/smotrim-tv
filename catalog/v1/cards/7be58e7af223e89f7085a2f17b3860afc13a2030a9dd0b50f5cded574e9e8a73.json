@@ -1,0 +1,108 @@
+{
+  "id": "tt0070233",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt0070233/img",
+  "background": "https://images.metahub.space/background/medium/tt0070233/img",
+  "genres": [
+    "Приключения",
+    "Комедия",
+    "Фантастика"
+  ],
+  "runtime": "88 мин",
+  "imdbRating": "8.2",
+  "releaseInfo": "1973",
+  "trailers": [
+    {
+      "source": "h6YQMOJmDJ4",
+      "type": "Clip"
+    }
+  ],
+  "name": "Иван Васильевич меняет профессию",
+  "origin": "ru",
+  "description": "Изобретённая в квартире машина времени меняет местами советского управдома и царя Ивана Грозного.",
+  "imdbId": "tt0070233",
+  "ids": [
+    "tt0070233"
+  ],
+  "originalName": "Ivan Vasilyevich Changes His Profession",
+  "aliases": [
+    "Иван Васильевич меняет профессию",
+    "Ivan Vasilyevich Changes His Profession"
+  ],
+  "year": "1973",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:34:15Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0070233.json"
+  ],
+  "sources": [
+    {
+      "title": "Иван Васильевич меняет профессию (Леонид Гайдай) [1973, СССР, фантастика, комедия, приключения, семейный, BDRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:C93CF7A90E81470529CE9C9DCB4E3B4F372C80F9&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 12186969702,
+      "size": "11.35 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Иван Васильевич меняет профессию (Леонид Гайдай) [1973, СССР, фантастика, комедия, приключения, семейный, BDRip 1080p]"
+    },
+    {
+      "title": "Иван Васильевич меняет профессию (Леонид Гайдай) [1973, СССР, комедия, WEB-DL 1080p] + Sub Rus + Original Rus",
+      "magnet": "magnet:?xt=urn:btih:FFC4FB7958CE98D365279AE7A2D475271A15445E&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 3704409292,
+      "size": "3.45 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Иван Васильевич меняет профессию (Леонид Гайдай) [1973, СССР, комедия, WEB-DL 1080p] + Sub Rus + Original Rus"
+    },
+    {
+      "title": "Иван Васильевич меняет профессию (Леонид Гайдай) [1973, СССР, фантастика, комедия, приключения, семейный, WEB-DL 2160p, SDR] Original (Rus)",
+      "magnet": "magnet:?xt=urn:btih:9B8B307E77E81DEC4433735A4C9BF52F860A4F01&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 13990855966,
+      "size": "13.03 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Иван Васильевич меняет профессию (Леонид Гайдай) [1973, СССР, фантастика, комедия, приключения, семейный, WEB-DL 2160p, SDR] Original (Rus)"
+    },
+    {
+      "title": "Иван Васильевич меняет профессию / 1973 / РУ / WEBRip (2160p)",
+      "magnet": "magnet:?xt=urn:btih:4E659E8184486AE3A5086EFE004E975F118D6940",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 10995116277,
+      "size": "10.24 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Иван Васильевич меняет профессию / 1973 / РУ / WEBRip (2160p)"
+    },
+    {
+      "title": "Иван Васильевич меняет профессию (Леонид Гайдай) [1973, СССР, фантастика, комедия, приключения, семейный, BDRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:83250A5B068ED02EF3006DAC9091B8EB4AF96163&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 6517612871,
+      "size": "6.07 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Иван Васильевич меняет профессию (Леонид Гайдай) [1973, СССР, фантастика, комедия, приключения, семейный, BDRip 720p]"
+    },
+    {
+      "title": "Иван Васильевич меняет профессию (1973) BDRip 720p от New Team",
+      "magnet": "magnet:?xt=urn:btih:877397ff47c7661c469c32087a8a12dfc36dbeea&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 4692251770,
+      "size": "4.37 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Иван Васильевич меняет профессию (1973) BDRip 720p от New Team"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:34:15Z"
+}

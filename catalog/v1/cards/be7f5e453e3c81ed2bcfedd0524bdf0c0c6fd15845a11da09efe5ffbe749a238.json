@@ -1,0 +1,56 @@
+{
+  "id": "tt6933238",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt6933238/img",
+  "background": "https://images.metahub.space/background/medium/tt6933238/img",
+  "genres": [
+    "Биография",
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "101 мин",
+  "imdbRating": "6.2",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "B3tR6qQjbgI",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Унабомбер",
+  "description": "фильм Януса Меца Педерсена (2026)",
+  "origin": "other",
+  "aliases": [
+    "Унабомбер",
+    "Unabomber",
+    "Unabom"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt6933238.json",
+    "https://www.wikidata.org/wiki/Q139596561"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt6933238",
+  "ids": [
+    "tt6933238"
+  ],
+  "originalName": "Unabomber",
+  "year": "2026",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:34:15Z",
+  "sources": [
+    {
+      "title": "Унабомбер / Unabomber (2026) WEB-DL 1080p от EniaHD | D, P | Movie Dubbing, HDrezka Studio, TVShows",
+      "magnet": "magnet:?xt=urn:btih:1600babec96f63c09299c0e5b13ae9753a8eca4b&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 6055903887,
+      "size": "5.64 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Унабомбер / Unabomber (2026) WEB-DL 1080p от EniaHD | D, P | Movie Dubbing, HDrezka Studio, TVShows"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:34:15Z"
+}

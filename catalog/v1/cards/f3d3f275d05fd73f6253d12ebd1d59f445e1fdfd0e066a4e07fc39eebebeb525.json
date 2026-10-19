@@ -1,0 +1,105 @@
+{
+  "id": "tt15047880",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt15047880/img",
+  "background": "https://images.metahub.space/background/medium/tt15047880/img",
+  "genres": [
+    "Боевик",
+    "Детектив",
+    "Фантастика"
+  ],
+  "runtime": "146 мин",
+  "imdbRating": "6.4",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "icDuEHSxE-w",
+      "type": "Trailer"
+    },
+    {
+      "source": "SCYT8vb2siQ",
+      "type": "Trailer"
+    }
+  ],
+  "name": "День разоблачения",
+  "description": "фильм Стивена Спилберга (2026)",
+  "origin": "other",
+  "aliases": [
+    "День разоблачения",
+    "Disclosure Day",
+    "День раскрытия",
+    "The Dish"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt15047880.json",
+    "https://www.wikidata.org/wiki/Q126683577"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt15047880",
+  "ids": [
+    "tt15047880"
+  ],
+  "originalName": "Disclosure Day",
+  "year": "2026",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:34:15Z",
+  "sources": [
+    {
+      "title": "День разоблачения / Disclosure Day (2026) WEBRip [H.264/1080p] [DVO] [AD]",
+      "magnet": "magnet:?xt=urn:btih:BFE63A787482200B3D804E43A0CBC3E61BC07E6D",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 6163278069,
+      "size": "5.74 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "День разоблачения / Disclosure Day (2026) WEBRip [H.264/1080p] [DVO] [AD]"
+    },
+    {
+      "title": "День разоблачения / Disclosure Day (Стивен Спилберг / Steven Spielberg) [2026, США, фантастика, триллер, WEB-DLRip 1080p] Dub (Продубляж, WinMedia, HDrezka) + MVO (HDrezka, TVShows) + VO (Яроцкий) + Dub (Ukr) + Original Eng + Sub (Rus, Eng, Chi, Ron, Ukr, Multi)",
+      "magnet": "magnet:?xt=urn:btih:11BFCBEC47618C4854BBE8F6B2D082ABFC4E17D3&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%D0%94%D0%B5%D0%BD%D1%8C%20%D1%80%D0%B0%D0%B7%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%2F%20Disclosure%20Day%20(%D0%A1%D1%82%D0%B8%D0%B2%D0%B5%D0%BD%20%D0%A1%D0%BF%D0%B8%D0%BB%D0%B1%D0%B5%D1%80%D0%B3%20%2F%20Steven%20Spielberg)%20%5B2026%2C%20%D0%A1%D0%A8%D0%90%2C%20%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20WEB-DLRip%201080p%5D%20Dub%20(%D0%9F%D1%80%D0%BE%D0%B4%D1%83%D0%B1%D0%BB%D1%8F%D0%B6%2C%20WinMedia%2C%20HD",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 20970177822,
+      "size": "19.53 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "День разоблачения / Disclosure Day (Стивен Спилберг / Steven Spielberg) [2026, США, фантастика, триллер, WEB-DLRip 1080p] Dub (Продубляж, WinMedia, HDrezka) + MVO (HDrezka, TVShows) + VO (Яроцкий) + Dub (Ukr) + Original Eng + Sub (Rus, Eng, Chi, Ron, Ukr, Multi)"
+    },
+    {
+      "title": "День разоблачения / Disclosure Day (Стивен Спилберг / Steven Spielberg) [2026, США, Канада, фантастика, триллер, WEB-DL 2160p, Dolby Vision, HDR10] Dub (Продубляж, WinMedia, HDrezka) + MVO (HDrezka, TVShows) + VO (Яроцкий) + Dub (Ukr) + Original Eng + Sub (Rus, Eng, Chi, Ron, Ukr, Multi)",
+      "magnet": "magnet:?xt=urn:btih:4C3BA663AC31972F16734B68C8D47687E64704B8&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 30204357509,
+      "size": "28.13 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "День разоблачения / Disclosure Day (Стивен Спилберг / Steven Spielberg) [2026, США, Канада, фантастика, триллер, WEB-DL 2160p, Dolby Vision, HDR10] Dub (Продубляж, WinMedia, HDrezka) + MVO (HDrezka, TVShows) + VO (Яроцкий) + Dub (Ukr) + Original Eng + Sub (Rus, Eng, Chi, Ron, Ukr, Multi)"
+    },
+    {
+      "title": "День разоблачения / Disclosure Day (Стивен Спилберг / Steven Spielberg) [2026, США, Канада, фантастика, триллер, WEB-DL 2160p, SDR] Dub (Продубляж, WinMedia, HDrezka) + MVO (HDrezka, TVShows) + VO (Яроцкий) + Dub (Ukr) + Original Eng + Sub (Rus, Eng, Chi, Ron, Ukr, Multi)",
+      "magnet": "magnet:?xt=urn:btih:5005CC0B55095AD6AD171F2743FD37458C197A0A&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 30161407836,
+      "size": "28.09 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "День разоблачения / Disclosure Day (Стивен Спилберг / Steven Spielberg) [2026, США, Канада, фантастика, триллер, WEB-DL 2160p, SDR] Dub (Продубляж, WinMedia, HDrezka) + MVO (HDrezka, TVShows) + VO (Яроцкий) + Dub (Ukr) + Original Eng + Sub (Rus, Eng, Chi, Ron, Ukr, Multi)"
+    },
+    {
+      "title": "День разоблачения / Disclosure Day (Стивен Спилберг / Steven Spielberg) [2026, США, Канада, Новая Зеландия, Япония, фантастика, боевик, триллер, драма, детектив, WEB-DL 720p] Dub (Продубляж, HDRezka, WinMedia) + MVO (TVShows, HDRezka) + DVO (ViruseProject) + VO (Яроцкий) + Original + Sub Rus, Eng",
+      "magnet": "magnet:?xt=urn:btih:24124A4459622A5E9B64885F5D2928CE2AF5E9B4&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 8568459755,
+      "size": "7.98 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "День разоблачения / Disclosure Day (Стивен Спилберг / Steven Spielberg) [2026, США, Канада, Новая Зеландия, Япония, фантастика, боевик, триллер, драма, детектив, WEB-DL 720p] Dub (Продубляж, HDRezka, WinMedia) + MVO (TVShows, HDRezka) + DVO (ViruseProject) + VO (Яроцкий) + Original + Sub Rus, Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:34:15Z"
+}

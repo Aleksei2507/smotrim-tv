@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792389522,
-  "updatedAt": "2026-10-19T05:58:42Z",
+  "revision": 1792391671,
+  "updatedAt": "2026-10-19T06:34:15Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -33,8 +33,8 @@
       ],
       "imdbRating": "9.3",
       "runtime": "142 мин",
-      "card": "cards/6f2f7896e4090f1ee8eac546ee5e7e711de70ab2025b97da32d90f8f9b0bd340.json",
-      "sha256": "6f2f7896e4090f1ee8eac546ee5e7e711de70ab2025b97da32d90f8f9b0bd340",
+      "card": "cards/442a69f09c07d28a12d8cf5545cf078499431f283ce00a89bc1b50999ad96641.json",
+      "sha256": "442a69f09c07d28a12d8cf5545cf078499431f283ce00a89bc1b50999ad96641",
       "localized": true,
       "provider": "github"
     },
@@ -63,8 +63,8 @@
       ],
       "imdbRating": "7.7",
       "runtime": "96 мин",
-      "card": "cards/08a4c01b89a5f87fe335781bd51cc23d2d59fd55109aac6e99d3e97a991811e9.json",
-      "sha256": "08a4c01b89a5f87fe335781bd51cc23d2d59fd55109aac6e99d3e97a991811e9",
+      "card": "cards/67bb6f6c6ac3f9f68281a86bdb994910a5d23c23ed27be4022dfdd5922a0db0d.json",
+      "sha256": "67bb6f6c6ac3f9f68281a86bdb994910a5d23c23ed27be4022dfdd5922a0db0d",
       "localized": true,
       "provider": "github"
     },
@@ -92,8 +92,8 @@
       ],
       "imdbRating": "8.7",
       "runtime": "169 мин",
-      "card": "cards/673a7d72d245f3873e0668ab0484e360d97a247cd82be38c3355dbb604317816.json",
-      "sha256": "673a7d72d245f3873e0668ab0484e360d97a247cd82be38c3355dbb604317816",
+      "card": "cards/775d5e8dc4dabf60bcad93a029fdc9d9a2350780b2752e4d59805b40a0902e77.json",
+      "sha256": "775d5e8dc4dabf60bcad93a029fdc9d9a2350780b2752e4d59805b40a0902e77",
       "localized": true,
       "provider": "github"
     },
@@ -122,8 +122,8 @@
       ],
       "imdbRating": "8.4",
       "runtime": "95 мин",
-      "card": "cards/4a99d01a65e87d79dcfb8183c19a81fa58ac9230d32cf60f115098c95021a66b.json",
-      "sha256": "4a99d01a65e87d79dcfb8183c19a81fa58ac9230d32cf60f115098c95021a66b",
+      "card": "cards/293c2060c9449ae50c86eba5fdd53265c245ade611fcaad84b26915a57892f1f.json",
+      "sha256": "293c2060c9449ae50c86eba5fdd53265c245ade611fcaad84b26915a57892f1f",
       "localized": true,
       "provider": "github"
     },
@@ -152,8 +152,8 @@
       ],
       "imdbRating": "8.6",
       "runtime": "189 мин",
-      "card": "cards/8d22bcf6063e57a065bb6e7fb610426d81be8ffbb644b10fe3a1a4d59cecddd0.json",
-      "sha256": "8d22bcf6063e57a065bb6e7fb610426d81be8ffbb644b10fe3a1a4d59cecddd0",
+      "card": "cards/6d084ade1c8b951b4416dff2d5549319df3ef2cff4aabd0682faf6fee76c61f0.json",
+      "sha256": "6d084ade1c8b951b4416dff2d5549319df3ef2cff4aabd0682faf6fee76c61f0",
       "localized": true,
       "provider": "github"
     },
@@ -182,8 +182,8 @@
       ],
       "imdbRating": "8.2",
       "runtime": "88 мин",
-      "card": "cards/318f5c47244807e7975da7cf28881e1cb1b2bf8942c4883d3b237f72cfe39e6e.json",
-      "sha256": "318f5c47244807e7975da7cf28881e1cb1b2bf8942c4883d3b237f72cfe39e6e",
+      "card": "cards/7be58e7af223e89f7085a2f17b3860afc13a2030a9dd0b50f5cded574e9e8a73.json",
+      "sha256": "7be58e7af223e89f7085a2f17b3860afc13a2030a9dd0b50f5cded574e9e8a73",
       "localized": true,
       "provider": "github"
     },
@@ -1012,6 +1012,251 @@
       "imdbRating": "6.2",
       "card": "cards/6dc6503f6e9d6a438675e6a3e696edd6ec5b3abf1d8bda239bf202281b24a303.json",
       "sha256": "6dc6503f6e9d6a438675e6a3e696edd6ec5b3abf1d8bda239bf202281b24a303",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1966566",
+      "ids": [
+        "tt1966566"
+      ],
+      "imdbId": "tt1966566",
+      "name": "Сталинград",
+      "type": "movie",
+      "year": "2013",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt1966566/img",
+      "background": "https://images.metahub.space/background/medium/tt1966566/img",
+      "description": "российская военная драма режиссёра Фёдора Бондарчука 2013 года",
+      "originalName": "Stalingrad",
+      "aliases": [
+        "Сталинград",
+        "Stalingrad",
+        "Сталинград (фильм, 2013)"
+      ],
+      "genres": [
+        "Боевик",
+        "Драма",
+        "Военный"
+      ],
+      "imdbRating": "5.7",
+      "runtime": "131 мин",
+      "card": "cards/a9eab3f72d8ebe1f1f074389535bea9321acc8318e2f25d7754adc3c05dcecb7.json",
+      "sha256": "a9eab3f72d8ebe1f1f074389535bea9321acc8318e2f25d7754adc3c05dcecb7",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt22084616",
+      "ids": [
+        "tt22084616"
+      ],
+      "imdbId": "tt22084616",
+      "name": "Человек-паук: Новый день",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt22084616/img",
+      "background": "https://images.metahub.space/background/medium/tt22084616/img",
+      "description": "фильм Дестина Дэниела Креттона (2026)",
+      "originalName": "Spider-Man: Brand New Day",
+      "aliases": [
+        "Человек-паук: Новый день",
+        "Spider-Man: Brand New Day",
+        "Человек-паук 4",
+        "Человек-паук: Совершенно новый день",
+        "Spider-Man 4"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "145 мин",
+      "card": "cards/d86a55087a99cfb2a62955d2ebbe3a7ca58a132068f3fbffe6c378486378ed8d.json",
+      "sha256": "d86a55087a99cfb2a62955d2ebbe3a7ca58a132068f3fbffe6c378486378ed8d",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt11540908",
+      "ids": [
+        "tt11540908"
+      ],
+      "imdbId": "tt11540908",
+      "name": "Кэрри",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt11540908/img",
+      "background": "https://images.metahub.space/background/medium/tt11540908/img",
+      "description": "мини-сериал Майка Флэнагана",
+      "originalName": "Carrie",
+      "aliases": [
+        "Кэрри",
+        "Carrie",
+        "Кэрри (мини-сериал)"
+      ],
+      "genres": [
+        "Драма",
+        "Ужасы"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "52 мин",
+      "card": "cards/1d18e284185a9ade64aec4d9b7d0bd81d4933658c76bbaa7f07d24ad64b10ae1.json",
+      "sha256": "1d18e284185a9ade64aec4d9b7d0bd81d4933658c76bbaa7f07d24ad64b10ae1",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt12057168",
+      "ids": [
+        "tt12057168"
+      ],
+      "imdbId": "tt12057168",
+      "name": "Приворот. Чёрное венчание",
+      "type": "movie",
+      "year": "2021",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt12057168/img",
+      "background": "https://images.metahub.space/background/medium/tt12057168/img",
+      "description": "фильм 2021 года",
+      "originalName": "Dark Spell",
+      "aliases": [
+        "Приворот. Чёрное венчание",
+        "Dark Spell",
+        "Privorot. Chernoe venchanie"
+      ],
+      "genres": [
+        "Драма",
+        "Фэнтези",
+        "Ужасы"
+      ],
+      "imdbRating": "4.7",
+      "runtime": "93 мин",
+      "card": "cards/401f9ac6c115db4ba88bd18480f1a55320a0ccaa696a0865727158cf47b028d3.json",
+      "sha256": "401f9ac6c115db4ba88bd18480f1a55320a0ccaa696a0865727158cf47b028d3",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6933238",
+      "ids": [
+        "tt6933238"
+      ],
+      "imdbId": "tt6933238",
+      "name": "Унабомбер",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt6933238/img",
+      "background": "https://images.metahub.space/background/medium/tt6933238/img",
+      "description": "фильм Януса Меца Педерсена (2026)",
+      "originalName": "Unabomber",
+      "aliases": [
+        "Унабомбер",
+        "Unabomber",
+        "Unabom"
+      ],
+      "genres": [
+        "Биография",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "6.2",
+      "runtime": "101 мин",
+      "card": "cards/be7f5e453e3c81ed2bcfedd0524bdf0c0c6fd15845a11da09efe5ffbe749a238.json",
+      "sha256": "be7f5e453e3c81ed2bcfedd0524bdf0c0c6fd15845a11da09efe5ffbe749a238",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt35934755",
+      "ids": [
+        "tt35934755"
+      ],
+      "imdbId": "tt35934755",
+      "name": "Глубина",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt35934755/img",
+      "background": "https://images.metahub.space/background/medium/tt35934755/img",
+      "description": "канадский мини-сериал Netflix",
+      "originalName": "Below",
+      "aliases": [
+        "Глубина",
+        "Below"
+      ],
+      "genres": [
+        "Драма",
+        "Ужасы",
+        "Детектив"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "41 мин",
+      "card": "cards/c87ba46b06f9cc03c8f52d57733efc057e3eafb65230e3b055161ab26c2b19eb.json",
+      "sha256": "c87ba46b06f9cc03c8f52d57733efc057e3eafb65230e3b055161ab26c2b19eb",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt15047880",
+      "ids": [
+        "tt15047880"
+      ],
+      "imdbId": "tt15047880",
+      "name": "День разоблачения",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt15047880/img",
+      "background": "https://images.metahub.space/background/medium/tt15047880/img",
+      "description": "фильм Стивена Спилберга (2026)",
+      "originalName": "Disclosure Day",
+      "aliases": [
+        "День разоблачения",
+        "Disclosure Day",
+        "День раскрытия",
+        "The Dish"
+      ],
+      "genres": [
+        "Боевик",
+        "Детектив",
+        "Фантастика"
+      ],
+      "imdbRating": "6.4",
+      "runtime": "146 мин",
+      "card": "cards/f3d3f275d05fd73f6253d12ebd1d59f445e1fdfd0e066a4e07fc39eebebeb525.json",
+      "sha256": "f3d3f275d05fd73f6253d12ebd1d59f445e1fdfd0e066a4e07fc39eebebeb525",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt21097264",
+      "ids": [
+        "tt21097264"
+      ],
+      "imdbId": "tt21097264",
+      "name": "К востоку от Эдема",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt21097264/img",
+      "background": "https://images.metahub.space/background/medium/tt21097264/img",
+      "description": "сериал",
+      "originalName": "East of Eden",
+      "aliases": [
+        "К востоку от Эдема",
+        "East of Eden"
+      ],
+      "genres": [
+        "Драма"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "59 мин",
+      "card": "cards/837b323c771e0dbca7f6447d93f11e2c7ee2431ca1f12fc9deae01fc3dcf7595.json",
+      "sha256": "837b323c771e0dbca7f6447d93f11e2c7ee2431ca1f12fc9deae01fc3dcf7595",
       "localized": true,
       "provider": "github"
     }
