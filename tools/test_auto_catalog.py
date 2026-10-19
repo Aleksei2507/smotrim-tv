@@ -93,6 +93,19 @@ class AutomaticCatalogTest(unittest.TestCase):
         fresh=a.refresh_card(old,metadata,[row],{},STAMP)
         self.assertEqual(fresh['videos'][0]['title'],'Начало');self.assertEqual(fresh['videos'][0]['description'],'Описание первой серии')
         self.assertEqual(fresh['videos'][1]['title'],'Серия 1');self.assertEqual({s['season'] for s in fresh['sources']},{1,2})
+    def test_partial_episode_refresh_preserves_other_releases_and_season_pack(self):
+        old=card(kind='series');metadata=meta(kind='series')
+        rows=[]
+        for episode in range(1,4):
+            row=torrent('series',str(episode));row['title']=row['title'].replace('S01E01',f'S01E{episode:02}')
+            rows.append(row)
+        pack=torrent('series','d');pack['title']=pack['title'].replace('S01E01','[01x01-03]')
+        old['sources']=b.variants(old,metadata,rows+[pack])
+        replacement=torrent('series','e');replacement['title']=replacement['title'].replace('S01E01','[01x02]')
+        fresh=a.refresh_card(old,metadata,[replacement],{},STAMP)
+        hashes={s['magnet'].split(':')[-1] for s in fresh['sources']}
+        self.assertEqual(hashes,{'1'*40,'3'*40,'d'*40,'e'*40})
+
     def test_partial_translation_keeps_existing_title(self):
         old=card(kind='series');old['videos'][0]['title']='Начало'
         fresh=a.refresh_card(old,meta(kind='series'),[],{'episodes':{'1:1':{'description':'Новое описание'}}},STAMP)

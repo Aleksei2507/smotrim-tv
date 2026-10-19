@@ -261,12 +261,42 @@
         "description": "",
         "released": "",
         "source": "https://survival.friday.ru/videos/s3/e10"
+      },
+      {
+        "id": "tt31531192:4:1",
+        "season": 4,
+        "episode": 1,
+        "title": "Легенда Альфа · Выпуск 1",
+        "description": "Участники знакомятся и проходят первые испытания. Первое голосование определяет, кто покинет проект.",
+        "released": "2026-10-01",
+        "source": "https://survivall.friday.ru/videos/s1/e1"
+      },
+      {
+        "id": "tt31531192:4:2",
+        "season": 4,
+        "episode": 2,
+        "title": "Легенда Альфа · Выпуск 2",
+        "description": "Команде предстоит научиться действовать сообща, справиться с испытаниями под водой и на высоте.",
+        "released": "2026-10-08",
+        "source": "https://survivall.friday.ru/videos/s1/e2"
+      },
+      {
+        "id": "tt31531192:4:3",
+        "season": 4,
+        "episode": 3,
+        "title": "Легенда Альфа · Выпуск 3",
+        "description": "Борьба за еду и воду продолжается. Участники строят карточный домик на воде и спускаются со скалы.",
+        "released": "2026-10-15",
+        "source": "https://survivall.friday.ru/videos/s1/e3"
       }
     ],
     "episodeSources": [
       "https://survival.friday.ru/videos/s1",
       "https://survival.friday.ru/videos/s2",
-      "https://survival.friday.ru/"
+      "https://survival.friday.ru/",
+      "https://survivall.friday.ru/videos/s1/e1",
+      "https://survivall.friday.ru/videos/s1/e2",
+      "https://survivall.friday.ru/videos/s1/e3"
     ]
   }
 }

@@ -25,6 +25,15 @@ class CatalogSelectionTest(unittest.TestCase):
         self.assertEqual([s['season'] for s in c.season_scope('Show Сезоны: 1-3')], [1,2,3])
         self.assertEqual(c.season_scope('Show [01-07]'), [])
 
+    def test_separate_episodes_are_not_limited_to_two_per_season(self):
+        seed={'name':'Выживалити. Легенда Альфа','origin':'ru','type':'series'}
+        rows=[{'title':f'Выживалити. Легенда Альфа [04x{episode:02}] (2026) HDTV 1080p',
+               'quality':'1080p','seeds':10,'magnet':'magnet:?xt=urn:btih:'+f'{episode*10+variant:040x}'}
+              for episode in range(1,4) for variant in range(3)]
+        selected=c.variants(seed,{},rows)
+        self.assertEqual(len(selected),6)
+        self.assertEqual([r['episodeFrom'] for r in selected],[1,1,2,2,3,3])
+
     def test_variants_reject_unavailable_unsafe_quality_and_deduplicate(self):
         seed={'name':'Фильм','origin':'other','type':'movie'};meta={'name':'Film','releaseInfo':'2000'}
         base={'title':'Фильм (2000) RUS 1080p','quality':'1080p','seeds':10,'magnet':'magnet:?xt=urn:btih:'+'a'*40}

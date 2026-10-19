@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792393498,
-  "updatedAt": "2026-10-19T07:04:57Z",
+  "revision": 1792397666,
+  "updatedAt": "2026-10-19T08:14:22Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,37 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt36271247",
+      "ids": [
+        "tt36271247",
+        "kp:9909686"
+      ],
+      "imdbId": "tt36271247",
+      "name": "Чистые руки",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/43bb9206b1672fb142efd97aa405669c1c3978068de762a649220834c5413647.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ff56c45e2a35b2ac7aa1eca617a79f78d7350a937ec6dbeba9c4d89b69b29773.jpg",
+      "description": "Полицейский Кевин Симмерс пытается спасти дочь Брук от зависимости. Личная трагедия заставляет его пересмотреть привычные методы борьбы с наркотиками и заняться помощью людям, которые хотят вернуться к нормальной жизни. Основано на реальных событиях.",
+      "originalName": "Clean Hands",
+      "aliases": [
+        "Чистые руки",
+        "Clean Hands",
+        "Чистыми руками"
+      ],
+      "genres": [
+        "Биография",
+        "Криминал",
+        "Драма"
+      ],
+      "runtime": "108 мин",
+      "card": "cards/8ff166c9eb33df2dc15d8ba95969daf2146069b9fa470137aeb6d27867f32e17.json",
+      "sha256": "8ff166c9eb33df2dc15d8ba95969daf2146069b9fa470137aeb6d27867f32e17",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt0111161",
       "ids": [
@@ -1002,16 +1033,18 @@
       "origin": "ru",
       "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2438ec063e6d307ab421cda5eab3f2c88f97d3acd72a8bd4e6cffca869ccd332.jpg",
       "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/74a5fcf6adc3608833b939fbac276092d218b8cc9425da8c8e96c5e3d7b41444.jpg",
-      "description": "Участники реалити проходят испытания на выносливость и находчивость, борясь за право остаться в проекте.",
+      "description": "Участники реалити проходят испытания на выносливость и находчивость, борясь за право остаться в проекте. Четвёртый сезон — «Легенда Альфа»: звёзды реалити отправляются во Вьетнам и соревнуются за приз в 10 миллионов рублей.",
       "originalName": "Выживалити: Миссия Альфа",
       "aliases": [
         "Выживалити. Миссия Альфа",
-        "Выживалити: Миссия Альфа"
+        "Выживалити: Миссия Альфа",
+        "Выживалити. Легенда Альфа",
+        "Выживалити Легенда Альфа"
       ],
       "genres": [],
       "imdbRating": "6.2",
-      "card": "cards/19f1b358aa38e2620fa5e1fd8c80ef250053a7033e617093d4d01507887fc796.json",
-      "sha256": "19f1b358aa38e2620fa5e1fd8c80ef250053a7033e617093d4d01507887fc796",
+      "card": "cards/13c1bf108fadd961c8cd5712f8ed860d8c793b7276d057095d05e776ee03421b.json",
+      "sha256": "13c1bf108fadd961c8cd5712f8ed860d8c793b7276d057095d05e776ee03421b",
       "localized": true,
       "provider": "github"
     },

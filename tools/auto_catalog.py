@@ -254,9 +254,9 @@ def refresh_card(old,meta,raw_rows,override,stamp):
         fresh['seasons']=[{'number':s,'name':'Сезон '+str(s)} for s in sorted({e['season'] for e in fresh['videos']})]
     sources=build.variants(old,meta,raw_rows)
     if old['type']=='series':sources=[s for s in sources if any(v['season']==s['season'] for v in fresh.get('videos',[]))]
-    # Replace only refreshed season/quality buckets; an empty/partial answer is not deletion.
-    buckets={(s.get('season',0),s['quality']) for s in sources}
-    fresh['sources']=sources+[s for s in old.get('sources',[]) if (s.get('season',0),s['quality']) not in buckets]
+    # A release for one episode must not erase other episodes in the same season.
+    buckets={build.source_scope_key(s) for s in sources}
+    fresh['sources']=sources+[s for s in old.get('sources',[]) if build.source_scope_key(s) not in buckets]
     if same_payload(old,fresh):return old
     fresh['sourcesUpdatedAt']=stamp;fresh['updatedAt']=stamp
     return fresh

@@ -70,6 +70,12 @@ def season_scope(title):
     elif span: scope.update(episodeFrom=int(span[1]), episodeTo=int(span[2] or span[1]))
     return [dict(scope, season=s) for s in range(first, last+1)]
 
+def source_scope_key(source):
+    episode=source.get('episode',0)
+    first=episode or source.get('episodeFrom',0)
+    last=episode or source.get('episodeTo',first)
+    return (source.get('season',0),source['quality'],first,last)
+
 def variants(seed, metadata, rows):
     aliases = [seed['name'], metadata.get('name', ''), *seed.get('aliases', [])]
     year = str(seed.get('year', metadata.get('releaseInfo', '')))[:4]
@@ -92,7 +98,7 @@ def variants(seed, metadata, rows):
         scopes = season_scope(title) if seed['type']=='series' else [{}]
         if not scopes and seed.get('defaultSeason') and re.search(r'(?i)серии|\[\d+-\d+',title):scopes=[{'season':seed['defaultSeason'],'episode':0}]
         for scope in scopes:
-            key=(scope.get('season', 0), quality)
+            key=source_scope_key(dict(scope,quality=quality))
             identity=(scope.get('season', 0), match[1].lower())
             if identity in seen or len(buckets.get(key, [])) >= 2:
                 continue
@@ -100,7 +106,7 @@ def variants(seed, metadata, rows):
             row={k:source[k] for k in ('title','magnet','quality','source','bytes','size') if k in source}
             row.update(scope, audioLanguage='ru', label=voice, languageEvidence=title)
             buckets.setdefault(key, []).append(row)
-    return [r for key in sorted(buckets, key=lambda k:(k[0], {'1080p':0,'4K':1,'720p':2}[k[1]])) for r in buckets[key]]
+    return [r for key in sorted(buckets, key=lambda k:(k[0], {'1080p':0,'4K':1,'720p':2}[k[1]],k[2],k[3])) for r in buckets[key]]
 
 def make_card(seed, meta, rows, override, stamp):
     seed={**seed,**{k:v for k,v in override.items() if k in ('aliases','description','name')}}
