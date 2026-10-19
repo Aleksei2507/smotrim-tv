@@ -11,9 +11,19 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / 'catalog'
 ID = re.compile(r'(?:tt\d{5,12}|kp:\d{1,9}|tmdb:(?:movie|series):\d{1,9})\Z')
+SUMMARY_FIELDS = ('id','ids','imdbId','name','type','kind','year','origin','poster','background','description','originalName','aliases','genres','imdbRating','runtime')
 
 def encoded(value):
     return (json.dumps(value, ensure_ascii=False, indent=2) + '\n').encode('utf-8')
+
+def summary(card):
+    row={k:card[k] for k in SUMMARY_FIELDS if k in card}
+    description=row.get('description','')
+    if len(description)>300:row['description']=description[:297].rstrip()+'…'
+    if 'aliases' in row:row['aliases']=row['aliases'][:6]
+    digest=hashlib.sha256(encoded(card)).hexdigest()
+    row.update(card='cards/'+digest+'.json',sha256=digest,localized=True,provider='github')
+    return row
 
 def normalized(value):
     return re.sub(r'[^\w]', '', value.lower().replace('ё', 'е'), flags=re.UNICODE)
@@ -135,9 +145,7 @@ def build(raw_directory, revision):
         episodes=card.get('videos',[])
         data=encoded(card);digest=hashlib.sha256(data).hexdigest();path='cards/'+digest+'.json'
         (output/path).write_bytes(data)
-        summary={k:card[k] for k in ('id','ids','imdbId','name','type','kind','year','origin','poster','background','description','originalName','aliases','genres','imdbRating','runtime') if k in card}
-        summary.update(card=path,sha256=digest,localized=True,provider='github')
-        index['items'].append(summary)
+        index['items'].append(summary(card))
         print(seed['name']+': '+str(len(card['sources']))+' variants, '+str(len(episodes))+' episodes')
     editorial_ids={r['id'] for r in index['items']}
     index['items'].extend(r for r in previous['items'] if r['id'] not in editorial_ids)

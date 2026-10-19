@@ -102,6 +102,21 @@ class AutomaticCatalogTest(unittest.TestCase):
         old=card(kind='series');metadata=meta(kind='series');metadata['videos']=[{'season':8,'episode':99,'name':'Wrong'}]
         fresh=a.refresh_card(old,metadata,[],{'videos':old['videos']},STAMP)
         self.assertEqual(fresh['videos'],old['videos'])
+    def test_metadata_updates_even_if_torrent_service_is_offline(self):
+        provider=Fake();provider.items=[];provider.enrichment=lambda *_:{'description':'Новое русское описание'}
+        with patch.object(provider,'torrents',side_effect=a.Unavailable('offline')):
+            result=self.run_catalog(provider,refresh_limit=1)
+        updated=json.loads((self.directory/self.current()['items'][0]['card']).read_text())
+        self.assertTrue(result['changed']);self.assertEqual(updated['description'],'Новое русское описание')
+        self.assertEqual(updated['sources'],card()['sources'])
+
+    def test_index_shortens_description_but_detail_and_hash_remain_complete(self):
+        full=card();full['description']='Описание фильма. '*200
+        with contextlib.redirect_stdout(io.StringIO()):a.publish_cards(self.directory,self.index,[full],STAMP)
+        row=self.current()['items'][0];self.assertLessEqual(len(row['description']),300)
+        detail=json.loads((self.directory/row['card']).read_text());self.assertEqual(detail['description'],full['description'])
+        with contextlib.redirect_stdout(io.StringIO()):b.check(self.directory)
+
     def test_editorial_rebuild_preserves_automatic_cards(self):
         raw=self.root/'raw';raw.mkdir()
         (raw/'tt2222222.json').write_text(json.dumps({'metadata':meta('tt2222222'),'search':{'items':[torrent()]}}))

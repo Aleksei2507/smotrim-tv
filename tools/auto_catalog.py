@@ -21,7 +21,6 @@ ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = 'SmotrimCatalog/1.0 (+https://github.com/Aleksei2507/smotrim-tv)'
 IMDB = re.compile(r'tt\d{5,12}\Z')
 QID = re.compile(r'Q\d+\Z')
-SUMMARY_FIELDS = ('id','ids','imdbId','name','type','kind','year','origin','poster','background','description','originalName','aliases','genres','imdbRating','runtime')
 
 class Unavailable(Exception): pass
 class Rejected(Exception): pass
@@ -263,11 +262,7 @@ def refresh_card(old,meta,raw_rows,override,stamp):
     return fresh
 
 def publish_cards(directory,index,cards,stamp):
-    updated=copy.deepcopy(index);rows=[]
-    for card in cards:
-        payload=build.encoded(card);digest=hashlib.sha256(payload).hexdigest()
-        row={k:card[k] for k in SUMMARY_FIELDS if k in card}
-        row.update(card='cards/'+digest+'.json',sha256=digest,localized=True,provider='github');rows.append(row)
+    updated=copy.deepcopy(index);rows=[build.summary(card) for card in cards]
     if rows==index['items']:return False
     updated.update(items=rows,revision=max(index['revision']+1,int(time.time())),updatedAt=stamp)
     # Validate a complete staged tree first. Old files remain addressable by old indices.
@@ -284,7 +279,7 @@ def publish_cards(directory,index,cards,stamp):
 def validate_one(card,index):
     with tempfile.TemporaryDirectory() as tmp:
         stage=Path(tmp);(stage/'cards').mkdir();h=hashlib.sha256(build.encoded(card)).hexdigest();(stage/'cards'/f'{h}.json').write_bytes(build.encoded(card))
-        one={**index,'items':[{**{k:card[k] for k in SUMMARY_FIELDS if k in card},'card':f'cards/{h}.json','sha256':h}]}
+        one={**index,'items':[build.summary(card)]}
         (stage/'index.json').write_bytes(build.encoded(one));build.check(stage)
 
 def run(directory,state_file,provider,max_candidates=24,max_new=8,refresh_limit=6,now=None):
@@ -311,6 +306,8 @@ def run(directory,state_file,provider,max_candidates=24,max_new=8,refresh_limit=
             if card['type']=='series' and not card.get('videos'):raise Rejected('no episode list')
             # Check this card before accepting it; one bad provider item cannot poison the batch.
             validate_one(card,index)
+            if len(build.encoded({**index,'items':[build.summary(c) for c in [*cards,card]]}))>1900*1024:
+                report['warnings'].append('Index capacity reached; new additions paused');break
             cards.append(card);existing.add(imdb);report['added'].append({'id':imdb,'name':card['name']});print('Added: '+card['name'],flush=True)
         except (Unavailable,Rejected,KeyError,ValueError,TypeError,AssertionError) as error:
             report['skipped'].append({'id':imdb,'reason':str(error)[:120]});print('Skipped '+imdb+': '+str(error)[:120],flush=True)
@@ -328,7 +325,10 @@ def run(directory,state_file,provider,max_candidates=24,max_new=8,refresh_limit=
             translated=getattr(provider,'episode_details',lambda *_:{})(old['id'],old['type'])
             manual=overrides.get(old['id'],{})
             details={**translated,**manual,'episodes':{**translated.get('episodes',{}),**manual.get('episodes',{})}}
-            fresh=refresh_card(base,meta,provider.torrents(base,meta),details,stamp)
+            try:rows=provider.torrents(base,meta)
+            except Unavailable:
+                rows=[];report['warnings'].append('Source refresh unavailable: '+old['id'])
+            fresh=refresh_card(base,meta,rows,details,stamp)
             if same_payload(old,fresh):fresh=old
             else:fresh['updatedAt']=stamp
             validate_one(fresh,index)

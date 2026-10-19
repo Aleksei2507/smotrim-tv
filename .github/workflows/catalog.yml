@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '35 0 * * *' # 03:35 по Москве; GitHub может задержать запуск.
   workflow_dispatch:
+    inputs:
+      refresh:
+        description: 'Сколько существующих карточек обновить'
+        type: choice
+        default: '6'
+        options: ['6', '12']
 
 permissions:
   contents: read
@@ -27,7 +33,8 @@ jobs:
       - name: Найти новые карточки и обновить сериалы
         env:
           KINOPOISK_API_KEY: ${{ secrets.KINOPOISK_API_KEY }}
-        run: python3 -u tools/auto_catalog.py
+          CATALOG_REFRESH: ${{ inputs.refresh || '6' }}
+        run: python3 -u tools/auto_catalog.py --refresh "$CATALOG_REFRESH"
       - name: Проверить результат
         run: python3 tools/build_catalog.py --check
       - name: Опубликовать данные одним коммитом
