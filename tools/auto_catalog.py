@@ -26,14 +26,22 @@ SUMMARY_FIELDS = ('id','ids','imdbId','name','type','kind','year','origin','post
 class Unavailable(Exception): pass
 class Rejected(Exception): pass
 
-def get_json(url):
-    request=urllib.request.Request(url,headers={'User-Agent':USER_AGENT,'Accept':'application/json'})
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self,*args,**kwargs):return None
+
+def get_json(url,headers=None):
+    request=urllib.request.Request(url,headers={'User-Agent':USER_AGENT,'Accept':'application/json',**(headers or {})})
+    # Never forward an API credential through a redirect to another host.
+    opener=urllib.request.build_opener(NoRedirect) if headers else urllib.request.build_opener()
     for attempt in range(2):
         try:
-            with urllib.request.urlopen(request,timeout=18) as response:
+            with opener.open(request,timeout=18) as response:
                 payload=response.read(4*1024*1024+1)
                 if len(payload)>4*1024*1024:raise Unavailable('response too large')
                 return json.loads(payload)
+        except urllib.error.HTTPError as error:
+            if error.code<500 or attempt:raise Unavailable('HTTP '+str(error.code)) from None
+            time.sleep(1)
         except (OSError,ValueError) as error:
             if attempt:raise Unavailable(type(error).__name__) from error
             time.sleep(1)
@@ -62,8 +70,89 @@ def entity_seed(entity,imdb,kind):
             'metadataSources':['https://www.wikidata.org/wiki/'+entity['id']],
             'metadataLicense':'CC0 (Wikidata labels and descriptions)'}
 
+class Kinopoisk:
+    """Optional server-side credential. Only public movie metadata leaves this class."""
+    def __init__(self,key):
+        self.key=key;self.calls=0;self.disabled=False;self.films={};self.ids={};self.episodes={};self.warnings=[]
+    def get(self,path):
+        if not self.key or self.disabled or self.calls>=80:return None
+        self.calls+=1
+        try:return get_json('https://kinopoiskapiunofficial.tech'+path,{'X-API-KEY':self.key})
+        except Unavailable as error:
+            if str(error) in ('HTTP 401','HTTP 402','HTTP 403','HTTP 429'):self.disabled=True
+            warning='Kinopoisk: '+str(error)
+            if warning not in self.warnings:self.warnings.append(warning)
+            return None
+    @staticmethod
+    def kind(raw):
+        return 'movie' if raw.get('type')=='FILM' else 'series' if raw.get('type') in ('TV_SERIES','TV_SHOW','MINI_SERIES') else None
+    def collection(self,collection):
+        path='/api/v2.2/films?countries=1&order=NUM_VOTE&type=ALL&page=1' if collection=='RUSSIAN' else '/api/v2.2/films/collections?type='+collection+'&page=1'
+        data=self.get(path) or {};out=[]
+        for row in data.get('items',[]):
+            imdb=row.get('imdbId');kind=self.kind(row);kp_id=row.get('kinopoiskId')
+            if isinstance(imdb,str) and IMDB.fullmatch(imdb) and kind and isinstance(kp_id,int) and kp_id>0:
+                self.ids[imdb]=kp_id;out.append({'id':imdb,'type':kind})
+        return out
+    def film(self,imdb,kind=None):
+        if not IMDB.fullmatch(imdb):raise Rejected('invalid IMDb ID')
+        if imdb not in self.films:
+            kp_id=self.ids.get(imdb)
+            if not kp_id:
+                data=self.get('/api/v2.2/films?imdbId='+imdb) or {}
+                exact=[r for r in data.get('items',[]) if r.get('imdbId')==imdb and isinstance(r.get('kinopoiskId'),int) and r['kinopoiskId']>0]
+                if len(exact)==1:kp_id=exact[0]['kinopoiskId']
+            raw=self.get('/api/v2.2/films/'+str(kp_id)) if kp_id else None
+            self.films[imdb]=raw if raw and raw.get('imdbId')==imdb and self.kind(raw) else None
+        raw=self.films[imdb]
+        return raw if raw and (kind is None or self.kind(raw)==kind) else None
+    def localized(self,imdb,kind):
+        raw=self.film(imdb,kind)
+        if not raw:return None
+        name=(raw.get('nameRu') or '').strip();description=(raw.get('description') or raw.get('shortDescription') or '').strip()
+        if not re.search('[А-Яа-яЁё]',name) or not re.search('[А-Яа-яЁё]',description):return None
+        if len(name)>240 or len(description)>6000:return None
+        countries={c.get('country') for c in raw.get('countries',[])}
+        aliases=list(dict.fromkeys(v for v in (name,raw.get('nameOriginal'),raw.get('nameEn')) if v))
+        result={'id':imdb,'type':kind,'name':name,'description':description,'aliases':aliases,'kpId':raw['kinopoiskId'],
+                'origin':'ru' if countries.intersection({'Россия','СССР','Российская империя'}) else 'other' if countries else 'unknown',
+                'metadataProvider':'kinopoisk','metadataSources':['https://www.kinopoisk.ru/film/'+str(raw['kinopoiskId'])+'/']}
+        if raw.get('year'):result['year']=str(raw['year'])
+        return result
+    def episode_details(self,imdb,kind):
+        if kind!='series':return {}
+        if imdb not in self.episodes:
+            raw=self.film(imdb,kind);data=self.get('/api/v2.2/films/'+str(raw['kinopoiskId'])+'/seasons') if raw else None
+            items={}
+            for season in (data or {}).get('items',[]):
+                for episode in season.get('episodes',[]):
+                    sn=episode.get('seasonNumber',season.get('number'));en=episode.get('episodeNumber')
+                    if not isinstance(sn,int) or not isinstance(en,int) or not 1<=sn<=999 or not 1<=en<=9999:continue
+                    title=(episode.get('nameRu') or '').strip();description=(episode.get('synopsis') or '').strip()
+                    row={'season':sn,'episode':en,'released':episode.get('releaseDate') or ''}
+                    if re.search('[А-Яа-яЁё]',title):row['title']=title[:240]
+                    if re.search('[А-Яа-яЁё]',description):row['description']=description[:6000]
+                    items[f'{sn}:{en}']=row
+            self.episodes[imdb]=items
+        return {'episodes':self.episodes[imdb]}
+    def metadata(self,imdb,kind,fallback):
+        raw=self.film(imdb,kind)
+        if not raw:
+            if fallback:return fallback
+            raise Unavailable('Metadata unavailable')
+        out=copy.deepcopy(fallback) if fallback else {'id':imdb,'type':self.kind(raw),'name':raw.get('nameOriginal') or raw.get('nameRu') or '',
+            'releaseInfo':str(raw.get('year') or ''),'genres':[g['genre'].capitalize() for g in raw.get('genres',[])],
+            'imdbRating':raw.get('ratingImdb'),'poster':raw.get('posterUrl') or raw.get('posterUrlPreview') or ''}
+        if not str(out.get('poster','')).startswith('https://'):raise Rejected('no poster')
+        if self.kind(raw)=='series':
+            episodes={(e.get('season'),e.get('episode')):e for e in out.get('videos',[])}
+            for e in self.episode_details(imdb,'series').get('episodes',{}).values():
+                key=(e['season'],e['episode']);episodes[key]={**episodes.get(key,{}),**e}
+            out['videos']=list(episodes.values())
+        return out
+
 class PublicSources:
-    def __init__(self):self.entities={}
+    def __init__(self):self.entities={};self.kp=Kinopoisk(os.environ.get('KINOPOISK_API_KEY',''))
     def entity(self,qid):
         if not QID.fullmatch(qid):raise Rejected('invalid entity ID')
         if qid not in self.entities:
@@ -71,6 +160,8 @@ class PublicSources:
         return self.entities[qid]
     def localized(self,imdb,kind,qid=None):
         if not IMDB.fullmatch(imdb):raise Rejected('invalid IMDb ID')
+        localized=self.kp.localized(imdb,kind)
+        if localized:return localized
         if qid:return entity_seed(self.entity(qid),imdb,kind)
         found=wiki(action='query',list='search',srsearch='haswbstatement:P345='+imdb,srnamespace=0,srlimit=3)['query']['search']
         matches=[]
@@ -81,6 +172,9 @@ class PublicSources:
         return entity_seed(matches[0],imdb,kind)
     def candidates(self):
         feeds=[];warnings=[]
+        for collection in ('RUSSIAN','TOP_POPULAR_MOVIES','POPULAR_SERIES'):
+            rows=self.kp.collection(collection)
+            if rows:feeds.append(rows)
         for kind in ('movie','series'):
             try:
                 rows=get_json('https://v3-cinemeta.strem.io/catalog/'+kind+'/top.json')['metas']
@@ -107,6 +201,12 @@ class PublicSources:
                     seen.add(feed[offset]['id']);output.append(feed[offset])
         return output,warnings
     def metadata(self,imdb,kind):
+        try:meta=self.cinemeta_metadata(imdb,kind)
+        except (Unavailable,KeyError,TypeError,ValueError):meta=None
+        return self.kp.metadata(imdb,kind,meta)
+    def episode_details(self,imdb,kind):return self.kp.episode_details(imdb,kind)
+    def enrichment(self,imdb,kind):return self.kp.localized(imdb,kind)
+    def cinemeta_metadata(self,imdb,kind):
         for candidate in ([kind] if kind else ['movie','series']):
             try:
                 meta=get_json('https://v3-cinemeta.strem.io/meta/'+candidate+'/'+imdb+'.json')['meta']
@@ -144,7 +244,8 @@ def refresh_card(old,meta,raw_rows,override,stamp):
     fresh=copy.deepcopy(old)
     if old['type']=='series':
         translated={f"{e['season']}:{e['episode']}":e for e in old.get('videos',[])}
-        effective={**override,'episodes':{**translated,**override.get('episodes',{})}}
+        for key,row in override.get('episodes',{}).items():translated[key]={**translated.get(key,{}),**row}
+        effective={**override,'episodes':translated}
         rebuilt=build.make_card(old,meta,[],effective,stamp)
         if 'videos' not in override:
             episodes={(e['season'],e['episode']):e for e in old.get('videos',[])}
@@ -192,6 +293,8 @@ def run(directory,state_file,provider,max_candidates=24,max_new=8,refresh_limit=
     state=json.loads(state_file.read_text()) if state_file.exists() else {'attempts':{},'refresh':{}}
     overrides_path=directory.parent/'curated/details.json'
     overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else {}
+    curated_path=directory.parent/'curated/titles.json'
+    editorial={r['id'] for r in json.loads(curated_path.read_text())['items']} if curated_path.exists() else set()
     report={'checkedAt':stamp,'added':[],'refreshed':[],'skipped':[],'warnings':[]}
     candidates,warnings=provider.candidates();report['warnings']+=warnings;existing={c['id'] for c in cards}
     eligible=[r for r in candidates if r['id'] not in existing and epoch-state['attempts'].get(r['id'],0)>=3*86400]
@@ -201,7 +304,9 @@ def run(directory,state_file,provider,max_candidates=24,max_new=8,refresh_limit=
         imdb=candidate['id'];state['attempts'][imdb]=epoch
         try:
             meta=provider.metadata(imdb,candidate.get('type'));seed=provider.localized(imdb,meta['type'],candidate.get('qid'))
-            rows=provider.torrents(seed,meta);card=build.make_card(seed,meta,rows,{},stamp)
+            rows=provider.torrents(seed,meta)
+            details=getattr(provider,'episode_details',lambda *_:{})(imdb,meta['type'])
+            card=build.make_card(seed,meta,rows,details,stamp)
             if not card.get('sources'):raise Rejected('no confirmed Russian audio')
             if card['type']=='series' and not card.get('videos'):raise Rejected('no episode list')
             # Check this card before accepting it; one bad provider item cannot poison the batch.
@@ -210,13 +315,22 @@ def run(directory,state_file,provider,max_candidates=24,max_new=8,refresh_limit=
         except (Unavailable,Rejected,KeyError,ValueError,TypeError,AssertionError) as error:
             report['skipped'].append({'id':imdb,'reason':str(error)[:120]});print('Skipped '+imdb+': '+str(error)[:120],flush=True)
     # Round-robin refresh, so one temporarily unavailable source cannot starve other cards.
-    order=sorted(range(len(index['items'])),key=lambda i:state['refresh'].get(cards[i]['id'],0))[:refresh_limit]
+    order=sorted(range(len(index['items'])),key=lambda i:(state['refresh'].get(cards[i]['id'],0),0 if cards[i]['type']=='series' else 1))[:refresh_limit]
     for position in order:
         old=cards[position];state['refresh'][old['id']]=epoch
         try:
             try:meta=provider.metadata(old['id'],old['type']) if old['type']=='series' else old
             except (Unavailable,Rejected):meta=old
-            fresh=refresh_card(old,meta,provider.torrents(old,meta),overrides.get(old['id'],{}),stamp)
+            base=copy.deepcopy(old)
+            localized=getattr(provider,'enrichment',lambda *_:None)(old['id'],old['type'])
+            if localized and old['id'] not in editorial:
+                base.update(localized);base.pop('metadataLicense',None)
+            translated=getattr(provider,'episode_details',lambda *_:{})(old['id'],old['type'])
+            manual=overrides.get(old['id'],{})
+            details={**translated,**manual,'episodes':{**translated.get('episodes',{}),**manual.get('episodes',{})}}
+            fresh=refresh_card(base,meta,provider.torrents(base,meta),details,stamp)
+            if same_payload(old,fresh):fresh=old
+            else:fresh['updatedAt']=stamp
             validate_one(fresh,index)
             if fresh is not old:cards[position]=fresh;report['refreshed'].append({'id':old['id'],'name':old['name']})
         except (Unavailable,Rejected,KeyError,ValueError,TypeError,AssertionError):report['warnings'].append('Source refresh unavailable: '+old['id'])
@@ -224,6 +338,7 @@ def run(directory,state_file,provider,max_candidates=24,max_new=8,refresh_limit=
     # Keep the retry ledger bounded and free of any user information.
     state['attempts']={k:v for k,v in sorted(state['attempts'].items(),key=lambda kv:-kv[1])[:2000] if epoch-v<90*86400}
     state['lastRun']=stamp;state_file.parent.mkdir(parents=True,exist_ok=True);state_file.write_bytes(build.encoded(state))
+    report['warnings']+=getattr(getattr(provider,'kp',None),'warnings',[])
     report.update(changed=changed,total=len(cards));return report
 
 def main():

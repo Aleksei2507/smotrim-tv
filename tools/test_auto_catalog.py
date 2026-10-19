@@ -93,6 +93,11 @@ class AutomaticCatalogTest(unittest.TestCase):
         fresh=a.refresh_card(old,metadata,[row],{},STAMP)
         self.assertEqual(fresh['videos'][0]['title'],'Начало');self.assertEqual(fresh['videos'][0]['description'],'Описание первой серии')
         self.assertEqual(fresh['videos'][1]['title'],'Серия 1');self.assertEqual({s['season'] for s in fresh['sources']},{1,2})
+    def test_partial_translation_keeps_existing_title(self):
+        old=card(kind='series');old['videos'][0]['title']='Начало'
+        fresh=a.refresh_card(old,meta(kind='series'),[],{'episodes':{'1:1':{'description':'Новое описание'}}},STAMP)
+        self.assertEqual(fresh['videos'][0]['title'],'Начало');self.assertEqual(fresh['videos'][0]['description'],'Новое описание')
+
     def test_editorial_episode_override_survives_provider_wrong_season(self):
         old=card(kind='series');metadata=meta(kind='series');metadata['videos']=[{'season':8,'episode':99,'name':'Wrong'}]
         fresh=a.refresh_card(old,metadata,[],{'videos':old['videos']},STAMP)
@@ -110,5 +115,38 @@ class AutomaticCatalogTest(unittest.TestCase):
         provider=Fake();provider.items=[];provider.rows=[torrent(suffix='b')];provider.rows[0]['title']+='x'*1300
         result=self.run_catalog(provider,refresh_limit=1)
         self.assertFalse(result['changed']);self.assertEqual(self.current(),self.index);self.assertTrue(result['warnings'])
+
+class KinopoiskTest(unittest.TestCase):
+    def raw(self):
+        return {'kinopoiskId':123,'imdbId':'tt2222222','type':'TV_SERIES','nameRu':'Русский сериал','nameOriginal':'Original Show',
+                'description':'Описание сериала на русском.','year':2025,'posterUrl':'https://example.com/p.jpg','genres':[{'genre':'драма'}],'countries':[{'country':'США'}]}
+    def client(self):
+        kp=a.Kinopoisk('private-test-value')
+        def get(path):
+            if 'imdbId=' in path:return {'items':[self.raw()]}
+            if path.endswith('/seasons'):return {'items':[{'number':1,'episodes':[{'episodeNumber':1,'nameRu':'Начало','synopsis':'Описание первой серии','releaseDate':'2025-01-01'}]}]}
+            return self.raw()
+        kp.get=get;return kp
+    def test_localized_card_and_episodes_without_cinemeta(self):
+        kp=self.client();metadata=kp.metadata('tt2222222','series',None);localized=kp.localized('tt2222222','series')
+        c=b.make_card(localized,metadata,[],kp.episode_details('tt2222222','series'),STAMP)
+        self.assertEqual(c['name'],'Русский сериал');self.assertEqual(c['videos'][0]['title'],'Начало')
+        self.assertEqual(c['videos'][0]['description'],'Описание первой серии');self.assertEqual(c['genres'],['Драма'])
+        self.assertNotIn(b'private-test-value',b.encoded(c))
+    def test_wrong_identity_or_type_not_used(self):
+        kp=self.client();kp.get=lambda _: {'items':[dict(self.raw(),imdbId='tt9999999')]}
+        self.assertIsNone(kp.film('tt2222222','series'))
+        self.assertIsNone(self.client().film('tt2222222','movie'))
+    def test_no_key_means_no_requests(self):
+        with patch.object(a,'get_json') as request:
+            kp=a.Kinopoisk('');self.assertIsNone(kp.film('tt2222222'));self.assertEqual(kp.collection('POPULAR_SERIES'),[])
+            request.assert_not_called()
+    def test_rate_limit_disables_remaining_requests_without_exposing_key(self):
+        with patch.object(a,'get_json',side_effect=a.Unavailable('HTTP 429')) as request:
+            kp=a.Kinopoisk('private-test-value');self.assertIsNone(kp.get('/test'));self.assertIsNone(kp.get('/test2'))
+            self.assertEqual(request.call_count,1);self.assertNotIn('private-test-value',str(kp.warnings))
+    def test_credential_request_does_not_follow_redirects(self):
+        handler=a.NoRedirect()
+        self.assertIsNone(handler.redirect_request(None,None,302,'Found',{},'https://other.example/'))
 
 if __name__=='__main__':unittest.main()

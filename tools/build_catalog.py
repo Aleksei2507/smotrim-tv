@@ -20,7 +20,7 @@ def normalized(value):
 
 def russian_audio(title, origin):
     # Language names adjacent to subtitle markers describe subtitles, not audio.
-    clean = re.sub(r'(?i)(?:sub(?:s|titles)?|субтитры)\s*[([]?\s*(?:(?:rus|eng|ukr|рус)[\s,+/)]*)+', '', title)
+    clean = re.sub(r'(?i)(?:sub(?:s|titles)?|субтитры)\s*[:=–-]?\s*[([]?\s*(?:(?:rus|eng|ukr|рус)[\s,+/)]*)+', '', title)
     clean = re.sub(r'(?i)\b(?:rus|рус)\s*(?:sub(?:s|titles)?|субтитры)\b', '', clean)
     marked = re.search(r'(?i)\b(?:rus|russian|dvo|mvo|avo|lostfilm|hdrezka|alexfilm|newstudio|baibako|rudub)\b|русск(?:ая|ий)\s+(?:озвучк|перевод|звук)|кубик\s+в\s+кубе|продубляж|red head sound|первый канал|мосфильм-мастер|невафильм', clean)
     # DUB / D on their own are not language information.
@@ -98,7 +98,7 @@ def make_card(seed, meta, rows, override, stamp):
     card.update(seed, imdbId=seed['id'], ids=[seed['id']], originalName=meta['name'], aliases=list(dict.fromkeys([seed['name'],meta['name'],*seed.get('aliases',[])])), year=str(seed.get('year',meta.get('releaseInfo','')))[:4], localized=True, ratingSource='IMDb', updatedAt=stamp)
     card['metadataSources']=list(dict.fromkeys(['https://v3-cinemeta.strem.io/meta/'+seed['type']+'/'+seed['id']+'.json',*seed.get('metadataSources',[]),*override.get('episodeSources',[])]))
     genres={'Drama':'Драма','Crime':'Криминал','Thriller':'Триллер','Action':'Боевик','Adventure':'Приключения','Comedy':'Комедия','Romance':'Мелодрама','Sci-Fi':'Фантастика','Fantasy':'Фэнтези','Mystery':'Детектив','History':'История','Biography':'Биография','Sport':'Спорт','Animation':'Мультфильм','Family':'Семейный','Musical':'Мюзикл','Horror':'Ужасы','War':'Военный','Reality-TV':'Реалити-шоу','Game-Show':'Телеигра','Documentary':'Документальный'}
-    card['genres']=[genres[g] for g in meta.get('genres',[]) if g in genres]
+    card['genres']=[genres.get(g,g) for g in meta.get('genres',[]) if g in genres or re.search('[А-Яа-яЁё]',g)]
     if 'runtime' in card:card['runtime']=str(card['runtime']).replace(' min',' мин')
     episodes=[]; seen=set(); translations=override.get('episodes',{})
     for video in meta.get('videos',[]):

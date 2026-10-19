@@ -25,6 +25,8 @@ jobs:
       - name: Проверить правила отбора и сохранность каталога
         run: python3 -m unittest discover -s tools -p 'test_*catalog.py'
       - name: Найти новые карточки и обновить сериалы
+        env:
+          KINOPOISK_API_KEY: ${{ secrets.KINOPOISK_API_KEY }}
         run: python3 -u tools/auto_catalog.py
       - name: Проверить результат
         run: python3 tools/build_catalog.py --check

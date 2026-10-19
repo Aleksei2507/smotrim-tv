@@ -3,7 +3,7 @@ import build_catalog as c
 
 class CatalogSelectionTest(unittest.TestCase):
     def test_language_is_audio_not_subtitles(self):
-        for title in ['Film 1080p DUB', 'Film ENG + Sub (Rus)', 'Film RUS SUB', 'Film Sub (Rus, Eng)', 'Film 1080p D']:
+        for title in ['Film 1080p DUB', 'Film ENG + Sub (Rus)', 'Film RUS SUB', 'Film Sub (Rus, Eng)', 'Film 1080p D', 'Film ENG + Subtitles: RUS', 'Film Sub: (Rus, Eng)']:
             self.assertIsNone(c.russian_audio(title, 'other'), title)
         for title in ['Film MVO + Sub (Eng)', 'Film LostFilm', 'Film RUS ENG', 'Фильм 1080p']:
             self.assertIsNotNone(c.russian_audio(title, 'ru' if 'Фильм' in title else 'other'), title)
