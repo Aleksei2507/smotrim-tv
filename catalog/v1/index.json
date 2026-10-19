@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792391671,
-  "updatedAt": "2026-10-19T06:34:15Z",
+  "revision": 1792392242,
+  "updatedAt": "2026-10-19T06:43:16Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -514,8 +514,8 @@
       ],
       "imdbRating": "9.5",
       "runtime": "49 мин",
-      "card": "cards/9392ffb9e2e2974706ebdd8ec0708c5d4a78ad65f1f3232a7e89f9eec9de372d.json",
-      "sha256": "9392ffb9e2e2974706ebdd8ec0708c5d4a78ad65f1f3232a7e89f9eec9de372d",
+      "card": "cards/dff67bb4e6f7d933a35755b5c640cb3f565a5266fb4fbf12c4bf1299831ffe79.json",
+      "sha256": "dff67bb4e6f7d933a35755b5c640cb3f565a5266fb4fbf12c4bf1299831ffe79",
       "localized": true,
       "provider": "github"
     },
@@ -544,8 +544,8 @@
       ],
       "imdbRating": "7.2",
       "runtime": "45 мин",
-      "card": "cards/e9a320a942a944f43e08d1c615d91812d17ab761ba2f0925408a6833d26b058d.json",
-      "sha256": "e9a320a942a944f43e08d1c615d91812d17ab761ba2f0925408a6833d26b058d",
+      "card": "cards/02b8c8c69a59677b9eace95c70f726f0c1379997f4fa30be3e60456780ff78bc.json",
+      "sha256": "02b8c8c69a59677b9eace95c70f726f0c1379997f4fa30be3e60456780ff78bc",
       "localized": true,
       "provider": "github"
     },
@@ -573,8 +573,8 @@
       ],
       "imdbRating": "9.2",
       "runtime": "57 мин",
-      "card": "cards/55562c472cc6ab223b237a14bdd87e45fdd4b323acb0e3295fa329fd252715b9.json",
-      "sha256": "55562c472cc6ab223b237a14bdd87e45fdd4b323acb0e3295fa329fd252715b9",
+      "card": "cards/5b1e95bbb04ec3428080c6c6df31e015a04a08df1d641c9ee5779ae9d5613410.json",
+      "sha256": "5b1e95bbb04ec3428080c6c6df31e015a04a08df1d641c9ee5779ae9d5613410",
       "localized": true,
       "provider": "github"
     },
@@ -601,8 +601,8 @@
       ],
       "imdbRating": "8.4",
       "runtime": "25 мин",
-      "card": "cards/9cbd48e7165c8e6d6a10faa32dba841f4327a32ab4c8a9ae7577daf385f9b82d.json",
-      "sha256": "9cbd48e7165c8e6d6a10faa32dba841f4327a32ab4c8a9ae7577daf385f9b82d",
+      "card": "cards/ea7e2b346809668f57919481918a34e6b409b7d5a252f40a0ab054d89810a5d3.json",
+      "sha256": "ea7e2b346809668f57919481918a34e6b409b7d5a252f40a0ab054d89810a5d3",
       "localized": true,
       "provider": "github"
     },
@@ -630,8 +630,8 @@
       ],
       "imdbRating": "9.0",
       "runtime": "50 мин",
-      "card": "cards/4ef9652332182a618dd93e0e0b3aae1372f3d97dbd45fa09f94d16fd355d47e5.json",
-      "sha256": "4ef9652332182a618dd93e0e0b3aae1372f3d97dbd45fa09f94d16fd355d47e5",
+      "card": "cards/a59a9890eae93c1d35e9b2a190f7c4f29f73ed3861d8112d41788d2d8e92352f.json",
+      "sha256": "a59a9890eae93c1d35e9b2a190f7c4f29f73ed3861d8112d41788d2d8e92352f",
       "localized": true,
       "provider": "github"
     },
@@ -659,8 +659,8 @@
       ],
       "imdbRating": "7.4",
       "runtime": "48 мин",
-      "card": "cards/ff32a7e2db18e54e2de9a6f2e5bc9cd4a5b5f955a5cd52971a6626d3cbc7412c.json",
-      "sha256": "ff32a7e2db18e54e2de9a6f2e5bc9cd4a5b5f955a5cd52971a6626d3cbc7412c",
+      "card": "cards/aaa6c84e81a09d3e6257ad81c0455fa85a1221fc057cac7126890a4c3e7f7386.json",
+      "sha256": "aaa6c84e81a09d3e6257ad81c0455fa85a1221fc057cac7126890a4c3e7f7386",
       "localized": true,
       "provider": "github"
     },
@@ -1257,6 +1257,244 @@
       "runtime": "59 мин",
       "card": "cards/837b323c771e0dbca7f6447d93f11e2c7ee2431ca1f12fc9deae01fc3dcf7595.json",
       "sha256": "837b323c771e0dbca7f6447d93f11e2c7ee2431ca1f12fc9deae01fc3dcf7595",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt8367814",
+      "ids": [
+        "tt8367814"
+      ],
+      "imdbId": "tt8367814",
+      "name": "Джентльмены",
+      "type": "movie",
+      "year": "2019",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt8367814/img",
+      "background": "https://images.metahub.space/background/medium/tt8367814/img",
+      "description": "Один ушлый американец ещё со студенческих лет приторговывал наркотиками, а теперь придумал схему нелегального обогащения с использованием поместий обедневшей английской аристократии и очень неплохо на этом разбогател. Другой пронырливый журналист приходит к Рэю, правой руке американца, и предлагает тому купить киносценарий, в котором подробно описаны преступления его босса при участии других представителей лондонского криминального мира — партнёра-еврея, китайской диаспоры, чернокожих спортсменов и даже русского олигарха.",
+      "originalName": "The Gentlemen",
+      "aliases": [
+        "Джентльмены",
+        "The Gentlemen"
+      ],
+      "genres": [
+        "Боевик",
+        "Комедия",
+        "Криминал"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "113 мин",
+      "card": "cards/945a6962a5216a922aa806fee7d68aa77e7b04ac6bfe3748a43ac2fb4dabbe76.json",
+      "sha256": "945a6962a5216a922aa806fee7d68aa77e7b04ac6bfe3748a43ac2fb4dabbe76",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt31510819",
+      "ids": [
+        "tt31510819"
+      ],
+      "imdbId": "tt31510819",
+      "name": "Гангстерленд",
+      "type": "series",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt31510819/img",
+      "background": "https://images.metahub.space/background/medium/tt31510819/img",
+      "description": "Лондон. Две могущественных криминальных семьи, Харриганы и Стивенсоны, ведут войну за власть, избегая прямой конфронтации. Но шаткое перемирие может нарушить исчезновение Томми, сына главы клана Стивенсонов, которого в последний раз видели в ночном клубе с Эдди Харриганом. Глава клана Харриганов поручает Гарри Де Сузе, опытному специалисту по «решению проблем», разобраться в ситуации.",
+      "originalName": "MobLand",
+      "aliases": [
+        "Гангстерленд",
+        "MobLand"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "8.3",
+      "runtime": "47 мин",
+      "card": "cards/43a88254275fe8be0efc1971a70fef94df2a10d6255eb2d70d97518761112534.json",
+      "sha256": "43a88254275fe8be0efc1971a70fef94df2a10d6255eb2d70d97518761112534",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0993846",
+      "ids": [
+        "tt0993846"
+      ],
+      "imdbId": "tt0993846",
+      "name": "Волк с Уолл-стрит",
+      "type": "movie",
+      "year": "2013",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt0993846/img",
+      "background": "https://images.metahub.space/background/medium/tt0993846/img",
+      "description": "1987 год. Джордан Белфорт становится брокером в успешном инвестиционном банке. Вскоре банк закрывается после внезапного обвала индекса Доу-Джонса. По совету жены Терезы Джордан устраивается в небольшое заведение, занимающееся мелкими акциями. Его настойчивый стиль общения с клиентами и врождённая харизма быстро даёт свои плоды. Он знакомится с соседом по дому Донни, торговцем, который сразу находит общий язык с Джорданом и решает открыть с ним собственную фирму. В качестве сотрудников они нанимают нескольких друзей Белфорта, его отца Макса и называют компанию «Стрэттон Оукмонт». В свободное от работы время Джордан прожигает жизнь: лавирует от одной вечеринки к другой, вступает в сексуальные отношения с проститутками, употребляет множество наркотических препаратов, в том числе кокаин и кваалюд. Однажды наступает момент, когда быстрым обогащением Белфорта начинает интересоваться агент ФБР...",
+      "originalName": "The Wolf of Wall Street",
+      "aliases": [
+        "Волк с Уолл-стрит",
+        "The Wolf of Wall Street"
+      ],
+      "genres": [
+        "Биография",
+        "Комедия",
+        "Криминал"
+      ],
+      "imdbRating": "8.2",
+      "runtime": "180 мин",
+      "card": "cards/404d0a2e6c12afe530b17beed237ed77e282780e24d44baa0506322885c2e77a.json",
+      "sha256": "404d0a2e6c12afe530b17beed237ed77e282780e24d44baa0506322885c2e77a",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt11083552",
+      "ids": [
+        "tt11083552"
+      ],
+      "imdbId": "tt11083552",
+      "name": "Гнев человеческий",
+      "type": "movie",
+      "year": "2021",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt11083552/img",
+      "background": "https://images.metahub.space/background/medium/tt11083552/img",
+      "description": "Грузовики лос-анджелесской инкассаторской компании Fortico Security часто подвергаются нападениям, и во время очередного ограбления погибают оба охранника. Через некоторое время в компанию устраивается крепкий немногословный британец Патрик Хилл. Он получает от босса прозвище Эйч и, впритык к необходимому минимуму пройдя тесты по фитнесу, стрельбе и вождению, отправляется на первое задание. Вскоре и его грузовик пытаются ограбить вооруженные налётчики, но Эйч в одиночку расправляется с целой бандой и становится героем. Кажется, слава и уважение коллег его совершенно не интересуют, ведь он преследует свои цели.",
+      "originalName": "Wrath of Man",
+      "aliases": [
+        "Гнев человеческий",
+        "Wrath of Man"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Триллер"
+      ],
+      "imdbRating": "7.1",
+      "runtime": "119 мин",
+      "card": "cards/685753224f1d781fc2169e13a2a93f889f44d04981f72a74851d54d82de85b25.json",
+      "sha256": "685753224f1d781fc2169e13a2a93f889f44d04981f72a74851d54d82de85b25",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0493464",
+      "ids": [
+        "tt0493464"
+      ],
+      "imdbId": "tt0493464",
+      "name": "Особо опасен",
+      "type": "movie",
+      "year": "2008",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt0493464/img",
+      "background": "https://images.metahub.space/background/medium/tt0493464/img",
+      "description": "Уэсли Гибсон - зануда и нытик, целыми днями торчащий в офисе. Босс его унижает, подружка ему изменяет. Его жизнь катится в никуда! Обнаружив, что отец, бросивший его в раннем детстве, зверски убит, Уэс оказывается втянут в тайное общество киллеров под названием «Братство». За его обучение берется опытная наставница Фокс, и этот когда-то прикованный к офисному креслу хлюпик развивает молниеносную реакцию и сверхчеловеческую скорость. Однако уже на первом задании Уэсли понимает: есть вещи посложнее, чем вершить судьбы других людей. Это - набраться храбрости и стать хозяином собственной жизни.",
+      "originalName": "Wanted",
+      "aliases": [
+        "Особо опасен",
+        "Wanted"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Триллер"
+      ],
+      "imdbRating": "6.7",
+      "runtime": "110 мин",
+      "card": "cards/a8019fe35ccf37197d9ab06b2df0eed28882799097c1bbf03b0c500fd37da0e9.json",
+      "sha256": "a8019fe35ccf37197d9ab06b2df0eed28882799097c1bbf03b0c500fd37da0e9",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt26545992",
+      "ids": [
+        "tt26545992"
+      ],
+      "imdbId": "tt26545992",
+      "name": "Фонари",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt26545992/img",
+      "background": "https://images.metahub.space/background/medium/tt26545992/img",
+      "description": "Начинающий Джон Стюарт и опытный страж Хэл Джордан, межгалактические полицейские из Корпуса Зелёных Фонарей, оказываются втянуты в расследование убийства в американской глубинке.",
+      "originalName": "Lanterns",
+      "aliases": [
+        "Фонари",
+        "Lanterns"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "53 мин",
+      "card": "cards/7ffe0f2eaec91c372d20af6e948906fc64fddfb56cf67979fce35c611ccc446c.json",
+      "sha256": "7ffe0f2eaec91c372d20af6e948906fc64fddfb56cf67979fce35c611ccc446c",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt37287335",
+      "ids": [
+        "tt37287335"
+      ],
+      "imdbId": "tt37287335",
+      "name": "Обсессия",
+      "type": "movie",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt37287335/img",
+      "background": "https://images.metahub.space/background/medium/tt37287335/img",
+      "description": "Беар давно влюблён в красавицу Никки, с которой они дружат ещё со школы. Парень опасается, что безнадёжно застрял во френдзоне, и никак не может решиться на признание. Однажды в магазине эзотерики он находит странную безделушку — волшебную палочку, которая может исполнить одно желание. Беар загадывает, чтобы Никки любила его больше всех на свете, и внезапно девушка действительно в него влюбляется. Но счастью парня быстро приходит конец — теперь Никки буквально одержима объектом своего обожания и ведёт себя всё более жутко.",
+      "originalName": "Obsession",
+      "aliases": [
+        "Обсессия",
+        "Obsession"
+      ],
+      "genres": [
+        "Ужасы",
+        "Триллер"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "109 мин",
+      "card": "cards/9ad0d5b635c6bb5b9853eaa6341d0a41f82522d8df48e5c7d43106143cbbfb8f.json",
+      "sha256": "9ad0d5b635c6bb5b9853eaa6341d0a41f82522d8df48e5c7d43106143cbbfb8f",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt8946378",
+      "ids": [
+        "tt8946378"
+      ],
+      "imdbId": "tt8946378",
+      "name": "Достать ножи",
+      "type": "movie",
+      "year": "2019",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt8946378/img",
+      "background": "https://images.metahub.space/background/medium/tt8946378/img",
+      "description": "На следующее утро после празднования 85-летия известного автора криминальных романов Харлана Тромби виновника торжества находят мёртвым. Налицо — явное самоубийство, но полиция по протоколу опрашивает всех присутствующих в особняке членов семьи, хотя, в этом деле больше заинтересован частный детектив Бенуа Блан. Тем же утром он получил конверт с наличными от неизвестного и заказ на расследование смерти Харлана. Не нужно быть опытным следователем, чтобы понять, что все приукрашивают свои отношения с почившим главой семейства, но Блану достаётся настоящий подарок — медсестра покойного, которая физически не выносит ложь.",
+      "originalName": "Knives Out",
+      "aliases": [
+        "Достать ножи",
+        "Knives Out"
+      ],
+      "genres": [
+        "Комедия",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.9",
+      "runtime": "131 мин",
+      "card": "cards/f4a45288981d14cdf14cbb7cfb887e4c28de9b02d4cf781c4b0bdee7e73cd234.json",
+      "sha256": "f4a45288981d14cdf14cbb7cfb887e4c28de9b02d4cf781c4b0bdee7e73cd234",
       "localized": true,
       "provider": "github"
     }

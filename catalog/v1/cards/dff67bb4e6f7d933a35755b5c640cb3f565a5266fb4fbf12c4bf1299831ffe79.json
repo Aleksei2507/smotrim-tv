@@ -1,0 +1,1003 @@
+{
+  "id": "tt0903747",
+  "type": "series",
+  "poster": "https://images.metahub.space/poster/small/tt0903747/img",
+  "background": "https://images.metahub.space/background/medium/tt0903747/img",
+  "genres": [
+    "Криминал",
+    "Драма",
+    "Триллер"
+  ],
+  "runtime": "49 мин",
+  "imdbRating": "9.5",
+  "releaseInfo": "2008–2013",
+  "trailers": [
+    {
+      "source": "VFkjBy2b50Q",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Во все тяжкие",
+  "origin": "other",
+  "description": "Учитель химии начинает производить наркотики ради семьи, но постепенно превращает новую жизнь в опасную борьбу за власть.",
+  "imdbId": "tt0903747",
+  "ids": [
+    "tt0903747"
+  ],
+  "originalName": "Breaking Bad",
+  "aliases": [
+    "Во все тяжкие",
+    "Breaking Bad"
+  ],
+  "year": "2008",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:43:16Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt0903747.json"
+  ],
+  "videos": [
+    {
+      "id": "tt0903747:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Пилотная серия",
+      "description": "Учителю химии Уолтеру Уайту ставят смертельный диагноз. Чтобы обеспечить семью, он решает варить мет с бывшим учеником Джесси.",
+      "released": "2008-01-20"
+    },
+    {
+      "id": "tt0903747:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Кот в мешке…",
+      "description": "Уолтер и Джесси пытаются избавиться от трупов в своем фургоне. Скайлер замечает странности в поведении мужа.",
+      "released": "2008-01-27"
+    },
+    {
+      "id": "tt0903747:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "…и мешок в реке",
+      "description": "Уолтеру предстоит сделать важный выбор. Мари Шрейдер, сестра Скайлер, подозревает, что Уолтер курит марихуану.",
+      "released": "2008-02-10"
+    },
+    {
+      "id": "tt0903747:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Раковый больной",
+      "description": "Семья узнает о диагнозе Уолтера. Джесси пытается начать новую жизнь и возвращается в родительский дом.",
+      "released": "2008-02-17"
+    },
+    {
+      "id": "tt0903747:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серое вещество",
+      "description": "Скайлер уговаривает Уолтера пройти дорогостоящий курс химиотерапии. Джесси пытается сварить партию наркотиков самостоятельно.",
+      "released": "2008-02-24"
+    },
+    {
+      "id": "tt0903747:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Безумная пригоршня ничего",
+      "description": "Уолтер и Джесси ищут оптового покупателя. Хэнк Шрейдер, агент УБН и свояк Уолтера, хочет поймать таинственного наркопроизводителя.",
+      "released": "2008-03-02"
+    },
+    {
+      "id": "tt0903747:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Сделка без резких движений",
+      "description": "Сотрудничество с гангстером Туко оказывается опасным для Уолтера и Джесси. Скайлер узнает о Мари нечто новое.",
+      "released": "2008-03-09"
+    },
+    {
+      "id": "tt0903747:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Семьсот тридцать семь",
+      "description": "Уолтер и Джесси планируют убийство Туко, пока тот не добрался до них. Хэнк продолжает вести расследование.",
+      "released": "2009-03-08"
+    },
+    {
+      "id": "tt0903747:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Допрос",
+      "description": "Туко привозит пленников к своему дяде Гектору Саламанке. Хэнк ищет пропавшего Уолтера по просьбе Скайлер.",
+      "released": "2009-03-15"
+    },
+    {
+      "id": "tt0903747:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Укус мертвой пчелы",
+      "description": "Уолтер симулирует амнезию, но Скайлер ему не верит. Хэнк допрашивает Джесси, подозревая его в связи с Туко.",
+      "released": "2009-03-22"
+    },
+    {
+      "id": "tt0903747:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Залечь на дно",
+      "description": "Джесси остается без денег и крыши над головой. Скайлер подозревает Уолтера в измене и отказывается идти с ним на контакт.",
+      "released": "2009-03-29"
+    },
+    {
+      "id": "tt0903747:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Поломка",
+      "description": "Хэнк узнает, что голубой метамфетамин варит некий Гейзенберг. Друзья Джесси становятся дилерами, но бизнес-модель дает сбой.",
+      "released": "2009-04-05"
+    },
+    {
+      "id": "tt0903747:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Ку-ку",
+      "description": "Уолтер ругается со своей давней подругой Гретхен. Джесси вламывается в дом наркоманов, которые обокрали его дилера Барсука.",
+      "released": "2009-04-12"
+    },
+    {
+      "id": "tt0903747:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Черный и голубой",
+      "description": "Уолтер расширяет территорию сбыта своего товара. Хэнк испытывает психологические проблемы после повышения на службе.",
+      "released": "2009-04-19"
+    },
+    {
+      "id": "tt0903747:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Лучше звоните Солу",
+      "description": "Уолтер и Джесси нанимают ушлого адвоката Сола Гудмана для защиты своего дилера. У Джесси и его знакомой Джейн завязывается роман.",
+      "released": "2009-04-26"
+    },
+    {
+      "id": "tt0903747:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Четыре дня отсутствия",
+      "description": "Партнеры застряли в пустыне после четырехдневной варки. Джесси узнает секрет своего наставника, а Уолтера ждут неожиданные вести.",
+      "released": "2009-05-03"
+    },
+    {
+      "id": "tt0903747:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Конец",
+      "description": "Семья Уолтера устраивает вечеринку. Джесси хочет встретиться с отцом своей девушки Джейн.",
+      "released": "2009-05-10"
+    },
+    {
+      "id": "tt0903747:2:11",
+      "season": 2,
+      "episode": 11,
+      "title": "Мандала",
+      "description": "Сол Гудман хочет свести Уолтера и Джесси с загадочным покупателем. Скайлер находит нарушения в фирме, в которой работает.",
+      "released": "2009-05-17"
+    },
+    {
+      "id": "tt0903747:2:12",
+      "season": 2,
+      "episode": 12,
+      "title": "Феникс",
+      "description": "Уолтер ссорится с Джесси и отказывается отдавать его половину дохода. Сол придумал, как легализовать накопления Уолтера.",
+      "released": "2009-05-24"
+    },
+    {
+      "id": "tt0903747:2:13",
+      "season": 2,
+      "episode": 13,
+      "title": "АБК",
+      "description": "Джесси отправляется на реабилитацию. Устав от бесконечной лжи Уолтера, Скайлер требует развода и хочет и забрать детей.",
+      "released": "2009-05-31"
+    },
+    {
+      "id": "tt0903747:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Хватит!",
+      "description": "Уолтер рассказывает Скайлер правду. Наркобарон Гус Фринг делает предложение, от которого сложно отказаться.",
+      "released": "2010-03-21"
+    },
+    {
+      "id": "tt0903747:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Безымянный конь",
+      "description": "Таинственные близнецы-мексиканцы приезжают в Альбукерке. Уолтер-младший тяжело переживает разлуку родителей.",
+      "released": "2010-03-28"
+    },
+    {
+      "id": "tt0903747:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Я.Т.Т.",
+      "description": "Уолтер и Скайлер вступают в открытый конфликт. Гус созывает картель, чтобы урегулировать вопросы.",
+      "released": "2010-04-04"
+    },
+    {
+      "id": "tt0903747:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Зеленый свет",
+      "description": "Хэнк находит зацепки в деле Гейзенберга. Гус планирует вернуть Уолтера в бизнес при помощи хитрой манипуляции.",
+      "released": "2010-04-11"
+    },
+    {
+      "id": "tt0903747:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Еще",
+      "description": "Гус показывает Уолтеру новую лабораторию. Хэнк значительно продвигается в расследовании.",
+      "released": "2010-04-18"
+    },
+    {
+      "id": "tt0903747:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Закат",
+      "description": "Уолтер знакомится с новым помощником — химиком Гейлом. Гус пытается охладить пыл разъяренных кузенов Туко.",
+      "released": "2010-04-25"
+    },
+    {
+      "id": "tt0903747:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Одна минута",
+      "description": "Хэнка отстраняют от службы в УБН. Уолтер навещает Джесси в больнице и предлагает ему снова работать вместе.",
+      "released": "2010-05-02"
+    },
+    {
+      "id": "tt0903747:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Я вижу тебя",
+      "description": "Уолтер срывает рабочие дедлайны, чтобы провести время с родными. Гус знакомится со Скайлер, Мари и Уолтером-младшим.",
+      "released": "2010-05-09"
+    },
+    {
+      "id": "tt0903747:3:9",
+      "season": 3,
+      "episode": 9,
+      "title": "По-кафкиански",
+      "description": "Скайлер придумывает, как оплатить лечение Хэнка наркоденьгами Уолтера. Джесси выражает недовольство из-за работы на Гуса Фринга.",
+      "released": "2010-05-16"
+    },
+    {
+      "id": "tt0903747:3:10",
+      "season": 3,
+      "episode": 10,
+      "title": "Муха",
+      "description": "Уолтер сходит с ума из-за незваного гостя в лаборатории. Джесси хочет добиться от него правды.",
+      "released": "2010-05-23"
+    },
+    {
+      "id": "tt0903747:3:11",
+      "season": 3,
+      "episode": 11,
+      "title": "Эйбикью",
+      "description": "Скайлер постепенно втягивается в криминальные дела Уолтера. Джесси встречается с новой девушкой и узнает о ней нечто страшное.",
+      "released": "2010-05-30"
+    },
+    {
+      "id": "tt0903747:3:12",
+      "season": 3,
+      "episode": 12,
+      "title": "Полумеры",
+      "description": "Джесси жаждет мести за смерть лучшего друга. Гус Фринг пытается решить конфликт, но запускает цепочку шокирующих событий.",
+      "released": "2010-06-06"
+    },
+    {
+      "id": "tt0903747:3:13",
+      "season": 3,
+      "episode": 13,
+      "title": "Полная мера",
+      "description": "Майк выслеживает пропавшего Джесси. Гус вновь нанимает Гейла, чтобы тот изучил формулу Уолтера и мог готовить самостоятельно.",
+      "released": "2010-06-13"
+    },
+    {
+      "id": "tt0903747:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Канцелярский нож",
+      "description": "Гус преподает Уолтеру и Джесси урок. Хэнк продолжает восстанавливаться после покушения и находит себе новое хобби.",
+      "released": "2011-07-17"
+    },
+    {
+      "id": "tt0903747:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Тридцать восьмой, курносый",
+      "description": "Уолтер планирует коварную диверсию. Скайлер пытается купить автомойку, чтобы отмывать деньги мужа.",
+      "released": "2011-07-24"
+    },
+    {
+      "id": "tt0903747:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Открытый дом",
+      "description": "Джесси глушит психологическую травму привычным способом. Сол Гудман помогает Скайлер провернуть аферу.",
+      "released": "2011-07-31"
+    },
+    {
+      "id": "tt0903747:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Пулевые отверстия",
+      "description": "Скайлер и Уолтер рассказывают Хэнку и Мари о своем финансовом положении. Джесси становится обузой для Майка и Гуса.",
+      "released": "2011-08-07"
+    },
+    {
+      "id": "tt0903747:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Переднее сиденье",
+      "description": "Хэнк находит новую зацепку в деле Гейзенберга. Джесси завоевывает доверие Майка и Гуса.",
+      "released": "2011-08-14"
+    },
+    {
+      "id": "tt0903747:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Загнанный в угол",
+      "description": "Скайлер беспокоится за безопасность семьи из-за дел мужа. Уолтер дарит сыну дорогую машину.",
+      "released": "2011-08-21"
+    },
+    {
+      "id": "tt0903747:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Проблемный пес",
+      "description": "Уолтер вынашивает план ликвидации Гуса. Хэнк привлекает к своему расследованию Уолтера-младшего.",
+      "released": "2011-08-28"
+    },
+    {
+      "id": "tt0903747:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Братья",
+      "description": "Хэнк просит Уолтера помочь проследить за Фрингом. Флешбэк: 1989-й, Гус и его партнер Макс встречаются с наркобароном доном Эладио.",
+      "released": "2011-09-04"
+    },
+    {
+      "id": "tt0903747:4:9",
+      "season": 4,
+      "episode": 9,
+      "title": "Жучок",
+      "description": "Гус и дон Эладио начинают открытый конфликт. Скайлер рискует попасться на крючок налоговой из-за своего начальника Теда.",
+      "released": "2011-09-11"
+    },
+    {
+      "id": "tt0903747:4:10",
+      "season": 4,
+      "episode": 10,
+      "title": "Ваше здоровье",
+      "description": "Гус, Майк и Джесси прибывают в Мексику на переговоры с доном Эладио. Скайлер вновь обращается к Солу Гудману за помощью.",
+      "released": "2011-09-18"
+    },
+    {
+      "id": "tt0903747:4:11",
+      "season": 4,
+      "episode": 11,
+      "title": "Погреб",
+      "description": "Гус отстраняет Уолтера от варки метамфетамина, но оставляет в лаборатории Джесси. Тед совершает глупость и злит Скайлер.",
+      "released": "2011-09-25"
+    },
+    {
+      "id": "tt0903747:4:12",
+      "season": 4,
+      "episode": 12,
+      "title": "Конец света",
+      "description": "УБН берет под охрану семью Уолтера, но сам он отказывается от защиты. Сын Андреа, Брок, внезапно попадает в реанимацию.",
+      "released": "2011-10-02"
+    },
+    {
+      "id": "tt0903747:4:13",
+      "season": 4,
+      "episode": 13,
+      "title": "Без лица",
+      "description": "ФБР допрашивает Джесси. Уолтер придумывает хитрый план по устранению Гуса.",
+      "released": "2011-10-09"
+    },
+    {
+      "id": "tt0903747:5:1",
+      "season": 5,
+      "episode": 1,
+      "title": "Живи свободным или умри",
+      "description": "Уолтер, Джесси и Майк активно заметают следы. Скайлер паникует из-за очнувшегося Теда.",
+      "released": "2012-07-15"
+    },
+    {
+      "id": "tt0903747:5:2",
+      "season": 5,
+      "episode": 2,
+      "title": "Мадригал",
+      "description": "УБН допрашивает Майка, в то же время к нему обращается приближенная Гуса — Лидия. Уолтер и Джесси ищут новое место для варки.",
+      "released": "2012-07-22"
+    },
+    {
+      "id": "tt0903747:5:3",
+      "season": 5,
+      "episode": 3,
+      "title": "Опасные условия",
+      "description": "Майк посещает свидетелей по делу Гуса Фринга. Уолтер и Джесси успешно варят метамфетамин по новой схеме.",
+      "released": "2012-07-29"
+    },
+    {
+      "id": "tt0903747:5:4",
+      "season": 5,
+      "episode": 4,
+      "title": "Пятьдесят один",
+      "description": "Уолтер торжественно возвращается в наркобизнес, чем вгоняет Скайлер в депрессию. Хэнк продолжает следствие по делу Гуса.",
+      "released": "2012-08-05"
+    },
+    {
+      "id": "tt0903747:5:5",
+      "season": 5,
+      "episode": 5,
+      "title": "Мертвый груз",
+      "description": "Уолтер, Майк и Джесси разрабатывают план по краже важного ингредиента — метиламина. Им помогает новичок — парень по имени Тодд.",
+      "released": "2012-08-12"
+    },
+    {
+      "id": "tt0903747:5:6",
+      "season": 5,
+      "episode": 6,
+      "title": "Выкуп",
+      "description": "После случая на железной дороге Майк и Джесси хотят выйти из игры. УБН усиливает слежку за Майком.",
+      "released": "2012-08-19"
+    },
+    {
+      "id": "tt0903747:5:7",
+      "season": 5,
+      "episode": 7,
+      "title": "Скажи мое имя",
+      "description": "Уолтер находит покупателя для товара и нанимает Тодда в качестве варщика. Хэнк находит важного свидетеля в деле против Майка.",
+      "released": "2012-08-26"
+    },
+    {
+      "id": "tt0903747:5:8",
+      "season": 5,
+      "episode": 8,
+      "title": "Летящий над всем",
+      "description": "Империя Уолтера процветает, он подумывает свернуть бизнес. Вместе с Лидией он ищет способ расправы над свидетелями.",
+      "released": "2012-09-02"
+    },
+    {
+      "id": "tt0903747:5:9",
+      "season": 5,
+      "episode": 9,
+      "title": "Кровавые деньги",
+      "description": "Хэнк выходит на след Гейзенберга. Джесси находится в депрессии и пытается избавиться от денег.",
+      "released": "2013-08-11"
+    },
+    {
+      "id": "tt0903747:5:10",
+      "season": 5,
+      "episode": 10,
+      "title": "Зарытые",
+      "description": "Уолтер прячет и уничтожает улики, чтобы Хэнк до них не добрался. Лидия недовольна новыми поставщиками метамфетамина.",
+      "released": "2013-08-18"
+    },
+    {
+      "id": "tt0903747:5:11",
+      "season": 5,
+      "episode": 11,
+      "title": "Признания",
+      "description": "Джесси узнает правду об отравлении Брока. Тодд и банда его дяди Джека берут метамфетаминовый бизнес в свои руки.",
+      "released": "2013-08-25"
+    },
+    {
+      "id": "tt0903747:5:12",
+      "season": 5,
+      "episode": 12,
+      "title": "Бешеный пес",
+      "description": "Скайлер просит Уолтера разобраться с Джесси. Хэнк и его напарник Стив Гомес уговаривают Джесси разоблачить бывшего партнера.",
+      "released": "2013-09-01"
+    },
+    {
+      "id": "tt0903747:5:13",
+      "season": 5,
+      "episode": 13,
+      "title": "Тохаджили",
+      "description": "Джек принимает предложение Уолтера, но просит кое-что взамен. Хэнк и Стив пытаются заманить Уолтера в пустыню.",
+      "released": "2013-09-08"
+    },
+    {
+      "id": "tt0903747:5:14",
+      "season": 5,
+      "episode": 14,
+      "title": "Озимандия",
+      "description": "Банда Джека ведет напряженные переговоры в пустыне. Мари требует, чтобы Скайлер рассказала сыну правду о наркобизнесе.",
+      "released": "2013-09-15"
+    },
+    {
+      "id": "tt0903747:5:15",
+      "season": 5,
+      "episode": 15,
+      "title": "Гранитный штат",
+      "description": "Уолтер становится отшельником и привыкает к новым аспектам своей личности. Джесси планирует побег из логова неонацистов.",
+      "released": "2013-09-22"
+    },
+    {
+      "id": "tt0903747:5:16",
+      "season": 5,
+      "episode": 16,
+      "title": "Фелина",
+      "description": "Уолтер Уайт возвращается в Альбукерке. Он намерен навестить старых знакомых и закончить начатое.",
+      "released": "2013-09-29"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    },
+    {
+      "number": 5,
+      "name": "Сезон 5"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 1 / Серии 1-7 (7) (Винс Гиллиган / Vince Gilligan) [2008, США, драма, криминал, BDRip 1080p] Dub (Selena International) + MVO (FoxCrime / Amedia) + DVO (LostFilm, Кубик в Кубе) + AVO (Юрий Сербин, Дмитрий «Goblin» Пучков) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:97A13DE6BB8B741A099A446E755A8A09CFD3A493&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 55297703936,
+      "size": "51.50 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 1 / Серии 1-7 (7) (Винс Гиллиган / Vince Gilligan) [2008, США, драма, криминал, BDRip 1080p] Dub (Selena International) + MVO (FoxCrime / Amedia) + DVO (LostFilm, Кубик в Кубе) + AVO (Юрий Сербин, Дмитрий «Goblin» Пучков) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad [S01-05] (2008-2013) BDRip 1080p | P, P2, A | LostFilm, Кубик в Кубе, Пучков aka Гоблин",
+      "magnet": "magnet:?xt=urn:btih:6f94a7407500e57b623c2c385be52bb1f228a896&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 166129335009,
+      "size": "154.72 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad [S01-05] (2008-2013) BDRip 1080p | P, P2, A | LostFilm, Кубик в Кубе, Пучков aka Гоблин"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 1 / Серии: 1-7 из 7 (Винс Гиллиган / Vince Gilligan) [2008, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm, FoxCrime) + Ukr (Inter) + DVO (Кубик в Кубе) + VO (Foxlight) + AVO (Сербин) + Original",
+      "magnet": "magnet:?xt=urn:btih:B1EF5F14C7A03F7744730ADEAEC6C767E41FCCCD&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 286366944460,
+      "size": "266.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 1 / Серии: 1-7 из 7 (Винс Гиллиган / Vince Gilligan) [2008, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm, FoxCrime) + Ukr (Inter) + DVO (Кубик в Кубе) + VO (Foxlight) + AVO (Сербин) + Original"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 1 / Серии: 1-7 из 7 (Винс Гиллиган) [2008, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm, FoxCrime) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:E2B01BA1DF534CB007869CFB7E121A8E18E573EA&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%D0%92%D0%BE%20%D0%B2%D1%81%D0%B5%20%D1%82%D1%8F%D0%B6%D0%BA%D0%B8%D0%B5%20%2F%20Breaking%20Bad%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%201%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-7%20%D0%B8%D0%B7%207%20(%D0%92%D0%B8%D0%BD%D1%81%20%D0%93%D0%B8%D0%BB%D0%BB%D0%B8%D0%B3%D0%B0%D0%BD)%20%5B2008%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%94%D1%80%D0%B0%D0%BC%D0%B0%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20WEB-DL%202160p%2C%204k%5D%20MVO%20(LostFilm%2C%20FoxCr",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 75161927680,
+      "size": "70.00 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 1 / Серии: 1-7 из 7 (Винс Гиллиган) [2008, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm, FoxCrime) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Вразнос / Breaking Bad / Сезон: 1-5 / Серии: 1-62 из 62 (Винс Гиллиган) [2008-2013, США, криминал, драма, BDRip 720p] AVO (Дмитрий «Goblin» Пучков) + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:1531D4C9B1034D887F3A0E10DFC86280E2E779AA&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 184629906636,
+      "size": "171.95 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 62,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Вразнос / Breaking Bad / Сезон: 1-5 / Серии: 1-62 из 62 (Винс Гиллиган) [2008-2013, США, криминал, драма, BDRip 720p] AVO (Дмитрий «Goblin» Пучков) + Original + Sub (Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 1 / Серии: 1-7 (7) (Винс Гиллиган, Адам Бернстайн) [2008, США, драма, криминал, BDRip 720p] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:0100CDEE95A57C66341EC992475388A2C69E6014&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 22269405429,
+      "size": "20.74 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 1 / Серии: 1-7 (7) (Винс Гиллиган, Адам Бернстайн) [2008, США, драма, криминал, BDRip 720p] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 2 / Серии 1-13 (13) (Винс Гиллиган / Vince Gilligan) [2009, США, драма, криминал, BDRip 1080p] Dub (Selena International) + MVO (FoxCrime / Amedia) + DVO (LostFilm, Кубик в Кубе) + AVO (Юрий Сербин, Дмитрий «Goblin» Пучков) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:3C6D14A61A17748F8EE11C1DC75D12B03115E1B3&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 98032628531,
+      "size": "91.30 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 2 / Серии 1-13 (13) (Винс Гиллиган / Vince Gilligan) [2009, США, драма, криминал, BDRip 1080p] Dub (Selena International) + MVO (FoxCrime / Amedia) + DVO (LostFilm, Кубик в Кубе) + AVO (Юрий Сербин, Дмитрий «Goblin» Пучков) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad [S01-05] (2008-2013) BDRip 1080p | P, P2, A | LostFilm, Кубик в Кубе, Пучков aka Гоблин",
+      "magnet": "magnet:?xt=urn:btih:6f94a7407500e57b623c2c385be52bb1f228a896&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 166129335009,
+      "size": "154.72 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad [S01-05] (2008-2013) BDRip 1080p | P, P2, A | LostFilm, Кубик в Кубе, Пучков aka Гоблин"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 2 / Серии: 1-13 из 13 (Винс Гиллиган) [2009, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm, FoxCrime) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:65F8347613EE80474BFDDB130C944057DD55B9C8&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 103583873761,
+      "size": "96.47 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 2 / Серии: 1-13 из 13 (Винс Гиллиган) [2009, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm, FoxCrime) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 2 / Серии: 1-13 из 13 (Винс Гиллиган / Vince Gilligan) [2009, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm, FoxCrime) + Ukr (Inter) + DVO (Кубик в Кубе) + VO (Foxlight) + AVO (Сербин) + Original",
+      "magnet": "magnet:?xt=urn:btih:05A6C1A529D1EB43C7FD6B85597E8221FC357A5F&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%D0%92%D0%BE%20%D0%B2%D1%81%D0%B5%20%D1%82%D1%8F%D0%B6%D0%BA%D0%B8%D0%B5%20%2F%20Breaking%20Bad%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%202%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-13%20%D0%B8%D0%B7%2013%20(%D0%92%D0%B8%D0%BD%D1%81%20%D0%93%D0%B8%D0%BB%D0%BB%D0%B8%D0%B3%D0%B0%D0%BD%20%2F%20Vince%20Gilligan)%20%5B2009%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%94%D1%80%D0%B0%D0%BC%D0%B0%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20WEB-DL%202160p%2C%204k%5D%20M",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 443970769387,
+      "size": "413.48 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 2 / Серии: 1-13 из 13 (Винс Гиллиган / Vince Gilligan) [2009, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm, FoxCrime) + Ukr (Inter) + DVO (Кубик в Кубе) + VO (Foxlight) + AVO (Сербин) + Original"
+    },
+    {
+      "title": "Во все тяжкие / Вразнос / Breaking Bad / Сезон: 1-5 / Серии: 1-62 из 62 (Винс Гиллиган) [2008-2013, США, криминал, драма, BDRip 720p] AVO (Дмитрий «Goblin» Пучков) + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:1531D4C9B1034D887F3A0E10DFC86280E2E779AA&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 184629906636,
+      "size": "171.95 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 62,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Вразнос / Breaking Bad / Сезон: 1-5 / Серии: 1-62 из 62 (Винс Гиллиган) [2008-2013, США, криминал, драма, BDRip 720p] AVO (Дмитрий «Goblin» Пучков) + Original + Sub (Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 2 / Серии: 1-13 (13) (Винс Гиллиган, Адам Бернстайн) [2009, США, драма, криминал, BDRip 720p] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:6926D5D1E74DF283C166DB1E1E8449D89309CF2C&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 38547331481,
+      "size": "35.90 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 2 / Серии: 1-13 (13) (Винс Гиллиган, Адам Бернстайн) [2009, США, драма, криминал, BDRip 720p] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 3 / Серии 1-13 (13) (Винс Гиллиган / Vince Gilligan) [2010, США, драма, криминал, BDRip 1080p] Dub (Selena International) + MVO (FoxCrime / Amedia) + DVO (LostFilm, Кубик в Кубе) + AVO (Юрий Сербин, Дмитрий «Goblin» Пучков) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:72A68EDD77566CAC45DB6C3C21C5361575C60F45&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 98215164641,
+      "size": "91.47 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 3 / Серии 1-13 (13) (Винс Гиллиган / Vince Gilligan) [2010, США, драма, криминал, BDRip 1080p] Dub (Selena International) + MVO (FoxCrime / Amedia) + DVO (LostFilm, Кубик в Кубе) + AVO (Юрий Сербин, Дмитрий «Goblin» Пучков) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad [S01-05] (2008-2013) BDRip 1080p | P, P2, A | LostFilm, Кубик в Кубе, Пучков aka Гоблин",
+      "magnet": "magnet:?xt=urn:btih:6f94a7407500e57b623c2c385be52bb1f228a896&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 166129335009,
+      "size": "154.72 GB",
+      "episode": 0,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad [S01-05] (2008-2013) BDRip 1080p | P, P2, A | LostFilm, Кубик в Кубе, Пучков aka Гоблин"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 3 / Серии: 1-13 из 13 (Винс Гиллиган/ Vince Gilligan) [2010, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + AVO (Сербин) + Sub",
+      "magnet": "magnet:?xt=urn:btih:E4032044949C3595466CA4E504CD7D5E274FF865&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%D0%92%D0%BE%20%D0%B2%D1%81%D0%B5%20%D1%82%D1%8F%D0%B6%D0%BA%D0%B8%D0%B5%20%2F%20Breaking%20Bad%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%203%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-13%20%D0%B8%D0%B7%2013%20(%D0%92%D0%B8%D0%BD%D1%81%20%D0%93%D0%B8%D0%BB%D0%BB%D0%B8%D0%B3%D0%B0%D0%BD%2F%20Vince%20Gilligan)%20%5B2010%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%94%D1%80%D0%B0%D0%BC%D0%B0%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20WEB-DL%202160p%2C%204k%5D%20MV",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 355494443089,
+      "size": "331.08 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 3 / Серии: 1-13 из 13 (Винс Гиллиган/ Vince Gilligan) [2010, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + AVO (Сербин) + Sub"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad (2008-2013) BDRip [AV1/2160p] [4K, SDR, 10-bit] (сезон 1-5, серии 1-62 из 62) Кубик в Кубе [handmade Upscale AI]",
+      "magnet": "magnet:?xt=urn:btih:306CF33893571741CDBB310A26296496AA9C2C96",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 163208757248,
+      "size": "152.00 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 62,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad (2008-2013) BDRip [AV1/2160p] [4K, SDR, 10-bit] (сезон 1-5, серии 1-62 из 62) Кубик в Кубе [handmade Upscale AI]"
+    },
+    {
+      "title": "Во все тяжкие / Вразнос / Breaking Bad / Сезон: 1-5 / Серии: 1-62 из 62 (Винс Гиллиган) [2008-2013, США, криминал, драма, BDRip 720p] AVO (Дмитрий «Goblin» Пучков) + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:1531D4C9B1034D887F3A0E10DFC86280E2E779AA&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 184629906636,
+      "size": "171.95 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 62,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Вразнос / Breaking Bad / Сезон: 1-5 / Серии: 1-62 из 62 (Винс Гиллиган) [2008-2013, США, криминал, драма, BDRip 720p] AVO (Дмитрий «Goblin» Пучков) + Original + Sub (Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 3 / Серии: 1-13 (13) (Винс Гиллиган, Адам Бернстайн) [2010, США, драма, криминал, BDRip 720p] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:BBA6B3BEA13C9929404DB6D8FA06D1428C9BB7E4&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 38418482462,
+      "size": "35.78 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 3 / Серии: 1-13 (13) (Винс Гиллиган, Адам Бернстайн) [2010, США, драма, криминал, BDRip 720p] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad [S01-05] (2008-2013) BDRip 1080p | P, P2, A | LostFilm, Кубик в Кубе, Пучков aka Гоблин",
+      "magnet": "magnet:?xt=urn:btih:6f94a7407500e57b623c2c385be52bb1f228a896&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 166129335009,
+      "size": "154.72 GB",
+      "episode": 0,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad [S01-05] (2008-2013) BDRip 1080p | P, P2, A | LostFilm, Кубик в Кубе, Пучков aka Гоблин"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 4 / Серии 1-13 (13) (Винс Гиллиган / Vince Gilligan) [2011, США, драма, криминал, BDRip 1080p] Dub (Selena International) + MVO (FoxCrime / Amedia) + DVO (LostFilm, Кубик в Кубе) + AVO (Юрий Сербин, Дмитрий «Goblin» Пучков) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:F9BB32AB44205A5F5A4B923993B353F0848EF22C&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 89163521064,
+      "size": "83.04 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 4 / Серии 1-13 (13) (Винс Гиллиган / Vince Gilligan) [2011, США, драма, криминал, BDRip 1080p] Dub (Selena International) + MVO (FoxCrime / Amedia) + DVO (LostFilm, Кубик в Кубе) + AVO (Юрий Сербин, Дмитрий «Goblin» Пучков) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 4 / Серии: 1-13 из 13 (Винс Гиллиган / Vince Gilligan) [2011, США, Драма, криминал, триллер, WEB-DL 2160p, 4K] 2 x MVO (LostFilm, FoxCrime) + DVO (Кубик в Кубе) + Original",
+      "magnet": "magnet:?xt=urn:btih:157B16F5F6164B359A23CDB1837D48CBB9A66961&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 348901668290,
+      "size": "324.94 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 4 / Серии: 1-13 из 13 (Винс Гиллиган / Vince Gilligan) [2011, США, Драма, криминал, триллер, WEB-DL 2160p, 4K] 2 x MVO (LostFilm, FoxCrime) + DVO (Кубик в Кубе) + Original"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad (2008-2013) BDRip [AV1/2160p] [4K, SDR, 10-bit] (сезон 1-5, серии 1-62 из 62) Кубик в Кубе [handmade Upscale AI]",
+      "magnet": "magnet:?xt=urn:btih:306CF33893571741CDBB310A26296496AA9C2C96",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 163208757248,
+      "size": "152.00 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 62,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad (2008-2013) BDRip [AV1/2160p] [4K, SDR, 10-bit] (сезон 1-5, серии 1-62 из 62) Кубик в Кубе [handmade Upscale AI]"
+    },
+    {
+      "title": "Во все тяжкие / Вразнос / Breaking Bad / Сезон: 1-5 / Серии: 1-62 из 62 (Винс Гиллиган) [2008-2013, США, криминал, драма, BDRip 720p] AVO (Дмитрий «Goblin» Пучков) + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:1531D4C9B1034D887F3A0E10DFC86280E2E779AA&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 184629906636,
+      "size": "171.95 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 62,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Вразнос / Breaking Bad / Сезон: 1-5 / Серии: 1-62 из 62 (Винс Гиллиган) [2008-2013, США, криминал, драма, BDRip 720p] AVO (Дмитрий «Goblin» Пучков) + Original + Sub (Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 4 / Серии: 1-13 (13) (Винс Гиллиган, Адам Бернстайн) [2011, США, драма, криминал, BDRip 720p] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:6DD5A5E5D1C161AFAB04488865D6D0C0E9A7585C&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 31976031518,
+      "size": "29.78 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 4 / Серии: 1-13 (13) (Винс Гиллиган, Адам Бернстайн) [2011, США, драма, криминал, BDRip 720p] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad [S01-05] (2008-2013) BDRip 1080p | P, P2, A | LostFilm, Кубик в Кубе, Пучков aka Гоблин",
+      "magnet": "magnet:?xt=urn:btih:6f94a7407500e57b623c2c385be52bb1f228a896&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 166129335009,
+      "size": "154.72 GB",
+      "episode": 0,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad [S01-05] (2008-2013) BDRip 1080p | P, P2, A | LostFilm, Кубик в Кубе, Пучков aka Гоблин"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 5 / Серии: 1-16 (16) (Винс Гиллиган, Адам Бернстайн) [2012-2013, США, драма, криминал, BDRip 1080p] Dub (Selena International) + MVO (FoxCrime / Amedia) + DVO (LostFilm, Кубик в Кубе) + AVO (Ю. Сербин, Дмитрий «Goblin» Пучков) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:9BF1640D7D18C7C2051E1997CAFA1DFFC4958D1A&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 112334869626,
+      "size": "104.62 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 16,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 5 / Серии: 1-16 (16) (Винс Гиллиган, Адам Бернстайн) [2012-2013, США, драма, криминал, BDRip 1080p] Dub (Selena International) + MVO (FoxCrime / Amedia) + DVO (LostFilm, Кубик в Кубе) + AVO (Ю. Сербин, Дмитрий «Goblin» Пучков) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 5 / Серии: 1-16 из 16 (Винс Гиллиган) [2012-2013, США, Драма, криминал, триллер, WEBRip 2160p, 4k] Dub (Selena) + MVO (LostFilm) + DVO (Кубик в Кубе) + MVO (FoxCrime) + Original",
+      "magnet": "magnet:?xt=urn:btih:35432677075F9E19313A80BABB302B17C7925C90&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 59259811266,
+      "size": "55.19 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 16,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 5 / Серии: 1-16 из 16 (Винс Гиллиган) [2012-2013, США, Драма, криминал, триллер, WEBRip 2160p, 4k] Dub (Selena) + MVO (LostFilm) + DVO (Кубик в Кубе) + MVO (FoxCrime) + Original"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 5 / Серии: 1-16 из 16 (Винс Гиллиган / Vince Gilligan) [2012-2013, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm, Amedia) + DVO (Кубик в Кубе) + Original + Sub",
+      "magnet": "magnet:?xt=urn:btih:FBF7BA048910C89C1681D25112F818A58F690B24&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%D0%92%D0%BE%20%D0%B2%D1%81%D0%B5%20%D1%82%D1%8F%D0%B6%D0%BA%D0%B8%D0%B5%20%2F%20Breaking%20Bad%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%205%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-16%20%D0%B8%D0%B7%2016%20(%D0%92%D0%B8%D0%BD%D1%81%20%D0%93%D0%B8%D0%BB%D0%BB%D0%B8%D0%B3%D0%B0%D0%BD%20%2F%20Vince%20Gilligan)%20%5B2012-2013%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%94%D1%80%D0%B0%D0%BC%D0%B0%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20WEB-DL%202160p%2C%20",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 438773858959,
+      "size": "408.64 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 16,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 5 / Серии: 1-16 из 16 (Винс Гиллиган / Vince Gilligan) [2012-2013, США, Драма, криминал, триллер, WEB-DL 2160p, 4k] MVO (LostFilm, Amedia) + DVO (Кубик в Кубе) + Original + Sub"
+    },
+    {
+      "title": "Во все тяжкие / Вразнос / Breaking Bad / Сезон: 1-5 / Серии: 1-62 из 62 (Винс Гиллиган) [2008-2013, США, криминал, драма, BDRip 720p] AVO (Дмитрий «Goblin» Пучков) + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:1531D4C9B1034D887F3A0E10DFC86280E2E779AA&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 184629906636,
+      "size": "171.95 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 62,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Вразнос / Breaking Bad / Сезон: 1-5 / Серии: 1-62 из 62 (Винс Гиллиган) [2008-2013, США, криминал, драма, BDRip 720p] AVO (Дмитрий «Goblin» Пучков) + Original + Sub (Eng)"
+    },
+    {
+      "title": "Во все тяжкие / Breaking Bad / Сезон: 5 / Серии: 1-16 (16) (Винс Гиллиган, Адам Бернстайн) [2012-2013, США, драма, криминал, BDRip 720p] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:F3A3C532F78AF45A8F6944051B1E2264A540BE0B&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 41661182771,
+      "size": "38.80 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 16,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Во все тяжкие / Breaking Bad / Сезон: 5 / Серии: 1-16 (16) (Винс Гиллиган, Адам Бернстайн) [2012-2013, США, драма, криминал, BDRip 720p] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:43:16Z"
+}
