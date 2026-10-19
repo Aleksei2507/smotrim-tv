@@ -1,0 +1,1019 @@
+{
+  "schemaVersion": 1,
+  "revision": 1792389522,
+  "updatedAt": "2026-10-19T05:58:42Z",
+  "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
+  "references": [
+    "https://www.kinopoisk.ru/lists/movies/top250/",
+    "https://www.kinopoisk.ru/lists/movies/series-top250/",
+    "https://www.imdb.com/chart/top/",
+    "https://www.imdb.com/chart/toptv/"
+  ],
+  "items": [
+    {
+      "id": "tt0111161",
+      "ids": [
+        "tt0111161"
+      ],
+      "imdbId": "tt0111161",
+      "name": "Побег из Шоушенка",
+      "type": "movie",
+      "year": "1994",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt0111161/img",
+      "background": "https://images.metahub.space/background/medium/tt0111161/img",
+      "description": "Несправедливо осуждённый банкир ищет способ сохранить надежду и свободу за тюремными стенами.",
+      "originalName": "The Shawshank Redemption",
+      "aliases": [
+        "Побег из Шоушенка",
+        "The Shawshank Redemption"
+      ],
+      "genres": [
+        "Драма"
+      ],
+      "imdbRating": "9.3",
+      "runtime": "142 мин",
+      "card": "cards/6f2f7896e4090f1ee8eac546ee5e7e711de70ab2025b97da32d90f8f9b0bd340.json",
+      "sha256": "6f2f7896e4090f1ee8eac546ee5e7e711de70ab2025b97da32d90f8f9b0bd340",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0118767",
+      "ids": [
+        "tt0118767"
+      ],
+      "imdbId": "tt0118767",
+      "name": "Брат",
+      "type": "movie",
+      "year": "1997",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt0118767/img",
+      "background": "https://images.metahub.space/background/medium/tt0118767/img",
+      "description": "Данила Багров приезжает в Петербург к старшему брату и оказывается в центре криминальных разборок.",
+      "originalName": "Brother",
+      "aliases": [
+        "Брат",
+        "Brother"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "7.7",
+      "runtime": "96 мин",
+      "card": "cards/08a4c01b89a5f87fe335781bd51cc23d2d59fd55109aac6e99d3e97a991811e9.json",
+      "sha256": "08a4c01b89a5f87fe335781bd51cc23d2d59fd55109aac6e99d3e97a991811e9",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0816692",
+      "ids": [
+        "tt0816692"
+      ],
+      "imdbId": "tt0816692",
+      "name": "Интерстеллар",
+      "type": "movie",
+      "year": "2014",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt0816692/img",
+      "background": "https://images.metahub.space/background/medium/tt0816692/img",
+      "description": "Пилот отправляется сквозь червоточину на поиски нового дома для человечества, оставляя семью на умирающей Земле.",
+      "originalName": "Interstellar",
+      "aliases": [
+        "Интерстеллар",
+        "Interstellar"
+      ],
+      "genres": [
+        "Приключения",
+        "Фантастика"
+      ],
+      "imdbRating": "8.7",
+      "runtime": "169 мин",
+      "card": "cards/673a7d72d245f3873e0668ab0484e360d97a247cd82be38c3355dbb604317816.json",
+      "sha256": "673a7d72d245f3873e0668ab0484e360d97a247cd82be38c3355dbb604317816",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0059550",
+      "ids": [
+        "tt0059550"
+      ],
+      "imdbId": "tt0059550",
+      "name": "Операция «Ы» и другие приключения Шурика",
+      "type": "movie",
+      "year": "1965",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt0059550/img",
+      "background": "https://images.metahub.space/background/medium/tt0059550/img",
+      "description": "Три комедийные истории о студенте Шурике: стройка, экзамен и попытка ограбления склада.",
+      "originalName": "Operation 'Y' & Other Shurik's Adventures",
+      "aliases": [
+        "Операция «Ы» и другие приключения Шурика",
+        "Operation 'Y' & Other Shurik's Adventures"
+      ],
+      "genres": [
+        "Комедия",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "95 мин",
+      "card": "cards/4a99d01a65e87d79dcfb8183c19a81fa58ac9230d32cf60f115098c95021a66b.json",
+      "sha256": "4a99d01a65e87d79dcfb8183c19a81fa58ac9230d32cf60f115098c95021a66b",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0120689",
+      "ids": [
+        "tt0120689"
+      ],
+      "imdbId": "tt0120689",
+      "name": "Зелёная миля",
+      "type": "movie",
+      "year": "1999",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt0120689/img",
+      "background": "https://images.metahub.space/background/medium/tt0120689/img",
+      "description": "Надзиратель тюрьмы встречает заключённого с необыкновенным даром и начинает сомневаться в справедливости приговора.",
+      "originalName": "The Green Mile",
+      "aliases": [
+        "Зелёная миля",
+        "The Green Mile"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Фэнтези"
+      ],
+      "imdbRating": "8.6",
+      "runtime": "189 мин",
+      "card": "cards/8d22bcf6063e57a065bb6e7fb610426d81be8ffbb644b10fe3a1a4d59cecddd0.json",
+      "sha256": "8d22bcf6063e57a065bb6e7fb610426d81be8ffbb644b10fe3a1a4d59cecddd0",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0070233",
+      "ids": [
+        "tt0070233"
+      ],
+      "imdbId": "tt0070233",
+      "name": "Иван Васильевич меняет профессию",
+      "type": "movie",
+      "year": "1973",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt0070233/img",
+      "background": "https://images.metahub.space/background/medium/tt0070233/img",
+      "description": "Изобретённая в квартире машина времени меняет местами советского управдома и царя Ивана Грозного.",
+      "originalName": "Ivan Vasilyevich Changes His Profession",
+      "aliases": [
+        "Иван Васильевич меняет профессию",
+        "Ivan Vasilyevich Changes His Profession"
+      ],
+      "genres": [
+        "Приключения",
+        "Комедия",
+        "Фантастика"
+      ],
+      "imdbRating": "8.2",
+      "runtime": "88 мин",
+      "card": "cards/318f5c47244807e7975da7cf28881e1cb1b2bf8942c4883d3b237f72cfe39e6e.json",
+      "sha256": "318f5c47244807e7975da7cf28881e1cb1b2bf8942c4883d3b237f72cfe39e6e",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1375666",
+      "ids": [
+        "tt1375666"
+      ],
+      "imdbId": "tt1375666",
+      "name": "Начало",
+      "type": "movie",
+      "year": "2010",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt1375666/img",
+      "background": "https://images.metahub.space/background/medium/tt1375666/img",
+      "description": "Специалист по проникновению в сны берётся внедрить чужую идею, рискуя потерять связь с реальностью.",
+      "originalName": "Inception",
+      "aliases": [
+        "Начало",
+        "Inception"
+      ],
+      "genres": [
+        "Приключения",
+        "Фантастика",
+        "Триллер"
+      ],
+      "imdbRating": "8.8",
+      "runtime": "148 мин",
+      "card": "cards/38c639f205f2eb01e23f05a0f8baf189846aacc9b2ae01c56c3f8fe08b3319c8.json",
+      "sha256": "38c639f205f2eb01e23f05a0f8baf189846aacc9b2ae01c56c3f8fe08b3319c8",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0079579",
+      "ids": [
+        "tt0079579"
+      ],
+      "imdbId": "tt0079579",
+      "name": "Москва слезам не верит",
+      "type": "movie",
+      "year": "1979",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt0079579/img",
+      "background": "https://images.metahub.space/background/medium/tt0079579/img",
+      "description": "Три подруги приезжают покорять Москву. Дружба, любовь и профессиональные амбиции проходят проверку временем.",
+      "originalName": "Moscow Does Not Believe in Tears",
+      "aliases": [
+        "Москва слезам не верит",
+        "Moscow Does Not Believe in Tears",
+        "Moskva slezam ne verit"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма",
+        "Мелодрама"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "142 мин",
+      "card": "cards/5abf00624f6cae268acd47c973ee5e7a5a1dd93bf1be15a299a922679080758d.json",
+      "sha256": "5abf00624f6cae268acd47c973ee5e7a5a1dd93bf1be15a299a922679080758d",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1675434",
+      "ids": [
+        "tt1675434"
+      ],
+      "imdbId": "tt1675434",
+      "name": "1+1",
+      "type": "movie",
+      "year": "2011",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt1675434/img",
+      "background": "https://images.metahub.space/background/medium/tt1675434/img",
+      "description": "Богатый аристократ нанимает помощником молодого человека из другого мира. Необычный союз меняет жизнь обоих.",
+      "originalName": "The Intouchables",
+      "aliases": [
+        "1+1",
+        "The Intouchables",
+        "Неприкасаемые",
+        "1 + 1"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма"
+      ],
+      "imdbRating": "8.5",
+      "runtime": "113 мин",
+      "card": "cards/0edd76cc8395d57da17dccd397490382707c4e6ab77d03349e4da15a7d66cf35.json",
+      "sha256": "0edd76cc8395d57da17dccd397490382707c4e6ab77d03349e4da15a7d66cf35",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0087650",
+      "ids": [
+        "tt0087650"
+      ],
+      "imdbId": "tt0087650",
+      "name": "Любовь и голуби",
+      "type": "movie",
+      "year": "1984",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt0087650/img",
+      "background": "https://images.metahub.space/background/medium/tt0087650/img",
+      "description": "Курортный роман ставит под угрозу семью деревенского любителя голубей. Вернуть близких оказывается непросто.",
+      "originalName": "Love and Doves",
+      "aliases": [
+        "Любовь и голуби",
+        "Love and Doves"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма",
+        "Мелодрама"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "107 мин",
+      "card": "cards/2698baf1c0a37f02b1e938fd8009b7b3d792d5c1ec5c6f6ec70ecf725424fa14.json",
+      "sha256": "2698baf1c0a37f02b1e938fd8009b7b3d792d5c1ec5c6f6ec70ecf725424fa14",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0120737",
+      "ids": [
+        "tt0120737"
+      ],
+      "imdbId": "tt0120737",
+      "name": "Властелин колец: Братство Кольца",
+      "type": "movie",
+      "year": "2001",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt0120737/img",
+      "background": "https://images.metahub.space/background/medium/tt0120737/img",
+      "description": "Хоббит Фродо и его спутники отправляются уничтожить кольцо, способное подчинить Средиземье тёмному властелину.",
+      "originalName": "The Lord of the Rings: The Fellowship of the Ring",
+      "aliases": [
+        "Властелин колец: Братство Кольца",
+        "The Lord of the Rings: The Fellowship of the Ring"
+      ],
+      "genres": [
+        "Приключения",
+        "Драма",
+        "Фэнтези"
+      ],
+      "imdbRating": "8.9",
+      "runtime": "179 мин",
+      "card": "cards/7c9e1590e7745ec9f31f24d0b79784b0eb60256295cf4e973e9f9912012923fa.json",
+      "sha256": "7c9e1590e7745ec9f31f24d0b79784b0eb60256295cf4e973e9f9912012923fa",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt5987402",
+      "ids": [
+        "tt5987402"
+      ],
+      "imdbId": "tt5987402",
+      "name": "Движение вверх",
+      "type": "movie",
+      "year": "2017",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt5987402/img",
+      "background": "https://images.metahub.space/background/medium/tt5987402/img",
+      "description": "Советская баскетбольная сборная готовится к олимпийскому финалу против непобедимой команды США.",
+      "originalName": "Three Seconds",
+      "aliases": [
+        "Движение вверх",
+        "Three Seconds"
+      ],
+      "genres": [
+        "Биография",
+        "Драма",
+        "Спорт"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "133 мин",
+      "card": "cards/07050f4695530bfd6c96db54e71eecab9354924aa29219a2c2829bf5cbefa184.json",
+      "sha256": "07050f4695530bfd6c96db54e71eecab9354924aa29219a2c2829bf5cbefa184",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0468569",
+      "ids": [
+        "tt0468569"
+      ],
+      "imdbId": "tt0468569",
+      "name": "Тёмный рыцарь",
+      "type": "movie",
+      "year": "2008",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt0468569/img",
+      "background": "https://images.metahub.space/background/medium/tt0468569/img",
+      "description": "Бэтмен пытается защитить Готэм от Джокера, который превращает борьбу с преступностью в испытание моральных принципов.",
+      "originalName": "The Dark Knight",
+      "aliases": [
+        "Тёмный рыцарь",
+        "The Dark Knight"
+      ],
+      "genres": [
+        "Криминал",
+        "Триллер"
+      ],
+      "imdbRating": "9.1",
+      "runtime": "152 мин",
+      "card": "cards/8d6b99cb2b59f1e69e07ade0c5f0b04600bf8fb730020d415e0a6952e75eb182.json",
+      "sha256": "8d6b99cb2b59f1e69e07ade0c5f0b04600bf8fb730020d415e0a6952e75eb182",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2182001",
+      "ids": [
+        "tt2182001"
+      ],
+      "imdbId": "tt2182001",
+      "name": "Легенда №17",
+      "type": "movie",
+      "year": "2013",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt2182001/img",
+      "background": "https://images.metahub.space/background/medium/tt2182001/img",
+      "description": "История становления хоккеиста Валерия Харламова и подготовки сборной СССР к встрече с канадскими профессионалами.",
+      "originalName": "Legend No. 17",
+      "aliases": [
+        "Легенда №17",
+        "Legend No. 17",
+        "Легенда 17"
+      ],
+      "genres": [
+        "Биография",
+        "Драма",
+        "Спорт"
+      ],
+      "imdbRating": "7.4",
+      "runtime": "134 мин",
+      "card": "cards/941c6e2d0499bf6da19c1b72f04f3bb98156d7e06c1baf54ab0f7ce5d7d7aeb0.json",
+      "sha256": "941c6e2d0499bf6da19c1b72f04f3bb98156d7e06c1baf54ab0f7ce5d7d7aeb0",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0110357",
+      "ids": [
+        "tt0110357"
+      ],
+      "imdbId": "tt0110357",
+      "name": "Король Лев",
+      "type": "movie",
+      "year": "1994",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt0110357/img",
+      "background": "https://images.metahub.space/background/medium/tt0110357/img",
+      "description": "Львёнок Симба покидает родной прайд после трагедии. Повзрослев, он должен принять ответственность за своё королевство.",
+      "originalName": "The Lion King",
+      "aliases": [
+        "Король Лев",
+        "The Lion King"
+      ],
+      "genres": [
+        "Мультфильм",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "8.5",
+      "runtime": "89 мин",
+      "card": "cards/b196e6c8f66c3da6fdcecaffca85c772e87327ed7968f1cc79e4917615503db6.json",
+      "sha256": "b196e6c8f66c3da6fdcecaffca85c772e87327ed7968f1cc79e4917615503db6",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt3560686",
+      "ids": [
+        "tt3560686"
+      ],
+      "imdbId": "tt3560686",
+      "name": "Дурак",
+      "type": "movie",
+      "year": "2014",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt3560686/img",
+      "background": "https://images.metahub.space/background/medium/tt3560686/img",
+      "description": "Сантехник обнаруживает опасную трещину в общежитии и пытается убедить городские власти срочно спасти его жителей.",
+      "originalName": "The Fool",
+      "aliases": [
+        "Дурак",
+        "The Fool"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "7.9",
+      "runtime": "116 мин",
+      "card": "cards/f6d9859ffbf092317ae06a22c6ed2943bde402459d7f2649933ca7b8c859aad5.json",
+      "sha256": "f6d9859ffbf092317ae06a22c6ed2943bde402459d7f2649933ca7b8c859aad5",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0903747",
+      "ids": [
+        "tt0903747"
+      ],
+      "imdbId": "tt0903747",
+      "name": "Во все тяжкие",
+      "type": "series",
+      "year": "2008",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt0903747/img",
+      "background": "https://images.metahub.space/background/medium/tt0903747/img",
+      "description": "Учитель химии начинает производить наркотики ради семьи, но постепенно превращает новую жизнь в опасную борьбу за власть.",
+      "originalName": "Breaking Bad",
+      "aliases": [
+        "Во все тяжкие",
+        "Breaking Bad"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "9.5",
+      "runtime": "49 мин",
+      "card": "cards/9392ffb9e2e2974706ebdd8ec0708c5d4a78ad65f1f3232a7e89f9eec9de372d.json",
+      "sha256": "9392ffb9e2e2974706ebdd8ec0708c5d4a78ad65f1f3232a7e89f9eec9de372d",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt5135336",
+      "ids": [
+        "tt5135336"
+      ],
+      "imdbId": "tt5135336",
+      "name": "Метод",
+      "type": "series",
+      "year": "2015",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt5135336/img",
+      "background": "https://images.metahub.space/background/medium/tt5135336/img",
+      "description": "Молодая выпускница работает с опытным следователем, чьи нестандартные методы раскрытия убийств скрывают тяжёлое прошлое.",
+      "originalName": "The Method",
+      "aliases": [
+        "Метод",
+        "The Method"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "7.2",
+      "runtime": "45 мин",
+      "card": "cards/e9a320a942a944f43e08d1c615d91812d17ab761ba2f0925408a6833d26b058d.json",
+      "sha256": "e9a320a942a944f43e08d1c615d91812d17ab761ba2f0925408a6833d26b058d",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0944947",
+      "ids": [
+        "tt0944947"
+      ],
+      "imdbId": "tt0944947",
+      "name": "Игра престолов",
+      "type": "series",
+      "year": "2011",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt0944947/img",
+      "background": "https://images.metahub.space/background/medium/tt0944947/img",
+      "description": "Великие дома борются за Железный трон, пока на севере приближается угроза, способная уничтожить все королевства.",
+      "originalName": "Game of Thrones",
+      "aliases": [
+        "Игра престолов",
+        "Game of Thrones"
+      ],
+      "genres": [
+        "Драма",
+        "Фэнтези"
+      ],
+      "imdbRating": "9.2",
+      "runtime": "57 мин",
+      "card": "cards/55562c472cc6ab223b237a14bdd87e45fdd4b323acb0e3295fa329fd252715b9.json",
+      "sha256": "55562c472cc6ab223b237a14bdd87e45fdd4b323acb0e3295fa329fd252715b9",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2930610",
+      "ids": [
+        "tt2930610"
+      ],
+      "imdbId": "tt2930610",
+      "name": "Кухня",
+      "type": "series",
+      "year": "2012",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt2930610/img",
+      "background": "https://images.metahub.space/background/medium/tt2930610/img",
+      "description": "Начинающий повар устраивается в московский ресторан. На кухне сталкиваются амбиции, дружба, любовь и характер шефа.",
+      "originalName": "The Kitchen",
+      "aliases": [
+        "Кухня",
+        "The Kitchen"
+      ],
+      "genres": [
+        "Комедия"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "25 мин",
+      "card": "cards/9cbd48e7165c8e6d6a10faa32dba841f4327a32ab4c8a9ae7577daf385f9b82d.json",
+      "sha256": "9cbd48e7165c8e6d6a10faa32dba841f4327a32ab4c8a9ae7577daf385f9b82d",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt3032476",
+      "ids": [
+        "tt3032476"
+      ],
+      "imdbId": "tt3032476",
+      "name": "Лучше звоните Солу",
+      "type": "series",
+      "year": "2015",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt3032476/img",
+      "background": "https://images.metahub.space/background/medium/tt3032476/img",
+      "description": "Адвокат Джимми Макгилл пытается добиться признания и постепенно становится человеком, известным как Сол Гудман.",
+      "originalName": "Better Call Saul",
+      "aliases": [
+        "Лучше звоните Солу",
+        "Better Call Saul"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "9.0",
+      "runtime": "50 мин",
+      "card": "cards/4ef9652332182a618dd93e0e0b3aae1372f3d97dbd45fa09f94d16fd355d47e5.json",
+      "sha256": "4ef9652332182a618dd93e0e0b3aae1372f3d97dbd45fa09f94d16fd355d47e5",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt9011124",
+      "ids": [
+        "tt9011124"
+      ],
+      "imdbId": "tt9011124",
+      "name": "Триггер",
+      "type": "series",
+      "year": "2018",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt9011124/img",
+      "background": "https://images.metahub.space/background/medium/tt9011124/img",
+      "description": "Психолог использует провокационные методы, чтобы помогать клиентам, одновременно пытаясь разобраться с собственной жизнью.",
+      "originalName": "Trigger",
+      "aliases": [
+        "Триггер",
+        "Trigger"
+      ],
+      "genres": [
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "7.4",
+      "runtime": "48 мин",
+      "card": "cards/ff32a7e2db18e54e2de9a6f2e5bc9cd4a5b5f955a5cd52971a6626d3cbc7412c.json",
+      "sha256": "ff32a7e2db18e54e2de9a6f2e5bc9cd4a5b5f955a5cd52971a6626d3cbc7412c",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt7366338",
+      "ids": [
+        "tt7366338"
+      ],
+      "imdbId": "tt7366338",
+      "name": "Чернобыль",
+      "type": "series",
+      "year": "2019",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt7366338/img",
+      "background": "https://images.metahub.space/background/medium/tt7366338/img",
+      "description": "После аварии на атомной станции учёные, спасатели и чиновники пытаются остановить катастрофу и установить её причины.",
+      "originalName": "Chernobyl",
+      "aliases": [
+        "Чернобыль",
+        "Chernobyl"
+      ],
+      "genres": [
+        "Драма",
+        "История",
+        "Триллер"
+      ],
+      "imdbRating": "9.3",
+      "runtime": "65 мин",
+      "card": "cards/814dec10c5940858b00def38d8271f976838d09357fe5da702d44c57b7faee08.json",
+      "sha256": "814dec10c5940858b00def38d8271f976838d09357fe5da702d44c57b7faee08",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt4426042",
+      "ids": [
+        "tt4426042"
+      ],
+      "imdbId": "tt4426042",
+      "name": "Мажор",
+      "type": "series",
+      "year": "2014",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt4426042/img",
+      "background": "https://images.metahub.space/background/medium/tt4426042/img",
+      "description": "Сын богатого бизнесмена попадает на службу в полицию и сталкивается с последствиями собственного прошлого.",
+      "originalName": "Silver Spoon",
+      "aliases": [
+        "Мажор",
+        "Silver Spoon"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.5",
+      "runtime": "60 мин",
+      "card": "cards/b1b54ca97c7f2e4a079c1ad6c3deb5bcfd90c9ce91cf1f590486a182856b59d7.json",
+      "sha256": "b1b54ca97c7f2e4a079c1ad6c3deb5bcfd90c9ce91cf1f590486a182856b59d7",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1475582",
+      "ids": [
+        "tt1475582"
+      ],
+      "imdbId": "tt1475582",
+      "name": "Шерлок",
+      "type": "series",
+      "year": "2010",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt1475582/img",
+      "background": "https://images.metahub.space/background/medium/tt1475582/img",
+      "description": "Шерлок Холмс и доктор Ватсон расследуют необычные преступления в современном Лондоне.",
+      "originalName": "Sherlock",
+      "aliases": [
+        "Шерлок",
+        "Sherlock"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "9.0",
+      "runtime": "88 мин",
+      "card": "cards/755307d7283b33470575c8b0caaa750489f716c39a4de4363483158dddfa31ce.json",
+      "sha256": "755307d7283b33470575c8b0caaa750489f716c39a4de4363483158dddfa31ce",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt28429213",
+      "ids": [
+        "tt28429213"
+      ],
+      "imdbId": "tt28429213",
+      "name": "Слово пацана. Кровь на асфальте",
+      "type": "series",
+      "year": "2023",
+      "origin": "ru",
+      "poster": "https://live.metahub.space/poster/small/tt28429213/img",
+      "background": "https://live.metahub.space/background/medium/tt28429213/img",
+      "description": "Подростки позднего СССР выбирают между семьёй, дружбой и правилами уличных группировок.",
+      "originalName": "The Boy's Word: Blood on the Asphalt",
+      "aliases": [
+        "Слово пацана. Кровь на асфальте",
+        "The Boy's Word: Blood on the Asphalt"
+      ],
+      "genres": [
+        "Драма",
+        "Криминал"
+      ],
+      "imdbRating": "7.6",
+      "runtime": "52 мин",
+      "card": "cards/07c230ef8b7fcf2b01c698c0d9c8cc99df091cb47216a05b8bd1d8ef7badc8ee.json",
+      "sha256": "07c230ef8b7fcf2b01c698c0d9c8cc99df091cb47216a05b8bd1d8ef7badc8ee",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2356777",
+      "ids": [
+        "tt2356777"
+      ],
+      "imdbId": "tt2356777",
+      "name": "Настоящий детектив",
+      "type": "series",
+      "year": "2014",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt2356777/img",
+      "background": "https://images.metahub.space/background/medium/tt2356777/img",
+      "description": "Каждый сезон рассказывает отдельную историю расследования, в котором преступление переплетается с личными драмами детективов.",
+      "originalName": "True Detective",
+      "aliases": [
+        "Настоящий детектив",
+        "True Detective"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "8.8",
+      "runtime": "61 мин",
+      "card": "cards/680022c705e7a1fb1ae104f8fdb94004e39b33f76658e49b661fcb4f69f6a25c.json",
+      "sha256": "680022c705e7a1fb1ae104f8fdb94004e39b33f76658e49b661fcb4f69f6a25c",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt10922010",
+      "ids": [
+        "tt10922010"
+      ],
+      "imdbId": "tt10922010",
+      "name": "Вампиры средней полосы",
+      "type": "series",
+      "year": "2021",
+      "origin": "ru",
+      "poster": "https://live.metahub.space/poster/small/tt10922010/img",
+      "background": "https://live.metahub.space/background/medium/tt10922010/img",
+      "description": "Семья смоленских вампиров пытается жить незаметно, но загадочные убийства ставят под угрозу их привычный порядок.",
+      "originalName": "The Vampires of Midland",
+      "aliases": [
+        "Вампиры средней полосы",
+        "The Vampires of Midland"
+      ],
+      "genres": [
+        "Детектив",
+        "Комедия"
+      ],
+      "imdbRating": "7.5",
+      "card": "cards/dbe64b303f9b6cf406abd52c518c6a612e6cf808d0bfb195b750c41f16fa456f.json",
+      "sha256": "dbe64b303f9b6cf406abd52c518c6a612e6cf808d0bfb195b750c41f16fa456f",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt5753856",
+      "ids": [
+        "tt5753856"
+      ],
+      "imdbId": "tt5753856",
+      "name": "Тьма",
+      "type": "series",
+      "year": "2017",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt5753856/img",
+      "background": "https://images.metahub.space/background/medium/tt5753856/img",
+      "description": "Исчезновение ребёнка раскрывает тайны нескольких семей и запутанную связь между прошлым, настоящим и будущим.",
+      "originalName": "Dark",
+      "aliases": [
+        "Тьма",
+        "Dark"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "8.7",
+      "runtime": "56 мин",
+      "card": "cards/958c629b39c0e5749cea8e7cd6ee14b3989ea93fc2c6407c9a32fa481eac7508.json",
+      "sha256": "958c629b39c0e5749cea8e7cd6ee14b3989ea93fc2c6407c9a32fa481eac7508",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt15527340",
+      "ids": [
+        "tt15527340"
+      ],
+      "imdbId": "tt15527340",
+      "name": "Нулевой пациент",
+      "type": "series",
+      "year": "2022",
+      "origin": "ru",
+      "poster": "https://live.metahub.space/poster/small/tt15527340/img",
+      "background": "https://live.metahub.space/background/medium/tt15527340/img",
+      "description": "Врачи расследуют вспышку ВИЧ в детской больнице и пытаются остановить распространение инфекции.",
+      "originalName": "Patient Zero",
+      "aliases": [
+        "Нулевой пациент",
+        "Patient Zero"
+      ],
+      "genres": [
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "7.7",
+      "runtime": "48 мин",
+      "card": "cards/7effa58cd9d053237d5cc58f6b15f3eaff84035fe4a7812fa45a27c86235037e.json",
+      "sha256": "7effa58cd9d053237d5cc58f6b15f3eaff84035fe4a7812fa45a27c86235037e",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt4574334",
+      "ids": [
+        "tt4574334"
+      ],
+      "imdbId": "tt4574334",
+      "name": "Очень странные дела",
+      "type": "series",
+      "year": "2016",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt4574334/img",
+      "background": "https://images.metahub.space/background/medium/tt4574334/img",
+      "description": "Исчезновение мальчика в небольшом городе приводит его друзей к секретным экспериментам и опасному параллельному миру.",
+      "originalName": "Stranger Things",
+      "aliases": [
+        "Очень странные дела",
+        "Stranger Things"
+      ],
+      "genres": [
+        "Драма",
+        "Фэнтези",
+        "Ужасы"
+      ],
+      "imdbRating": "8.6",
+      "runtime": "65 мин",
+      "card": "cards/8d1124499ccf127854bc79e122ef7eeee9c219a4a8ae39ea9661b7f264b3ae99.json",
+      "sha256": "8d1124499ccf127854bc79e122ef7eeee9c219a4a8ae39ea9661b7f264b3ae99",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1048097",
+      "ids": [
+        "tt1048097"
+      ],
+      "imdbId": "tt1048097",
+      "name": "Ликвидация",
+      "type": "series",
+      "year": "2007",
+      "origin": "ru",
+      "poster": "https://images.metahub.space/poster/small/tt1048097/img",
+      "background": "https://images.metahub.space/background/medium/tt1048097/img",
+      "description": "В послевоенной Одессе уголовный розыск ищет организатора банды, связанной с хищениями военного имущества.",
+      "originalName": "Liquidation",
+      "aliases": [
+        "Ликвидация",
+        "Liquidation"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Детектив"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "45 мин",
+      "card": "cards/580495e03f53414522ee4812c777b3700946557455ad030df2a98a475417635e.json",
+      "sha256": "580495e03f53414522ee4812c777b3700946557455ad030df2a98a475417635e",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt10466872",
+      "ids": [
+        "tt10466872"
+      ],
+      "imdbId": "tt10466872",
+      "name": "Дюна: Пророчество",
+      "type": "series",
+      "year": "2024",
+      "origin": "other",
+      "poster": "https://images.metahub.space/poster/small/tt10466872/img",
+      "background": "https://images.metahub.space/background/medium/tt10466872/img",
+      "description": "Сёстры Харконнен укрепляют влияние тайного ордена, которому предстоит стать Бене Гессерит.",
+      "originalName": "Dune: Prophecy",
+      "aliases": [
+        "Дюна: Пророчество",
+        "Dune: Prophecy"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "7.3",
+      "runtime": "65 мин",
+      "card": "cards/d4f06e880e799999e735ac6fee0cc64f7dda5f09c01f4c78919a406b0c5336bb.json",
+      "sha256": "d4f06e880e799999e735ac6fee0cc64f7dda5f09c01f4c78919a406b0c5336bb",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt31531192",
+      "ids": [
+        "tt31531192"
+      ],
+      "imdbId": "tt31531192",
+      "name": "Выживалити. Миссия Альфа",
+      "type": "series",
+      "kind": "show",
+      "year": "2024",
+      "origin": "ru",
+      "poster": "https://live.metahub.space/poster/small/tt31531192/img",
+      "background": "https://live.metahub.space/background/medium/tt31531192/img",
+      "description": "Участники реалити проходят испытания на выносливость и находчивость, борясь за право остаться в проекте.",
+      "originalName": "Выживалити: Миссия Альфа",
+      "aliases": [
+        "Выживалити. Миссия Альфа",
+        "Выживалити: Миссия Альфа"
+      ],
+      "genres": [],
+      "imdbRating": "6.2",
+      "card": "cards/6dc6503f6e9d6a438675e6a3e696edd6ec5b3abf1d8bda239bf202281b24a303.json",
+      "sha256": "6dc6503f6e9d6a438675e6a3e696edd6ec5b3abf1d8bda239bf202281b24a303",
+      "localized": true,
+      "provider": "github"
+    }
+  ]
+}

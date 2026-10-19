@@ -1,0 +1,264 @@
+{
+  "id": "tt1475582",
+  "type": "series",
+  "poster": "https://images.metahub.space/poster/small/tt1475582/img",
+  "background": "https://images.metahub.space/background/medium/tt1475582/img",
+  "genres": [
+    "Криминал",
+    "Драма",
+    "Детектив"
+  ],
+  "runtime": "88 мин",
+  "imdbRating": "9.0",
+  "releaseInfo": "2010–2017",
+  "trailers": [
+    {
+      "source": "gGqWqGOSTGQ",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Шерлок",
+  "origin": "other",
+  "description": "Шерлок Холмс и доктор Ватсон расследуют необычные преступления в современном Лондоне.",
+  "imdbId": "tt1475582",
+  "ids": [
+    "tt1475582"
+  ],
+  "originalName": "Sherlock",
+  "aliases": [
+    "Шерлок",
+    "Sherlock"
+  ],
+  "year": "2010",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T05:58:42Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt1475582.json"
+  ],
+  "videos": [
+    {
+      "id": "tt1475582:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2010-07-25T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2010-08-01T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2010-08-08T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2012-01-01T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2012-01-08T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2012-01-15T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2014-01-01T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2014-01-05T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2014-01-12T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2017-01-01T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2017-01-08T21:00:00.000Z"
+    },
+    {
+      "id": "tt1475582:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2017-01-15T21:00:00.000Z"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:637D1AA67384E8CB48ED0DD76F5D31AD4A8CCD70&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 71629317079,
+      "size": "66.71 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original",
+      "magnet": "magnet:?xt=urn:btih:615CB865D5E6385D3D44A2A2D5CDFBB4184A5CCC&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 33919504220,
+      "size": "31.59 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original"
+    },
+    {
+      "title": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:637D1AA67384E8CB48ED0DD76F5D31AD4A8CCD70&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 71629317079,
+      "size": "66.71 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original",
+      "magnet": "magnet:?xt=urn:btih:615CB865D5E6385D3D44A2A2D5CDFBB4184A5CCC&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 33919504220,
+      "size": "31.59 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original"
+    },
+    {
+      "title": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:637D1AA67384E8CB48ED0DD76F5D31AD4A8CCD70&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 71629317079,
+      "size": "66.71 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original",
+      "magnet": "magnet:?xt=urn:btih:615CB865D5E6385D3D44A2A2D5CDFBB4184A5CCC&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 33919504220,
+      "size": "31.59 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Шерлок / Sherlock / Сезон: 1-3 (3) / Серии: 1-9 (9) (Пол Макгиган, Евро Лин) [2010-2014, Великобритания, триллер, драма, криминал, детектив, BDRip 1080p] [Локализованный видеоряд] Dub (Первый канал) + Original"
+    },
+    {
+      "title": "Шерлок (1-4 сезоны: 1-13 серии из 13) / Sherlock (2010-2017) BDRip 1080p @ Первый канал",
+      "magnet": "magnet:?xt=urn:btih:179c1ff2e61c4f90b9d731a6bfc04a060b5d4393&dn=Sherlock_1080p&tr=http://xbtrutor.com:2710/announce&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://code2chicken.nl:6969/announce&tr=udp://discord.heihachi.pw:6969/announce&tr=http://vps02.net.orel.ru:80/announce&tr=http://tracker.files.fm:6969/announce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · bitru",
+      "bytes": 48178795642,
+      "size": "44.87 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Шерлок (1-4 сезоны: 1-13 серии из 13) / Sherlock (2010-2017) BDRip 1080p @ Первый канал"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T05:58:42Z"
+}

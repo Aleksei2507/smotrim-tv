@@ -1,0 +1,187 @@
+{
+  "id": "tt10466872",
+  "type": "series",
+  "poster": "https://images.metahub.space/poster/small/tt10466872/img",
+  "background": "https://images.metahub.space/background/medium/tt10466872/img",
+  "genres": [
+    "Боевик",
+    "Приключения",
+    "Драма"
+  ],
+  "runtime": "65 мин",
+  "imdbRating": "7.3",
+  "releaseInfo": "2024–",
+  "trailers": [
+    {
+      "source": "CzVHWNosS2o",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Дюна: Пророчество",
+  "origin": "other",
+  "description": "Сёстры Харконнен укрепляют влияние тайного ордена, которому предстоит стать Бене Гессерит.",
+  "imdbId": "tt10466872",
+  "ids": [
+    "tt10466872"
+  ],
+  "originalName": "Dune: Prophecy",
+  "aliases": [
+    "Дюна: Пророчество",
+    "Dune: Prophecy"
+  ],
+  "year": "2024",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T05:58:42Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt10466872.json"
+  ],
+  "videos": [
+    {
+      "id": "tt10466872:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2024-11-18T05:00:00.000Z"
+    },
+    {
+      "id": "tt10466872:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2024-11-25T05:00:00.000Z"
+    },
+    {
+      "id": "tt10466872:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2024-12-02T05:00:00.000Z"
+    },
+    {
+      "id": "tt10466872:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2024-12-09T05:00:00.000Z"
+    },
+    {
+      "id": "tt10466872:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2024-12-16T05:00:00.000Z"
+    },
+    {
+      "id": "tt10466872:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-12-23T05:00:00.000Z"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Дюна: Пророчество / Dune: Prophecy [01x01 из 6] (2024) WEB-DL 1080p | P | Продубляж",
+      "magnet": "magnet:?xt=urn:btih:105ea4171830e34fb3050659efd37ab9b3c8d80f&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 3811783475,
+      "size": "3.55 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна: Пророчество / Dune: Prophecy [01x01 из 6] (2024) WEB-DL 1080p | P | Продубляж"
+    },
+    {
+      "title": "Дюна: Пророчество / Dune: Prophecy [S01] (2024) WEB-DL 1080p | P | Продубляж, Sunnysiders",
+      "magnet": "magnet:?xt=urn:btih:e70ed0efb1607f53b8ce4477795fe7979ab6bbb8&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 23633057546,
+      "size": "22.01 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна: Пророчество / Dune: Prophecy [S01] (2024) WEB-DL 1080p | P | Продубляж, Sunnysiders"
+    },
+    {
+      "title": "Дюна: Пророчество / Dune: Prophecy / Сезон: 1 / Серии: 1-6 из 6 (Анна Ферстер) [2024, США, фантастика, боевик, драма, приключения, HDR10, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 8x MVO + Dub + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:0E848D02D8AC235775BC17485D3C9F0975CBEA90&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 71060233912,
+      "size": "66.18 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна: Пророчество / Dune: Prophecy / Сезон: 1 / Серии: 1-6 из 6 (Анна Ферстер) [2024, США, фантастика, боевик, драма, приключения, HDR10, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 8x MVO + Dub + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Дюна: Пророчество / Dune: Prophecy / Сезон: 1 / Серии: 1-6 из 6 (Анна Ферстер) [2024, США, фантастика, боевик, драма, приключения, SDR, WEB-DL 2160p, 4k] MVO (Продубляж, SunnySiders, LostFilm, HDRezka, NewComers, Jaskier TVShows) + Dub (Red Head Sound) + 3x Ukr + Original + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:D3A44DB45CB6789504CBE8D6C59528E595F453DA&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 63200443760,
+      "size": "58.86 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна: Пророчество / Dune: Prophecy / Сезон: 1 / Серии: 1-6 из 6 (Анна Ферстер) [2024, США, фантастика, боевик, драма, приключения, SDR, WEB-DL 2160p, 4k] MVO (Продубляж, SunnySiders, LostFilm, HDRezka, NewComers, Jaskier TVShows) + Dub (Red Head Sound) + 3x Ukr + Original + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Дюна: Пророчество / Dune: Prophecy [01x01 из 06] (2024) WEB-DL 720p от Scarabey | P | Продубляж",
+      "magnet": "magnet:?xt=urn:btih:f2a86146240272f985503a1634131f15babb4372&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 1889785610,
+      "size": "1.76 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна: Пророчество / Dune: Prophecy [01x01 из 06] (2024) WEB-DL 720p от Scarabey | P | Продубляж"
+    },
+    {
+      "title": "Дюна: Пророчество / Dune: Prophecy [01x01-03 из 06] (2024) WEB-DL 720p от Scarabey | P | Продубляж",
+      "magnet": "magnet:?xt=urn:btih:0d292119329f4af0c03ed8db4a6c043c14cfbd17&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 5089536245,
+      "size": "4.74 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна: Пророчество / Dune: Prophecy [01x01-03 из 06] (2024) WEB-DL 720p от Scarabey | P | Продубляж"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T05:58:42Z"
+}

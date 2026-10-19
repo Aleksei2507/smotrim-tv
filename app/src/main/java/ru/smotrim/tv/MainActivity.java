@@ -37,9 +37,11 @@ public class MainActivity extends Activity {
     private ApkUpdates updates;private boolean resumed,awaitingUpdatePermission,installPreparing;
     private boolean backgrounded,resumePlaybackOnForeground=true;
     private volatile JSONObject pendingPlaybackRestore;
+    private GithubCatalog githubCatalog;
 
     @Override public void onCreate(Bundle state){
         super.onCreate(state);fullscreen();
+        try{githubCatalog=new GithubCatalog(new File(getFilesDir(),"github-catalog"),path->{try(InputStream in=getAssets().open("catalog/v1/"+path)){return readStream(in).getBytes(StandardCharsets.UTF_8);}});}catch(IOException ignored){}
         pendingPlaybackRestore=state==null?null:PlaybackSnapshot.restore(state.getString(PlaybackSnapshot.STATE_KEY));
         updates=new ApkUpdates(this,new ApkUpdates.Listener(){
             public void changed(JSONObject state){event("update",state);}
@@ -110,7 +112,7 @@ public class MainActivity extends Activity {
             try {
                 JSONObject a=new JSONObject(args);Object answer;
                 switch(method){
-                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",new JSONObject(cached("movies.json","movies.json")).getJSONArray("metas")).put("series",new JSONObject(cached("series.json","series.json")).getJSONArray("metas")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("bufferStorage",selectedBufferStorage()).put("update",updates.state()).put("preferences",playbackPreferences()).put("restorePlayback",pendingPlaybackRestore);break;
+                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",initialCatalog("movie","movies.json")).put("series",initialCatalog("series","series.json")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("bufferStorage",selectedBufferStorage()).put("update",updates.state()).put("preferences",playbackPreferences()).put("restorePlayback",pendingPlaybackRestore);break;
                     case "preferences": answer=playbackPreferences();break;
                     case "memory-info": answer=PlaybackHealth.snapshot(MainActivity.this);break;
                     case "preferences-set": {
@@ -130,14 +132,16 @@ public class MainActivity extends Activity {
                         getSharedPreferences("playback",MODE_PRIVATE).edit().putString("torrentBufferStorage",storage).putInt(storage.equals("disk")?"torrentDiskBufferMb":"torrentBufferMb",mb).apply();
                         answer=new JSONObject().put("mb",mb).put("storage",storage);break;
                     }
-                    case "catalog-state": answer=mediaCatalog().state();break;
+                    case "catalog-state": answer=catalogState();break;
+                    case "github-refresh": {boolean changed=githubCatalog!=null&&githubCatalog.refresh(a.optBoolean("force"));answer=new JSONObject().put("changed",changed).put("providers",catalogState());break;}
+                    case "catalog-sources": answer=githubCatalog==null?new JSONObject().put("items",new JSONArray()):githubCatalog.sources(a.getJSONObject("item"),a.optInt("season",-1),a.optInt("episode",0));break;
                     case "catalog": {
-                        JSONObject result=mediaCatalog().catalog(a.optString("query"),a.optString("type"),a.optInt("page",1));answer=result;
+                        JSONObject result=catalogList(a.optString("query"),a.optString("type","movie"),a.optInt("page",1));answer=result;
                         if(a.optString("query").isEmpty()&&a.optInt("page",1)==1&&result.getJSONArray("items").length()>0)cache("series".equals(a.optString("type"))?"series.json":"movies.json",new JSONObject().put("metas",result.getJSONArray("items")).toString());break;
                     }
                     case "detail": case "series-detail": {
                         JSONObject selected=a.optJSONObject("item");if(selected==null)selected=new JSONObject().put("id",a.getString("id")).put("type",method.equals("series-detail")?"series":"movie");
-                        answer=mediaCatalog().detail(selected,a.optBoolean("refresh"));break;
+                        JSONObject saved=githubCatalog==null?null:githubCatalog.detail(selected);answer=saved==null?mediaCatalog().detail(selected,a.optBoolean("refresh")):saved;break;
                     }
                     case "series-season": answer=mediaCatalog().season(a.getJSONObject("item"),a.getInt("season"));break;
                     case "series-torrents": case "torrents": answer=CatalogSources.search(a,method.equals("series-torrents"));break;
@@ -175,7 +179,16 @@ public class MainActivity extends Activity {
             network.execute(()->{boolean ok=false;try{MediaCatalog.request(provider,provider.equals("kp")?"/api/v2.2/films/301":"/configuration",value);ok=true;}catch(Exception ignored){}final boolean success=ok;ui.post(()->{if(destroyed)return;if(success){getSharedPreferences("catalog-credentials",MODE_PRIVATE).edit().putString(provider,value).apply();dialog.dismiss();catalogChanged();}else{dialog.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(true);input.setError("Не удалось подключиться. Проверьте ключ и интернет.");}});});});
         input.requestFocus();dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
     }
-    private void catalogChanged(){TorrentEngine.deleteTree(new File(getCacheDir(),"media-catalog"));try{event("catalog-state",mediaCatalog().state());}catch(Exception ignored){}}
+    private JSONArray initialCatalog(String type,String fallback)throws Exception {JSONArray saved=githubCatalog==null?new JSONArray():githubCatalog.items("",type);return saved.length()>0?saved:new JSONObject(cached(fallback,fallback)).getJSONArray("metas");}
+    private JSONObject catalogState()throws JSONException{return mediaCatalog().state().put("github",githubCatalog==null?null:githubCatalog.state());}
+    private JSONObject catalogList(String query,String type,int page)throws Exception {
+        if(query.length()>100||page<1||page>20)throw new IOException("Некорректный запрос каталога");
+        JSONArray saved=githubCatalog==null||page>1?new JSONArray():githubCatalog.items(query,type.equals("series")?"series":"movie");
+        if(query.isEmpty()&&saved.length()>0)return new JSONObject().put("items",saved).put("warnings",new JSONArray()).put("hasMore",false).put("page",page).put("providers",catalogState());
+        try{JSONObject result=mediaCatalog().catalog(query,type,page);if(saved.length()>0){result.put("items",MediaCatalog.mix(Arrays.asList(saved,result.getJSONArray("items"))));JSONArray warnings=result.optJSONArray("warnings"),filtered=new JSONArray();if(warnings!=null)for(int i=0;i<warnings.length();i++)if(!warnings.optString(i).startsWith("Русский каталог не подключён"))filtered.put(warnings.get(i));result.put("warnings",filtered);}return result.put("providers",catalogState());}
+        catch(Exception e){if(saved.length()==0)throw e;return new JSONObject().put("items",saved).put("warnings",new JSONArray().put("Поиск во внешних каталогах недоступен. Показаны совпадения из подборки.")).put("hasMore",false).put("page",page).put("providers",catalogState());}
+    }
+    private void catalogChanged(){TorrentEngine.deleteTree(new File(getCacheDir(),"media-catalog"));try{event("catalog-state",catalogState());}catch(Exception ignored){}}
     private void startVoiceSearch(boolean channels){
         try{startActivityForResult(VoiceSearch.intent(channels),channels?VoiceSearch.CHANNELS:VoiceSearch.MOVIES);}
         catch(ActivityNotFoundException|SecurityException unavailable){event("toast","Голосовой ввод недоступен. Проверьте приложение Google и микрофон пульта или введите название клавиатурой.");}

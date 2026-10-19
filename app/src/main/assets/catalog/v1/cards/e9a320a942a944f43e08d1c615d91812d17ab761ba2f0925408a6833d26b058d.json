@@ -1,0 +1,559 @@
+{
+  "id": "tt5135336",
+  "type": "series",
+  "poster": "https://images.metahub.space/poster/small/tt5135336/img",
+  "background": "https://images.metahub.space/background/medium/tt5135336/img",
+  "genres": [
+    "Криминал",
+    "Драма",
+    "Триллер"
+  ],
+  "runtime": "45 мин",
+  "imdbRating": "7.2",
+  "releaseInfo": "2015–2025",
+  "trailers": [
+    {
+      "source": "s3Xzb470ErM",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Метод",
+  "origin": "ru",
+  "description": "Молодая выпускница работает с опытным следователем, чьи нестандартные методы раскрытия убийств скрывают тяжёлое прошлое.",
+  "imdbId": "tt5135336",
+  "ids": [
+    "tt5135336"
+  ],
+  "originalName": "The Method",
+  "aliases": [
+    "Метод",
+    "The Method"
+  ],
+  "year": "2015",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T05:58:42Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt5135336.json"
+  ],
+  "videos": [
+    {
+      "id": "tt5135336:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2015-10-18T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2015-10-18T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2015-10-25T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2015-10-25T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2015-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2015-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2015-11-08T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2015-11-08T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2015-11-15T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:10",
+      "season": 1,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2015-11-15T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:11",
+      "season": 1,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "",
+      "released": "2015-11-22T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:12",
+      "season": 1,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "",
+      "released": "2015-11-29T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:13",
+      "season": 1,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "",
+      "released": "2015-12-06T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:14",
+      "season": 1,
+      "episode": 14,
+      "title": "Серия 14",
+      "description": "",
+      "released": "2015-12-13T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:15",
+      "season": 1,
+      "episode": 15,
+      "title": "Серия 15",
+      "description": "",
+      "released": "2015-12-20T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:1:16",
+      "season": 1,
+      "episode": 16,
+      "title": "Серия 16",
+      "description": "",
+      "released": "2015-12-20T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2020-11-08T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2020-11-08T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2020-11-15T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2020-11-22T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2020-11-29T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2020-12-06T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2020-12-13T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2020-12-20T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2021-01-17T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2021-01-24T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:11",
+      "season": 2,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "",
+      "released": "2021-02-07T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:12",
+      "season": 2,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "",
+      "released": "2021-02-14T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:13",
+      "season": 2,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "",
+      "released": "2021-02-21T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:14",
+      "season": 2,
+      "episode": 14,
+      "title": "Серия 14",
+      "description": "",
+      "released": "2021-02-28T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:15",
+      "season": 2,
+      "episode": 15,
+      "title": "Серия 15",
+      "description": "",
+      "released": "2021-03-21T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:2:16",
+      "season": 2,
+      "episode": 16,
+      "title": "Серия 16",
+      "description": "",
+      "released": "2021-03-28T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-11-20T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-11-20T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-11-20T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-11-20T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-12-18T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-12-18T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2025-12-18T12:00:00.000Z"
+    },
+    {
+      "id": "tt5135336:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2025-12-18T12:00:00.000Z"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Метод / Сезон: 1 / Серии: 1-16 из 16 (Юрий Быков) [2015, триллер, криминал, драма, WEBRip 1080p] Original (Rus) + Sub (Rus, Bul, Eng)",
+      "magnet": "magnet:?xt=urn:btih:6B9D2C539060BC484C0BAB06C2394660F3D91ADC&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 37248103874,
+      "size": "34.69 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 16,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Метод / Сезон: 1 / Серии: 1-16 из 16 (Юрий Быков) [2015, триллер, криминал, драма, WEBRip 1080p] Original (Rus) + Sub (Rus, Bul, Eng)"
+    },
+    {
+      "title": "Метод (1-2 сезоны: 1-32 серии из 32) / 2015-2020 / РУ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:8C1E265E43D1CB9C32F20A405B11FC1CF5EAF7D9&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 63415192125,
+      "size": "59.06 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 32,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод (1-2 сезоны: 1-32 серии из 32) / 2015-2020 / РУ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Метод (2015) WEB-DL [H.264/720p-LQ] (сезон 1, серии 1-16 из 16)",
+      "magnet": "magnet:?xt=urn:btih:0166412AAFCC84BBA2AE67E513A1BB0BAE4A67DA&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 18683107737,
+      "size": "17.40 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 16,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод (2015) WEB-DL [H.264/720p-LQ] (сезон 1, серии 1-16 из 16)"
+    },
+    {
+      "title": "Метод (1-2 сезон: 1-32 серии из 32) / 2015-2020 / РУ / WEB-DLRip (720p)",
+      "magnet": "magnet:?xt=urn:btih:CB60BF2E761A9C6B85AF4362B4356037FB770764&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 33522219745,
+      "size": "31.22 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 32,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод (1-2 сезон: 1-32 серии из 32) / 2015-2020 / РУ / WEB-DLRip (720p)"
+    },
+    {
+      "title": "Метод / Сезон: 2 / Серии: 1-16 из 16 (Александр Войтинский) [2020, триллер, детектив, WEBRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:70CCC2FF76441656A3AAECEEAFF519E5CAC42E9B&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&dn=%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%202%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-16%20%D0%B8%D0%B7%2016%20(%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%92%D0%BE%D0%B9%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9)%20%5B2020%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%2C%20WEBRip%201080p%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 32094143119,
+      "size": "29.89 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 16,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод / Сезон: 2 / Серии: 1-16 из 16 (Александр Войтинский) [2020, триллер, детектив, WEBRip 1080p]"
+    },
+    {
+      "title": "Метод (1-2 сезоны: 1-32 серии из 32) / 2015-2020 / РУ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:8C1E265E43D1CB9C32F20A405B11FC1CF5EAF7D9&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 63415192125,
+      "size": "59.06 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 32,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод (1-2 сезоны: 1-32 серии из 32) / 2015-2020 / РУ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Метод / Сезон: 2 / Серии: 1-16 из 16 (Александр Войтинский) [2020, триллер, детектив, HDTVRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:D0566CC3667AFC34059E3B2FB620ACFA1BB14AE7&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 21818433863,
+      "size": "20.32 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 16,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод / Сезон: 2 / Серии: 1-16 из 16 (Александр Войтинский) [2020, триллер, детектив, HDTVRip 720p]"
+    },
+    {
+      "title": "Метод (1-2 сезон: 1-32 серии из 32) / 2015-2020 / РУ / WEB-DLRip (720p)",
+      "magnet": "magnet:?xt=urn:btih:CB60BF2E761A9C6B85AF4362B4356037FB770764&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 33522219745,
+      "size": "31.22 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 32,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод (1-2 сезон: 1-32 серии из 32) / 2015-2020 / РУ / WEB-DLRip (720p)"
+    },
+    {
+      "title": "Метод / Сезон: 3 / Серии: 1-8 из 8 (Юрий Быков) [2025, Детектив, триллер, драма, криминал, WEBRip 1080p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:452C44D35A5E8150312B3D360778AEC04A28CCC0&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 26521423052,
+      "size": "24.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод / Сезон: 3 / Серии: 1-8 из 8 (Юрий Быков) [2025, Детектив, триллер, драма, криминал, WEBRip 1080p] + Sub (Rus)"
+    },
+    {
+      "title": "Метод / Сезон: 3 / Серии: 1-8 из 8 (Юрий Быков) [2025, Детектив, триллер, драма, криминал, HDR10, WEBRip 2160p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:21110FB768E95E5BE58251A1260A5B2D21373520&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 39900246179,
+      "size": "37.16 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод / Сезон: 3 / Серии: 1-8 из 8 (Юрий Быков) [2025, Детектив, триллер, драма, криминал, HDR10, WEBRip 2160p] + Sub (Rus)"
+    },
+    {
+      "title": "Метод / Сезон: 3 / Серии: 1-8 из 8 (Юрий Быков) [2025, Детектив, триллер, драма, криминал, SDR, WEBRip 2160p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:C5BF5C1AD370040D3AC1153D927FCEC10EBF1E9B&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 42831561359,
+      "size": "39.89 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод / Сезон: 3 / Серии: 1-8 из 8 (Юрий Быков) [2025, Детектив, триллер, драма, криминал, SDR, WEBRip 2160p] + Sub (Rus)"
+    },
+    {
+      "title": "Метод / Сезон: 3 / Серии: 1-8 из 8 (Юрий Быков) [2025, Детектив, триллер, драма, криминал, WEBRip 720p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:A80D5A93127D0206117E7DE9BC6E8C07F9089736&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 19778324398,
+      "size": "18.42 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Метод / Сезон: 3 / Серии: 1-8 из 8 (Юрий Быков) [2025, Детектив, триллер, драма, криминал, WEBRip 720p] + Sub (Rus)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T05:58:42Z"
+}

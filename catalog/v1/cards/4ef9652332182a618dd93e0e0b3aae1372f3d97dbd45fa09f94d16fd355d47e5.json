@@ -1,0 +1,1088 @@
+{
+  "id": "tt3032476",
+  "type": "series",
+  "poster": "https://images.metahub.space/poster/small/tt3032476/img",
+  "background": "https://images.metahub.space/background/medium/tt3032476/img",
+  "genres": [
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "50 мин",
+  "imdbRating": "9.0",
+  "releaseInfo": "2015–2022",
+  "trailers": [
+    {
+      "source": "HN4oydykJFc",
+      "type": "Trailer"
+    },
+    {
+      "source": "NWbrE9HxucA",
+      "type": "Trailer"
+    },
+    {
+      "source": "l1xIGfVFb-U",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Лучше звоните Солу",
+  "origin": "other",
+  "description": "Адвокат Джимми Макгилл пытается добиться признания и постепенно становится человеком, известным как Сол Гудман.",
+  "imdbId": "tt3032476",
+  "ids": [
+    "tt3032476"
+  ],
+  "originalName": "Better Call Saul",
+  "aliases": [
+    "Лучше звоните Солу",
+    "Better Call Saul"
+  ],
+  "year": "2015",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T05:58:42Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt3032476.json"
+  ],
+  "videos": [
+    {
+      "id": "tt3032476:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2015-02-09T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2015-02-10T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2015-02-17T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2015-02-24T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2015-03-03T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2015-03-10T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2015-03-17T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2015-03-24T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2015-03-31T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:1:10",
+      "season": 1,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2015-04-07T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2016-02-16T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2016-02-23T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2016-03-01T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2016-03-08T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2016-03-15T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2016-03-22T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2016-03-29T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2016-04-05T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2016-04-12T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2016-04-19T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2017-04-11T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2017-04-18T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2017-04-25T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2017-05-02T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2017-05-09T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2017-05-16T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2017-05-23T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2017-06-06T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:3:9",
+      "season": 3,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2017-06-13T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:3:10",
+      "season": 3,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2017-06-20T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2018-08-07T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2018-08-14T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2018-08-21T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2018-08-28T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2018-09-04T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2018-09-11T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2018-09-18T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2018-09-25T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:4:9",
+      "season": 4,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2018-10-02T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:4:10",
+      "season": 4,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2018-10-09T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:5:1",
+      "season": 5,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2020-02-24T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:5:2",
+      "season": 5,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2020-02-25T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:5:3",
+      "season": 5,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2020-03-03T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:5:4",
+      "season": 5,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2020-03-10T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:5:5",
+      "season": 5,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2020-03-17T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:5:6",
+      "season": 5,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2020-03-24T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:5:7",
+      "season": 5,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2020-03-31T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:5:8",
+      "season": 5,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2020-04-07T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:5:9",
+      "season": 5,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2020-04-14T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:5:10",
+      "season": 5,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2020-04-21T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:1",
+      "season": 6,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2022-04-19T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:2",
+      "season": 6,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2022-04-19T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:3",
+      "season": 6,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2022-04-26T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:4",
+      "season": 6,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2022-05-03T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:5",
+      "season": 6,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2022-05-10T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:6",
+      "season": 6,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2022-05-17T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:7",
+      "season": 6,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2022-05-24T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:8",
+      "season": 6,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2022-07-12T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:9",
+      "season": 6,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2022-07-19T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:10",
+      "season": 6,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2022-07-26T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:11",
+      "season": 6,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "",
+      "released": "2022-08-02T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:12",
+      "season": 6,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "",
+      "released": "2022-08-09T05:00:00.000Z"
+    },
+    {
+      "id": "tt3032476:6:13",
+      "season": 6,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "",
+      "released": "2022-08-16T05:00:00.000Z"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    },
+    {
+      "number": 5,
+      "name": "Сезон 5"
+    },
+    {
+      "number": 6,
+      "name": "Сезон 6"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 1 / Серии: 1-10 из 10 (Адам Бернштейн, Лариса Кондрацки, Терри МакДонаф) [2015, США, драма, комедия, криминал, BDRip 1080p] 3 x MVO (LostFilm, Newstudio, Kravec-Records) + DVO (Кубик В Кубе) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:907686BEB68606DCC4E9B8D8FC00DCB565B32727&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 68064494223,
+      "size": "63.39 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 1 / Серии: 1-10 из 10 (Адам Бернштейн, Лариса Кондрацки, Терри МакДонаф) [2015, США, драма, комедия, криминал, BDRip 1080p] 3 x MVO (LostFilm, Newstudio, Kravec-Records) + DVO (Кубик В Кубе) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 1 / Серии: 1-10 из 10 (Колин Бакси, Адам Бернштейн, Винс Гиллиган) [2015, США, драма, комедия, криминал, WEBRip 1080p] 2 x MVO (LostFilm, NewStudio) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:B1F1E986367C88724158B27EF662BA9B94E1673B&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 27702539059,
+      "size": "25.80 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 1 / Серии: 1-10 из 10 (Колин Бакси, Адам Бернштейн, Винс Гиллиган) [2015, США, драма, комедия, криминал, WEBRip 1080p] 2 x MVO (LostFilm, NewStudio) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better call Saul / Сезон: 1 / Серии: 1-10 из 10 (Винс Гиллиган) [2015, США, Драма, Криминал, SDR, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:2B5BE9B62BBA995A064113576E8F3CF08B6BE53D&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 58143119769,
+      "size": "54.15 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better call Saul / Сезон: 1 / Серии: 1-10 из 10 (Винс Гиллиган) [2015, США, Драма, Криминал, SDR, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 1 / Серии: 1-10 из 10 (Колин Бакси, Винс Гиллиган, Адам Бернштейн) [2015, США, драма, комедия, криминал, WEB-DL 720p] MVO (Кравец-рекордс) + Original Eng + Sub Eng",
+      "magnet": "magnet:?xt=urn:btih:ED63A686B7DFC5E5D987C23A07EDFB15A95202A5&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 16857746636,
+      "size": "15.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 1 / Серии: 1-10 из 10 (Колин Бакси, Винс Гиллиган, Адам Бернштейн) [2015, США, драма, комедия, криминал, WEB-DL 720p] MVO (Кравец-рекордс) + Original Eng + Sub Eng"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 1 / Серии: 1-10 из 10 (Колин Бакси, Винс Гиллиган, Адам Бернштейн) [2015, США, драма, комедия, криминал, WEB-DL 720p] MVO (LostFilm) + Original Eng + Sub Eng",
+      "magnet": "magnet:?xt=urn:btih:4D3CF885638BCC0BE03450F3D0E5A0EB81FC7167&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 16857746636,
+      "size": "15.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 1 / Серии: 1-10 из 10 (Колин Бакси, Винс Гиллиган, Адам Бернштейн) [2015, США, драма, комедия, криминал, WEB-DL 720p] MVO (LostFilm) + Original Eng + Sub Eng"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 2 / Серии: 1-10 из 10 (Колин Бакси, Адам Бернштейн, Винс Гиллиган) [2016, США, драма, комедия, криминал, BDRip 1080p] 4x MVO + DVO + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:EDC2CC69C4C4E05F6DA9E2E2971D13776019672E&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 46289010032,
+      "size": "43.11 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 2 / Серии: 1-10 из 10 (Колин Бакси, Адам Бернштейн, Винс Гиллиган) [2016, США, драма, комедия, криминал, BDRip 1080p] 4x MVO + DVO + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 2 / Серии: 1-10 из 10 (Адам Бернштейн, Лариса Кондрацки, Терри МакДонаф) [2016, США, драма, комедия, криминал, BDRip 1080p] 4 x MVO (LostFilm, Newstudio, Kravec-Records, Jaskier) + DVO (Кубик В Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:CB0CE2CB739B9BE7645425A5D9F156437E618948&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 71618579660,
+      "size": "66.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 2 / Серии: 1-10 из 10 (Адам Бернштейн, Лариса Кондрацки, Терри МакДонаф) [2016, США, драма, комедия, криминал, BDRip 1080p] 4 x MVO (LostFilm, Newstudio, Kravec-Records, Jaskier) + DVO (Кубик В Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better call Saul / Сезон: 2 / Серии: 1-10 из 10 (Винс Гиллиган) [2016, США, Драма, Криминал, SDR, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:5651561A5101AB4E498E1CE5DD26A48FD0AF4EA1&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 56725780561,
+      "size": "52.83 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better call Saul / Сезон: 2 / Серии: 1-10 из 10 (Винс Гиллиган) [2016, США, Драма, Криминал, SDR, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу (2 сезон: 1-10 серии из 10) / Better Call Saul / 2016 / ПД (Кубик в Кубе) / WEBRip (2160p)",
+      "magnet": "magnet:?xt=urn:btih:BEF5E5A4CFC1E6BF1A429EBD890F95E2F3B51CAD&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 81164144476,
+      "size": "75.59 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу (2 сезон: 1-10 серии из 10) / Better Call Saul / 2016 / ПД (Кубик в Кубе) / WEBRip (2160p)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 2 / Серии: 1-10 из 10 (Колин Бакси, Адам Бернштейн) [2016, США, драма, комедия, криминал, WEB-DL 720p] MVO (LostFilm) + Original + Sub Eng",
+      "magnet": "magnet:?xt=urn:btih:0D129A3F7D40697E0DD3A66C3E96EC72C58F32B8&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 16492674416,
+      "size": "15.36 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 2 / Серии: 1-10 из 10 (Колин Бакси, Адам Бернштейн) [2016, США, драма, комедия, криминал, WEB-DL 720p] MVO (LostFilm) + Original + Sub Eng"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 2 / Серии: 1-10 из 10 (Адам Бернштейн, Лариса Кондрацки, Томас Шнауз) [2016, США, Драма, WEBRip 720p] MVO (Кравец-рекордс) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:5B0D170451D5E30C680D993AAE5A79D5EF003712&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 10930691768,
+      "size": "10.18 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 2 / Серии: 1-10 из 10 (Адам Бернштейн, Лариса Кондрацки, Томас Шнауз) [2016, США, Драма, WEBRip 720p] MVO (Кравец-рекордс) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 3 / Серии: 1-10 из 10 (Винс Гиллиган, Томас Шнауз, Адам Бернштейн) [2017, США, криминал, драма, BDRip 1080p] 7x MVO + DVO + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:CEE8B8A83D86DABCEE4388124C6992F07896D091&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 44903883079,
+      "size": "41.82 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 3 / Серии: 1-10 из 10 (Винс Гиллиган, Томас Шнауз, Адам Бернштейн) [2017, США, криминал, драма, BDRip 1080p] 7x MVO + DVO + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 3 / Серии: 1-10 из 10 (Адам Бернштейн, Лариса Кондрацки, Терри МакДонаф) [2017, США, драма, комедия, криминал, BDRip 1080p] 4 x MVO (LostFilm, Newstudio, Kravec-Records, Jaskier) + DVO (Кубик В Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:308E3F6024D0658BA6A3339868F806559D63C765&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 77706695802,
+      "size": "72.37 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 3 / Серии: 1-10 из 10 (Адам Бернштейн, Лариса Кондрацки, Терри МакДонаф) [2017, США, драма, комедия, криминал, BDRip 1080p] 4 x MVO (LostFilm, Newstudio, Kravec-Records, Jaskier) + DVO (Кубик В Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better call Saul / Сезон: 3 / Серии: 1-10 из 10 (Винс Гиллиган) [2017, США, Драма, Криминал, SDR, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C7B055777674D8F710FB4AAB68CB99D98581C1D1&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 61879741317,
+      "size": "57.63 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better call Saul / Сезон: 3 / Серии: 1-10 из 10 (Винс Гиллиган) [2017, США, Драма, Криминал, SDR, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу (3 сезон: 1-10 серии из 10) / Better Call Saul / 2017 / ПМ (LostFilm) / WEBRip (2160p)",
+      "magnet": "magnet:?xt=urn:btih:D16564CFCAE85A1C6C7B2501D9D9694710197E5B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 115588307353,
+      "size": "107.65 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу (3 сезон: 1-10 серии из 10) / Better Call Saul / 2017 / ПМ (LostFilm) / WEBRip (2160p)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 3 / Серии: 1-10 из 10 (Колин Бакси, Адам Бернштейн) [2017, США, драма, комедия, криминал, WEB-DL 720p] MVO (Кравец) + Original",
+      "magnet": "magnet:?xt=urn:btih:6883EDC11867CCC9E54C366D76F1873E3F31D334&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 17491254312,
+      "size": "16.29 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 3 / Серии: 1-10 из 10 (Колин Бакси, Адам Бернштейн) [2017, США, драма, комедия, криминал, WEB-DL 720p] MVO (Кравец) + Original"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 3 / Серии: 1-10 из 10 (Колин Бакси, Адам Бернштейн) [2017, США, драма, комедия, криминал, WEB-DL 720p] MVO (Jaskier) + Original",
+      "magnet": "magnet:?xt=urn:btih:7788E18F7DCB99A99F1A47D9CB88169B8043170A&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 18210661335,
+      "size": "16.96 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 3 / Серии: 1-10 из 10 (Колин Бакси, Адам Бернштейн) [2017, США, драма, комедия, криминал, WEB-DL 720p] MVO (Jaskier) + Original"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 4 / Серии: 1-10 из 10 (Винс Гиллиган, Томас Шнауз, Адам Бернштейн) [2018, США, Драма, криминал, WEBRip 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:14061948332125CC81B0C7466D2BD33EE0F26F46&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 30000346562,
+      "size": "27.94 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 4 / Серии: 1-10 из 10 (Винс Гиллиган, Томас Шнауз, Адам Бернштейн) [2018, США, Драма, криминал, WEBRip 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу (1-6 сезоны: 1-63 серии из 63) / Better Call Saul / 2015-2022 / ПМ (LostFilm), СТ / HEVC / BDRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:9AE8C71445FE1886A1A27BBE1C8D7D8E431B7AFD&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 115695681536,
+      "size": "107.75 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 63,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу (1-6 сезоны: 1-63 серии из 63) / Better Call Saul / 2015-2022 / ПМ (LostFilm), СТ / HEVC / BDRip (1080p)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 4 / Серии: 1-10 из 10 (Винс Гиллиган, Адам Бернштейн, Томас Шнауз) [2018, США, Драма, криминал, WEBRip 2160p, 4k] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:1D75B8C39065A432E236F4FC68C69BCFCD21644D&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 98526549770,
+      "size": "91.76 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 4 / Серии: 1-10 из 10 (Винс Гиллиган, Адам Бернштейн, Томас Шнауз) [2018, США, Драма, криминал, WEBRip 2160p, 4k] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better call Saul / Сезон: 4 / Серии: 1-10 из 10 (Винс Гиллиган) [2018, США, Драма, Криминал, SDR, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:BB7382210CD3D353180E33AB39D755AB73194BF9&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 60483876945,
+      "size": "56.33 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better call Saul / Сезон: 4 / Серии: 1-10 из 10 (Винс Гиллиган) [2018, США, Драма, Криминал, SDR, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul (Винс Гиллиган, Томас Шнауз, Адам Бернштейн) [S04] [2018, драма, криминал, WEBRip 720p | LostFilm, Кубик в кубе]",
+      "magnet": "magnet:?xt=urn:btih:a6037a7832e07ca61fa8ea03fcf0f04ae2bfe680&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 18693845155,
+      "size": "17.41 GB",
+      "episode": 0,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul (Винс Гиллиган, Томас Шнауз, Адам Бернштейн) [S04] [2018, драма, криминал, WEBRip 720p | LostFilm, Кубик в кубе]"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul (Винс Гиллиган, Томас Шнауз, Адам Бернштейн) [S04] [2018, драма, криминал, WEBRip 720p | LostFilm]",
+      "magnet": "magnet:?xt=urn:btih:349530f02e5bee6badefbb6f798b5d9cc1a84993&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 16589311180,
+      "size": "15.45 GB",
+      "episode": 0,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul (Винс Гиллиган, Томас Шнауз, Адам Бернштейн) [S04] [2018, драма, криминал, WEBRip 720p | LostFilm]"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 5 / Серии: 1-10 из 10 (Винс Гиллиган, Томас Шнауз, Питер Гулд) [2020, США, Драма, криминал, WEBRip 1080p] 2 x MVO (NewStudio, LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:29AF7FF0ED10DEA03A65885274AD68BB558D3427&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 45440753991,
+      "size": "42.32 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 5 / Серии: 1-10 из 10 (Винс Гиллиган, Томас Шнауз, Питер Гулд) [2020, США, Драма, криминал, WEBRip 1080p] 2 x MVO (NewStudio, LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 5 / Серии: 1-10 из 10 (Бронуэн Хьюз) [2020, США, драма, криминал, WEB-DL 1080p] MVO (SDI Media) + Original + Sub (Rus, Eng, Multi)",
+      "magnet": "magnet:?xt=urn:btih:9F11DFD022915F49E178F403A3ED4F1C301710A3&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 25855703121,
+      "size": "24.08 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 5 / Серии: 1-10 из 10 (Бронуэн Хьюз) [2020, США, драма, криминал, WEB-DL 1080p] MVO (SDI Media) + Original + Sub (Rus, Eng, Multi)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better call Saul / Сезон: 5 / Серии: 1-10 из 10 (Винс Гиллиган) [2020, США, Драма, Криминал, SDR, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:BF09AAC4E54B7BE9428DB4276DD0DA42612D8072&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 64725157150,
+      "size": "60.28 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better call Saul / Сезон: 5 / Серии: 1-10 из 10 (Винс Гиллиган) [2020, США, Драма, Криминал, SDR, WEB-DL 2160p, 4k] MVO (LostFilm) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу (5 сезон: 1-10 серии из 10) / Better Call Saul / 2020 / ПМ (LostFilm), СТ / 4K, HEVC, SDR / WEBRip (2160p)",
+      "magnet": "magnet:?xt=urn:btih:663D68ED8E911CE65CE1204F6F4D0F86503762CA&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 88197153423,
+      "size": "82.14 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу (5 сезон: 1-10 серии из 10) / Better Call Saul / 2020 / ПМ (LostFilm), СТ / 4K, HEVC, SDR / WEBRip (2160p)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 5 / Серии: 1-10 из 10 (Винс Гиллиган) [2020, США, драма, криминал, WEB-DL 720p] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:EBD2D14E908435E4E04FD9171FEBC043288DFCD6&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 22602265395,
+      "size": "21.05 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 5 / Серии: 1-10 из 10 (Винс Гиллиган) [2020, США, драма, криминал, WEB-DL 720p] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 5 / Серии: 1-10 из 10 (Винс Гиллиган) [2020, США, драма, криминал, WEB-DL 720p] MVO (NewStudio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:345516BCF192243EFD32F49F30C1258DAAE3053A&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 19864223744,
+      "size": "18.50 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 5 / Серии: 1-10 из 10 (Винс Гиллиган) [2020, США, драма, криминал, WEB-DL 720p] MVO (NewStudio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 6 / Серии: 1-13 из 13 (Винс Гиллиган) [2022, США, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + MVO (NewStudio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:047D6652C5D8E84A253F6DA6A4374EA8B49477C0&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 37806449623,
+      "size": "35.21 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 6,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 6 / Серии: 1-13 из 13 (Винс Гиллиган) [2022, США, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + MVO (NewStudio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 6 / Серии: 1-13 из 13 (Питер Гулд, Винс Гиллиган) [2022, США, драма, криминал, BDRip 1080p] 3 x MVO (LostFilm, NewStudio, TVShows) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:2BD5F900D4C285CB58F4918FC179883DE8B77816&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 82388210155,
+      "size": "76.73 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 6,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 6 / Серии: 1-13 из 13 (Питер Гулд, Винс Гиллиган) [2022, США, драма, криминал, BDRip 1080p] 3 x MVO (LostFilm, NewStudio, TVShows) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 6 / Серии: 1-13 из 13 (Винс Гиллиган, Томас Шнауз, Питер Гулд, Майкл Моррис, Джанкарло Эспозито, Дебора Рэй Сихорн) [2022, США, Драма, криминал, SDR, WEB-DL 2160p, 4k] 2 x MVO (NewStudio | LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:D73806228BC325196218FFC0C1898AD121D7F93E&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 77685220966,
+      "size": "72.35 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 6,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 6 / Серии: 1-13 из 13 (Винс Гиллиган, Томас Шнауз, Питер Гулд, Майкл Моррис, Джанкарло Эспозито, Дебора Рэй Сихорн) [2022, США, Драма, криминал, SDR, WEB-DL 2160p, 4k] 2 x MVO (NewStudio | LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul [06x01-13 из 13] (2022) WEB-DL 720p | LostFilm, NewStudio",
+      "magnet": "magnet:?xt=urn:btih:c06da825dfd1c8205d7c2a909bf1e1cb29a3fcca&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 20368882401,
+      "size": "18.97 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 6,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul [06x01-13 из 13] (2022) WEB-DL 720p | LostFilm, NewStudio"
+    },
+    {
+      "title": "Лучше звоните Солу / Better Call Saul / Сезон: 6 / Серии: 1-13 из 13 (Винс Гиллиган, Томас Шнауз, Питер Гулд, Майкл Моррис, Джанкарло Эспозито, Дебора Рэй Сихорн) [2022, США, драма, криминал, WEB-DL 720p] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:034CE7C5DEBE803BA94AC227900E88C366CD8807&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 20261508218,
+      "size": "18.87 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 6,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Лучше звоните Солу / Better Call Saul / Сезон: 6 / Серии: 1-13 из 13 (Винс Гиллиган, Томас Шнауз, Питер Гулд, Майкл Моррис, Джанкарло Эспозито, Дебора Рэй Сихорн) [2022, США, драма, криминал, WEB-DL 720p] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T05:58:42Z"
+}

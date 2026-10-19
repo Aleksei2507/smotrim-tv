@@ -1,0 +1,100 @@
+{
+  "id": "tt15527340",
+  "type": "series",
+  "poster": "https://live.metahub.space/poster/small/tt15527340/img",
+  "background": "https://live.metahub.space/background/medium/tt15527340/img",
+  "genres": [
+    "Драма",
+    "Детектив"
+  ],
+  "runtime": "48 мин",
+  "imdbRating": "7.7",
+  "releaseInfo": "2022–2022",
+  "trailers": [],
+  "name": "Нулевой пациент",
+  "origin": "ru",
+  "description": "Врачи расследуют вспышку ВИЧ в детской больнице и пытаются остановить распространение инфекции.",
+  "imdbId": "tt15527340",
+  "ids": [
+    "tt15527340"
+  ],
+  "originalName": "Patient Zero",
+  "aliases": [
+    "Нулевой пациент",
+    "Patient Zero"
+  ],
+  "year": "2022",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T05:58:42Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt15527340.json"
+  ],
+  "videos": [
+    {
+      "id": "tt15527340:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2022-05-19T00:00:00.000Z"
+    },
+    {
+      "id": "tt15527340:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2022-05-19T00:00:01.000Z"
+    },
+    {
+      "id": "tt15527340:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2022-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt15527340:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2022-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "tt15527340:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2022-06-09T00:00:00.000Z"
+    },
+    {
+      "id": "tt15527340:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2022-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "tt15527340:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2022-06-23T00:00:00.000Z"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    }
+  ],
+  "sources": [],
+  "sourcesUpdatedAt": "2026-10-19T05:58:42Z"
+}
