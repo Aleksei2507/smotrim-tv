@@ -1,0 +1,88 @@
+{
+  "id": "tt1366687",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a837c0c764f11f9bb0310afccce939aa3e688b0668cd7e2d79d2807d6a02d2a1.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a837c0c764f11f9bb0310afccce939aa3e688b0668cd7e2d79d2807d6a02d2a1.jpg",
+  "genres": [
+    "Комедия",
+    "Фэнтези",
+    "Мелодрама"
+  ],
+  "runtime": "88 мин",
+  "imdbRating": "5.8",
+  "releaseInfo": "2009",
+  "trailers": [],
+  "name": "Любовь в большом городе",
+  "description": "Действие фильма происходит в одном из самых романтичных мегаполисов мира – Нью-Йорке. Три друга Артем, Игорь и Оле, настоящий «русский» финн, в народе «Сауна» работают на чужбине, а в свободное от работы время  отрываются, «как взрослые»: ходят в сауну, в стриптиз-бары, крутят короткие и ни к чему не обязывающие романы. Секс для них давно превратился в забег на короткие дистанции,   соблазненные женщины – в трофеи, а триумфальные победы – главная тема обсуждения во время каждого мальчишника… \n\nНо однажды случай вмешивается в их устоявшуюся, беспечную, разгильдяйскую жизнь… На очередной вечеринке в одном из клубов  человек странного вида поднимает бокал и произносит тост.  Пройдет совсем немного времени, и все трое обнаружат пренеприятнейшую перемену  - они больше не могут заниматься сексом. \n\nКак вернуть мужскую силу? Корень женьшеня? Виагра? Тайский массаж? Консультации сексопатолога? Ничто не спасает. За что? Почему? И почему так рано? И почему именно мы? С этими вопросами наши герои в отчаянии бегают по специалистам… \n\nВ конце концов, они находят того самого человека с вечеринки, и выясняют, что тот, применив свои мистические способности, «закодировал» их от беспорядочных связей.  Их спасет только одно средство. Любовь. И секс будет. Но только с любимой женщиной. Осталось дело за малым – найти ее...",
+  "aliases": [
+    "Любовь в большом городе",
+    "No Love in the City"
+  ],
+  "kpId": 430602,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt1366687.json",
+    "https://www.kinopoisk.ru/film/430602/"
+  ],
+  "year": "2009",
+  "imdbId": "tt1366687",
+  "ids": [
+    "tt1366687"
+  ],
+  "originalName": "No Love in the City",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "sources": [
+    {
+      "title": "Любовь в большом городе (Марюс Вайсберг) [2009, Россия, романтическая комедия, Blu-Ray disc 1080p]",
+      "magnet": "magnet:?xt=urn:btih:EEA5F7BB46B1239E034DF4B15071EA746A4DDBE2&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 42938935541,
+      "size": "39.99 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Любовь в большом городе (Марюс Вайсберг) [2009, Россия, романтическая комедия, Blu-Ray disc 1080p]"
+    },
+    {
+      "title": "Любовь в большом городе (Марюс Вайсберг) [2009, Россия, Украина, романтическая комедия, BDRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:A7E995444A391488141ACFD996F433902963F444&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 8450348154,
+      "size": "7.87 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Любовь в большом городе (Марюс Вайсберг) [2009, Россия, Украина, романтическая комедия, BDRip 1080p]"
+    },
+    {
+      "title": "Любовь в большом городе (Марюс Вайсберг) [2009, Россия, романтическая комедия, BDRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:CA72049D84DDEE486FB4DD6D40A2A23571B5D51D&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 4692251770,
+      "size": "4.37 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Любовь в большом городе (Марюс Вайсберг) [2009, Россия, романтическая комедия, BDRip 720p]"
+    },
+    {
+      "title": "Любовь в большом городе (2009) BDRip 720p от FreeHD",
+      "magnet": "magnet:?xt=urn:btih:19dbcf0be020cc94a1d316a2279afd343aee6e42&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 4692251770,
+      "size": "4.37 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Любовь в большом городе (2009) BDRip 720p от FreeHD"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt1366687/img",
+    "background": "https://images.metahub.space/background/medium/tt1366687/img"
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "id": "tt10922010",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d7cdf3d79a2df5f3b34172b2e628c5cef7a1ed03a921d3d26e77fc7bf907978d.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/72875f2c53fe6580c33346c0401c87ae51f5ffff0d31e529ea4fe8a598ae0f7e.jpg",
+  "genres": [
+    "Детектив",
+    "Комедия"
+  ],
+  "imdbRating": "7.5",
+  "releaseInfo": "2021–2026",
+  "trailers": [],
+  "name": "Вампиры средней полосы",
+  "origin": "ru",
+  "description": "Семья смоленских вампиров пытается жить незаметно, но загадочные убийства ставят под угрозу их привычный порядок.",
+  "imdbId": "tt10922010",
+  "ids": [
+    "tt10922010"
+  ],
+  "originalName": "The Vampires of Midland",
+  "aliases": [
+    "Вампиры средней полосы",
+    "The Vampires of Midland"
+  ],
+  "year": "2021",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt10922010.json"
+  ],
+  "videos": [
+    {
+      "id": "tt10922010:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "Следователи Анна и Иван ведут дело об обескровленных трупах. Она вампир и должна доказать, что ее семья непричастна к убийству.",
+      "released": "2021-03-18"
+    },
+    {
+      "id": "tt10922010:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "В деле появляются выживший студент Барановский и подозреваемая — вампир и его любовница Ольга. Иван не скрывает симпатии к Анне.",
+      "released": "2021-03-18"
+    },
+    {
+      "id": "tt10922010:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "Анна и Иван допрашивают Барановского, но расходятся во мнениях. Глава семьи дед Слава и его внук Женек ведут свое расследование.",
+      "released": "2021-03-25"
+    },
+    {
+      "id": "tt10922010:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "Барановского ранят на вечеринке Женька, он под подозрением. Хранитель Ирина Витальевна просит деда Славу обратить ее в вампира.",
+      "released": "2021-04-01"
+    },
+    {
+      "id": "tt10922010:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "Следствие выходит на Никиту, студента из театра Ольги. Врач-вампир Жан создает лекарство, которое должно продлить хранителю жизнь.",
+      "released": "2021-04-08"
+    },
+    {
+      "id": "tt10922010:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "Никита сознается и подставляет Женька — дед Слава ведет внука на казнь. Анна сближается с Иваном и рассказывает ему правду.",
+      "released": "2021-04-15"
+    },
+    {
+      "id": "tt10922010:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "Никита рассказывает о вампире Климе — давнем враге деда Славы. Клим предлагает Ирине Витальевне, которая жаждет мести, сделку.",
+      "released": "2021-04-22"
+    },
+    {
+      "id": "tt10922010:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "Дед Слава находит Клима, но судьба семьи зависит от решения Ирины Витальевны. Новым хранителем становится ее сын Костик.",
+      "released": "2021-05-06"
+    },
+    {
+      "id": "tt10922010:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Новогодний эпизод",
+      "description": "Дед Слава спасает сбитого маршруткой студента, обратив его в вампира. Женек приходит в новую семью с елкой и подругой Машей.",
+      "released": "2021-12-29"
+    },
+    {
+      "id": "tt10922010:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "Анна узнает о смерти близкого человека и случайно находит испуганную девочку. Содержащаяся под стражей Ольга ждет ребенка.",
+      "released": "2022-12-13"
+    },
+    {
+      "id": "tt10922010:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "Дед Слава привечает малышку, которой уже интересуются в Москве. Подполковник Усачев узнает в Анне свою любовь из начала 1990-х.",
+      "released": "2022-12-20"
+    },
+    {
+      "id": "tt10922010:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "Разболтавший о чудо-лекарстве Костик требует у Жана больше ампул. Его дочь знакомится с живущей у вампиров девочкой Милой.",
+      "released": "2022-12-27"
+    },
+    {
+      "id": "tt10922010:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "Мила рассказывает о себе и преследующих ее охотниках. Усачев делится с Анной воспоминаниями и предполагает, что она его дочь.",
+      "released": "2023-01-03"
+    },
+    {
+      "id": "tt10922010:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "Дед Слава помогает Костику откупиться от бандитов в обмен на свободу Ольги. Усачев везет в Смоленск приемную мать Милы.",
+      "released": "2023-01-10"
+    },
+    {
+      "id": "tt10922010:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "Вернувшаяся домой Ольга рассказывает Барановскому о вампирах. Глава охотников Борис настойчиво просит деда Славу отдать Милу.",
+      "released": "2023-01-17"
+    },
+    {
+      "id": "tt10922010:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "Дед Слава, Жан и Анна готовят ловушку для Бориса и охотников. Барановский обещает бросить карьеру рок-звезды ради будущей семьи.",
+      "released": "2023-01-24"
+    },
+    {
+      "id": "tt10922010:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "Дед Слава вместе с недалеким помощником пытается спасти детей на теплоходе. Мила видит черное облако над своей головой.",
+      "released": "2023-01-31"
+    },
+    {
+      "id": "tt10922010:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "Борис пытается убедить уральский клан напасть на семейство деда Славы. Анна узнаёт, что у неё есть брат, а Ольга ждёт ребёнка.",
+      "released": "2025-11-01"
+    },
+    {
+      "id": "tt10922010:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "Женёк в поисках девушки Грёмы отправляется к загадочным огневерам. У Ольги начинаются схватки, а Барановского нет рядом.",
+      "released": "2025-11-07"
+    },
+    {
+      "id": "tt10922010:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "Борис везёт Ольгу с младенцем и незрячего Жана на свою ферму. Усачёв помогает Ирине Витальевне приструнить Костика.",
+      "released": "2025-11-14"
+    },
+    {
+      "id": "tt10922010:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "Дед Слава уверен, что в Женьке порой просыпается монстр — василиск. Жан проводит операцию вслепую, а у Ольги отбирают сына.",
+      "released": "2025-11-21"
+    },
+    {
+      "id": "tt10922010:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "Женёк сбегает из дома, чтобы увидеть Грёму. Совет уральских вампиров голосует, отдать ребёнка Ольге или нет.",
+      "released": "2025-11-28"
+    },
+    {
+      "id": "tt10922010:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-02-27"
+    },
+    {
+      "id": "tt10922010:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-03-06"
+    },
+    {
+      "id": "tt10922010:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-03-13"
+    },
+    {
+      "id": "tt10922010:3:9",
+      "season": 3,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2026-03-20"
+    },
+    {
+      "id": "tt10922010:3:10",
+      "season": 3,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2026-03-27"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Вампиры средней полосы / Сезон: 1 / Серии: 1-8 из 8 (Антон Маслов) [2020, Детектив, комедия, фэнтези, WEBRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:95728D701BF92B26F38C14D46C74A9BE79946549&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 17459042058,
+      "size": "16.26 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы / Сезон: 1 / Серии: 1-8 из 8 (Антон Маслов) [2020, Детектив, комедия, фэнтези, WEBRip 1080p]"
+    },
+    {
+      "title": "Вампиры средней полосы / Сезон: 1,2 / Серии: 1-16 из 16 + Новогодняя серия + Фильм о фильме (x2) (Антон Маслов, Дмитрий Грибанов) [2021-2022, детектив, комедия, фэнтези, WEBRip 1080p] Sub Rus Eng",
+      "magnet": "magnet:?xt=urn:btih:45C7DDCB8ED9940A1ED7C1199E2AFA674DF20AD7&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 45472966246,
+      "size": "42.35 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 16,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы / Сезон: 1,2 / Серии: 1-16 из 16 + Новогодняя серия + Фильм о фильме (x2) (Антон Маслов, Дмитрий Грибанов) [2021-2022, детектив, комедия, фэнтези, WEBRip 1080p] Sub Rus Eng"
+    },
+    {
+      "title": "Вампиры средней полосы / Сезон: 1 / Серии: 1-8 из 8 (Антон Маслов) [2021, детектив, комедия, фэнтези, WEBRip 2160p]",
+      "magnet": "magnet:?xt=urn:btih:080394BCED6F8AE5C08693864C20A4ED18B8A439&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 92159260753,
+      "size": "85.83 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы / Сезон: 1 / Серии: 1-8 из 8 (Антон Маслов) [2021, детектив, комедия, фэнтези, WEBRip 2160p]"
+    },
+    {
+      "title": "Вампиры средней полосы / Сезон: 1 / Серии: 1-8 из 8 (Антон Маслов) [2021, детектив, комедия, фэнтези, WEBRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:71A9467DE4BC31EF8F2AE5872DF0AC5A5FCFE209&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 11617886535,
+      "size": "10.82 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы / Сезон: 1 / Серии: 1-8 из 8 (Антон Маслов) [2021, детектив, комедия, фэнтези, WEBRip 720p]"
+    },
+    {
+      "title": "Вампиры средней полосы [S02] (2022) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:20aba960fa9dabe60e8f7cd457bc9c1ba15674df&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 25007447080,
+      "size": "23.29 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы [S02] (2022) WEBRip 1080p"
+    },
+    {
+      "title": "Вампиры средней полосы [02х01-07 из 08] (2022) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:18a37cf65286a140995ff3f691f574e8b51d6745&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 21367462297,
+      "size": "19.90 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы [02х01-07 из 08] (2022) WEBRip 1080p"
+    },
+    {
+      "title": "Вампиры средней полосы / Сезон: 2 / Серии: 1-8 из 8 (Дмитрий Грибанов) [2022, детектив, комедия, фэнтези, WEBRip 720p] + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C08B76CBD59CAE588E599A4C792D57B550E3D558&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 12133282611,
+      "size": "11.30 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы / Сезон: 2 / Серии: 1-8 из 8 (Дмитрий Грибанов) [2022, детектив, комедия, фэнтези, WEBRip 720p] + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Вампиры средней полосы [02х01 из 08] (2022) WEBRip 720p",
+      "magnet": "magnet:?xt=urn:btih:8f44dd90d3939eed46627ad0896fd9d8c4839a99&dn=Vampiry-sredney-polosy-02h01-iz-08-2022-WEBRip-720p&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969",
+      "quality": "720p",
+      "source": "JacRed · torrentby",
+      "bytes": 1481763717,
+      "size": "1.38 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы [02х01 из 08] (2022) WEBRip 720p"
+    },
+    {
+      "title": "Вампиры средней полосы / Сезон: 3 / Серии: 1-10 из 10 (Алексей Акимов) [2025, Детектив, комедия, фэнтези, WEBRip 1080p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:28A1B00BBBA7258F2DA82605152A465D3E0F7A94&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%D0%92%D0%B0%D0%BC%D0%BF%D0%B8%D1%80%D1%8B%20%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B9%20%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D1%8B%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%203%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-10%20%D0%B8%D0%B7%2010%20(%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9%20%D0%90%D0%BA%D0%B8%D0%BC%D0%BE%D0%B2)%20%5B2025%2C%20%D0%94%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%2C%20%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F%2C%20%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8%2C%20WEBRip%201080p%5D%20%2B%20Sub%20(Rus)",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 16889958891,
+      "size": "15.73 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы / Сезон: 3 / Серии: 1-10 из 10 (Алексей Акимов) [2025, Детектив, комедия, фэнтези, WEBRip 1080p] + Sub (Rus)"
+    },
+    {
+      "title": "Вампиры средней полосы [03x01-02 из 10] (2025) WEBRip 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:d8e56bacac7dfe7ccefc402b322a8880d9b49bba&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 3876207984,
+      "size": "3.61 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы [03x01-02 из 10] (2025) WEBRip 1080p от ExKinoRay"
+    },
+    {
+      "title": "Вампиры средней полосы [03х01 из 10] (2025) WEBRip 2160p от ExKinoRay | 4K | SDR",
+      "magnet": "magnet:?xt=urn:btih:fabda04807a7813318f98f6b2db513133ba55971&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 7355131494,
+      "size": "6.85 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы [03х01 из 10] (2025) WEBRip 2160p от ExKinoRay | 4K | SDR"
+    },
+    {
+      "title": "Вампиры средней полосы [03х01-02 из 10] (2025) WEBRip 2160p от ExKinoRay | 4K | SDR",
+      "magnet": "magnet:?xt=urn:btih:16653c138f95d37b697f4c6a2f5d88f4dc20da6d&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 14463302369,
+      "size": "13.47 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы [03х01-02 из 10] (2025) WEBRip 2160p от ExKinoRay | 4K | SDR"
+    },
+    {
+      "title": "Вампиры средней полосы / Сезон: 3 / Серии: 1-10 из 10 (Алексей Акимов) [2025, детектив, комедия, фэнтези, WEBRip 720p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:15ACE58E8683B14BA3C2096F9EBC2C675600A4B0&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%D0%92%D0%B0%D0%BC%D0%BF%D0%B8%D1%80%D1%8B%20%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B9%20%D0%BF%D0%BE%D0%BB%D0%BE%D1%81%D1%8B%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%203%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-10%20%D0%B8%D0%B7%2010%20(%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9%20%D0%90%D0%BA%D0%B8%D0%BC%D0%BE%D0%B2)%20%5B2025%2C%20%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%2C%20%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F%2C%20%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8%2C%20WEBRip%20720p%5D%20%2B%20Sub%20(Rus)",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 9491877724,
+      "size": "8.84 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Вампиры средней полосы / Сезон: 3 / Серии: 1-10 из 10 (Алексей Акимов) [2025, детектив, комедия, фэнтези, WEBRip 720p] + Sub (Rus)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt10922010/img",
+    "background": "https://live.metahub.space/background/medium/tt10922010/img"
+  }
+}

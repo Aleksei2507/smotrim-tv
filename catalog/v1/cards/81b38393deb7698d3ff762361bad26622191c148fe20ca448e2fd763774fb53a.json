@@ -1,0 +1,115 @@
+{
+  "id": "tt6966692",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/764ce0c265f59ed2fa8c05428acd2403f11912618d3f72f52d44070176e81953.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8deff116dfa0063620a958b53ebe58d84e24312828eb8436590b44f7f094b035.jpg",
+  "genres": [
+    "Биография",
+    "Комедия",
+    "Драма"
+  ],
+  "runtime": "130 мин",
+  "imdbRating": "8.2",
+  "releaseInfo": "2018",
+  "trailers": [
+    {
+      "source": "QkZxoko_HC0",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Зеленая книга",
+  "description": "1960-е годы. После закрытия нью-йоркского ночного клуба на ремонт вышибала Тони по прозвищу Болтун ищет подработку на пару месяцев. Как раз в это время Дон Ширли — утонченный светский лев, богатый и талантливый чернокожий музыкант, исполняющий классическую музыку — собирается в турне по южным штатам, где ещё сильны расистские убеждения и царит сегрегация. Он нанимает Тони в качестве водителя, телохранителя и человека, способного решать текущие проблемы. У этих двоих так мало общего, и эта поездка навсегда изменит жизнь обоих.",
+  "aliases": [
+    "Зеленая книга",
+    "Green Book"
+  ],
+  "kpId": 1108577,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt6966692.json",
+    "https://www.kinopoisk.ru/film/1108577/"
+  ],
+  "year": "2018",
+  "imdbId": "tt6966692",
+  "ids": [
+    "tt6966692"
+  ],
+  "originalName": "Green Book",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "sources": [
+    {
+      "title": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, комедия, драма, биография, BDRip 1080p] Dub (iTunes) + MVO (HDRezka Studio) + Sub (Rus, Eng) + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:6660742F0F98F6F2745AF3E75AC3F247D1A15EFA&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 16610786017,
+      "size": "15.47 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, комедия, драма, биография, BDRip 1080p] Dub (iTunes) + MVO (HDRezka Studio) + Sub (Rus, Eng) + Original Eng"
+    },
+    {
+      "title": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, комедия, драма, биография, BDRemux 1080p] Dub + MVO + AVO + VO + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:94B10C320237F27CA203FF17B825DD2936906598&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 41478646661,
+      "size": "38.63 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, комедия, драма, биография, BDRemux 1080p] Dub + MVO + AVO + VO + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, комедия, драма, биография, UHD BDRemux 2160p, HDR10] Dub + MVO + VO + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:217884122EE4A532F2EE0FC4E91C214BE92408FD&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 63597728235,
+      "size": "59.23 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, комедия, драма, биография, UHD BDRemux 2160p, HDR10] Dub + MVO + VO + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, драма, комедия, биография, UHD BDRip 2160p, HDR10] Dub + MVO (HDRezka Studio) + Dub (Украинский) + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:7F5B651AA762A1FA78202768D7DDE852D19F0A85&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 23633057546,
+      "size": "22.01 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, драма, комедия, биография, UHD BDRip 2160p, HDR10] Dub + MVO (HDRezka Studio) + Dub (Украинский) + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, драма, комедия, биография, BDRip 720p] Dub (Rus) + MVO (HDRezka Studio) + Dub (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:6D1013DDBBD1ADF854A640129FAC93D42750F3AD&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 7237019893,
+      "size": "6.74 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, драма, комедия, биография, BDRip 720p] Dub (Rus) + MVO (HDRezka Studio) + Dub (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, Китай, биография, комедия, драма, BDRip 720p] [Fra Transfer] Dub + MVO + DVO + AVO + 3x VO + Dub (Ukr) + Dub (Bel) + Original Eng + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:E34AD12D065B706720CEDF633670C41F245505E9&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 11671573626,
+      "size": "10.87 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зеленая книга / Green Book (Питер Фаррелли / Peter Farrelly) [2018, США, Китай, биография, комедия, драма, BDRip 720p] [Fra Transfer] Dub + MVO + DVO + AVO + 3x VO + Dub (Ukr) + Dub (Bel) + Original Eng + Sub (Rus, Ukr, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt6966692/img",
+    "background": "https://images.metahub.space/background/medium/tt6966692/img"
+  }
+}

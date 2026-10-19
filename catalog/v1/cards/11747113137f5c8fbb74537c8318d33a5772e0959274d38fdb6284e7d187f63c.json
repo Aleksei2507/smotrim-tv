@@ -1,0 +1,47 @@
+{
+  "id": "tt1675434",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f860cf23d00c215877b97bc58d43888a16f71ec5947a5f564a73df28043da45b.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/31743d759f8547b46c97498e54ea03763e3906113a743e5a9ca722c89d4a49ab.jpg",
+  "genres": [
+    "Комедия",
+    "Драма"
+  ],
+  "runtime": "113 мин",
+  "imdbRating": "8.5",
+  "releaseInfo": "2011",
+  "trailers": [
+    {
+      "source": "dvdJ--DV0Uo",
+      "type": "Trailer"
+    }
+  ],
+  "name": "1+1",
+  "origin": "other",
+  "description": "Богатый аристократ нанимает помощником молодого человека из другого мира. Необычный союз меняет жизнь обоих.",
+  "searchName": "Неприкасаемые",
+  "aliases": [
+    "1+1",
+    "The Intouchables",
+    "Неприкасаемые",
+    "1 + 1"
+  ],
+  "imdbId": "tt1675434",
+  "ids": [
+    "tt1675434"
+  ],
+  "originalName": "The Intouchables",
+  "year": "2011",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt1675434.json"
+  ],
+  "sources": [],
+  "sourcesUpdatedAt": "2026-10-19T05:58:42Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt1675434/img",
+    "background": "https://images.metahub.space/background/medium/tt1675434/img"
+  }
+}

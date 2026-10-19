@@ -1,0 +1,174 @@
+{
+  "id": "tt15527340",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ee31d5d5ae524a3274d9d7e004248b8aac620867735538277381ed85cd0e7484.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3b75a9246c62a9c5ae8f8e2578cb3645f64d654214de6ee6d99d43ee306844a1.jpg",
+  "genres": [
+    "Драма",
+    "Детектив"
+  ],
+  "runtime": "48 мин",
+  "imdbRating": "7.7",
+  "releaseInfo": "2022–2022",
+  "trailers": [],
+  "name": "Нулевой пациент",
+  "origin": "ru",
+  "description": "Врачи расследуют вспышку ВИЧ в детской больнице и пытаются остановить распространение инфекции.",
+  "imdbId": "tt15527340",
+  "ids": [
+    "tt15527340"
+  ],
+  "originalName": "Patient Zero",
+  "aliases": [
+    "Нулевой пациент",
+    "Patient Zero"
+  ],
+  "year": "2022",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt15527340.json"
+  ],
+  "videos": [
+    {
+      "id": "tt15527340:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2022-05-19T00:00:00.000Z"
+    },
+    {
+      "id": "tt15527340:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2022-05-19T00:00:01.000Z"
+    },
+    {
+      "id": "tt15527340:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2022-05-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt15527340:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2022-06-02T00:00:00.000Z"
+    },
+    {
+      "id": "tt15527340:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2022-06-09T00:00:00.000Z"
+    },
+    {
+      "id": "tt15527340:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2022-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "tt15527340:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2022-06-23T00:00:00.000Z"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Нулевой пациент (2022) WEBRip [H.264/1080p] (сезон 1, серии 1-7 из 7 + фильм о фильме)",
+      "magnet": "magnet:?xt=urn:btih:4DBEDF1B61C022F4967F33E098F5E0272627EA23",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 19112604467,
+      "size": "17.80 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Нулевой пациент (2022) WEBRip [H.264/1080p] (сезон 1, серии 1-7 из 7 + фильм о фильме)"
+    },
+    {
+      "title": "Нулевой пациент [S01 + Фильм о фильме] (2022) WEB-DL 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:d31563d0a1ba87fb26c9d23cc29db6e6ad0caafc&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 15129022300,
+      "size": "14.09 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Нулевой пациент [S01 + Фильм о фильме] (2022) WEB-DL 1080p от ExKinoRay"
+    },
+    {
+      "title": "Нулевой пациент / Сезон: 1 / Серии: 1-7 из 7 (Сергей Трофимов, Евгений Стычкин) [2022, драма, детектив, HDR10, WEBRip 2160p, 4K] + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:DB1F6204859AE2FC9F71D92FF01DDD70AF53A145&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 30590904565,
+      "size": "28.49 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Нулевой пациент / Сезон: 1 / Серии: 1-7 из 7 (Сергей Трофимов, Евгений Стычкин) [2022, драма, детектив, HDR10, WEBRip 2160p, 4K] + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Нулевой пациент [S01] (2022) WEBRip 2160p | 4K | SDR",
+      "magnet": "magnet:?xt=urn:btih:74683311e5d740eb8c79f14bad1e6859983824ce&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 30623116820,
+      "size": "28.52 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Нулевой пациент [S01] (2022) WEBRip 2160p | 4K | SDR"
+    },
+    {
+      "title": "Нулевой пациент [S01 + Фильм о фильме] (2022) WEBRip 720p",
+      "magnet": "magnet:?xt=urn:btih:2347164421822ca4b6e62528dc5bcc7e57532b9e&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 13572096655,
+      "size": "12.64 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Нулевой пациент [S01 + Фильм о фильме] (2022) WEBRip 720p"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt15527340/img",
+    "background": "https://live.metahub.space/background/medium/tt15527340/img"
+  }
+}

@@ -1,0 +1,784 @@
+{
+  "id": "tt4574334",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1ac602a9bcdd0b8a2397fadcb1e506000d06afd741b887372e605c6b042ecadf.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8bb34d3bf47b5039250ed9fad5ba41af11db9d40d2a718cb0e80d6f916bd681d.jpg",
+  "genres": [
+    "Драма",
+    "Фэнтези",
+    "Ужасы"
+  ],
+  "runtime": "65 мин",
+  "imdbRating": "8.6",
+  "releaseInfo": "2016–2025",
+  "trailers": [
+    {
+      "source": "mnd7sFt5c3A",
+      "type": "Trailer"
+    },
+    {
+      "source": "b9EkMc79ZSU",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Очень странные дела",
+  "origin": "other",
+  "description": "Исчезновение мальчика в небольшом городе приводит его друзей к секретным экспериментам и опасному параллельному миру.",
+  "imdbId": "tt4574334",
+  "ids": [
+    "tt4574334"
+  ],
+  "originalName": "Stranger Things",
+  "aliases": [
+    "Очень странные дела",
+    "Stranger Things"
+  ],
+  "year": "2016",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt4574334.json"
+  ],
+  "videos": [
+    {
+      "id": "tt4574334:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2016-07-15"
+    },
+    {
+      "id": "tt4574334:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2016-07-15"
+    },
+    {
+      "id": "tt4574334:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2016-07-15"
+    },
+    {
+      "id": "tt4574334:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2016-07-15"
+    },
+    {
+      "id": "tt4574334:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2016-07-15"
+    },
+    {
+      "id": "tt4574334:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2016-07-15"
+    },
+    {
+      "id": "tt4574334:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2016-07-15"
+    },
+    {
+      "id": "tt4574334:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2016-07-15"
+    },
+    {
+      "id": "tt4574334:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2017-10-27"
+    },
+    {
+      "id": "tt4574334:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2017-10-27"
+    },
+    {
+      "id": "tt4574334:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2017-10-27"
+    },
+    {
+      "id": "tt4574334:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2017-10-27"
+    },
+    {
+      "id": "tt4574334:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2017-10-27"
+    },
+    {
+      "id": "tt4574334:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2017-10-27"
+    },
+    {
+      "id": "tt4574334:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2017-10-27"
+    },
+    {
+      "id": "tt4574334:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2017-10-27"
+    },
+    {
+      "id": "tt4574334:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2017-10-27"
+    },
+    {
+      "id": "tt4574334:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2019-07-04"
+    },
+    {
+      "id": "tt4574334:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2019-07-04"
+    },
+    {
+      "id": "tt4574334:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2019-07-04"
+    },
+    {
+      "id": "tt4574334:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2019-07-04"
+    },
+    {
+      "id": "tt4574334:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2019-07-04"
+    },
+    {
+      "id": "tt4574334:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2019-07-04"
+    },
+    {
+      "id": "tt4574334:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2019-07-04"
+    },
+    {
+      "id": "tt4574334:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2019-07-04"
+    },
+    {
+      "id": "tt4574334:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2022-05-27"
+    },
+    {
+      "id": "tt4574334:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2022-05-27"
+    },
+    {
+      "id": "tt4574334:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2022-05-27"
+    },
+    {
+      "id": "tt4574334:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2022-05-27"
+    },
+    {
+      "id": "tt4574334:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2022-05-27"
+    },
+    {
+      "id": "tt4574334:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2022-05-27"
+    },
+    {
+      "id": "tt4574334:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2022-05-27"
+    },
+    {
+      "id": "tt4574334:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2022-07-01"
+    },
+    {
+      "id": "tt4574334:4:9",
+      "season": 4,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2022-07-01"
+    },
+    {
+      "id": "tt4574334:5:1",
+      "season": 5,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-11-26"
+    },
+    {
+      "id": "tt4574334:5:2",
+      "season": 5,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-11-26"
+    },
+    {
+      "id": "tt4574334:5:3",
+      "season": 5,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-11-26"
+    },
+    {
+      "id": "tt4574334:5:4",
+      "season": 5,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-11-26"
+    },
+    {
+      "id": "tt4574334:5:5",
+      "season": 5,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-12-25"
+    },
+    {
+      "id": "tt4574334:5:6",
+      "season": 5,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-12-25"
+    },
+    {
+      "id": "tt4574334:5:7",
+      "season": 5,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2025-12-25"
+    },
+    {
+      "id": "tt4574334:5:8",
+      "season": 5,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2025-12-31"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    },
+    {
+      "number": 5,
+      "name": "Сезон 5"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 1 / Серии: 1-8 из 8 (Мэтт Даффер / Matt Duffer) [2016, США, Ужасы, триллер, драма, WEBRip 1080p] MVO (Jaskier, LostFilm, NewStudio) + Original",
+      "magnet": "magnet:?xt=urn:btih:A9470D61F6B9237D02EAD70C091744CA5E88B625&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 31213674823,
+      "size": "29.07 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 1 / Серии: 1-8 из 8 (Мэтт Даффер / Matt Duffer) [2016, США, Ужасы, триллер, драма, WEBRip 1080p] MVO (Jaskier, LostFilm, NewStudio) + Original"
+    },
+    {
+      "title": "Очень странные дела (Загадочные события) (1-5 сезоны: 1-42 серии из 42) / Stranger Things / 2016-2025 / ПМ (LostFilm) / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:52B557AFC0A088981091D49E45B3B34553F786B5",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 142786187755,
+      "size": "132.98 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 42,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела (Загадочные события) (1-5 сезоны: 1-42 серии из 42) / Stranger Things / 2016-2025 / ПМ (LostFilm) / WEB-DL (1080p)"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 1 / Серии: 1-8 из 8 (Мэтт Даффер, Росс Даффер, Шон Леви) [2016, США, ужасы, фантастика, детектив, BDRemux 2160p, 4k] Dub (Пифагор) + 2x MVO (Jaskier, LostFilm)+ Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:2FEEE5AF5A01F52ED581C14BE8F4EA3C01C729AA&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 155187905822,
+      "size": "144.53 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 1 / Серии: 1-8 из 8 (Мэтт Даффер, Росс Даффер, Шон Леви) [2016, США, ужасы, фантастика, детектив, BDRemux 2160p, 4k] Dub (Пифагор) + 2x MVO (Jaskier, LostFilm)+ Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 1 / Серии: 1-8 из 8 (Братья Дафферы / The Duffer Brothers) [2016, США, ужасы, фантастика, драма, WEBRip 2160p, 4k] 3x MVO (Jaskier, LostFilm, NewStudio) + Original + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:656646BCBAB236CD61E58BD4F1569AE71E553448&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 51045686312,
+      "size": "47.54 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 1 / Серии: 1-8 из 8 (Братья Дафферы / The Duffer Brothers) [2016, США, ужасы, фантастика, драма, WEBRip 2160p, 4k] 3x MVO (Jaskier, LostFilm, NewStudio) + Original + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Очень странные дела / Stranger Things / Сезон: 1 / Серии: 1-8 из 8 (Мэтт Даффер, Росс Даффер, Шон Леви) [2016, США, Ужасы, триллер, драма, WEBRip 720p] MVO (NewStudio) + Original + Eng Sub",
+      "magnet": "magnet:?xt=urn:btih:EF3B7490EE11AE667FA679091AE780A0889110AC&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 13679470837,
+      "size": "12.74 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Stranger Things / Сезон: 1 / Серии: 1-8 из 8 (Мэтт Даффер, Росс Даффер, Шон Леви) [2016, США, Ужасы, триллер, драма, WEBRip 720p] MVO (NewStudio) + Original + Eng Sub"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things (2016) WEBRip [H.264/720p] (сезон 1, серии 1-8 из 8) LostFilm",
+      "magnet": "magnet:?xt=urn:btih:783E1F9E3DD880FEFC736A87043CD1DC6C49082E",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 12670153523,
+      "size": "11.80 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things (2016) WEBRip [H.264/720p] (сезон 1, серии 1-8 из 8) LostFilm"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 2 / Серии: 1-9 из 9 (Братья Дафферы / The Duffer Brothers) [2017, США, ужасы, фантастика, фэнтези, WEB-DL 1080p] 2 x MVO (Good People | LostFilm) + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:0424835E6B7125DBF29CF9B0BFCE9108B3FBEA86&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 15655155793,
+      "size": "14.58 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 2 / Серии: 1-9 из 9 (Братья Дафферы / The Duffer Brothers) [2017, США, ужасы, фантастика, фэнтези, WEB-DL 1080p] 2 x MVO (Good People | LostFilm) + Original + Sub (Eng)"
+    },
+    {
+      "title": "Очень странные дела (Загадочные события) (1-5 сезоны: 1-42 серии из 42) / Stranger Things / 2016-2025 / ПМ (LostFilm) / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:52B557AFC0A088981091D49E45B3B34553F786B5",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 142786187755,
+      "size": "132.98 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 42,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела (Загадочные события) (1-5 сезоны: 1-42 серии из 42) / Stranger Things / 2016-2025 / ПМ (LostFilm) / WEB-DL (1080p)"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 2 / Серии: 1-9 из 9 (Мэтт Даффер) [2017, США, ужасы, фантастика, детектив, HDR, BDRemux 2160p, 4k] Dub (Пифагор), MVO (Good People, LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:B2CF66261C6DE61E6513DA4140B79F4A1CCFF586&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 170381352632,
+      "size": "158.68 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 2 / Серии: 1-9 из 9 (Мэтт Даффер) [2017, США, ужасы, фантастика, детектив, HDR, BDRemux 2160p, 4k] Dub (Пифагор), MVO (Good People, LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 2 / Серии: 1-9 из 9 (Братья Дафферы / The Duffer Brothers) [2017, США, ужасы, фантастика, драма, WEBRip 2160p, 4k] 2x MVO (Good People, LostFilm) + Original + Eng Sub",
+      "magnet": "magnet:?xt=urn:btih:DA4B76420BEEBD1FB2B920982BDB127AA67D4E8F&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 139983721594,
+      "size": "130.37 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 2 / Серии: 1-9 из 9 (Братья Дафферы / The Duffer Brothers) [2017, США, ужасы, фантастика, драма, WEBRip 2160p, 4k] 2x MVO (Good People, LostFilm) + Original + Eng Sub"
+    },
+    {
+      "title": "Очень странные дела / Stranger Things / Сезон: 2 / Серии: 1-9 из 9 (Мэтт Даффер, Росс Даффер, Шон Леви) [2017, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, WEBRip 720p] Dub (Пифагор) + MVO (LostFilm) + Original Eng + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:92C51957D0699AC367E7DCE2AF3ABA51017A22D2&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 17834851696,
+      "size": "16.61 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Stranger Things / Сезон: 2 / Серии: 1-9 из 9 (Мэтт Даффер, Росс Даффер, Шон Леви) [2017, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, WEBRip 720p] Dub (Пифагор) + MVO (LostFilm) + Original Eng + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things (2017) WEBRip [H.264/720p-LQ] (сезон 2, серии 1-9 из 9) LostFilm",
+      "magnet": "magnet:?xt=urn:btih:BF32F9A0E18B837CBD8494AF3C54ADE2C563CD6B",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 10844792422,
+      "size": "10.10 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things (2017) WEBRip [H.264/720p-LQ] (сезон 2, серии 1-9 из 9) LostFilm"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 3 / Серии: 1-8 из 8 (Мэтт Даффер) [2019, США, ужасы, фантастика, триллер, драма, детектив, WEBRip 1080p] MVO (Lostfilm) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:853CE0220F42D255950FE2157014363B2D5AC2A1&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 25200720609,
+      "size": "23.47 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 3 / Серии: 1-8 из 8 (Мэтт Даффер) [2019, США, ужасы, фантастика, триллер, драма, детектив, WEBRip 1080p] MVO (Lostfilm) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Очень странные дела (Загадочные события) (1-5 сезоны: 1-42 серии из 42) / Stranger Things / 2016-2025 / ПМ (LostFilm) / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:52B557AFC0A088981091D49E45B3B34553F786B5",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 142786187755,
+      "size": "132.98 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 42,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела (Загадочные события) (1-5 сезоны: 1-42 серии из 42) / Stranger Things / 2016-2025 / ПМ (LostFilm) / WEB-DL (1080p)"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Крайне странные события / Stranger Things / Сезон: 3 / Серии: 1-8 из 8 (Мэтт Даффер, Росс Даффер) [2019, США, Приключения, фантастика, триллер, драма, детектив, WEBRip 720p] MVO (Good People) + AVO (Леонид Володарский) + Original + Sub (eng)",
+      "magnet": "magnet:?xt=urn:btih:408AB7DF1E089D6B1FB78086F4201F4092679138&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 16621523435,
+      "size": "15.48 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Крайне странные события / Stranger Things / Сезон: 3 / Серии: 1-8 из 8 (Мэтт Даффер, Росс Даффер) [2019, США, Приключения, фантастика, триллер, драма, детектив, WEBRip 720p] MVO (Good People) + AVO (Леонид Володарский) + Original + Sub (eng)"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 3 / Серии: 1-8 из 8 (Мэтт Даффер) [2019, США, ужасы, фантастика, триллер, драма, детектив, WEBRip 720p] MVO (Lostfilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:E17684886ED13A276CA824D2F891193461CBEA51&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 15472619683,
+      "size": "14.41 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 3 / Серии: 1-8 из 8 (Мэтт Даффер) [2019, США, ужасы, фантастика, триллер, драма, детектив, WEBRip 720p] MVO (Lostfilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Очень странные дела / Stranger Things [04x01-07 из 09] (2022) WEB-DL 1080p | RuDub",
+      "magnet": "magnet:?xt=urn:btih:1a35e3a9b55982d72f4513a4d3d8257db4e2fd2c&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 27509265530,
+      "size": "25.62 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Stranger Things [04x01-07 из 09] (2022) WEB-DL 1080p | RuDub"
+    },
+    {
+      "title": "Очень странные дела / Stranger Things [S04] (2022) WEB-DL 1080p | LostFilm, HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:ced1522d805bce183d4b2e8ecf482b2f8d10e531&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 43411381944,
+      "size": "40.43 GB",
+      "episode": 0,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Stranger Things [S04] (2022) WEB-DL 1080p | LostFilm, HDrezka Studio"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 4 / Серии: 1-9 из 9 (Мэтт Даффер) [2022, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, HDR10, Dolby Vision, WEB-DL 2160p, 4k] 4 x MVO + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:ABDEA95DC868F2BC28325D9518D8C2D3410FE0E1&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 104421392384,
+      "size": "97.25 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 4 / Серии: 1-9 из 9 (Мэтт Даффер) [2022, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, HDR10, Dolby Vision, WEB-DL 2160p, 4k] 4 x MVO + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things (2022) WEB-DL [H.265/2160p] [4K, HDR10, DV 8.1, 10-bit] (сезон 4, серии 1-9 из 9) Videofilm, HDRezka, LostFilm, NewStudio, TVShows",
+      "magnet": "magnet:?xt=urn:btih:B96699F785685016D925E38A4BE45B2B5DB18F08",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 111669149696,
+      "size": "104.00 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things (2022) WEB-DL [H.265/2160p] [4K, HDR10, DV 8.1, 10-bit] (сезон 4, серии 1-9 из 9) Videofilm, HDRezka, LostFilm, NewStudio, TVShows"
+    },
+    {
+      "title": "Очень странные дела (Загадочные события) (4 сезон: 1-9 серии из 9) / Stranger Things / 2022 / ПМ (NewStudio), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:278DCD4A4B3D053A6CEAEDA38DCF33A4D9AB3A75",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 19864223744,
+      "size": "18.50 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела (Загадочные события) (4 сезон: 1-9 серии из 9) / Stranger Things / 2022 / ПМ (NewStudio), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Очень странные дела / Stranger Things / Сезон: 5 / Серии: 1-8 из 8 (Мэтт Даффер, Росс Даффер) [2025, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, WEB-DL 1080p] 4x Dub (Videofilm Int., Red Head Sound, IRON VOICE, Whiskey Sound) + 6 x MVO + Dub (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng",
+      "magnet": "magnet:?xt=urn:btih:7425596E078A87453FFEE9AFFBEF4F2C3072C4C1&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 46020574576,
+      "size": "42.86 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Stranger Things / Сезон: 5 / Серии: 1-8 из 8 (Мэтт Даффер, Росс Даффер) [2025, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, WEB-DL 1080p] 4x Dub (Videofilm Int., Red Head Sound, IRON VOICE, Whiskey Sound) + 6 x MVO + Dub (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng"
+    },
+    {
+      "title": "Очень странные дела / Stranger Things / Сезон: 5 / Серии: 1-8 из 8 (Мэтт Даффер, Росс Даффер) [2025, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:F59C1D528EE346CB6DDCE726CFB53649399D332A&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 33822867456,
+      "size": "31.50 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Stranger Things / Сезон: 5 / Серии: 1-8 из 8 (Мэтт Даффер, Росс Даффер) [2025, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 5 / Серии: 1-8 из 8 (Мэтт Даффер) [2025, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, HDR10, Dolby Vision, WEB-DL 2160p, 4k] 6 x MVO + 3 x Dub + Dub (Ukr) + Original + Sub (Rus, Eng, Ukr)",
+      "magnet": "magnet:?xt=urn:btih:4040997D23648FE7955538092D436B2C1C8C17AD&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 116533200158,
+      "size": "108.53 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 5 / Серии: 1-8 из 8 (Мэтт Даффер) [2025, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, HDR10, Dolby Vision, WEB-DL 2160p, 4k] 6 x MVO + 3 x Dub + Dub (Ukr) + Original + Sub (Rus, Eng, Ukr)"
+    },
+    {
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 5 / Серии: 1-8 из 8 (Мэтт Даффер) [2025, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, SDR, WEB-DL 2160p, 4k] 6 x MVO + 3 x Dub + Dub (Ukr) + Original + Sub (Rus, Eng, Ukr)",
+      "magnet": "magnet:?xt=urn:btih:F9A50BA087AD22346F2D72AF24F38BD92B3FA0EB&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 99546604503,
+      "size": "92.71 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 5 / Серии: 1-8 из 8 (Мэтт Даффер) [2025, США, ужасы, фантастика, фэнтези, триллер, драма, детектив, SDR, WEB-DL 2160p, 4k] 6 x MVO + 3 x Dub + Dub (Ukr) + Original + Sub (Rus, Eng, Ukr)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt4574334/img",
+    "background": "https://images.metahub.space/background/medium/tt4574334/img"
+  }
+}

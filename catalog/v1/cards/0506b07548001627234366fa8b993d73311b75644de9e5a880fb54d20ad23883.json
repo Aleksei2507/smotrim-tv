@@ -1,0 +1,102 @@
+{
+  "id": "tt22084616",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1fb31a920885635a6d2e0dbff40dca519bf1fc4a31700df205417f088ac0f685.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7c4fec52ff2133eb5cb5e55e3cc16b8412985ff98c9964822e6bac83e551a868.jpg",
+  "genres": [
+    "Боевик",
+    "Приключения"
+  ],
+  "runtime": "145 мин",
+  "imdbRating": "8.0",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "P3uI5sLosKU",
+      "type": "Trailer"
+    },
+    {
+      "source": "62bIsvRcPv0",
+      "type": "Trailer"
+    },
+    {
+      "source": "8TZMtslA3UY",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Человек-паук: Новый день",
+  "description": "фильм Дестина Дэниела Креттона (2026)",
+  "origin": "other",
+  "aliases": [
+    "Человек-паук: Новый день",
+    "Spider-Man: Brand New Day",
+    "Человек-паук 4",
+    "Человек-паук: Совершенно новый день",
+    "Spider-Man 4"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt22084616.json",
+    "https://www.wikidata.org/wiki/Q113244935"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt22084616",
+  "ids": [
+    "tt22084616"
+  ],
+  "originalName": "Spider-Man: Brand New Day",
+  "year": "2026",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "sources": [
+    {
+      "title": "Человек-паук: Новый день / Spider-Man: Brand New Day (Дестин Дэниел Креттон / Destin Daniel Cretton) [2026, США, Канада, Великобритания, Германия, фэнтези, комедия, приключения, семейный, WEB-DL 1080p] Dub (MovieDalen) + MVO (HDrezka) + Original Eng + Sub (Rus, Eng, Chi, Heb, Ron, Ukr, Multi)",
+      "magnet": "magnet:?xt=urn:btih:1E8968382B13AFFDE496A8A9DF7B65FCC36F104C&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 10136122818,
+      "size": "9.44 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Человек-паук: Новый день / Spider-Man: Brand New Day (Дестин Дэниел Креттон / Destin Daniel Cretton) [2026, США, Канада, Великобритания, Германия, фэнтези, комедия, приключения, семейный, WEB-DL 1080p] Dub (MovieDalen) + MVO (HDrezka) + Original Eng + Sub (Rus, Eng, Chi, Heb, Ron, Ukr, Multi)"
+    },
+    {
+      "title": "Человек-паук: Новый день / Spider-Man: Brand New Day (Дестин Дэниел Креттон / Destin Daniel Cretton) [2026, США, Канада, Великобритания, Германия, фэнтези, комедия, приключения, семейный, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] 3 x Dub + 2 x MVO + Ukr Dub + Original Eng + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:E70802B10B8AE95FEC1761B9018E83A5B543D66E&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 30236569763,
+      "size": "28.16 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Человек-паук: Новый день / Spider-Man: Brand New Day (Дестин Дэниел Креттон / Destin Daniel Cretton) [2026, США, Канада, Великобритания, Германия, фэнтези, комедия, приключения, семейный, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] 3 x Dub + 2 x MVO + Ukr Dub + Original Eng + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Человек-паук: Новый день / Spider-Man: Brand New Day (Дестин Дэниел Креттон / Destin Daniel Cretton) [2026, США, Канада, Великобритания, Германия, фэнтези, комедия, приключения, семейный, WEB-DL 2160p, SDR] 3x Dub + 3x MVO + Original (Eng) + Sub (Rus, Eng, Kaz, Aze)",
+      "magnet": "magnet:?xt=urn:btih:DC15BFE59CD8E376298E3491A2A91C9E67E142EB&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 31471372861,
+      "size": "29.31 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Человек-паук: Новый день / Spider-Man: Brand New Day (Дестин Дэниел Креттон / Destin Daniel Cretton) [2026, США, Канада, Великобритания, Германия, фэнтези, комедия, приключения, семейный, WEB-DL 2160p, SDR] 3x Dub + 3x MVO + Original (Eng) + Sub (Rus, Eng, Kaz, Aze)"
+    },
+    {
+      "title": "Человек-паук: Новый день / Spider-Man: Brand New Day (2026) WEB-DLRip 720p от New-Team | D, P | MovieDalen, HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:65b21adc92147547dd6380bef79b8ab7a75837bc&dn=Chelovek-pauk-Novyy-den-Spider-Man-Brand-New-Day-2026-WEB-DLRip-720p-ot-New-Team-D-P-MovieDalen-HDRezka-Studio&xl=6077689954&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/217661/Chelovek-pauk-Novyy-den-Spider-Man-Brand-New-Day-2026-WEB-DLRip-720p-ot-New-Team-D-P-MovieDalen-HDRezka-Studio",
+      "quality": "720p",
+      "source": "JacRed · torrentby",
+      "bytes": 6077378723,
+      "size": "5.66 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Человек-паук: Новый день / Spider-Man: Brand New Day (2026) WEB-DLRip 720p от New-Team | D, P | MovieDalen, HDRezka Studio"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:34:15Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt22084616/img",
+    "background": "https://images.metahub.space/background/medium/tt22084616/img"
+  }
+}

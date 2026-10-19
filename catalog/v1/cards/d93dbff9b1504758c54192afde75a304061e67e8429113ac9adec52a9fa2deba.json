@@ -1,0 +1,181 @@
+{
+  "id": "tt11540908",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/856f182a7f790de0dcad843485ff5748f1a27abceef993af2ee744094c530864.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/39645087ee911fd98bae974b15c0eb78046d261510c7e2a18d4c1dcab534f8fa.jpg",
+  "genres": [
+    "Драма",
+    "Ужасы"
+  ],
+  "runtime": "52 мин",
+  "imdbRating": "7.8",
+  "releaseInfo": "2026–",
+  "trailers": [
+    {
+      "source": "jkUw2nh6fT0",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Кэрри",
+  "description": "мини-сериал Майка Флэнагана",
+  "origin": "other",
+  "aliases": [
+    "Кэрри",
+    "Carrie",
+    "Кэрри (мини-сериал)"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt11540908.json",
+    "https://www.wikidata.org/wiki/Q133852728"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt11540908",
+  "ids": [
+    "tt11540908"
+  ],
+  "originalName": "Carrie",
+  "year": "2026",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "videos": [
+    {
+      "id": "tt11540908:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-10-07T03:00:00.000Z"
+    },
+    {
+      "id": "tt11540908:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-10-07T03:00:00.000Z"
+    },
+    {
+      "id": "tt11540908:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-10-07T03:00:00.000Z"
+    },
+    {
+      "id": "tt11540908:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-10-07T03:00:00.000Z"
+    },
+    {
+      "id": "tt11540908:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-10-07T03:00:00.000Z"
+    },
+    {
+      "id": "tt11540908:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-10-07T03:00:00.000Z"
+    },
+    {
+      "id": "tt11540908:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-10-07T03:00:00.000Z"
+    },
+    {
+      "id": "tt11540908:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-10-07T03:00:00.000Z"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Кэрри (1 сезон: 1-5 серии из 8) / Carrie / 2026 / ПМ (LostFilm), СТ / HEVC / WEBRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:AF1C8B67A48BB3142B31D7EBE020315635E52FC1",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 3876207984,
+      "size": "3.61 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Кэрри (1 сезон: 1-5 серии из 8) / Carrie / 2026 / ПМ (LostFilm), СТ / HEVC / WEBRip (1080p)"
+    },
+    {
+      "title": "Кэрри / Carrie / Сезон: 1 / Серии: 1-8 из 8 (Майк Флэнеган, Хироми Камата) [2026, Канада, США, Ужасы, драма, WEB-DL 1080p] Dub (HDrezka Studio 18+) + 5 x MVO (HDrezka Studio 18+, TVShows, RedHeadSound, ТВОЕ, LostFilm, LE-production) + Original + Sub (Rus,Eng)",
+      "magnet": "magnet:?xt=urn:btih:0B8C5A003FCC86FBC411B2661132F91D4A19837D&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 36475009761,
+      "size": "33.97 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Кэрри / Carrie / Сезон: 1 / Серии: 1-8 из 8 (Майк Флэнеган, Хироми Камата) [2026, Канада, США, Ужасы, драма, WEB-DL 1080p] Dub (HDrezka Studio 18+) + 5 x MVO (HDrezka Studio 18+, TVShows, RedHeadSound, ТВОЕ, LostFilm, LE-production) + Original + Sub (Rus,Eng)"
+    },
+    {
+      "title": "Кэрри / Carrie / Сезон: 1 / Серии: 1-8 из 8 (Майк Флэнеган, Хироми Камата) [2026, США, Ужасы, драма, HDR10, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 3 x MVO + Dub + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:63673DD913A153312FDD0B53DA7B686196CEFFEC&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 49553185177,
+      "size": "46.15 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Кэрри / Carrie / Сезон: 1 / Серии: 1-8 из 8 (Майк Флэнеган, Хироми Камата) [2026, США, Ужасы, драма, HDR10, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 3 x MVO + Dub + Original + Sub (Eng)"
+    },
+    {
+      "title": "Кэрри / Carrie / Сезон: 1 / Серии: 1-8 из 8 (Майк Флэнеган, Хироми Камата) [2026, США, Ужасы, драма, SDR, WEB-DL 2160p, 4k] 3 x MVO + Dub + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:673C0E0D86331D7736602FD2E10F1565EFB7842A&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 50777250856,
+      "size": "47.29 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Кэрри / Carrie / Сезон: 1 / Серии: 1-8 из 8 (Майк Флэнеган, Хироми Камата) [2026, США, Ужасы, драма, SDR, WEB-DL 2160p, 4k] 3 x MVO + Dub + Original + Sub (Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:34:15Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt11540908/img",
+    "background": "https://images.metahub.space/background/medium/tt11540908/img"
+  }
+}

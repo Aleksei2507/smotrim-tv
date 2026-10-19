@@ -1,0 +1,90 @@
+{
+  "id": "tt0120689",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9f2a31642f7b543cf1fd809c88a8eefebf1d0e97a0f8f1772f01a0cc1f33befd.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c8ddfd27e30e3d04a76dc5a62202f9bc270dd92302cc59bc37adf3dee1bbaa75.jpg",
+  "genres": [
+    "Криминал",
+    "Драма",
+    "Фэнтези"
+  ],
+  "runtime": "189 мин",
+  "imdbRating": "8.6",
+  "releaseInfo": "1999",
+  "trailers": [
+    {
+      "source": "Bg7epsq0OIQ",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Зелёная миля",
+  "origin": "other",
+  "description": "Надзиратель тюрьмы встречает заключённого с необыкновенным даром и начинает сомневаться в справедливости приговора.",
+  "imdbId": "tt0120689",
+  "ids": [
+    "tt0120689"
+  ],
+  "originalName": "The Green Mile",
+  "aliases": [
+    "Зелёная миля",
+    "The Green Mile"
+  ],
+  "year": "1999",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0120689.json"
+  ],
+  "sources": [
+    {
+      "title": "Зеленая миля / The Green Mile (Фрэнк Дарабонт / Frank Darabont) [1999, США, фэнтези, драма, криминал, детектив, BDRip 1080p] Dub (Мосфильм) + MVO + 4x AVO (Гаврилов, Живов, Сербин, Диктор CDV) + Original Eng + Sub (Rus, Eng) + Comm",
+      "magnet": "magnet:?xt=urn:btih:D00BA8F0933133CD4966D3913242B9CA9AE2979F&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 35530116956,
+      "size": "33.09 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зеленая миля / The Green Mile (Фрэнк Дарабонт / Frank Darabont) [1999, США, фэнтези, драма, криминал, детектив, BDRip 1080p] Dub (Мосфильм) + MVO + 4x AVO (Гаврилов, Живов, Сербин, Диктор CDV) + Original Eng + Sub (Rus, Eng) + Comm"
+    },
+    {
+      "title": "Зеленая миля / The Green Mile (Фрэнк Дарабонт / Frank Darabont) [1999, США, фэнтези, драма, криминал, детектив, BDRemux 1080p] Dub (Мосфильм) + MVO + 4x AVO (Гаврилов, Живов, Сербин, Диктор CDV) + Original Eng + Sub (Rus, Eng) + Comm",
+      "magnet": "magnet:?xt=urn:btih:88FE2833334751A8CC9749232CC158AD7626DAAE&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 69406671503,
+      "size": "64.64 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зеленая миля / The Green Mile (Фрэнк Дарабонт / Frank Darabont) [1999, США, фэнтези, драма, криминал, детектив, BDRemux 1080p] Dub (Мосфильм) + MVO + 4x AVO (Гаврилов, Живов, Сербин, Диктор CDV) + Original Eng + Sub (Rus, Eng) + Comm"
+    },
+    {
+      "title": "Зеленая миля / The Green Mile (Фрэнк Дарабонт / Frank Darabont) [1999, США, Драма, BDRip-AVC] 720p Dub + MVO + Original + rus Sub + eng Sub",
+      "magnet": "magnet:?xt=urn:btih:2FA1D3ECB44392D4FFD525E551956F53FE610146&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 5121748500,
+      "size": "4.77 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зеленая миля / The Green Mile (Фрэнк Дарабонт / Frank Darabont) [1999, США, Драма, BDRip-AVC] 720p Dub + MVO + Original + rus Sub + eng Sub"
+    },
+    {
+      "title": "Зеленая миля / The Green Mile (Фрэнк Дарабонт / Frank Darabont) [1999, США, фэнтези, драма, криминал, детектив, BDRip 720p] Dub (Мосфильм) + MVO + 4x AVO (Гаврилов, Живов, Сербин, Диктор CDV) + Original Eng + Sub (Rus, Eng) + Comm",
+      "magnet": "magnet:?xt=urn:btih:9C8B097178EB13F7F67E00A53511C6F1E7133EEC&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 18232136171,
+      "size": "16.98 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зеленая миля / The Green Mile (Фрэнк Дарабонт / Frank Darabont) [1999, США, фэнтези, драма, криминал, детектив, BDRip 720p] Dub (Мосфильм) + MVO + 4x AVO (Гаврилов, Живов, Сербин, Диктор CDV) + Original Eng + Sub (Rus, Eng) + Comm"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:34:15Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt0120689/img",
+    "background": "https://images.metahub.space/background/medium/tt0120689/img"
+  }
+}

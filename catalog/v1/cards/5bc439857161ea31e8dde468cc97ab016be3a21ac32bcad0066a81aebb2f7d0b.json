@@ -1,0 +1,189 @@
+{
+  "id": "tt7366338",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6a5b73751b5fe301fb35f5a475bb5b2c4f1a2d354cbedf3efa5f7e5b2384ea76.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/59f46289766659eea83276e6d2343e112d6868fd23d17b8983a9fbf68a5db531.jpg",
+  "genres": [
+    "Драма",
+    "История",
+    "Триллер"
+  ],
+  "runtime": "65 мин",
+  "imdbRating": "9.3",
+  "releaseInfo": "2019",
+  "trailers": [
+    {
+      "source": "s9APLXM9Ei8",
+      "type": "Trailer"
+    },
+    {
+      "source": "PMlwjCID3Io",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Чернобыль",
+  "origin": "other",
+  "description": "После аварии на атомной станции учёные, спасатели и чиновники пытаются остановить катастрофу и установить её причины.",
+  "imdbId": "tt7366338",
+  "ids": [
+    "tt7366338"
+  ],
+  "originalName": "Chernobyl",
+  "aliases": [
+    "Чернобыль",
+    "Chernobyl"
+  ],
+  "year": "2019",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt7366338.json"
+  ],
+  "videos": [
+    {
+      "id": "tt7366338:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "1988 год. Академик Легасов делает разоблачительное признание. За два года до этого на Чернобыльской АЭС происходит авария.",
+      "released": "2019-05-07"
+    },
+    {
+      "id": "tt7366338:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Пожалуйста, сохраняйте спокойствие",
+      "description": "Госчиновник Борис Щербина и Легасов приступают к ликвидации последствий аварии. Ученая Хомюк узнает об угрозе повторного взрыва.",
+      "released": "2019-05-13"
+    },
+    {
+      "id": "tt7366338:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Да разверзнется Земля!",
+      "description": "Легасов разрабатывает план по охлаждению АЭС. Хомюк настаивает на том, что ситуация на АЭС должна быть предана публичной огласке.",
+      "released": "2019-05-20"
+    },
+    {
+      "id": "tt7366338:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Счастье всего человечества",
+      "description": "Щербина и Легасов отправляют людей и технику на сбор и вывоз радиоактивных обломков. Хомюк изучает архивы и ищет причины аварии.",
+      "released": "2019-05-27"
+    },
+    {
+      "id": "tt7366338:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Вечная память",
+      "description": "Обвиняемые в катастрофе предстают перед судом. Легасов, Щербина и Хомюк, рискуя безопасностью, раскрывают правду о Чернобыле.",
+      "released": "2019-06-03"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Ренк) [2019, Великобритания, США, Драма, история, WEB-DL 1080p] MVO (AlexFilm) + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:052D2A9E5843D6CDCB609C016C5CF26959BF0EC1&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 24910810316,
+      "size": "23.20 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Ренк) [2019, Великобритания, США, Драма, история, WEB-DL 1080p] MVO (AlexFilm) + Original + Sub (Eng)"
+    },
+    {
+      "title": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Ренк) [2019, Великобритания, США, драма, история, WEBRip 1080p] MVO (IdeaFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:190D9D068FBEFEF7D50B7C9FBC6B37D7D361DB0C&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 24814173552,
+      "size": "23.11 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Ренк) [2019, Великобритания, США, драма, история, WEBRip 1080p] MVO (IdeaFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Рэнк) [2019, США, Великобритания, катастрофа, драма, HDR10, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 3x MVO + AVO + 3x Ukr + Original (Eng)+ Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:1C0787265557649B8C160F3F1EB53BE322139B0E&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 63544041144,
+      "size": "59.18 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Рэнк) [2019, США, Великобритания, катастрофа, драма, HDR10, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 3x MVO + AVO + 3x Ukr + Original (Eng)+ Sub (Rus, Eng)"
+    },
+    {
+      "title": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Рэнк) [2019, США, Великобритания, катастрофа, драма, HDR10, Dolby Vision, UHD BDRemux 2160p, 4k] 3x MVO + AVO + Original (Eng)+ Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:4FF66737366A7A96D7ABF8500636AE64E2112D37&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 150484916633,
+      "size": "140.15 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Рэнк) [2019, США, Великобритания, катастрофа, драма, HDR10, Dolby Vision, UHD BDRemux 2160p, 4k] 3x MVO + AVO + Original (Eng)+ Sub (Rus, Eng)"
+    },
+    {
+      "title": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Ренк) [2019, Великобритания, США, драма, история, WEB-DL 720p] MVO (Amedia) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:19DB9D4BE3FD7A0845E75066C8DD440C72693E95&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 14033805639,
+      "size": "13.07 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Ренк) [2019, Великобритания, США, драма, история, WEB-DL 720p] MVO (Amedia) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Ренк) [2019, Великобритания, США, Драма, история, WEB-DL 720p] MVO (AlexFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:AFE74EF7ACDD7CA4DB054C354765C90B17373A2B&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 13067437998,
+      "size": "12.17 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чернобыль / Chernobyl / Сезон: 1 / Серии: 1-5 из 5 (Йохан Ренк) [2019, Великобритания, США, Драма, история, WEB-DL 720p] MVO (AlexFilm) + Original + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt7366338/img",
+    "background": "https://images.metahub.space/background/medium/tt7366338/img"
+  }
+}

@@ -20,7 +20,7 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
     permissions:
       contents: write
@@ -28,6 +28,11 @@ jobs:
       PYTHONDONTWRITEBYTECODE: '1'
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Подготовить обработку изображений
+        run: |
+          python3 -m venv "$RUNNER_TEMP/catalog-python"
+          "$RUNNER_TEMP/catalog-python/bin/python" -m pip install -r tools/catalog-requirements.txt
+          echo "$RUNNER_TEMP/catalog-python/bin" >> "$GITHUB_PATH"
       - name: Проверить правила отбора и сохранность каталога
         run: python3 -m unittest discover -s tools -p 'test_*catalog.py'
       - name: Найти новые карточки и обновить сериалы
@@ -35,8 +40,12 @@ jobs:
           KINOPOISK_API_KEY: ${{ secrets.KINOPOISK_API_KEY }}
           CATALOG_REFRESH: ${{ inputs.refresh || '6' }}
         run: python3 -u tools/auto_catalog.py --refresh "$CATALOG_REFRESH"
+      - name: Подготовить обложки на GitHub
+        run: python3 -u tools/cache_catalog_images.py
       - name: Проверить результат
-        run: python3 tools/build_catalog.py --check
+        run: |
+          python3 tools/build_catalog.py --check
+          python3 tools/cache_catalog_images.py --check
       - name: Опубликовать данные одним коммитом
         shell: bash
         run: |
