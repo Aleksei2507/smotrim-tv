@@ -56,8 +56,10 @@ public class GithubCatalogTest {
         row.put("id","tt0110357").put("sha256",GithubCatalog.sha256(bytes(c)));assertThrows(IOException.class,()->GithubCatalog.validateCard(bytes(c),row));
     }
     @Test public void invalidEpisodeRangeIsRejected()throws Exception{JSONObject c=card("tt10466872","series");c.getJSONArray("sources").put(source(1,0).put("episodeFrom",5).put("episodeTo",2));JSONObject row=index(c,1).getJSONArray("items").getJSONObject(0);assertThrows(IOException.class,()->GithubCatalog.validateCard(bytes(c),row));}
-    @Test public void shippedCatalogAndBundleHaveIdenticalValidCards()throws Exception {
-        Path publicRoot=Path.of("../catalog/v1"),assets=Path.of("src/main/assets/catalog/v1");byte[] data=Files.readAllBytes(publicRoot.resolve("index.json"));assertArrayEquals(data,Files.readAllBytes(assets.resolve("index.json")));JSONObject idx=GithubCatalog.validateIndex(data);assertEquals(34,idx.getJSONArray("items").length());
-        for(int i=0;i<idx.getJSONArray("items").length();i++){JSONObject row=idx.getJSONArray("items").getJSONObject(i);byte[] card=Files.readAllBytes(publicRoot.resolve(row.getString("card")));GithubCatalog.validateCard(card,row);assertArrayEquals(card,Files.readAllBytes(assets.resolve(row.getString("card"))));}
+    @Test public void publishedAndBundledCatalogsAreIndependentlyValid()throws Exception {
+        for(Path root:new Path[]{Path.of("../catalog/v1"),Path.of("src/main/assets/catalog/v1")}){
+            JSONObject idx=GithubCatalog.validateIndex(Files.readAllBytes(root.resolve("index.json")));assertTrue(idx.getJSONArray("items").length()>=34);
+            for(int i=0;i<idx.getJSONArray("items").length();i++){JSONObject row=idx.getJSONArray("items").getJSONObject(i);GithubCatalog.validateCard(Files.readAllBytes(root.resolve(row.getString("card"))),row);}
+        }
     }
 }

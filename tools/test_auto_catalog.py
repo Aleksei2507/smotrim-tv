@@ -1,0 +1,114 @@
+import contextlib
+import copy
+import datetime as dt
+import io
+import json
+from pathlib import Path
+import tempfile
+import unittest
+from unittest.mock import patch
+
+import auto_catalog as a
+import build_catalog as b
+
+STAMP = '2026-10-19T00:00:00Z'
+NOW = dt.datetime(2026,10,19,tzinfo=dt.timezone.utc)
+
+def seed(imdb='tt1111111',kind='movie'):
+    return {'id':imdb,'type':kind,'name':'Тестовый фильм','description':'Русское описание.','origin':'other','aliases':['Test Film']}
+
+def meta(imdb='tt1111111',kind='movie'):
+    return {'id':imdb,'type':kind,'name':'Test Film','releaseInfo':'2025','poster':'https://example.com/poster.jpg','videos':[{'season':1,'episode':1,'name':'Pilot'}]}
+
+def torrent(kind='movie',suffix='a'):
+    return {'title':'Тестовый фильм (2025) '+('S01E01 ' if kind=='series' else '')+'RUS 1080p',
+            'quality':'1080p','seeds':10,'magnet':'magnet:?xt=urn:btih:'+suffix*40}
+
+def card(imdb='tt1111111',kind='movie'):
+    return b.make_card(seed(imdb,kind),meta(imdb,kind),[torrent(kind)],{},STAMP)
+
+class Fake:
+    def __init__(self,kind='movie'):
+        self.kind=kind;self.items=[{'id':'tt2222222','type':kind}];self.rows=[torrent(kind)]
+    def candidates(self):return self.items,[]
+    def metadata(self,imdb,kind):return meta(imdb,kind or self.kind)
+    def localized(self,imdb,kind,qid=None):return seed(imdb,kind)
+    def torrents(self,seed,meta):return self.rows
+
+class AutomaticCatalogTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name);self.directory=self.root/'catalog/v1'
+        (self.directory/'cards').mkdir(parents=True);self.state=self.root/'catalog/automation/state.json'
+        self.index={'schemaVersion':1,'revision':1,'updatedAt':STAMP,'items':[]}
+        with contextlib.redirect_stdout(io.StringIO()):a.publish_cards(self.directory,self.index,[card()],STAMP)
+        self.index=json.loads((self.directory/'index.json').read_text())
+    def tearDown(self):self.tmp.cleanup()
+    def run_catalog(self,provider,**kwargs):
+        with contextlib.redirect_stdout(io.StringIO()):return a.run(self.directory,self.state,provider,now=NOW,**kwargs)
+    def current(self):return json.loads((self.directory/'index.json').read_text())
+    def test_add_movies_and_series_without_duplicates_or_apk_changes(self):
+        for kind in ('movie','series'):
+            provider=Fake(kind);provider.items[0]['id']='tt2222222' if kind=='movie' else 'tt3333333'
+            result=self.run_catalog(provider,refresh_limit=0)
+            self.assertEqual(len(result['added']),1)
+            repeat=self.run_catalog(provider,refresh_limit=0);self.assertFalse(repeat['changed'])
+        self.assertEqual(len(self.current()['items']),3)
+    def test_subtitles_or_absent_sources_do_not_add_card_and_cooldown_applies(self):
+        provider=Fake();provider.rows[0]['title']='Тестовый фильм (2025) ENG + Sub (Rus)'
+        result=self.run_catalog(provider,refresh_limit=0);self.assertFalse(result['changed']);self.assertEqual(len(result['skipped']),1)
+        provider.rows=[torrent()];retry=self.run_catalog(provider,refresh_limit=0);self.assertEqual(retry['added'],[])
+    def test_invalid_new_card_is_skipped_without_losing_existing(self):
+        provider=Fake()
+        with patch.object(provider,'metadata',return_value={**meta('tt2222222'),'poster':'http://unsafe.example/poster.jpg'}):
+            result=self.run_catalog(provider,refresh_limit=0)
+        self.assertEqual(result['added'],[]);self.assertEqual(self.current(),self.index)
+    def test_provider_outage_keeps_last_good_catalog(self):
+        provider=Fake()
+        with patch.object(provider,'candidates',side_effect=a.Unavailable('offline')):
+            self.assertRaises(a.Unavailable,self.run_catalog,provider)
+        self.assertEqual(self.current(),self.index);self.assertFalse(self.state.exists())
+    def test_empty_refresh_preserves_sources_and_revision(self):
+        provider=Fake();provider.items=[];provider.rows=[]
+        result=self.run_catalog(provider,refresh_limit=1)
+        self.assertFalse(result['changed']);self.assertEqual(self.current(),self.index)
+    def test_invalid_staged_catalog_cannot_replace_index(self):
+        old=(self.directory/'index.json').read_bytes();invalid=card();invalid['sources'][0].update(episodeFrom=4,episodeTo=2)
+        with self.assertRaises(AssertionError):a.publish_cards(self.directory,self.index,[invalid],STAMP)
+        self.assertEqual((self.directory/'index.json').read_bytes(),old)
+    def test_updated_card_keeps_old_immutable_object(self):
+        provider=Fake();provider.items=[];provider.rows=[torrent(suffix='b')]
+        previous=self.directory/self.index['items'][0]['card'];old=previous.read_bytes()
+        self.assertTrue(self.run_catalog(provider,refresh_limit=1)['changed'])
+        self.assertEqual(previous.read_bytes(),old);self.assertGreater(self.current()['revision'],self.index['revision'])
+    def test_exact_wikidata_identity_and_russian_text_required(self):
+        entity={'id':'Q1','labels':{'ru':{'value':'Фильм'}},'descriptions':{'ru':{'value':'Российский фильм'}},'claims':{'P345':[{'mainsnak':{'datavalue':{'value':'tt1111111'}}}]}}
+        self.assertEqual(a.entity_seed(entity,'tt1111111','movie')['name'],'Фильм')
+        self.assertRaises(a.Rejected,a.entity_seed,entity,'tt9999999','movie')
+        entity['descriptions']['ru']['value']='English description'
+        self.assertRaises(a.Rejected,a.entity_seed,entity,'tt1111111','movie')
+    def test_episode_refresh_preserves_translation_and_adds_season(self):
+        old=card(kind='series');old['videos'][0].update(title='Начало',description='Описание первой серии')
+        metadata=meta(kind='series');metadata['videos'].append({'season':2,'episode':1,'name':'Return'})
+        row=torrent('series','b');row['title']=row['title'].replace('S01E01','S02E01')
+        fresh=a.refresh_card(old,metadata,[row],{},STAMP)
+        self.assertEqual(fresh['videos'][0]['title'],'Начало');self.assertEqual(fresh['videos'][0]['description'],'Описание первой серии')
+        self.assertEqual(fresh['videos'][1]['title'],'Серия 1');self.assertEqual({s['season'] for s in fresh['sources']},{1,2})
+    def test_editorial_episode_override_survives_provider_wrong_season(self):
+        old=card(kind='series');metadata=meta(kind='series');metadata['videos']=[{'season':8,'episode':99,'name':'Wrong'}]
+        fresh=a.refresh_card(old,metadata,[],{'videos':old['videos']},STAMP)
+        self.assertEqual(fresh['videos'],old['videos'])
+    def test_editorial_rebuild_preserves_automatic_cards(self):
+        raw=self.root/'raw';raw.mkdir()
+        (raw/'tt2222222.json').write_text(json.dumps({'metadata':meta('tt2222222'),'search':{'items':[torrent()]}}))
+        curated=self.directory.parent/'curated';curated.mkdir()
+        (curated/'titles.json').write_text(json.dumps({'selectionNote':'test','references':[],'items':[seed('tt2222222')]}))
+        with patch.object(b,'CATALOG',self.directory.parent),contextlib.redirect_stdout(io.StringIO()):b.build(raw,1)
+        self.assertEqual({r['id'] for r in self.current()['items']},{'tt1111111','tt2222222'})
+        self.assertGreater(self.current()['revision'],self.index['revision'])
+
+    def test_invalid_refresh_is_skipped_independently(self):
+        provider=Fake();provider.items=[];provider.rows=[torrent(suffix='b')];provider.rows[0]['title']+='x'*1300
+        result=self.run_catalog(provider,refresh_limit=1)
+        self.assertFalse(result['changed']);self.assertEqual(self.current(),self.index);self.assertTrue(result['warnings'])
+
+if __name__=='__main__':unittest.main()

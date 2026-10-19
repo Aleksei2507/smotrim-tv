@@ -1,0 +1,39 @@
+name: Обновление каталога
+
+on:
+  schedule:
+    - cron: '35 0 * * *' # 03:35 по Москве; GitHub может задержать запуск.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: catalog-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Проверить правила отбора и сохранность каталога
+        run: python3 -m unittest discover -s tools -p 'test_*catalog.py'
+      - name: Найти новые карточки и обновить сериалы
+        run: python3 -u tools/auto_catalog.py
+      - name: Проверить результат
+        run: python3 tools/build_catalog.py --check
+      - name: Опубликовать данные одним коммитом
+        shell: bash
+        run: |
+          git add catalog/v1 catalog/automation/state.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: автоматически обновить каталог'
+          git push origin HEAD:main

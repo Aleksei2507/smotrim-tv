@@ -28,7 +28,7 @@ class CatalogSelectionTest(unittest.TestCase):
     def test_variants_reject_unavailable_unsafe_quality_and_deduplicate(self):
         seed={'name':'Фильм','origin':'other','type':'movie'};meta={'name':'Film','releaseInfo':'2000'}
         base={'title':'Фильм (2000) RUS 1080p','quality':'1080p','seeds':10,'magnet':'magnet:?xt=urn:btih:'+'a'*40}
-        rows=[base,dict(base),dict(base,seeds=0,magnet=base['magnet'].replace('a','b')),dict(base,title='Фильм (2000) RUS 3D'),dict(base,title='Фильм (2000) ENG + Sub (Rus)')]
+        rows=[base,dict(base),dict(base,seeds=0,magnet=base['magnet'].replace('a','b')),dict(base,title='Фильм (2000) RUS 3D'),dict(base,title='Фильм (2000) ENG + Sub (Rus)'),dict(base,title='Фильм (2000) MVO Telesync 1080p')]
         self.assertEqual(len(c.variants(seed,meta,rows)),1)
 
 if __name__=='__main__':unittest.main()

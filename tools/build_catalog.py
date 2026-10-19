@@ -6,6 +6,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / 'catalog'
@@ -73,7 +74,7 @@ def variants(seed, metadata, rows):
         quality = source.get('quality', '')
         if not voice or not match or quality not in ('4K','1080p','720p'):
             continue
-        if re.search(r'(?i)\b(?:CAMRip|HDCAM|TS|3D|SBS|OU)\b', title):
+        if re.search(r'(?i)\b(?:CAM(?:Rip)?|HDCAM|HDTS|HDTC|TS|TC|TeleSync|TeleCine|3D|SBS|OU)\b', title):
             continue
         # Prefer a compatible SDR/HDR10 release over Dolby-Vision-only variants.
         if re.search(r'(?i)dolby\s*vision|\bDV\b', title) and not re.search(r'(?i)HDR10|Hybrid|гибрид', title):
@@ -91,69 +92,89 @@ def variants(seed, metadata, rows):
             buckets.setdefault(key, []).append(row)
     return [r for key in sorted(buckets, key=lambda k:(k[0], {'1080p':0,'4K':1,'720p':2}[k[1]])) for r in buckets[key]]
 
+def make_card(seed, meta, rows, override, stamp):
+    seed={**seed,**{k:v for k,v in override.items() if k in ('aliases','description','name')}}
+    card={k:meta[k] for k in ('id','type','poster','background','genres','runtime','imdbRating','releaseInfo','trailers') if k in meta}
+    card.update(seed, imdbId=seed['id'], ids=[seed['id']], originalName=meta['name'], aliases=list(dict.fromkeys([seed['name'],meta['name'],*seed.get('aliases',[])])), year=str(seed.get('year',meta.get('releaseInfo','')))[:4], localized=True, ratingSource='IMDb', updatedAt=stamp)
+    card['metadataSources']=list(dict.fromkeys(['https://v3-cinemeta.strem.io/meta/'+seed['type']+'/'+seed['id']+'.json',*seed.get('metadataSources',[]),*override.get('episodeSources',[])]))
+    genres={'Drama':'Драма','Crime':'Криминал','Thriller':'Триллер','Action':'Боевик','Adventure':'Приключения','Comedy':'Комедия','Romance':'Мелодрама','Sci-Fi':'Фантастика','Fantasy':'Фэнтези','Mystery':'Детектив','History':'История','Biography':'Биография','Sport':'Спорт','Animation':'Мультфильм','Family':'Семейный','Musical':'Мюзикл','Horror':'Ужасы','War':'Военный','Reality-TV':'Реалити-шоу','Game-Show':'Телеигра','Documentary':'Документальный'}
+    card['genres']=[genres[g] for g in meta.get('genres',[]) if g in genres]
+    if 'runtime' in card:card['runtime']=str(card['runtime']).replace(' min',' мин')
+    episodes=[]; seen=set(); translations=override.get('episodes',{})
+    for video in meta.get('videos',[]):
+        season=video.get('season');episode=video.get('episode',video.get('number'))
+        if not isinstance(season,int) or not isinstance(episode,int) or season<1 or episode<1 or (season,episode) in seen:
+            continue
+        seen.add((season,episode)); text=translations.get(f'{season}:{episode}',{})
+        title=text.get('title',video.get('name',video.get('title','')))
+        # Do not silently reintroduce English text into a Russian card.
+        if not re.search('[А-Яа-яЁё]',title):title='Серия '+str(episode)
+        description=text.get('description','')
+        episodes.append({'id':f"{seed['id']}:{season}:{episode}",'season':season,'episode':episode,'title':title,'description':description,'released':video.get('released',video.get('firstAired',''))})
+    episodes=override.get('videos',episodes)
+    if seed['type']=='series':
+        card.update(videos=sorted(episodes,key=lambda e:(e['season'],e['episode'])),episodeProvider='github',seasons=[{'number':s,'name':'Сезон '+str(s)} for s in sorted({e['season'] for e in episodes})])
+    card['sources']=variants(seed,meta,rows);card['sourcesUpdatedAt']=stamp
+    if seed['type']=='series':card['sources']=[s for s in card['sources'] if any(v['season']==s['season'] for v in episodes)]
+    return card
+
 def build(raw_directory, revision):
     selection=json.loads((CATALOG/'curated/titles.json').read_text())
     overrides_path=CATALOG/'curated/details.json'
     overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else {}
     stamp=dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z')
     output=CATALOG/'v1'; (output/'cards').mkdir(parents=True,exist_ok=True)
+    previous=json.loads((output/'index.json').read_text()) if (output/'index.json').exists() else {'revision':0,'items':[]}
+    revision=max(revision,previous['revision']+1)
     index={'schemaVersion':1,'revision':revision,'updatedAt':stamp,'selectionNote':selection['selectionNote'],'references':selection['references'],'items':[]}
     for seed in selection['items']:
         raw=json.loads((raw_directory/(seed['id']+'.json')).read_text());meta=raw['metadata']
         if meta['id']!=seed['id'] or meta['type']!=seed['type']:
             raise ValueError('Wrong metadata identity: '+seed['id'])
-        override=overrides.get(seed['id'],{})
-        seed={**seed,**{k:v for k,v in override.items() if k in ('aliases','description','name')}}
-        card={k:meta[k] for k in ('id','type','poster','background','genres','runtime','imdbRating','releaseInfo','trailers') if k in meta}
-        card.update(seed, imdbId=seed['id'], ids=[seed['id']], originalName=meta['name'], aliases=list(dict.fromkeys([seed['name'],meta['name'],*seed.get('aliases',[])])), year=str(seed.get('year',meta.get('releaseInfo','')))[:4], localized=True, ratingSource='IMDb', updatedAt=stamp)
-        card['metadataSources']=['https://v3-cinemeta.strem.io/meta/'+seed['type']+'/'+seed['id']+'.json',*override.get('episodeSources',[])]
-        genres={'Drama':'Драма','Crime':'Криминал','Thriller':'Триллер','Action':'Боевик','Adventure':'Приключения','Comedy':'Комедия','Romance':'Мелодрама','Sci-Fi':'Фантастика','Fantasy':'Фэнтези','Mystery':'Детектив','History':'История','Biography':'Биография','Sport':'Спорт','Animation':'Мультфильм','Family':'Семейный','Musical':'Мюзикл','Horror':'Ужасы','War':'Военный','Reality-TV':'Реалити-шоу','Game-Show':'Телеигра','Documentary':'Документальный'}
-        card['genres']=[genres[g] for g in meta.get('genres',[]) if g in genres]
-        if 'runtime' in card:card['runtime']=str(card['runtime']).replace(' min',' мин')
-        episodes=[]; seen=set(); translations=override.get('episodes',{})
-        for video in meta.get('videos',[]):
-            season=video.get('season');episode=video.get('episode',video.get('number'))
-            if not isinstance(season,int) or not isinstance(episode,int) or season<1 or episode<1 or (season,episode) in seen:
-                continue
-            seen.add((season,episode)); text=translations.get(f'{season}:{episode}',{})
-            title=text.get('title',video.get('name',video.get('title','')))
-            # Do not silently reintroduce English text into a Russian card.
-            if not re.search('[А-Яа-яЁё]',title):title='Серия '+str(episode)
-            description=text.get('description','')
-            episodes.append({'id':f"{seed['id']}:{season}:{episode}",'season':season,'episode':episode,'title':title,'description':description,'released':video.get('released',video.get('firstAired',''))})
-        episodes=override.get('videos',episodes)
-        if seed['type']=='series':
-            card.update(videos=sorted(episodes,key=lambda e:(e['season'],e['episode'])),episodeProvider='github',seasons=[{'number':s,'name':'Сезон '+str(s)} for s in sorted({e['season'] for e in episodes})])
-        card['sources']=variants(seed,meta,raw['search']['items']);card['sourcesUpdatedAt']=stamp
-        if seed['type']=='series':card['sources']=[s for s in card['sources'] if any(v['season']==s['season'] for v in episodes)]
+        card=make_card(seed,meta,raw['search']['items'],overrides.get(seed['id'],{}),stamp)
+        episodes=card.get('videos',[])
         data=encoded(card);digest=hashlib.sha256(data).hexdigest();path='cards/'+digest+'.json'
         (output/path).write_bytes(data)
         summary={k:card[k] for k in ('id','ids','imdbId','name','type','kind','year','origin','poster','background','description','originalName','aliases','genres','imdbRating','runtime') if k in card}
         summary.update(card=path,sha256=digest,localized=True,provider='github')
         index['items'].append(summary)
         print(seed['name']+': '+str(len(card['sources']))+' variants, '+str(len(episodes))+' episodes')
+    editorial_ids={r['id'] for r in index['items']}
+    index['items'].extend(r for r in previous['items'] if r['id'] not in editorial_ids)
     (output/'index.json').write_bytes(encoded(index))
     check(output)
+
+def check_media(row):
+    assert ID.fullmatch(row['id']) and row['type'] in ('movie','series')
+    assert 0<len(row['name'])<=240 and (re.fullmatch('.*[А-Яа-яЁё].*',row['name']) or re.fullmatch(r'[0-9 +:.-]+',row['name']))
+    assert len(row.get('description',''))<=6000
+    for field in ('poster','background'):
+        if row.get(field):
+            url=urlsplit(row[field]);assert url.scheme=='https' and url.hostname and url.username is None and url.password is None
 
 def check(output):
     data=(output/'index.json').read_bytes(); root=json.loads(data);seen=set()
     assert len(data)<=2*1024*1024 and root['schemaVersion']==1 and 0<root['revision']<2**53
+    assert re.fullmatch(r'\d{4}-\d{2}-\d{2}T.*Z',root['updatedAt'])
     assert 0<len(root['items'])<=3000
     total_sources=0
     for row in root['items']:
-        assert ID.fullmatch(row['id']) and row['id'] not in seen and (re.search('[А-Яа-яЁё]',row['name']) or re.fullmatch(r'[0-9 +:.-]+',row['name']));seen.add(row['id'])
+        check_media(row);assert row['id'] not in seen;seen.add(row['id'])
         assert row['type'] in ('movie','series') and re.fullmatch(r'cards/[a-f0-9]{64}\.json',row['card'])
         payload=(output/row['card']).read_bytes();digest=hashlib.sha256(payload).hexdigest()
         assert len(payload)<=512*1024 and digest==row['sha256'] and row['card']=='cards/'+digest+'.json'
-        card=json.loads(payload);assert card['id']==row['id'] and card['type']==row['type']
+        card=json.loads(payload);check_media(card);assert card['id']==row['id'] and card['type']==row['type']
+        assert len(card.get('sources',[]))<=500 and len(card.get('videos',[]))<=3000
         numbers=set()
         for episode in card.get('videos',[]):
-            key=(episode['season'],episode['episode']);assert key not in numbers and key[0]>=1 and key[1]>=1;numbers.add(key)
+            key=(episode['season'],episode['episode']);assert key not in numbers and 1<=key[0]<=999 and 1<=key[1]<=9999;numbers.add(key)
             assert re.search('[А-Яа-яЁё]',episode['title'])
         for source in card.get('sources',[]):
             assert re.fullmatch(r'(?i)magnet:\?[^\r\n]*xt=urn:btih:[a-f0-9]{40}(?:&[^\r\n]*)?',source['magnet']) and len(source['magnet'])<=8192
             assert source['audioLanguage']=='ru' and source['quality'] in ('4K','1080p','720p') and source['languageEvidence']
-            if card['type']=='series':assert source['season']>=1
+            assert 0<len(source['title'])<=1200
+            if 'episodeFrom' in source:assert 1<=source['episodeFrom']<=source['episodeTo']<=9999
+            if card['type']=='series':assert 1<=source['season']<=999 and 0<=source.get('episode',0)<=9999
             total_sources+=1
     print(f"Validated {len(seen)} cards, {total_sources} Russian-audio variants, index {len(data)} bytes")
 
