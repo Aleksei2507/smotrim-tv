@@ -1,0 +1,118 @@
+{
+  "id": "tt3498820",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/571ed54f6cb320a4dd0c6f7e83be2a0fc1b55b225323f59b2d68cbeed4cd6289.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/710b5775a626dabe65ec2cc766f1fc2cf7c2fd349b47578bcb3792c193819fa0.jpg",
+  "genres": [
+    "Боевик",
+    "Фантастика"
+  ],
+  "runtime": "147 мин",
+  "imdbRating": "7.8",
+  "releaseInfo": "2016",
+  "trailers": [
+    {
+      "source": "dKrVegVI0Us",
+      "type": "Trailer"
+    },
+    {
+      "source": "43NWzay3W4s",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Первый мститель: Противостояние",
+  "year": "2016",
+  "searchName": "Первый мститель Противостояние",
+  "description": "Спор о контроле над супергероями раскалывает Мстителей на команды Капитана Америки и Железного человека. Тони Старк привлекает к конфликту юного Питера Паркера.",
+  "origin": "other",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt3498820.json",
+    "https://www.imdb.com/title/tt3498820/"
+  ],
+  "aliases": [
+    "Первый мститель: Противостояние",
+    "Captain America: Civil War",
+    "Первый мститель Противостояние"
+  ],
+  "imdbId": "tt3498820",
+  "ids": [
+    "tt3498820"
+  ],
+  "originalName": "Captain America: Civil War",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T08:21:27Z",
+  "sources": [
+    {
+      "title": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, фантастика, боевик, приключения, BDRip 1080p] Dub (iTunes) + MVO (FocusStudio) + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:D84FC542758E1B652A737C52F0E479A16A154272&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 16095389941,
+      "size": "14.99 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, фантастика, боевик, приключения, BDRip 1080p] Dub (iTunes) + MVO (FocusStudio) + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, фантастика, боевик, приключения, WEB-DL 1080p] [Локализованный видеоряд] Dub (iTunes) + MVO (FocusStudio) + AVO (Гаврилов) + Original Eng + Sub Rus, Eng",
+      "magnet": "magnet:?xt=urn:btih:5B51EA9844B58ED448D3F507F6AE8BFDAAF01EFD&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 7355131494,
+      "size": "6.85 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, фантастика, боевик, приключения, WEB-DL 1080p] [Локализованный видеоряд] Dub (iTunes) + MVO (FocusStudio) + AVO (Гаврилов) + Original Eng + Sub Rus, Eng"
+    },
+    {
+      "title": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, Фантастика, боевик, приключения, UHD BDRemux 2160p, HDR10] Dub + MVO + AVO + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:DA72703BF5BE0068BB3444213BBC59F9193B4DBD&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 58551141662,
+      "size": "54.53 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, Фантастика, боевик, приключения, UHD BDRemux 2160p, HDR10] Dub + MVO + AVO + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, Фантастика, боевик, приключения, WEB-DL 2160p, HDR10, Dolby Vision] [Hybrid] [IMAX] Dub + MVO + AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:A798509B834F702E2DE4FDFBBDC5FF8F901ECBFD&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 23085449216,
+      "size": "21.50 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, Фантастика, боевик, приключения, WEB-DL 2160p, HDR10, Dolby Vision] [Hybrid] [IMAX] Dub + MVO + AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, Фантастика, боевик, приключения, BDRip 720p] Dub (iTunes) + MVO (FocusStudio) + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:D6F5064F731C978562577285B6D12AA5C68306C4&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 7752415969,
+      "size": "7.22 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, Фантастика, боевик, приключения, BDRip 720p] Dub (iTunes) + MVO (FocusStudio) + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, фантастика, боевик, приключения, BDRip 720p] [IMAX Edition] Dub (iTunes) + MVO (FocusStudio) + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:81EBC501170D8ADD18A4F03BD008B1B387D0BD51&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 9856949944,
+      "size": "9.18 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Первый мститель: Противостояние / Captain America: Civil War (Энтони Руссо, Джо Руссо / Anthony Russo, Joe Russo) [2016, США, фантастика, боевик, приключения, BDRip 720p] [IMAX Edition] Dub (iTunes) + MVO (FocusStudio) + Sub Rus, Eng + Original Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T08:20:33Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt3498820/img",
+    "background": "https://images.metahub.space/background/medium/tt3498820/img"
+  }
+}

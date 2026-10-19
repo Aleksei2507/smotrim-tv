@@ -1,0 +1,104 @@
+{
+  "id": "tt2250912",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/13bb95ccdad181493f79bfa8f7baa0e1dbb29a9d5b9fb6b668bc31a28eea6b36.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f11b6dcb75643e6690a96a91efcedbb42863ea572ba1c6d43e66542352858b39.jpg",
+  "genres": [
+    "Боевик",
+    "Приключения",
+    "Фантастика"
+  ],
+  "runtime": "133 мин",
+  "imdbRating": "7.4",
+  "releaseInfo": "2017",
+  "trailers": [
+    {
+      "source": "xEvV3OsE2WM",
+      "type": "Trailer"
+    },
+    {
+      "source": "xbQdPBiF3Co",
+      "type": "Trailer"
+    },
+    {
+      "source": "xpu9yRO_rvU",
+      "type": "Trailer"
+    },
+    {
+      "source": "DiTECkLZ8HM",
+      "type": "Trailer"
+    },
+    {
+      "source": "lCkVr1n1eCA",
+      "type": "Trailer"
+    },
+    {
+      "source": "rk-dF1lIbIg",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Человек-паук: Возвращение домой",
+  "year": "2017",
+  "searchName": "Человек паук Возвращение домой",
+  "description": "Питер Паркер возвращается к школьной жизни после знакомства с Мстителями. Он мечтает доказать Тони Старку, что готов к большим задачам, но сначала ему предстоит остановить торговца опасным оружием — Стервятника.",
+  "origin": "other",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt2250912.json",
+    "https://www.imdb.com/title/tt2250912/",
+    "https://www.sonypictures.com/movies/spidermanhomecoming"
+  ],
+  "aliases": [
+    "Человек-паук: Возвращение домой",
+    "Spider-Man: Homecoming",
+    "Человек паук Возвращение домой",
+    "Человек-паук: Возврашение домой"
+  ],
+  "imdbId": "tt2250912",
+  "ids": [
+    "tt2250912"
+  ],
+  "originalName": "Spider-Man: Homecoming",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T08:21:27Z",
+  "sources": [
+    {
+      "title": "Человек-паук: Возврашение домой / Spider-Man: Homecoming (Джон Уоттс / Jon Watts) [2017, США, фантастика, боевик, приключения, BDRemux 1080p] Dub + AVO (Живов) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:2489F9545A094683636D07AB0338ACAF88E4B5C3&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 30032558817,
+      "size": "27.97 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Человек-паук: Возврашение домой / Spider-Man: Homecoming (Джон Уоттс / Jon Watts) [2017, США, фантастика, боевик, приключения, BDRemux 1080p] Dub + AVO (Живов) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Человек-паук: Возврашение домой / Spider-Man: Homecoming (Джон Уоттс / Jon Watts) [2017, США, фантастика, боевик, приключения, UHD BDRemux 2160p, HDR10, Dolby Vision] Dub + AVO + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:D8B062F7EBB7BAD6837136378CD2851F70FDF4F7&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 55072218152,
+      "size": "51.29 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Человек-паук: Возврашение домой / Spider-Man: Homecoming (Джон Уоттс / Jon Watts) [2017, США, фантастика, боевик, приключения, UHD BDRemux 2160p, HDR10, Dolby Vision] Dub + AVO + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Человек-паук: Возврашение домой / Spider-Man: Homecoming (Джон Уоттс / Jon Watts) [2017, США, фантастика, боевик, приключения, WEB-DL 2160p, HDR10] [Локализованный видеоряд] Dub + AVO + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C4E0A2BB9FA1AA6D78D22477A36FD394CBAC5BCB&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 14699525570,
+      "size": "13.69 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Человек-паук: Возврашение домой / Spider-Man: Homecoming (Джон Уоттс / Jon Watts) [2017, США, фантастика, боевик, приключения, WEB-DL 2160p, HDR10] [Локализованный видеоряд] Dub + AVO + Original (Eng) + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T08:20:33Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt2250912/img",
+    "background": "https://images.metahub.space/background/medium/tt2250912/img"
+  }
+}

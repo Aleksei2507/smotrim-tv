@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792397666,
-  "updatedAt": "2026-10-19T08:14:22Z",
+  "revision": 1792398091,
+  "updatedAt": "2026-10-19T08:21:27Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,224 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt3498820",
+      "ids": [
+        "tt3498820"
+      ],
+      "imdbId": "tt3498820",
+      "name": "Первый мститель: Противостояние",
+      "type": "movie",
+      "year": "2016",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/571ed54f6cb320a4dd0c6f7e83be2a0fc1b55b225323f59b2d68cbeed4cd6289.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/710b5775a626dabe65ec2cc766f1fc2cf7c2fd349b47578bcb3792c193819fa0.jpg",
+      "description": "Спор о контроле над супергероями раскалывает Мстителей на команды Капитана Америки и Железного человека. Тони Старк привлекает к конфликту юного Питера Паркера.",
+      "originalName": "Captain America: Civil War",
+      "aliases": [
+        "Первый мститель: Противостояние",
+        "Captain America: Civil War",
+        "Первый мститель Противостояние"
+      ],
+      "genres": [
+        "Боевик",
+        "Фантастика"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "147 мин",
+      "card": "cards/2813822d77e454b27c4f826080139fc8ac13913f6632cc6af2d1f504c40812c2.json",
+      "sha256": "2813822d77e454b27c4f826080139fc8ac13913f6632cc6af2d1f504c40812c2",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2250912",
+      "ids": [
+        "tt2250912"
+      ],
+      "imdbId": "tt2250912",
+      "name": "Человек-паук: Возвращение домой",
+      "type": "movie",
+      "year": "2017",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/13bb95ccdad181493f79bfa8f7baa0e1dbb29a9d5b9fb6b668bc31a28eea6b36.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f11b6dcb75643e6690a96a91efcedbb42863ea572ba1c6d43e66542352858b39.jpg",
+      "description": "Питер Паркер возвращается к школьной жизни после знакомства с Мстителями. Он мечтает доказать Тони Старку, что готов к большим задачам, но сначала ему предстоит остановить торговца опасным оружием — Стервятника.",
+      "originalName": "Spider-Man: Homecoming",
+      "aliases": [
+        "Человек-паук: Возвращение домой",
+        "Spider-Man: Homecoming",
+        "Человек паук Возвращение домой",
+        "Человек-паук: Возврашение домой"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фантастика"
+      ],
+      "imdbRating": "7.4",
+      "runtime": "133 мин",
+      "card": "cards/96dfbb17a6f1e0083856c8ec951621ef8537635efd50c5521b48291165e457a1.json",
+      "sha256": "96dfbb17a6f1e0083856c8ec951621ef8537635efd50c5521b48291165e457a1",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt4154756",
+      "ids": [
+        "tt4154756"
+      ],
+      "imdbId": "tt4154756",
+      "name": "Мстители: Война бесконечности",
+      "type": "movie",
+      "year": "2018",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c852e5bea814be16d8351b8dadecb4dbb65831e4260b94e2f298f9f263cd3f74.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d1924ec82d23475fb2b07b5ad2985a969cfb60f83dad449cf80a6ea999926c4f.jpg",
+      "description": "Танос ищет Камни Бесконечности, способные изменить судьбу вселенной. Человек-паук, Железный человек и другие герои объединяются, чтобы остановить его.",
+      "originalName": "Avengers: Infinity War",
+      "aliases": [
+        "Мстители: Война бесконечности",
+        "Avengers: Infinity War",
+        "Мстители Война бесконечности"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фантастика"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "149 мин",
+      "card": "cards/f12edfa0d6fa88297a64a2b5ed216888a96a94d9375620dd3d273e000b133ba5.json",
+      "sha256": "f12edfa0d6fa88297a64a2b5ed216888a96a94d9375620dd3d273e000b133ba5",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt4154796",
+      "ids": [
+        "tt4154796"
+      ],
+      "imdbId": "tt4154796",
+      "name": "Мстители: Финал",
+      "type": "movie",
+      "year": "2019",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e85d02213922736420dec899692fb1dbb401214d7e7b058f7d6b795665c078e7.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/073d6ac765e04245bf9a67c84efde1a0484a4dc7fcdeb0411c5d5baf397f356c.jpg",
+      "description": "После катастрофы, устроенной Таносом, уцелевшие Мстители ищут способ вернуть исчезнувших. Ради последней попытки им предстоит вновь объединиться и рискнуть всем.",
+      "originalName": "Avengers: Endgame",
+      "aliases": [
+        "Мстители: Финал",
+        "Avengers: Endgame",
+        "Мстители Финал"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фантастика"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "181 мин",
+      "card": "cards/b28532c471bdf1515d9c5c4e7142b392c244e241e45297eb63a67355784cbe1c.json",
+      "sha256": "b28532c471bdf1515d9c5c4e7142b392c244e241e45297eb63a67355784cbe1c",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6320628",
+      "ids": [
+        "tt6320628"
+      ],
+      "imdbId": "tt6320628",
+      "name": "Человек-паук: Вдали от дома",
+      "type": "movie",
+      "year": "2019",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c8cd6e3f8baee0c88a0ac3b03d4a5e526cddff3935a85b53f9203daed046568b.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/14b95da699caf27ed98b22a0b61c8e8e2c845b5f0b598c7b01390a286e170e7c.jpg",
+      "description": "Питер Паркер отправляется с одноклассниками в путешествие по Европе и надеется отдохнуть от супергеройских обязанностей. Но встреча с Ником Фьюри и загадочным Мистерио меняет его планы.",
+      "originalName": "Spider-Man: Far from Home",
+      "aliases": [
+        "Человек-паук: Вдали от дома",
+        "Spider-Man: Far from Home",
+        "Человек паук Вдали от дома"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Комедия"
+      ],
+      "imdbRating": "7.3",
+      "runtime": "129 мин",
+      "card": "cards/9da63fbcf74ac71c115239664b734420e9df0532f1ae94e5f4b3c088a1a1f530.json",
+      "sha256": "9da63fbcf74ac71c115239664b734420e9df0532f1ae94e5f4b3c088a1a1f530",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt10872600",
+      "ids": [
+        "tt10872600"
+      ],
+      "imdbId": "tt10872600",
+      "name": "Человек-паук: Нет пути домой",
+      "type": "movie",
+      "year": "2021",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e7c2e4a9a99d64a9703675db3db9f416fdcf5041414a7d67fe895c1daddee6ed.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7d712fac653c36a0a5b1f70fb27478810d05d54539c00fb6043b62fb4bde1955.jpg",
+      "description": "Личность Человека-паука раскрыта, и жизнь Питера Паркера меняется. Он просит Доктора Стрэнджа исправить ситуацию, но заклинание открывает путь гостям из других миров.",
+      "originalName": "Spider-Man: No Way Home",
+      "aliases": [
+        "Человек-паук: Нет пути домой",
+        "Spider-Man: No Way Home",
+        "Человек паук Нет пути домой"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фэнтези"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "148 мин",
+      "card": "cards/387c8af77169a71aca7eb9fb7b118de29e9ad6d48e66def63ff148e2e66a6bc0.json",
+      "sha256": "387c8af77169a71aca7eb9fb7b118de29e9ad6d48e66def63ff148e2e66a6bc0",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt22084616",
+      "ids": [
+        "tt22084616"
+      ],
+      "imdbId": "tt22084616",
+      "name": "Человек-паук: Новый день",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1fb31a920885635a6d2e0dbff40dca519bf1fc4a31700df205417f088ac0f685.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7c4fec52ff2133eb5cb5e55e3cc16b8412985ff98c9964822e6bac83e551a868.jpg",
+      "description": "Мир забыл Питера Паркера, и он целиком посвятил себя борьбе с преступностью. Пока старые друзья строят жизнь без него, способности Питера начинают меняться, а Нью-Йорку угрожает новый опасный противник.",
+      "originalName": "Spider-Man: Brand New Day",
+      "aliases": [
+        "Человек-паук: Новый день",
+        "Spider-Man: Brand New Day",
+        "Человек-паук 4",
+        "Человек-паук: Совершенно новый день",
+        "Spider-Man 4"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "145 мин",
+      "card": "cards/8a48f2cf67088876b483b070274c7f13f88208871f7258491ffede03e0549afa.json",
+      "sha256": "8a48f2cf67088876b483b070274c7f13f88208871f7258491ffede03e0549afa",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt36271247",
       "ids": [
@@ -1076,38 +1294,6 @@
       "runtime": "131 мин",
       "card": "cards/4874fe8fe927b6d8f65fa3fefc36ec02af2c52fcdcd402c476e9330de95390c0.json",
       "sha256": "4874fe8fe927b6d8f65fa3fefc36ec02af2c52fcdcd402c476e9330de95390c0",
-      "localized": true,
-      "provider": "github"
-    },
-    {
-      "id": "tt22084616",
-      "ids": [
-        "tt22084616"
-      ],
-      "imdbId": "tt22084616",
-      "name": "Человек-паук: Новый день",
-      "type": "movie",
-      "year": "2026",
-      "origin": "other",
-      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1fb31a920885635a6d2e0dbff40dca519bf1fc4a31700df205417f088ac0f685.jpg",
-      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7c4fec52ff2133eb5cb5e55e3cc16b8412985ff98c9964822e6bac83e551a868.jpg",
-      "description": "фильм Дестина Дэниела Креттона (2026)",
-      "originalName": "Spider-Man: Brand New Day",
-      "aliases": [
-        "Человек-паук: Новый день",
-        "Spider-Man: Brand New Day",
-        "Человек-паук 4",
-        "Человек-паук: Совершенно новый день",
-        "Spider-Man 4"
-      ],
-      "genres": [
-        "Боевик",
-        "Приключения"
-      ],
-      "imdbRating": "8.0",
-      "runtime": "145 мин",
-      "card": "cards/0506b07548001627234366fa8b993d73311b75644de9e5a880fb54d20ad23883.json",
-      "sha256": "0506b07548001627234366fa8b993d73311b75644de9e5a880fb54d20ad23883",
       "localized": true,
       "provider": "github"
     },
