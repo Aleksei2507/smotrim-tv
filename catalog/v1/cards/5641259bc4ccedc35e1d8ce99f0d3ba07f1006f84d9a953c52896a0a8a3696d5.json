@@ -1,0 +1,84 @@
+{
+  "id": "tt37601032",
+  "type": "movie",
+  "poster": "https://live.metahub.space/poster/small/tt37601032/img",
+  "background": "https://live.metahub.space/background/medium/tt37601032/img",
+  "genres": [
+    "Комедия",
+    "Приключения",
+    "Семейный"
+  ],
+  "runtime": "109 мин",
+  "imdbRating": "1.7",
+  "releaseInfo": "2026",
+  "trailers": [],
+  "name": "Последний богатырь. Колобок",
+  "description": "История Колобка: с какой коварной целью его испекли, как ему удалось сбежать, как он скитался и попал в банду разбойников, а потом поневоле стал напарником неудачливого пекаря Тихона и необычной девушки Лады.",
+  "aliases": [
+    "Последний богатырь. Колобок",
+    "The Last Warrior: Kolobok"
+  ],
+  "kpId": 8484833,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt37601032.json",
+    "https://www.kinopoisk.ru/film/8484833/"
+  ],
+  "year": "2026",
+  "imdbId": "tt37601032",
+  "ids": [
+    "tt37601032"
+  ],
+  "originalName": "The Last Warrior: Kolobok",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:47:28Z",
+  "sources": [
+    {
+      "title": "Последний богатырь. Колобок (2026) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:f2d5d4faf4fa4bfe25a9e11109a447f923e31515&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 3446711255,
+      "size": "3.21 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Последний богатырь. Колобок (2026) WEBRip 1080p"
+    },
+    {
+      "title": "Последний богатырь. Колобок (Антон Маслов) [2026, Россия, Сказка, приключения, комедия, фэнтези, WEBRip 1080p] Original Rus",
+      "magnet": "magnet:?xt=urn:btih:6487F6077FA2D89E9ED45E494F87C0343AC54C95&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 3446711255,
+      "size": "3.21 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Последний богатырь. Колобок (Антон Маслов) [2026, Россия, Сказка, приключения, комедия, фэнтези, WEBRip 1080p] Original Rus"
+    },
+    {
+      "title": "Последний богатырь. Колобок (2026) WEBRip 2160p от ELEKTRI4KA | 4K | SDR | START",
+      "magnet": "magnet:?xt=urn:btih:51003ca0e16df71a9a989952426077d79ee0a493&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "4K",
+      "source": "JacRed · korsars",
+      "bytes": 13636521164,
+      "size": "12.70 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Последний богатырь. Колобок (2026) WEBRip 2160p от ELEKTRI4KA | 4K | SDR | START"
+    },
+    {
+      "title": "Последний богатырь. Колобок (2026) WEB-DLRip 720p от DoMiNo & селезень | КиноПоиск HD",
+      "magnet": "magnet:?xt=urn:btih:01ca0eeb4921cab91e9beffdc1abed40c42db37c&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 2759516487,
+      "size": "2.57 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Последний богатырь. Колобок (2026) WEB-DLRip 720p от DoMiNo & селезень | КиноПоиск HD"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z"
+}

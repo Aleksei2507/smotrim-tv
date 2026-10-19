@@ -1,0 +1,204 @@
+{
+  "id": "tt28429213",
+  "type": "series",
+  "poster": "https://live.metahub.space/poster/small/tt28429213/img",
+  "background": "https://live.metahub.space/background/medium/tt28429213/img",
+  "genres": [
+    "Драма",
+    "Криминал"
+  ],
+  "runtime": "52 мин",
+  "imdbRating": "7.6",
+  "releaseInfo": "2023–2023",
+  "trailers": [
+    {
+      "source": "15K3LoA9bhY",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Слово пацана. Кровь на асфальте",
+  "origin": "ru",
+  "description": "Подростки позднего СССР выбирают между семьёй, дружбой и правилами уличных группировок.",
+  "imdbId": "tt28429213",
+  "ids": [
+    "tt28429213"
+  ],
+  "originalName": "The Boy's Word: Blood on the Asphalt",
+  "aliases": [
+    "Слово пацана. Кровь на асфальте",
+    "The Boy's Word: Blood on the Asphalt"
+  ],
+  "year": "2023",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:47:28Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt28429213.json"
+  ],
+  "videos": [
+    {
+      "id": "tt28429213:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2023-11-09"
+    },
+    {
+      "id": "tt28429213:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2023-11-09"
+    },
+    {
+      "id": "tt28429213:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2023-11-16"
+    },
+    {
+      "id": "tt28429213:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2023-11-22"
+    },
+    {
+      "id": "tt28429213:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2023-11-30"
+    },
+    {
+      "id": "tt28429213:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2023-12-07"
+    },
+    {
+      "id": "tt28429213:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2023-12-14"
+    },
+    {
+      "id": "tt28429213:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2023-12-21"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Слово пацана. Кровь на асфальте / Сезон: 1 / Серии: 1-8 из 8 (Жора Крыжовников) [2023, драма, WEBRip 1080p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:05B54C8C142D24C82EB46DC98DE25F05410F5270&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 13969381130,
+      "size": "13.01 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Слово пацана. Кровь на асфальте / Сезон: 1 / Серии: 1-8 из 8 (Жора Крыжовников) [2023, драма, WEBRip 1080p] + Sub (Rus)"
+    },
+    {
+      "title": "Слово пацана. Кровь на асфальте / Сезон: 1 / Серии: 7-8 из 8 (Жора Крыжовников) [2023, Россия, Драма, WPRip-AVC, WP 1080p] Демо версия",
+      "magnet": "magnet:?xt=urn:btih:A217D7B3ADA99DE96414D7D28C34885F9EB985A8&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 2652142305,
+      "size": "2.47 GB",
+      "episode": 0,
+      "episodeFrom": 7,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Слово пацана. Кровь на асфальте / Сезон: 1 / Серии: 7-8 из 8 (Жора Крыжовников) [2023, Россия, Драма, WPRip-AVC, WP 1080p] Демо версия"
+    },
+    {
+      "title": "Слово пацана. Кровь на асфальте / Сезон: 1 / Серии: 1-8 из 8 (Жора Крыжовников) [2023, драма, SDR, WEBRip 2160p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:3C46E28B990960627AA0E025D3FFE49925AC07D1&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 60720100147,
+      "size": "56.55 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Слово пацана. Кровь на асфальте / Сезон: 1 / Серии: 1-8 из 8 (Жора Крыжовников) [2023, драма, SDR, WEBRip 2160p] + Sub (Rus)"
+    },
+    {
+      "title": "Слово пацана. Кровь на асфальте / Сезон: 1 / Серии: 1-8 из 8 (Жора Крыжовников) [2023, драма, SDR, WEBRip 2160p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:51364001895BCEF0F5160497784875F3EE120E13&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 60720100147,
+      "size": "56.55 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Слово пацана. Кровь на асфальте / Сезон: 1 / Серии: 1-8 из 8 (Жора Крыжовников) [2023, драма, SDR, WEBRip 2160p] + Sub (Rus)"
+    },
+    {
+      "title": "Слово пацана. Кровь на асфальте (2023) WEBRip [H.264/720p] (сезон 1, серии 1-8 из 8)",
+      "magnet": "magnet:?xt=urn:btih:A18853C97C69FC6A4C7D50DCF393391D7E61B33E",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 9470402887,
+      "size": "8.82 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Слово пацана. Кровь на асфальте (2023) WEBRip [H.264/720p] (сезон 1, серии 1-8 из 8)"
+    },
+    {
+      "title": "Слово пацана. Кровь на асфальте / Сезон: 1 / Серии: 1-6 из 8 (Жора Крыжовников) [2023, драма, криминал, WEBRip HD 720p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:484DA581350AB364CEAC9CB4C70CFCF43D301C1D&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 6292127088,
+      "size": "5.86 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Слово пацана. Кровь на асфальте / Сезон: 1 / Серии: 1-6 из 8 (Жора Крыжовников) [2023, драма, криминал, WEBRip HD 720p] + Sub (Rus)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z"
+}

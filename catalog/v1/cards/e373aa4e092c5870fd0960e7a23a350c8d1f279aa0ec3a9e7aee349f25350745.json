@@ -1,0 +1,60 @@
+{
+  "id": "tt31192372",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt31192372/img",
+  "background": "https://images.metahub.space/background/medium/tt31192372/img",
+  "genres": [
+    "Приключения",
+    "Драма",
+    "Триллер"
+  ],
+  "runtime": "98 мин",
+  "imdbRating": "5.7",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "Krs0VDIjhmE",
+      "type": "Trailer"
+    },
+    {
+      "source": "Rsztt5qDj_A",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Вышка 2",
+  "description": "После трагической гибели на вышке B67 видео Шайло разлетелись по сети, а сама она стала легендой среди экстремалов. Однако ее сестра Джакс так и не смогла смириться с утратой. Она находит список самых экстремальных мест на планете, которые Шайло мечтала покорить, и решает пройти его до конца. Следующая цель — смертельно опасный маршрут на горе Кван в Таиланде высотой 2070 метров над уровнем моря. Джакс вместе с подругой и местным гидом отправляется наверх, где ей предстоит столкнуться со своим главным страхом — повторить судьбу сестры.",
+  "aliases": [
+    "Вышка 2",
+    "Fall 2: Deadpoint"
+  ],
+  "kpId": 5610132,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt31192372.json",
+    "https://www.kinopoisk.ru/film/5610132/"
+  ],
+  "year": "2026",
+  "imdbId": "tt31192372",
+  "ids": [
+    "tt31192372"
+  ],
+  "originalName": "Fall 2: Deadpoint",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:47:28Z",
+  "sources": [
+    {
+      "title": "Вышка 2 / Fall 2: Deadpoint (2026) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:50D928632E1870DDA27E004BE3E7087649185826",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 15891378995,
+      "size": "14.80 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Вышка 2 / Fall 2: Deadpoint (2026) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] [MVO]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z"
+}

@@ -1,0 +1,395 @@
+{
+  "id": "tt13210838",
+  "type": "series",
+  "poster": "https://images.metahub.space/poster/small/tt13210838/img",
+  "background": "https://images.metahub.space/background/medium/tt13210838/img",
+  "genres": [
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "53 мин",
+  "imdbRating": "8.1",
+  "releaseInfo": "2024–",
+  "trailers": [
+    {
+      "source": "wyEOwHrpZH4",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Джентльмены",
+  "description": "Молодой человек по имени Эдди Холстед узнаёт, что полученное им большое наследство связано с наркоимперией Бобби Гласса.",
+  "aliases": [
+    "Джентльмены",
+    "The Gentlemen"
+  ],
+  "kpId": 1435343,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt13210838.json",
+    "https://www.kinopoisk.ru/film/1435343/"
+  ],
+  "year": "2024",
+  "imdbId": "tt13210838",
+  "ids": [
+    "tt13210838"
+  ],
+  "originalName": "The Gentlemen",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:47:28Z",
+  "videos": [
+    {
+      "id": "tt13210838:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2024-03-07"
+    },
+    {
+      "id": "tt13210838:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2024-03-07"
+    },
+    {
+      "id": "tt13210838:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2024-03-07"
+    },
+    {
+      "id": "tt13210838:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2024-03-07"
+    },
+    {
+      "id": "tt13210838:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2024-03-07"
+    },
+    {
+      "id": "tt13210838:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-03-07"
+    },
+    {
+      "id": "tt13210838:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2024-03-07"
+    },
+    {
+      "id": "tt13210838:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2024-03-07"
+    },
+    {
+      "id": "tt13210838:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-09-03"
+    },
+    {
+      "id": "tt13210838:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-09-03"
+    },
+    {
+      "id": "tt13210838:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-09-03"
+    },
+    {
+      "id": "tt13210838:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-09-03"
+    },
+    {
+      "id": "tt13210838:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-09-03"
+    },
+    {
+      "id": "tt13210838:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-09-03"
+    },
+    {
+      "id": "tt13210838:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-09-03"
+    },
+    {
+      "id": "tt13210838:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-09-03"
+    },
+    {
+      "id": "tt13210838:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-09-03"
+    },
+    {
+      "id": "tt13210838:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13210838:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13210838:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13210838:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13210838:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13210838:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13210838:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Джентльмены / The Gentlemen [S01] (2024) WEB-DL 1080p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:3365d6a493912d88cce618e2ebe69498aaadf54b&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 19423989596,
+      "size": "18.09 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen [S01] (2024) WEB-DL 1080p | HDRezka Studio"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen [S01] (2024) WEB-DL 1080p | Red Head Sound, HDRezka Studio, NewComers, LostFilm, Jaskier",
+      "magnet": "magnet:?xt=urn:btih:fa6ccb80f9bb6798d803c5ee7cf193ae00ef12ed&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 24245090385,
+      "size": "22.58 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen [S01] (2024) WEB-DL 1080p | Red Head Sound, HDRezka Studio, NewComers, LostFilm, Jaskier"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen / Сезон: 1 / Серии: 1-8 из 8 (Дэвид Кэффри) [2024, Великобритания, США, боевик, комедия, криминал, SDR, WEB-DL 2160p, 4k] 5 x MVO (Jaskier, LostFilm, HDRezka, TVShows, NewComers) + Dub (Red Head Sound) + DVO (Кубик в Кубе, ViruseProject) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:6EF3743A5C59A21F3796170489BDCDE160B46F1C&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 63425929543,
+      "size": "59.07 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen / Сезон: 1 / Серии: 1-8 из 8 (Дэвид Кэффри) [2024, Великобритания, США, боевик, комедия, криминал, SDR, WEB-DL 2160p, 4k] 5 x MVO (Jaskier, LostFilm, HDRezka, TVShows, NewComers) + Dub (Red Head Sound) + DVO (Кубик в Кубе, ViruseProject) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen / Сезон: 1 / Серии: 1-8 из 8 (Дэвид Кэффри) [2024, Великобритания, США, Боевик, HDR10, Dolby Vision, WEB-DL 2160p, 4k] 5 x MVO (HDRezka Studio, LostFilm, Jaskier, TVShows, NewComers) + 2 x DVO + 2 x Dub + Ukr Dub + Original + Sub (Rus, Ukr, Eng, Heb)",
+      "magnet": "magnet:?xt=urn:btih:5A129B6975D7989E0CF32237EF79C3F32AB2BBEE&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 52377126174,
+      "size": "48.78 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen / Сезон: 1 / Серии: 1-8 из 8 (Дэвид Кэффри) [2024, Великобритания, США, Боевик, HDR10, Dolby Vision, WEB-DL 2160p, 4k] 5 x MVO (HDRezka Studio, LostFilm, Jaskier, TVShows, NewComers) + 2 x DVO + 2 x Dub + Ukr Dub + Original + Sub (Rus, Ukr, Eng, Heb)"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen [S01] (2024) WEB-DLRip 720p от Scarabey | HDRezka",
+      "magnet": "magnet:?xt=urn:btih:489f1f4e0805da50eda2f65809f41c92fc5215de&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 11682311045,
+      "size": "10.88 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen [S01] (2024) WEB-DLRip 720p от Scarabey | HDRezka"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen / Сезон: 1 / Серии: 1-8 из 8 (Дэвид Кэффри) [2024, Великобритания, США, боевик, комедия, криминал, WEB-DL 720p] DVO (Кубик в Кубе) + MVO (LostFilm) + MVO (HDRezka) + MVO (Jaskier) + MVO (NewComers) + Dub (Red Head Sound) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:B4C7F077B7FA6332CE714FD8FF2EFDCACC3FC114&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 11574936862,
+      "size": "10.78 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen / Сезон: 1 / Серии: 1-8 из 8 (Дэвид Кэффри) [2024, Великобритания, США, боевик, комедия, криминал, WEB-DL 720p] DVO (Кубик в Кубе) + MVO (LostFilm) + MVO (HDRezka) + MVO (Jaskier) + MVO (NewComers) + Dub (Red Head Sound) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen / Сезон: 2 / Серии: 1-8 из 8 (Гай Ричи, Эрен Криви) [2026, Великобритания, США, Боевик, комедия, криминал, WEB-DL 1080p] 2 x Dub + MVO (TVShows, LostFilm, HDRezka Studio) + DVO (Кубик в Кубе) + Ukr Dub + Original + Sub (Rus, Ukr, Eng, Heb)",
+      "magnet": "magnet:?xt=urn:btih:78F0EACB2214DB5854B6A209DD9E4FA9149026B1&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 36120674959,
+      "size": "33.64 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen / Сезон: 2 / Серии: 1-8 из 8 (Гай Ричи, Эрен Криви) [2026, Великобритания, США, Боевик, комедия, криминал, WEB-DL 1080p] 2 x Dub + MVO (TVShows, LostFilm, HDRezka Studio) + DVO (Кубик в Кубе) + Ukr Dub + Original + Sub (Rus, Ukr, Eng, Heb)"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen [S02] (2026) WEB-DL 1080p от Scarabey | D |  Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:7cf878651b4e43a10c658ce56f002ab0f7d34453&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 26510685634,
+      "size": "24.69 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen [S02] (2026) WEB-DL 1080p от Scarabey | D |  Red Head Sound"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen / Сезон: 2 / Серии: 1-8 из 8 (Гай Ричи) [2026, Великобритания, США, боевик, комедия, криминал, HDR10, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 3x MVO + DVO (Кубик в Кубе) + 2x Dub+ Ukr Dub + Original + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:8379D915B0E10F7117DF22AFE4A634DCAD5BC8D9&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 77191299727,
+      "size": "71.89 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen / Сезон: 2 / Серии: 1-8 из 8 (Гай Ричи) [2026, Великобритания, США, боевик, комедия, криминал, HDR10, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 3x MVO + DVO (Кубик в Кубе) + 2x Dub+ Ukr Dub + Original + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Джентльмены (2 сезон: 1-8 серии из 8) / The Gentlemen / 2026 / 2 x ДБ, 3 x ПМ, ПД (Кубик в Кубе), СТ / 4K, HEVC, SDR / WEB-DL (2160p)",
+      "magnet": "magnet:?xt=urn:btih:DAB0B29ECAAC058DBD0C4226BA04BAC9A60CAE0F",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 66260607959,
+      "size": "61.71 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены (2 сезон: 1-8 серии из 8) / The Gentlemen / 2026 / 2 x ДБ, 3 x ПМ, ПД (Кубик в Кубе), СТ / 4K, HEVC, SDR / WEB-DL (2160p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z"
+}
