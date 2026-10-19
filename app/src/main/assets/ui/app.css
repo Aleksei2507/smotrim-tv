@@ -117,7 +117,6 @@ body:not([data-text-size=normal]) .home-copy h1{font-size:60px;max-height:130px}
 body:not([data-text-size=normal]) .detail-copy{width:1400px}
 body:not([data-text-size=normal]) .detail-copy .synopsis{-webkit-line-clamp:3;max-width:1200px;line-height:1.35}
 body:not([data-text-size=normal]) .movie-title{height:2.4em}
-body:not([data-text-size=normal]) .catalog .movie-grid{row-gap:18px}
 body:not([data-text-size=normal]) .catalog .movie-card .poster{height:145px}
 body:not([data-text-size=normal]) .settings-list .button{height:auto;min-height:94px;padding:18px 24px;gap:16px;flex-wrap:wrap;text-align:left}
 body:not([data-text-size=normal]) .settings-list small{flex-basis:100%;text-align:left}
@@ -178,3 +177,16 @@ body[data-text-size=largest] .result-cover{width:100px}body[data-text-size=large
 .catalog-episode-play.focused .episode-description{color:#303740}
 
 .catalog-language-notice{display:flex;align-items:center;gap:20px;flex-shrink:0;font-size:calc(21px * var(--text-scale,1));line-height:1.35;color:#e3cda6}.catalog-language-notice span{flex:1}.catalog-language-notice .button{flex-shrink:0;font-size:calc(21px * var(--text-scale,1));height:auto;min-height:54px;padding:12px 20px}.detail-copy .catalog-language-notice{margin:14px 0}
+
+/* Reserve the remote hints area; fit both catalog rows to the space below filters.
+   Padding also contains the largest focus ring without covering neighboring rows. */
+.main.catalog{bottom:110px;display:flex;flex-direction:column}
+.main.catalog>*{flex-shrink:0}
+.main.catalog .page-bar{margin:18px 0}
+.main.catalog .movie-grid{flex:1;min-height:0;grid-template-rows:repeat(2,minmax(0,1fr));gap:28px 24px;margin:0 -14px;padding:14px}
+.main.catalog .movie-card{display:flex;flex-direction:column;align-self:stretch;min-height:0}
+.main.catalog .movie-card .poster,body:not([data-text-size=normal]) .main.catalog .movie-card .poster{flex:1;min-height:0;height:auto;width:100%}
+.main.catalog .movie-title{flex:none;height:2.4em;margin-top:12px}
+.main.catalog .movie-meta{flex:none;line-height:1.25;min-height:1.25em}
+.main.catalog .movie-grid>.empty{grid-column:1/-1;grid-row:1/-1;align-self:start}
+.main.catalog .catalog-notice{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
