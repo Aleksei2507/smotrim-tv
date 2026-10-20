@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792473160,
-  "updatedAt": "2026-10-20T05:12:34Z",
+  "revision": 1792510475,
+  "updatedAt": "2026-10-20T15:34:34Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,99 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt31520694",
+      "ids": [
+        "tt31520694",
+        "kp:5189047"
+      ],
+      "imdbId": "tt31520694",
+      "name": "Адский шеф",
+      "type": "series",
+      "kind": "show",
+      "year": "2022",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c582e951d683c8073776a9f5001d8ffa2e708b6b41c787765123065eb341739f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c582e951d683c8073776a9f5001d8ffa2e708b6b41c787765123065eb341739f.jpg",
+      "description": "Константин Ивлев проверяет мастерство поваров в кулинарных испытаниях. Участникам предстоит справляться с необычными условиями, работать в команде и бороться за победу.",
+      "originalName": "Адский шеф",
+      "aliases": [
+        "Адский шеф",
+        "Адский Шеф",
+        "Hell's Chef"
+      ],
+      "genres": [
+        "Реалити-шоу",
+        "Телеигра"
+      ],
+      "card": "cards/99931991304a81ce540ab0b96c24401066dfbabcd44516cab7dc45637b6cc748.json",
+      "sha256": "99931991304a81ce540ab0b96c24401066dfbabcd44516cab7dc45637b6cc748",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt32370407",
+      "ids": [
+        "tt32370407",
+        "kp:5582628"
+      ],
+      "imdbId": "tt32370407",
+      "name": "Титаны",
+      "type": "series",
+      "kind": "show",
+      "year": "2024",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/35e0ba0c59d52e97c110e05044a829b6f1d4a8de43244695dbe1ec13a7316735.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/35e0ba0c59d52e97c110e05044a829b6f1d4a8de43244695dbe1ec13a7316735.jpg",
+      "description": "Спортсмены и другие участники проверяют силу, ловкость и выносливость в масштабных испытаниях. Приз победителю — 10 миллионов рублей. Четвёртый сезон — «Битва сезонов», в которой соревнуются участники прошлых лет.",
+      "originalName": "Титаны",
+      "aliases": [
+        "Титаны",
+        "Титаны. Битва сезонов",
+        "Титаны Битва сезонов",
+        "Titany"
+      ],
+      "genres": [
+        "Реалити-шоу",
+        "Телеигра"
+      ],
+      "card": "cards/42e0c6075339ccb252ecf57721df053f711ba4ef72601d1ac5c56daba20827f4.json",
+      "sha256": "42e0c6075339ccb252ecf57721df053f711ba4ef72601d1ac5c56daba20827f4",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt33764258",
+      "ids": [
+        "tt33764258"
+      ],
+      "imdbId": "tt33764258",
+      "name": "Одиссея",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/dc4cffa9fd3e2dde0585499997a96b1f5fb666cd52615510d615642c9bf87ebe.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b1a8215d2764d7b4f45c2d48c89c3f7dfd8bb8ab05cf08669e922f22e8d69594.jpg",
+      "description": "После Троянской войны Одиссей пытается вернуться домой на Итаку, где его ждут жена Пенелопа и сын Телемах. Путь превращается в опасное путешествие: герою предстоит столкнуться с мифическими существами, волей богов и испытаниями собственной решимости. Экранизация поэмы Гомера от Кристофера Нолана.…",
+      "originalName": "The Odyssey",
+      "aliases": [
+        "Одиссея",
+        "The Odyssey",
+        "Одессея",
+        "Одессейя"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фэнтези"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "173 мин",
+      "card": "cards/22b0e83a3297ab05b4c8fd127c7ee960e658741085008c12207f59e5ac833a78.json",
+      "sha256": "22b0e83a3297ab05b4c8fd127c7ee960e658741085008c12207f59e5ac833a78",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt3498820",
       "ids": [

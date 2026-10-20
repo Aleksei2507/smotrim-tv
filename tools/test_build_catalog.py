@@ -40,4 +40,15 @@ class CatalogSelectionTest(unittest.TestCase):
         rows=[base,dict(base),dict(base,seeds=0,magnet=base['magnet'].replace('a','b')),dict(base,title='Фильм (2000) RUS 3D'),dict(base,title='Фильм (2000) ENG + Sub (Rus)'),dict(base,title='Фильм (2000) MVO Telesync 1080p')]
         self.assertEqual(len(c.variants(seed,meta,rows)),1)
 
+    def test_homonymous_show_rejects_releases_before_its_premiere(self):
+        seed={'name':'Титаны','origin':'ru','type':'series','sourceYearMin':2024}
+        titles=['Титаны / Titans [S04] (2022) WEBRip 1080p | LostFilm',
+                'Титаны [S01] (2024) WEBRip 1080p',
+                'Титаны [05x01-06] (2026) WEB-DL 1080p',
+                'Титаны [S02] WEBRip 1080p']
+        rows=[{'title':title,'quality':'1080p','seeds':10,
+               'magnet':'magnet:?xt=urn:btih:'+f'{i:040x}'}
+              for i,title in enumerate(titles,1)]
+        self.assertEqual([r['title'] for r in c.variants(seed,{},rows)],titles[1:3])
+
 if __name__=='__main__':unittest.main()

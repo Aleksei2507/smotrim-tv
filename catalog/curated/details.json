@@ -298,5 +298,1170 @@
       "https://survivall.friday.ru/videos/s1/e2",
       "https://survivall.friday.ru/videos/s1/e3"
     ]
+  },
+  "tt31520694": {
+    "episodeSources": [
+      "https://chef.friday.ru/videos/s1",
+      "https://chef.friday.ru/videos/s2",
+      "https://chef.friday.ru/videos/s3",
+      "https://chef.friday.ru/videos/s4"
+    ],
+    "videos": [
+      {
+        "id": "tt31520694:1:1",
+        "season": 1,
+        "episode": 1,
+        "title": "Выпуск 1",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e1"
+      },
+      {
+        "id": "tt31520694:1:2",
+        "season": 1,
+        "episode": 2,
+        "title": "Выпуск 2",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e2"
+      },
+      {
+        "id": "tt31520694:1:3",
+        "season": 1,
+        "episode": 3,
+        "title": "Выпуск 3",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e3"
+      },
+      {
+        "id": "tt31520694:1:4",
+        "season": 1,
+        "episode": 4,
+        "title": "Выпуск 4",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e4"
+      },
+      {
+        "id": "tt31520694:1:5",
+        "season": 1,
+        "episode": 5,
+        "title": "Выпуск 5",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e5"
+      },
+      {
+        "id": "tt31520694:1:6",
+        "season": 1,
+        "episode": 6,
+        "title": "Выпуск 6",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e6"
+      },
+      {
+        "id": "tt31520694:1:7",
+        "season": 1,
+        "episode": 7,
+        "title": "Выпуск 7",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e7"
+      },
+      {
+        "id": "tt31520694:1:8",
+        "season": 1,
+        "episode": 8,
+        "title": "Выпуск 8",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e8"
+      },
+      {
+        "id": "tt31520694:1:9",
+        "season": 1,
+        "episode": 9,
+        "title": "Выпуск 9",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e9"
+      },
+      {
+        "id": "tt31520694:1:10",
+        "season": 1,
+        "episode": 10,
+        "title": "Выпуск 10",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e10"
+      },
+      {
+        "id": "tt31520694:1:11",
+        "season": 1,
+        "episode": 11,
+        "title": "Выпуск 11",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e11"
+      },
+      {
+        "id": "tt31520694:1:12",
+        "season": 1,
+        "episode": 12,
+        "title": "Выпуск 12",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e12"
+      },
+      {
+        "id": "tt31520694:1:13",
+        "season": 1,
+        "episode": 13,
+        "title": "Выпуск 13",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e13"
+      },
+      {
+        "id": "tt31520694:1:14",
+        "season": 1,
+        "episode": 14,
+        "title": "Выпуск 14",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e14"
+      },
+      {
+        "id": "tt31520694:1:15",
+        "season": 1,
+        "episode": 15,
+        "title": "Выпуск 15",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e15"
+      },
+      {
+        "id": "tt31520694:1:16",
+        "season": 1,
+        "episode": 16,
+        "title": "Выпуск 16",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e16"
+      },
+      {
+        "id": "tt31520694:1:17",
+        "season": 1,
+        "episode": 17,
+        "title": "Выпуск 17",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e17"
+      },
+      {
+        "id": "tt31520694:1:18",
+        "season": 1,
+        "episode": 18,
+        "title": "Выпуск 18",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s1/e18"
+      },
+      {
+        "id": "tt31520694:1:19",
+        "season": 1,
+        "episode": 19,
+        "title": "Выпуск 19 · Итоги сезона",
+        "description": "Специальный выпуск: путь участников от знакомства с шефом до завершения первого сезона.",
+        "released": "2022-12-21",
+        "source": "https://chef.friday.ru/videos/s1/e19"
+      },
+      {
+        "id": "tt31520694:2:1",
+        "season": 2,
+        "episode": 1,
+        "title": "Выпуск 1",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e1"
+      },
+      {
+        "id": "tt31520694:2:2",
+        "season": 2,
+        "episode": 2,
+        "title": "Выпуск 2",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e2"
+      },
+      {
+        "id": "tt31520694:2:3",
+        "season": 2,
+        "episode": 3,
+        "title": "Выпуск 3",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e3"
+      },
+      {
+        "id": "tt31520694:2:4",
+        "season": 2,
+        "episode": 4,
+        "title": "Выпуск 4",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e4"
+      },
+      {
+        "id": "tt31520694:2:5",
+        "season": 2,
+        "episode": 5,
+        "title": "Выпуск 5",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e5"
+      },
+      {
+        "id": "tt31520694:2:6",
+        "season": 2,
+        "episode": 6,
+        "title": "Выпуск 6",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e6"
+      },
+      {
+        "id": "tt31520694:2:7",
+        "season": 2,
+        "episode": 7,
+        "title": "Выпуск 7",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e7"
+      },
+      {
+        "id": "tt31520694:2:8",
+        "season": 2,
+        "episode": 8,
+        "title": "Выпуск 8",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e8"
+      },
+      {
+        "id": "tt31520694:2:9",
+        "season": 2,
+        "episode": 9,
+        "title": "Выпуск 9",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e9"
+      },
+      {
+        "id": "tt31520694:2:10",
+        "season": 2,
+        "episode": 10,
+        "title": "Выпуск 10",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e10"
+      },
+      {
+        "id": "tt31520694:2:11",
+        "season": 2,
+        "episode": 11,
+        "title": "Выпуск 11",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e11"
+      },
+      {
+        "id": "tt31520694:2:12",
+        "season": 2,
+        "episode": 12,
+        "title": "Выпуск 12",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e12"
+      },
+      {
+        "id": "tt31520694:2:13",
+        "season": 2,
+        "episode": 13,
+        "title": "Выпуск 13",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e13"
+      },
+      {
+        "id": "tt31520694:2:14",
+        "season": 2,
+        "episode": 14,
+        "title": "Выпуск 14",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e14"
+      },
+      {
+        "id": "tt31520694:2:15",
+        "season": 2,
+        "episode": 15,
+        "title": "Выпуск 15",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e15"
+      },
+      {
+        "id": "tt31520694:2:16",
+        "season": 2,
+        "episode": 16,
+        "title": "Выпуск 16",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e16"
+      },
+      {
+        "id": "tt31520694:2:17",
+        "season": 2,
+        "episode": 17,
+        "title": "Выпуск 17",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e17"
+      },
+      {
+        "id": "tt31520694:2:18",
+        "season": 2,
+        "episode": 18,
+        "title": "Выпуск 18",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e18"
+      },
+      {
+        "id": "tt31520694:2:19",
+        "season": 2,
+        "episode": 19,
+        "title": "Выпуск 19",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s2/e19"
+      },
+      {
+        "id": "tt31520694:3:1",
+        "season": 3,
+        "episode": 1,
+        "title": "Выпуск 1",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e1"
+      },
+      {
+        "id": "tt31520694:3:2",
+        "season": 3,
+        "episode": 2,
+        "title": "Выпуск 2",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e2"
+      },
+      {
+        "id": "tt31520694:3:3",
+        "season": 3,
+        "episode": 3,
+        "title": "Выпуск 3",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e3"
+      },
+      {
+        "id": "tt31520694:3:4",
+        "season": 3,
+        "episode": 4,
+        "title": "Выпуск 4",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e4"
+      },
+      {
+        "id": "tt31520694:3:5",
+        "season": 3,
+        "episode": 5,
+        "title": "Выпуск 5",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e5"
+      },
+      {
+        "id": "tt31520694:3:6",
+        "season": 3,
+        "episode": 6,
+        "title": "Выпуск 6",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e6"
+      },
+      {
+        "id": "tt31520694:3:7",
+        "season": 3,
+        "episode": 7,
+        "title": "Выпуск 7",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e7"
+      },
+      {
+        "id": "tt31520694:3:8",
+        "season": 3,
+        "episode": 8,
+        "title": "Выпуск 8",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e8"
+      },
+      {
+        "id": "tt31520694:3:9",
+        "season": 3,
+        "episode": 9,
+        "title": "Выпуск 9",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e9"
+      },
+      {
+        "id": "tt31520694:3:10",
+        "season": 3,
+        "episode": 10,
+        "title": "Выпуск 10",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e10"
+      },
+      {
+        "id": "tt31520694:3:11",
+        "season": 3,
+        "episode": 11,
+        "title": "Выпуск 11",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e11"
+      },
+      {
+        "id": "tt31520694:3:12",
+        "season": 3,
+        "episode": 12,
+        "title": "Выпуск 12",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e12"
+      },
+      {
+        "id": "tt31520694:3:13",
+        "season": 3,
+        "episode": 13,
+        "title": "Выпуск 13",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e13"
+      },
+      {
+        "id": "tt31520694:3:14",
+        "season": 3,
+        "episode": 14,
+        "title": "Выпуск 14",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e14"
+      },
+      {
+        "id": "tt31520694:3:15",
+        "season": 3,
+        "episode": 15,
+        "title": "Выпуск 15",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e15"
+      },
+      {
+        "id": "tt31520694:3:16",
+        "season": 3,
+        "episode": 16,
+        "title": "Выпуск 16",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e16"
+      },
+      {
+        "id": "tt31520694:3:17",
+        "season": 3,
+        "episode": 17,
+        "title": "Выпуск 17",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e17"
+      },
+      {
+        "id": "tt31520694:3:18",
+        "season": 3,
+        "episode": 18,
+        "title": "Выпуск 18",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e18"
+      },
+      {
+        "id": "tt31520694:3:19",
+        "season": 3,
+        "episode": 19,
+        "title": "Выпуск 19",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s3/e19"
+      },
+      {
+        "id": "tt31520694:4:1",
+        "season": 4,
+        "episode": 1,
+        "title": "Выпуск 1",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s4/e1"
+      },
+      {
+        "id": "tt31520694:4:2",
+        "season": 4,
+        "episode": 2,
+        "title": "Выпуск 2",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s4/e2"
+      },
+      {
+        "id": "tt31520694:4:3",
+        "season": 4,
+        "episode": 3,
+        "title": "Выпуск 3",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s4/e3"
+      },
+      {
+        "id": "tt31520694:4:4",
+        "season": 4,
+        "episode": 4,
+        "title": "Выпуск 4",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s4/e4"
+      },
+      {
+        "id": "tt31520694:4:5",
+        "season": 4,
+        "episode": 5,
+        "title": "Выпуск 5",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s4/e5"
+      },
+      {
+        "id": "tt31520694:4:6",
+        "season": 4,
+        "episode": 6,
+        "title": "Выпуск 6",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s4/e6"
+      },
+      {
+        "id": "tt31520694:4:7",
+        "season": 4,
+        "episode": 7,
+        "title": "Выпуск 7",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s4/e7"
+      },
+      {
+        "id": "tt31520694:4:8",
+        "season": 4,
+        "episode": 8,
+        "title": "Выпуск 8",
+        "description": "",
+        "released": "",
+        "source": "https://chef.friday.ru/videos/s4/e8"
+      }
+    ]
+  },
+  "tt32370407": {
+    "episodeSources": [
+      "https://premier.one/show/titany/season/1",
+      "https://premier.one/show/titany/season/2",
+      "https://premier.one/show/titany/season/3",
+      "https://premier.one/show/titany/season/4",
+      "https://premier.one/show/titany/season/5",
+      "https://www.thetvdb.com/series/titany/allseasons/official"
+    ],
+    "videos": [
+      {
+        "id": "tt32370407:1:1",
+        "season": 1,
+        "episode": 1,
+        "title": "Выпуск 1",
+        "description": "",
+        "released": "2024-05-26",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:2",
+        "season": 1,
+        "episode": 2,
+        "title": "Выпуск 2",
+        "description": "",
+        "released": "2024-06-02",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:3",
+        "season": 1,
+        "episode": 3,
+        "title": "Выпуск 3",
+        "description": "",
+        "released": "2024-06-09",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:4",
+        "season": 1,
+        "episode": 4,
+        "title": "Выпуск 4",
+        "description": "",
+        "released": "2024-06-16",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:5",
+        "season": 1,
+        "episode": 5,
+        "title": "Выпуск 5",
+        "description": "",
+        "released": "2024-06-23",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:6",
+        "season": 1,
+        "episode": 6,
+        "title": "Выпуск 6",
+        "description": "",
+        "released": "2024-06-30",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:7",
+        "season": 1,
+        "episode": 7,
+        "title": "Выпуск 7",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:8",
+        "season": 1,
+        "episode": 8,
+        "title": "Выпуск 8",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:9",
+        "season": 1,
+        "episode": 9,
+        "title": "Выпуск 9",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:10",
+        "season": 1,
+        "episode": 10,
+        "title": "Выпуск 10",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:11",
+        "season": 1,
+        "episode": 11,
+        "title": "Выпуск 11",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:1:12",
+        "season": 1,
+        "episode": 12,
+        "title": "Выпуск 12",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/1"
+      },
+      {
+        "id": "tt32370407:2:1",
+        "season": 2,
+        "episode": 1,
+        "title": "Выпуск 1",
+        "description": "",
+        "released": "2025-01-26",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:2",
+        "season": 2,
+        "episode": 2,
+        "title": "Выпуск 2",
+        "description": "",
+        "released": "2025-02-02",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:3",
+        "season": 2,
+        "episode": 3,
+        "title": "Выпуск 3",
+        "description": "",
+        "released": "2025-02-09",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:4",
+        "season": 2,
+        "episode": 4,
+        "title": "Выпуск 4",
+        "description": "",
+        "released": "2025-02-16",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:5",
+        "season": 2,
+        "episode": 5,
+        "title": "Выпуск 5",
+        "description": "",
+        "released": "2025-02-23",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:6",
+        "season": 2,
+        "episode": 6,
+        "title": "Выпуск 6",
+        "description": "",
+        "released": "2025-03-02",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:7",
+        "season": 2,
+        "episode": 7,
+        "title": "Выпуск 7",
+        "description": "",
+        "released": "2025-03-09",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:8",
+        "season": 2,
+        "episode": 8,
+        "title": "Выпуск 8",
+        "description": "",
+        "released": "2025-03-16",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:9",
+        "season": 2,
+        "episode": 9,
+        "title": "Выпуск 9",
+        "description": "",
+        "released": "2025-03-23",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:10",
+        "season": 2,
+        "episode": 10,
+        "title": "Выпуск 10",
+        "description": "",
+        "released": "2025-03-30",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:11",
+        "season": 2,
+        "episode": 11,
+        "title": "Выпуск 11",
+        "description": "",
+        "released": "2025-04-06",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:12",
+        "season": 2,
+        "episode": 12,
+        "title": "Выпуск 12",
+        "description": "",
+        "released": "2025-04-13",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:13",
+        "season": 2,
+        "episode": 13,
+        "title": "Выпуск 13",
+        "description": "",
+        "released": "2025-04-20",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:14",
+        "season": 2,
+        "episode": 14,
+        "title": "Выпуск 14",
+        "description": "",
+        "released": "2025-04-27",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:15",
+        "season": 2,
+        "episode": 15,
+        "title": "Выпуск 15",
+        "description": "",
+        "released": "2025-05-04",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:2:16",
+        "season": 2,
+        "episode": 16,
+        "title": "Выпуск 16",
+        "description": "",
+        "released": "2025-05-11",
+        "source": "https://premier.one/show/titany/season/2"
+      },
+      {
+        "id": "tt32370407:3:1",
+        "season": 3,
+        "episode": 1,
+        "title": "Выпуск 1",
+        "description": "",
+        "released": "2025-09-21",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:2",
+        "season": 3,
+        "episode": 2,
+        "title": "Выпуск 2",
+        "description": "",
+        "released": "2025-09-28",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:3",
+        "season": 3,
+        "episode": 3,
+        "title": "Выпуск 3",
+        "description": "",
+        "released": "2025-10-05",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:4",
+        "season": 3,
+        "episode": 4,
+        "title": "Выпуск 4",
+        "description": "",
+        "released": "2025-10-12",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:5",
+        "season": 3,
+        "episode": 5,
+        "title": "Выпуск 5",
+        "description": "",
+        "released": "2025-10-19",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:6",
+        "season": 3,
+        "episode": 6,
+        "title": "Выпуск 6",
+        "description": "",
+        "released": "2025-10-26",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:7",
+        "season": 3,
+        "episode": 7,
+        "title": "Выпуск 7",
+        "description": "",
+        "released": "2025-11-02",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:8",
+        "season": 3,
+        "episode": 8,
+        "title": "Выпуск 8",
+        "description": "",
+        "released": "2025-11-09",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:9",
+        "season": 3,
+        "episode": 9,
+        "title": "Выпуск 9",
+        "description": "",
+        "released": "2025-11-16",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:10",
+        "season": 3,
+        "episode": 10,
+        "title": "Выпуск 10",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:11",
+        "season": 3,
+        "episode": 11,
+        "title": "Выпуск 11",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:12",
+        "season": 3,
+        "episode": 12,
+        "title": "Выпуск 12",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:13",
+        "season": 3,
+        "episode": 13,
+        "title": "Выпуск 13",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:3:14",
+        "season": 3,
+        "episode": 14,
+        "title": "Выпуск 14",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/3"
+      },
+      {
+        "id": "tt32370407:4:1",
+        "season": 4,
+        "episode": 1,
+        "title": "Выпуск 1",
+        "description": "",
+        "released": "2026-01-25",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:2",
+        "season": 4,
+        "episode": 2,
+        "title": "Выпуск 2",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:3",
+        "season": 4,
+        "episode": 3,
+        "title": "Выпуск 3",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:4",
+        "season": 4,
+        "episode": 4,
+        "title": "Выпуск 4",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:5",
+        "season": 4,
+        "episode": 5,
+        "title": "Выпуск 5",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:6",
+        "season": 4,
+        "episode": 6,
+        "title": "Выпуск 6",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:7",
+        "season": 4,
+        "episode": 7,
+        "title": "Выпуск 7",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:8",
+        "season": 4,
+        "episode": 8,
+        "title": "Выпуск 8",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:9",
+        "season": 4,
+        "episode": 9,
+        "title": "Выпуск 9",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:10",
+        "season": 4,
+        "episode": 10,
+        "title": "Выпуск 10",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:11",
+        "season": 4,
+        "episode": 11,
+        "title": "Выпуск 11",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:12",
+        "season": 4,
+        "episode": 12,
+        "title": "Выпуск 12",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:13",
+        "season": 4,
+        "episode": 13,
+        "title": "Выпуск 13",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:4:14",
+        "season": 4,
+        "episode": 14,
+        "title": "Выпуск 14",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/4"
+      },
+      {
+        "id": "tt32370407:5:1",
+        "season": 5,
+        "episode": 1,
+        "title": "Выпуск 1",
+        "description": "",
+        "released": "2026-09-13",
+        "source": "https://premier.one/show/titany/season/5"
+      },
+      {
+        "id": "tt32370407:5:2",
+        "season": 5,
+        "episode": 2,
+        "title": "Выпуск 2",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/5"
+      },
+      {
+        "id": "tt32370407:5:3",
+        "season": 5,
+        "episode": 3,
+        "title": "Выпуск 3",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/5"
+      },
+      {
+        "id": "tt32370407:5:4",
+        "season": 5,
+        "episode": 4,
+        "title": "Выпуск 4",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/5"
+      },
+      {
+        "id": "tt32370407:5:5",
+        "season": 5,
+        "episode": 5,
+        "title": "Выпуск 5",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/5"
+      },
+      {
+        "id": "tt32370407:5:6",
+        "season": 5,
+        "episode": 6,
+        "title": "Выпуск 6",
+        "description": "",
+        "released": "",
+        "source": "https://premier.one/show/titany/season/5"
+      }
+    ]
   }
 }

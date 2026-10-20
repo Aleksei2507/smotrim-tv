@@ -1,0 +1,58 @@
+{
+  "id": "tt33764258",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/dc4cffa9fd3e2dde0585499997a96b1f5fb666cd52615510d615642c9bf87ebe.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b1a8215d2764d7b4f45c2d48c89c3f7dfd8bb8ab05cf08669e922f22e8d69594.jpg",
+  "genres": [
+    "Боевик",
+    "Приключения",
+    "Фэнтези"
+  ],
+  "runtime": "173 мин",
+  "imdbRating": "8.4",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "AyIZ9tiiN8I",
+      "type": "Trailer"
+    },
+    {
+      "source": "f_bKjZeJBBI",
+      "type": "Trailer"
+    },
+    {
+      "source": "Mzw2ttJD2qQ",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Одиссея",
+  "origin": "other",
+  "year": "2026",
+  "aliases": [
+    "Одиссея",
+    "The Odyssey",
+    "Одессея",
+    "Одессейя"
+  ],
+  "description": "После Троянской войны Одиссей пытается вернуться домой на Итаку, где его ждут жена Пенелопа и сын Телемах. Путь превращается в опасное путешествие: герою предстоит столкнуться с мифическими существами, волей богов и испытаниями собственной решимости. Экранизация поэмы Гомера от Кристофера Нолана. Цифровой релиз — 17 ноября 2026 года.",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt33764258.json",
+    "https://www.imdb.com/title/tt33764258/",
+    "https://www.odysseymovie.com/",
+    "https://www.universalpicturesathome.com/movies/the-odyssey-2026"
+  ],
+  "imdbId": "tt33764258",
+  "ids": [
+    "tt33764258"
+  ],
+  "originalName": "The Odyssey",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-20T15:34:34Z",
+  "sources": [],
+  "sourcesUpdatedAt": "2026-10-20T15:34:34Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt33764258/img",
+    "background": "https://images.metahub.space/background/medium/tt33764258/img"
+  }
+}

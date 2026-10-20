@@ -84,6 +84,11 @@ def variants(seed, metadata, rows):
         title = source.get('title', '')
         if not title_matches(title, aliases, year, seed['type']=='movie') or source.get('seeds', 0) <= 0:
             continue
+        # Homonymous shows can share a Russian title but predate this production.
+        if seed.get('sourceYearMin'):
+            release_year = re.search(r'(?<!\d)((?:19|20)\d{2})(?!\d)', title)
+            if not release_year or int(release_year[1]) < int(seed['sourceYearMin']):
+                continue
         voice = russian_audio(title, seed['origin'])
         magnet = source.get('magnet', '')
         match = re.search(r'(?i)xt=urn:btih:([a-f0-9]{40})(?:&|$)', magnet)

@@ -1,0 +1,698 @@
+{
+  "id": "tt31520694",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c582e951d683c8073776a9f5001d8ffa2e708b6b41c787765123065eb341739f.jpg",
+  "genres": [
+    "Реалити-шоу",
+    "Телеигра"
+  ],
+  "releaseInfo": "2022–",
+  "name": "Адский шеф",
+  "kind": "show",
+  "origin": "ru",
+  "year": "2022",
+  "kpId": 5189047,
+  "defaultSeason": 1,
+  "sourceYearMin": 2022,
+  "aliases": [
+    "Адский шеф",
+    "Адский Шеф",
+    "Hell's Chef"
+  ],
+  "searchName": "Адский шеф",
+  "description": "Константин Ивлев проверяет мастерство поваров в кулинарных испытаниях. Участникам предстоит справляться с необычными условиями, работать в команде и бороться за победу.",
+  "metadataSources": [
+    "https://chef.friday.ru/",
+    "https://www.kinopoisk.ru/series/5189047/",
+    "https://chef.friday.ru/videos/s1",
+    "https://chef.friday.ru/videos/s2",
+    "https://chef.friday.ru/videos/s3",
+    "https://chef.friday.ru/videos/s4"
+  ],
+  "imdbId": "tt31520694",
+  "ids": [
+    "tt31520694",
+    "kp:5189047"
+  ],
+  "originalName": "Адский шеф",
+  "localized": true,
+  "updatedAt": "2026-10-20T15:34:34Z",
+  "videos": [
+    {
+      "id": "tt31520694:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Выпуск 1",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e1"
+    },
+    {
+      "id": "tt31520694:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Выпуск 2",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e2"
+    },
+    {
+      "id": "tt31520694:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Выпуск 3",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e3"
+    },
+    {
+      "id": "tt31520694:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Выпуск 4",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e4"
+    },
+    {
+      "id": "tt31520694:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Выпуск 5",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e5"
+    },
+    {
+      "id": "tt31520694:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Выпуск 6",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e6"
+    },
+    {
+      "id": "tt31520694:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Выпуск 7",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e7"
+    },
+    {
+      "id": "tt31520694:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Выпуск 8",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e8"
+    },
+    {
+      "id": "tt31520694:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Выпуск 9",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e9"
+    },
+    {
+      "id": "tt31520694:1:10",
+      "season": 1,
+      "episode": 10,
+      "title": "Выпуск 10",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e10"
+    },
+    {
+      "id": "tt31520694:1:11",
+      "season": 1,
+      "episode": 11,
+      "title": "Выпуск 11",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e11"
+    },
+    {
+      "id": "tt31520694:1:12",
+      "season": 1,
+      "episode": 12,
+      "title": "Выпуск 12",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e12"
+    },
+    {
+      "id": "tt31520694:1:13",
+      "season": 1,
+      "episode": 13,
+      "title": "Выпуск 13",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e13"
+    },
+    {
+      "id": "tt31520694:1:14",
+      "season": 1,
+      "episode": 14,
+      "title": "Выпуск 14",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e14"
+    },
+    {
+      "id": "tt31520694:1:15",
+      "season": 1,
+      "episode": 15,
+      "title": "Выпуск 15",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e15"
+    },
+    {
+      "id": "tt31520694:1:16",
+      "season": 1,
+      "episode": 16,
+      "title": "Выпуск 16",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e16"
+    },
+    {
+      "id": "tt31520694:1:17",
+      "season": 1,
+      "episode": 17,
+      "title": "Выпуск 17",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e17"
+    },
+    {
+      "id": "tt31520694:1:18",
+      "season": 1,
+      "episode": 18,
+      "title": "Выпуск 18",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s1/e18"
+    },
+    {
+      "id": "tt31520694:1:19",
+      "season": 1,
+      "episode": 19,
+      "title": "Выпуск 19 · Итоги сезона",
+      "description": "Специальный выпуск: путь участников от знакомства с шефом до завершения первого сезона.",
+      "released": "2022-12-21",
+      "source": "https://chef.friday.ru/videos/s1/e19"
+    },
+    {
+      "id": "tt31520694:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Выпуск 1",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e1"
+    },
+    {
+      "id": "tt31520694:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Выпуск 2",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e2"
+    },
+    {
+      "id": "tt31520694:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Выпуск 3",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e3"
+    },
+    {
+      "id": "tt31520694:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Выпуск 4",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e4"
+    },
+    {
+      "id": "tt31520694:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Выпуск 5",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e5"
+    },
+    {
+      "id": "tt31520694:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Выпуск 6",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e6"
+    },
+    {
+      "id": "tt31520694:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Выпуск 7",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e7"
+    },
+    {
+      "id": "tt31520694:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Выпуск 8",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e8"
+    },
+    {
+      "id": "tt31520694:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Выпуск 9",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e9"
+    },
+    {
+      "id": "tt31520694:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Выпуск 10",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e10"
+    },
+    {
+      "id": "tt31520694:2:11",
+      "season": 2,
+      "episode": 11,
+      "title": "Выпуск 11",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e11"
+    },
+    {
+      "id": "tt31520694:2:12",
+      "season": 2,
+      "episode": 12,
+      "title": "Выпуск 12",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e12"
+    },
+    {
+      "id": "tt31520694:2:13",
+      "season": 2,
+      "episode": 13,
+      "title": "Выпуск 13",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e13"
+    },
+    {
+      "id": "tt31520694:2:14",
+      "season": 2,
+      "episode": 14,
+      "title": "Выпуск 14",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e14"
+    },
+    {
+      "id": "tt31520694:2:15",
+      "season": 2,
+      "episode": 15,
+      "title": "Выпуск 15",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e15"
+    },
+    {
+      "id": "tt31520694:2:16",
+      "season": 2,
+      "episode": 16,
+      "title": "Выпуск 16",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e16"
+    },
+    {
+      "id": "tt31520694:2:17",
+      "season": 2,
+      "episode": 17,
+      "title": "Выпуск 17",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e17"
+    },
+    {
+      "id": "tt31520694:2:18",
+      "season": 2,
+      "episode": 18,
+      "title": "Выпуск 18",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e18"
+    },
+    {
+      "id": "tt31520694:2:19",
+      "season": 2,
+      "episode": 19,
+      "title": "Выпуск 19",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s2/e19"
+    },
+    {
+      "id": "tt31520694:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Выпуск 1",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e1"
+    },
+    {
+      "id": "tt31520694:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Выпуск 2",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e2"
+    },
+    {
+      "id": "tt31520694:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Выпуск 3",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e3"
+    },
+    {
+      "id": "tt31520694:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Выпуск 4",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e4"
+    },
+    {
+      "id": "tt31520694:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Выпуск 5",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e5"
+    },
+    {
+      "id": "tt31520694:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Выпуск 6",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e6"
+    },
+    {
+      "id": "tt31520694:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Выпуск 7",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e7"
+    },
+    {
+      "id": "tt31520694:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Выпуск 8",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e8"
+    },
+    {
+      "id": "tt31520694:3:9",
+      "season": 3,
+      "episode": 9,
+      "title": "Выпуск 9",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e9"
+    },
+    {
+      "id": "tt31520694:3:10",
+      "season": 3,
+      "episode": 10,
+      "title": "Выпуск 10",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e10"
+    },
+    {
+      "id": "tt31520694:3:11",
+      "season": 3,
+      "episode": 11,
+      "title": "Выпуск 11",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e11"
+    },
+    {
+      "id": "tt31520694:3:12",
+      "season": 3,
+      "episode": 12,
+      "title": "Выпуск 12",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e12"
+    },
+    {
+      "id": "tt31520694:3:13",
+      "season": 3,
+      "episode": 13,
+      "title": "Выпуск 13",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e13"
+    },
+    {
+      "id": "tt31520694:3:14",
+      "season": 3,
+      "episode": 14,
+      "title": "Выпуск 14",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e14"
+    },
+    {
+      "id": "tt31520694:3:15",
+      "season": 3,
+      "episode": 15,
+      "title": "Выпуск 15",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e15"
+    },
+    {
+      "id": "tt31520694:3:16",
+      "season": 3,
+      "episode": 16,
+      "title": "Выпуск 16",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e16"
+    },
+    {
+      "id": "tt31520694:3:17",
+      "season": 3,
+      "episode": 17,
+      "title": "Выпуск 17",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e17"
+    },
+    {
+      "id": "tt31520694:3:18",
+      "season": 3,
+      "episode": 18,
+      "title": "Выпуск 18",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e18"
+    },
+    {
+      "id": "tt31520694:3:19",
+      "season": 3,
+      "episode": 19,
+      "title": "Выпуск 19",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s3/e19"
+    },
+    {
+      "id": "tt31520694:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Выпуск 1",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s4/e1"
+    },
+    {
+      "id": "tt31520694:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Выпуск 2",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s4/e2"
+    },
+    {
+      "id": "tt31520694:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Выпуск 3",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s4/e3"
+    },
+    {
+      "id": "tt31520694:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Выпуск 4",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s4/e4"
+    },
+    {
+      "id": "tt31520694:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Выпуск 5",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s4/e5"
+    },
+    {
+      "id": "tt31520694:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Выпуск 6",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s4/e6"
+    },
+    {
+      "id": "tt31520694:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Выпуск 7",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s4/e7"
+    },
+    {
+      "id": "tt31520694:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Выпуск 8",
+      "description": "",
+      "released": "",
+      "source": "https://chef.friday.ru/videos/s4/e8"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Адский шеф [01-19 из 19] (2022) WEBRip 1080p  от Files-x",
+      "magnet": "magnet:?xt=urn:btih:e5b20a67eb8b99cf229090b042462234d76f71a6&dn=rutor.info_%D0%90%D0%B4%D1%81%D0%BA%D0%B8%D0%B9+%D1%88%D0%B5%D1%84+%5B01-19+%D0%B8%D0%B7+19%5D+%282022%29+WEBRip+1080p++%D0%BE%D1%82+Files-x&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "Rutor",
+      "bytes": 86385977131,
+      "size": "80.45 GB",
+      "season": 1,
+      "episode": 0,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Адский шеф [01-19 из 19] (2022) WEBRip 1080p  от Files-x",
+      "episodeFrom": 1,
+      "episodeTo": 19
+    },
+    {
+      "title": "Адский шеф [S03] (2024) WEBRip 720p  от Files-x",
+      "magnet": "magnet:?xt=urn:btih:6c24623337796d87e1ad8b694f274a7041cab9c9&dn=rutor.info_%D0%90%D0%B4%D1%81%D0%BA%D0%B8%D0%B9+%D1%88%D0%B5%D1%84+%5BS03%5D+%282024%29+WEBRip+720p++%D0%BE%D1%82+Files-x&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "Rutor",
+      "bytes": 68249641393,
+      "size": "63.56 GB",
+      "episode": 0,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Адский шеф [S03] (2024) WEBRip 720p  от Files-x",
+      "episodeFrom": 1,
+      "episodeTo": 19
+    },
+    {
+      "title": "Адский шеф [04x01-08] (2026) WEBRip 720p  от Files-x",
+      "magnet": "magnet:?xt=urn:btih:3cd5c97791ca0f352e28843e748a87673b918f8d&dn=rutor.info_%D0%90%D0%B4%D1%81%D0%BA%D0%B8%D0%B9+%D1%88%D0%B5%D1%84+%5B04x01-08%5D+%282026%29+WEBRip+720p++%D0%BE%D1%82+Files-x&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "Rutor",
+      "bytes": 18772833030,
+      "size": "17.48 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Адский шеф [04x01-08] (2026) WEBRip 720p  от Files-x"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-20T15:34:34Z",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c582e951d683c8073776a9f5001d8ffa2e708b6b41c787765123065eb341739f.jpg",
+  "artworkSources": {
+    "poster": "https://kinopoiskapiunofficial.tech/images/posters/kp/5189047.jpg"
+  }
+}

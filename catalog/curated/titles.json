@@ -9,6 +9,24 @@
   ],
   "items": [
     {
+      "id": "tt33764258",
+      "name": "Одиссея",
+      "type": "movie",
+      "origin": "other",
+      "year": "2026",
+      "aliases": [
+        "The Odyssey",
+        "Одессея",
+        "Одессейя"
+      ],
+      "description": "После Троянской войны Одиссей пытается вернуться домой на Итаку, где его ждут жена Пенелопа и сын Телемах. Путь превращается в опасное путешествие: герою предстоит столкнуться с мифическими существами, волей богов и испытаниями собственной решимости. Экранизация поэмы Гомера от Кристофера Нолана. Цифровой релиз — 17 ноября 2026 года.",
+      "metadataSources": [
+        "https://www.imdb.com/title/tt33764258/",
+        "https://www.odysseymovie.com/",
+        "https://www.universalpicturesathome.com/movies/the-odyssey-2026"
+      ]
+    },
+    {
       "id": "tt3498820",
       "name": "Первый мститель: Противостояние",
       "year": "2016",
@@ -405,6 +423,49 @@
         "Выживалити Легенда Альфа"
       ],
       "searchName": "Выживалити"
+    },
+    {
+      "id": "tt31520694",
+      "name": "Адский шеф",
+      "type": "series",
+      "kind": "show",
+      "origin": "ru",
+      "year": 2022,
+      "kpId": 5189047,
+      "defaultSeason": 1,
+      "sourceYearMin": 2022,
+      "aliases": [
+        "Адский Шеф",
+        "Hell's Chef"
+      ],
+      "searchName": "Адский шеф",
+      "description": "Константин Ивлев проверяет мастерство поваров в кулинарных испытаниях. Участникам предстоит справляться с необычными условиями, работать в команде и бороться за победу.",
+      "metadataSources": [
+        "https://chef.friday.ru/",
+        "https://www.kinopoisk.ru/series/5189047/"
+      ]
+    },
+    {
+      "id": "tt32370407",
+      "name": "Титаны",
+      "type": "series",
+      "kind": "show",
+      "origin": "ru",
+      "year": 2024,
+      "kpId": 5582628,
+      "sourceYearMin": 2024,
+      "searchName": "Титаны",
+      "aliases": [
+        "Титаны. Битва сезонов",
+        "Титаны Битва сезонов",
+        "Titany"
+      ],
+      "description": "Спортсмены и другие участники проверяют силу, ловкость и выносливость в масштабных испытаниях. Приз победителю — 10 миллионов рублей. Четвёртый сезон — «Битва сезонов», в которой соревнуются участники прошлых лет.",
+      "metadataSources": [
+        "https://premier.one/show/titany",
+        "https://www.kinopoisk.ru/series/5582628/",
+        "https://www.thetvdb.com/series/titany/allseasons/official"
+      ]
     }
   ]
 }
