@@ -1,0 +1,161 @@
+{
+  "id": "tt23148340",
+  "type": "series",
+  "poster": "https://images.metahub.space/poster/small/tt23148340/img",
+  "background": "https://images.metahub.space/background/medium/tt23148340/img",
+  "genres": [
+    "Драма",
+    "Ужасы",
+    "Триллер"
+  ],
+  "runtime": "50 мин",
+  "imdbRating": "7.8",
+  "releaseInfo": "2026–",
+  "trailers": [
+    {
+      "source": "Rs49eRHFD9c",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Хрустальное озеро",
+  "description": "11 летний Джейсон, сын матери-одиночки Памелы Вурхиз, трагически погибает в детском лагере. Когда на пороге дома женщины появляются двое незнакомцев, желающих покопаться в её прошлом, запускается череда ужасающих событий.",
+  "aliases": [
+    "Хрустальное озеро",
+    "Crystal Lake"
+  ],
+  "kpId": 5244917,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt23148340.json",
+    "https://www.kinopoisk.ru/film/5244917/"
+  ],
+  "year": "2026",
+  "imdbId": "tt23148340",
+  "ids": [
+    "tt23148340"
+  ],
+  "originalName": "Crystal Lake",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-20T05:11:43Z",
+  "videos": [
+    {
+      "id": "tt23148340:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt23148340:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt23148340:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt23148340:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt23148340:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt23148340:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt23148340:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt23148340:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Хрустальное озеро / Crystal Lake [S01] (2026) WEB-DL 1080p | Novamedia, LostFilm, HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:6a66d7a5761ff99abbfead15978f01a20bcdb30e&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 31868657336,
+      "size": "29.68 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Хрустальное озеро / Crystal Lake [S01] (2026) WEB-DL 1080p | Novamedia, LostFilm, HDrezka Studio"
+    },
+    {
+      "title": "Хрустальное озеро / Crystal Lake (2026) WEB-DL [H.264/1080p] (сезон 1, серии 1 из 8) HDRezka (обновляемая)",
+      "magnet": "magnet:?xt=urn:btih:89EB295EDAF1C81603F5E85A8FEDA892D67640D7",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 4327179550,
+      "size": "4.03 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Хрустальное озеро / Crystal Lake (2026) WEB-DL [H.264/1080p] (сезон 1, серии 1 из 8) HDRezka (обновляемая)"
+    },
+    {
+      "title": "Хрустальное озеро / Crystal Lake (2026) WEB-DL [H.265/2160p] [4K, HDR10, DV 8.1, 10-bit] (сезон 1, серии 1-8 из 8) Novamedia, HDRezka (обновляемая)",
+      "magnet": "magnet:?xt=urn:btih:B1EACFCCC7C5F2D3C7295AE8C633763901416E19",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 48533130444,
+      "size": "45.20 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Хрустальное озеро / Crystal Lake (2026) WEB-DL [H.265/2160p] [4K, HDR10, DV 8.1, 10-bit] (сезон 1, серии 1-8 из 8) Novamedia, HDRezka (обновляемая)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-20T05:11:43Z"
+}

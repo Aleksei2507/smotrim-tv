@@ -1,0 +1,71 @@
+{
+  "id": "tt22444780",
+  "type": "movie",
+  "poster": "https://live.metahub.space/poster/small/tt22444780/img",
+  "background": "https://live.metahub.space/background/medium/tt22444780/img",
+  "genres": [
+    "Мелодрама"
+  ],
+  "runtime": "90 мин",
+  "imdbRating": "3.7",
+  "releaseInfo": "2023",
+  "trailers": [],
+  "name": "Эскортница",
+  "description": "Кристина — организатор выставок современного искусства, на деле же она организует развлечения для богатых клиентов в самых экзотических местах. На нее работают десятки элитных девушек со всего мира. Когда-то в прошлом Кристина тоже работала хостес на подобных вечеринках, но, будучи очень амбициозной, несколько лет назад полностью сменила имидж и стала менеджером экстра-класса. Но у этой работы есть и обратная сторона — постоянное присутствие криминала, полиции и спецслужб, а также срывы и интриги девушек, пытающихся оторвать кусок пирога побольше.",
+  "aliases": [
+    "Эскортница",
+    "Escort Girl"
+  ],
+  "kpId": 5117304,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt22444780.json",
+    "https://www.kinopoisk.ru/film/5117304/"
+  ],
+  "year": "2023",
+  "imdbId": "tt22444780",
+  "ids": [
+    "tt22444780"
+  ],
+  "originalName": "Escort Girl",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-20T05:11:43Z",
+  "sources": [
+    {
+      "title": "Эскортница (2023) WEB-DL 1080p",
+      "magnet": "magnet:?xt=urn:btih:f042b4701c3cdc6563289a4666d812a8e6ddf528&dn=Eskortnica-2023-WEB-DL-1080p&xl=3789518306&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/66787/",
+      "quality": "1080p",
+      "source": "JacRed · torrentby",
+      "bytes": 3790308638,
+      "size": "3.53 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Эскортница (2023) WEB-DL 1080p"
+    },
+    {
+      "title": "Эскортница (2023) WEBRip [H.264/1080p]",
+      "magnet": "magnet:?xt=urn:btih:64980C2213D784919E79D6C503542209CC2878EA",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 4048006676,
+      "size": "3.77 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Эскортница (2023) WEBRip [H.264/1080p]"
+    },
+    {
+      "title": "Эскортница (2023) WEB-DL 720p",
+      "magnet": "magnet:?xt=urn:btih:f13ec31f67df4fe05b8f83b94fd652f264a99cf0&dn=Eskortnica-2023-WEB-DL-720p&xl=2623364234&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/66784/",
+      "quality": "720p",
+      "source": "JacRed · torrentby",
+      "bytes": 2619930050,
+      "size": "2.44 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Эскортница (2023) WEB-DL 720p"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-20T05:11:43Z"
+}

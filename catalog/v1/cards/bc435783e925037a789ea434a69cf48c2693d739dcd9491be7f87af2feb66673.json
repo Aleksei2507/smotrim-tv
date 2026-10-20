@@ -1,0 +1,80 @@
+{
+  "id": "tt4131188",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8204722b408b95cc11fa176aaea0cc11c695b04af1981497fbf3c77f3d11a7eb.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5f560b18ae6db2f269355e39cd84677e3411e4eeac993b46b116e9ff342883cc.jpg",
+  "genres": [
+    "Драма"
+  ],
+  "runtime": "95 мин",
+  "imdbRating": "7.2",
+  "releaseInfo": "2014",
+  "trailers": [
+    {
+      "source": "1EZlt_pRwTE",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Испытание",
+  "description": "Они живут в степи. Отец и дочь. Ничто не может нарушить вечный порядок. Завтра наступает всегда. И каждое утро отец уезжает работать. И она  остается одна. Ждать отца. И чувствовать. Двое любят ее. Она любит каждого. Любовь нельзя поделить. \n\nОднажды решение приходит само. Оттуда, где солнце.",
+  "aliases": [
+    "Испытание",
+    "Test"
+  ],
+  "kpId": 578904,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt4131188.json",
+    "https://www.kinopoisk.ru/film/578904/"
+  ],
+  "year": "2014",
+  "imdbId": "tt4131188",
+  "ids": [
+    "tt4131188"
+  ],
+  "originalName": "Test",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-20T05:12:34Z",
+  "sources": [
+    {
+      "title": "Испытание (Александр Котт) [2014, Россия, драма, WEB-DL 1080p] Original Rus",
+      "magnet": "magnet:?xt=urn:btih:B77707DC2898846A0D55859191333E10D2525778&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 3435973836,
+      "size": "3.20 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Испытание (Александр Котт) [2014, Россия, драма, WEB-DL 1080p] Original Rus"
+    },
+    {
+      "title": "Испытание / 2014 / БП / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:CA74C61B5868D9B93E2AE76270258D16358424AA",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 3435973836,
+      "size": "3.20 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Испытание / 2014 / БП / WEB-DL (1080p)"
+    },
+    {
+      "title": "Испытание (2014) WEB-DLRip 720p | iTunes",
+      "magnet": "magnet:?xt=urn:btih:119a54d241135e3f69fa381560c27838d5c39330&dn=Ispytanie.2014.O.WEBDLRip.720p.mkv&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://opentracker.i2p.rocks:6969/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=udp://tracker.bitsearch.to:1337/announce&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://exodus.desync.com:6969&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · megapeer",
+      "bytes": 3092376453,
+      "size": "2.88 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Испытание (2014) WEB-DLRip 720p | iTunes"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-20T05:11:43Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt4131188/img",
+    "background": "https://images.metahub.space/background/medium/tt4131188/img"
+  }
+}

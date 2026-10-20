@@ -1,0 +1,554 @@
+{
+  "id": "tt10986410",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6dc3970d3bc4affe43669226f5b25b1267f1816f054f0464cafbbfe12878b86a.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2827cb66499973a3827dcd1d4d6edaef16073a2d1453cc981c0aa1931ed3ef46.jpg",
+  "genres": [
+    "Комедия",
+    "Драма",
+    "Спорт"
+  ],
+  "runtime": "43 мин",
+  "imdbRating": "8.7",
+  "releaseInfo": "2020–",
+  "trailers": [
+    {
+      "source": "BwPcMIDFVKw",
+      "type": "Trailer"
+    },
+    {
+      "source": "3u7EIiohs6U",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Тед Лассо",
+  "description": "Тренер сборной колледжа Канзаса по американскому футболу Тед Лассо — неисправимый оптимист, всеобщий любимец и звезда YouTube. Новая владелица одного заштатного английского футбольного клуба решает использовать его в своих хитрых планах и предлагает Теду должность главного тренера, рассчитывая, что тот развалит клуб. Ничего не смысля в этом виде спорта, Тед приступает к своим новым обязанностям со всем присущим ему энтузиазмом.",
+  "aliases": [
+    "Тед Лассо",
+    "Ted Lasso"
+  ],
+  "kpId": 1309707,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/1309707/"
+  ],
+  "year": "2020",
+  "imdbId": "tt10986410",
+  "ids": [
+    "tt10986410"
+  ],
+  "originalName": "Ted Lasso",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-20T05:11:43Z",
+  "videos": [
+    {
+      "id": "tt10986410:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Пилотная серия",
+      "description": "",
+      "released": "2020-08-14"
+    },
+    {
+      "id": "tt10986410:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Печенье",
+      "description": "",
+      "released": "2020-08-14"
+    },
+    {
+      "id": "tt10986410:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Трент Кримм, издание The Independent",
+      "description": "",
+      "released": "2020-08-14"
+    },
+    {
+      "id": "tt10986410:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Ради детей",
+      "description": "",
+      "released": "2020-08-21"
+    },
+    {
+      "id": "tt10986410:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Линия загара",
+      "description": "",
+      "released": "2020-08-28"
+    },
+    {
+      "id": "tt10986410:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Два туза",
+      "description": "",
+      "released": "2020-09-04"
+    },
+    {
+      "id": "tt10986410:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Вернём Ребекке былое величие",
+      "description": "",
+      "released": "2020-09-11"
+    },
+    {
+      "id": "tt10986410:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Бриллиантовые псы",
+      "description": "",
+      "released": "2020-09-18"
+    },
+    {
+      "id": "tt10986410:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Извинения",
+      "description": "",
+      "released": "2020-09-25"
+    },
+    {
+      "id": "tt10986410:1:10",
+      "season": 1,
+      "episode": 10,
+      "title": "Надежда убивает",
+      "description": "",
+      "released": "2020-10-02"
+    },
+    {
+      "id": "tt10986410:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Прощай, Эрл",
+      "description": "",
+      "released": "2021-07-23"
+    },
+    {
+      "id": "tt10986410:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Лаванда",
+      "description": "",
+      "released": "2021-07-30"
+    },
+    {
+      "id": "tt10986410:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Правильнее всего",
+      "description": "",
+      "released": "2021-08-06"
+    },
+    {
+      "id": "tt10986410:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Дух Рождества",
+      "description": "",
+      "released": "2021-08-13"
+    },
+    {
+      "id": "tt10986410:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Радуга",
+      "description": "",
+      "released": "2021-08-20"
+    },
+    {
+      "id": "tt10986410:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Сигнал",
+      "description": "",
+      "released": "2021-08-27"
+    },
+    {
+      "id": "tt10986410:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Пространство",
+      "description": "",
+      "released": "2021-09-03"
+    },
+    {
+      "id": "tt10986410:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Ман Сити",
+      "description": "",
+      "released": "2021-09-10"
+    },
+    {
+      "id": "tt10986410:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Бирд вне работы",
+      "description": "",
+      "released": "2021-09-17"
+    },
+    {
+      "id": "tt10986410:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Ни одной свадьбы и похороны",
+      "description": "",
+      "released": "2021-09-24"
+    },
+    {
+      "id": "tt10986410:2:11",
+      "season": 2,
+      "episode": 11,
+      "title": "Ночной поезд в Ройстон",
+      "description": "",
+      "released": "2021-10-01"
+    },
+    {
+      "id": "tt10986410:2:12",
+      "season": 2,
+      "episode": 12,
+      "title": "Переворачивание пирамиды успеха",
+      "description": "",
+      "released": "2021-10-08"
+    },
+    {
+      "id": "tt10986410:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Далеко до нирваны",
+      "description": "",
+      "released": "2023-03-15"
+    },
+    {
+      "id": "tt10986410:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "(Я не хочу в) Челси",
+      "description": "",
+      "released": "2023-03-22"
+    },
+    {
+      "id": "tt10986410:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2023-03-29"
+    },
+    {
+      "id": "tt10986410:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Важная неделя",
+      "description": "",
+      "released": "2023-04-05"
+    },
+    {
+      "id": "tt10986410:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Знаки",
+      "description": "",
+      "released": "2023-04-12"
+    },
+    {
+      "id": "tt10986410:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Подсолнухи",
+      "description": "",
+      "released": "2023-04-19"
+    },
+    {
+      "id": "tt10986410:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Нити, которые нас держат",
+      "description": "",
+      "released": "2023-04-26"
+    },
+    {
+      "id": "tt10986410:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Не видать нам Париж как своих ушей",
+      "description": "",
+      "released": "2023-05-03"
+    },
+    {
+      "id": "tt10986410:3:9",
+      "season": 3,
+      "episode": 9,
+      "title": "Раздевалка для чудаков",
+      "description": "",
+      "released": "2023-05-10"
+    },
+    {
+      "id": "tt10986410:3:10",
+      "season": 3,
+      "episode": 10,
+      "title": "Перерыв на чемпионат",
+      "description": "",
+      "released": "2023-05-17"
+    },
+    {
+      "id": "tt10986410:3:11",
+      "season": 3,
+      "episode": 11,
+      "title": "Мамчестер",
+      "description": "",
+      "released": "2023-05-24"
+    },
+    {
+      "id": "tt10986410:3:12",
+      "season": 3,
+      "episode": 12,
+      "title": "Пока! Прощай!",
+      "description": "",
+      "released": "2023-05-31"
+    },
+    {
+      "id": "tt10986410:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt10986410:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt10986410:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt10986410:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt10986410:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt10986410:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt10986410:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt10986410:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt10986410:4:9",
+      "season": 4,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt10986410:4:10",
+      "season": 4,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2026-01-01"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Тед Лассо / Ted Lasso [S01] (2020) WEB-DL 1080p | HDRezka Studio, TVShows, Ideafilm",
+      "magnet": "magnet:?xt=urn:btih:fdbc02365ebcd22dbea0d39e0ab0eab40807ea08&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 28711856373,
+      "size": "26.74 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тед Лассо / Ted Lasso [S01] (2020) WEB-DL 1080p | HDRezka Studio, TVShows, Ideafilm"
+    },
+    {
+      "title": "Тед Лассо / Ted Lasso / Сезон: 1 / Серии: 1-10 из 10 (Том Маршалл, Деклан Лауни, Эллиот Хегарти) [2020, Великобритания, США, Комедия, Спорт, WEB-DL 1080p] MVO (TVShows) + Original + Sub (Eng, Rus)",
+      "magnet": "magnet:?xt=urn:btih:74E762B3E1B7CF98CC498B8A1E85CD22C1BBD3C4&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 26295937269,
+      "size": "24.49 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тед Лассо / Ted Lasso / Сезон: 1 / Серии: 1-10 из 10 (Том Маршалл, Деклан Лауни, Эллиот Хегарти) [2020, Великобритания, США, Комедия, Спорт, WEB-DL 1080p] MVO (TVShows) + Original + Sub (Eng, Rus)"
+    },
+    {
+      "title": "Тед Лассо (1 сезон: 1-10 серий из 10) / Ted Lasso / 2020 / ПМ (HDRezka Studio), ДБ (Пифагор), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:F7C061FD7FAF32CB62E9001C2DD11BC526FBC085",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 11446087843,
+      "size": "10.66 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тед Лассо (1 сезон: 1-10 серий из 10) / Ted Lasso / 2020 / ПМ (HDRezka Studio), ДБ (Пифагор), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Тед Лассо (2 сезон: 1-12 серии из 12) / Ted Lasso / 2021 / ДБ (Пифагор), ПМ (HDRezka Studio), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:402C3F9A8C0EA7A877B2686C40CEA27CCD30BE20",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 16481936998,
+      "size": "15.35 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 12,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тед Лассо (2 сезон: 1-12 серии из 12) / Ted Lasso / 2021 / ДБ (Пифагор), ПМ (HDRezka Studio), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Тед Лассо / Ted Lasso [S04] (2026) WEB-DL 1080p от Scarabey | D | Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:dfba59895929c3b15196d0e805dc1bc8487ebfbf&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 39384850104,
+      "size": "36.68 GB",
+      "episode": 0,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тед Лассо / Ted Lasso [S04] (2026) WEB-DL 1080p от Scarabey | D | Red Head Sound"
+    },
+    {
+      "title": "Тед Лассо (4 сезон: 1-8 серии из 10) / Ted Lasso / 2026 / ДБ (Red Head Sound), СТ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:4AF615D32BAEF9C30193F8763AEA7D5A3745BFEB",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 31127775477,
+      "size": "28.99 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тед Лассо (4 сезон: 1-8 серии из 10) / Ted Lasso / 2026 / ДБ (Red Head Sound), СТ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Тед Лассо / Ted Lasso / Сезон: 4 / Серии: 1-9 из 10 (Элли Хейдон, Эрика Дантон, М.Дж. Делани, Деклан Лауни) [2026, США, Великобритания, Комедия, спорт, WEB-DL 1080p] MVO + Dub (Red Head Sound) + DVO (ViruseProject) + Original + Sub (Rus, Ukr, Eng, Heb)",
+      "magnet": "magnet:?xt=urn:btih:052FF8FCF6088B1C9564CF964E48439C4E6A036B&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 39449274613,
+      "size": "36.74 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тед Лассо / Ted Lasso / Сезон: 4 / Серии: 1-9 из 10 (Элли Хейдон, Эрика Дантон, М.Дж. Делани, Деклан Лауни) [2026, США, Великобритания, Комедия, спорт, WEB-DL 1080p] MVO + Dub (Red Head Sound) + DVO (ViruseProject) + Original + Sub (Rus, Ukr, Eng, Heb)"
+    },
+    {
+      "title": "Тед Лассо (4 сезон: 1-9 серии из 10) / Ted Lasso / 2026 / ДБ (Red Head Sound), 4 x ПМ, ПМ, ПД, СТ / 4K, HEVC, HDR, HDR10+, DV P8 / WEB-DL (2160p)",
+      "magnet": "magnet:?xt=urn:btih:FBE62190FC4E17D87BAC4275FECE21D70779F061",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 83268678451,
+      "size": "77.55 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тед Лассо (4 сезон: 1-9 серии из 10) / Ted Lasso / 2026 / ДБ (Red Head Sound), 4 x ПМ, ПМ, ПД, СТ / 4K, HEVC, HDR, HDR10+, DV P8 / WEB-DL (2160p)"
+    },
+    {
+      "title": "Тед Лассо / Ted Lasso / Сезон: 4 / Серии: 1-10 из 10 (М.Дж. Делани) [2026, США, Великобритания, комедия, спорт, SDR, WEB-DL 2160p, 4k] Dub (Red Head Sound) + MVO (NewComers, HDrezka, AlexFilm, TVShows) + DVO (Viruse Project) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:79EA0BD2D93424AB3297BF89920A6DC87DB1D95D&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 81905026334,
+      "size": "76.28 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тед Лассо / Ted Lasso / Сезон: 4 / Серии: 1-10 из 10 (М.Дж. Делани) [2026, США, Великобритания, комедия, спорт, SDR, WEB-DL 2160p, 4k] Dub (Red Head Sound) + MVO (NewComers, HDrezka, AlexFilm, TVShows) + DVO (Viruse Project) + Original + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-20T05:11:43Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt10986410/img",
+    "background": "https://images.metahub.space/background/medium/tt10986410/img"
+  }
+}

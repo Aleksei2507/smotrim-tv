@@ -1,0 +1,85 @@
+{
+  "id": "tt29261344",
+  "type": "movie",
+  "poster": "https://live.metahub.space/poster/small/tt29261344/img",
+  "background": "https://live.metahub.space/background/medium/tt29261344/img",
+  "genres": [
+    "Боевик",
+    "Приключения",
+    "Детектив",
+    "Военный"
+  ],
+  "runtime": "145 мин",
+  "imdbRating": "6.0",
+  "releaseInfo": "2025",
+  "trailers": [],
+  "name": "Красный шелк",
+  "description": "1927 год. Транссибирский экспресс. Через всю Россию перевозят секретные документы, которые определят будущее СССР и Китая. Под видом обычных пассажиров скрываются иностранные разведчики и настоящие головорезы, готовые на всё ради документов. Молодому красноармейцу и бывшему царскому агенту приходится объединиться, чтобы раскрыть общего врага.",
+  "aliases": [
+    "Красный шелк",
+    "Red Silk"
+  ],
+  "kpId": 5364350,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt29261344.json",
+    "https://www.kinopoisk.ru/film/5364350/"
+  ],
+  "year": "2025",
+  "imdbId": "tt29261344",
+  "ids": [
+    "tt29261344"
+  ],
+  "originalName": "Red Silk",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-20T05:11:43Z",
+  "sources": [
+    {
+      "title": "Красный шелк (2025) WEB-DL 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:0d522640c02e3bcde4727e60960a3f04afafcd85&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 6259914833,
+      "size": "5.83 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Красный шелк (2025) WEB-DL 1080p от ExKinoRay"
+    },
+    {
+      "title": "Красный шелк / Red Silk (2025) WEBRip [H.264/1080p]",
+      "magnet": "magnet:?xt=urn:btih:07B1855B4E5453F28575F6472FC8F6804F7F3575",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 6259914833,
+      "size": "5.83 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Красный шелк / Red Silk (2025) WEBRip [H.264/1080p]"
+    },
+    {
+      "title": "Красный шелк (2025) WEB-DL 720p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:cbc65f46f1dd56d6b95d333fb7449a2a022c1d28&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 4305704714,
+      "size": "4.01 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Красный шелк (2025) WEB-DL 720p от ExKinoRay"
+    },
+    {
+      "title": "Красный шелк (Андрей Волгин) [2025, Россия, Боевик, детектив, WEB-DL 720p] + Original Rus",
+      "magnet": "magnet:?xt=urn:btih:E5C48D6919712D2D581F3AF23CD009F4231FE543&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 3886945402,
+      "size": "3.62 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Красный шелк (Андрей Волгин) [2025, Россия, Боевик, детектив, WEB-DL 720p] + Original Rus"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-20T05:11:43Z"
+}

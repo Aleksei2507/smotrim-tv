@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792398091,
-  "updatedAt": "2026-10-19T08:21:27Z",
+  "revision": 1792473160,
+  "updatedAt": "2026-10-20T05:12:34Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -1830,8 +1830,8 @@
       ],
       "imdbRating": "8.7",
       "runtime": "43 мин",
-      "card": "cards/54863a6cb2de32f539e080362bf4b82e8e3b4a93247c76ef0ce42e0317159526.json",
-      "sha256": "54863a6cb2de32f539e080362bf4b82e8e3b4a93247c76ef0ce42e0317159526",
+      "card": "cards/2b80891bdf136556c34c6ea430d8351441968d8f664df0c18ae1706940aab338.json",
+      "sha256": "2b80891bdf136556c34c6ea430d8351441968d8f664df0c18ae1706940aab338",
       "localized": true,
       "provider": "github"
     },
@@ -1950,8 +1950,8 @@
       ],
       "imdbRating": "8.2",
       "runtime": "43 мин",
-      "card": "cards/233d53180c3aa6ee72d94c7f491909edec0c6dfa09b47920a1cbed5246f91a3a.json",
-      "sha256": "233d53180c3aa6ee72d94c7f491909edec0c6dfa09b47920a1cbed5246f91a3a",
+      "card": "cards/838cf3083c411e3c2c41130d93ae2758bb214792644dee0b753995fbadce2afb.json",
+      "sha256": "838cf3083c411e3c2c41130d93ae2758bb214792644dee0b753995fbadce2afb",
       "localized": true,
       "provider": "github"
     },
@@ -2068,8 +2068,8 @@
       ],
       "imdbRating": "8.4",
       "runtime": "46 мин",
-      "card": "cards/188dd667cf8ae660c2c8642e30ed2db92e459c9071aa68eba4e4428dce205a6f.json",
-      "sha256": "188dd667cf8ae660c2c8642e30ed2db92e459c9071aa68eba4e4428dce205a6f",
+      "card": "cards/66bce9972c97c2aa50f6f01ae5c03891e09fdde1e28349924c83e3b98eab9bcd.json",
+      "sha256": "66bce9972c97c2aa50f6f01ae5c03891e09fdde1e28349924c83e3b98eab9bcd",
       "localized": true,
       "provider": "github"
     },
@@ -2147,8 +2147,7 @@
       "description": "Интеллигентный следователь Валерий Козырев, его дерзкий напарник из Ростова Евгений Боков и другие коллеги расследуют преступления, связанные с серийными убийствами.",
       "originalName": "Fisher",
       "aliases": [
-        "Фишер",
-        "Fisher"
+        "Фишер"
       ],
       "genres": [
         "Детектив",
@@ -2157,8 +2156,8 @@
       ],
       "imdbRating": "6.8",
       "runtime": "50 мин",
-      "card": "cards/e8cc02204c546a2afd4dcb73c5448071f6e8fb6ec09444adc16f53c5ffd96197.json",
-      "sha256": "e8cc02204c546a2afd4dcb73c5448071f6e8fb6ec09444adc16f53c5ffd96197",
+      "card": "cards/3fb2ad707bf42cc787ad01303b30759c6cf6e2e1adc9d627b8b74ee7d0d69ae8.json",
+      "sha256": "3fb2ad707bf42cc787ad01303b30759c6cf6e2e1adc9d627b8b74ee7d0d69ae8",
       "localized": true,
       "provider": "github"
     },
@@ -2189,6 +2188,242 @@
       "runtime": "131 мин",
       "card": "cards/4f35e4ea661731f7eeeffd459011311718b27b73de9699eb4e42f3907792cdcf.json",
       "sha256": "4f35e4ea661731f7eeeffd459011311718b27b73de9699eb4e42f3907792cdcf",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt4131188",
+      "ids": [
+        "tt4131188"
+      ],
+      "imdbId": "tt4131188",
+      "name": "Испытание",
+      "type": "movie",
+      "year": "2014",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8204722b408b95cc11fa176aaea0cc11c695b04af1981497fbf3c77f3d11a7eb.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5f560b18ae6db2f269355e39cd84677e3411e4eeac993b46b116e9ff342883cc.jpg",
+      "description": "Они живут в степи. Отец и дочь. Ничто не может нарушить вечный порядок. Завтра наступает всегда. И каждое утро отец уезжает работать. И она  остается одна. Ждать отца. И чувствовать. Двое любят ее. Она любит каждого. Любовь нельзя поделить. \n\nОднажды решение приходит само. Оттуда, где солнце.",
+      "originalName": "Test",
+      "aliases": [
+        "Испытание",
+        "Test"
+      ],
+      "genres": [
+        "Драма"
+      ],
+      "imdbRating": "7.2",
+      "runtime": "95 мин",
+      "card": "cards/bc435783e925037a789ea434a69cf48c2693d739dcd9491be7f87af2feb66673.json",
+      "sha256": "bc435783e925037a789ea434a69cf48c2693d739dcd9491be7f87af2feb66673",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt23736870",
+      "ids": [
+        "tt23736870"
+      ],
+      "imdbId": "tt23736870",
+      "name": "Пальма 2",
+      "type": "movie",
+      "year": "2025",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f7445a31b657a29dcc496eaaca0d25d6e8d76db84674b13b78e666e36961e02c.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e7e1e46e8421bd1eed4e208ddfa924a96db83d96925392a403be9051022e958e.jpg",
+      "description": "предстоящий фильм Александра Домогарова-младшего",
+      "originalName": "A Dog Named Palma 2",
+      "aliases": [
+        "Пальма 2",
+        "A Dog Named Palma 2",
+        "Palma 2"
+      ],
+      "genres": [
+        "Драма",
+        "Семейный"
+      ],
+      "imdbRating": "6.0",
+      "runtime": "127 мин",
+      "card": "cards/d88b83a01eda0357b8a06de72ee849842ac3be045de0bc765274d1c0b7fe32c1.json",
+      "sha256": "d88b83a01eda0357b8a06de72ee849842ac3be045de0bc765274d1c0b7fe32c1",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6262770",
+      "ids": [
+        "tt6262770"
+      ],
+      "imdbId": "tt6262770",
+      "name": "Тенцинг",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/754897f6794aae0597cd76ba7fa113afb97543d3ed4c86190ce850d3c4cb2090.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/06f81167eb14013febeda126610539dba5584627d83bc1457bcb52d4f1621fe8.jpg",
+      "description": "фильм Дженнифер Пидом (2026)",
+      "originalName": "Tenzing",
+      "aliases": [
+        "Тенцинг",
+        "Tenzing"
+      ],
+      "genres": [
+        "Приключения",
+        "Биография",
+        "Драма"
+      ],
+      "imdbRating": "7.5",
+      "runtime": "126 мин",
+      "card": "cards/c836116ef335ba674f7b45cd63bdf93d68f96797a66b2eab815c4d296fed67a4.json",
+      "sha256": "c836116ef335ba674f7b45cd63bdf93d68f96797a66b2eab815c4d296fed67a4",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt22444780",
+      "ids": [
+        "tt22444780"
+      ],
+      "imdbId": "tt22444780",
+      "name": "Эскортница",
+      "type": "movie",
+      "year": "2023",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/32bf8a2f0b9b55978217eb3cb4724c0a5dac23efd7c41dcd63ca9add63c6523f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/824546dff007b90bbabdd80ec67afafeef25677f4e5658675268062cfbc5e989.jpg",
+      "description": "Кристина — организатор выставок современного искусства, на деле же она организует развлечения для богатых клиентов в самых экзотических местах. На нее работают десятки элитных девушек со всего мира. Когда-то в прошлом Кристина тоже работала хостес на подобных вечеринках, но, будучи очень амбициоз…",
+      "originalName": "Escort Girl",
+      "aliases": [
+        "Эскортница",
+        "Escort Girl"
+      ],
+      "genres": [
+        "Мелодрама"
+      ],
+      "imdbRating": "3.7",
+      "runtime": "90 мин",
+      "card": "cards/a05e1869f23d2b4195f58484cb7bb8949e046ab09434e381178eaf7df07c4063.json",
+      "sha256": "a05e1869f23d2b4195f58484cb7bb8949e046ab09434e381178eaf7df07c4063",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt27369017",
+      "ids": [
+        "tt27369017"
+      ],
+      "imdbId": "tt27369017",
+      "name": "Надежда",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/412c01e76b2875beb102115d4444ff5663545fffdd0754ae9d11d42a0faec8ca.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2af4401ba2d2f98492027f71bf6ca2398b7d394d9d92a937ff222a9dbcb11492.jpg",
+      "description": "Что-то странное творится в тихом приграничном городке Хоуп-Харбор. Сначала обнаруживают изуродованные трупы коров, а затем и погибших жуткой смертью людей. По слухам, на местности завёлся тигр, и, пока группа охотников отправляется выслеживать хищника в лес, начальник полиции идёт по кровавому сл…",
+      "originalName": "Hope",
+      "aliases": [
+        "Надежда",
+        "Hope",
+        "Hopeu"
+      ],
+      "genres": [
+        "Боевик",
+        "Драма",
+        "Ужасы"
+      ],
+      "imdbRating": "6.9",
+      "runtime": "157 мин",
+      "card": "cards/60ff8cc517f0c7af2196aa203d47f4654652015993f87d70c5d98e6280615825.json",
+      "sha256": "60ff8cc517f0c7af2196aa203d47f4654652015993f87d70c5d98e6280615825",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt23148340",
+      "ids": [
+        "tt23148340"
+      ],
+      "imdbId": "tt23148340",
+      "name": "Хрустальное озеро",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6f8b764cbdc8674c5dfac0a70dc9cc95a5c9345b6e26b2c92ee6f4579ce5eb4f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/eeb8f4b655ed4a042735ddf2d03a8b6e243ca6e115e116fa2b819962ef4e2baf.jpg",
+      "description": "11 летний Джейсон, сын матери-одиночки Памелы Вурхиз, трагически погибает в детском лагере. Когда на пороге дома женщины появляются двое незнакомцев, желающих покопаться в её прошлом, запускается череда ужасающих событий.",
+      "originalName": "Crystal Lake",
+      "aliases": [
+        "Хрустальное озеро",
+        "Crystal Lake"
+      ],
+      "genres": [
+        "Драма",
+        "Ужасы",
+        "Триллер"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "50 мин",
+      "card": "cards/a0cd3dc45dc2419d6ab70851fd3b5db26c1281b29daaf4737b39a088a264b394.json",
+      "sha256": "a0cd3dc45dc2419d6ab70851fd3b5db26c1281b29daaf4737b39a088a264b394",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt10850518",
+      "ids": [
+        "tt10850518"
+      ],
+      "imdbId": "tt10850518",
+      "name": "Андрей Тарковский. Кино как молитва",
+      "type": "movie",
+      "year": "2019",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bdb5582a2b29e7b096803ab14e1fb9275ef50bd1848e6456324c609799a27336.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1a693ca50c2d4921c6cb6240569d5fb857f1fb924749e9e4f2a327c440b62513.jpg",
+      "description": "Рассказ режиссера о самом себе. В основе фильма – нигде ранее не публиковавшиеся аудио и видеозаписи лекций, интервью, встреч со зрителями, видеохроника со съемок фильмов. Через размышления об искусстве и культуре, о судьбе художника и смысле человеческого существования, фильм раскрывает творческ…",
+      "originalName": "Andrey Tarkovsky. A Cinema Prayer",
+      "aliases": [
+        "Андрей Тарковский. Кино как молитва",
+        "Andrey Tarkovsky. A Cinema Prayer"
+      ],
+      "genres": [
+        "Документальный"
+      ],
+      "imdbRating": "7.6",
+      "runtime": "98 мин",
+      "card": "cards/ece1672ac4becfa68eb43ff0dbdecb6520ec554582ad90b13580bee0657198e6.json",
+      "sha256": "ece1672ac4becfa68eb43ff0dbdecb6520ec554582ad90b13580bee0657198e6",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt29261344",
+      "ids": [
+        "tt29261344"
+      ],
+      "imdbId": "tt29261344",
+      "name": "Красный шелк",
+      "type": "movie",
+      "year": "2025",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4f39692e02ae956b9cf81c9a75923abd654ee5ae6cde638b3bc97906bd2e59a2.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1e5b39653ba2c57e719b51add43cb6825a3bde1c252bb127ec3440a41af0fac9.jpg",
+      "description": "1927 год. Транссибирский экспресс. Через всю Россию перевозят секретные документы, которые определят будущее СССР и Китая. Под видом обычных пассажиров скрываются иностранные разведчики и настоящие головорезы, готовые на всё ради документов. Молодому красноармейцу и бывшему царскому агенту приход…",
+      "originalName": "Red Silk",
+      "aliases": [
+        "Красный шелк",
+        "Red Silk"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Детектив",
+        "Военный"
+      ],
+      "imdbRating": "6.0",
+      "runtime": "145 мин",
+      "card": "cards/339283cc9926d57a5cf50074821ac1c364275ea381825b63265f344e3c122a7e.json",
+      "sha256": "339283cc9926d57a5cf50074821ac1c364275ea381825b63265f344e3c122a7e",
       "localized": true,
       "provider": "github"
     }
