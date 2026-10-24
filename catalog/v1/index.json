@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792559688,
-  "updatedAt": "2026-10-21T05:13:50Z",
+  "revision": 1792817935,
+  "updatedAt": "2026-10-24T04:58:00Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -1371,12 +1371,10 @@
       "origin": "ru",
       "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/79d0ec1c54286bbc2dbc7b7902b049f1576f0551d1cdec985d5cdf7e96bb9e65.jpg",
       "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e53ea7d9e1278675f4b21da619363fd06f9db2fa5979b9383dcb955601c8665b.jpg",
-      "description": "российская военная драма режиссёра Фёдора Бондарчука 2013 года",
+      "description": "1942-й год. Сталинград. Советские войска планируют контрнаступление на немецкие части, занявшие правый берег Волги. Наступление сорвано. Лишь разведчикам под командованием капитана Громова удается перебраться на другой берег и закрепиться в одном из домов. Им дан приказ удержать его любой ценой.…",
       "originalName": "Stalingrad",
       "aliases": [
-        "Сталинград",
-        "Stalingrad",
-        "Сталинград (фильм, 2013)"
+        "Сталинград"
       ],
       "genres": [
         "Боевик",
@@ -1385,8 +1383,8 @@
       ],
       "imdbRating": "5.7",
       "runtime": "131 мин",
-      "card": "cards/4874fe8fe927b6d8f65fa3fefc36ec02af2c52fcdcd402c476e9330de95390c0.json",
-      "sha256": "4874fe8fe927b6d8f65fa3fefc36ec02af2c52fcdcd402c476e9330de95390c0",
+      "card": "cards/9b0af2d67f2d09ab1cd55002e552072903b2ac9dd31ef9ba2c3c08cffca90fb2.json",
+      "sha256": "9b0af2d67f2d09ab1cd55002e552072903b2ac9dd31ef9ba2c3c08cffca90fb2",
       "localized": true,
       "provider": "github"
     },
@@ -1425,18 +1423,16 @@
         "tt12057168"
       ],
       "imdbId": "tt12057168",
-      "name": "Приворот. Чёрное венчание",
+      "name": "Приворот. Черное венчание",
       "type": "movie",
       "year": "2021",
       "origin": "ru",
       "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/091b3095df69b43b1740f8ac8dc1f38aee607b43aea904985f107a5851f16c4e.jpg",
       "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/93d773985eb0c67f2e62117d833b682961602617182f2842213d5919f60aca88.jpg",
-      "description": "фильм 2021 года",
+      "description": "Женю бросает мужчина, которого она любит больше жизни. Не в силах смириться девушка решается на отчаянный шаг: цыганка рассказывает ей, как провести ритуал черного венчания и сделать приворот на любовь. И Кирилл возвращается! Им еще никогда не было так хорошо вместе, влюбленные не могут оторватьс…",
       "originalName": "Dark Spell",
       "aliases": [
-        "Приворот. Чёрное венчание",
-        "Dark Spell",
-        "Privorot. Chernoe venchanie"
+        "Приворот. Черное венчание"
       ],
       "genres": [
         "Драма",
@@ -1445,8 +1441,8 @@
       ],
       "imdbRating": "4.7",
       "runtime": "93 мин",
-      "card": "cards/880b88cf650de5e227fb4e7abfc9feea4fd0936d8637c13fa31452ffe67d8e53.json",
-      "sha256": "880b88cf650de5e227fb4e7abfc9feea4fd0936d8637c13fa31452ffe67d8e53",
+      "card": "cards/0b9223c7c703273bcd7d52b854fd1fa06d2a2f3935881cbd369217843809b831.json",
+      "sha256": "0b9223c7c703273bcd7d52b854fd1fa06d2a2f3935881cbd369217843809b831",
       "localized": true,
       "provider": "github"
     },
@@ -1462,12 +1458,11 @@
       "origin": "other",
       "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5613dc39be59abb8365d031fb256076e7f03e86098f3ca9af775661d17312cc0.jpg",
       "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a735c0fc63f22cd443da6e70c10bfcb0bf35c607ed514244782542a194d025dd.jpg",
-      "description": "фильм Януса Меца Педерсена (2026)",
+      "description": "1995 год. ФБР больше 15 лет тщетно пытается поймать террориста по прозвищу Унабомбер, который рассылает по почте взрывные устройства, из-за чего погибли 3 человека и десятки получили ранения. Агент Джоэнн Миллер пытается найти зацепки и вычислить преступника, исследуя опубликованный в прессе мани…",
       "originalName": "Unabomber",
       "aliases": [
         "Унабомбер",
-        "Unabomber",
-        "Unabom"
+        "Unabomber"
       ],
       "genres": [
         "Биография",
@@ -1476,8 +1471,8 @@
       ],
       "imdbRating": "6.2",
       "runtime": "101 мин",
-      "card": "cards/452fb30c0d468075323df5db7b5f57f704cedfeb66fb709366dcd445ccc427b3.json",
-      "sha256": "452fb30c0d468075323df5db7b5f57f704cedfeb66fb709366dcd445ccc427b3",
+      "card": "cards/8cae23725fef62b2158cadd7d81672eb41db606d5eaf2475cc9fda0726fd894a.json",
+      "sha256": "8cae23725fef62b2158cadd7d81672eb41db606d5eaf2475cc9fda0726fd894a",
       "localized": true,
       "provider": "github"
     },
@@ -1523,13 +1518,11 @@
       "origin": "other",
       "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4ca922e06e9bb51cbb0ebf1a4112a37bc6200359e00677ad295a080cc97f9a6b.jpg",
       "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5d234190136d3263b5f8b372df0efa1e575257f9c5d6ad8b25629a7aae727d6a.jpg",
-      "description": "фильм Стивена Спилберга (2026)",
+      "description": "Бывший сотрудник секретной правительственной организации Дэниэл Келлнер вместе со своей девушкой бежит от бывших работодателей. Он украл некие секретные материалы и считает, что их содержимое должно быть обнародовано. Тем временем Маргарет Фэйрчайлд, обычная ведущая прогноза погоды на канзасском…",
       "originalName": "Disclosure Day",
       "aliases": [
         "День разоблачения",
-        "Disclosure Day",
-        "День раскрытия",
-        "The Dish"
+        "Disclosure Day"
       ],
       "genres": [
         "Боевик",
@@ -1538,8 +1531,8 @@
       ],
       "imdbRating": "6.4",
       "runtime": "146 мин",
-      "card": "cards/a3bad07bf8042f633ee3a1eabce932046dbec1a7dc6ca02e27ce3521c32d93d6.json",
-      "sha256": "a3bad07bf8042f633ee3a1eabce932046dbec1a7dc6ca02e27ce3521c32d93d6",
+      "card": "cards/4ee53346c93d287f5aceb95dc458ad8464b74896afef59416fe2b1af2fb38070.json",
+      "sha256": "4ee53346c93d287f5aceb95dc458ad8464b74896afef59416fe2b1af2fb38070",
       "localized": true,
       "provider": "github"
     },
