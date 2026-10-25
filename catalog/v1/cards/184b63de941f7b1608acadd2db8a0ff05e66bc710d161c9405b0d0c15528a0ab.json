@@ -1,0 +1,107 @@
+{
+  "id": "tt8367814",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f27f2d346ba8542ae3de0f127a1930066db1eadd002301682d206c6c02e61860.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e04011293f4fc83ab959c2d2b60c7d4e9469754d0b6433860bf2bcb6b5699a89.jpg",
+  "genres": [
+    "Боевик",
+    "Комедия",
+    "Криминал"
+  ],
+  "runtime": "113 мин",
+  "imdbRating": "7.8",
+  "releaseInfo": "2020",
+  "trailers": [
+    {
+      "source": "KlXsguV9g0E",
+      "type": "Trailer"
+    },
+    {
+      "source": "2B0RpUGss2c",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Джентльмены",
+  "description": "Один ушлый американец ещё со студенческих лет приторговывал наркотиками, а теперь придумал схему нелегального обогащения с использованием поместий обедневшей английской аристократии и очень неплохо на этом разбогател. Другой пронырливый журналист приходит к Рэю, правой руке американца, и предлагает тому купить киносценарий, в котором подробно описаны преступления его босса при участии других представителей лондонского криминального мира — партнёра-еврея, китайской диаспоры, чернокожих спортсменов и даже русского олигарха.",
+  "aliases": [
+    "Джентльмены",
+    "The Gentlemen"
+  ],
+  "kpId": 1143242,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/1143242/"
+  ],
+  "year": "2019",
+  "imdbId": "tt8367814",
+  "ids": [
+    "tt8367814"
+  ],
+  "originalName": "The Gentlemen",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-25T05:11:43Z",
+  "sources": [
+    {
+      "title": "Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, Боевик, комедия, криминал, WEB-DL 1080p] [Локализованный видеоряд] Dub + DVO (Кубик в Кубе) + Original (Eng) + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:5D089550E69ED2B0A7D7115AC1016158F909A93C&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 4885525299,
+      "size": "4.55 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, Боевик, комедия, криминал, WEB-DL 1080p] [Локализованный видеоряд] Dub + DVO (Кубик в Кубе) + Original (Eng) + Sub (Rus)"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, боевик, комедия, криминал, BDRip 1080p] Dub (iTunes) + 2х MVO (HDRezka, Mallorn) + 2x DVO (Кубик в Кубе, SDI Media) + 4х AVO (Сербин, Визгунов, Гаврилов, Пучков) + 2х VO (Есарев, Яроцкий) + Ukr + Sub Rus, Ukr, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:3FCED5EE3D547874569EFCD2E3ACDDB96B27AFE2&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 19456201850,
+      "size": "18.12 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, боевик, комедия, криминал, BDRip 1080p] Dub (iTunes) + 2х MVO (HDRezka, Mallorn) + 2x DVO (Кубик в Кубе, SDI Media) + 4х AVO (Сербин, Визгунов, Гаврилов, Пучков) + 2х VO (Есарев, Яроцкий) + Ukr + Sub Rus, Ukr, Eng + Original Eng"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, боевик, комедия, криминал, UHD BDRemux 2160p, HDR10] Dub + 2х MVO + 2x DVO + 4х AVO + 2х VO + Ukr + Sub Rus, Ukr, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:1A9DD2F9BB74DBD92E7571B28CCF156BBF1E472C&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 70373039144,
+      "size": "65.54 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, боевик, комедия, криминал, UHD BDRemux 2160p, HDR10] Dub + 2х MVO + 2x DVO + 4х AVO + 2х VO + Ukr + Sub Rus, Ukr, Eng + Original Eng"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, Боевик, комедия, криминал, WEB-DL 2160p, SDR] [Локализованный видеоряд] Dub (СинеЛаб СаундМикс) + DVO (Кубик в Кубе) + Original (Eng) + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:131AD01F135E7BEA0F4BFCF2602384CCF6B7B911&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 10114647982,
+      "size": "9.42 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, Боевик, комедия, криминал, WEB-DL 2160p, SDR] [Локализованный видеоряд] Dub (СинеЛаб СаундМикс) + DVO (Кубик в Кубе) + Original (Eng) + Sub (Rus)"
+    },
+    {
+      "title": "Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, Боевик, комедия, криминал, BDRip 720p] Dub (Rus, Ukr) + MVO + DVO + 2x AVO + 2x VO + Original (Eng) + Sub (rus, ukr, eng)",
+      "magnet": "magnet:?xt=urn:btih:4E4B20E86B3F52A8FF1658D52A63A32D25FD3199&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 8310761717,
+      "size": "7.74 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джентльмены / The Gentlemen (Гай Ричи / Guy Ritchie) [2019, США, Боевик, комедия, криминал, BDRip 720p] Dub (Rus, Ukr) + MVO + DVO + 2x AVO + 2x VO + Original (Eng) + Sub (rus, ukr, eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:43:16Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt8367814/img",
+    "background": "https://images.metahub.space/background/medium/tt8367814/img"
+  }
+}
