@@ -12,7 +12,7 @@ import java.util.concurrent.*;
 
 /** Data adapters only. Remote HTML is parsed here, never displayed in the WebView. */
 public final class Sources {
-    public static final String IPTV = "https://iptv-org.github.io/iptv/languages/rus.m3u";
+    public static final String IPTV = "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/iptv/channels.m3u";
     public static final String CINEMA = "https://v3-cinemeta.strem.io";
     private static final String TRACKERS = "&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce";
     private Sources() {}

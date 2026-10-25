@@ -6,6 +6,22 @@ import java.io.*;
 import static org.junit.Assert.*;
 
 public class SourcesTest {
+    @Test public void githubAndBundledPlaylistsContainTheRequestedNewsChannels()throws Exception{
+        String[] ids={"CNN.us@SD","FoxNewsChannel.us@SD","MSNOW.us@SD","BloombergTV.us@US"};
+        for(String path:new String[]{"../catalog/iptv/channels.m3u","src/main/assets/channels.m3u"}){
+            byte[] bytes=java.nio.file.Files.readAllBytes(java.nio.file.Paths.get(path));assertTrue(bytes.length<4*1024*1024);
+            JSONArray rows=Sources.parseM3u(new String(bytes,java.nio.charset.StandardCharsets.UTF_8));
+            assertTrue(rows.length()>ids.length);
+            for(String id:ids){
+                int matches=0;
+                for(int i=0;i<rows.length();i++){
+                    JSONObject row=rows.getJSONObject(i);if(!id.equals(row.getString("id")))continue;matches++;
+                    assertEquals("News",row.getString("group"));assertTrue(Sources.webUrl(row.getString("url")));assertTrue(Sources.webUrl(row.getString("logo")));
+                }
+                assertEquals(id,1,matches);
+            }
+        }
+    }
     @Test public void m3uQuotedCommaBomDuplicatesAndUnsupportedUrls()throws Exception{
         String m="\uFEFF#EXTM3U\r\n#EXTINF:-1 tvg-id=\"id\" group-title=\"News, live\" tvg-logo=\"https://x/logo.png\",Мир, HD\r\nhttps://tv.test/a.m3u8\r\n#EXTINF:-1,Duplicate\nhttps://tv.test/a.m3u8\n#EXTINF:-1,Bad\nfile:///etc/passwd\n#EXTINF:-1,Other\nhttp://tv.test/b.m3u8";
         JSONArray a=Sources.parseM3u(m);assertEquals(2,a.length());assertEquals("Мир, HD",a.getJSONObject(0).getString("name"));assertEquals("News, live",a.getJSONObject(0).getString("group"));assertEquals("Other",a.getJSONObject(1).getString("name"));assertEquals("",a.getJSONObject(1).getString("logo"));
