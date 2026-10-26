@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792905182,
-  "updatedAt": "2026-10-25T05:11:43Z",
+  "revision": 1792991659,
+  "updatedAt": "2026-10-26T05:13:00Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -1827,8 +1827,8 @@
       ],
       "imdbRating": "5.7",
       "runtime": "98 мин",
-      "card": "cards/0da66559a54d1c09feef455643369fc960cf5234caba9cd8409253748a0602b1.json",
-      "sha256": "0da66559a54d1c09feef455643369fc960cf5234caba9cd8409253748a0602b1",
+      "card": "cards/aa305c754a0036686b6936213af7792d21778441feabe481e27d38fb62adf3cc.json",
+      "sha256": "aa305c754a0036686b6936213af7792d21778441feabe481e27d38fb62adf3cc",
       "localized": true,
       "provider": "github"
     },
@@ -1886,8 +1886,8 @@
       ],
       "imdbRating": "6.7",
       "runtime": "111 мин",
-      "card": "cards/20296514f14fb1d9b3b35346ed809d5e82b544fe0f09c6e3bc365c2862845ec3.json",
-      "sha256": "20296514f14fb1d9b3b35346ed809d5e82b544fe0f09c6e3bc365c2862845ec3",
+      "card": "cards/19905b0bf33a0d982a54dd971e8995d84e87f6c0242414a6fa98e95f2a28c748.json",
+      "sha256": "19905b0bf33a0d982a54dd971e8995d84e87f6c0242414a6fa98e95f2a28c748",
       "localized": true,
       "provider": "github"
     },
@@ -1936,8 +1936,7 @@
       "description": "Действие фильма происходит в одном из самых романтичных мегаполисов мира – Нью-Йорке. Три друга Артем, Игорь и Оле, настоящий «русский» финн, в народе «Сауна» работают на чужбине, а в свободное от работы время  отрываются, «как взрослые»: ходят в сауну, в стриптиз-бары, крутят короткие и ни к чем…",
       "originalName": "No Love in the City",
       "aliases": [
-        "Любовь в большом городе",
-        "No Love in the City"
+        "Любовь в большом городе"
       ],
       "genres": [
         "Комедия",
@@ -1946,8 +1945,8 @@
       ],
       "imdbRating": "5.8",
       "runtime": "88 мин",
-      "card": "cards/71792de7e2f532eb2a4109ffb48b1ce2cfc88fbf3e5c8357669f7a0828ae2585.json",
-      "sha256": "71792de7e2f532eb2a4109ffb48b1ce2cfc88fbf3e5c8357669f7a0828ae2585",
+      "card": "cards/17d319dfdbf7eeb65db8f17d82a7df7ea4debe7aac1c7cca4b1e11531ad75702.json",
+      "sha256": "17d319dfdbf7eeb65db8f17d82a7df7ea4debe7aac1c7cca4b1e11531ad75702",
       "localized": true,
       "provider": "github"
     },
@@ -1976,8 +1975,8 @@
       ],
       "imdbRating": "8.2",
       "runtime": "130 мин",
-      "card": "cards/81b38393deb7698d3ff762361bad26622191c148fe20ca448e2fd763774fb53a.json",
-      "sha256": "81b38393deb7698d3ff762361bad26622191c148fe20ca448e2fd763774fb53a",
+      "card": "cards/02b99679fac04228fa68c73ed7f6fb522e438dd5255285d3d1c8ce8c666a3ec2.json",
+      "sha256": "02b99679fac04228fa68c73ed7f6fb522e438dd5255285d3d1c8ce8c666a3ec2",
       "localized": true,
       "provider": "github"
     },
@@ -1996,8 +1995,7 @@
       "description": "История Колобка: с какой коварной целью его испекли, как ему удалось сбежать, как он скитался и попал в банду разбойников, а потом поневоле стал напарником неудачливого пекаря Тихона и необычной девушки Лады.",
       "originalName": "The Last Warrior: Kolobok",
       "aliases": [
-        "Последний богатырь. Колобок",
-        "The Last Warrior: Kolobok"
+        "Последний богатырь. Колобок"
       ],
       "genres": [
         "Комедия",
@@ -2006,8 +2004,8 @@
       ],
       "imdbRating": "1.7",
       "runtime": "109 мин",
-      "card": "cards/7e87fdee6916ca879554575e896932cba15f5d26ca8c7cb8eabf5fa2543923f0.json",
-      "sha256": "7e87fdee6916ca879554575e896932cba15f5d26ca8c7cb8eabf5fa2543923f0",
+      "card": "cards/9007644b97fc17484bdb6f4c163b18bbc2515ef70283428c23aea9dba47e0b18.json",
+      "sha256": "9007644b97fc17484bdb6f4c163b18bbc2515ef70283428c23aea9dba47e0b18",
       "localized": true,
       "provider": "github"
     },
@@ -2066,8 +2064,8 @@
       ],
       "imdbRating": "",
       "runtime": "128 мин",
-      "card": "cards/457437b4dc0d50b7dcf5eebd57fd1ba63b4f2c0b7f9545839b318945dbdd57c1.json",
-      "sha256": "457437b4dc0d50b7dcf5eebd57fd1ba63b4f2c0b7f9545839b318945dbdd57c1",
+      "card": "cards/7f32346d003609ae39ed055a050e6db8f3c5ae01e64eccd3b59878e2a8358316.json",
+      "sha256": "7f32346d003609ae39ed055a050e6db8f3c5ae01e64eccd3b59878e2a8358316",
       "localized": true,
       "provider": "github"
     },

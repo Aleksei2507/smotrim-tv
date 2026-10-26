@@ -1,0 +1,63 @@
+{
+  "id": "tt31192372",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8004488728a767049b7d79ea843c63f39b2d53166486b3dc0e40636d0a7b210d.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2e0d0aa6ae91d938caf5bd2a4f4d138b51ffc3f663d5cb62cb105215e3cb4a4c.jpg",
+  "genres": [
+    "Приключения",
+    "Драма",
+    "Триллер"
+  ],
+  "runtime": "98 мин",
+  "imdbRating": "5.7",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "Krs0VDIjhmE",
+      "type": "Trailer"
+    },
+    {
+      "source": "Rsztt5qDj_A",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Вышка 2",
+  "description": "После трагической гибели на вышке B67 видео Шайло разлетелись по сети, а сама она стала легендой среди экстремалов. Однако ее сестра Джакс так и не смогла смириться с утратой. Она находит список самых экстремальных мест на планете, которые Шайло мечтала покорить, и решает пройти его до конца. Следующая цель — смертельно опасный маршрут на горе Кван в Таиланде высотой 2070 метров над уровнем моря. Джакс вместе с подругой и местным гидом отправляется наверх, где ей предстоит столкнуться со своим главным страхом — повторить судьбу сестры.",
+  "aliases": [
+    "Вышка 2",
+    "Fall 2: Deadpoint"
+  ],
+  "kpId": 5610132,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/5610132/"
+  ],
+  "year": "2026",
+  "imdbId": "tt31192372",
+  "ids": [
+    "tt31192372"
+  ],
+  "originalName": "Fall 2: Deadpoint",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-26T05:13:00Z",
+  "sources": [
+    {
+      "title": "Вышка 2 / Fall 2: Deadpoint (2026) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:50D928632E1870DDA27E004BE3E7087649185826",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 15891378995,
+      "size": "14.80 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Вышка 2 / Fall 2: Deadpoint (2026) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] [MVO]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:47:28Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt31192372/img",
+    "background": "https://images.metahub.space/background/medium/tt31192372/img"
+  }
+}
