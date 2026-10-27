@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792991659,
-  "updatedAt": "2026-10-26T05:13:00Z",
+  "revision": 1793079105,
+  "updatedAt": "2026-10-27T05:30:40Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -2084,8 +2084,7 @@
       "description": "Участвуя в программе на телевидении, Данила Багров встречает своих друзей по службе в Чечне. Одного из них внезапно убивают. Выясняется, что у того были неприятности из-за брата-хоккеиста в Америке. Данила должен разобраться. Он вылетает в Америку и за компанию берёт с собой старшего брата.",
       "originalName": "Brat 2",
       "aliases": [
-        "Брат 2",
-        "Brat 2"
+        "Брат 2"
       ],
       "genres": [
         "Боевик",
@@ -2094,8 +2093,8 @@
       ],
       "imdbRating": "7.6",
       "runtime": "122 мин",
-      "card": "cards/95f9959578e3e42fff45769a3b438bed34daed639aa2a9ba50fedb15c6b84c00.json",
-      "sha256": "95f9959578e3e42fff45769a3b438bed34daed639aa2a9ba50fedb15c6b84c00",
+      "card": "cards/6b273eb52c6ffb9d3573abbd1f030336baa532f4645937f58ed9570bf5425250.json",
+      "sha256": "6b273eb52c6ffb9d3573abbd1f030336baa532f4645937f58ed9570bf5425250",
       "localized": true,
       "provider": "github"
     },
@@ -2181,8 +2180,8 @@
       ],
       "imdbRating": "7.8",
       "runtime": "103 мин",
-      "card": "cards/58a95336327f101c4672a15720c3b1211529a61c99e8a353cfce86ec1a24b402.json",
-      "sha256": "58a95336327f101c4672a15720c3b1211529a61c99e8a353cfce86ec1a24b402",
+      "card": "cards/aea93694d3f101994c981356a1abf4038191942b5294c8079a85f5366f23a6cb.json",
+      "sha256": "aea93694d3f101994c981356a1abf4038191942b5294c8079a85f5366f23a6cb",
       "localized": true,
       "provider": "github"
     },
@@ -2211,8 +2210,8 @@
       ],
       "imdbRating": "8.8",
       "runtime": "139 мин",
-      "card": "cards/70e0b52f4a3124d72d1b4c1466eabec6889153fd927e91053df061cb9d24f0ed.json",
-      "sha256": "70e0b52f4a3124d72d1b4c1466eabec6889153fd927e91053df061cb9d24f0ed",
+      "card": "cards/a63c815b7fb22657a688a6d0ed2197fe7e62577320230635c8143aee993c6a55.json",
+      "sha256": "a63c815b7fb22657a688a6d0ed2197fe7e62577320230635c8143aee993c6a55",
       "localized": true,
       "provider": "github"
     },
@@ -2270,8 +2269,8 @@
       ],
       "imdbRating": "6.7",
       "runtime": "131 мин",
-      "card": "cards/4f35e4ea661731f7eeeffd459011311718b27b73de9699eb4e42f3907792cdcf.json",
-      "sha256": "4f35e4ea661731f7eeeffd459011311718b27b73de9699eb4e42f3907792cdcf",
+      "card": "cards/afd99ecde59c410426ebb32ed6c3abd7c3ba5b9a70bfdcc096d858b17188afbc.json",
+      "sha256": "afd99ecde59c410426ebb32ed6c3abd7c3ba5b9a70bfdcc096d858b17188afbc",
       "localized": true,
       "provider": "github"
     },
@@ -2290,16 +2289,15 @@
       "description": "Они живут в степи. Отец и дочь. Ничто не может нарушить вечный порядок. Завтра наступает всегда. И каждое утро отец уезжает работать. И она  остается одна. Ждать отца. И чувствовать. Двое любят ее. Она любит каждого. Любовь нельзя поделить. \n\nОднажды решение приходит само. Оттуда, где солнце.",
       "originalName": "Test",
       "aliases": [
-        "Испытание",
-        "Test"
+        "Испытание"
       ],
       "genres": [
         "Драма"
       ],
       "imdbRating": "7.2",
       "runtime": "95 мин",
-      "card": "cards/bc435783e925037a789ea434a69cf48c2693d739dcd9491be7f87af2feb66673.json",
-      "sha256": "bc435783e925037a789ea434a69cf48c2693d739dcd9491be7f87af2feb66673",
+      "card": "cards/f8c6c642e94842fc7db4ea5cafcf30d84ec8f529beb7490843ec889f081e700c.json",
+      "sha256": "f8c6c642e94842fc7db4ea5cafcf30d84ec8f529beb7490843ec889f081e700c",
       "localized": true,
       "provider": "github"
     },
