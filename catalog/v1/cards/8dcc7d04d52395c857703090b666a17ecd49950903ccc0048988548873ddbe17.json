@@ -1,0 +1,67 @@
+{
+  "id": "tt27369017",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/412c01e76b2875beb102115d4444ff5663545fffdd0754ae9d11d42a0faec8ca.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2af4401ba2d2f98492027f71bf6ca2398b7d394d9d92a937ff222a9dbcb11492.jpg",
+  "genres": [
+    "Боевик",
+    "Драма",
+    "Ужасы"
+  ],
+  "runtime": "157 мин",
+  "imdbRating": "6.9",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "OFaJzL83y0Q",
+      "type": "Trailer"
+    },
+    {
+      "source": "R5jcEBVBEbQ",
+      "type": "Trailer"
+    },
+    {
+      "source": "ODnHr2Emnf0",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Надежда",
+  "description": "Что-то странное творится в тихом приграничном городке Хоуп-Харбор. Сначала обнаруживают изуродованные трупы коров, а затем и погибших жуткой смертью людей. По слухам, на местности завёлся тигр, и, пока группа охотников отправляется выслеживать хищника в лес, начальник полиции идёт по кровавому следу, не подозревая, что его городок оказался в эпицентре инопланетного вторжения.",
+  "aliases": [
+    "Надежда",
+    "Hopeu"
+  ],
+  "kpId": 5230825,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/5230825/"
+  ],
+  "year": "2026",
+  "imdbId": "tt27369017",
+  "ids": [
+    "tt27369017"
+  ],
+  "originalName": "Hope",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-28T06:12:47Z",
+  "sources": [
+    {
+      "title": "Надежда / Hopeu / Hope (2026) WEB-DL 1080p | P | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:3addfbc6a89646078ad2ba68b9b748df97d6f7a0&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 10361608601,
+      "size": "9.65 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Надежда / Hopeu / Hope (2026) WEB-DL 1080p | P | HDrezka Studio"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-20T05:11:43Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt27369017/img",
+    "background": "https://images.metahub.space/background/medium/tt27369017/img"
+  }
+}

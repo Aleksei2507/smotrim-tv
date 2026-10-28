@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1793079105,
-  "updatedAt": "2026-10-27T05:30:40Z",
+  "revision": 1793168036,
+  "updatedAt": "2026-10-28T06:12:47Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -2376,16 +2376,15 @@
       "description": "Кристина — организатор выставок современного искусства, на деле же она организует развлечения для богатых клиентов в самых экзотических местах. На нее работают десятки элитных девушек со всего мира. Когда-то в прошлом Кристина тоже работала хостес на подобных вечеринках, но, будучи очень амбициоз…",
       "originalName": "Escort Girl",
       "aliases": [
-        "Эскортница",
-        "Escort Girl"
+        "Эскортница"
       ],
       "genres": [
         "Мелодрама"
       ],
       "imdbRating": "3.7",
       "runtime": "90 мин",
-      "card": "cards/a05e1869f23d2b4195f58484cb7bb8949e046ab09434e381178eaf7df07c4063.json",
-      "sha256": "a05e1869f23d2b4195f58484cb7bb8949e046ab09434e381178eaf7df07c4063",
+      "card": "cards/c5d28abf39394e4a6dc3699f8166907f8f6aa81f7ccec678bed5b0aa2831cf0f.json",
+      "sha256": "c5d28abf39394e4a6dc3699f8166907f8f6aa81f7ccec678bed5b0aa2831cf0f",
       "localized": true,
       "provider": "github"
     },
@@ -2405,7 +2404,6 @@
       "originalName": "Hope",
       "aliases": [
         "Надежда",
-        "Hope",
         "Hopeu"
       ],
       "genres": [
@@ -2415,8 +2413,8 @@
       ],
       "imdbRating": "6.9",
       "runtime": "157 мин",
-      "card": "cards/60ff8cc517f0c7af2196aa203d47f4654652015993f87d70c5d98e6280615825.json",
-      "sha256": "60ff8cc517f0c7af2196aa203d47f4654652015993f87d70c5d98e6280615825",
+      "card": "cards/8dcc7d04d52395c857703090b666a17ecd49950903ccc0048988548873ddbe17.json",
+      "sha256": "8dcc7d04d52395c857703090b666a17ecd49950903ccc0048988548873ddbe17",
       "localized": true,
       "provider": "github"
     },
@@ -2473,8 +2471,8 @@
       ],
       "imdbRating": "7.6",
       "runtime": "98 мин",
-      "card": "cards/ece1672ac4becfa68eb43ff0dbdecb6520ec554582ad90b13580bee0657198e6.json",
-      "sha256": "ece1672ac4becfa68eb43ff0dbdecb6520ec554582ad90b13580bee0657198e6",
+      "card": "cards/57b6e0b35ece2d51d5dcdbb4f8246a507bffa6edf3de80d3c662ef3ce29b561a.json",
+      "sha256": "57b6e0b35ece2d51d5dcdbb4f8246a507bffa6edf3de80d3c662ef3ce29b561a",
       "localized": true,
       "provider": "github"
     },
@@ -2493,8 +2491,7 @@
       "description": "1927 год. Транссибирский экспресс. Через всю Россию перевозят секретные документы, которые определят будущее СССР и Китая. Под видом обычных пассажиров скрываются иностранные разведчики и настоящие головорезы, готовые на всё ради документов. Молодому красноармейцу и бывшему царскому агенту приход…",
       "originalName": "Red Silk",
       "aliases": [
-        "Красный шелк",
-        "Red Silk"
+        "Красный шелк"
       ],
       "genres": [
         "Боевик",
@@ -2504,8 +2501,8 @@
       ],
       "imdbRating": "6.0",
       "runtime": "145 мин",
-      "card": "cards/339283cc9926d57a5cf50074821ac1c364275ea381825b63265f344e3c122a7e.json",
-      "sha256": "339283cc9926d57a5cf50074821ac1c364275ea381825b63265f344e3c122a7e",
+      "card": "cards/7aa86591e408ebb21586cb609011307687026a8d88c02b15a9b8ae1876946c10.json",
+      "sha256": "7aa86591e408ebb21586cb609011307687026a8d88c02b15a9b8ae1876946c10",
       "localized": true,
       "provider": "github"
     }

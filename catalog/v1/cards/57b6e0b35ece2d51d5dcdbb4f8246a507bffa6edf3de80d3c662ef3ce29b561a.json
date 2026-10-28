@@ -1,0 +1,72 @@
+{
+  "id": "tt10850518",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bdb5582a2b29e7b096803ab14e1fb9275ef50bd1848e6456324c609799a27336.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1a693ca50c2d4921c6cb6240569d5fb857f1fb924749e9e4f2a327c440b62513.jpg",
+  "genres": [
+    "Документальный"
+  ],
+  "runtime": "98 мин",
+  "imdbRating": "7.6",
+  "releaseInfo": "2019",
+  "trailers": [
+    {
+      "source": "01J4ej7NoKM",
+      "type": "Trailer"
+    },
+    {
+      "source": "gCyEiKOvlZk",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Андрей Тарковский. Кино как молитва",
+  "description": "Рассказ режиссера о самом себе. В основе фильма – нигде ранее не публиковавшиеся аудио и видеозаписи лекций, интервью, встреч со зрителями, видеохроника со съемок фильмов. Через размышления об искусстве и культуре, о судьбе художника и смысле человеческого существования, фильм раскрывает творческую мотивацию и причины заниматься кинематографом.",
+  "aliases": [
+    "Андрей Тарковский. Кино как молитва",
+    "Andrey Tarkovsky. A Cinema Prayer"
+  ],
+  "kpId": 1300524,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/1300524/"
+  ],
+  "year": "2019",
+  "imdbId": "tt10850518",
+  "ids": [
+    "tt10850518"
+  ],
+  "originalName": "Andrey Tarkovsky. A Cinema Prayer",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-28T06:12:47Z",
+  "sources": [
+    {
+      "title": "Андрей Тарковский. Кино как молитва / Andrey Tarkovsky. A Cinema Prayer (Андрей А. Тарковский / Andrey A. Tarkovskiy) [2019, документальный, биография, WEB-DL 1080p]",
+      "magnet": "magnet:?xt=urn:btih:DEF02BAA75E74806DEEAA4E19EE6B761FCF4D475&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 3854733148,
+      "size": "3.59 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Андрей Тарковский. Кино как молитва / Andrey Tarkovsky. A Cinema Prayer (Андрей А. Тарковский / Andrey A. Tarkovskiy) [2019, документальный, биография, WEB-DL 1080p]"
+    },
+    {
+      "title": "Андрей Тарковский. Кино как молитва / Andrey Tarkovsky. A Cinema Prayer (2019) WEBRip [H.264/1080p-LQ]",
+      "magnet": "magnet:?xt=urn:btih:6260746B5245C911BF0F338B3003B7C3EB448D48",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 3736621547,
+      "size": "3.48 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Андрей Тарковский. Кино как молитва / Andrey Tarkovsky. A Cinema Prayer (2019) WEBRip [H.264/1080p-LQ]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-20T05:11:43Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt10850518/img",
+    "background": "https://live.metahub.space/background/medium/tt10850518/img"
+  }
+}
