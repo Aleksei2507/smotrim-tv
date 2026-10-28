@@ -1,0 +1,401 @@
+{
+  "id": "tt31510819",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c23981272e2ed4a31915627507f6a5bd6bd3d7af778e2b938cdea35dc554dfc0.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/825a42b6237224e5cd690b97d83838359e8b0f398c2035ed431e962b5c7687bc.jpg",
+  "genres": [
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "47 мин",
+  "imdbRating": "8.3",
+  "releaseInfo": "2025–",
+  "trailers": [
+    {
+      "source": "qKGgw7Ob5f4",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Гангстерленд",
+  "description": "Лондон. Две могущественных криминальных семьи, Харриганы и Стивенсоны, ведут войну за власть, избегая прямой конфронтации. Но шаткое перемирие может нарушить исчезновение Томми, сына главы клана Стивенсонов, которого в последний раз видели в ночном клубе с Эдди Харриганом. Глава клана Харриганов поручает Гарри Де Сузе, опытному специалисту по «решению проблем», разобраться в ситуации.",
+  "aliases": [
+    "Гангстерленд",
+    "MobLand"
+  ],
+  "kpId": 5512084,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/5512084/"
+  ],
+  "year": "2025",
+  "imdbId": "tt31510819",
+  "ids": [
+    "tt31510819"
+  ],
+  "originalName": "MobLand",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-28T19:41:05Z",
+  "videos": [
+    {
+      "id": "tt31510819:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Остаться или спасовать",
+      "description": "Решала Гарри работает на криминальный клан Конрада Харригана и его жены Мэйв. У их конкурента, бандита Ричи, пропадает сын Томми.",
+      "released": "2025-03-30"
+    },
+    {
+      "id": "tt31510819:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Пазл",
+      "description": "Ричи приказывает своим людям похитить внука Конрада, Эдди, и те устраивают погоню. Гарри пытается защитить свою дочь Джину.",
+      "released": "2025-04-06"
+    },
+    {
+      "id": "tt31510819:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "План Б",
+      "description": "Ричи начинает войну с Харриганами, и Гарри прячет свою семью от его гнева. Мэйв советует Конраду «убрать» жену Ричи — Врон.",
+      "released": "2025-04-13"
+    },
+    {
+      "id": "tt31510819:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Крысиная ловушка",
+      "description": "Конрад подозревает, что в его ближайшем окружении есть «крыса», и наносит визит жене Гарри — Джэн. Ричи назначает Гарри встречу.",
+      "released": "2025-04-20"
+    },
+    {
+      "id": "tt31510819:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Похороны друга",
+      "description": "Харриганы отправляются на похороны Томми, и Гарри заранее принимает меры предосторожности. Врон прилюдно оскорбляет Мэйв.",
+      "released": "2025-04-27"
+    },
+    {
+      "id": "tt31510819:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Блюз Антверпена",
+      "description": "Харриганы признаются Ричи в совершённых убийствах. Дети Конрада, Брендан и Серафина, прибывают в Антверпен для заключения сделки.",
+      "released": "2025-05-04"
+    },
+    {
+      "id": "tt31510819:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Перекрёсток",
+      "description": "Гарри пускается на поиски Брендан и Серафины. Эдди и Джина сближаются, а Джэн едет на встречу со своей приятельницей Элис.",
+      "released": "2025-05-11"
+    },
+    {
+      "id": "tt31510819:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Хелтер Скелтер",
+      "description": "Гарри узнаёт о связи Эдди и Джины, а Конрад приглашает Элис в свой дом. Полиция предлагает Ричи взаимовыгодное сотрудничество.",
+      "released": "2025-05-18"
+    },
+    {
+      "id": "tt31510819:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Банкет нищих",
+      "description": "Мэйв запрещает Джине приближаться к Эдди. Элис приходит на ужин к Харриганам и становится свидетельницей скандала.",
+      "released": "2025-05-25"
+    },
+    {
+      "id": "tt31510819:1:10",
+      "season": 1,
+      "episode": 10,
+      "title": "Зверь во мне",
+      "description": "Конрад и Мэйв оказываются за решёткой, Гарри вычислят предателя. Ричи готовится нанести решающий удар по Харриганам.",
+      "released": "2025-06-01"
+    },
+    {
+      "id": "tt31510819:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-09-18"
+    },
+    {
+      "id": "tt31510819:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-09-25"
+    },
+    {
+      "id": "tt31510819:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-10-02"
+    },
+    {
+      "id": "tt31510819:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-10-09"
+    },
+    {
+      "id": "tt31510819:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-10-16"
+    },
+    {
+      "id": "tt31510819:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-10-23"
+    },
+    {
+      "id": "tt31510819:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-10-30"
+    },
+    {
+      "id": "tt31510819:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-11-06"
+    },
+    {
+      "id": "tt31510819:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2026-11-13"
+    },
+    {
+      "id": "tt31510819:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2026-11-20"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Гангстерленд / MobLand [02x01-06 из 10] (2026) WEB-DL 1080p | P, D, P2 · HDrezka Studio (серии 1–6)",
+      "magnet": "magnet:?xt=urn:btih:78dcdcaf3eca4d3feae8153f53e80313446ddbad&dn=rutor.info_%D0%93%D0%B0%D0%BD%D0%B3%D1%81%D1%82%D0%B5%D1%80%D0%BB%D0%B5%D0%BD%D0%B4+%2F+MobLand+%5B02x01-06+%D0%B8%D0%B7+10%5D+%282026%29+WEB-DL+1080p+%7C+P%2C+D%2C+P2&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "Rutor",
+      "sourceUrl": "https://rutor.info/torrent/1106940/",
+      "bytes": 25529912394,
+      "size": "23.78 GB",
+      "season": 2,
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "audioLanguage": "ru",
+      "label": "HDrezka Studio · русский, серии 1–6",
+      "languageEvidence": "Аудио#1: Russian · Многоголосый закадровый, HDrezka Studio · 1-6 серии; + 6 серия (HDrezka Studio)."
+    },
+    {
+      "title": "Гангстерленд / MobLand (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] (сезон 2, серии 1-6 из 10) HDRezka Studio, Кубик в Кубе, Lostfilm, NewComers, TVShows, Red Head Sound (обновляемая)",
+      "magnet": "magnet:?xt=urn:btih:BF553B8CDCFB5CE4287F00BB6002031B27488BB5",
+      "quality": "4K",
+      "source": "NNM-Club",
+      "sourceUrl": "https://nnmclub.to/forum/viewtopic.php?t=1891286",
+      "size": "51.5 GB",
+      "season": 2,
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "audioLanguage": "ru",
+      "label": "HDrezka Studio · русский, серии 1–6 · HDR10+",
+      "languageEvidence": "Аудио 1: AAC, 2 ch, 327 Kbps — Русский (MVO, HDRezka Studio), серии 1-6."
+    },
+    {
+      "title": "Гангстерленд / MobLand / Сезон: 1 / Серии: 1-10 из 10 (Энтони Бирн, Лоуренс Гоф, Гай Ричи, Даниэль Сыркин) [2025, Великобритания, США, криминал, драма, WEB-DL 1080p] 6 x MVO + DVO (Кубик в Кубе) + VO (М. Яроцкий) + Dub (Red Head Sound) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:3198E8861318732299B77913076857C75A6BC754&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%D0%93%D0%B0%D0%BD%D0%B3%D1%81%D1%82%D0%B5%D1%80%D0%BB%D0%B5%D0%BD%D0%B4%20%2F%20MobLand%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%201%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-10%20%D0%B8%D0%B7%2010%20(%D0%AD%D0%BD%D1%82%D0%BE%D0%BD%D0%B8%20%D0%91%D0%B8%D1%80%D0%BD%2C%20%D0%9B%D0%BE%D1%83%D1%80%D0%B5%D0%BD%D1%81%20%D0%93%D0%BE%D1%84%2C%20%D0%93%D0%B0%D0%B9%20%D0%A0%D0%B8%D1%87%D0%B8%2C%20%D0%94%D0%B0%D0%BD%D0%B8%D1%8D%D0%BB%D1%8C%20%D0%A1%D1%8B%D1%80%D0%BA%D0%B8%D0%BD)%20%5B2025%2C%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20%D0%B4%D1%80%D0%B0%D0%BC%D0%B0",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 48168058224,
+      "size": "44.86 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гангстерленд / MobLand / Сезон: 1 / Серии: 1-10 из 10 (Энтони Бирн, Лоуренс Гоф, Гай Ричи, Даниэль Сыркин) [2025, Великобритания, США, криминал, драма, WEB-DL 1080p] 6 x MVO + DVO (Кубик в Кубе) + VO (М. Яроцкий) + Dub (Red Head Sound) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Гангстерленд (1 сезон: 1-10 серии из 10) / MobLand / 2025 / ПМ (Lostfilm) / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:0D8F3CF0189AF47F1AA3BF9CA0758D48F20045ED",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 27691801640,
+      "size": "25.79 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гангстерленд (1 сезон: 1-10 серии из 10) / MobLand / 2025 / ПМ (Lostfilm) / WEB-DL (1080p)"
+    },
+    {
+      "title": "Гангстерленд / MobLand / Сезон: 1 / Серии: 1-10 из 10 (Энтони Бирн, Лоуренс Гоф, Гай Ричи) [2025, США, Великобритания, криминал, драма, HDR10+, HDR10, Dolby Vision, WEB-DL 2160p, 4k] Dub (Red Head Sound) + 6 x MVO + DVO (Кубик в Кубе) + AVO (М. Яроцкий) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:949370BD97E021DE651FAD894BEA92699625FF22&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 103122164776,
+      "size": "96.04 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гангстерленд / MobLand / Сезон: 1 / Серии: 1-10 из 10 (Энтони Бирн, Лоуренс Гоф, Гай Ричи) [2025, США, Великобритания, криминал, драма, HDR10+, HDR10, Dolby Vision, WEB-DL 2160p, 4k] Dub (Red Head Sound) + 6 x MVO + DVO (Кубик в Кубе) + AVO (М. Яроцкий) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Гангстерленд / MobLand / Сезон: 1 / Серии: 1-10 из 10 (Энтони Бирн, Лоуренс Гоф, Гай Ричи) [2025, США, Великобритания, криминал, драма, SDR, WEB-DL 2160p, 4k] 6 x MVO + Dub (Red Head Sound) + DVO + VO + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:4FFE7750757E1264887F41EBDC1521F088682B3A&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 67506148474,
+      "size": "62.87 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гангстерленд / MobLand / Сезон: 1 / Серии: 1-10 из 10 (Энтони Бирн, Лоуренс Гоф, Гай Ричи) [2025, США, Великобритания, криминал, драма, SDR, WEB-DL 2160p, 4k] 6 x MVO + Dub (Red Head Sound) + DVO + VO + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Гангстерленд / MobLand / Сезон: 1 / Серии: 1-10 из 10 (Энтони Бирн) [2025, Великобритания, США, криминал, драма, WEB-DL 720p] DVO (Кубик в Кубе) + 6 x MVO + Dub (Red Head Sound) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:EB3C159EB71A73B4774ECB7A53C90A122E2E88EC&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 25329569628,
+      "size": "23.59 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гангстерленд / MobLand / Сезон: 1 / Серии: 1-10 из 10 (Энтони Бирн) [2025, Великобритания, США, криминал, драма, WEB-DL 720p] DVO (Кубик в Кубе) + 6 x MVO + Dub (Red Head Sound) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Гангстерленд (1 сезон: 1-10 серии из 10) / MobLand / 2025 / ДБ (Red Head Sound), ПД (Кубик в Кубе), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:3C650C698F3798B1FA9965F46A8F9CD84E6D979C",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 16181289287,
+      "size": "15.07 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гангстерленд (1 сезон: 1-10 серии из 10) / MobLand / 2025 / ДБ (Red Head Sound), ПД (Кубик в Кубе), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Гангстерленд / MobLand [02х01-03 из 10] (2026) WEB-DL 1080p от Scarabey | D | Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:ce198079eedcca9d74005651c5c92a13bc67347a&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 11370925916,
+      "size": "10.59 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гангстерленд / MobLand [02х01-03 из 10] (2026) WEB-DL 1080p от Scarabey | D | Red Head Sound"
+    },
+    {
+      "title": "Гангстерленд (2 сезон: 1-5 серии из 10) / MobLand / 2026 / ДБ, ПМ (LostFilm, HDrezka Studio), ПД (ViruseProject), ЛМ (ColdFilm), СТ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:21CE50EE90701BF4159BFACE78924182F4C88820",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 21260088115,
+      "size": "19.80 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гангстерленд (2 сезон: 1-5 серии из 10) / MobLand / 2026 / ДБ, ПМ (LostFilm, HDrezka Studio), ПД (ViruseProject), ЛМ (ColdFilm), СТ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Гангстерленд / MobLand (2026) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] (сезон 2, серии 1-5 из 10) NewComers, HDRezka Studio, TVShows, LostFilm, Кубик в Кубе, Red Head Sound, ViruseProject (обновляемая)",
+      "magnet": "magnet:?xt=urn:btih:922D5432E37AFB032432959087A0E36104C251BB",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 40157944217,
+      "size": "37.40 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гангстерленд / MobLand (2026) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] (сезон 2, серии 1-5 из 10) NewComers, HDRezka Studio, TVShows, LostFilm, Кубик в Кубе, Red Head Sound, ViruseProject (обновляемая)"
+    },
+    {
+      "title": "Гангстерленд (2 сезон: 1-3 серии из 10) / MobLand / 2026 / ДБ (Red Head Sound), СТ / 4K, HEVC, HDR, HDR10+, DV P8 / Hybrid (2160p)",
+      "magnet": "magnet:?xt=urn:btih:605CEEADDCBDFFE3F2D5A38A1E1AA72F28D94732",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 27358941675,
+      "size": "25.48 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Гангстерленд (2 сезон: 1-3 серии из 10) / MobLand / 2026 / ДБ (Red Head Sound), СТ / 4K, HEVC, HDR, HDR10+, DV P8 / Hybrid (2160p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-28T19:41:05Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt31510819/img",
+    "background": "https://images.metahub.space/background/medium/tt31510819/img"
+  }
+}
