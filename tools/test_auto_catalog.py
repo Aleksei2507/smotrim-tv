@@ -46,6 +46,22 @@ class AutomaticCatalogTest(unittest.TestCase):
     def run_catalog(self,provider,**kwargs):
         with contextlib.redirect_stdout(io.StringIO()):return a.run(self.directory,self.state,provider,now=NOW,**kwargs)
     def current(self):return json.loads((self.directory/'index.json').read_text())
+    def test_new_titles_lead_and_refresh_does_not_move_old_titles(self):
+        first=self.current()['items'][0]['id']
+        provider=Fake();provider.items[0]['id']='tt2222222'
+        self.run_catalog(provider,refresh_limit=0)
+        provider.items[0]['id']='tt3333333'
+        self.run_catalog(provider,refresh_limit=0)
+        expected=['tt3333333','tt2222222',first]
+        self.assertEqual([r['id'] for r in self.current()['items']],expected)
+        index=self.current();cards=[json.loads((self.directory/r['card']).read_text()) for r in index['items']]
+        cards[-1]['description']='Обновлённое описание старого фильма'
+        with contextlib.redirect_stdout(io.StringIO()):a.publish_cards(self.directory,index,list(reversed(cards)),STAMP)
+        self.assertEqual([r['id'] for r in self.current()['items']],expected)
+    def test_first_batch_preserves_order_and_manual_rebuild_keeps_newest_first(self):
+        rows=[{'id':'new-a'},{'id':'old-a'},{'id':'new-b'},{'id':'old-b'}]
+        self.assertEqual(b.newest_first(rows,[]),rows)
+        self.assertEqual([r['id'] for r in b.newest_first(rows,[{'id':'old-b'},{'id':'old-a'}])],['new-a','new-b','old-b','old-a'])
     def test_add_movies_and_series_without_duplicates_or_apk_changes(self):
         for kind in ('movie','series'):
             provider=Fake(kind);provider.items[0]['id']='tt2222222' if kind=='movie' else 'tt3333333'

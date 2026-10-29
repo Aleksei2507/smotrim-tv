@@ -262,6 +262,7 @@ def refresh_card(old,meta,raw_rows,override,stamp):
     return fresh
 
 def publish_cards(directory,index,cards,stamp):
+    cards=build.newest_first(cards,index['items'])
     updated=copy.deepcopy(index);rows=[build.summary(card) for card in cards]
     if rows==index['items']:return False
     updated.update(items=rows,revision=max(index['revision']+1,int(time.time())),updatedAt=stamp)

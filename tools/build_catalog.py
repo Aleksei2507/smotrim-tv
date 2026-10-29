@@ -16,6 +16,11 @@ SUMMARY_FIELDS = ('id','ids','imdbId','name','type','kind','year','origin','post
 def encoded(value):
     return (json.dumps(value, ensure_ascii=False, indent=2) + '\n').encode('utf-8')
 
+def newest_first(items, previous):
+    """Prepend additions; metadata/episode refreshes keep the established order."""
+    positions = {row['id']: position for position, row in enumerate(previous)}
+    return sorted(items, key=lambda row: (1, positions[row['id']]) if row['id'] in positions else (0, 0))
+
 def summary(card):
     row={k:card[k] for k in SUMMARY_FIELDS if k in card}
     description=row.get('description','')
@@ -160,6 +165,7 @@ def build(raw_directory, revision):
         print(seed['name']+': '+str(len(card['sources']))+' variants, '+str(len(episodes))+' episodes')
     editorial_ids={r['id'] for r in index['items']}
     index['items'].extend(r for r in previous['items'] if r['id'] not in editorial_ids)
+    index['items'] = newest_first(index['items'], previous['items'])
     (output/'index.json').write_bytes(encoded(index))
     check(output)
 
