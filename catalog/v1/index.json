@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1793216465,
-  "updatedAt": "2026-10-28T19:41:05Z",
+  "revision": 1793283677,
+  "updatedAt": "2026-10-29T14:21:17Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -35,8 +35,8 @@
         "Реалити-шоу",
         "Телеигра"
       ],
-      "card": "cards/99931991304a81ce540ab0b96c24401066dfbabcd44516cab7dc45637b6cc748.json",
-      "sha256": "99931991304a81ce540ab0b96c24401066dfbabcd44516cab7dc45637b6cc748",
+      "card": "cards/73ffd9e821deb947fa22dd2b43afa7ceddb2d2b8ee318f3497f4db4bbb385bff.json",
+      "sha256": "73ffd9e821deb947fa22dd2b43afa7ceddb2d2b8ee318f3497f4db4bbb385bff",
       "localized": true,
       "provider": "github"
     },
@@ -66,8 +66,8 @@
         "Реалити-шоу",
         "Телеигра"
       ],
-      "card": "cards/42e0c6075339ccb252ecf57721df053f711ba4ef72601d1ac5c56daba20827f4.json",
-      "sha256": "42e0c6075339ccb252ecf57721df053f711ba4ef72601d1ac5c56daba20827f4",
+      "card": "cards/4849aae1f408ac07bff93ca3c4a13cd6b0ce35e312709ba53acc8d2ba39c90f7.json",
+      "sha256": "4849aae1f408ac07bff93ca3c4a13cd6b0ce35e312709ba53acc8d2ba39c90f7",
       "localized": true,
       "provider": "github"
     },
@@ -1354,8 +1354,8 @@
       ],
       "genres": [],
       "imdbRating": "6.2",
-      "card": "cards/13c1bf108fadd961c8cd5712f8ed860d8c793b7276d057095d05e776ee03421b.json",
-      "sha256": "13c1bf108fadd961c8cd5712f8ed860d8c793b7276d057095d05e776ee03421b",
+      "card": "cards/c53795690a7b8d4137cdba8e9766c5054d585b9fa5072d83423f063a37ec1719.json",
+      "sha256": "c53795690a7b8d4137cdba8e9766c5054d585b9fa5072d83423f063a37ec1719",
       "localized": true,
       "provider": "github"
     },
@@ -2503,6 +2503,68 @@
       "runtime": "145 мин",
       "card": "cards/7aa86591e408ebb21586cb609011307687026a8d88c02b15a9b8ae1876946c10.json",
       "sha256": "7aa86591e408ebb21586cb609011307687026a8d88c02b15a9b8ae1876946c10",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1160419",
+      "ids": [
+        "tt1160419"
+      ],
+      "imdbId": "tt1160419",
+      "name": "Дюна",
+      "type": "movie",
+      "year": "2021",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/439753073ed976f013572095c1ee351f74a469a04d6cad28b6220ceac0fac6ba.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3ae09bc11375cb66f6a07f4ca97b00b077dbc251f1c00c94a2412713bfd2582e.jpg",
+      "description": "Наследник дома Атрейдесов Пол прибывает на пустынную планету Арракис. Борьба за власть и добычу пряности заставляет его отправиться к фрименам и принять свою судьбу.",
+      "originalName": "Dune",
+      "aliases": [
+        "Дюна",
+        "Dune"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "155 мин",
+      "card": "cards/46eac7c59a9c00869a299e0d553b9d463e54075ffbd24f6bc86caaecb3c8f1ae.json",
+      "sha256": "46eac7c59a9c00869a299e0d553b9d463e54075ffbd24f6bc86caaecb3c8f1ae",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt15239678",
+      "ids": [
+        "tt15239678"
+      ],
+      "imdbId": "tt15239678",
+      "name": "Дюна: Часть вторая",
+      "type": "movie",
+      "year": "2024",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c89d0600dae59f9404e1a9be4b67807494faf144ae0c491d00373042a60114ea.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3b01e55ea929e1baebbd5f66abf9565d5c49bc3e38e18b6a4da54c2c9a30e6e4.jpg",
+      "description": "Пол Атрейдес присоединяется к фрименам Арракиса. Вместе с Чани он готовится противостоять Харконненам, пытаясь изменить будущее, в котором его победа может привести к большой войне.",
+      "originalName": "Dune: Part Two",
+      "aliases": [
+        "Дюна: Часть вторая",
+        "Dune: Part Two",
+        "Дюна Часть вторая",
+        "Дюна 2"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "167 мин",
+      "card": "cards/374c0e5d09945ad3ad127af23cc46e02a3ede94c6352c3f6e065d5c490f1ce05.json",
+      "sha256": "374c0e5d09945ad3ad127af23cc46e02a3ede94c6352c3f6e065d5c490f1ce05",
       "localized": true,
       "provider": "github"
     }

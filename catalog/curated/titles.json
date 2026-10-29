@@ -466,6 +466,39 @@
         "https://www.kinopoisk.ru/series/5582628/",
         "https://www.thetvdb.com/series/titany/allseasons/official"
       ]
+    },
+    {
+      "id": "tt1160419",
+      "name": "Дюна",
+      "type": "movie",
+      "origin": "other",
+      "year": "2021",
+      "aliases": [
+        "Dune"
+      ],
+      "description": "Наследник дома Атрейдесов Пол прибывает на пустынную планету Арракис. Борьба за власть и добычу пряности заставляет его отправиться к фрименам и принять свою судьбу.",
+      "metadataSources": [
+        "https://www.imdb.com/title/tt1160419/",
+        "https://www.kinopoisk.ru/film/409424/"
+      ]
+    },
+    {
+      "id": "tt15239678",
+      "name": "Дюна: Часть вторая",
+      "type": "movie",
+      "origin": "other",
+      "year": "2024",
+      "searchName": "Дюна Часть вторая",
+      "aliases": [
+        "Dune: Part Two",
+        "Дюна Часть вторая",
+        "Дюна 2"
+      ],
+      "description": "Пол Атрейдес присоединяется к фрименам Арракиса. Вместе с Чани он готовится противостоять Харконненам, пытаясь изменить будущее, в котором его победа может привести к большой войне.",
+      "metadataSources": [
+        "https://www.imdb.com/title/tt15239678/",
+        "https://www.kinopoisk.ru/film/4540126/"
+      ]
     }
   ]
 }

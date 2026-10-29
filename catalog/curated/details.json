@@ -288,6 +288,15 @@
         "description": "Борьба за еду и воду продолжается. Участники строят карточный домик на воде и спускаются со скалы.",
         "released": "2026-10-15",
         "source": "https://survivall.friday.ru/videos/s1/e3"
+      },
+      {
+        "id": "tt31531192:4:4",
+        "season": 4,
+        "episode": 4,
+        "title": "Легенда Альфа · Выпуск 4",
+        "description": "Участникам предлагают мешать выполнению заданий собственной команды. Испытания проверят, насколько они готовы поступиться общими интересами.",
+        "released": "2026-10-22",
+        "source": "https://survivall.friday.ru/videos/s1/e4"
       }
     ],
     "episodeSources": [
@@ -296,7 +305,8 @@
       "https://survival.friday.ru/",
       "https://survivall.friday.ru/videos/s1/e1",
       "https://survivall.friday.ru/videos/s1/e2",
-      "https://survivall.friday.ru/videos/s1/e3"
+      "https://survivall.friday.ru/videos/s1/e3",
+      "https://survivall.friday.ru/videos/s1/e4"
     ]
   },
   "tt31520694": {
@@ -304,7 +314,9 @@
       "https://chef.friday.ru/videos/s1",
       "https://chef.friday.ru/videos/s2",
       "https://chef.friday.ru/videos/s3",
-      "https://chef.friday.ru/videos/s4"
+      "https://chef.friday.ru/videos/s4",
+      "https://chef.friday.ru/videos/s4/e9",
+      "https://chef.friday.ru/videos/s4/e10"
     ],
     "videos": [
       {
@@ -891,6 +903,24 @@
         "description": "",
         "released": "",
         "source": "https://chef.friday.ru/videos/s4/e8"
+      },
+      {
+        "id": "tt31520694:4:9",
+        "season": 4,
+        "episode": 9,
+        "title": "Выпуск 9",
+        "description": "Стажёры борются за чёрные кители: готовят в необычных условиях, представляют блюда экспертам и проводят ужин.",
+        "released": "2026-10-21",
+        "source": "https://chef.friday.ru/videos/s4/e9"
+      },
+      {
+        "id": "tt31520694:4:10",
+        "season": 4,
+        "episode": 10,
+        "title": "Выпуск 10",
+        "description": "Бывшие участники возвращаются в академию. Поварам предстоит приготовить рекордный плов, собрать блюда из случайных ингредиентов и провести ужин.",
+        "released": "2026-10-28",
+        "source": "https://chef.friday.ru/videos/s4/e10"
       }
     ]
   },
@@ -901,7 +931,8 @@
       "https://premier.one/show/titany/season/3",
       "https://premier.one/show/titany/season/4",
       "https://premier.one/show/titany/season/5",
-      "https://www.thetvdb.com/series/titany/allseasons/official"
+      "https://www.thetvdb.com/series/titany/allseasons/official",
+      "https://www.tvmaze.com/shows/76612/titany"
     ],
     "videos": [
       {
@@ -1461,6 +1492,15 @@
         "description": "",
         "released": "",
         "source": "https://premier.one/show/titany/season/5"
+      },
+      {
+        "id": "tt32370407:5:7",
+        "season": 5,
+        "episode": 7,
+        "title": "Выпуск 7",
+        "description": "",
+        "released": "2026-10-25",
+        "source": "https://www.tvmaze.com/shows/76612/titany"
       }
     ]
   }
