@@ -1,0 +1,122 @@
+{
+  "id": "tt1160419",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/439753073ed976f013572095c1ee351f74a469a04d6cad28b6220ceac0fac6ba.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3ae09bc11375cb66f6a07f4ca97b00b077dbc251f1c00c94a2412713bfd2582e.jpg",
+  "genres": [
+    "Боевик",
+    "Приключения",
+    "Драма"
+  ],
+  "runtime": "155 мин",
+  "imdbRating": "8.0",
+  "releaseInfo": "2021",
+  "trailers": [
+    {
+      "source": "w0HgHet0sxg",
+      "type": "Trailer"
+    },
+    {
+      "source": "8g18jFHCLXk",
+      "type": "Trailer"
+    },
+    {
+      "source": "n9xhJrPXop4",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Дюна",
+  "origin": "other",
+  "year": "2021",
+  "aliases": [
+    "Дюна",
+    "Dune"
+  ],
+  "description": "Наследник дома Атрейдесов Пол прибывает на пустынную планету Арракис. Борьба за власть и добычу пряности заставляет его отправиться к фрименам и принять свою судьбу.",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt1160419.json",
+    "https://www.imdb.com/title/tt1160419/",
+    "https://www.kinopoisk.ru/film/409424/"
+  ],
+  "imdbId": "tt1160419",
+  "ids": [
+    "tt1160419"
+  ],
+  "originalName": "Dune",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-29T14:21:17Z",
+  "sources": [
+    {
+      "title": "Дюна / Dune: Part One (Дени Вильнев / Denis Villeneuve) [2021, США, фантастика, боевик, драма, приключения, BDRip 1080p] Dub (Пифагор) + MVO (Jaskier) + MVO (HDRezka Studio) + DVO (Pazl Voice) + AVO (Сербин) + VO (Есарев) + VO (Яроцкий) + Dub (Ukr) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:A5119830B7F6289F3AD985E3DDA0AB2F161305B5&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 21582210662,
+      "size": "20,10 ГБ",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна / Dune: Part One (Дени Вильнев / Denis Villeneuve) [2021, США, фантастика, боевик, драма, приключения, BDRip 1080p] Dub (Пифагор) + MVO (Jaskier) + MVO (HDRezka Studio) + DVO (Pazl Voice) + AVO (Сербин) + VO (Есарев) + VO (Яроцкий) + Dub (Ukr) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Дюна / Dune: Part One (Дени Вильнев / Denis Villeneuve) [2021, США, фантастика, боевик, драма, приключения, UHD BDRip 1080p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub + 2x MVO + AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:300C0B8B23B88A6E491F0A53AC6535E71C397353&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 28808493137,
+      "size": "26,83 ГБ",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна / Dune: Part One (Дени Вильнев / Denis Villeneuve) [2021, США, фантастика, боевик, драма, приключения, UHD BDRip 1080p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub + 2x MVO + AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Дюна / Dune: Part One (Дени Вильнев / Denis Villeneuve) [2021, США, фантастика, боевик, драма, приключения, UHD BDRemux 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub + 2x MVO + AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:E32C5A41DAA88B09DFA44EEB2FD4B32375CC54FB&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 89947352596,
+      "size": "83,77 ГБ",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна / Dune: Part One (Дени Вильнев / Denis Villeneuve) [2021, США, фантастика, боевик, драма, приключения, UHD BDRemux 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub + 2x MVO + AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Дюна / Dune: Part One (Дени Вильнев / Denis Villeneuve) [2021, США, фантастика, боевик, драма, приключения, UHD BDRip 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub + 2x MVO + AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:2F1B54BFDB74648EBA0B752C6E48F5E87D4C9563&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 52022791372,
+      "size": "48,45 ГБ",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна / Dune: Part One (Дени Вильнев / Denis Villeneuve) [2021, США, фантастика, боевик, драма, приключения, UHD BDRip 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub + 2x MVO + AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Дюна / Dune: Part One (Дени Вильнев / Denis Villeneuve) [2021, США, Канада, Венгрия, фантастика, боевик, драма, приключения, BDRip 720p] Dub + 2x MVO (HDRezka Studio, Jaskier) + DVO (Pazl Voice) + AVO (Сербин) + 2x VO (Есарев, Яроцкий) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:390A80FE4FE1E34CD5CC6B3B9A4032704600A1CA&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 10157597655,
+      "size": "9,46 ГБ",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна / Dune: Part One (Дени Вильнев / Denis Villeneuve) [2021, США, Канада, Венгрия, фантастика, боевик, драма, приключения, BDRip 720p] Dub + 2x MVO (HDRezka Studio, Jaskier) + DVO (Pazl Voice) + AVO (Сербин) + 2x VO (Есарев, Яроцкий) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Дюна / Dune: Part One (2021) WEBRip 720p | HDRezka Studio, Pazl Voice",
+      "magnet": "magnet:?xt=urn:btih:513a58e7f58df9baf159388c8e5bec4016587de6&dn=Dune.2021.(720p).WEBRip_JNS82.mkv&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://opentracker.i2p.rocks:6969/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=udp://tracker.bitsearch.to:1337/announce&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://exodus.desync.com:6969&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · megapeer",
+      "bytes": 6367289016,
+      "size": "5,93 ГБ",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дюна / Dune: Part One (2021) WEBRip 720p | HDRezka Studio, Pazl Voice"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-29T14:18:43Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt1160419/img",
+    "background": "https://images.metahub.space/background/medium/tt1160419/img"
+  }
+}
