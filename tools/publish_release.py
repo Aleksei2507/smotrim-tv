@@ -14,7 +14,7 @@ from pathlib import Path
 REPOSITORY = 'Aleksei2507/smotrim-tv'
 CERTIFICATE = '5d98d8ec77e3de61c241d19dbf0c3ef9a5dbb6cc268acba25dbf07b537e309d2'
 PROJECT = Path(__file__).resolve().parents[1]
-ROOT_FILES = ['README.md', 'NOTICE.md', 'TESTING.md', '.gitignore', 'build.gradle',
+ROOT_FILES = ['README.md', 'CHANGELOG.md', 'NOTICE.md', 'TESTING.md', '.gitignore', 'build.gradle',
               'settings.gradle', 'gradle.properties', 'gradlew', 'gradlew.bat']
 SOURCE_DIRS = ['app', 'gradle', 'licenses', 'third-party', 'ui-tests', 'tools', 'catalog', '.github']
 EXCLUDED = {'build', '.gradle', '.signing', '.git', '.DS_Store', '__pycache__'}
