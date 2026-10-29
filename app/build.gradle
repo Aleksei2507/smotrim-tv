@@ -23,7 +23,7 @@ android {
             }
         }
     }
-    buildTypes { release { minifyEnabled false; signingConfig signingConfigs.release }; debug { signingConfig signingConfigs.release } }
+    buildTypes { release { minifyEnabled true; proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'); signingConfig signingConfigs.release }; debug { signingConfig signingConfigs.release } }
     packaging { resources { excludes += ['META-INF/DEPENDENCIES','META-INF/INDEX.LIST'] }; jniLibs { useLegacyPackaging true; keepDebugSymbols += '**/libtorrserver.so' } }
     testOptions { unitTests.returnDefaultValues = true }
     sourceSets { test.java.srcDir 'src/testShared/java'; androidTest.java.srcDir 'src/testShared/java' }
