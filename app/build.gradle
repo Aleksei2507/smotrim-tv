@@ -7,8 +7,8 @@ android {
         applicationId 'ru.smotrim.tv'
         minSdk 28
         targetSdk 35
-        versionCode = (project.findProperty('smotrimVersionCode') ?: '18').toInteger()
-        versionName = (project.findProperty('smotrimVersionName') ?: '0.6.3')
+        versionCode = (project.findProperty('smotrimVersionCode') ?: '22').toInteger()
+        versionName = (project.findProperty('smotrimVersionName') ?: '0.6.7')
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         ndk { abiFilters 'armeabi-v7a', 'arm64-v8a' }
     }
@@ -23,7 +23,7 @@ android {
             }
         }
     }
-    buildTypes { release { minifyEnabled false; signingConfig signingConfigs.release } }
+    buildTypes { release { minifyEnabled false; signingConfig signingConfigs.release }; debug { signingConfig signingConfigs.release } }
     packaging { resources { excludes += ['META-INF/DEPENDENCIES','META-INF/INDEX.LIST'] }; jniLibs { useLegacyPackaging true; keepDebugSymbols += '**/libtorrserver.so' } }
     testOptions { unitTests.returnDefaultValues = true }
     sourceSets { test.java.srcDir 'src/testShared/java'; androidTest.java.srcDir 'src/testShared/java' }

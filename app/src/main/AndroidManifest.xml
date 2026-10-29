@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <permission android:name="ru.smotrim.tv.permission.READ_HOME" android:protectionLevel="signature" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
@@ -8,6 +9,8 @@
     <application android:label="Смотрим" android:theme="@style/AppTheme" android:icon="@drawable/ic_launcher"
         android:banner="@drawable/tv_banner" android:allowBackup="false" android:usesCleartextTraffic="true"
         android:extractNativeLibs="true" android:supportsRtl="true" android:hardwareAccelerated="true">
+        <provider android:name=".HomeFeedProvider" android:authorities="ru.smotrim.tv.home"
+            android:exported="true" android:permission="ru.smotrim.tv.permission.READ_HOME" />
         <receiver android:name=".UpdateCleanupReceiver" android:exported="false">
             <intent-filter><action android:name="android.intent.action.MY_PACKAGE_REPLACED" /></intent-filter>
         </receiver>

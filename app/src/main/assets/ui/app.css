@@ -183,6 +183,10 @@ body[data-text-size=largest] .result-cover{width:100px}body[data-text-size=large
 .main.catalog{bottom:110px;display:flex;flex-direction:column}
 .main.catalog>*{flex-shrink:0}
 .main.catalog .page-bar{margin:18px 0}
+.main.catalog .genre-chips{display:flex;flex:1;min-width:0;max-width:100%;overflow-x:auto;overflow-y:hidden;flex-wrap:nowrap;padding:10px 12px;margin:-10px -12px;scrollbar-width:none}
+.main.catalog .genre-chips::-webkit-scrollbar{display:none}
+.main.catalog .genre-chips .chip{flex:0 0 auto;white-space:nowrap}
+.main.catalog .page-bar .pager{flex-shrink:0;margin-left:24px}
 .main.catalog .movie-grid{flex:1;min-height:0;grid-template-columns:repeat(5,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:28px 24px;margin:0 -14px;padding:14px}
 /* Android button defaults must not size flex children by their unbroken text. */
 .main.catalog .movie-card{display:flex;flex-direction:column;align-items:stretch;align-self:stretch;width:100%;max-width:100%;min-width:0;min-height:0;overflow:hidden}

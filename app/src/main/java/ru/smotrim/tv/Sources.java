@@ -113,24 +113,30 @@ public final class Sources {
         }
         return out;
     }
+    interface TorrentTransport { String get(String url) throws Exception; }
     public static JSONObject torrents(String name,String imdb,String year) throws JSONException {
+        return torrents(name,imdb,year,Sources::text);
+    }
+    static JSONObject torrents(String name,String imdb,String year,TorrentTransport transport) throws JSONException {
         JSONArray all=new JSONArray(),warnings=new JSONArray();
-        ExecutorService pool=Executors.newFixedThreadPool(3);
+        int successful=0,failed=0;
+        ExecutorService pool=Executors.newFixedThreadPool(4);
         List<Callable<JSONArray>> jobs=Arrays.asList(
-            ()->parseJacRed(text("https://jac.red/api/v1.0/torrents?search="+encode(name)+"&sort=sid"+(year.matches("\\d{4}")?"&relased="+year:""))),
-            ()->parseRutor(text("https://rutor.info/search/0/0/000/0/"+encode(name+(year.isEmpty()?"":" "+year)))),
-            ()->parseApiBay(text("https://apibay.org/q.php?q="+encode(imdb.matches("tt\\d+")?imdb:name)+"&cat=200")));
-        String[] providers={"JacRed","Rutor","APIBay"};
+            ()->parseJacRed(transport.get("https://jac.red/api/v1.0/torrents?search="+encode(name)+"&sort=sid"+(year.matches("\\d{4}")?"&relased="+year:""))),
+            ()->parseJacRed(transport.get("https://jac-red.ru/api/v1.0/torrents?search="+encode(name)+"&sort=sid"+(year.matches("\\d{4}")?"&relased="+year:""))),
+            ()->parseRutor(transport.get("https://rutor.info/search/0/0/000/0/"+encode(name+(year.isEmpty()?"":" "+year)))),
+            ()->parseApiBay(transport.get("https://apibay.org/q.php?q="+encode(imdb.matches("tt\\d+")?imdb:name)+"&cat=200")));
+        String[] providers={"JacRed","JacRed (резерв)","Rutor","APIBay"};
         try {
             List<Future<JSONArray>> results=pool.invokeAll(jobs,28,TimeUnit.SECONDS);
-            for(int i=0;i<results.size();i++)try{JSONArray a=results.get(i).get();for(int j=0;j<a.length();j++)all.put(a.get(j));}catch(Exception e){warnings.put(providers[i]+" недоступен");}
+            for(int i=0;i<results.size();i++)try{JSONArray a=results.get(i).get();successful++;for(int j=0;j<a.length();j++)all.put(a.get(j));}catch(Exception e){failed++;warnings.put(providers[i]+" недоступен");}
         }catch(InterruptedException e){Thread.currentThread().interrupt();warnings.put("Поиск отменён");}
         finally{pool.shutdownNow();}
         List<JSONObject> items=new ArrayList<>();Set<String> hashes=new HashSet<>();
         for(int i=0;i<all.length();i++){JSONObject o=all.getJSONObject(i);Matcher m=Pattern.compile("(?i)btih:([a-f0-9]{40})").matcher(o.getString("magnet"));if(m.find()&&hashes.add(m.group(1).toLowerCase(Locale.ROOT)))items.add(o);}
         items.sort((a,b)->Integer.compare(b.optInt("seeds"),a.optInt("seeds")));
         JSONArray sorted=new JSONArray();for(JSONObject item:items)sorted.put(item);
-        return new JSONObject().put("items",sorted).put("warnings",warnings);
+        return new JSONObject().put("items",sorted).put("warnings",warnings).put("successfulProviders",successful).put("failedProviders",failed);
     }
     public static boolean videoFile(String path) { return path.toLowerCase(Locale.ROOT).matches(".*\\.(mkv|mp4|m4v|webm|avi|ts|mov|mpeg|mpg)"); }
     public static File safeFile(File root,String path) throws IOException {

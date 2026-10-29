@@ -1,4 +1,17 @@
 const test=require('node:test'),assert=require('node:assert/strict'),F=require('../app/src/main/assets/ui/features.js');
+test('genres come from metadata and merge Russian/English duplicates',()=>{
+ const labels={Action:'Боевик',Drama:'Драма',Comedy:'Комедия',Animation:'Анимация','Мультфильм':'Анимация'};
+ const items=[{genres:['Action',' драма ','Drama']},{genres:['Comedy','комедия']},{genre:['Мультфильм','Animation']},{genres:[]},{genres:[null,4,'']}];
+ assert.deepEqual(F.genreOptions(items,labels),['Все','Анимация','Боевик','Драма','Комедия']);
+ assert.deepEqual(F.mediaGenres(items[0],labels),['Боевик','Драма']);
+ assert.deepEqual(F.genreOptions([{genres:['Триллер']}],labels),['Все','Триллер']);
+});
+test('genre filters omit absent categories and retain unfamiliar genres',()=>{
+ assert.deepEqual(F.genreOptions([]),['Все']);
+ assert.deepEqual(F.genreOptions([{genre:'приключения'},{genres:[' приключения ','Спорт']}]),['Все','Приключения','Спорт']);
+ const items=[{id:'a',genres:['Drama']},{id:'b',genres:['драма']},{id:'c',genres:['Comedy']}],labels={Drama:'Драма',Comedy:'Комедия'};
+ assert.deepEqual(items.filter(m=>F.mediaGenres(m,labels).includes('Драма')).map(m=>m.id),['a','b']);
+});
 test('Russian search hint survives selection without pretending to be a translated title',()=>{const m={id:'tt10466872',name:'Dune: Prophecy',type:'series'},selected=F.searchSelection(m,' ДЮНА ПРОРОЧЕСТВО ');assert.equal(selected.name,'Dune: Prophecy');assert.equal(selected.searchHint,'ДЮНА ПРОРОЧЕСТВО');assert.equal(selected.id,m.id);assert.equal(m.searchHint,undefined);assert.equal(F.searchSelection(m,'x'.repeat(101)).searchHint,undefined);});
 test('audio hints do not infer Russian from title, dubbing or subtitles alone',()=>{for(const title of ['Дюна Пророчество 1080p','Dune DUB','Dune RUS SUB'])assert.deepEqual(F.audioLanguages({title}),[],title);assert.deepEqual(F.audioLanguages({title:'Dune ENG + Sub (Rus)'}),['en']);assert.deepEqual(F.audioLanguages({title:'Dune.RUS.ENG.MVO.1080p'}),['ru','en']);assert.equal(F.audioLabel({title:'Dune SuccessfulCrab'}),'Язык звука не указан');});
 test('Russian season pack precedes foreign exact episode without admitting a wrong season',()=>{const sources=[{title:'Dune S01E03 ENG',seeds:1000,quality:'2160p'},{title:'Дюна S01 MVO',seeds:10,quality:'1080p'},{title:'Дюна S02E03 RUS',seeds:90},{title:'Дюна S01E03 RUS',seeds:0}],prefs={language:'ru',quality:'2160'};const rows=F.episodeSources(sources,{season:1,episode:3},prefs);assert.deepEqual(rows.map(r=>r.title),['Дюна S01 MVO','Dune S01E03 ENG','Дюна S01E03 RUS']);assert.equal(F.episodeSources(sources,{season:1,episode:3},{language:'en',quality:'auto'})[0].title,'Dune S01E03 ENG');});

@@ -6,3 +6,19 @@ test('ambiguous files remain ambiguous and wrong episodes never auto match',()=>
 test('series identity survives title and torrent changes',()=>{assert.equal(F.seriesId({movie:{id:'tt1234567',type:'series'},url:'a'},{episode:1,seriesName:'English'}),F.seriesId({movie:{id:'tt1234567',type:'series'},url:'b'},{episode:2,seriesName:'Русский'}));});
 test('known episode and seeded season outrank unknown and dead exact source',()=>{const out=F.episodeSources([{title:'Unknown',seeds:10},{title:'Show S02',seeds:5},{title:'Show S02E03',seeds:0},{title:'Show S01E03',seeds:99}],{season:2,episode:3},{quality:'auto',language:'auto'});assert.deepEqual(out.map(s=>s.title),['Show S02','Unknown','Show S02E03']);});
 test('readability values are bounded and preserve independent options',()=>{assert.deepEqual(F.readability({size:'huge',contrast:'true',motion:1}),{size:'normal',contrast:false,motion:false});assert.deepEqual(F.readability({size:'largest',contrast:true,motion:true}),{size:'largest',contrast:true,motion:true});});
+test('comma-separated season packs stay visible and sparse episodes retain gaps',()=>{
+ const pack='Вспыш и чудо-машинки / Сезон: 1, 2, 3, 4, 5, 6, 7 / Серии: 1-152 из 152';
+ assert.equal(F.sourceScope(pack,{season:2,episode:3}),1);
+ assert.equal(F.sourceScope(pack,{season:8,episode:3}),3);
+ assert.equal(F.sourceScope('Шоу / Сезон: 1, 3 / Серии: 1-20',{season:2,episode:3}),3);
+ const sparse='Вспыш / Сезон: 6 / Серии: 1-12, 16-17 из 20';
+ assert.equal(F.sourceScope(sparse,{season:6,episode:16}),1);
+ assert.equal(F.sourceScope(sparse,{season:6,episode:14}),3);
+});
+test('empty search distinguishes outages and partial results without a provider-count magic number',()=>{
+ for(const count of [1,2,3,4,5])assert.match(F.sourceSearchError({items:[],warnings:Array(count).fill('offline'),successfulProviders:0},0),/недоступны/);
+ assert.match(F.sourceSearchError({items:[],warnings:['offline'],successfulProviders:1},0),/Часть источников/);
+ assert.equal(F.sourceSearchError({items:[],warnings:[],successfulProviders:4},0),'');
+ assert.equal(F.sourceSearchError({items:[{title:'found'}],warnings:['offline'],successfulProviders:1},1),'');
+ assert.equal(F.sourceSearchError({items:[{title:'wrong episode'}],warnings:['offline'],successfulProviders:1},0),'');
+});

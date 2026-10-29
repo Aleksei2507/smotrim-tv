@@ -1,5 +1,6 @@
 // Public JSON fixture exercises production UI; no torrent is connected.
-const catalogPromise=fetch('catalog/v1/index.json').then(r=>r.json());
+const catalogPromise=fetch('catalog/v1/index.json?v=067',{cache:'no-store'}).then(r=>r.json());
+catalogPromise.then(index=>{document.getElementById('test-log').textContent='Каталог '+index.revision+' · '+index.items[0]?.name;});
 let manualSearches=0;
 const providers=index=>({kinopoisk:false,tmdb:false,github:{count:index.items.length,updatedAt:index.updatedAt,error:''}});
 window.Native={

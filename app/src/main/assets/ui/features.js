@@ -2,6 +2,24 @@
 (function(root){
 'use strict';
 const clean=s=>String(s||'').replace(/[._]+/g,' ').replace(/\s+/g,' ').trim();
+function mediaGenres(item,translations={}){
+ const labels=new Map();Object.entries(translations).forEach(([key,value])=>{labels.set(key.toLocaleLowerCase('ru'),value);labels.set(value.toLocaleLowerCase('ru'),value);});
+ const raw=item?.genres||item?.genre||[],values=Array.isArray(raw)?raw:typeof raw==='string'?[raw]:[];
+ return [...new Set(values.filter(g=>typeof g==='string').map(g=>g.trim().replace(/\s+/g,' ')).filter(Boolean).map(g=>labels.get(g.toLocaleLowerCase('ru'))||g[0].toLocaleUpperCase('ru')+g.slice(1).toLocaleLowerCase('ru')))];
+}
+function genreOptions(items,translations={}){return ['Все',...[...new Set(items.flatMap(item=>mediaGenres(item,translations)))].filter(g=>g!=='Все').sort((a,b)=>a.localeCompare(b,'ru'))];}
+function sourceSize(source){
+ const raw=String(source?.size??'').trim();let bytes=Number(source?.bytes);
+ if(!Number.isFinite(bytes)||bytes<=0){const m=raw.match(/^(\d+(?:[.,]\d+)?)\s*(?:bytes?|байт(?:а|ов)?)?$/i);bytes=m?Number(m[1].replace(',','.')):0;}
+ if(Number.isFinite(bytes)&&bytes>0){
+  const units=['Б','КБ','МБ','ГБ','ТБ'];let unit=0;
+  while(bytes>=1024&&unit<units.length-1){bytes/=1024;unit++;}
+  return bytes.toFixed(unit===0?0:2).replace('.',',')+' '+units[unit];
+ }
+ const formatted=raw.match(/^(\d+(?:[.,]\d+)?)\s*(KB|MB|GB|TB|KiB|MiB|GiB|TiB|КБ|МБ|ГБ|ТБ)$/i);
+ if(formatted)return formatted[1].replace('.',',')+' '+({K:'К',M:'М',G:'Г',T:'Т'}[formatted[2][0].toUpperCase()]||formatted[2][0].toUpperCase())+'Б';
+ return 'Размер неизвестен';
+}
 function episode(file){
  const path=String(file.path||file.name||''),name=String(file.name||path.split('/').pop());
  let m=name.match(/(?:^|[^a-z0-9])s(\d{1,2})[ ._-]*e(\d{1,3})(?:[ ._-]*e?(\d{1,3}))?/i),season=null,number=null,prefix='';
@@ -33,6 +51,10 @@ function seriesId(item,file){if(item.movie?.type==='series'&&contentId(item.movi
 function rankedSources(items,prefs){const resolution=s=>/2160|4k/i.test(s.quality+' '+s.title)?2160:/1080/i.test(s.quality+' '+s.title)?1080:/720/i.test(s.quality+' '+s.title)?720:0;
  return items.map((s,i)=>({s,i})).sort((a,b)=>Number(a.s.seeds===0)-Number(b.s.seeds===0)||languageRank(b.s,prefs)-languageRank(a.s,prefs)||(prefs.quality!=='auto'?Number(resolution(b.s)===+prefs.quality)-Number(resolution(a.s)===+prefs.quality):0)||(b.s.seeds||0)-(a.s.seeds||0)||a.i-b.i).map(x=>x.s);
 }
+function sourceSearchError(result,visibleCount){
+ if(visibleCount||(result.items||[]).length||!(result.warnings||[]).length)return '';
+ return result.successfulProviders===0?'Поисковые источники сейчас недоступны. Это не означает, что видео нет. Проверьте интернет или повторите позже.':'Часть источников не ответила, а в остальных ничего не найдено. Повторите поиск позже.';
+}
 function bufferAhead(p){return Math.max(0,Math.floor(((p.buffered||0)-(p.position||0))/1000));}
 function bufferingLabel(p,fallback){if(p.playWhenReady===false)return 'Видео на паузе';return p.preparing===false?'Подгружаем следующий фрагмент…':fallback||'Подключаемся к раздающим…';}
 function diagnosis(p,live=false){const seconds=bufferAhead(p);if(p.playWhenReady===false)return 'Видео на паузе.'+(live?'':` Запас: ${seconds} сек. Загрузка фрагментов может продолжаться.`);if(live)return p.loading?'Эфир загружается. Если ожидание затянулось, попробуйте переподключиться.':'Эфир воспроизводится.';
@@ -53,7 +75,12 @@ function sourceScope(text,target){
  const season=s.match(/\bs(\d{1,3})(?:\s*-\s*s?(\d{1,3}))?/i)||s.match(/(\d{1,3})(?:\s*-\s*(\d{1,3}))?\s*сезон/i)||s.match(/(?:сезон[ыа]?|seasons?)\s*[:.]?\s*(\d{1,3})(?:\s*-\s*(\d{1,3}))?/i)||s.match(/\b(\d{1,3})x\d/i);
  const ep=s.match(/\bs\d+\s*e(\d{1,4})(?:\s*-\s*(?:s\d+)?e?(\d{1,4}))?/i)||s.match(/\b\d+x(\d{1,4})(?:\s*-\s*(\d{1,4}))?/i)||s.match(/(?:серии|серия|episodes?)\s*[:.]?\s*(\d{1,4})(?:\s*-\s*(\d{1,4}))?/i)||s.match(/(\d{1,4})(?:\s*-\s*(\d{1,4}))?\s*сер(?:ии|ия|ий)/i);
  const includes=(m,n)=>n>=+m[1]&&n<=+(m[2]||m[1]);
- if(season&&!includes(season,target.season)||ep&&!includes(ep,target.episode))return 3;
+ const seasonList=s.match(/(?:сезон[ыа]?|seasons?)\s*[:.]?\s*(\d{1,3}(?:\s*-\s*\d{1,3})?(?:\s*,\s*\d{1,3}(?:\s*-\s*\d{1,3})?)+)/i);
+ const episodeList=s.match(/(?:серии|серия|episodes?)\s*[:.]?\s*(\d{1,4}(?:\s*-\s*\d{1,4})?(?:\s*,\s*\d{1,4}(?:\s*-\s*\d{1,4})?)+)/i);
+ const inList=(m,n)=>m[1].split(',').some(part=>{const pair=part.trim().split(/\s*-\s*/).map(Number);return n>=pair[0]&&n<=(pair[1]??pair[0]);});
+ if(seasonList?!inList(seasonList,target.season):season&&!includes(season,target.season))return 3;
+ if(episodeList?!inList(episodeList,target.episode):ep&&!includes(ep,target.episode))return 3;
+ if(seasonList||episodeList)return 1;
  if(season&&ep&&!season[2]&&!ep[2])return 0;
  if(season)return 1;
  return 2;
@@ -61,6 +88,6 @@ function sourceScope(text,target){
 function episodeSources(items,target,prefs){return rankedSources(items,prefs).map(s=>({...s,episodeScope:s.catalogSource?(s.season!==target.season||s.episode>0&&s.episode!==target.episode||s.episodeFrom&&(target.episode<s.episodeFrom||target.episode>s.episodeTo)?3:s.episode>0?0:1):sourceScope(s.title,target)})).filter(s=>s.episodeScope!==3).sort((a,b)=>Number(a.seeds===0)-Number(b.seeds===0)||languageRank(b,prefs)-languageRank(a,prefs)||a.episodeScope-b.episodeScope);}
 function readability(value){return {size:['normal','large','largest'].includes(value?.size)?value.size:'normal',contrast:value?.contrast===true,motion:value?.motion===true};}
 
-const api={searchSelection,audioLanguages,audioLabel,contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
+const api={mediaGenres,genreOptions,sourceSize,searchSelection,audioLanguages,audioLabel,contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,sourceSearchError,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
 if(typeof module!=='undefined')module.exports=api;else root.TVFeatures=api;
 })(typeof window!=='undefined'?window:globalThis);

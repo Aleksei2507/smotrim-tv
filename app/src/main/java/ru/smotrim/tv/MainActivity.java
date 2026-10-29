@@ -38,9 +38,25 @@ public class MainActivity extends Activity {
     private boolean backgrounded,resumePlaybackOnForeground=true;
     private volatile JSONObject pendingPlaybackRestore;
     private GithubCatalog githubCatalog;
+    private boolean homeReady;
+    private volatile JSONObject pendingHomeAction;
+
+    private void receiveHomeAction(Intent intent) {
+        if(intent==null||!"ru.smotrim.tv.OPEN_HOME_ITEM".equals(intent.getAction()))return;
+        String kind=intent.getStringExtra("kind"),key=intent.getStringExtra("key");
+        if(!Arrays.asList("history","channels","tv").contains(kind)||key!=null&&key.length()>512)return;
+        try{pendingHomeAction=new JSONObject().put("kind",kind).put("key",key==null?"":key);}catch(JSONException ignored){}
+        deliverHomeAction();
+    }
+    private void deliverHomeAction(){if(homeReady&&pendingHomeAction!=null){
+        JSONObject pending=pendingHomeAction;pendingHomeAction=null;
+        try{JSONObject action=HomeFeed.resolveAction(this,pending);if(action!=null)event("home-open",action);else event("toast","Карточка больше не доступна. Выберите видео в «Смотрим».");}catch(Exception ignored){}
+    }}
 
     @Override public void onCreate(Bundle state){
         super.onCreate(state);fullscreen();
+        if(state==null)receiveHomeAction(getIntent());
+        else try{String saved=state.getString("home-action");if(saved!=null)pendingHomeAction=new JSONObject(saved);}catch(JSONException ignored){}
         try{githubCatalog=new GithubCatalog(new File(getFilesDir(),"github-catalog"),path->{try(InputStream in=getAssets().open("catalog/v1/"+path)){return readStream(in).getBytes(StandardCharsets.UTF_8);}});}catch(IOException ignored){}
         pendingPlaybackRestore=state==null?null:PlaybackSnapshot.restore(state.getString(PlaybackSnapshot.STATE_KEY));
         updates=new ApkUpdates(this,new ApkUpdates.Listener(){
@@ -54,7 +70,7 @@ public class MainActivity extends Activity {
         ui.postDelayed(ticker,1000);
     }
     private void attachWebView(){
-        if(destroyed)return;webGeneration++;
+        if(destroyed)return;homeReady=false;webGeneration++;
         web=new WebView(this);web.setBackgroundColor(Color.TRANSPARENT);root.addView(web,new FrameLayout.LayoutParams(-1,-1));
         WebSettings s=web.getSettings();s.setJavaScriptEnabled(true);s.setDomStorageEnabled(true);s.setAllowFileAccess(false);s.setAllowContentAccess(false);s.setMediaPlaybackRequiresUserGesture(true);s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);s.setSupportZoom(false);
         WebViewAssetLoader loader=new WebViewAssetLoader.Builder().addPathHandler("/assets/",new WebViewAssetLoader.AssetsPathHandler(this)).build();
@@ -106,13 +122,15 @@ public class MainActivity extends Activity {
     }
     public final class Bridge {
         private final int generation=webGeneration;
+        @JavascriptInterface public void publishHome(String snapshot){if(generation==webGeneration&&!destroyed)HomeFeed.publish(MainActivity.this,snapshot);}
+        @JavascriptInterface public void homeReady(){post(()->{homeReady=true;deliverHomeAction();});}
         private void post(Runnable action){ui.post(()->{if(generation==webGeneration&&!destroyed)action.run();});}
         @JavascriptInterface public void request(int id,String method,String args){network.execute(()->{
             if(generation!=webGeneration||destroyed)return;
             try {
                 JSONObject a=new JSONObject(args);Object answer;
                 switch(method){
-                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",initialCatalog("movie","movies.json")).put("series",initialCatalog("series","series.json")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("bufferStorage",selectedBufferStorage()).put("update",updates.state()).put("preferences",playbackPreferences()).put("restorePlayback",pendingPlaybackRestore);break;
+                    case "bootstrap": loadChannels();answer=new JSONObject().put("movies",initialCatalog("movie","movies.json")).put("series",initialCatalog("series","series.json")).put("channels",liveChannels).put("customPlaylist",customPlaylist).put("freeBytes",getFilesDir().getUsableSpace()).put("bufferMb",selectedBufferMb()).put("bufferStorage",selectedBufferStorage()).put("update",updates.state()).put("preferences",playbackPreferences()).put("restorePlayback",pendingHomeAction==null?pendingPlaybackRestore:null);break;
                     case "preferences": answer=playbackPreferences();break;
                     case "memory-info": answer=PlaybackHealth.snapshot(MainActivity.this);break;
                     case "preferences-set": {
@@ -281,13 +299,29 @@ public class MainActivity extends Activity {
     }
     private void playbackError(int generation,Throwable error){ui.post(()->{if(generation!=playbackGeneration)return;String msg=message(error);stopPlayback(false);event("error",msg);});}
     private void createPlayer(MediaSource source){
-        player=new ExoPlayer.Builder(this).setLoadControl(PlaybackLoadControl.create()).setSeekBackIncrementMs(10000).setSeekForwardIncrementMs(10000).build();
+        final PlaybackDecoders decoders=new PlaybackDecoders();
+        player=new ExoPlayer.Builder(this,new androidx.media3.exoplayer.DefaultRenderersFactory(this).setMediaCodecSelector(decoders)).setLoadControl(PlaybackLoadControl.create()).setSeekBackIncrementMs(10000).setSeekForwardIncrementMs(10000).build();
         player.setAudioAttributes(new AudioAttributes.Builder().setUsage(C.USAGE_MEDIA).setContentType(C.AUDIO_CONTENT_TYPE_MOVIE).build(),true);
         player.setTrackSelectionParameters(PlaybackTracks.apply(this,player.getTrackSelectionParameters()));
         video.setPlayer(player);final ExoPlayer created=player;final int generation=playbackGeneration;final boolean live=source==null;
         player.addListener(new Player.Listener(){
             @Override public void onPlayWhenReadyChanged(boolean playWhenReady,int reason){if(player==created&&playWhenReady&&!resumed)created.pause();}
-            @Override public void onPlayerError(PlaybackException error){if(player==created&&!live)playbackError(generation,new IOException(torrent!=null&&torrent.failure()!=null?torrent.failure():"Не удалось воспроизвести: "+error.getErrorCodeName()+". Попробуйте другую раздачу."));}
+            @Override public void onPlayerError(PlaybackException error){
+                if(player!=created||live)return;
+                android.util.Log.w("SmotrimPlayback",PlaybackDecoders.details(error));
+                if(!destroyed&&generation==playbackGeneration&&decoders.tryRecover(error)){
+                    final long position=Math.max(0,created.getCurrentPosition());
+                    event("loading","Пробуем другой способ воспроизведения…");
+                    ui.post(()->{
+                        if(destroyed||player!=created||generation!=playbackGeneration)return;
+                        if(!resumed)created.pause();
+                        // Reuse the media source and torrent cache; do not restart the download.
+                        created.seekTo(position);created.prepare();
+                    });
+                    return;
+                }
+                playbackError(generation,new IOException(torrent!=null&&torrent.failure()!=null?torrent.failure():"Не удалось воспроизвести: "+PlaybackDecoders.details(error)+". Попробуйте другую раздачу."));
+            }
             @Override public void onPlaybackStateChanged(int state){if(player==created&&!live&&state==Player.STATE_ENDED){
                 try{event("finished",new JSONObject().put("sleep",sleepTimer.afterEpisode()));}catch(JSONException ignored){}
                 if(sleepTimer.afterEpisode()){stopPlayback(true);event("toast","Просмотр остановлен: таймер сна");}
@@ -398,8 +432,9 @@ public class MainActivity extends Activity {
         backgrounded=false;
         if(awaitingUpdatePermission){awaitingUpdatePermission=false;if(getPackageManager().canRequestPackageInstalls())ui.post(this::installUpdate);else event("toast","Разрешение не выдано. APK сохранён: установку можно повторить из раздела «Обновления»");}
     }
-    @Override protected void onNewIntent(Intent intent){super.onNewIntent(intent);setIntent(intent);}
+    @Override protected void onNewIntent(Intent intent){super.onNewIntent(intent);setIntent(intent);receiveHomeAction(intent);}
     @Override protected void onSaveInstanceState(Bundle state){
+        if(pendingHomeAction!=null)state.putString("home-action",pendingHomeAction.toString());
         JSONObject snapshot=now==null?pendingPlaybackRestore:PlaybackSnapshot.capture(now,player==null?resumePosition:player.getCurrentPosition(),backgrounded?resumePlaybackOnForeground:player==null?resumePlaybackOnForeground:player.getPlayWhenReady());
         if(snapshot!=null)state.putString(PlaybackSnapshot.STATE_KEY,snapshot.toString());
         super.onSaveInstanceState(state);

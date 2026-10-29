@@ -1,4 +1,20 @@
 const {test}=require('node:test');const assert=require('node:assert/strict');const f=require('../app/src/main/assets/ui/features.js');
+test('source sizes from Dune use byte values rather than raw display strings',()=>{
+ for(const [bytes,label] of [[21582210662,'20,10 ГБ'],[28808493137,'26,83 ГБ'],[89947352596,'83,77 ГБ']])
+  assert.equal(f.sourceSize({bytes,size:bytes+' bytes'}),label);
+ assert.equal(f.sourceSize({bytes:734003200,size:'wrong'}),'700,00 МБ');
+});
+test('source size accepts older byte strings and existing formatted sizes',()=>{
+ assert.equal(f.sourceSize({size:'21582210662 bytes'}),'20,10 ГБ');
+ assert.equal(f.sourceSize({size:1073741824}),'1,00 ГБ');
+ assert.equal(f.sourceSize({size:'700 MB'}),'700 МБ');
+ assert.equal(f.sourceSize({size:'2.50 GiB'}),'2,50 ГБ');
+ assert.equal(f.sourceSize({size:'2,50 ГБ'}),'2,50 ГБ');
+});
+test('invalid source sizes never display NaN or negative file sizes',()=>{
+ for(const s of [{},{bytes:0},{bytes:-1},{bytes:Infinity},{size:'NaN bytes'},{size:'-4 GB'}])
+  assert.equal(f.sourceSize(s),'Размер неизвестен');
+});
 test('episode conventions, folders and numeric order',()=>{
  assert.equal(f.episode({name:'Show.S02E10.mkv'}).season,2);assert.equal(f.episode({name:'Show.2x03.mkv'}).episode,3);
  assert.equal(f.episode({name:'01.mkv',path:'Show/Сезон 3/01.mkv'}).season,3);
