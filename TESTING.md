@@ -1,5 +1,12 @@
 # Проверка Смотрим TV
 
+## Исправление «Playback stuck buffering» — 29 октября 2026, не выпущено
+
+- На TCL 0.6.8 воспроизвёл `ERROR_CODE_FAILED_RUNTIME_CHECK` на 4K Dolby Vision: 786 предупреждений `Target buffer size reached with less than 500ms of buffered media data`, затем `IllegalStateException: Playback stuck buffering and not loading`. Метрики декодеров: DV профиль 7 (3840×2160, `dvhe.stn`) и профиль 8 (3840×1608, `dvhe.st`); сам декодер ошибку не сообщал. Лог сохранён локально в `.toolchain/tv-stuck-buffering-20261029.log`.
+- Исправление: `PlaybackLoadControl` продолжает загрузку сверх 24 МиБ, пока накоплено меньше 2 с, но не больше 96 МиБ. В подробностях ошибки, не связанных с декодером, теперь видна корневая причина.
+- JVM: 89 из 91, падают два `TorrentStreamingTest` без локального движка. Новые `PlaybackLoadControlTest` и `unexpectedErrorDetailsShowRootCause` прошли. На эмуляторе API 34 `PlaybackMemoryTest` — 3 из 3. assembleRelease и lintRelease — 0 ошибок.
+- Не проверено: этот фильм на TCL с исправлением и расход памяти при 96 МиБ на телевизоре.
+
 ## Выпуск 0.6.8: R8 и уменьшенные обложки — 29 октября 2026
 
 - Release 0.6.8, versionCode 23: APK 56 957 635 байт, lintRelease — 0 ошибок, 16 предупреждений. Ниже — проверки той же сборки под номером 0.6.7.

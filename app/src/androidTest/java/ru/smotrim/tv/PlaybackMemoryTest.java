@@ -28,15 +28,17 @@ public class PlaybackMemoryTest {
             });
         }
     }
-    @Test public void shortHighBitrateBufferStopsAtByteTargetAndCanStart() {
+    @Test public void shortHighBitrateBufferCanStartAndStopsAtStarvedLimit() {
         DefaultLoadControl control=PlaybackLoadControl.create();PlayerId id=PlayerId.UNSET;
         LoadControl.Parameters p=new LoadControl.Parameters(id,Timeline.EMPTY,new MediaPeriodId(new Object()),0,200000,1f,true,false,C.TIME_UNSET);
         control.onPrepared(id);control.onTracksSelected(p,TrackGroupArray.EMPTY,new ExoTrackSelection[0]);
         assertTrue(control.shouldContinueLoading(p));assertFalse(control.shouldStartPlayback(p));
         ArrayList<Allocation> blocks=new ArrayList<>();
         while(control.getAllocator().getTotalBytesAllocated()<PlaybackLoadControl.TARGET_BYTES)blocks.add(control.getAllocator().allocate());
-        assertFalse("Do not fill a time-based reserve beyond the sample byte target",control.shouldContinueLoading(p));
         assertTrue("Byte target permits playback even when high bitrate keeps duration short",control.shouldStartPlayback(p));
+        assertTrue("A starved track may load past the byte target",control.shouldContinueLoading(p));
+        while(control.getAllocator().getTotalBytesAllocated()<PlaybackLoadControl.STARVED_LIMIT_BYTES)blocks.add(control.getAllocator().allocate());
+        assertFalse("The starved overshoot is bounded",control.shouldContinueLoading(p));
         for(Allocation block:blocks)control.getAllocator().release(block);
         control.onReleased(id);assertEquals(0,control.getAllocator().getTotalBytesAllocated());
     }

@@ -56,5 +56,10 @@ public class PlaybackDecoderPolicyTest {
         String message=PlaybackDecoders.details(sdFailure());
         assertTrue(message.contains("688×384"));assertTrue(message.contains(HARDWARE.name));assertFalse(message.contains("test"));
     }
+    @Test public void unexpectedErrorDetailsShowRootCause(){
+        String message=PlaybackDecoders.details(ExoPlaybackException.createForUnexpected(
+                new IllegalStateException("Playback stuck buffering and not loading"),PlaybackException.ERROR_CODE_FAILED_RUNTIME_CHECK));
+        assertEquals("ERROR_CODE_FAILED_RUNTIME_CHECK · Playback stuck buffering and not loading",message);
+    }
 
 }

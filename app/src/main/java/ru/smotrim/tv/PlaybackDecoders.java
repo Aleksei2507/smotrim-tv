@@ -62,6 +62,13 @@ final class PlaybackDecoders implements MediaCodecSelector {
         }
         MediaCodecInfo codec=failedDecoder(error);
         if(codec!=null)result.append(" · ").append(codec.name);
+        // TCL keeps only seconds of logcat, so show the root cause of non-decoder failures on screen.
+        Throwable cause=error.getCause();
+        while(cause!=null&&cause.getCause()!=null)cause=cause.getCause();
+        if(codec==null&&cause!=null&&cause.getMessage()!=null){
+            String reason=cause.getMessage();
+            result.append(" · ").append(reason.length()>160?reason.substring(0,160)+"…":reason);
+        }
         return result.toString();
     }
 
