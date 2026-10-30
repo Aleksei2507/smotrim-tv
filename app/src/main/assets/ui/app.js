@@ -9,7 +9,7 @@ let stack=[],focusMemory={},lastContent={},lastFocus='',sourceTicket=0,controls=
 const storage={get(k,f){try{return JSON.parse(localStorage.getItem(k))||f;}catch(_){return f;}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(_){}if(['history','channels','favoriteOrder','channelOrder'].includes(k))scheduleHomeFeed();}};
 let homeFeedReady=false,homeFeedTimer;
 let bufferMb=96,bufferStorage='ram',bufferSaving=false;
-let update={status:'idle',installedVersion:'0.6.8',autoCheck:true,repository:'Aleksei2507/smotrim-tv'};
+let update={status:'idle',installedVersion:'0.6.9',autoCheck:true,repository:'Aleksei2507/smotrim-tv'};
 let favorites=storage.get('favorites',{}),favoriteChannels=storage.get('channels',{}),history=storage.get('history',{});
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const paths={mic:'M9 4a3 3 0 0 1 6 0v8a3 3 0 0 1-6 0ZM5 10v2a7 7 0 0 0 14 0v-2M12 19v4M8 23h8',backspace:'M22 4H9L2 12l7 8h13ZM12 9l6 6M18 9l-6 6',home:'M3 11 12 3l9 8M5 10v11h14V10M9 21v-7h6v7',tv:'M3 6h18v14H3zM8 2l4 4 4-4',film:'M3 3h18v18H3zM7 3v18M17 3v18M3 8h4M3 16h4M17 8h4M17 16h4',search:'M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0',heart:'M20 4c-3-2-6 0-8 2-2-2-5-4-8-2-6 5 4 12 8 16 4-4 14-11 8-16',settings:'M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2',play:'M7 4l14 8-14 8Z',pause:'M8 4v16M16 4v16',plus:'M12 4v16M4 12h16',check:'M4 12l5 5L21 5',back:'M15 5l-7 7 7 7',audio:'M4 9h4l5-5v16l-5-5H4zM17 8q6 4 0 8',sub:'M3 5h18v14H3zM6 12h4M14 12h4M6 16h12',arrow:'M8 5l7 7-7 7'};

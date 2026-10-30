@@ -1,6 +1,8 @@
 # Проверка Смотрим TV
 
-## Исправление «Playback stuck buffering» — 29 октября 2026, не выпущено
+## Выпуск 0.6.9: исправление «Playback stuck buffering» — 30 октября 2026
+
+- Выпущено по решению пользователя до проверки на TCL; versionCode 24.
 
 - На TCL 0.6.8 воспроизвёл `ERROR_CODE_FAILED_RUNTIME_CHECK` на 4K Dolby Vision: 786 предупреждений `Target buffer size reached with less than 500ms of buffered media data`, затем `IllegalStateException: Playback stuck buffering and not loading`. Метрики декодеров: DV профиль 7 (3840×2160, `dvhe.stn`) и профиль 8 (3840×1608, `dvhe.st`); сам декодер ошибку не сообщал. Лог сохранён локально в `.toolchain/tv-stuck-buffering-20261029.log`.
 - Исправление: `PlaybackLoadControl` продолжает загрузку сверх 24 МиБ, пока накоплено меньше 2 с, но не больше 96 МиБ. В подробностях ошибки, не связанных с декодером, теперь видна корневая причина.
