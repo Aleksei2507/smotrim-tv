@@ -1,0 +1,223 @@
+{
+  "id": "tt26545992",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/68734d19591a0304b5272a62b0c4c3bf9e6a3a19f30c4d9f0f866113da7f4c2f.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bb61cea7b6651176151452f834581e3e481535b71380a4fc3b7ef1dd320814b9.jpg",
+  "genres": [
+    "Боевик",
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "53 мин",
+  "imdbRating": "7.8",
+  "releaseInfo": "2026–",
+  "trailers": [
+    {
+      "source": "7UIBOsuUwc4",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Фонари",
+  "description": "Начинающий Джон Стюарт и опытный страж Хэл Джордан, межгалактические полицейские из Корпуса Зелёных Фонарей, оказываются втянуты в расследование убийства в американской глубинке.",
+  "aliases": [
+    "Фонари",
+    "Lanterns"
+  ],
+  "kpId": 5253825,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/5253825/"
+  ],
+  "year": "2026",
+  "imdbId": "tt26545992",
+  "ids": [
+    "tt26545992"
+  ],
+  "originalName": "Lanterns",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-31T06:12:35Z",
+  "videos": [
+    {
+      "id": "tt26545992:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "В американской глуши происходит массовое убийство. Расследовать дело берется корпус Зеленых фонарей - опытный Хэл и стажер Джон.",
+      "released": "2026-08-16"
+    },
+    {
+      "id": "tt26545992:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "На стажера нападают неизвестные и захватывают в плен. Хэл конфликтует с местными ковбоями и врывается на их ранчо.",
+      "released": "2026-08-23"
+    },
+    {
+      "id": "tt26545992:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "События перемещаются в прошлое — 2016 год. Джон проходит собеседование, чтобы попасть в корпус Зеленых фонарей.",
+      "released": "2026-08-30"
+    },
+    {
+      "id": "tt26545992:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "Джордан навещает Синестру, чтобы узнать о минхантерах. Герои вместе с шерифом выходят на след главного подозреваемого.",
+      "released": "2026-09-06"
+    },
+    {
+      "id": "tt26545992:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "Город погружается в хаос, повсюду происходят масштабные разрушения и взрывы. Напряжение между Хэлом и Джоном достигает пика.",
+      "released": "2026-09-13"
+    },
+    {
+      "id": "tt26545992:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "Действие возвращается в наше время. Джон продолжает разбираться с последствиями произошедшего и встречает Гая Гарднера.",
+      "released": "2026-09-20"
+    },
+    {
+      "id": "tt26545992:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "Джон просит помощи у голограммы Хэла и отправляется на другую планету. Там он встречает неожиданного персонажа.",
+      "released": "2026-09-27"
+    },
+    {
+      "id": "tt26545992:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "Стюарт возвращается домой с кольцом и фонарем. На Земле он прощается с голограммой и встречает Гая Гарднера.",
+      "released": "2026-10-04"
+    },
+    {
+      "id": "tt26545992:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Фонари / Lanterns [01x01-07 из 08] (2026) WEB-DL 1080p от Scarabey | D | Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:b4bafb128511c287cb98e03302d16c37935fb541&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 15268608737,
+      "size": "14.22 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Фонари / Lanterns [01x01-07 из 08] (2026) WEB-DL 1080p от Scarabey | D | Red Head Sound"
+    },
+    {
+      "title": "Фонари (1 сезон: 1-8 серии из 8) / Lanterns / 2026 / ДБ (HDrezka Studio, Red Head Sound, WinMedia), 5 x ПМ, СТ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:A2DE5C53C86AFCD103123809C232C49EEC36EBC4",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 27466315857,
+      "size": "25.58 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Фонари (1 сезон: 1-8 серии из 8) / Lanterns / 2026 / ДБ (HDrezka Studio, Red Head Sound, WinMedia), 5 x ПМ, СТ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Фонари / Lanterns / Сезон: 1 / Серии: 1-8 из 8 (Джеймс Хоуз, Гита Васант Пател, Алик Сахаров, Стивен Уильямс) [2026, США, Фантастика, боевик, криминал, детектив, приключения, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 5 x MVO + DVO + 3 x Dub + Ukr MVO + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:101AD324CFEFC9E20D554427664CCF31F3EB4E51&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 77277199073,
+      "size": "71.97 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Фонари / Lanterns / Сезон: 1 / Серии: 1-8 из 8 (Джеймс Хоуз, Гита Васант Пател, Алик Сахаров, Стивен Уильямс) [2026, США, Фантастика, боевик, криминал, детектив, приключения, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 5 x MVO + DVO + 3 x Dub + Ukr MVO + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Фонари / Lanterns / Сезон: 1 / Серии: 1-8 из 8 (Джеймс Хоуз, Гита Васант Пател, Алик Сахаров, Стивен Уильямс) [2026, США, Фантастика, боевик, криминал, детектив, приключения, SDR, WEB-DL 2160p, 4k] 5 x MVO + DVO + 3 x Dub + Ukr + Original + Sub (Rus, Eng, Ukr)",
+      "magnet": "magnet:?xt=urn:btih:8F5998B372C9D64C3A915077FAC70D5E9A8CB1C9&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 63382979870,
+      "size": "59.03 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Фонари / Lanterns / Сезон: 1 / Серии: 1-8 из 8 (Джеймс Хоуз, Гита Васант Пател, Алик Сахаров, Стивен Уильямс) [2026, США, Фантастика, боевик, криминал, детектив, приключения, SDR, WEB-DL 2160p, 4k] 5 x MVO + DVO + 3 x Dub + Ukr + Original + Sub (Rus, Eng, Ukr)"
+    },
+    {
+      "title": "Фонари / Lanterns / Сезон: 1 / Серии: 1-8 из 8 (Джеймс Хоуз) [2026, США, фантастика, боевик, криминал, детектив, приключения, WEB-DL 720p] 5 x MVO + 3 x Dub + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C38B38B1A489D4E7B0CFF93AAAC7273819F3F56C&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 17501991731,
+      "size": "16.30 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Фонари / Lanterns / Сезон: 1 / Серии: 1-8 из 8 (Джеймс Хоуз) [2026, США, фантастика, боевик, криминал, детектив, приключения, WEB-DL 720p] 5 x MVO + 3 x Dub + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Фонари (1 сезон: 1-6 серии из 8) / Lanterns / 2026 / ДБ (HDrezka Studio, Red Head Sound, WinMedia), 5 x ПМ, СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:DEA2866EED8AD2BDA6466A0EB11AA6BA7F29D034",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 13035225743,
+      "size": "12.14 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Фонари (1 сезон: 1-6 серии из 8) / Lanterns / 2026 / ДБ (HDrezka Studio, Red Head Sound, WinMedia), 5 x ПМ, СТ / WEB-DL (720p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-31T06:12:35Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt26545992/img",
+    "background": "https://images.metahub.space/background/medium/tt26545992/img"
+  }
+}

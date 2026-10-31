@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1793386342,
-  "updatedAt": "2026-10-30T18:50:46Z",
+  "revision": 1793427242,
+  "updatedAt": "2026-10-31T06:12:35Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -1140,8 +1140,8 @@
       ],
       "imdbRating": "8.3",
       "runtime": "47 мин",
-      "card": "cards/594c02390a17fe08df2d0b6a060722907fb7c09560904d7468946673ab44355c.json",
-      "sha256": "594c02390a17fe08df2d0b6a060722907fb7c09560904d7468946673ab44355c",
+      "card": "cards/f1699e564864cb857315a5de081c07fefa2c68a81ed8efbc4d851b17f05a4f42.json",
+      "sha256": "f1699e564864cb857315a5de081c07fefa2c68a81ed8efbc4d851b17f05a4f42",
       "localized": true,
       "provider": "github"
     },
@@ -1260,8 +1260,8 @@
       ],
       "imdbRating": "7.8",
       "runtime": "53 мин",
-      "card": "cards/8fe3652bd58142fc8b354055d2eb7b0813601e2d8c6c28056138b8e05c9eac57.json",
-      "sha256": "8fe3652bd58142fc8b354055d2eb7b0813601e2d8c6c28056138b8e05c9eac57",
+      "card": "cards/c76a2cd569c81a579116e8ec250a448316554e10068689efeb131db66ca65f9f.json",
+      "sha256": "c76a2cd569c81a579116e8ec250a448316554e10068689efeb131db66ca65f9f",
       "localized": true,
       "provider": "github"
     },
@@ -2535,8 +2535,8 @@
       ],
       "imdbRating": "7.3",
       "runtime": "65 мин",
-      "card": "cards/dfb12e4da6e7a3553c2eac72ea37026a537c9373d2e5c9b63b38259df4efabb0.json",
-      "sha256": "dfb12e4da6e7a3553c2eac72ea37026a537c9373d2e5c9b63b38259df4efabb0",
+      "card": "cards/c11a432884c9302254f6a08b9e415e59932de4c7158bc4ca15ccc62021c70ac8.json",
+      "sha256": "c11a432884c9302254f6a08b9e415e59932de4c7158bc4ca15ccc62021c70ac8",
       "localized": true,
       "provider": "github"
     },
