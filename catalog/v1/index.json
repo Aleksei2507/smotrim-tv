@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1793427242,
-  "updatedAt": "2026-10-31T06:12:35Z",
+  "revision": 1793430340,
+  "updatedAt": "2026-10-31T07:05:40Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -128,8 +128,8 @@
         "Реалити-шоу",
         "Телеигра"
       ],
-      "card": "cards/4849aae1f408ac07bff93ca3c4a13cd6b0ce35e312709ba53acc8d2ba39c90f7.json",
-      "sha256": "4849aae1f408ac07bff93ca3c4a13cd6b0ce35e312709ba53acc8d2ba39c90f7",
+      "card": "cards/b741b2e2caf8fcc77331521fda896d887f23869ae45a3182d3e9ae8a5ae9e46a.json",
+      "sha256": "b741b2e2caf8fcc77331521fda896d887f23869ae45a3182d3e9ae8a5ae9e46a",
       "localized": true,
       "provider": "github"
     },
