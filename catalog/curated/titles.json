@@ -499,6 +499,27 @@
         "https://www.imdb.com/title/tt15239678/",
         "https://www.kinopoisk.ru/film/4540126/"
       ]
+    },
+    {
+      "id": "tt31712367",
+      "name": "Звёзды",
+      "type": "series",
+      "kind": "show",
+      "origin": "ru",
+      "year": "2024",
+      "searchName": "Звёзды",
+      "sourceYearMin": 2024,
+      "aliases": [
+        "Звезды",
+        "Звёзды НТВ",
+        "Звезды НТВ"
+      ],
+      "description": "Знаменитости объединяются с командами комиков и соревнуются в юмористических номерах. Ведущий — Азамат Мусагалиев. Третий сезон: фестивальные игры и дуэли за главный приз, часть которого направляют на благотворительность.",
+      "metadataSources": [
+        "https://www.ntv.ru/peredacha/Zvezdy/",
+        "https://www.kinopoisk.ru/series/5508530/",
+        "https://www.tvmaze.com/shows/74556/zvyozdy"
+      ]
     }
   ]
 }

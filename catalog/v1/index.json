@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1793640274,
-  "updatedAt": "2026-11-02T17:24:34Z",
+  "revision": 1793781480,
+  "updatedAt": "2026-11-04T08:38:00Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,39 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt31712367",
+      "ids": [
+        "tt31712367",
+        "kp:5508530"
+      ],
+      "imdbId": "tt31712367",
+      "name": "Звёзды",
+      "type": "series",
+      "kind": "show",
+      "year": "2024",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0f062a173e054ed01d1d8e0028282b1074957940de92b42e7228e93b73ebb8a2.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9377f4f38fd1c6a622eb5d1a383150f49586063f94d5e3e843378b464876d07a.jpg",
+      "description": "Знаменитости объединяются с командами комиков и соревнуются в юмористических номерах. Ведущий — Азамат Мусагалиев. Третий сезон: фестивальные игры и дуэли за главный приз, часть которого направляют на благотворительность.",
+      "originalName": "Zvyozdy",
+      "aliases": [
+        "Звёзды",
+        "Zvyozdy",
+        "Звезды",
+        "Звёзды НТВ",
+        "Звезды НТВ"
+      ],
+      "genres": [
+        "Комедия",
+        "Телеигра"
+      ],
+      "imdbRating": "7.3",
+      "card": "cards/b4e4fcaccf2c4679a6ceb459bc40ee4552afb3793bcb1ded2f89682608e1a574.json",
+      "sha256": "b4e4fcaccf2c4679a6ceb459bc40ee4552afb3793bcb1ded2f89682608e1a574",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt1160419",
       "ids": [

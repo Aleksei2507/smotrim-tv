@@ -1503,5 +1503,41 @@
         "source": "https://www.tvmaze.com/shows/76612/titany"
       }
     ]
+  },
+  "tt31712367": {
+    "episodeSources": [
+      "https://api.tvmaze.com/shows/74556/episodes",
+      "https://myshows.me/view/88671/zvezdy-season-3/",
+      "https://www.ntv.ru/peredacha/Zvezdy/"
+    ],
+    "videos": [
+      {
+        "id": "tt31712367:3:1",
+        "season": 3,
+        "episode": 1,
+        "title": "Выпуск 1. Фестиваль",
+        "description": "",
+        "released": "2026-09-05",
+        "source": "https://www.tvmaze.com/episodes/3708500/zvezdy-3x01-vypusk-1-festival"
+      },
+      {
+        "id": "tt31712367:3:2",
+        "season": 3,
+        "episode": 2,
+        "title": "Выпуск 2. Фестиваль",
+        "description": "",
+        "released": "2026-09-12",
+        "source": "https://www.tvmaze.com/episodes/3733532/zvezdy-3x02-vypusk-2-festival"
+      },
+      {
+        "id": "tt31712367:3:3",
+        "season": 3,
+        "episode": 3,
+        "title": "Выпуск 3. Фестиваль",
+        "description": "",
+        "released": "2026-09-19",
+        "source": "https://www.tvmaze.com/episodes/3750232/zvezdy-3x03-vypusk-3-festival"
+      }
+    ]
   }
 }

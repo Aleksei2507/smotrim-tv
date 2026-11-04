@@ -1,0 +1,128 @@
+{
+  "id": "tt31712367",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0f062a173e054ed01d1d8e0028282b1074957940de92b42e7228e93b73ebb8a2.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9377f4f38fd1c6a622eb5d1a383150f49586063f94d5e3e843378b464876d07a.jpg",
+  "genres": [
+    "Комедия",
+    "Телеигра"
+  ],
+  "imdbRating": "7.3",
+  "releaseInfo": "2024–",
+  "name": "Звёзды",
+  "kind": "show",
+  "origin": "ru",
+  "year": "2024",
+  "searchName": "Звёзды",
+  "sourceYearMin": 2024,
+  "aliases": [
+    "Звёзды",
+    "Zvyozdy",
+    "Звезды",
+    "Звёзды НТВ",
+    "Звезды НТВ"
+  ],
+  "description": "Знаменитости объединяются с командами комиков и соревнуются в юмористических номерах. Ведущий — Азамат Мусагалиев. Третий сезон: фестивальные игры и дуэли за главный приз, часть которого направляют на благотворительность.",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt31712367.json",
+    "https://www.ntv.ru/peredacha/Zvezdy/",
+    "https://www.kinopoisk.ru/series/5508530/",
+    "https://www.tvmaze.com/shows/74556/zvyozdy",
+    "https://api.tvmaze.com/shows/74556/episodes",
+    "https://myshows.me/view/88671/zvezdy-season-3/"
+  ],
+  "imdbId": "tt31712367",
+  "ids": [
+    "tt31712367",
+    "kp:5508530"
+  ],
+  "originalName": "Zvyozdy",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-04T08:38:00Z",
+  "videos": [
+    {
+      "id": "tt31712367:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Выпуск 1. Фестиваль",
+      "description": "",
+      "released": "2026-09-05",
+      "source": "https://www.tvmaze.com/episodes/3708500/zvezdy-3x01-vypusk-1-festival"
+    },
+    {
+      "id": "tt31712367:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Выпуск 2. Фестиваль",
+      "description": "",
+      "released": "2026-09-12",
+      "source": "https://www.tvmaze.com/episodes/3733532/zvezdy-3x02-vypusk-2-festival"
+    },
+    {
+      "id": "tt31712367:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Выпуск 3. Фестиваль",
+      "description": "",
+      "released": "2026-09-19",
+      "source": "https://www.tvmaze.com/episodes/3750232/zvezdy-3x03-vypusk-3-festival"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Звёзды [03х01] [эфир от 05.09] (2026) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:1206ec859153a342704186675e713f43d6841271&dn=rutor.info_%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D1%8B+%5B03%D1%8501%5D+%5B%D1%8D%D1%84%D0%B8%D1%80+%D0%BE%D1%82+05.09%5D+%282026%29+WEBRip+1080p&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "Rutor · VK Видео",
+      "bytes": 2016267725,
+      "size": "1.88 GB",
+      "season": 3,
+      "episode": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук · VK Видео",
+      "languageEvidence": "Язык: Русский; Выпущено: Россия, Medium Quality, VK Видео; видео: 1920x1080; Звёзды (05.09.2026).mkv",
+      "sourceUrl": "https://rutor.info/torrent/1105208/"
+    },
+    {
+      "title": "Звёзды [03х02] [эфир от 12.09] (2026) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:0a4e5c48e4c20c2547119aaff5133c400861e489&dn=rutor.info_%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D1%8B+%5B03%D1%8502%5D+%5B%D1%8D%D1%84%D0%B8%D1%80+%D0%BE%D1%82+12.09%5D+%282026%29+WEBRip+1080p&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "Rutor · VK Видео",
+      "bytes": 2309934916,
+      "size": "2.15 GB",
+      "season": 3,
+      "episode": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук · VK Видео",
+      "languageEvidence": "Язык: Русский; Выпущено: Россия, Medium Quality, VK Видео; видео: 1920x1080; Звёзды (12.09.2026).mkv",
+      "sourceUrl": "https://rutor.info/torrent/1105987/"
+    },
+    {
+      "title": "Звёзды [03х03] [эфир от 19.09] (2026) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:f023f319f96baa6b1bf4b25667fb64f5c7cdec54&dn=rutor.info_%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D1%8B+%5B03%D1%8503%5D+%5B%D1%8D%D1%84%D0%B8%D1%80+%D0%BE%D1%82+19.09%5D+%282026%29+WEBRip+1080p&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "Rutor · VK Видео",
+      "bytes": 2439663246,
+      "size": "2.27 GB",
+      "season": 3,
+      "episode": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук · VK Видео",
+      "languageEvidence": "Язык: Русский; Выпущено: Россия, Medium Quality, VK Видео; видео: 1920x1080; Звёзды (19.09.2026).mkv",
+      "sourceUrl": "https://rutor.info/torrent/1106843/"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-04T08:38:00Z",
+  "artworkSources": {
+    "poster": "https://st.kp.yandex.net/images/film_big/5508530.jpg",
+    "background": "https://st.kp.yandex.net/images/film_big/5508530.jpg"
+  }
+}
