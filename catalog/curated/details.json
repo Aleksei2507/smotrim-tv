@@ -932,7 +932,9 @@
       "https://premier.one/show/titany/season/4",
       "https://premier.one/show/titany/season/5",
       "https://www.thetvdb.com/series/titany/allseasons/official",
-      "https://www.tvmaze.com/shows/76612/titany"
+      "https://www.tvmaze.com/shows/76612/titany",
+      "https://api.tvmaze.com/shows/76612/episodes",
+      "https://myshows.me/view/89581/titany-season-5/"
     ],
     "videos": [
       {
@@ -1454,7 +1456,7 @@
         "episode": 2,
         "title": "Выпуск 2",
         "description": "",
-        "released": "",
+        "released": "2026-09-20",
         "source": "https://premier.one/show/titany/season/5"
       },
       {
@@ -1463,7 +1465,7 @@
         "episode": 3,
         "title": "Выпуск 3",
         "description": "",
-        "released": "",
+        "released": "2026-09-27",
         "source": "https://premier.one/show/titany/season/5"
       },
       {
@@ -1472,7 +1474,7 @@
         "episode": 4,
         "title": "Выпуск 4",
         "description": "",
-        "released": "",
+        "released": "2026-10-04",
         "source": "https://premier.one/show/titany/season/5"
       },
       {
@@ -1481,7 +1483,7 @@
         "episode": 5,
         "title": "Выпуск 5",
         "description": "",
-        "released": "",
+        "released": "2026-10-11",
         "source": "https://premier.one/show/titany/season/5"
       },
       {
@@ -1490,7 +1492,7 @@
         "episode": 6,
         "title": "Выпуск 6",
         "description": "",
-        "released": "",
+        "released": "2026-10-18",
         "source": "https://premier.one/show/titany/season/5"
       },
       {
@@ -1501,6 +1503,24 @@
         "description": "",
         "released": "2026-10-25",
         "source": "https://www.tvmaze.com/shows/76612/titany"
+      },
+      {
+        "id": "tt32370407:5:8",
+        "season": 5,
+        "episode": 8,
+        "title": "Выпуск 8",
+        "description": "",
+        "released": "2026-11-01",
+        "source": "https://myshows.me/view/89581/titany-season-5/"
+      },
+      {
+        "id": "tt32370407:5:9",
+        "season": 5,
+        "episode": 9,
+        "title": "Выпуск 9",
+        "description": "",
+        "released": "2026-11-08",
+        "source": "https://www.tvmaze.com/episodes/3794359/titany-5x09-vypusk-9"
       }
     ]
   },
