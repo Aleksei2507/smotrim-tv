@@ -1,0 +1,647 @@
+{
+  "id": "tt31531192",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2438ec063e6d307ab421cda5eab3f2c88f97d3acd72a8bd4e6cffca869ccd332.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/74a5fcf6adc3608833b939fbac276092d218b8cc9425da8c8e96c5e3d7b41444.jpg",
+  "genres": [],
+  "imdbRating": "6.2",
+  "releaseInfo": "2024–",
+  "trailers": [],
+  "name": "Выживалити. Миссия Альфа",
+  "origin": "ru",
+  "description": "Участники реалити проходят испытания на выносливость и находчивость, борясь за право остаться в проекте. Четвёртый сезон — «Легенда Альфа»: звёзды реалити отправляются во Вьетнам и соревнуются за приз в 10 миллионов рублей.",
+  "kind": "show",
+  "aliases": [
+    "Выживалити. Миссия Альфа",
+    "Выживалити: Миссия Альфа",
+    "Выживалити. Легенда Альфа",
+    "Выживалити Легенда Альфа"
+  ],
+  "imdbId": "tt31531192",
+  "ids": [
+    "tt31531192"
+  ],
+  "originalName": "Выживалити: Миссия Альфа",
+  "year": "2024",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-12T21:00:29Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt31531192.json",
+    "https://survival.friday.ru/videos/s1",
+    "https://survival.friday.ru/videos/s2",
+    "https://survival.friday.ru/",
+    "https://survivall.friday.ru/videos/s1/e1",
+    "https://survivall.friday.ru/videos/s1/e2",
+    "https://survivall.friday.ru/videos/s1/e3",
+    "https://survivall.friday.ru/videos/s1/e4",
+    "https://survivall.friday.ru/videos/s1/e5",
+    "https://survival.friday.ru/videos/s3/e11",
+    "https://survivall.friday.ru/videos/s1/e6",
+    "https://survivall.friday.ru/videos/s1/e7",
+    "https://api.tvmaze.com/shows/94659/episodes"
+  ],
+  "videos": [
+    {
+      "id": "tt31531192:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Выпуск 1",
+      "description": "",
+      "released": "2024-03-01",
+      "source": "https://survival.friday.ru/videos/s1/e1"
+    },
+    {
+      "id": "tt31531192:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Выпуск 2",
+      "description": "",
+      "released": "2024-03-08",
+      "source": "https://survival.friday.ru/videos/s1/e2"
+    },
+    {
+      "id": "tt31531192:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Выпуск 3",
+      "description": "",
+      "released": "2024-03-15",
+      "source": "https://survival.friday.ru/videos/s1/e3"
+    },
+    {
+      "id": "tt31531192:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Выпуск 4",
+      "description": "",
+      "released": "2024-03-22",
+      "source": "https://survival.friday.ru/videos/s1/e4"
+    },
+    {
+      "id": "tt31531192:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Выпуск 5",
+      "description": "",
+      "released": "2024-03-29",
+      "source": "https://survival.friday.ru/videos/s1/e5"
+    },
+    {
+      "id": "tt31531192:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Выпуск 6",
+      "description": "",
+      "released": "2024-04-05",
+      "source": "https://survival.friday.ru/videos/s1/e6"
+    },
+    {
+      "id": "tt31531192:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Выпуск 7",
+      "description": "",
+      "released": "2024-04-12",
+      "source": "https://survival.friday.ru/videos/s1/e7"
+    },
+    {
+      "id": "tt31531192:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Выпуск 8",
+      "description": "",
+      "released": "2024-04-19",
+      "source": "https://survival.friday.ru/videos/s1/e8"
+    },
+    {
+      "id": "tt31531192:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Выпуск 1",
+      "description": "",
+      "released": "2025-02-14",
+      "source": "https://survival.friday.ru/videos/s2/e1"
+    },
+    {
+      "id": "tt31531192:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Выпуск 2",
+      "description": "",
+      "released": "2025-02-21",
+      "source": "https://survival.friday.ru/videos/s2/e2"
+    },
+    {
+      "id": "tt31531192:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Выпуск 3",
+      "description": "",
+      "released": "2025-02-28",
+      "source": "https://survival.friday.ru/videos/s2/e3"
+    },
+    {
+      "id": "tt31531192:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Выпуск 4",
+      "description": "",
+      "released": "2025-03-07",
+      "source": "https://survival.friday.ru/videos/s2/e4"
+    },
+    {
+      "id": "tt31531192:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Выпуск 5",
+      "description": "",
+      "released": "2025-03-14",
+      "source": "https://survival.friday.ru/videos/s2/e5"
+    },
+    {
+      "id": "tt31531192:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Выпуск 6",
+      "description": "",
+      "released": "2025-03-21",
+      "source": "https://survival.friday.ru/videos/s2/e6"
+    },
+    {
+      "id": "tt31531192:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Выпуск 7",
+      "description": "",
+      "released": "2025-03-28",
+      "source": "https://survival.friday.ru/videos/s2/e7"
+    },
+    {
+      "id": "tt31531192:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Выпуск 8",
+      "description": "",
+      "released": "2025-04-04",
+      "source": "https://survival.friday.ru/videos/s2/e8"
+    },
+    {
+      "id": "tt31531192:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Выпуск 9",
+      "description": "",
+      "released": "2025-04-11",
+      "source": "https://survival.friday.ru/videos/s2/e9"
+    },
+    {
+      "id": "tt31531192:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Выпуск 10",
+      "description": "",
+      "released": "2025-04-18",
+      "source": "https://survival.friday.ru/videos/s2/e10"
+    },
+    {
+      "id": "tt31531192:2:11",
+      "season": 2,
+      "episode": 11,
+      "title": "Выпуск 11",
+      "description": "",
+      "released": "2025-04-25",
+      "source": "https://survival.friday.ru/videos/s2/e11"
+    },
+    {
+      "id": "tt31531192:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Выпуск 1",
+      "description": "",
+      "released": "2026-02-13",
+      "source": "https://survival.friday.ru/videos/s3/e1"
+    },
+    {
+      "id": "tt31531192:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Выпуск 2",
+      "description": "",
+      "released": "2026-02-20",
+      "source": "https://survival.friday.ru/videos/s3/e2"
+    },
+    {
+      "id": "tt31531192:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Выпуск 3",
+      "description": "",
+      "released": "2026-02-27",
+      "source": "https://survival.friday.ru/videos/s3/e3"
+    },
+    {
+      "id": "tt31531192:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Выпуск 4",
+      "description": "",
+      "released": "2026-03-06",
+      "source": "https://survival.friday.ru/videos/s3/e4"
+    },
+    {
+      "id": "tt31531192:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Выпуск 5",
+      "description": "",
+      "released": "2026-03-13",
+      "source": "https://survival.friday.ru/videos/s3/e5"
+    },
+    {
+      "id": "tt31531192:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Выпуск 6",
+      "description": "",
+      "released": "2026-03-20",
+      "source": "https://survival.friday.ru/videos/s3/e6"
+    },
+    {
+      "id": "tt31531192:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Выпуск 7",
+      "description": "",
+      "released": "2026-03-27",
+      "source": "https://survival.friday.ru/videos/s3/e7"
+    },
+    {
+      "id": "tt31531192:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Выпуск 8",
+      "description": "",
+      "released": "2026-04-03",
+      "source": "https://survival.friday.ru/videos/s3/e8"
+    },
+    {
+      "id": "tt31531192:3:9",
+      "season": 3,
+      "episode": 9,
+      "title": "Выпуск 9",
+      "description": "",
+      "released": "2026-04-10",
+      "source": "https://survival.friday.ru/videos/s3/e9"
+    },
+    {
+      "id": "tt31531192:3:10",
+      "season": 3,
+      "episode": 10,
+      "title": "Выпуск 10",
+      "description": "",
+      "released": "2026-04-17",
+      "source": "https://survival.friday.ru/videos/s3/e10"
+    },
+    {
+      "id": "tt31531192:3:11",
+      "season": 3,
+      "episode": 11,
+      "title": "Выпуск 11. Финал",
+      "description": "",
+      "released": "2026-04-24",
+      "source": "https://www.tvmaze.com/episodes/3594486/vyzivaliti-missia-alfa-3x11-vypusk-11-final"
+    },
+    {
+      "id": "tt31531192:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Легенда Альфа · Выпуск 1",
+      "description": "Участники знакомятся и проходят первые испытания. Первое голосование определяет, кто покинет проект.",
+      "released": "2026-10-01",
+      "source": "https://survivall.friday.ru/videos/s1/e1"
+    },
+    {
+      "id": "tt31531192:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Легенда Альфа · Выпуск 2",
+      "description": "Команде предстоит научиться действовать сообща, справиться с испытаниями под водой и на высоте.",
+      "released": "2026-10-08",
+      "source": "https://survivall.friday.ru/videos/s1/e2"
+    },
+    {
+      "id": "tt31531192:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Легенда Альфа · Выпуск 3",
+      "description": "Борьба за еду и воду продолжается. Участники строят карточный домик на воде и спускаются со скалы.",
+      "released": "2026-10-15",
+      "source": "https://survivall.friday.ru/videos/s1/e3"
+    },
+    {
+      "id": "tt31531192:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Легенда Альфа · Выпуск 4",
+      "description": "Участникам предлагают мешать выполнению заданий собственной команды. Испытания проверят, насколько они готовы поступиться общими интересами.",
+      "released": "2026-10-22",
+      "source": "https://survivall.friday.ru/videos/s1/e4"
+    },
+    {
+      "id": "tt31531192:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Легенда Альфа · Выпуск 5",
+      "description": "Участники делятся на две команды. Их ждут испытания на песке и на высоте, а затем состязание в лодках.",
+      "released": "2026-10-29",
+      "source": "https://survivall.friday.ru/videos/s1/e5"
+    },
+    {
+      "id": "tt31531192:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Выпуск 6",
+      "description": "",
+      "released": "2026-11-05",
+      "source": "https://survivall.friday.ru/videos/s1/e6"
+    },
+    {
+      "id": "tt31531192:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Выпуск 7",
+      "description": "",
+      "released": "2026-11-12",
+      "source": "https://survivall.friday.ru/videos/s1/e7"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Выживалити. Миссия Альфа / Сезон: 2 / Серии: 1-11 из 11 (Юрий Кондратюк) [2025, тв-шоу, экстрим, развлекательный, игра, реалити-шоу, приключения, WEB-DL 1080p]",
+      "magnet": "magnet:?xt=urn:btih:64CBAFBEAC53CF7B3F21CCD3E2A770D1FAC79232&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 80498424545,
+      "size": "74.97 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 11,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Миссия Альфа / Сезон: 2 / Серии: 1-11 из 11 (Юрий Кондратюк) [2025, тв-шоу, экстрим, развлекательный, игра, реалити-шоу, приключения, WEB-DL 1080p]"
+    },
+    {
+      "title": "Выживалити. Легенда Альфа (4 сезон) [+3 серия] [Оригинал] [1080p]",
+      "magnet": "magnet:?xt=urn:btih:E8C592C1D2E5C8063F049A2C40D6E0F8A49AA666&xl=18025995388&dn=Vizhivaliti.Legenda.Alfa.S04.WEB-DL.1080p.torrent&tr=http%3A%2F%2Fultradox.studio%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.fatkhoala.org%3A13760%2Fannounce&tr=udp%3A%2F%2Ftracker.tallpenguin.org%3A15790%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · ultradox",
+      "bytes": 18028125224,
+      "size": "16.79 GB",
+      "episode": 0,
+      "episodeFrom": 3,
+      "episodeTo": 3,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Легенда Альфа (4 сезон) [+3 серия] [Оригинал] [1080p]"
+    },
+    {
+      "title": "Выживалити. Легенда Альфа (4 сезон) [+4 серия] [Оригинал] [1080p]",
+      "magnet": "magnet:?xt=urn:btih:281670F093ACE6418E89FDF8EE01F72816569EE3&xl=23227639093&dn=Vizhivaliti.Legenda.Alfa.S04.WEB-DL.1080p.torrent&tr=http%3A%2F%2Fultradox.studio%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.fatkhoala.org%3A13760%2Fannounce&tr=udp%3A%2F%2Ftracker.tallpenguin.org%3A15790%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · ultradox",
+      "bytes": 23225035653,
+      "size": "21.63 GB",
+      "episode": 0,
+      "episodeFrom": 4,
+      "episodeTo": 4,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Легенда Альфа (4 сезон) [+4 серия] [Оригинал] [1080p]"
+    },
+    {
+      "title": "Выживалити. Легенда Альфа (4 сезон) [+5 серия] [Оригинал] [1080p]",
+      "magnet": "magnet:?xt=urn:btih:DE93B4E0DBC06ADB88BB21C4C592E6143499CCE4&xl=28259895728&dn=Vizhivaliti.Legenda.Alfa.S04.WEB-DL.1080p.torrent&tr=http%3A%2F%2Fultradox.studio%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.fatkhoala.org%3A13760%2Fannounce&tr=udp%3A%2F%2Ftracker.tallpenguin.org%3A15790%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · ultradox",
+      "bytes": 28260884807,
+      "size": "26.32 GB",
+      "episode": 0,
+      "episodeFrom": 5,
+      "episodeTo": 5,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Легенда Альфа (4 сезон) [+5 серия] [Оригинал] [1080p]"
+    },
+    {
+      "title": "Выживалити. Легенда Альфа (4 сезон) [+6 серия] [Оригинал] [1080p]",
+      "magnet": "magnet:?xt=urn:btih:74E7A5B6155C27D3045C616D8D405D1987820A56&xl=33717312432&dn=Vizhivaliti.Legenda.Alfa.S04.WEB-DL.1080p.torrent&tr=http%3A%2F%2Fultradox.studio%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.fatkhoala.org%3A13760%2Fannounce&tr=udp%3A%2F%2Ftracker.tallpenguin.org%3A15790%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · ultradox",
+      "bytes": 33715493273,
+      "size": "31.40 GB",
+      "episode": 0,
+      "episodeFrom": 6,
+      "episodeTo": 6,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Легенда Альфа (4 сезон) [+6 серия] [Оригинал] [1080p]"
+    },
+    {
+      "title": "Выживалити. Легенда Альфа [04x07] [Эфир от 12.11] (2026) HDTV 1080р от Files-x",
+      "magnet": "magnet:?xt=urn:btih:b5f8721685504eb504862bd87f2ed7c370f7ae27&dn=rutor.info_%D0%92%D1%8B%D0%B6%D0%B8%D0%B2%D0%B0%D0%BB%D0%B8%D1%82%D0%B8.+%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0+%D0%90%D0%BB%D1%8C%D1%84%D0%B0+%5B04x07%5D+%5B%D0%AD%D1%84%D0%B8%D1%80+%D0%BE%D1%82+12.11%5D+%282026%29+HDTV+1080%D1%80+%D0%BE%D1%82+Files-x&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "Rutor · Files-x",
+      "sourceUrl": "https://rutor.info/torrent/1114121/",
+      "bytes": 6830131180,
+      "size": "6.36 GB",
+      "season": 4,
+      "episode": 0,
+      "episodeFrom": 7,
+      "episodeTo": 7,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Легенда Альфа [04x07] [Эфир от 12.11] (2026) HDTV 1080р от Files-x; состав видеофайлов и magnet-хеш проверены по торрент-метаданным."
+    },
+    {
+      "title": "Выживалити. Миссия Альфа / 1 сезон / Выпуски 8 из 8 (Вадим Демчог) [01.03.2024, драма, испытания, приключения, реалити, соревнования, экстрим, WEBRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:C20D12A14DCC88F45CF18E5B313244F8CE396A47&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 65401614499,
+      "size": "60.91 GB",
+      "episode": 0,
+      "episodeFrom": 8,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Миссия Альфа / 1 сезон / Выпуски 8 из 8 (Вадим Демчог) [01.03.2024, драма, испытания, приключения, реалити, соревнования, экстрим, WEBRip 1080p]"
+    },
+    {
+      "title": "Выживалити. Миссия Альфа [02x01-08] (2025) WEBRip 720p от Files-x",
+      "magnet": "magnet:?xt=urn:btih:279a89e962608404e5d4f370efd4ad8bb31a5c20&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 27315992002,
+      "size": "25.44 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Миссия Альфа [02x01-08] (2025) WEBRip 720p от Files-x"
+    },
+    {
+      "title": "Выживалити. Миссия Альфа [02x01-10] (2025) WEBRip 720p от Files-x",
+      "magnet": "magnet:?xt=urn:btih:fd62d308a948adc9ad559f84b1ce7ddb017fe278&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 34316788695,
+      "size": "31.96 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Миссия Альфа [02x01-10] (2025) WEBRip 720p от Files-x"
+    },
+    {
+      "title": "Выживалити. Миссия Альфа / 3 сезон / 2 серия [20.02.2026, тв-шоу, экстрим, реалити-шоу, WEB-DL 1080p]",
+      "magnet": "magnet:?xt=urn:btih:7152E5CFA2FB3F71AE738621D4B5D1DB368E65D3&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 8568459755,
+      "size": "7.98 GB",
+      "episode": 0,
+      "episodeFrom": 2,
+      "episodeTo": 2,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Миссия Альфа / 3 сезон / 2 серия [20.02.2026, тв-шоу, экстрим, реалити-шоу, WEB-DL 1080p]"
+    },
+    {
+      "title": "Выживалити. Миссия Альфа / 3 сезон / 3 серия [27.02.2026, тв-шоу, экстрим, реалити-шоу, WEB-DL 1080p]",
+      "magnet": "magnet:?xt=urn:btih:9F58DA984D0B20A6DA3E2E35E4880B7B981CF75A&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 6882685091,
+      "size": "6.41 GB",
+      "episode": 0,
+      "episodeFrom": 3,
+      "episodeTo": 3,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Миссия Альфа / 3 сезон / 3 серия [27.02.2026, тв-шоу, экстрим, реалити-шоу, WEB-DL 1080p]"
+    },
+    {
+      "title": "Выживалити. Миссия Альфа [03x02 из 11] (2026) WEBRip 720p от Files-x",
+      "magnet": "magnet:?xt=urn:btih:084de961764a5a894a6dd97e9681375b34bd85ca&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 5927054868,
+      "size": "5.52 GB",
+      "episode": 0,
+      "episodeFrom": 2,
+      "episodeTo": 2,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Миссия Альфа [03x02 из 11] (2026) WEBRip 720p от Files-x"
+    },
+    {
+      "title": "Выживалити. Миссия Альфа (3 сезон: 1-11 выпуски из 11) / 2026 / РУ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:25A37F637AC9F94C4D24E6B75524798C0637F887",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 27466315857,
+      "size": "25.58 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 11,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Миссия Альфа (3 сезон: 1-11 выпуски из 11) / 2026 / РУ / WEB-DL (720p)"
+    },
+    {
+      "title": "Выживалити. Легенда Альфа [04x01] [Эфир от 01.10] (2026) HDTV 1080р от Files-x",
+      "magnet": "magnet:?xt=urn:btih:bcb44ca6d4cde975e7d949d97549dcc14b5e7b02&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "Rutor · Files-x",
+      "bytes": 8271528496,
+      "size": "7.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Легенда Альфа [04x01] [Эфир от 01.10] (2026) HDTV 1080р от Files-x"
+    },
+    {
+      "title": "Выживалити. Легенда Альфа [04x02] [Эфир от 08.10] (2026) HDTV 1080р от Files-x",
+      "magnet": "magnet:?xt=urn:btih:30ea2e5ee69c8d8d65a9336f6c02d088daadcb96&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "Rutor · Files-x",
+      "bytes": 7613411560,
+      "size": "7.09 GB",
+      "episode": 0,
+      "episodeFrom": 2,
+      "episodeTo": 2,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Легенда Альфа [04x02] [Эфир от 08.10] (2026) HDTV 1080р от Files-x"
+    },
+    {
+      "title": "Выживалити. Легенда Альфа (4 сезон: 1-3 выпуск) / 2026 / РУ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:85DD01FEC1D3D4C03D9C05924BF1E8F51DB7C28A",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 9513352560,
+      "size": "8.86 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Выживалити. Легенда Альфа (4 сезон: 1-3 выпуск) / 2026 / РУ / WEB-DL (720p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-12T21:00:29Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt31531192/img",
+    "background": "https://live.metahub.space/background/medium/tt31531192/img"
+  },
+  "searchName": "Выживалити"
+}
