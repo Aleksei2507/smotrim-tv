@@ -151,7 +151,9 @@ class Kinopoisk:
         return out
 
 class PublicSources:
-    def __init__(self):self.entities={};self.kp=Kinopoisk(os.environ.get('KINOPOISK_API_KEY',''))
+    def __init__(self):
+        self.entities={};self.kp=Kinopoisk(os.environ.get('KINOPOISK_API_KEY',''))
+        self.torrent_hosts=('jac-red.ru','jac.red')
     def entity(self,qid):
         if not QID.fullmatch(qid):raise Rejected('invalid entity ID')
         if qid not in self.entities:
@@ -220,8 +222,15 @@ class PublicSources:
         query=seed.get('searchName',seed['name']);year=str(seed.get('year',meta.get('releaseInfo','')))[:4]
         params={'search':query,'sort':'sid'}
         if seed['type']=='movie' and re.fullmatch(r'\d{4}',year):params['relased']=year
-        data=get_json('https://jac.red/api/v1.0/torrents?'+urllib.parse.urlencode(params))
-        if not isinstance(data,list):raise Unavailable('Invalid torrent response')
+        for host in self.torrent_hosts:
+            try:
+                data=get_json('https://'+host+'/api/v1.0/torrents?'+urllib.parse.urlencode(params))
+                if not isinstance(data,list):raise Unavailable('Invalid torrent response')
+                self.torrent_hosts=(host,*[other for other in self.torrent_hosts if other!=host])
+                break
+            except Unavailable:
+                continue
+        else:raise Unavailable('Torrent providers unavailable')
         rows=[]
         for row in data[:1500]:
             if not isinstance(row,dict):continue

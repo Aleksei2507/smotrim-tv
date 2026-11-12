@@ -347,6 +347,22 @@
       "https://survivall.friday.ru/videos/s1/e6",
       "https://survivall.friday.ru/videos/s1/e7",
       "https://api.tvmaze.com/shows/94659/episodes"
+    ],
+    "episodeFeeds": [
+      {
+        "tvmazeId": 74776,
+        "seasonMap": {
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      {
+        "tvmazeId": 94659,
+        "seasonMap": {
+          "1": 4
+        }
+      }
     ]
   },
   "tt31520694": {
@@ -981,6 +997,11 @@
         "description": "",
         "released": "2026-11-11",
         "source": "https://chef.friday.ru/videos/s4/e12"
+      }
+    ],
+    "episodeFeeds": [
+      {
+        "tvmazeId": 63532
       }
     ]
   },
@@ -1617,6 +1638,12 @@
         "description": "",
         "released": "2026-09-19",
         "source": "https://www.tvmaze.com/episodes/3750232/zvezdy-3x03-vypusk-3-festival"
+      }
+    ],
+    "episodeFeeds": [
+      {
+        "tvmazeId": 74556,
+        "minSeason": 3
       }
     ]
   }
