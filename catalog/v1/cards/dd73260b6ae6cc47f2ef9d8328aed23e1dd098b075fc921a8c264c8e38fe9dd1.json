@@ -1,0 +1,93 @@
+{
+  "id": "tt1756855",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt1756855/img",
+  "background": "https://images.metahub.space/background/medium/tt1756855/img",
+  "genres": [
+    "Мультфильм",
+    "Приключения",
+    "Комедия"
+  ],
+  "runtime": "103 мин",
+  "imdbRating": "7.6",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "kMsiD1Nky5I",
+      "type": "Trailer"
+    },
+    {
+      "source": "H-43VeYGiPM",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Хитрый койот",
+  "description": "Легендарный Хитрый Койот оказывается среди людей. Устав быть вечной жертвой неудачных изобретений корпорации «АКМЕ», он нанимает адвоката и подает на компанию в суд. Теперь вместо погони за Дорожным Бегуном его ждет судебная битва с безжалостным корпоративным юристом Бадди Крейном, для которого прибыль важнее справедливости.",
+  "aliases": [
+    "Хитрый койот",
+    "Coyote vs. Acme"
+  ],
+  "kpId": 572477,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt1756855.json",
+    "https://www.kinopoisk.ru/film/572477/"
+  ],
+  "year": "2026",
+  "imdbId": "tt1756855",
+  "ids": [
+    "tt1756855"
+  ],
+  "originalName": "Coyote vs. Acme",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-13T07:09:58Z",
+  "sources": [
+    {
+      "title": "Хитрый койот / Coyote vs. Acme (Дэйв Грин / Dave Green) [2026, США, мультфильм, фэнтези, комедия, приключения, семейный, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] Dub + MVO + Original Eng + Sub Rus, Eng",
+      "magnet": "magnet:?xt=urn:btih:3E4714F76018FD248AAF3028C407FF96A3325A68&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 22301617684,
+      "size": "20.77 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Хитрый койот / Coyote vs. Acme (Дэйв Грин / Dave Green) [2026, США, мультфильм, фэнтези, комедия, приключения, семейный, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] Dub + MVO + Original Eng + Sub Rus, Eng"
+    },
+    {
+      "title": "Хитрый койот / Coyote vs. Acme (2026) UHD DCPRip 2160p | 4K | HDR10 | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:70e211914b5b65d057fd2c491b9501c60eccb0b3&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 12219181957,
+      "size": "11.38 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Хитрый койот / Coyote vs. Acme (2026) UHD DCPRip 2160p | 4K | HDR10 | D, P | HDRezka Studio"
+    },
+    {
+      "title": "Хитрый койот / Coyote vs. Acme (2026) DCPRip 720p от New-Team | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:0cf256a65e023073cd7f73044f7ffacd589417f9&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 4552665333,
+      "size": "4.24 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Хитрый койот / Coyote vs. Acme (2026) DCPRip 720p от New-Team | D, P | HDRezka Studio"
+    },
+    {
+      "title": "Хитрый койот / Coyote vs. Acme (2026) WEB-DL 720p от New-Team | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:782e49943412ee33958ffa1259eb460146c4e93a&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 4896262717,
+      "size": "4.56 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Хитрый койот / Coyote vs. Acme (2026) WEB-DL 720p от New-Team | D, P | HDRezka Studio"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-13T07:09:58Z"
+}

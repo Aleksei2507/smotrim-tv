@@ -1,0 +1,78 @@
+{
+  "id": "tt32273171",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt32273171/img",
+  "background": "https://images.metahub.space/background/medium/tt32273171/img",
+  "genres": [
+    "Боевик",
+    "Приключения",
+    "Драма"
+  ],
+  "runtime": "123 мин",
+  "imdbRating": "6.0",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "tlSDDuWxO_0",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Смерть Робин Гуда",
+  "description": "1247 год. Постаревший преступник и убийца Робин Гуд живёт отшельником, не имея своего дома, и на него охотятся родственники убитых им людей. Однажды, пытаясь помочь старому другу Маленькому Джону, а ныне Эдварду, одолеть очередных врагов из прошлого и спасти семью, Робин получает серьёзное ранение. Чтобы спасти товарища, Эдвард отвозит его в удалённый монастырь на острове и раненого оставляет у дверей в надежде, что здесь ему не дадут умереть.",
+  "aliases": [
+    "Смерть Робин Гуда",
+    "The Death of Robin Hood"
+  ],
+  "kpId": 5580707,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt32273171.json",
+    "https://www.kinopoisk.ru/film/5580707/"
+  ],
+  "year": "2026",
+  "imdbId": "tt32273171",
+  "ids": [
+    "tt32273171"
+  ],
+  "originalName": "The Death of Robin Hood",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-13T07:09:58Z",
+  "sources": [
+    {
+      "title": "Смерть Робин Гуда / The Death of Robin Hood (2026) DCPRip [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:2F027EE13904BA04F7BBC57C2C879BD7F1E8C7EC",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 9266391941,
+      "size": "8.63 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Смерть Робин Гуда / The Death of Robin Hood (2026) DCPRip [H.264/1080p] [MVO]"
+    },
+    {
+      "title": "Смерть Робин Гуда / The Death of Robin Hood (2026) WEBRip [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:66A2F794242DEA9C5FE0178A0683C8068CF4CC45",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 2974264852,
+      "size": "2.77 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Смерть Робин Гуда / The Death of Robin Hood (2026) WEBRip [H.264/1080p] [MVO]"
+    },
+    {
+      "title": "Смерть Робин Гуда / The Death of Robin Hood (2026) WEBRip [H.264/720p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:E9A3987309FE39A602071E031855E779FC50EE46",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 1997159792,
+      "size": "1.86 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Смерть Робин Гуда / The Death of Robin Hood (2026) WEBRip [H.264/720p] [MVO]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-13T07:09:58Z"
+}

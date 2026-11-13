@@ -1,0 +1,74 @@
+{
+  "id": "tt0094721",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/54c21d5144b1f10fdfa5e80f53c6279a43252a7686731c0db7188aca600b7049.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6cdebdb44f61ef45177d3692cdd37b401724ec99b22c65f6d952318877d6d62a.jpg",
+  "genres": [
+    "Комедия",
+    "Фэнтези"
+  ],
+  "runtime": "92 мин",
+  "imdbRating": "7.4",
+  "releaseInfo": "1988",
+  "trailers": [
+    {
+      "source": "po1HJbmow0g",
+      "type": "Trailer"
+    },
+    {
+      "source": "GuyNP-XyFHs",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Битлджюс",
+  "description": "Что сделает пара непрофессиональных привидений, когда их добрую Новую Англию наводнят снобы из Нью-Йорка? Они наймут частного «био-экзорциста», чтобы изгнать пришельцев. И результат превзойдет все ожидания!",
+  "aliases": [
+    "Битлджюс",
+    "Beetlejuice"
+  ],
+  "kpId": 2389,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0094721.json",
+    "https://www.kinopoisk.ru/film/2389/"
+  ],
+  "year": "1988",
+  "imdbId": "tt0094721",
+  "ids": [
+    "tt0094721"
+  ],
+  "originalName": "Beetlejuice",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-13T07:11:00Z",
+  "sources": [
+    {
+      "title": "Битлджюс / Битлджус / Beetlejuice (Тим Бертон / Tim Burton) [1988, фэнтези, комедия, Blu-ray disc (custom) 1080p] Dub + MVO + VO + Original en + Sub",
+      "magnet": "magnet:?xt=urn:btih:7C613C723418F334E18ECC7D1933500C26507491&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 23407571763,
+      "size": "21.80 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Битлджюс / Битлджус / Beetlejuice (Тим Бертон / Tim Burton) [1988, фэнтези, комедия, Blu-ray disc (custom) 1080p] Dub + MVO + VO + Original en + Sub"
+    },
+    {
+      "title": "Битлджюс / Битлджус / Beetlejuice (Тим Бертон / Tim Burton) [1988, США, фэнтези, комедия, BDRip 720p] Dub MVO Tycoon + AVO Михалев + Sub rus",
+      "magnet": "magnet:?xt=urn:btih:33799F2B2C4D9C923414FAD1BA498904A9F731EA&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 6259914833,
+      "size": "5.83 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Битлджюс / Битлджус / Beetlejuice (Тим Бертон / Tim Burton) [1988, США, фэнтези, комедия, BDRip 720p] Dub MVO Tycoon + AVO Михалев + Sub rus"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-13T07:09:58Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt0094721/img",
+    "background": "https://images.metahub.space/background/medium/tt0094721/img"
+  }
+}

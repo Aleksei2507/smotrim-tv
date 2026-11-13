@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1794537495,
-  "updatedAt": "2026-11-13T02:37:36Z",
+  "revision": 1794553862,
+  "updatedAt": "2026-11-13T07:11:00Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,245 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt33365126",
+      "ids": [
+        "tt33365126"
+      ],
+      "imdbId": "tt33365126",
+      "name": "Каролина Кэролайн",
+      "type": "movie",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3b7e919f8d54bde0e102db3fb0662ea0693a8ad6173fa63de0f23db17f45ee1f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/418eec80223804492b46776bf2826202f59c495f85232b3673a6bad38724714b.jpg",
+      "description": "Кэролайн Дэниелс — девушка, мечтающая сбежать из своего небольшого города на западе Техаса, — присоединяется к беглому мошеннику. Вместе они отправляются в путешествие, полное страсти и преступлений, по юго-востоку страны в поисках матери девушки.",
+      "originalName": "Carolina Caroline",
+      "aliases": [
+        "Каролина Кэролайн",
+        "Carolina Caroline"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Мелодрама"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "107 мин",
+      "card": "cards/c1d80f9be22feb26dfde3c91488bff5984efcf388fbd7500de369ce0a989af0d.json",
+      "sha256": "c1d80f9be22feb26dfde3c91488bff5984efcf388fbd7500de369ce0a989af0d",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1756855",
+      "ids": [
+        "tt1756855"
+      ],
+      "imdbId": "tt1756855",
+      "name": "Хитрый койот",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/df92a634d2546a405d366ed4e15d665c9da7a16485fce136af9b721c77cdf704.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/de4ba27aca34cdc949597b2f509872b49a2c20f84b38d7446cb2e7562f6fc6e0.jpg",
+      "description": "Легендарный Хитрый Койот оказывается среди людей. Устав быть вечной жертвой неудачных изобретений корпорации «АКМЕ», он нанимает адвоката и подает на компанию в суд. Теперь вместо погони за Дорожным Бегуном его ждет судебная битва с безжалостным корпоративным юристом Бадди Крейном, для которого п…",
+      "originalName": "Coyote vs. Acme",
+      "aliases": [
+        "Хитрый койот",
+        "Coyote vs. Acme"
+      ],
+      "genres": [
+        "Мультфильм",
+        "Приключения",
+        "Комедия"
+      ],
+      "imdbRating": "7.6",
+      "runtime": "103 мин",
+      "card": "cards/ab19495d2f3240a3947c4bcb5602efa2f2e596a2aa6b55a05111c9efb418d4af.json",
+      "sha256": "ab19495d2f3240a3947c4bcb5602efa2f2e596a2aa6b55a05111c9efb418d4af",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt7526136",
+      "ids": [
+        "tt7526136"
+      ],
+      "imdbId": "tt7526136",
+      "name": "Сердце зверя",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9c7c77f26c3248971467ba4511d9d5007cd800c41fc0d12cfab69bbd006be8d7.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c4fa6859d1f0bbc19354dad6006d6c7aaf1c7360a1da272c27e55967e3f2d57e.jpg",
+      "description": "После авиакатастрофы офицер спецназа Джеймс Белмонт и его боевая собака Один оказываются в глуши Аляски. Вместе они вынуждены вести жестокую борьбу за выживание против стихии.",
+      "originalName": "Heart of the Beast",
+      "aliases": [
+        "Сердце зверя",
+        "Heart of the Beast"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "7.2",
+      "runtime": "105 мин",
+      "card": "cards/f21125d8b57f19b4ebfa5b0555ef89608bf40fb3f7521db91b06a3334c25fc49.json",
+      "sha256": "f21125d8b57f19b4ebfa5b0555ef89608bf40fb3f7521db91b06a3334c25fc49",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt31349844",
+      "ids": [
+        "tt31349844"
+      ],
+      "imdbId": "tt31349844",
+      "name": "Курьер",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c8e816a427a1a5644b5bc89ad7d981a1d7f704aa96daf7b0b209bfb87d04ab68.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/591bcf7c56652f19d98977c698d1bafc4ec98746e18854a8f961b9d0f24f54e8.jpg",
+      "description": "Брисбен. Хэнк Мэлоун — бывший военный и алкоголик в завязке, ныне работающий частным курьером. Его новый заказ — в кратчайшие сроки доставить в больницу перевозчика органов Бена Бишопа, везущего печень для семилетней девочки, которой требуется срочная пересадка. Вскоре простая задача превращается…",
+      "originalName": "Runner",
+      "aliases": [
+        "Курьер",
+        "Runner"
+      ],
+      "genres": [
+        "Боевик",
+        "Комедия",
+        "Триллер"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "97 мин",
+      "card": "cards/dbb44571c3fba2be9bcebf554c60f55b9bebbe04b668dc0fc6b6d4c316c0ee5d.json",
+      "sha256": "dbb44571c3fba2be9bcebf554c60f55b9bebbe04b668dc0fc6b6d4c316c0ee5d",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt32273171",
+      "ids": [
+        "tt32273171"
+      ],
+      "imdbId": "tt32273171",
+      "name": "Смерть Робин Гуда",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/34bd648db9ee6219a28162be1b32bb607fdece7f170520a8467d170e37c79b4c.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/113f8c3c34b8b4659b8d9664cb5c6831cb399b7b9c378a94da4c7ad0635deac6.jpg",
+      "description": "1247 год. Постаревший преступник и убийца Робин Гуд живёт отшельником, не имея своего дома, и на него охотятся родственники убитых им людей. Однажды, пытаясь помочь старому другу Маленькому Джону, а ныне Эдварду, одолеть очередных врагов из прошлого и спасти семью, Робин получает серьёзное ранени…",
+      "originalName": "The Death of Robin Hood",
+      "aliases": [
+        "Смерть Робин Гуда",
+        "The Death of Robin Hood"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "6.0",
+      "runtime": "123 мин",
+      "card": "cards/1e47df0b514ebadf80b38d51610dc5196d74238e9df7a40cb0f8950ae987ac7b.json",
+      "sha256": "1e47df0b514ebadf80b38d51610dc5196d74238e9df7a40cb0f8950ae987ac7b",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt27165187",
+      "ids": [
+        "tt27165187"
+      ],
+      "imdbId": "tt27165187",
+      "name": "На краю Оук-стрит",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6a25f8c01a9863049180cb1eb9f624a4bbfab0e6a919d3fadf3785705bc183f6.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5c881fd4c1657397d1e8710cb2d11d0d1db5bb0758ed3cd457f19b03fd553627.jpg",
+      "description": "Июль 1982 года. Семейство Платт живёт в пригороде. Однажды в их тихом районе начинают происходить странные явления: по ночам что-то гремит и вспыхивает, во дворе у соседки вырастает причудливое растение, во дворе у соседа — огромная куча экскрементов. Потом случается блэкаут, и, проснувшись поутр…",
+      "originalName": "The End of Oak Street",
+      "aliases": [
+        "На краю Оук-стрит",
+        "The End of Oak Street"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Детектив"
+      ],
+      "imdbRating": "6.5",
+      "runtime": "100 мин",
+      "card": "cards/b02f4be384cb14c68a7826c529c7f6f084720d2969e478768b5fe5577ba523d9.json",
+      "sha256": "b02f4be384cb14c68a7826c529c7f6f084720d2969e478768b5fe5577ba523d9",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6151526",
+      "ids": [
+        "tt6151526"
+      ],
+      "imdbId": "tt6151526",
+      "name": "Благодетель",
+      "type": "series",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/036c03ec58fc69d95025fa8bacbaf7e1582f2d9e517d30f6a8d6afeeb2e2f750.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/36717ecbc004019086505d350941b4a32abd315edfe3d749cf099db02a4011fe.jpg",
+      "description": "Только что окончивший юридический факультет Руди Бейлор вместе со своей девушкой и однокурсницей Сарой выходит на первый рабочий день в престижной юридической фирме. Руди опаздывает на первую рабочую встречу, и в результате его увольняют.\nНеопытный адвокат устраивается на работу в местную юридиче…",
+      "originalName": "The Rainmaker",
+      "aliases": [
+        "Благодетель",
+        "The Rainmaker"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "7.1",
+      "runtime": "43 мин",
+      "card": "cards/00f0766c015fb5ef664274b207aa6b1dde2d2e9446dc2075e7c9ebda5cacefb2.json",
+      "sha256": "00f0766c015fb5ef664274b207aa6b1dde2d2e9446dc2075e7c9ebda5cacefb2",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0094721",
+      "ids": [
+        "tt0094721"
+      ],
+      "imdbId": "tt0094721",
+      "name": "Битлджюс",
+      "type": "movie",
+      "year": "1988",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/54c21d5144b1f10fdfa5e80f53c6279a43252a7686731c0db7188aca600b7049.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6cdebdb44f61ef45177d3692cdd37b401724ec99b22c65f6d952318877d6d62a.jpg",
+      "description": "Что сделает пара непрофессиональных привидений, когда их добрую Новую Англию наводнят снобы из Нью-Йорка? Они наймут частного «био-экзорциста», чтобы изгнать пришельцев. И результат превзойдет все ожидания!",
+      "originalName": "Beetlejuice",
+      "aliases": [
+        "Битлджюс",
+        "Beetlejuice"
+      ],
+      "genres": [
+        "Комедия",
+        "Фэнтези"
+      ],
+      "imdbRating": "7.4",
+      "runtime": "92 мин",
+      "card": "cards/21f8b8c197f2354647d418dd52c3345eb76b78586c61aea12fe29297af9cc0dc.json",
+      "sha256": "21f8b8c197f2354647d418dd52c3345eb76b78586c61aea12fe29297af9cc0dc",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt31712367",
       "ids": [
@@ -2302,8 +2541,8 @@
       ],
       "imdbRating": "7.5",
       "runtime": "60 мин",
-      "card": "cards/8583e20d3591e387769c0ffcfb17e276209dab5b2430947afa19ee6192e38ea9.json",
-      "sha256": "8583e20d3591e387769c0ffcfb17e276209dab5b2430947afa19ee6192e38ea9",
+      "card": "cards/1c86e28e7b843f1a07dbd80452e50858696ff23a7e24b444036c5ebee3e70503.json",
+      "sha256": "1c86e28e7b843f1a07dbd80452e50858696ff23a7e24b444036c5ebee3e70503",
       "localized": true,
       "provider": "github"
     },
@@ -2361,8 +2600,8 @@
       ],
       "imdbRating": "7.6",
       "runtime": "52 мин",
-      "card": "cards/b4c239f55d7250dc9667a0cf0459d17f4254813cb81d4b3d2aab3e073d65e236.json",
-      "sha256": "b4c239f55d7250dc9667a0cf0459d17f4254813cb81d4b3d2aab3e073d65e236",
+      "card": "cards/9597297bb07429f74c7d0a9218716ac8eafab4bfd018d8eb8b925b7365b735a5.json",
+      "sha256": "9597297bb07429f74c7d0a9218716ac8eafab4bfd018d8eb8b925b7365b735a5",
       "localized": true,
       "provider": "github"
     },
@@ -2391,8 +2630,8 @@
       ],
       "imdbRating": "8.8",
       "runtime": "61 мин",
-      "card": "cards/d548f5b95d95aece7b2d410bbba7f2aa7fc25bb0d95983d585bd753029f873fb.json",
-      "sha256": "d548f5b95d95aece7b2d410bbba7f2aa7fc25bb0d95983d585bd753029f873fb",
+      "card": "cards/4e0fe2f09e94679cb115b16c25a78c1a615a7b56a8f563fabd44cf6a021fb841.json",
+      "sha256": "4e0fe2f09e94679cb115b16c25a78c1a615a7b56a8f563fabd44cf6a021fb841",
       "localized": true,
       "provider": "github"
     },
@@ -2419,8 +2658,8 @@
         "Комедия"
       ],
       "imdbRating": "7.5",
-      "card": "cards/769f854141344bf3f447f6fe61c35392348e3942c3d33794fdfaa4849aac3da0.json",
-      "sha256": "769f854141344bf3f447f6fe61c35392348e3942c3d33794fdfaa4849aac3da0",
+      "card": "cards/0abca342a5526830dd534834b1c8626f508b4eb4261b2933cff706c8778d02f7.json",
+      "sha256": "0abca342a5526830dd534834b1c8626f508b4eb4261b2933cff706c8778d02f7",
       "localized": true,
       "provider": "github"
     },
@@ -2449,8 +2688,8 @@
       ],
       "imdbRating": "8.7",
       "runtime": "56 мин",
-      "card": "cards/726983bc64fb375161218b1e8f81c20e40320d4cb3794065d0feddbba182971f.json",
-      "sha256": "726983bc64fb375161218b1e8f81c20e40320d4cb3794065d0feddbba182971f",
+      "card": "cards/3ae57f445368b9c5151b1b5eafa022a92721d5c6ed21c60c253574a2a2ba4637.json",
+      "sha256": "3ae57f445368b9c5151b1b5eafa022a92721d5c6ed21c60c253574a2a2ba4637",
       "localized": true,
       "provider": "github"
     },
