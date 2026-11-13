@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1794571797,
-  "updatedAt": "2026-11-13T12:09:16Z",
+  "revision": 1794598742,
+  "updatedAt": "2026-11-13T19:38:17Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -1412,8 +1412,8 @@
       ],
       "imdbRating": "8.3",
       "runtime": "47 мин",
-      "card": "cards/db70e9e6b9c3e0b4fd22eb6397e8fb9a7c6365eb6373e419e2937dd007c30316.json",
-      "sha256": "db70e9e6b9c3e0b4fd22eb6397e8fb9a7c6365eb6373e419e2937dd007c30316",
+      "card": "cards/826cee2c1d56333144f5285c756978c85c7d02cbf57c9ebe1ec80010c01c842a.json",
+      "sha256": "826cee2c1d56333144f5285c756978c85c7d02cbf57c9ebe1ec80010c01c842a",
       "localized": true,
       "provider": "github"
     },
@@ -2337,8 +2337,8 @@
       ],
       "imdbRating": "9.5",
       "runtime": "49 мин",
-      "card": "cards/a02062aa2ed2f02378768f05ad2aace4cad9c9c8f5770fe6a9d7f1d435de2741.json",
-      "sha256": "a02062aa2ed2f02378768f05ad2aace4cad9c9c8f5770fe6a9d7f1d435de2741",
+      "card": "cards/e2c2a4155689c2da4c4057bd545e82953db1c545cd2fc0abbfb6f1fb14e86ad8.json",
+      "sha256": "e2c2a4155689c2da4c4057bd545e82953db1c545cd2fc0abbfb6f1fb14e86ad8",
       "localized": true,
       "provider": "github"
     },
@@ -2747,8 +2747,8 @@
       ],
       "imdbRating": "8.6",
       "runtime": "65 мин",
-      "card": "cards/a0c712c9644e1bcae994f3c5572c81e62892317f89cfd9e646de06268e1e72bb.json",
-      "sha256": "a0c712c9644e1bcae994f3c5572c81e62892317f89cfd9e646de06268e1e72bb",
+      "card": "cards/9d70bbc2db44a8bae6f5b6cf46a7128172255603791de1af69b0d8ca69f98614.json",
+      "sha256": "9d70bbc2db44a8bae6f5b6cf46a7128172255603791de1af69b0d8ca69f98614",
       "localized": true,
       "provider": "github"
     },
@@ -2807,8 +2807,8 @@
       ],
       "imdbRating": "7.3",
       "runtime": "65 мин",
-      "card": "cards/98c7f997554b655439ca6b9dd31883bb2d28c97d0f4e4a437d9306faeec0019e.json",
-      "sha256": "98c7f997554b655439ca6b9dd31883bb2d28c97d0f4e4a437d9306faeec0019e",
+      "card": "cards/e29769e8ae353db6bd16dc0474fddf978efd43dad4ab0f67e79f5f7c11ade9cc.json",
+      "sha256": "e29769e8ae353db6bd16dc0474fddf978efd43dad4ab0f67e79f5f7c11ade9cc",
       "localized": true,
       "provider": "github"
     },
