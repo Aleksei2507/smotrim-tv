@@ -1,0 +1,93 @@
+{
+  "id": "tt32261958",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/524548ef93c502945e2da4f017f46b8d90db3d82aa5f93923f5c03640ba4a89a.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f704c8bbf7e95f3d97c4bc178ea4e135bddaff0a88f4aae5daff4f67a75b48c5.jpg",
+  "genres": [
+    "Криминал",
+    "Драма",
+    "Детектив"
+  ],
+  "runtime": "117 мин",
+  "imdbRating": "",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "xdPMKhjMSFs",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Тайный дневник Верити",
+  "description": "Нуждающаяся в работе писательница Лоуэн Эшли получает предложение от Джереми Кроуфорда — ей нужно дописать романы его жены. Жена Джереми — автор популярной серии романов Верити Кроуфорд, и из-за загадочного несчастного случая она не может закончить произведения. Работа принимает неожиданный оборот, когда Лоуэн находит тревожные личные записки Верити. Сталкиваясь с семейными тайнами, Лоуэн пытается отделить вымысел от реальности, в то время как границы в её отношениях с Джереми размываются.",
+  "aliases": [
+    "Тайный дневник Верити",
+    "Verity"
+  ],
+  "kpId": 6789621,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt32261958.json",
+    "https://www.kinopoisk.ru/film/6789621/"
+  ],
+  "year": "2026",
+  "imdbId": "tt32261958",
+  "ids": [
+    "tt32261958"
+  ],
+  "originalName": "Verity",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-14T06:57:55Z",
+  "sources": [
+    {
+      "title": "Тайный дневник Верити / Verity (2026) UHD WEB-DL 2160p | 4K | HDR10+ | Dolby Vision P8 | D, P | WinMedia, HDrezka Studio, Смотри кино",
+      "magnet": "magnet:?xt=urn:btih:f55a6a4d903baaa81ae4cf20b87244c2d21c804e&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "4K",
+      "source": "JacRed · korsars",
+      "bytes": 14849849425,
+      "size": "13.83 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тайный дневник Верити / Verity (2026) UHD WEB-DL 2160p | 4K | HDR10+ | Dolby Vision P8 | D, P | WinMedia, HDrezka Studio, Смотри кино"
+    },
+    {
+      "title": "Тайный дневник Верити / Verity (Майкл Шоуолтер / Michael Showalter) [2026, США, Психологический триллер, драма, детектив, WEB-DL 2160p, Dolby Vision, HDR10, HDR10+] [Hybrid] 2x Dub (WinMedia, HDRezka) 2x MVO (HDRezka, Смотри кино) + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:A737633D41B9C7680E35AE455778A8485D589916&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 14871324262,
+      "size": "13.85 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тайный дневник Верити / Verity (Майкл Шоуолтер / Michael Showalter) [2026, США, Психологический триллер, драма, детектив, WEB-DL 2160p, Dolby Vision, HDR10, HDR10+] [Hybrid] 2x Dub (WinMedia, HDRezka) 2x MVO (HDRezka, Смотри кино) + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Тайный дневник Верити / Verity (2026) WEB-DL 720p от New-Team | D, P | HDRezka Studio, Смотри кино",
+      "magnet": "magnet:?xt=urn:btih:e0146ae6b5d5943d328989b51774fc7ed1a32585&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 5873367777,
+      "size": "5.47 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тайный дневник Верити / Verity (2026) WEB-DL 720p от New-Team | D, P | HDRezka Studio, Смотри кино"
+    },
+    {
+      "title": "Тайный дневник Верити / Verity (2026) WEB-DL 720p | D, P | WinMedia, HDrezka Studio, Смотри кино",
+      "magnet": "magnet:?xt=urn:btih:9f5e95a2dcc34d812b76ed7da865990ea7c28e8e&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 5948529704,
+      "size": "5.54 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тайный дневник Верити / Verity (2026) WEB-DL 720p | D, P | WinMedia, HDrezka Studio, Смотри кино"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-14T06:56:45Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt32261958/img",
+    "background": "https://images.metahub.space/background/medium/tt32261958/img"
+  }
+}

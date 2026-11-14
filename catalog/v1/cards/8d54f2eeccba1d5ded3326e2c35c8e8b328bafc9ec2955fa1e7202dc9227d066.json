@@ -1,0 +1,64 @@
+{
+  "id": "tt34206385",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5ae2578df0b27749f99ef8a190947ca9e07c0669f4167306c72409ceb5a56d26.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e666b49f5d9cb078512f4809050a8216dbc33124866b3b7cb37be93ff9481f24.jpg",
+  "genres": [
+    "Биография",
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "110 мин",
+  "imdbRating": "7.0",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "C0NZa01qTRU",
+      "type": "Trailer"
+    },
+    {
+      "source": "5fHXyqQOKL8",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Прайм-тайм",
+  "description": "2006 год. Журналист и телеведущий Крис Хэнсен работает на NBC. Он запускает новое необычное шоу «Поймать хищника», в котором разоблачает педофилов, используя актёров в качестве приманки. Программа пользуется большим успехом, и глава канала ставит передачу в прайм-тайм. Однако в жизни самого Криса назревают серьёзные проблемы.",
+  "aliases": [
+    "Прайм-тайм",
+    "Primetime"
+  ],
+  "kpId": 7400696,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt34206385.json",
+    "https://www.kinopoisk.ru/film/7400696/"
+  ],
+  "year": "2026",
+  "imdbId": "tt34206385",
+  "ids": [
+    "tt34206385"
+  ],
+  "originalName": "Primetime",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-14T06:57:55Z",
+  "sources": [
+    {
+      "title": "Прайм-тайм / Primetime (2026) WEB-DL 720p от New-Team | D, P | HDRezka Studio, WinMedia",
+      "magnet": "magnet:?xt=urn:btih:946621d8641ae3baf8e3294386d3188d279fb8a9&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 6195490324,
+      "size": "5.77 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Прайм-тайм / Primetime (2026) WEB-DL 720p от New-Team | D, P | HDRezka Studio, WinMedia"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-14T06:56:45Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt34206385/img",
+    "background": "https://images.metahub.space/background/medium/tt34206385/img"
+  }
+}

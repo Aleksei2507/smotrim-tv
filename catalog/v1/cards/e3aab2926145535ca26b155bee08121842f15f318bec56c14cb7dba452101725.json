@@ -1,0 +1,85 @@
+{
+  "id": "tt0077651",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt0077651/img",
+  "background": "https://images.metahub.space/background/medium/tt0077651/img",
+  "genres": [
+    "Ужасы",
+    "Триллер"
+  ],
+  "runtime": "91 мин",
+  "imdbRating": "7.7",
+  "releaseInfo": "1978",
+  "trailers": [
+    {
+      "source": "NT0loXUv-ks",
+      "type": "Trailer"
+    },
+    {
+      "source": "3JsrH8eUVOo",
+      "type": "Trailer"
+    },
+    {
+      "source": "2Orp73nufs0",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Хэллоуин",
+  "description": "Убийца-психопат Майкл Майерс, будучи ребенком, совершил убийство собственной сестры в Хэллоуин. 15 лет спустя маньяк снова берётся за старое и терроризирует небольшой городок. Он сбежал из психбольницы, чтобы снова убивать в Хэллоуин.",
+  "aliases": [
+    "Хэллоуин",
+    "Halloween"
+  ],
+  "kpId": 8435,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0077651.json",
+    "https://www.kinopoisk.ru/film/8435/"
+  ],
+  "year": "1978",
+  "imdbId": "tt0077651",
+  "ids": [
+    "tt0077651"
+  ],
+  "originalName": "Halloween",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-14T06:56:45Z",
+  "sources": [
+    {
+      "title": "Хэллоуин / Halloween (Джон Карпентер / John Carpenter) [1978, США, ужасы, триллер, BDRip 1080p] MVO + Original + Sub (rus, eng)",
+      "magnet": "magnet:?xt=urn:btih:019DA64FFB056699BCD00CAF6A17D4CDB1357063&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 11607149117,
+      "size": "10.81 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Хэллоуин / Halloween (Джон Карпентер / John Carpenter) [1978, США, ужасы, триллер, BDRip 1080p] MVO + Original + Sub (rus, eng)"
+    },
+    {
+      "title": "Хэллоуин / Halloween (Джон Карпентер / John Carpenter) [1978, США, ужасы, триллер, BDRemux 1080p] MVO + DVO + 4x AVO (Иванов, Санаев, Королев, Карповский) + VO + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:BFBBC14D657B7137F16B17980F933D7B62E5C586&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 24073291694,
+      "size": "22.42 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Хэллоуин / Halloween (Джон Карпентер / John Carpenter) [1978, США, ужасы, триллер, BDRemux 1080p] MVO + DVO + 4x AVO (Иванов, Санаев, Королев, Карповский) + VO + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Хэллоуин / Halloween (Джон Карпентер / John Carpenter) [1978, США, ужасы, триллер, BDRip 720p] MVO + 2x AVO + VO + Original Eng + Sub Rus, Eng",
+      "magnet": "magnet:?xt=urn:btih:275E2545A7DB33932C082393FC2D819E30DE4395&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 5089536245,
+      "size": "4.74 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Хэллоуин / Halloween (Джон Карпентер / John Carpenter) [1978, США, ужасы, триллер, BDRip 720p] MVO + 2x AVO + VO + Original Eng + Sub Rus, Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-14T06:56:45Z"
+}

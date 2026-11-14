@@ -1,0 +1,114 @@
+{
+  "id": "tt33365126",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3b7e919f8d54bde0e102db3fb0662ea0693a8ad6173fa63de0f23db17f45ee1f.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/418eec80223804492b46776bf2826202f59c495f85232b3673a6bad38724714b.jpg",
+  "genres": [
+    "Криминал",
+    "Драма",
+    "Мелодрама"
+  ],
+  "runtime": "107 мин",
+  "imdbRating": "6.6",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "fNdC6SJ-TxY",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Каролина Кэролайн",
+  "description": "Кэролайн Дэниелс — девушка, мечтающая сбежать из своего небольшого города на западе Техаса, — присоединяется к беглому мошеннику. Вместе они отправляются в путешествие, полное страсти и преступлений, по юго-востоку страны в поисках матери девушки.",
+  "aliases": [
+    "Каролина Кэролайн",
+    "Carolina Caroline"
+  ],
+  "kpId": 7026396,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/7026396/"
+  ],
+  "year": "2025",
+  "imdbId": "tt33365126",
+  "ids": [
+    "tt33365126"
+  ],
+  "originalName": "Carolina Caroline",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-14T06:56:45Z",
+  "sources": [
+    {
+      "title": "Каролина Кэролайн / Carolina Caroline (2025) WEB-DL 1080p | D, P | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:7aa2640b461461d7ad1d9be136b7e668966eecf3&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 8579197173,
+      "size": "7.99 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Каролина Кэролайн / Carolina Caroline (2025) WEB-DL 1080p | D, P | HDrezka Studio"
+    },
+    {
+      "title": "Каролина Кэролайн / Carolina Caroline (2025) WEB-DL 1080p от New-Team | D, P | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:6de29e4b2c83d25cd2c86deac4c8a6f58c0e71a6&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 8600672010,
+      "size": "8.01 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Каролина Кэролайн / Carolina Caroline (2025) WEB-DL 1080p от New-Team | D, P | HDrezka Studio"
+    },
+    {
+      "title": "Каролина Кэролайн / Carolina Caroline (2025) UHD WEB-DL 2160p | 4K | SDR | D, P | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:f2e1b616bbdd0c72fa4502424717b4261f063f3a&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 12981538652,
+      "size": "12.09 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Каролина Кэролайн / Carolina Caroline (2025) UHD WEB-DL 2160p | 4K | SDR | D, P | HDrezka Studio"
+    },
+    {
+      "title": "Каролина Кэролайн / Carolina Caroline (2025) UHD WEB-DL 2160p | 4K | SDR | D, P, А | HDrezka Studio, Яроцкий",
+      "magnet": "magnet:?xt=urn:btih:869e04f5f9076f33cf2bd199a5fb3adabd48c7df&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 13496934727,
+      "size": "12.57 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Каролина Кэролайн / Carolina Caroline (2025) UHD WEB-DL 2160p | 4K | SDR | D, P, А | HDrezka Studio, Яроцкий"
+    },
+    {
+      "title": "Каролина Кэролайн / Carolina Caroline (2025) WEB-DLRip 720p от New-Team | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:798cab26655f6f98b48e237815da134e1caf083e&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 4563402752,
+      "size": "4.25 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Каролина Кэролайн / Carolina Caroline (2025) WEB-DLRip 720p от New-Team | D, P | HDRezka Studio"
+    },
+    {
+      "title": "Каролина Кэролайн / Carolina Caroline (2025) BDRip 720p от DoMiNo & селезень | D, P, A | HDRezka Studio, Яроцкий",
+      "magnet": "magnet:?xt=urn:btih:a4d7e259b82a684906ecfc8bca559e85d8a600df&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 5583457484,
+      "size": "5.20 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Каролина Кэролайн / Carolina Caroline (2025) BDRip 720p от DoMiNo & селезень | D, P, A | HDRezka Studio, Яроцкий"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-13T07:09:58Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt33365126/img",
+    "background": "https://images.metahub.space/background/medium/tt33365126/img"
+  }
+}

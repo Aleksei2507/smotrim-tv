@@ -1,0 +1,93 @@
+{
+  "id": "tt1457767",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt1457767/img",
+  "background": "https://images.metahub.space/background/medium/tt1457767/img",
+  "genres": [
+    "Ужасы",
+    "Детектив",
+    "Триллер"
+  ],
+  "runtime": "112 мин",
+  "imdbRating": "7.5",
+  "releaseInfo": "2013",
+  "trailers": [
+    {
+      "source": "k10ETZ41q5o",
+      "type": "Trailer"
+    },
+    {
+      "source": "Gb-jRz7HWqs",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Заклятие",
+  "description": "Эд и Лоррейн Уоррены — детективы, которые расследуют паранормальные дела. Однажды к ним обращается семья, страдающая от злого духа. Уоррены, вынужденные сражаться с могущественной демонической сущностью, сталкиваются с самым пугающим случаем в своей жизни.",
+  "aliases": [
+    "Заклятие",
+    "The Conjuring"
+  ],
+  "kpId": 468994,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt1457767.json",
+    "https://www.kinopoisk.ru/film/468994/"
+  ],
+  "year": "2013",
+  "imdbId": "tt1457767",
+  "ids": [
+    "tt1457767"
+  ],
+  "originalName": "The Conjuring",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-14T06:56:45Z",
+  "sources": [
+    {
+      "title": "Заклятие / The Conjuring (Джеймс Ван / James Wan) [2013, США, ужасы, триллер, BDRemux 1080p] Dub (Blu-ray CEE) + 2x AVO (Горчаков, Дольский) + VO (Хихикаюший доктор) + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:4DA8BAA56D8BFBAEC9B47998CE52D097301D3442&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 32598801776,
+      "size": "30.36 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Заклятие / The Conjuring (Джеймс Ван / James Wan) [2013, США, ужасы, триллер, BDRemux 1080p] Dub (Blu-ray CEE) + 2x AVO (Горчаков, Дольский) + VO (Хихикаюший доктор) + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Заклятие / The Conjuring (Джеймс Ван / James Wan) [2013, США, ужасы, HDTV 1080p] [Open Matte / Pan & Scan (16:9)] DVO (SDI Media)",
+      "magnet": "magnet:?xt=urn:btih:65698E74C4A08685A899E27876E4517F143BBC6A&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 3994319585,
+      "size": "3.72 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Заклятие / The Conjuring (Джеймс Ван / James Wan) [2013, США, ужасы, HDTV 1080p] [Open Matte / Pan & Scan (16:9)] DVO (SDI Media)"
+    },
+    {
+      "title": "Заклятие / The Conjuring (Джеймс Ван / James Wan) [2013, США, ужасы, триллер, WEB-DL 2160p, HDR10, Dolby Vision] [Hybrid] Dub + DVO + 2x AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:BABB73F7876F40229F141F7CF87352846C0C2D28&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 23998129766,
+      "size": "22.35 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Заклятие / The Conjuring (Джеймс Ван / James Wan) [2013, США, ужасы, триллер, WEB-DL 2160p, HDR10, Dolby Vision] [Hybrid] Dub + DVO + 2x AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Заклятие / The Conjuring (Джеймс Ван / James Wan) [2013, США, ужасы, триллер, WEB-DL 2160p, SDR] Dub + DVO + 2x AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:796B14877A5AAF64BC5CCB695D5C9C2503BD9A53&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 24019604602,
+      "size": "22.37 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Заклятие / The Conjuring (Джеймс Ван / James Wan) [2013, США, ужасы, триллер, WEB-DL 2160p, SDR] Dub + DVO + 2x AVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-14T06:56:45Z"
+}

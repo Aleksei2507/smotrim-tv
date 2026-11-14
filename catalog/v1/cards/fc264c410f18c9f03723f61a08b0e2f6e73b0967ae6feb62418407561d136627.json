@@ -1,0 +1,86 @@
+{
+  "id": "tt35538033",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/94ee05081474a3e3db8496684693a7155ee7bcc26cb5aea3b1683b4c07ce2505.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0aabcb051c8e6d90de1781a9c57267384f940502cbe1a60a14a6b8fa706c30a9.jpg",
+  "genres": [
+    "Боевик",
+    "Ужасы",
+    "Фантастика"
+  ],
+  "runtime": "94 мин",
+  "imdbRating": "",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "mNd1gb19A-c",
+      "type": "Trailer"
+    },
+    {
+      "source": "SJPu1spHqfk",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Обитель зла",
+  "description": "Медицинский курьер закончил смену и уже собирался домой к своей девушке, как вдруг подворачивается ещё один срочный заказ с двойной оплатой. Он везёт посылку в соседний Раккун-Сити и на лесной заснеженной дороге сбивает внезапно выскочившую под колёса женщину. Так начинается самая жуткая ночь в жизни парня, в течение которой ему предстоит столкнуться с немыслимыми ужасами.",
+  "aliases": [
+    "Обитель зла",
+    "Resident Evil"
+  ],
+  "kpId": 7378605,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt35538033.json",
+    "https://www.kinopoisk.ru/film/7378605/"
+  ],
+  "year": "2026",
+  "imdbId": "tt35538033",
+  "ids": [
+    "tt35538033"
+  ],
+  "originalName": "Resident Evil",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-14T06:57:55Z",
+  "sources": [
+    {
+      "title": "Обитель зла / Resident Evil (2026) WEB-DL [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:9F80DE65CCA90206D4577AFB8B6C70B1E4C4F350",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 8020851425,
+      "size": "7.47 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Обитель зла / Resident Evil (2026) WEB-DL [H.264/1080p] [MVO]"
+    },
+    {
+      "title": "Обитель зла / Resident Evil (Зак Креггер / Zach Cregger) [2026, Германия, США, Чехия, Канада, Австралия, Новая Зеландия, Франция, боевик, ужасы, WEB-DL 2160p, SDR] Dub (MovieDalen, HDRezka Studio) + MVO (HDRezka Studio) + Dub (LeDoyen) + Original Eng + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:AE6D10AA8F4BCE8F4C619626AFBACE5A79D5113F&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 19069654794,
+      "size": "17.76 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Обитель зла / Resident Evil (Зак Креггер / Zach Cregger) [2026, Германия, США, Чехия, Канада, Австралия, Новая Зеландия, Франция, боевик, ужасы, WEB-DL 2160p, SDR] Dub (MovieDalen, HDRezka Studio) + MVO (HDRezka Studio) + Dub (LeDoyen) + Original Eng + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Обитель зла / Resident Evil (Зак Креггер / Zach Cregger) [2026, Германия, США, ужасы, боевик, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub (MovieDalen, HDRezka Studio) + 4 x MVO + VO (Яроцкий) + Dub (Ukr) + Original Eng + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:36C27C73DE92EFB9958929803880D2ADC26B1E3E&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 20132659200,
+      "size": "18.75 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Обитель зла / Resident Evil (Зак Креггер / Zach Cregger) [2026, Германия, США, ужасы, боевик, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub (MovieDalen, HDRezka Studio) + 4 x MVO + VO (Яроцкий) + Dub (Ukr) + Original Eng + Sub (Rus, Ukr, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-14T06:56:45Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt35538033/img",
+    "background": "https://images.metahub.space/background/medium/tt35538033/img"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1794617602,
-  "updatedAt": "2026-11-14T00:52:35Z",
+  "revision": 1794639475,
+  "updatedAt": "2026-11-14T06:57:55Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,245 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt34206385",
+      "ids": [
+        "tt34206385"
+      ],
+      "imdbId": "tt34206385",
+      "name": "Прайм-тайм",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5ae2578df0b27749f99ef8a190947ca9e07c0669f4167306c72409ceb5a56d26.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e666b49f5d9cb078512f4809050a8216dbc33124866b3b7cb37be93ff9481f24.jpg",
+      "description": "2006 год. Журналист и телеведущий Крис Хэнсен работает на NBC. Он запускает новое необычное шоу «Поймать хищника», в котором разоблачает педофилов, используя актёров в качестве приманки. Программа пользуется большим успехом, и глава канала ставит передачу в прайм-тайм. Однако в жизни самого Криса…",
+      "originalName": "Primetime",
+      "aliases": [
+        "Прайм-тайм",
+        "Primetime"
+      ],
+      "genres": [
+        "Биография",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.0",
+      "runtime": "110 мин",
+      "card": "cards/8d54f2eeccba1d5ded3326e2c35c8e8b328bafc9ec2955fa1e7202dc9227d066.json",
+      "sha256": "8d54f2eeccba1d5ded3326e2c35c8e8b328bafc9ec2955fa1e7202dc9227d066",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0773262",
+      "ids": [
+        "tt0773262"
+      ],
+      "imdbId": "tt0773262",
+      "name": "Декстер",
+      "type": "series",
+      "year": "2006",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8e90dbad12342fea9eedf34dd699371d6b892e56003e9f693be0577c8866045e.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ff38476048ace71fe920e8b59c189c23d70e5270f25a413dd944d4be7ae43f1d.jpg",
+      "description": "Я — Декстер. Декстер Морган. Я работаю судмедэкспертом в полиции Майами. Я не понимаю любви, мне безразличен секс, и у меня нет чувств. А еще я серийный убийца.\n\nМой отец был полицейским и прекрасно обучил меня прятать улики. Обычным гражданам не стоит меня бояться, я убиваю только преступников,…",
+      "originalName": "Dexter",
+      "aliases": [
+        "Декстер",
+        "Dexter"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "8.6",
+      "runtime": "53 мин",
+      "card": "cards/a7efd5afd9668098aa55bccc2ecdbb221e4ce35941a7231be58c032b0d2a5014.json",
+      "sha256": "a7efd5afd9668098aa55bccc2ecdbb221e4ce35941a7231be58c032b0d2a5014",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1457767",
+      "ids": [
+        "tt1457767"
+      ],
+      "imdbId": "tt1457767",
+      "name": "Заклятие",
+      "type": "movie",
+      "year": "2013",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/57ec370f6d16042c45d1e1909a482df03508b0797409f8a46e1e5e03bda11844.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0a53437a7605331af3a82aa2a6a0a0f7c38adeb1aa4ad55090a37242158b73d9.jpg",
+      "description": "Эд и Лоррейн Уоррены — детективы, которые расследуют паранормальные дела. Однажды к ним обращается семья, страдающая от злого духа. Уоррены, вынужденные сражаться с могущественной демонической сущностью, сталкиваются с самым пугающим случаем в своей жизни.",
+      "originalName": "The Conjuring",
+      "aliases": [
+        "Заклятие",
+        "The Conjuring"
+      ],
+      "genres": [
+        "Ужасы",
+        "Детектив",
+        "Триллер"
+      ],
+      "imdbRating": "7.5",
+      "runtime": "112 мин",
+      "card": "cards/baaf586b93a91d06da525f7076760d3030c5485ce96825d5b31bf0932250b71e.json",
+      "sha256": "baaf586b93a91d06da525f7076760d3030c5485ce96825d5b31bf0932250b71e",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt35538033",
+      "ids": [
+        "tt35538033"
+      ],
+      "imdbId": "tt35538033",
+      "name": "Обитель зла",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/94ee05081474a3e3db8496684693a7155ee7bcc26cb5aea3b1683b4c07ce2505.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0aabcb051c8e6d90de1781a9c57267384f940502cbe1a60a14a6b8fa706c30a9.jpg",
+      "description": "Медицинский курьер закончил смену и уже собирался домой к своей девушке, как вдруг подворачивается ещё один срочный заказ с двойной оплатой. Он везёт посылку в соседний Раккун-Сити и на лесной заснеженной дороге сбивает внезапно выскочившую под колёса женщину. Так начинается самая жуткая ночь в ж…",
+      "originalName": "Resident Evil",
+      "aliases": [
+        "Обитель зла",
+        "Resident Evil"
+      ],
+      "genres": [
+        "Боевик",
+        "Ужасы",
+        "Фантастика"
+      ],
+      "imdbRating": "",
+      "runtime": "94 мин",
+      "card": "cards/fc264c410f18c9f03723f61a08b0e2f6e73b0967ae6feb62418407561d136627.json",
+      "sha256": "fc264c410f18c9f03723f61a08b0e2f6e73b0967ae6feb62418407561d136627",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0077651",
+      "ids": [
+        "tt0077651"
+      ],
+      "imdbId": "tt0077651",
+      "name": "Хэллоуин",
+      "type": "movie",
+      "year": "1978",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ca0e6935e367cb846aad221754cc0ff31151e0eae4f198942aae1481c5a2e289.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6603a43f3270a0f4cda009f9567ecbba04025ab45bf2aca3f81da1cb874dc64b.jpg",
+      "description": "Убийца-психопат Майкл Майерс, будучи ребенком, совершил убийство собственной сестры в Хэллоуин. 15 лет спустя маньяк снова берётся за старое и терроризирует небольшой городок. Он сбежал из психбольницы, чтобы снова убивать в Хэллоуин.",
+      "originalName": "Halloween",
+      "aliases": [
+        "Хэллоуин",
+        "Halloween"
+      ],
+      "genres": [
+        "Ужасы",
+        "Триллер"
+      ],
+      "imdbRating": "7.7",
+      "runtime": "91 мин",
+      "card": "cards/5481a0622b5b429298ced3e1e80f851bb73d972fd258117e52a8c0121d801952.json",
+      "sha256": "5481a0622b5b429298ced3e1e80f851bb73d972fd258117e52a8c0121d801952",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt33043892",
+      "ids": [
+        "tt33043892"
+      ],
+      "imdbId": "tt33043892",
+      "name": "Декстер: Воскрешение",
+      "type": "series",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/df7d66e414c01678f95509e1882bb18ce3b2c7dda7e95ad5fdd589ad0156da07.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6fa26919c7943be9c1fa51174c0e4e708a0d76545f7a5c67b4751acfea8e075e.jpg",
+      "description": "Чудом избежавший смерти Декстер Морган отчаянно хочет сблизиться с сыном Гаррисоном, но боится ему навредить, ведь на мужчину ведет охоту бывший сослуживец. А в городе тем временем появляется опасный враг: миллиардер-психопат, манипулирующий людьми, и его телохранительница. Дорога к семейному сча…",
+      "originalName": "Dexter: Resurrection",
+      "aliases": [
+        "Декстер: Воскрешение",
+        "Dexter: Resurrection"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "9.0",
+      "runtime": "52 мин",
+      "card": "cards/6576a9f0b7fea11f1c0311c77e0cddf6b4c7a67ebb0af048ed410e55abc7bda3.json",
+      "sha256": "6576a9f0b7fea11f1c0311c77e0cddf6b4c7a67ebb0af048ed410e55abc7bda3",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt32261958",
+      "ids": [
+        "tt32261958"
+      ],
+      "imdbId": "tt32261958",
+      "name": "Тайный дневник Верити",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/524548ef93c502945e2da4f017f46b8d90db3d82aa5f93923f5c03640ba4a89a.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f704c8bbf7e95f3d97c4bc178ea4e135bddaff0a88f4aae5daff4f67a75b48c5.jpg",
+      "description": "Нуждающаяся в работе писательница Лоуэн Эшли получает предложение от Джереми Кроуфорда — ей нужно дописать романы его жены. Жена Джереми — автор популярной серии романов Верити Кроуфорд, и из-за загадочного несчастного случая она не может закончить произведения. Работа принимает неожиданный оборо…",
+      "originalName": "Verity",
+      "aliases": [
+        "Тайный дневник Верити",
+        "Verity"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "",
+      "runtime": "117 мин",
+      "card": "cards/8d4fa710a1a5bdf06fa9faf7333e003e39b1e65326af334e628fb8bb219e88e1.json",
+      "sha256": "8d4fa710a1a5bdf06fa9faf7333e003e39b1e65326af334e628fb8bb219e88e1",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2580046",
+      "ids": [
+        "tt2580046"
+      ],
+      "imdbId": "tt2580046",
+      "name": "Леди Баг и Супер-Кот",
+      "type": "series",
+      "year": "2015",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f7deb3e62454baebe55bf10239b84298f4d83fd48c09c84f38a3f1fe0f6f1cce.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d77cf2a888c6a3a1f34102f7d1cbadc2561a5aece58dced8455c85de9e0810d1.jpg",
+      "description": "С виду обычные старшеклассники Эдриан и Маринетт при малейшей угрозе Парижу становятся Леди Баг и Супер-котом. Их миссия — захватить акум (тёмных бабочек), которые превращают людей в суперзлодеев. Когда супергерои объединяются, оба не знают истинной личности другого. Маринетт не знает, что Супер-…",
+      "originalName": "Miraculous: Tales of Ladybug & Cat Noir",
+      "aliases": [
+        "Леди Баг и Супер-Кот",
+        "Miraculous: Tales of Ladybug & Cat Noir"
+      ],
+      "genres": [
+        "Мультфильм",
+        "Боевик",
+        "Приключения"
+      ],
+      "imdbRating": "7.5",
+      "runtime": "24 мин",
+      "card": "cards/20963539cac28987fcd88733d93744c27f0e792598986a5eeda6f882ba237522.json",
+      "sha256": "20963539cac28987fcd88733d93744c27f0e792598986a5eeda6f882ba237522",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt33365126",
       "ids": [
@@ -35,8 +274,8 @@
       ],
       "imdbRating": "6.6",
       "runtime": "107 мин",
-      "card": "cards/c1d80f9be22feb26dfde3c91488bff5984efcf388fbd7500de369ce0a989af0d.json",
-      "sha256": "c1d80f9be22feb26dfde3c91488bff5984efcf388fbd7500de369ce0a989af0d",
+      "card": "cards/125a19fd90255966d5047a7113058bdbb1a76151d60f251442d228888f86ccbb.json",
+      "sha256": "125a19fd90255966d5047a7113058bdbb1a76151d60f251442d228888f86ccbb",
       "localized": true,
       "provider": "github"
     },
@@ -65,8 +304,8 @@
       ],
       "imdbRating": "7.6",
       "runtime": "103 мин",
-      "card": "cards/ab19495d2f3240a3947c4bcb5602efa2f2e596a2aa6b55a05111c9efb418d4af.json",
-      "sha256": "ab19495d2f3240a3947c4bcb5602efa2f2e596a2aa6b55a05111c9efb418d4af",
+      "card": "cards/b4f1288ecac34474d703823e198cf20852cae4262c4a2aec4eacff076c4afa3f.json",
+      "sha256": "b4f1288ecac34474d703823e198cf20852cae4262c4a2aec4eacff076c4afa3f",
       "localized": true,
       "provider": "github"
     },
@@ -95,8 +334,8 @@
       ],
       "imdbRating": "7.2",
       "runtime": "105 мин",
-      "card": "cards/f21125d8b57f19b4ebfa5b0555ef89608bf40fb3f7521db91b06a3334c25fc49.json",
-      "sha256": "f21125d8b57f19b4ebfa5b0555ef89608bf40fb3f7521db91b06a3334c25fc49",
+      "card": "cards/abe9a735aaa7b9764540bfc2d21926e0fa0a5fe87a94951c73659ce0e9c72c77.json",
+      "sha256": "abe9a735aaa7b9764540bfc2d21926e0fa0a5fe87a94951c73659ce0e9c72c77",
       "localized": true,
       "provider": "github"
     },
@@ -125,8 +364,8 @@
       ],
       "imdbRating": "6.6",
       "runtime": "97 мин",
-      "card": "cards/dbb44571c3fba2be9bcebf554c60f55b9bebbe04b668dc0fc6b6d4c316c0ee5d.json",
-      "sha256": "dbb44571c3fba2be9bcebf554c60f55b9bebbe04b668dc0fc6b6d4c316c0ee5d",
+      "card": "cards/a7c208adc1360400ef49e2f814008d2b4ea2092d091d479234f526147a202a6a.json",
+      "sha256": "a7c208adc1360400ef49e2f814008d2b4ea2092d091d479234f526147a202a6a",
       "localized": true,
       "provider": "github"
     },
@@ -155,8 +394,8 @@
       ],
       "imdbRating": "6.0",
       "runtime": "123 мин",
-      "card": "cards/1e47df0b514ebadf80b38d51610dc5196d74238e9df7a40cb0f8950ae987ac7b.json",
-      "sha256": "1e47df0b514ebadf80b38d51610dc5196d74238e9df7a40cb0f8950ae987ac7b",
+      "card": "cards/93e152e7a0d5ce4ece84154eba87b62be272e79ed23601a78b959aac91e9d7a3.json",
+      "sha256": "93e152e7a0d5ce4ece84154eba87b62be272e79ed23601a78b959aac91e9d7a3",
       "localized": true,
       "provider": "github"
     },
@@ -215,8 +454,8 @@
       ],
       "imdbRating": "7.1",
       "runtime": "43 мин",
-      "card": "cards/3fadddc3d73f3d0ba3129cb57db23adac1f8bb63968cb6876462c5b77caf3e79.json",
-      "sha256": "3fadddc3d73f3d0ba3129cb57db23adac1f8bb63968cb6876462c5b77caf3e79",
+      "card": "cards/7f21afa23f84ed4465c138be25a48ac4fda01dd6e4ca3eaddda42573da25f847.json",
+      "sha256": "7f21afa23f84ed4465c138be25a48ac4fda01dd6e4ca3eaddda42573da25f847",
       "localized": true,
       "provider": "github"
     },

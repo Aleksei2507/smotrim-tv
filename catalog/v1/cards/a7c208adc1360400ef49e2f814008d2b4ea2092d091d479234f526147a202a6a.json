@@ -1,0 +1,96 @@
+{
+  "id": "tt31349844",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c8e816a427a1a5644b5bc89ad7d981a1d7f704aa96daf7b0b209bfb87d04ab68.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/591bcf7c56652f19d98977c698d1bafc4ec98746e18854a8f961b9d0f24f54e8.jpg",
+  "genres": [
+    "Боевик",
+    "Комедия",
+    "Триллер"
+  ],
+  "runtime": "97 мин",
+  "imdbRating": "6.6",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "B6Z9MM1LhEA",
+      "type": "Trailer"
+    },
+    {
+      "source": "m8JUmBgHejI",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Курьер",
+  "description": "Брисбен. Хэнк Мэлоун — бывший военный и алкоголик в завязке, ныне работающий частным курьером. Его новый заказ — в кратчайшие сроки доставить в больницу перевозчика органов Бена Бишопа, везущего печень для семилетней девочки, которой требуется срочная пересадка. Вскоре простая задача превращается в гонку на выживание, ведь орган позарез нужен главе колумбийского картеля, и его боевики готовы на всё, чтобы завладеть им.",
+  "aliases": [
+    "Курьер",
+    "Runner"
+  ],
+  "kpId": 7178187,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/7178187/"
+  ],
+  "year": "2026",
+  "imdbId": "tt31349844",
+  "ids": [
+    "tt31349844"
+  ],
+  "originalName": "Runner",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-14T06:56:45Z",
+  "sources": [
+    {
+      "title": "Курьер / Runner (2026) WEB-DL 1080p от селезень | P | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:cc5ce3ec3fb55d4190a9c2acbee9461f4976b722&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 6936372183,
+      "size": "6.46 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Курьер / Runner (2026) WEB-DL 1080p от селезень | P | HDrezka Studio"
+    },
+    {
+      "title": "Курьер / Runner (2026) WEB-DL 1080p | D, Р | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:262c834a3027b3359f4a3cbfdc4536b8df4295a3&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 7075958620,
+      "size": "6.59 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Курьер / Runner (2026) WEB-DL 1080p | D, Р | HDrezka Studio"
+    },
+    {
+      "title": "Курьер / Runner (2026) WEB-DL 720p от New-Team | P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:b0744388442aede327d21ec10393cf12bfbbee3c&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 3242700308,
+      "size": "3.02 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Курьер / Runner (2026) WEB-DL 720p от New-Team | P | HDRezka Studio"
+    },
+    {
+      "title": "Курьер / Runner (2026) WEB-DL 720p | D, Р | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:8f1e66b05a897d265702455c9d8026fe96a7f08a&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 3382286745,
+      "size": "3.15 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Курьер / Runner (2026) WEB-DL 720p | D, Р | HDrezka Studio"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-13T07:09:58Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt31349844/img",
+    "background": "https://images.metahub.space/background/medium/tt31349844/img"
+  }
+}
