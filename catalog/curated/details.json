@@ -1602,6 +1602,15 @@
         "description": "",
         "released": "2026-11-08",
         "source": "https://www.tvmaze.com/episodes/3794359/titany-5x09-vypusk-9"
+      },
+      {
+        "id": "tt32370407:5:10",
+        "season": 5,
+        "episode": 10,
+        "title": "Выпуск 10",
+        "description": "",
+        "released": "2026-11-15",
+        "source": "https://api.tvmaze.com/shows/76612/episodes"
       }
     ]
   },

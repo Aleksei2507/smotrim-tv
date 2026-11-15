@@ -1,0 +1,218 @@
+{
+  "id": "tt23112594",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/068380022dfcbc3f1a93450bd5880eb421ed9dff9273296cca81e6fe69f59b20.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f6b825d8cb64fdedb8e7b0b41b2d617c6c71e44761109f7592d5eea9200acb76.jpg",
+  "genres": [
+    "Боевик"
+  ],
+  "runtime": "54 мин",
+  "imdbRating": "7.8",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "sXKnmgmbkoE",
+      "type": "Trailer"
+    },
+    {
+      "source": "pM9HZ8Ovjdw",
+      "type": "Trailer"
+    },
+    {
+      "source": "oSVTAUKyrL8",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Квест Вижна",
+  "description": "Андроид Вижн возвращается к жизни и восстанавливает память, однако его личность претерпевает изменения, а воспоминания теряют былую значимость. Пока на него ведётся охота, Вижн стремится понять, кем он является, и пытается вернуть свою человечность, общаясь с другими видами и проявлениями искусственного интеллекта. Одним из спутников андроида становится Альтрон — его предшественник и создатель, который остаётся серьёзной угрозой для человечества даже после поражения.",
+  "aliases": [
+    "Квест Вижна",
+    "VisionQuest"
+  ],
+  "kpId": 5158783,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt23112594.json",
+    "https://www.kinopoisk.ru/film/5158783/"
+  ],
+  "year": "2026",
+  "imdbId": "tt23112594",
+  "ids": [
+    "tt23112594"
+  ],
+  "originalName": "VisionQuest",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-15T15:38:33Z",
+  "videos": [
+    {
+      "id": "tt23112594:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-10-14"
+    },
+    {
+      "id": "tt23112594:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-10-14"
+    },
+    {
+      "id": "tt23112594:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-10-21"
+    },
+    {
+      "id": "tt23112594:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-10-28"
+    },
+    {
+      "id": "tt23112594:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-11-04"
+    },
+    {
+      "id": "tt23112594:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-11-11"
+    },
+    {
+      "id": "tt23112594:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-11-18"
+    },
+    {
+      "id": "tt23112594:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-11-25"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Квест Вижна / Квест Вижена / VisionQuest [01x01-02 из 08] (2026) WEB-DL 1080p от Scarabey | D | Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:5569ec32f618cfe8b55e04b9ab6719cdab576190&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 4660039516,
+      "size": "4.34 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Квест Вижна / Квест Вижена / VisionQuest [01x01-02 из 08] (2026) WEB-DL 1080p от Scarabey | D | Red Head Sound"
+    },
+    {
+      "title": "Квест Вижна (Вижн в поиске себя) (1 сезон: 1-2 серии из 8) / VisionQuest / 2026 / ДБ (HDrezka Studio), ПМ (HDrezka Studio), СТ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:9AE06727D83D3E64B280744F5F495076E120E01E",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 4466765987,
+      "size": "4.16 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Квест Вижна (Вижн в поиске себя) (1 сезон: 1-2 серии из 8) / VisionQuest / 2026 / ДБ (HDrezka Studio), ПМ (HDrezka Studio), СТ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Квест Вижна (Вижн в поиске себя) (1 сезон: 1-2 серии из 8) / VisionQuest / 2026 / ДБ (Red Head Sound), СТ / 4K, HEVC, HDR10+ / WEB-DL (2160p)",
+      "magnet": "magnet:?xt=urn:btih:C0A35A39E59FF40914552122BB47FD38F5E930F7",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 9964324126,
+      "size": "9.28 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Квест Вижна (Вижн в поиске себя) (1 сезон: 1-2 серии из 8) / VisionQuest / 2026 / ДБ (Red Head Sound), СТ / 4K, HEVC, HDR10+ / WEB-DL (2160p)"
+    },
+    {
+      "title": "Квест Вижна (Вижн в поиске себя) (1 сезон: 1-7 серии из 8) / VisionQuest / 2026 / ДБ (Red Head Sound), СТ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:78EF68D7AC1440FD3F99E62AC72BD329FB6AC2C2",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 15429670010,
+      "size": "14.37 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Квест Вижна (Вижн в поиске себя) (1 сезон: 1-7 серии из 8) / VisionQuest / 2026 / ДБ (Red Head Sound), СТ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Квест Вижна / VisionQuest / Сезон: 1 / Серии: 1-8 из 8 (Терри Маталас, Винченцо Натали) [2026, США, Фантастика, боевик, драма, приключения, WEB-DL 1080p] 4 x MVO + 2 x Dub + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:0C309339023D410FE9D34E65C18955E388535166&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 24481313587,
+      "size": "22.80 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Квест Вижна / VisionQuest / Сезон: 1 / Серии: 1-8 из 8 (Терри Маталас, Винченцо Натали) [2026, США, Фантастика, боевик, драма, приключения, WEB-DL 1080p] 4 x MVO + 2 x Dub + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Квест Вижна / VisionQuest / Сезон: 1 / Серии: 1-8 из 8 (Терри Маталас, Винченцо Натали) [2026, США, Фантастика, боевик, драма, приключения, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 4 x MVO + 2 x Dub + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:3D464DB721FA83492B429C33599BDCDA5444BCA8&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%D0%9A%D0%B2%D0%B5%D1%81%D1%82%20%D0%92%D0%B8%D0%B6%D0%BD%D0%B0%20%2F%20VisionQuest%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%201%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-8%20%D0%B8%D0%B7%208%20(%D0%A2%D0%B5%D1%80%D1%80%D0%B8%20%D0%9C%D0%B0%D1%82%D0%B0%D0%BB%D0%B0%D1%81%2C%20%D0%92%D0%B8%D0%BD%D1%87%D0%B5%D0%BD%D1%86%D0%BE%20%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D0%B8)%20%5B2026%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%A4%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D0%B1%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA%2C%20%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%2C%20%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%2C%20HDR10%2B%2C%20Do",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 47040629309,
+      "size": "43.81 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Квест Вижна / VisionQuest / Сезон: 1 / Серии: 1-8 из 8 (Терри Маталас, Винченцо Натали) [2026, США, Фантастика, боевик, драма, приключения, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 4 x MVO + 2 x Dub + Original + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-15T15:38:33Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt23112594/img",
+    "background": "https://images.metahub.space/background/medium/tt23112594/img"
+  }
+}
