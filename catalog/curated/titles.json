@@ -9,6 +9,41 @@
   ],
   "items": [
     {
+      "id": "tt34771210",
+      "name": "Я найду тебя",
+      "type": "series",
+      "origin": "other",
+      "year": "2026",
+      "sourceYearMin": 2026,
+      "defaultSeason": 1,
+      "searchName": "I Will Find You",
+      "aliases": [
+        "I Will Find You",
+        "Я тебя найду",
+        "Я тебя отыщу",
+        "Я тебя отышу",
+        "Harlan Coben's I Will Find You"
+      ],
+      "description": "Дэвид Бэрроуз отбывает пожизненное заключение за убийство сына, которого, как он уверен, не совершал. Однажды он узнаёт, что ребёнок может быть жив, и решается на побег, чтобы найти его и восстановить правду.",
+      "cast": [
+        "Sam Worthington",
+        "Britt Lower",
+        "Milo Ventimiglia",
+        "Logan Browning",
+        "Chi McBride",
+        "Erin Richards",
+        "Madeleine Stowe",
+        "Hugh Thompson",
+        "Peter Outerbridge",
+        "Jonathan Tucker"
+      ],
+      "metadataSources": [
+        "https://www.netflix.com/title/81509368",
+        "https://www.imdb.com/title/tt34771210/",
+        "https://api.tvmaze.com/shows/81110"
+      ]
+    },
+    {
       "id": "tt33764258",
       "name": "Одиссея",
       "type": "movie",
