@@ -10,6 +10,9 @@ import androidx.media3.exoplayer.source.*;
 import androidx.media3.datasource.DefaultDataSource;
 import android.net.Uri;
 import android.os.SystemClock;
+import android.view.View;
+import android.widget.FrameLayout;
+import androidx.media3.ui.PlayerView;
 import org.json.JSONObject;
 import java.io.*;
 import java.lang.reflect.*;
@@ -32,6 +35,16 @@ public class MainPlaybackControlsTest {
                 p.addListener(new Player.Listener(){public void onPlaybackStateChanged(int state){if(state==Player.STATE_READY)ready.countDown();}});
             }catch(Exception e){throw new AssertionError(e);}});
             assertTrue("Local clip prepared",ready.await(15,TimeUnit.SECONDS));
+            scenario.onActivity(a->{
+                ExoPlayer p=(ExoPlayer)field(a,"player");p.seekTo(5000);p.pause();
+                Object generation=field(a,"playbackGeneration");PlayerView video=(PlayerView)field(a,"video");FrameLayout root=(FrameLayout)field(a,"root");
+                call(a,"commandPlayer",String.class,"video:mini");
+                assertSame("Mini mode retains the decoder and buffer",p,field(a,"player"));assertEquals(generation,field(a,"playbackGeneration"));
+                assertEquals(root.getWidth()/4,video.getLayoutParams().width,1);assertEquals(5000,p.getCurrentPosition());assertFalse(p.getPlayWhenReady());
+                call(a,"commandPlayer",String.class,"video:hidden");assertEquals(View.INVISIBLE,video.getVisibility());assertSame(p,field(a,"player"));
+                call(a,"commandPlayer",String.class,"video:mini");assertEquals(View.VISIBLE,video.getVisibility());
+                call(a,"commandPlayer",String.class,"video:full");assertEquals(-1,video.getLayoutParams().width);assertEquals(5000,p.getCurrentPosition());
+            });
             scenario.onActivity(a->{ExoPlayer p=(ExoPlayer)field(a,"player");call(a,"commandPlayer",String.class,"seek:999999999");assertTrue(p.getCurrentPosition()<p.getDuration());call(a,"commandPlayer",String.class,"sleep:30");assertTrue(((SleepTimer)field(a,"sleepTimer")).remaining(SystemClock.elapsedRealtime())>0);call(a,"commandPlayer",String.class,"sleep:0");assertEquals(0,((SleepTimer)field(a,"sleepTimer")).remaining(SystemClock.elapsedRealtime()));
                 ((SleepTimer)field(a,"sleepTimer")).set(30,SystemClock.elapsedRealtime()-1800001);((Runnable)field(a,"ticker")).run();assertNull(field(a,"player"));assertNull(field(a,"now"));});
         }finally{clip.delete();}

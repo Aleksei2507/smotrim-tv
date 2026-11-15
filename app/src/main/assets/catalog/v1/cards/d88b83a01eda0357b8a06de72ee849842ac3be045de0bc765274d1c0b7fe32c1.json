@@ -1,0 +1,54 @@
+{
+  "id": "tt23736870",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f7445a31b657a29dcc496eaaca0d25d6e8d76db84674b13b78e666e36961e02c.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e7e1e46e8421bd1eed4e208ddfa924a96db83d96925392a403be9051022e958e.jpg",
+  "genres": [
+    "Драма",
+    "Семейный"
+  ],
+  "runtime": "127 мин",
+  "imdbRating": "6.0",
+  "releaseInfo": "2025",
+  "trailers": [],
+  "name": "Пальма 2",
+  "description": "предстоящий фильм Александра Домогарова-младшего",
+  "origin": "ru",
+  "aliases": [
+    "Пальма 2",
+    "A Dog Named Palma 2",
+    "Palma 2"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt23736870.json",
+    "https://www.wikidata.org/wiki/Q115300146"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt23736870",
+  "ids": [
+    "tt23736870"
+  ],
+  "originalName": "A Dog Named Palma 2",
+  "year": "2025",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-20T05:12:34Z",
+  "sources": [
+    {
+      "title": "Пальма 2 (Владимир Кондауров) [2025, Россия, драма, семейный, WEB-DL 1080p] Original Rus + Sub Rus",
+      "magnet": "magnet:?xt=urn:btih:D7E48DE563ECDB99FE13649F08573EADF5CA4F79&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 5100273664,
+      "size": "4.75 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Пальма 2 (Владимир Кондауров) [2025, Россия, драма, семейный, WEB-DL 1080p] Original Rus + Sub Rus"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-20T05:11:43Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt23736870/img",
+    "background": "https://live.metahub.space/background/medium/tt23736870/img"
+  }
+}

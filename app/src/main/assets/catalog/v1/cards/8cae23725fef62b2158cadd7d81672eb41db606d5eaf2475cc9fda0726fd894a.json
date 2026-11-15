@@ -1,0 +1,59 @@
+{
+  "id": "tt6933238",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5613dc39be59abb8365d031fb256076e7f03e86098f3ca9af775661d17312cc0.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a735c0fc63f22cd443da6e70c10bfcb0bf35c607ed514244782542a194d025dd.jpg",
+  "genres": [
+    "Биография",
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "101 мин",
+  "imdbRating": "6.2",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "B3tR6qQjbgI",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Унабомбер",
+  "description": "1995 год. ФБР больше 15 лет тщетно пытается поймать террориста по прозвищу Унабомбер, который рассылает по почте взрывные устройства, из-за чего погибли 3 человека и десятки получили ранения. Агент Джоэнн Миллер пытается найти зацепки и вычислить преступника, исследуя опубликованный в прессе манифест Унабомбера. Однажды она получает наводку от коллег из другого штата, которая может привести к подозреваемому.",
+  "origin": "other",
+  "aliases": [
+    "Унабомбер",
+    "Unabomber"
+  ],
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/1045479/"
+  ],
+  "imdbId": "tt6933238",
+  "ids": [
+    "tt6933238"
+  ],
+  "originalName": "Unabomber",
+  "year": "2026",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-24T04:58:00Z",
+  "sources": [
+    {
+      "title": "Унабомбер / Unabomber (2026) WEB-DL 1080p от EniaHD | D, P | Movie Dubbing, HDrezka Studio, TVShows",
+      "magnet": "magnet:?xt=urn:btih:1600babec96f63c09299c0e5b13ae9753a8eca4b&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 6055903887,
+      "size": "5.64 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Унабомбер / Unabomber (2026) WEB-DL 1080p от EniaHD | D, P | Movie Dubbing, HDrezka Studio, TVShows"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:34:15Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt6933238/img",
+    "background": "https://images.metahub.space/background/medium/tt6933238/img"
+  },
+  "kpId": 1045479,
+  "metadataProvider": "kinopoisk"
+}

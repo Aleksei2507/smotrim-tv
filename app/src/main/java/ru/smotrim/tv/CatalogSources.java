@@ -32,6 +32,26 @@ public final class CatalogSources {
     }
     private static boolean russian(String text){return text.matches(".*[А-Яа-яЁё].*");}
     private static void addTitle(Map<String,String> titles,String value){String s=value.trim();if(!s.isEmpty()&&s.length()<=200)titles.putIfAbsent(s.toLowerCase(Locale.ROOT).replace('ё','е').replaceAll("[^\\p{L}\\p{N}]",""),s);}
+    static boolean matchesTitle(JSONObject source,JSONObject args,boolean episode){
+        // An explicit tracker query remains free-form. A catalogue card has a known identity.
+        if(args.optString("id").isEmpty()||args.optBoolean("searchQuery"))return true;
+        String release=java.text.Normalizer.normalize(source.optString("title"),java.text.Normalizer.Form.NFKC).toLowerCase(Locale.ROOT).replace('ё','е');
+        LinkedHashMap<String,String> names=new LinkedHashMap<>();addTitle(names,broadTitle(args.optString("name")));
+        JSONArray aliases=args.optJSONArray("aliases");if(aliases!=null)for(int i=0;i<aliases.length()&&i<20;i++)addTitle(names,broadTitle(aliases.optString(i)));
+        boolean match=false;
+        for(String name:names.values()){
+            String[] words=name.toLowerCase(Locale.ROOT).replace('ё','е').split("\\s+");
+            StringJoiner pattern=new StringJoiner("[\\s._:!?,'’–—-]+");for(String word:words)pattern.add(java.util.regex.Pattern.quote(word));
+            String boundary="(?=\\s*(?:/|\\(|\\[|\\|)|[\\s._]+(?:19|20)\\d{2}\\b|[\\s._]+(?:s\\d|season|сезон|\\d{1,3}[xх]\\d|\\d{1,3}\\s*сезон)|\\s*$)";
+            if(java.util.regex.Pattern.compile("^[\\s\\p{P}]*"+pattern+boundary,java.util.regex.Pattern.UNICODE_CASE|java.util.regex.Pattern.CASE_INSENSITIVE).matcher(release).find()){match=true;break;}
+        }
+        if(!match)return false;
+        java.util.regex.Matcher firstYear=java.util.regex.Pattern.compile("(?<!\\d)((?:19|20)\\d{2})(?!\\d)").matcher(release);
+        int minimum=args.optInt("sourceYearMin");
+        if(episode&&minimum>0&&(!firstYear.find()||Integer.parseInt(firstYear.group(1))<minimum))return false;
+        String year=args.optString("year");
+        return episode||!year.matches("\\d{4}")||java.util.regex.Pattern.compile("(?<!\\d)"+year+"(?!\\d)").matcher(release).find();
+    }
     interface Searcher { JSONObject search(String name,String imdb,String year)throws Exception; }
     public static JSONObject search(JSONObject args,boolean episode)throws Exception{return search(args,episode,Sources::torrents);}
     static JSONObject search(JSONObject args,boolean episode,Searcher searcher)throws Exception{
@@ -40,6 +60,7 @@ public final class CatalogSources {
         ExecutorService pool=Executors.newFixedThreadPool(queries.size());JSONArray items=new JSONArray(),warnings=new JSONArray();Set<String> hashes=new HashSet<>(),messages=new LinkedHashSet<>();
         int successful=0,failed=0;
         try{for(Future<JSONObject> future:pool.invokeAll(jobs,32,TimeUnit.SECONDS))try{JSONObject response=future.get();successful+=response.optInt("successfulProviders");failed+=response.optInt("failedProviders");JSONArray rows=response.getJSONArray("items");for(int i=0;i<rows.length();i++){JSONObject r=rows.getJSONObject(i);String hash=r.optString("magnet").replaceFirst("(?i).*btih:([a-f0-9]{40}).*","$1").toLowerCase(Locale.ROOT);if(hashes.add(hash))items.put(r);}JSONArray w=response.optJSONArray("warnings");if(w!=null)for(int i=0;i<w.length();i++)messages.add(w.optString(i));}catch(Exception e){failed++;messages.add("Часть источников не ответила. Можно повторить поиск.");}}finally{pool.shutdownNow();}
-        for(String warning:messages)warnings.put(warning);return new JSONObject().put("items",items).put("warnings",warnings).put("successfulProviders",successful).put("failedProviders",failed);
+        JSONArray matched=new JSONArray();for(int i=0;i<items.length();i++){JSONObject row=items.getJSONObject(i);if(matchesTitle(row,args,episode))matched.put(row);}
+        for(String warning:messages)warnings.put(warning);return new JSONObject().put("items",matched).put("warnings",warnings).put("successfulProviders",successful).put("failedProviders",failed);
     }
 }

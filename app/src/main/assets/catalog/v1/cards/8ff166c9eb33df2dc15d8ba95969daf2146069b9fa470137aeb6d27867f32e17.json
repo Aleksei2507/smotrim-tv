@@ -1,0 +1,59 @@
+{
+  "id": "tt36271247",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/43bb9206b1672fb142efd97aa405669c1c3978068de762a649220834c5413647.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ff56c45e2a35b2ac7aa1eca617a79f78d7350a937ec6dbeba9c4d89b69b29773.jpg",
+  "genres": [
+    "Биография",
+    "Криминал",
+    "Драма"
+  ],
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "p0izMCPGdGE",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Чистые руки",
+  "origin": "other",
+  "year": "2026",
+  "aliases": [
+    "Чистые руки",
+    "Clean Hands",
+    "Чистыми руками"
+  ],
+  "description": "Полицейский Кевин Симмерс пытается спасти дочь Брук от зависимости. Личная трагедия заставляет его пересмотреть привычные методы борьбы с наркотиками и заняться помощью людям, которые хотят вернуться к нормальной жизни. Основано на реальных событиях.",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt36271247.json",
+    "https://www.imdb.com/title/tt36271247/",
+    "https://nnmclub.to/forum/viewtopic.php?t=1895727"
+  ],
+  "imdbId": "tt36271247",
+  "ids": [
+    "tt36271247",
+    "kp:9909686"
+  ],
+  "originalName": "Clean Hands",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T08:14:22Z",
+  "sources": [
+    {
+      "title": "Чистые руки / Clean Hands (2026) WEB-DL [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:48B5D132CE4BD91967088ED024E171A538EB300B",
+      "quality": "1080p",
+      "source": "NNM-Club",
+      "size": "7.53 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · MUZOBOZ (по описанию раздачи)",
+      "languageEvidence": "Чистые руки / Clean Hands (2026) WEB-DL [H.264/1080p] [MVO] · Многоголосый любительский (MUZOBOZ); язык озвучки: Русский, Английский"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T08:14:07Z",
+  "runtime": "108 мин",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt36271247/img",
+    "background": "https://images.metahub.space/background/medium/tt36271247/img"
+  }
+}

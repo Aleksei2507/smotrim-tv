@@ -3,6 +3,24 @@ html,body{width:100%;height:100%;overflow:hidden;background:#11151b;font-family:
 .home-copy{top:140px}.home-copy h1{font-size:66px;margin:18px 0;line-height:1.05;max-height:145px}.home-copy .synopsis{margin:18px 0 25px;-webkit-line-clamp:2;font-size:calc(26px * var(--text-scale,1))}.home-copy .subtext{margin:18px 0}.home-bottom{top:685px}
 
 html.playing{background:transparent}
+.video-sheet{width:1400px;max-height:950px;display:flex;flex-direction:column;gap:18px}
+.video-sheet h2,.video-sheet p{margin:0}
+.video-current{font-size:22px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0}
+.video-sheet .actions,.video-sheet>button{flex-shrink:0}
+#video-source-options{min-height:180px;max-height:510px;overflow-y:auto;padding:12px;scrollbar-width:none}
+.video-sheet .source-row{width:100%;text-align:left;justify-content:flex-start}
+.video-sheet .source-description{flex:1;overflow:hidden}
+.video-sheet .source-description strong,.video-sheet .source-description small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.video-sheet .source-row[aria-current]{border:2px solid var(--focus)}
+.video-sheet .source-row.focused small{color:#34404d}
+.video-sheet .source-row.focused .res{background:#0001;color:inherit}
+.mini-player{position:absolute;right:48px;bottom:50px;width:480px;z-index:15;background:#101822;border-radius:14px;box-shadow:0 8px 35px #0009;overflow:visible}
+.mini-viewport{height:270px;background:#000;border-radius:14px 14px 0 0}
+.mini-toolbar{display:flex;height:64px}
+#tv .mini-toolbar .button{height:64px;padding:0 16px;border-radius:0;font-size:22px;gap:12px}
+.mini-expand{flex:1;min-width:0}
+.mini-expand span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+.mini-stop{width:64px;flex-shrink:0;font-size:36px!important}
 
 .section-heading{display:flex;align-items:center;gap:22px;min-height:74px}.section-heading .page-title{margin:0;margin-right:auto;flex-shrink:0}.section-search{min-width:390px;max-width:720px;height:70px;font-size:calc(26px * var(--text-scale,1));justify-content:flex-start;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.search-modes{margin:0;display:flex;gap:16px}.search-page .search-query{margin:22px 0}.search-page .key{height:57px}.search-page .search-layout{grid-template-columns:570px 1fr;gap:58px}.search-page .small-label{line-height:1.4}.channel-search-results{display:flex;flex-direction:column;gap:13px}.channel-search-results .channel-result{height:66px;width:100%;margin:0;justify-content:flex-start;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:calc(25px * var(--text-scale,1))}.search-result-actions{display:flex;gap:18px}.search-result-actions .button{font-size:calc(23px * var(--text-scale,1));padding:0 22px}.search-page .results .poster{height:148px}
 
@@ -196,3 +214,61 @@ body[data-text-size=largest] .result-cover{width:100px}body[data-text-size=large
 .main.catalog .movie-meta{display:block;flex:none;white-space:nowrap;text-overflow:ellipsis;line-height:1.25;min-height:1.25em}
 .main.catalog .movie-grid>.empty{grid-column:1/-1;grid-row:1/-1;align-self:start}
 .main.catalog .catalog-notice{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* Player controls stay in fixed groups so a TV remote follows their visual order. */
+#player .player-top{top:42px;align-items:center;gap:40px}
+#player .player-title{min-width:0;flex:1;font-size:30px;font-weight:600;line-height:1.25}
+.player-top-actions{display:flex;align-items:center;gap:20px;flex-shrink:0}
+.player-top-actions>[data-wall-clock]{min-width:90px;margin-left:16px;text-align:right;font-size:25px;font-variant-numeric:tabular-nums}
+#tv .player-icon{width:80px;height:80px;padding:0;display:flex;align-items:center;justify-content:center;flex-shrink:0;border-radius:50%;background:rgba(12,20,28,.58);border:1px solid #ffffff26;color:#f5f7fa}
+#tv .player-icon svg{width:34px;height:34px;stroke-width:1.65}
+#tv .player-icon.focused{color:#14202b;background:var(--focus);border-color:transparent}
+#tv .player-icon:after{content:attr(aria-label);position:absolute;bottom:calc(100% + 20px);left:50%;transform:translateX(-50%);padding:8px 15px;border-radius:8px;background:#111a24e8;color:#edf3f8;font-size:22px;line-height:1.3;white-space:nowrap;opacity:0;pointer-events:none}
+#tv .player-icon.focused:after{opacity:1}
+#player .player-top-actions .player-icon{width:68px;height:68px;background:#101a2459}
+#player .player-top-actions .player-icon.focused{background:var(--focus)}
+#player .player-top-actions .player-icon:after{top:calc(100% + 20px);bottom:auto}
+.player-transport{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;gap:40px;z-index:3}
+#tv .player-transport .player-icon{width:100px;height:100px}
+#tv .player-transport .player-icon svg{width:44px;height:44px}
+#tv .player-transport .transport-main{width:120px;height:120px;background:#13212ac9;border-color:#ffffff59}
+#tv .player-transport .transport-main.focused{background:var(--focus)}
+#tv .player-transport .transport-main svg{width:46px;height:46px;stroke-width:2.1}
+#tv .player-transport .player-icon:after{top:calc(100% + 24px);bottom:auto}
+#player .player-bottom{left:64px;right:64px;bottom:48px}
+#player .timecodes{margin:0 0 26px;font-size:23px;font-variant-numeric:tabular-nums}
+.player-edge-tools,.player-audio-tools,.player-video-tools{display:flex;align-items:center;gap:20px}
+.player-edge-tools{justify-content:space-between}
+#player .player-status{top:31%;background:#111b26d9;min-width:0;max-width:1000px;padding:22px 32px}
+#player .player-shade{background:linear-gradient(0deg,#071019eb,transparent 43%,transparent 70%,#0710199c)}
+.player-live{display:flex;align-items:center;gap:12px;margin-bottom:24px;font-size:24px;color:#e2eaf1}
+.player-live i{width:8px;height:8px;background:#e96363;border-radius:50%}
+.player-hidden .player-transport{display:none}
+#player .player-audio-tools .player-icon:after{left:0;transform:none}
+#player .player-video-tools .player-icon:after{left:auto;right:0;transform:none}
+/* Search starts with one decision; typing keys and scope choices open on demand. */
+.search-calm .search-canvas{max-width:1320px}
+.search-calm .page-title{margin:0}
+.search-field-label{font-size:calc(25px * var(--text-scale,1));line-height:1.3;color:var(--muted);margin:32px 0 12px}
+.search-calm .search-input-row{margin:0;gap:18px}
+.search-calm .search-query{height:86px;margin:0;padding:0 25px!important;font-size:calc(30px * var(--text-scale,1))}
+.search-calm .search-clear{height:86px;padding:0 26px;background:#ffffff0a}
+.search-calm .cursor-button{height:86px;width:86px}
+.search-primary-tools{display:flex;gap:18px;align-items:center;margin-top:22px}
+.search-primary-tools .button{height:68px;font-size:calc(25px * var(--text-scale,1))}
+.search-primary-tools .primary{min-width:180px}
+.search-calm .search-secondary{background:transparent;color:var(--muted);border:1px solid #ffffff20}
+.search-calm .search-filter{margin-left:auto}
+.search-filter span{margin-left:8px}
+.search-entry-hint{font-size:calc(23px * var(--text-scale,1));line-height:1.4;color:var(--muted);margin:32px 0 0;max-width:55ch}
+.search-keyboard-panel{width:650px;max-width:100%;margin-top:26px}
+.search-keyboard-panel .keyboard{width:100%;gap:10px}
+.search-keyboard-panel .key{height:50px}
+.search-keyboard-tools{display:flex;gap:14px;margin-top:16px}
+.search-keyboard-tools .cursor-button{height:62px;width:76px}
+.search-keyboard-tools .button{height:62px;font-size:calc(23px * var(--text-scale,1))}
+
+/* The intro action stays available while the other controls are hidden. */
+#tv .intro-skip{position:absolute;right:64px;bottom:244px;z-index:6;display:flex;align-items:center;gap:18px;max-width:760px;min-height:80px;padding:20px 28px;background:#111b26ed;border:1px solid #ffffff4d;color:#f5f7fa;font-size:calc(27px * var(--text-scale,1));font-weight:600;box-shadow:0 8px 30px #0004}
+#tv .intro-skip.quiet{bottom:80px}
+#tv .intro-skip.focused{background:var(--focus);color:#14202b;border-color:transparent}
+#tv .intro-skip svg{width:30px;height:30px}

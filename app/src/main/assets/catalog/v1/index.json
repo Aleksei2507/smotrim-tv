@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1792389522,
-  "updatedAt": "2026-10-19T05:58:42Z",
+  "revision": 1793430340,
+  "updatedAt": "2026-10-31T07:05:40Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,1557 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt1160419",
+      "ids": [
+        "tt1160419"
+      ],
+      "imdbId": "tt1160419",
+      "name": "Дюна",
+      "type": "movie",
+      "year": "2021",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/439753073ed976f013572095c1ee351f74a469a04d6cad28b6220ceac0fac6ba.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3ae09bc11375cb66f6a07f4ca97b00b077dbc251f1c00c94a2412713bfd2582e.jpg",
+      "description": "Наследник дома Атрейдесов Пол прибывает на пустынную планету Арракис. Борьба за власть и добычу пряности заставляет его отправиться к фрименам и принять свою судьбу.",
+      "originalName": "Dune",
+      "aliases": [
+        "Дюна",
+        "Dune"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "155 мин",
+      "card": "cards/04a6272b52bd4387055fb07c95a39dab9bcf9f203a0c99d3b999eaa6532a5d97.json",
+      "sha256": "04a6272b52bd4387055fb07c95a39dab9bcf9f203a0c99d3b999eaa6532a5d97",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt15239678",
+      "ids": [
+        "tt15239678"
+      ],
+      "imdbId": "tt15239678",
+      "name": "Дюна: Часть вторая",
+      "type": "movie",
+      "year": "2024",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c89d0600dae59f9404e1a9be4b67807494faf144ae0c491d00373042a60114ea.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3b01e55ea929e1baebbd5f66abf9565d5c49bc3e38e18b6a4da54c2c9a30e6e4.jpg",
+      "description": "Пол Атрейдес присоединяется к фрименам Арракиса. Вместе с Чани он готовится противостоять Харконненам, пытаясь изменить будущее, в котором его победа может привести к большой войне.",
+      "originalName": "Dune: Part Two",
+      "aliases": [
+        "Дюна: Часть вторая",
+        "Dune: Part Two",
+        "Дюна Часть вторая",
+        "Дюна 2"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "167 мин",
+      "card": "cards/374c0e5d09945ad3ad127af23cc46e02a3ede94c6352c3f6e065d5c490f1ce05.json",
+      "sha256": "374c0e5d09945ad3ad127af23cc46e02a3ede94c6352c3f6e065d5c490f1ce05",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt31520694",
+      "ids": [
+        "tt31520694",
+        "kp:5189047"
+      ],
+      "imdbId": "tt31520694",
+      "name": "Адский шеф",
+      "type": "series",
+      "kind": "show",
+      "year": "2022",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c582e951d683c8073776a9f5001d8ffa2e708b6b41c787765123065eb341739f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c582e951d683c8073776a9f5001d8ffa2e708b6b41c787765123065eb341739f.jpg",
+      "description": "Константин Ивлев проверяет мастерство поваров в кулинарных испытаниях. Участникам предстоит справляться с необычными условиями, работать в команде и бороться за победу.",
+      "originalName": "Адский шеф",
+      "aliases": [
+        "Адский шеф",
+        "Адский Шеф",
+        "Hell's Chef"
+      ],
+      "genres": [
+        "Реалити-шоу",
+        "Телеигра"
+      ],
+      "card": "cards/73ffd9e821deb947fa22dd2b43afa7ceddb2d2b8ee318f3497f4db4bbb385bff.json",
+      "sha256": "73ffd9e821deb947fa22dd2b43afa7ceddb2d2b8ee318f3497f4db4bbb385bff",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt32370407",
+      "ids": [
+        "tt32370407",
+        "kp:5582628"
+      ],
+      "imdbId": "tt32370407",
+      "name": "Титаны",
+      "type": "series",
+      "kind": "show",
+      "year": "2024",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/35e0ba0c59d52e97c110e05044a829b6f1d4a8de43244695dbe1ec13a7316735.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/35e0ba0c59d52e97c110e05044a829b6f1d4a8de43244695dbe1ec13a7316735.jpg",
+      "description": "Спортсмены и другие участники проверяют силу, ловкость и выносливость в масштабных испытаниях. Приз победителю — 10 миллионов рублей. Четвёртый сезон — «Битва сезонов», в которой соревнуются участники прошлых лет.",
+      "originalName": "Титаны",
+      "aliases": [
+        "Титаны",
+        "Титаны. Битва сезонов",
+        "Титаны Битва сезонов",
+        "Titany"
+      ],
+      "genres": [
+        "Реалити-шоу",
+        "Телеигра"
+      ],
+      "card": "cards/b741b2e2caf8fcc77331521fda896d887f23869ae45a3182d3e9ae8a5ae9e46a.json",
+      "sha256": "b741b2e2caf8fcc77331521fda896d887f23869ae45a3182d3e9ae8a5ae9e46a",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt33764258",
+      "ids": [
+        "tt33764258"
+      ],
+      "imdbId": "tt33764258",
+      "name": "Одиссея",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/dc4cffa9fd3e2dde0585499997a96b1f5fb666cd52615510d615642c9bf87ebe.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b1a8215d2764d7b4f45c2d48c89c3f7dfd8bb8ab05cf08669e922f22e8d69594.jpg",
+      "description": "После Троянской войны Одиссей пытается вернуться домой на Итаку, где его ждут жена Пенелопа и сын Телемах. Путь превращается в опасное путешествие: герою предстоит столкнуться с мифическими существами, волей богов и испытаниями собственной решимости. Экранизация поэмы Гомера от Кристофера Нолана.…",
+      "originalName": "The Odyssey",
+      "aliases": [
+        "Одиссея",
+        "The Odyssey",
+        "Одессея",
+        "Одессейя"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фэнтези"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "173 мин",
+      "card": "cards/22b0e83a3297ab05b4c8fd127c7ee960e658741085008c12207f59e5ac833a78.json",
+      "sha256": "22b0e83a3297ab05b4c8fd127c7ee960e658741085008c12207f59e5ac833a78",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt4131188",
+      "ids": [
+        "tt4131188"
+      ],
+      "imdbId": "tt4131188",
+      "name": "Испытание",
+      "type": "movie",
+      "year": "2014",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8204722b408b95cc11fa176aaea0cc11c695b04af1981497fbf3c77f3d11a7eb.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5f560b18ae6db2f269355e39cd84677e3411e4eeac993b46b116e9ff342883cc.jpg",
+      "description": "Они живут в степи. Отец и дочь. Ничто не может нарушить вечный порядок. Завтра наступает всегда. И каждое утро отец уезжает работать. И она  остается одна. Ждать отца. И чувствовать. Двое любят ее. Она любит каждого. Любовь нельзя поделить. \n\nОднажды решение приходит само. Оттуда, где солнце.",
+      "originalName": "Test",
+      "aliases": [
+        "Испытание"
+      ],
+      "genres": [
+        "Драма"
+      ],
+      "imdbRating": "7.2",
+      "runtime": "95 мин",
+      "card": "cards/f8c6c642e94842fc7db4ea5cafcf30d84ec8f529beb7490843ec889f081e700c.json",
+      "sha256": "f8c6c642e94842fc7db4ea5cafcf30d84ec8f529beb7490843ec889f081e700c",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt23736870",
+      "ids": [
+        "tt23736870"
+      ],
+      "imdbId": "tt23736870",
+      "name": "Пальма 2",
+      "type": "movie",
+      "year": "2025",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f7445a31b657a29dcc496eaaca0d25d6e8d76db84674b13b78e666e36961e02c.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e7e1e46e8421bd1eed4e208ddfa924a96db83d96925392a403be9051022e958e.jpg",
+      "description": "предстоящий фильм Александра Домогарова-младшего",
+      "originalName": "A Dog Named Palma 2",
+      "aliases": [
+        "Пальма 2",
+        "A Dog Named Palma 2",
+        "Palma 2"
+      ],
+      "genres": [
+        "Драма",
+        "Семейный"
+      ],
+      "imdbRating": "6.0",
+      "runtime": "127 мин",
+      "card": "cards/d88b83a01eda0357b8a06de72ee849842ac3be045de0bc765274d1c0b7fe32c1.json",
+      "sha256": "d88b83a01eda0357b8a06de72ee849842ac3be045de0bc765274d1c0b7fe32c1",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6262770",
+      "ids": [
+        "tt6262770"
+      ],
+      "imdbId": "tt6262770",
+      "name": "Тенцинг",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/754897f6794aae0597cd76ba7fa113afb97543d3ed4c86190ce850d3c4cb2090.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/06f81167eb14013febeda126610539dba5584627d83bc1457bcb52d4f1621fe8.jpg",
+      "description": "фильм Дженнифер Пидом (2026)",
+      "originalName": "Tenzing",
+      "aliases": [
+        "Тенцинг",
+        "Tenzing"
+      ],
+      "genres": [
+        "Приключения",
+        "Биография",
+        "Драма"
+      ],
+      "imdbRating": "7.5",
+      "runtime": "126 мин",
+      "card": "cards/c836116ef335ba674f7b45cd63bdf93d68f96797a66b2eab815c4d296fed67a4.json",
+      "sha256": "c836116ef335ba674f7b45cd63bdf93d68f96797a66b2eab815c4d296fed67a4",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt22444780",
+      "ids": [
+        "tt22444780"
+      ],
+      "imdbId": "tt22444780",
+      "name": "Эскортница",
+      "type": "movie",
+      "year": "2023",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/32bf8a2f0b9b55978217eb3cb4724c0a5dac23efd7c41dcd63ca9add63c6523f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/824546dff007b90bbabdd80ec67afafeef25677f4e5658675268062cfbc5e989.jpg",
+      "description": "Кристина — организатор выставок современного искусства, на деле же она организует развлечения для богатых клиентов в самых экзотических местах. На нее работают десятки элитных девушек со всего мира. Когда-то в прошлом Кристина тоже работала хостес на подобных вечеринках, но, будучи очень амбициоз…",
+      "originalName": "Escort Girl",
+      "aliases": [
+        "Эскортница"
+      ],
+      "genres": [
+        "Мелодрама"
+      ],
+      "imdbRating": "3.7",
+      "runtime": "90 мин",
+      "card": "cards/c5d28abf39394e4a6dc3699f8166907f8f6aa81f7ccec678bed5b0aa2831cf0f.json",
+      "sha256": "c5d28abf39394e4a6dc3699f8166907f8f6aa81f7ccec678bed5b0aa2831cf0f",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt27369017",
+      "ids": [
+        "tt27369017"
+      ],
+      "imdbId": "tt27369017",
+      "name": "Надежда",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/412c01e76b2875beb102115d4444ff5663545fffdd0754ae9d11d42a0faec8ca.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2af4401ba2d2f98492027f71bf6ca2398b7d394d9d92a937ff222a9dbcb11492.jpg",
+      "description": "Что-то странное творится в тихом приграничном городке Хоуп-Харбор. Сначала обнаруживают изуродованные трупы коров, а затем и погибших жуткой смертью людей. По слухам, на местности завёлся тигр, и, пока группа охотников отправляется выслеживать хищника в лес, начальник полиции идёт по кровавому сл…",
+      "originalName": "Hope",
+      "aliases": [
+        "Надежда",
+        "Hopeu"
+      ],
+      "genres": [
+        "Боевик",
+        "Драма",
+        "Ужасы"
+      ],
+      "imdbRating": "6.9",
+      "runtime": "157 мин",
+      "card": "cards/8dcc7d04d52395c857703090b666a17ecd49950903ccc0048988548873ddbe17.json",
+      "sha256": "8dcc7d04d52395c857703090b666a17ecd49950903ccc0048988548873ddbe17",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt23148340",
+      "ids": [
+        "tt23148340"
+      ],
+      "imdbId": "tt23148340",
+      "name": "Хрустальное озеро",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6f8b764cbdc8674c5dfac0a70dc9cc95a5c9345b6e26b2c92ee6f4579ce5eb4f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/eeb8f4b655ed4a042735ddf2d03a8b6e243ca6e115e116fa2b819962ef4e2baf.jpg",
+      "description": "11 летний Джейсон, сын матери-одиночки Памелы Вурхиз, трагически погибает в детском лагере. Когда на пороге дома женщины появляются двое незнакомцев, желающих покопаться в её прошлом, запускается череда ужасающих событий.",
+      "originalName": "Crystal Lake",
+      "aliases": [
+        "Хрустальное озеро",
+        "Crystal Lake"
+      ],
+      "genres": [
+        "Драма",
+        "Ужасы",
+        "Триллер"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "50 мин",
+      "card": "cards/7c61670106844a26ebcad2ba0000b0d3eceb996fbd24c244fff027d93430c2fd.json",
+      "sha256": "7c61670106844a26ebcad2ba0000b0d3eceb996fbd24c244fff027d93430c2fd",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt10850518",
+      "ids": [
+        "tt10850518"
+      ],
+      "imdbId": "tt10850518",
+      "name": "Андрей Тарковский. Кино как молитва",
+      "type": "movie",
+      "year": "2019",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bdb5582a2b29e7b096803ab14e1fb9275ef50bd1848e6456324c609799a27336.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1a693ca50c2d4921c6cb6240569d5fb857f1fb924749e9e4f2a327c440b62513.jpg",
+      "description": "Рассказ режиссера о самом себе. В основе фильма – нигде ранее не публиковавшиеся аудио и видеозаписи лекций, интервью, встреч со зрителями, видеохроника со съемок фильмов. Через размышления об искусстве и культуре, о судьбе художника и смысле человеческого существования, фильм раскрывает творческ…",
+      "originalName": "Andrey Tarkovsky. A Cinema Prayer",
+      "aliases": [
+        "Андрей Тарковский. Кино как молитва",
+        "Andrey Tarkovsky. A Cinema Prayer"
+      ],
+      "genres": [
+        "Документальный"
+      ],
+      "imdbRating": "7.6",
+      "runtime": "98 мин",
+      "card": "cards/57b6e0b35ece2d51d5dcdbb4f8246a507bffa6edf3de80d3c662ef3ce29b561a.json",
+      "sha256": "57b6e0b35ece2d51d5dcdbb4f8246a507bffa6edf3de80d3c662ef3ce29b561a",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt29261344",
+      "ids": [
+        "tt29261344"
+      ],
+      "imdbId": "tt29261344",
+      "name": "Красный шелк",
+      "type": "movie",
+      "year": "2025",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4f39692e02ae956b9cf81c9a75923abd654ee5ae6cde638b3bc97906bd2e59a2.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1e5b39653ba2c57e719b51add43cb6825a3bde1c252bb127ec3440a41af0fac9.jpg",
+      "description": "1927 год. Транссибирский экспресс. Через всю Россию перевозят секретные документы, которые определят будущее СССР и Китая. Под видом обычных пассажиров скрываются иностранные разведчики и настоящие головорезы, готовые на всё ради документов. Молодому красноармейцу и бывшему царскому агенту приход…",
+      "originalName": "Red Silk",
+      "aliases": [
+        "Красный шелк"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Детектив",
+        "Военный"
+      ],
+      "imdbRating": "6.0",
+      "runtime": "145 мин",
+      "card": "cards/7aa86591e408ebb21586cb609011307687026a8d88c02b15a9b8ae1876946c10.json",
+      "sha256": "7aa86591e408ebb21586cb609011307687026a8d88c02b15a9b8ae1876946c10",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt3498820",
+      "ids": [
+        "tt3498820"
+      ],
+      "imdbId": "tt3498820",
+      "name": "Первый мститель: Противостояние",
+      "type": "movie",
+      "year": "2016",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/571ed54f6cb320a4dd0c6f7e83be2a0fc1b55b225323f59b2d68cbeed4cd6289.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/710b5775a626dabe65ec2cc766f1fc2cf7c2fd349b47578bcb3792c193819fa0.jpg",
+      "description": "Спор о контроле над супергероями раскалывает Мстителей на команды Капитана Америки и Железного человека. Тони Старк привлекает к конфликту юного Питера Паркера.",
+      "originalName": "Captain America: Civil War",
+      "aliases": [
+        "Первый мститель: Противостояние",
+        "Captain America: Civil War",
+        "Первый мститель Противостояние"
+      ],
+      "genres": [
+        "Боевик",
+        "Фантастика"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "147 мин",
+      "card": "cards/2813822d77e454b27c4f826080139fc8ac13913f6632cc6af2d1f504c40812c2.json",
+      "sha256": "2813822d77e454b27c4f826080139fc8ac13913f6632cc6af2d1f504c40812c2",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2250912",
+      "ids": [
+        "tt2250912"
+      ],
+      "imdbId": "tt2250912",
+      "name": "Человек-паук: Возвращение домой",
+      "type": "movie",
+      "year": "2017",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/13bb95ccdad181493f79bfa8f7baa0e1dbb29a9d5b9fb6b668bc31a28eea6b36.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f11b6dcb75643e6690a96a91efcedbb42863ea572ba1c6d43e66542352858b39.jpg",
+      "description": "Питер Паркер возвращается к школьной жизни после знакомства с Мстителями. Он мечтает доказать Тони Старку, что готов к большим задачам, но сначала ему предстоит остановить торговца опасным оружием — Стервятника.",
+      "originalName": "Spider-Man: Homecoming",
+      "aliases": [
+        "Человек-паук: Возвращение домой",
+        "Spider-Man: Homecoming",
+        "Человек паук Возвращение домой",
+        "Человек-паук: Возврашение домой"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фантастика"
+      ],
+      "imdbRating": "7.4",
+      "runtime": "133 мин",
+      "card": "cards/96dfbb17a6f1e0083856c8ec951621ef8537635efd50c5521b48291165e457a1.json",
+      "sha256": "96dfbb17a6f1e0083856c8ec951621ef8537635efd50c5521b48291165e457a1",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt4154756",
+      "ids": [
+        "tt4154756"
+      ],
+      "imdbId": "tt4154756",
+      "name": "Мстители: Война бесконечности",
+      "type": "movie",
+      "year": "2018",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c852e5bea814be16d8351b8dadecb4dbb65831e4260b94e2f298f9f263cd3f74.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d1924ec82d23475fb2b07b5ad2985a969cfb60f83dad449cf80a6ea999926c4f.jpg",
+      "description": "Танос ищет Камни Бесконечности, способные изменить судьбу вселенной. Человек-паук, Железный человек и другие герои объединяются, чтобы остановить его.",
+      "originalName": "Avengers: Infinity War",
+      "aliases": [
+        "Мстители: Война бесконечности",
+        "Avengers: Infinity War",
+        "Мстители Война бесконечности"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фантастика"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "149 мин",
+      "card": "cards/f12edfa0d6fa88297a64a2b5ed216888a96a94d9375620dd3d273e000b133ba5.json",
+      "sha256": "f12edfa0d6fa88297a64a2b5ed216888a96a94d9375620dd3d273e000b133ba5",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt4154796",
+      "ids": [
+        "tt4154796"
+      ],
+      "imdbId": "tt4154796",
+      "name": "Мстители: Финал",
+      "type": "movie",
+      "year": "2019",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e85d02213922736420dec899692fb1dbb401214d7e7b058f7d6b795665c078e7.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/073d6ac765e04245bf9a67c84efde1a0484a4dc7fcdeb0411c5d5baf397f356c.jpg",
+      "description": "После катастрофы, устроенной Таносом, уцелевшие Мстители ищут способ вернуть исчезнувших. Ради последней попытки им предстоит вновь объединиться и рискнуть всем.",
+      "originalName": "Avengers: Endgame",
+      "aliases": [
+        "Мстители: Финал",
+        "Avengers: Endgame",
+        "Мстители Финал"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фантастика"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "181 мин",
+      "card": "cards/b28532c471bdf1515d9c5c4e7142b392c244e241e45297eb63a67355784cbe1c.json",
+      "sha256": "b28532c471bdf1515d9c5c4e7142b392c244e241e45297eb63a67355784cbe1c",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6320628",
+      "ids": [
+        "tt6320628"
+      ],
+      "imdbId": "tt6320628",
+      "name": "Человек-паук: Вдали от дома",
+      "type": "movie",
+      "year": "2019",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c8cd6e3f8baee0c88a0ac3b03d4a5e526cddff3935a85b53f9203daed046568b.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/14b95da699caf27ed98b22a0b61c8e8e2c845b5f0b598c7b01390a286e170e7c.jpg",
+      "description": "Питер Паркер отправляется с одноклассниками в путешествие по Европе и надеется отдохнуть от супергеройских обязанностей. Но встреча с Ником Фьюри и загадочным Мистерио меняет его планы.",
+      "originalName": "Spider-Man: Far from Home",
+      "aliases": [
+        "Человек-паук: Вдали от дома",
+        "Spider-Man: Far from Home",
+        "Человек паук Вдали от дома"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Комедия"
+      ],
+      "imdbRating": "7.3",
+      "runtime": "129 мин",
+      "card": "cards/9da63fbcf74ac71c115239664b734420e9df0532f1ae94e5f4b3c088a1a1f530.json",
+      "sha256": "9da63fbcf74ac71c115239664b734420e9df0532f1ae94e5f4b3c088a1a1f530",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt10872600",
+      "ids": [
+        "tt10872600"
+      ],
+      "imdbId": "tt10872600",
+      "name": "Человек-паук: Нет пути домой",
+      "type": "movie",
+      "year": "2021",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e7c2e4a9a99d64a9703675db3db9f416fdcf5041414a7d67fe895c1daddee6ed.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7d712fac653c36a0a5b1f70fb27478810d05d54539c00fb6043b62fb4bde1955.jpg",
+      "description": "Личность Человека-паука раскрыта, и жизнь Питера Паркера меняется. Он просит Доктора Стрэнджа исправить ситуацию, но заклинание открывает путь гостям из других миров.",
+      "originalName": "Spider-Man: No Way Home",
+      "aliases": [
+        "Человек-паук: Нет пути домой",
+        "Spider-Man: No Way Home",
+        "Человек паук Нет пути домой"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фэнтези"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "148 мин",
+      "card": "cards/387c8af77169a71aca7eb9fb7b118de29e9ad6d48e66def63ff148e2e66a6bc0.json",
+      "sha256": "387c8af77169a71aca7eb9fb7b118de29e9ad6d48e66def63ff148e2e66a6bc0",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt36271247",
+      "ids": [
+        "tt36271247",
+        "kp:9909686"
+      ],
+      "imdbId": "tt36271247",
+      "name": "Чистые руки",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/43bb9206b1672fb142efd97aa405669c1c3978068de762a649220834c5413647.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ff56c45e2a35b2ac7aa1eca617a79f78d7350a937ec6dbeba9c4d89b69b29773.jpg",
+      "description": "Полицейский Кевин Симмерс пытается спасти дочь Брук от зависимости. Личная трагедия заставляет его пересмотреть привычные методы борьбы с наркотиками и заняться помощью людям, которые хотят вернуться к нормальной жизни. Основано на реальных событиях.",
+      "originalName": "Clean Hands",
+      "aliases": [
+        "Чистые руки",
+        "Clean Hands",
+        "Чистыми руками"
+      ],
+      "genres": [
+        "Биография",
+        "Криминал",
+        "Драма"
+      ],
+      "runtime": "108 мин",
+      "card": "cards/8ff166c9eb33df2dc15d8ba95969daf2146069b9fa470137aeb6d27867f32e17.json",
+      "sha256": "8ff166c9eb33df2dc15d8ba95969daf2146069b9fa470137aeb6d27867f32e17",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt36983905",
+      "ids": [
+        "tt36983905"
+      ],
+      "imdbId": "tt36983905",
+      "name": "Восставший",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/dce76523f264e0069cd3cc332c492c28213904df7723e109232aafc640b2a7dd.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0964cb2d0da7214ccae820926ce5e271b29372b0a2d0eecd3efc81db8da90385.jpg",
+      "description": "1381 год, Англия охвачена беспорядками. Во главе восставших оказывается обычный крестьянин Уот Тайлер, чья семья погибла во время эпидемии чумы. Он никогда не мечтал стать лидером, но именно ему предстоит изменить ход истории.",
+      "originalName": "The Uprising",
+      "aliases": [
+        "Восставший",
+        "The Uprising"
+      ],
+      "genres": [
+        "Боевик",
+        "Драма",
+        "История"
+      ],
+      "imdbRating": "",
+      "runtime": "128 мин",
+      "card": "cards/7f32346d003609ae39ed055a050e6db8f3c5ae01e64eccd3b59878e2a8358316.json",
+      "sha256": "7f32346d003609ae39ed055a050e6db8f3c5ae01e64eccd3b59878e2a8358316",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0238883",
+      "ids": [
+        "tt0238883"
+      ],
+      "imdbId": "tt0238883",
+      "name": "Брат 2",
+      "type": "movie",
+      "year": "2000",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1f722c1cf252610d33ba721420d85e0e238d1680c14415f98f8d54a8c0b8c066.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b085c62d08ab8e9a14bca77c31409545fbf9efa8f9ed5324556587a0898c1f72.jpg",
+      "description": "Участвуя в программе на телевидении, Данила Багров встречает своих друзей по службе в Чечне. Одного из них внезапно убивают. Выясняется, что у того были неприятности из-за брата-хоккеиста в Америке. Данила должен разобраться. Он вылетает в Америку и за компанию берёт с собой старшего брата.",
+      "originalName": "Brat 2",
+      "aliases": [
+        "Брат 2"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.6",
+      "runtime": "122 мин",
+      "card": "cards/6b273eb52c6ffb9d3573abbd1f030336baa532f4645937f58ed9570bf5425250.json",
+      "sha256": "6b273eb52c6ffb9d3573abbd1f030336baa532f4645937f58ed9570bf5425250",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt22526100",
+      "ids": [
+        "tt22526100"
+      ],
+      "imdbId": "tt22526100",
+      "name": "Гипотеза любви",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fdc48276b8503ce21514857d5aaf5de719e111a6500be0e10fd244ec7c0b0011.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/afe032dd03acaec986e408131559be4ba1d6b7a1fa6f72944eb2466316ef0f55.jpg",
+      "description": "фильм Клэр Скэнлон (2026)",
+      "originalName": "The Love Hypothesis",
+      "aliases": [
+        "Гипотеза любви",
+        "The Love Hypothesis"
+      ],
+      "genres": [
+        "Комедия",
+        "Мелодрама"
+      ],
+      "imdbRating": "",
+      "runtime": "112 мин",
+      "card": "cards/14a70dce0012b2f3fce06236171fd576978c7a6efc80b1d0456e161765372f77.json",
+      "sha256": "14a70dce0012b2f3fce06236171fd576978c7a6efc80b1d0456e161765372f77",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt5875444",
+      "ids": [
+        "tt5875444"
+      ],
+      "imdbId": "tt5875444",
+      "name": "Медленные лошади",
+      "type": "series",
+      "year": "2022",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/35e47af47b3f788ca14e52fabef4b3b1159125d3a4f7db5bcd196a4e2689e071.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e4d69bde8a4a68d9501e21f635d36abe1e19a3948c15f397569316a5e8b19185.jpg",
+      "description": "После неудачной миссии агента британской разведки Ривера Картрайта ссылают в Слоу-Хаус. Там собраны такие же провинившиеся агенты, которые выполняют скучные задачи для деспотичного босса Джексона Лэмба. Но всё становится интереснее, когда отделу дают второй шанс.",
+      "originalName": "Slow Horses",
+      "aliases": [
+        "Медленные лошади",
+        "Slow Horses"
+      ],
+      "genres": [
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "8.4",
+      "runtime": "46 мин",
+      "card": "cards/66bce9972c97c2aa50f6f01ae5c03891e09fdde1e28349924c83e3b98eab9bcd.json",
+      "sha256": "66bce9972c97c2aa50f6f01ae5c03891e09fdde1e28349924c83e3b98eab9bcd",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0099785",
+      "ids": [
+        "tt0099785"
+      ],
+      "imdbId": "tt0099785",
+      "name": "Один дома",
+      "type": "movie",
+      "year": "1990",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7cb0d7e3d9dd025633aae0fa2f23ee36cf3f32fd809092615f3c89d207980275.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bea73a9b2f1968b8b18bd6709742562aa2aec5f1855627198682ab1a2fc93259.jpg",
+      "description": "Американское семейство отправляется из Чикаго в Европу, но в спешке сборов бестолковые родители забывают дома... одного из своих детей. Юное создание, однако, не теряется и демонстрирует чудеса изобретательности. И когда в дом залезают грабители, им приходится не раз пожалеть о встрече с милым кр…",
+      "originalName": "Home Alone",
+      "aliases": [
+        "Один дома",
+        "Home Alone"
+      ],
+      "genres": [
+        "Комедия",
+        "Семейный"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "103 мин",
+      "card": "cards/aea93694d3f101994c981356a1abf4038191942b5294c8079a85f5366f23a6cb.json",
+      "sha256": "aea93694d3f101994c981356a1abf4038191942b5294c8079a85f5366f23a6cb",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0137523",
+      "ids": [
+        "tt0137523"
+      ],
+      "imdbId": "tt0137523",
+      "name": "Бойцовский клуб",
+      "type": "movie",
+      "year": "1999",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fb2d6112ccfdc1858e44bcec46e7daabaabc5b75c8513b37fcf87d451ea7b6b6.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4ac5cdfde15e08e4b41e38783f6fc94d41a75c186be72fe105afb5e690aa15ad.jpg",
+      "description": "Сотрудник страховой компании страдает хронической бессонницей и отчаянно пытается вырваться из мучительно скучной жизни. Однажды в очередной командировке он встречает некоего Тайлера Дёрдена — харизматического торговца мылом с извращенной философией. Тайлер уверен, что самосовершенствование — уде…",
+      "originalName": "Fight Club",
+      "aliases": [
+        "Бойцовский клуб",
+        "Fight Club"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "8.8",
+      "runtime": "139 мин",
+      "card": "cards/a63c815b7fb22657a688a6d0ed2197fe7e62577320230635c8143aee993c6a55.json",
+      "sha256": "a63c815b7fb22657a688a6d0ed2197fe7e62577320230635c8143aee993c6a55",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt21064076",
+      "ids": [
+        "tt21064076"
+      ],
+      "imdbId": "tt21064076",
+      "name": "Фишер",
+      "type": "series",
+      "year": "2023",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/18fb6f0fe84e0993e4ffef44e3b06ddbee096d7d34442485cad8f130864c7c3c.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/998971a755c2a9125037edeb955192f7d0a9f5c2332b370dbaa88101df61df13.jpg",
+      "description": "Интеллигентный следователь Валерий Козырев, его дерзкий напарник из Ростова Евгений Боков и другие коллеги расследуют преступления, связанные с серийными убийствами.",
+      "originalName": "Fisher",
+      "aliases": [
+        "Фишер"
+      ],
+      "genres": [
+        "Детектив",
+        "Драма",
+        "Криминал"
+      ],
+      "imdbRating": "6.8",
+      "runtime": "50 мин",
+      "card": "cards/3fb2ad707bf42cc787ad01303b30759c6cf6e2e1adc9d627b8b74ee7d0d69ae8.json",
+      "sha256": "3fb2ad707bf42cc787ad01303b30759c6cf6e2e1adc9d627b8b74ee7d0d69ae8",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt27543632",
+      "ids": [
+        "tt27543632"
+      ],
+      "imdbId": "tt27543632",
+      "name": "Горничная",
+      "type": "movie",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/aa3207efe6e331d7628da6b0fed72c4aefbc8e7775dc97d6d97b001d306e56a1.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9759e7584a1218bcb0d5a4ce19e25b32a80c5627d36178f6455a705839de4477.jpg",
+      "description": "Милли устраивается прислугой с проживанием к состоятельной семье Винчестер, живущей в загородном особняке. Девушка только что вышла по УДО, и ей необходима эта работа, но находить общий язык с хозяйкой Ниной становится всё сложнее: та заметно не в себе и регулярно к ней цепляется. Зато её супруг…",
+      "originalName": "The Housemaid",
+      "aliases": [
+        "Горничная",
+        "The Housemaid"
+      ],
+      "genres": [
+        "Драма",
+        "Детектив",
+        "Триллер"
+      ],
+      "imdbRating": "6.7",
+      "runtime": "131 мин",
+      "card": "cards/afd99ecde59c410426ebb32ed6c3abd7c3ba5b9a70bfdcc096d858b17188afbc.json",
+      "sha256": "afd99ecde59c410426ebb32ed6c3abd7c3ba5b9a70bfdcc096d858b17188afbc",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt31192372",
+      "ids": [
+        "tt31192372"
+      ],
+      "imdbId": "tt31192372",
+      "name": "Вышка 2",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8004488728a767049b7d79ea843c63f39b2d53166486b3dc0e40636d0a7b210d.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2e0d0aa6ae91d938caf5bd2a4f4d138b51ffc3f663d5cb62cb105215e3cb4a4c.jpg",
+      "description": "После трагической гибели на вышке B67 видео Шайло разлетелись по сети, а сама она стала легендой среди экстремалов. Однако ее сестра Джакс так и не смогла смириться с утратой. Она находит список самых экстремальных мест на планете, которые Шайло мечтала покорить, и решает пройти его до конца. Сле…",
+      "originalName": "Fall 2: Deadpoint",
+      "aliases": [
+        "Вышка 2",
+        "Fall 2: Deadpoint"
+      ],
+      "genres": [
+        "Приключения",
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "5.7",
+      "runtime": "98 мин",
+      "card": "cards/aa305c754a0036686b6936213af7792d21778441feabe481e27d38fb62adf3cc.json",
+      "sha256": "aa305c754a0036686b6936213af7792d21778441feabe481e27d38fb62adf3cc",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt13210838",
+      "ids": [
+        "tt13210838"
+      ],
+      "imdbId": "tt13210838",
+      "name": "Джентльмены",
+      "type": "series",
+      "year": "2024",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7a510e501aba9216201049affa3f78b9625e11d64460fd430ceeda33c1f1cbfc.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d65a96e6d162f200b4b5da4f978db872880076b53a42448ff4e7e29cdc4d1222.jpg",
+      "description": "Молодой человек по имени Эдди Холстед узнаёт, что полученное им большое наследство связано с наркоимперией Бобби Гласса.",
+      "originalName": "The Gentlemen",
+      "aliases": [
+        "Джентльмены",
+        "The Gentlemen"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "53 мин",
+      "card": "cards/717f26336ba7c4866ea84ebee4456aaaf002f6ac7f8d0dbaa4e8d883007f7a1d.json",
+      "sha256": "717f26336ba7c4866ea84ebee4456aaaf002f6ac7f8d0dbaa4e8d883007f7a1d",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt26657236",
+      "ids": [
+        "tt26657236"
+      ],
+      "imdbId": "tt26657236",
+      "name": "Закулисье реальности",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b376cf0b0beafead8f0ab71818f8545fe5a99adf9ebbe16ccc7b4fdf6cec30c9.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f1df3f3768eaa8aedd95d382b37c279825e3f830b6ff1104d4581e7ae04e4f09.jpg",
+      "description": "Кларк, одинокий владелец мебельного магазина, никак не может оправиться после развода и посещает психолога. Он ночует на работе и однажды обнаруживает проход в другое измерение. Так Кларк оказывается в бесконечном лабиринте жёлтых комнат и коридоров, где пространство живёт по своей логике, а нечт…",
+      "originalName": "Backrooms",
+      "aliases": [
+        "Закулисье реальности",
+        "Backrooms"
+      ],
+      "genres": [
+        "Ужасы",
+        "Фантастика",
+        "Триллер"
+      ],
+      "imdbRating": "6.7",
+      "runtime": "111 мин",
+      "card": "cards/19905b0bf33a0d982a54dd971e8995d84e87f6c0242414a6fa98e95f2a28c748.json",
+      "sha256": "19905b0bf33a0d982a54dd971e8995d84e87f6c0242414a6fa98e95f2a28c748",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt10986410",
+      "ids": [
+        "tt10986410"
+      ],
+      "imdbId": "tt10986410",
+      "name": "Тед Лассо",
+      "type": "series",
+      "year": "2020",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6dc3970d3bc4affe43669226f5b25b1267f1816f054f0464cafbbfe12878b86a.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2827cb66499973a3827dcd1d4d6edaef16073a2d1453cc981c0aa1931ed3ef46.jpg",
+      "description": "Тренер сборной колледжа Канзаса по американскому футболу Тед Лассо — неисправимый оптимист, всеобщий любимец и звезда YouTube. Новая владелица одного заштатного английского футбольного клуба решает использовать его в своих хитрых планах и предлагает Теду должность главного тренера, рассчитывая, ч…",
+      "originalName": "Ted Lasso",
+      "aliases": [
+        "Тед Лассо",
+        "Ted Lasso"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма",
+        "Спорт"
+      ],
+      "imdbRating": "8.7",
+      "runtime": "43 мин",
+      "card": "cards/2b80891bdf136556c34c6ea430d8351441968d8f664df0c18ae1706940aab338.json",
+      "sha256": "2b80891bdf136556c34c6ea430d8351441968d8f664df0c18ae1706940aab338",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1366687",
+      "ids": [
+        "tt1366687"
+      ],
+      "imdbId": "tt1366687",
+      "name": "Любовь в большом городе",
+      "type": "movie",
+      "year": "2009",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a837c0c764f11f9bb0310afccce939aa3e688b0668cd7e2d79d2807d6a02d2a1.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a837c0c764f11f9bb0310afccce939aa3e688b0668cd7e2d79d2807d6a02d2a1.jpg",
+      "description": "Действие фильма происходит в одном из самых романтичных мегаполисов мира – Нью-Йорке. Три друга Артем, Игорь и Оле, настоящий «русский» финн, в народе «Сауна» работают на чужбине, а в свободное от работы время  отрываются, «как взрослые»: ходят в сауну, в стриптиз-бары, крутят короткие и ни к чем…",
+      "originalName": "No Love in the City",
+      "aliases": [
+        "Любовь в большом городе"
+      ],
+      "genres": [
+        "Комедия",
+        "Фэнтези",
+        "Мелодрама"
+      ],
+      "imdbRating": "5.8",
+      "runtime": "88 мин",
+      "card": "cards/17d319dfdbf7eeb65db8f17d82a7df7ea4debe7aac1c7cca4b1e11531ad75702.json",
+      "sha256": "17d319dfdbf7eeb65db8f17d82a7df7ea4debe7aac1c7cca4b1e11531ad75702",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6966692",
+      "ids": [
+        "tt6966692"
+      ],
+      "imdbId": "tt6966692",
+      "name": "Зеленая книга",
+      "type": "movie",
+      "year": "2018",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/764ce0c265f59ed2fa8c05428acd2403f11912618d3f72f52d44070176e81953.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8deff116dfa0063620a958b53ebe58d84e24312828eb8436590b44f7f094b035.jpg",
+      "description": "1960-е годы. После закрытия нью-йоркского ночного клуба на ремонт вышибала Тони по прозвищу Болтун ищет подработку на пару месяцев. Как раз в это время Дон Ширли — утонченный светский лев, богатый и талантливый чернокожий музыкант, исполняющий классическую музыку — собирается в турне по южным шта…",
+      "originalName": "Green Book",
+      "aliases": [
+        "Зеленая книга",
+        "Green Book"
+      ],
+      "genres": [
+        "Биография",
+        "Комедия",
+        "Драма"
+      ],
+      "imdbRating": "8.2",
+      "runtime": "130 мин",
+      "card": "cards/02b99679fac04228fa68c73ed7f6fb522e438dd5255285d3d1c8ce8c666a3ec2.json",
+      "sha256": "02b99679fac04228fa68c73ed7f6fb522e438dd5255285d3d1c8ce8c666a3ec2",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt37601032",
+      "ids": [
+        "tt37601032"
+      ],
+      "imdbId": "tt37601032",
+      "name": "Последний богатырь. Колобок",
+      "type": "movie",
+      "year": "2026",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e5825e8863dd17adda005141eb8b9f861172bf7b5a48af0c58397827fdcfbfb2.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/99e7c64d950868a6bafbce7174480ccbb2af8226aac25203bedce5b96052406c.jpg",
+      "description": "История Колобка: с какой коварной целью его испекли, как ему удалось сбежать, как он скитался и попал в банду разбойников, а потом поневоле стал напарником неудачливого пекаря Тихона и необычной девушки Лады.",
+      "originalName": "The Last Warrior: Kolobok",
+      "aliases": [
+        "Последний богатырь. Колобок"
+      ],
+      "genres": [
+        "Комедия",
+        "Приключения",
+        "Семейный"
+      ],
+      "imdbRating": "1.7",
+      "runtime": "109 мин",
+      "card": "cards/9007644b97fc17484bdb6f4c163b18bbc2515ef70283428c23aea9dba47e0b18.json",
+      "sha256": "9007644b97fc17484bdb6f4c163b18bbc2515ef70283428c23aea9dba47e0b18",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1196946",
+      "ids": [
+        "tt1196946"
+      ],
+      "imdbId": "tt1196946",
+      "name": "Менталист",
+      "type": "series",
+      "year": "2008",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/455d3bd4bd68eb5e6aabf46df269ced00b663159137c056e011df01f6aa59176.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/38c737c246fcd3f938c82fd36ed4e6245a142458c79bcc35abf64e7d8873a6ec.jpg",
+      "description": "Патрик Джейн - детектив и независимый консультант из Калифорнийского Бюро Расследований (КБР), он использует свои отточенные, как лезвие, навыки наблюдения для раскрытия тяжких преступлений. В самом Бюро Джейн известен за частые нарушения протокола, а также за его звездное прошлое: он работал мед…",
+      "originalName": "The Mentalist",
+      "aliases": [
+        "Менталист",
+        "The Mentalist"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "8.2",
+      "runtime": "43 мин",
+      "card": "cards/838cf3083c411e3c2c41130d93ae2758bb214792644dee0b753995fbadce2afb.json",
+      "sha256": "838cf3083c411e3c2c41130d93ae2758bb214792644dee0b753995fbadce2afb",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt8367814",
+      "ids": [
+        "tt8367814"
+      ],
+      "imdbId": "tt8367814",
+      "name": "Джентльмены",
+      "type": "movie",
+      "year": "2019",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f27f2d346ba8542ae3de0f127a1930066db1eadd002301682d206c6c02e61860.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e04011293f4fc83ab959c2d2b60c7d4e9469754d0b6433860bf2bcb6b5699a89.jpg",
+      "description": "Один ушлый американец ещё со студенческих лет приторговывал наркотиками, а теперь придумал схему нелегального обогащения с использованием поместий обедневшей английской аристократии и очень неплохо на этом разбогател. Другой пронырливый журналист приходит к Рэю, правой руке американца, и предлага…",
+      "originalName": "The Gentlemen",
+      "aliases": [
+        "Джентльмены",
+        "The Gentlemen"
+      ],
+      "genres": [
+        "Боевик",
+        "Комедия",
+        "Криминал"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "113 мин",
+      "card": "cards/184b63de941f7b1608acadd2db8a0ff05e66bc710d161c9405b0d0c15528a0ab.json",
+      "sha256": "184b63de941f7b1608acadd2db8a0ff05e66bc710d161c9405b0d0c15528a0ab",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt31510819",
+      "ids": [
+        "tt31510819"
+      ],
+      "imdbId": "tt31510819",
+      "name": "Гангстерленд",
+      "type": "series",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c23981272e2ed4a31915627507f6a5bd6bd3d7af778e2b938cdea35dc554dfc0.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/825a42b6237224e5cd690b97d83838359e8b0f398c2035ed431e962b5c7687bc.jpg",
+      "description": "Лондон. Две могущественных криминальных семьи, Харриганы и Стивенсоны, ведут войну за власть, избегая прямой конфронтации. Но шаткое перемирие может нарушить исчезновение Томми, сына главы клана Стивенсонов, которого в последний раз видели в ночном клубе с Эдди Харриганом. Глава клана Харриганов…",
+      "originalName": "MobLand",
+      "aliases": [
+        "Гангстерленд",
+        "MobLand"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "8.3",
+      "runtime": "47 мин",
+      "card": "cards/f1699e564864cb857315a5de081c07fefa2c68a81ed8efbc4d851b17f05a4f42.json",
+      "sha256": "f1699e564864cb857315a5de081c07fefa2c68a81ed8efbc4d851b17f05a4f42",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0993846",
+      "ids": [
+        "tt0993846"
+      ],
+      "imdbId": "tt0993846",
+      "name": "Волк с Уолл-стрит",
+      "type": "movie",
+      "year": "2013",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/988444fe9dea12379b370b2d3c2bfde46ddf9154c018e77ce048803f0c1c842f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/80b92a27647d79d65a62936fe560b633542fb8d8abbe742ef88ca7d68975a2d6.jpg",
+      "description": "1987 год. Джордан Белфорт становится брокером в успешном инвестиционном банке. Вскоре банк закрывается после внезапного обвала индекса Доу-Джонса. По совету жены Терезы Джордан устраивается в небольшое заведение, занимающееся мелкими акциями. Его настойчивый стиль общения с клиентами и врождённая…",
+      "originalName": "The Wolf of Wall Street",
+      "aliases": [
+        "Волк с Уолл-стрит",
+        "The Wolf of Wall Street"
+      ],
+      "genres": [
+        "Биография",
+        "Комедия",
+        "Криминал"
+      ],
+      "imdbRating": "8.2",
+      "runtime": "180 мин",
+      "card": "cards/c025fcb87aae4477ce50c78fdd1ae659d8bfb5ede511f01edbc2264b7221d637.json",
+      "sha256": "c025fcb87aae4477ce50c78fdd1ae659d8bfb5ede511f01edbc2264b7221d637",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt11083552",
+      "ids": [
+        "tt11083552"
+      ],
+      "imdbId": "tt11083552",
+      "name": "Гнев человеческий",
+      "type": "movie",
+      "year": "2021",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a185ffadc725442acfc385b01963d1b401b3ad13ff625fb63273e3233aac7e80.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bac18d7ab7c8eb31f360809b54c7a09da0f4e91f01786d8d88bf8a843d2480eb.jpg",
+      "description": "Грузовики лос-анджелесской инкассаторской компании Fortico Security часто подвергаются нападениям, и во время очередного ограбления погибают оба охранника. Через некоторое время в компанию устраивается крепкий немногословный британец Патрик Хилл. Он получает от босса прозвище Эйч и, впритык к нео…",
+      "originalName": "Wrath of Man",
+      "aliases": [
+        "Гнев человеческий",
+        "Wrath of Man"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Триллер"
+      ],
+      "imdbRating": "7.1",
+      "runtime": "119 мин",
+      "card": "cards/67640149904a9866126553409aa581902ca65a431790d1b48fd389ba692cf3c8.json",
+      "sha256": "67640149904a9866126553409aa581902ca65a431790d1b48fd389ba692cf3c8",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0493464",
+      "ids": [
+        "tt0493464"
+      ],
+      "imdbId": "tt0493464",
+      "name": "Особо опасен",
+      "type": "movie",
+      "year": "2008",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cf635a7ebcc4db8f40fe3b3797e28b8b2f4d33e2854287862080fe7d3124ff2a.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/83d7234c5dce7bd1c6ffe367e76beb538ed6f20db53a4a2244d52a0aed6040ee.jpg",
+      "description": "Уэсли Гибсон - зануда и нытик, целыми днями торчащий в офисе. Босс его унижает, подружка ему изменяет. Его жизнь катится в никуда! Обнаружив, что отец, бросивший его в раннем детстве, зверски убит, Уэс оказывается втянут в тайное общество киллеров под названием «Братство». За его обучение берется…",
+      "originalName": "Wanted",
+      "aliases": [
+        "Особо опасен",
+        "Wanted"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Триллер"
+      ],
+      "imdbRating": "6.7",
+      "runtime": "110 мин",
+      "card": "cards/85ecb1f0f001922c2e3d68726e99873450a8175dc8a7e76aafb9e8e15bee945d.json",
+      "sha256": "85ecb1f0f001922c2e3d68726e99873450a8175dc8a7e76aafb9e8e15bee945d",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt26545992",
+      "ids": [
+        "tt26545992"
+      ],
+      "imdbId": "tt26545992",
+      "name": "Фонари",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/68734d19591a0304b5272a62b0c4c3bf9e6a3a19f30c4d9f0f866113da7f4c2f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bb61cea7b6651176151452f834581e3e481535b71380a4fc3b7ef1dd320814b9.jpg",
+      "description": "Начинающий Джон Стюарт и опытный страж Хэл Джордан, межгалактические полицейские из Корпуса Зелёных Фонарей, оказываются втянуты в расследование убийства в американской глубинке.",
+      "originalName": "Lanterns",
+      "aliases": [
+        "Фонари",
+        "Lanterns"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "53 мин",
+      "card": "cards/c76a2cd569c81a579116e8ec250a448316554e10068689efeb131db66ca65f9f.json",
+      "sha256": "c76a2cd569c81a579116e8ec250a448316554e10068689efeb131db66ca65f9f",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt37287335",
+      "ids": [
+        "tt37287335"
+      ],
+      "imdbId": "tt37287335",
+      "name": "Обсессия",
+      "type": "movie",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/27dcf8937b7c62e1d033f38dcd1478e1566d7bf446f3c5bd755712386e6aa538.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/842f4f16db74fb01316315780927765a584db926166f38e675fc1236f41cb0de.jpg",
+      "description": "Беар давно влюблён в красавицу Никки, с которой они дружат ещё со школы. Парень опасается, что безнадёжно застрял во френдзоне, и никак не может решиться на признание. Однажды в магазине эзотерики он находит странную безделушку — волшебную палочку, которая может исполнить одно желание. Беар загад…",
+      "originalName": "Obsession",
+      "aliases": [
+        "Обсессия",
+        "Obsession"
+      ],
+      "genres": [
+        "Ужасы",
+        "Триллер"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "109 мин",
+      "card": "cards/2c1c6cf1186dc88175544c70f44045cbddeba25924785798a628fa8cc3aebe24.json",
+      "sha256": "2c1c6cf1186dc88175544c70f44045cbddeba25924785798a628fa8cc3aebe24",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt8946378",
+      "ids": [
+        "tt8946378"
+      ],
+      "imdbId": "tt8946378",
+      "name": "Достать ножи",
+      "type": "movie",
+      "year": "2019",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/089b55c4ede2e9050aa5781f68ff5bd1d843eec1f961e8b1d049d7e99867eddb.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cfbc00fcb8cfd3a6417ede45112bbc4080567e2304b07d71a0cde9e94707744a.jpg",
+      "description": "На следующее утро после празднования 85-летия известного автора криминальных романов Харлана Тромби виновника торжества находят мёртвым. Налицо — явное самоубийство, но полиция по протоколу опрашивает всех присутствующих в особняке членов семьи, хотя, в этом деле больше заинтересован частный дете…",
+      "originalName": "Knives Out",
+      "aliases": [
+        "Достать ножи",
+        "Knives Out"
+      ],
+      "genres": [
+        "Комедия",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.9",
+      "runtime": "131 мин",
+      "card": "cards/520770b90942c0bbd34156c06ae859164c20bc96eaf579d67484776e0bbdcc30.json",
+      "sha256": "520770b90942c0bbd34156c06ae859164c20bc96eaf579d67484776e0bbdcc30",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt22084616",
+      "ids": [
+        "tt22084616"
+      ],
+      "imdbId": "tt22084616",
+      "name": "Человек-паук: Новый день",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1fb31a920885635a6d2e0dbff40dca519bf1fc4a31700df205417f088ac0f685.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7c4fec52ff2133eb5cb5e55e3cc16b8412985ff98c9964822e6bac83e551a868.jpg",
+      "description": "Мир забыл Питера Паркера, и он целиком посвятил себя борьбе с преступностью. Пока старые друзья строят жизнь без него, способности Питера начинают меняться, а Нью-Йорку угрожает новый опасный противник.",
+      "originalName": "Spider-Man: Brand New Day",
+      "aliases": [
+        "Человек-паук: Новый день",
+        "Spider-Man: Brand New Day",
+        "Человек-паук 4",
+        "Человек-паук: Совершенно новый день",
+        "Spider-Man 4"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "145 мин",
+      "card": "cards/8a48f2cf67088876b483b070274c7f13f88208871f7258491ffede03e0549afa.json",
+      "sha256": "8a48f2cf67088876b483b070274c7f13f88208871f7258491ffede03e0549afa",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1966566",
+      "ids": [
+        "tt1966566"
+      ],
+      "imdbId": "tt1966566",
+      "name": "Сталинград",
+      "type": "movie",
+      "year": "2013",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/79d0ec1c54286bbc2dbc7b7902b049f1576f0551d1cdec985d5cdf7e96bb9e65.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e53ea7d9e1278675f4b21da619363fd06f9db2fa5979b9383dcb955601c8665b.jpg",
+      "description": "1942-й год. Сталинград. Советские войска планируют контрнаступление на немецкие части, занявшие правый берег Волги. Наступление сорвано. Лишь разведчикам под командованием капитана Громова удается перебраться на другой берег и закрепиться в одном из домов. Им дан приказ удержать его любой ценой.…",
+      "originalName": "Stalingrad",
+      "aliases": [
+        "Сталинград"
+      ],
+      "genres": [
+        "Боевик",
+        "Драма",
+        "Военный"
+      ],
+      "imdbRating": "5.7",
+      "runtime": "131 мин",
+      "card": "cards/9b0af2d67f2d09ab1cd55002e552072903b2ac9dd31ef9ba2c3c08cffca90fb2.json",
+      "sha256": "9b0af2d67f2d09ab1cd55002e552072903b2ac9dd31ef9ba2c3c08cffca90fb2",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt11540908",
+      "ids": [
+        "tt11540908"
+      ],
+      "imdbId": "tt11540908",
+      "name": "Кэрри",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/856f182a7f790de0dcad843485ff5748f1a27abceef993af2ee744094c530864.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/39645087ee911fd98bae974b15c0eb78046d261510c7e2a18d4c1dcab534f8fa.jpg",
+      "description": "После загадочного пожара на школьном выпускном полиция пытается восстановить цепочку событий, приведших к трагедии. Кэрри Уайт выросла в полной изоляции под контролем религиозной матери Маргарет. После смерти отца девочка впервые оказывается в обычной школе, где наивность, страх и жестокость свер…",
+      "originalName": "Carrie",
+      "aliases": [
+        "Кэрри",
+        "Carrie"
+      ],
+      "genres": [
+        "Драма",
+        "Ужасы"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "52 мин",
+      "card": "cards/40a24e9f6aa012182dcaff792e27a04c8bbb219a9c5b05353534d9e31d8fed10.json",
+      "sha256": "40a24e9f6aa012182dcaff792e27a04c8bbb219a9c5b05353534d9e31d8fed10",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt12057168",
+      "ids": [
+        "tt12057168"
+      ],
+      "imdbId": "tt12057168",
+      "name": "Приворот. Черное венчание",
+      "type": "movie",
+      "year": "2021",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/091b3095df69b43b1740f8ac8dc1f38aee607b43aea904985f107a5851f16c4e.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/93d773985eb0c67f2e62117d833b682961602617182f2842213d5919f60aca88.jpg",
+      "description": "Женю бросает мужчина, которого она любит больше жизни. Не в силах смириться девушка решается на отчаянный шаг: цыганка рассказывает ей, как провести ритуал черного венчания и сделать приворот на любовь. И Кирилл возвращается! Им еще никогда не было так хорошо вместе, влюбленные не могут оторватьс…",
+      "originalName": "Dark Spell",
+      "aliases": [
+        "Приворот. Черное венчание"
+      ],
+      "genres": [
+        "Драма",
+        "Фэнтези",
+        "Ужасы"
+      ],
+      "imdbRating": "4.7",
+      "runtime": "93 мин",
+      "card": "cards/0b9223c7c703273bcd7d52b854fd1fa06d2a2f3935881cbd369217843809b831.json",
+      "sha256": "0b9223c7c703273bcd7d52b854fd1fa06d2a2f3935881cbd369217843809b831",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6933238",
+      "ids": [
+        "tt6933238"
+      ],
+      "imdbId": "tt6933238",
+      "name": "Унабомбер",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5613dc39be59abb8365d031fb256076e7f03e86098f3ca9af775661d17312cc0.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a735c0fc63f22cd443da6e70c10bfcb0bf35c607ed514244782542a194d025dd.jpg",
+      "description": "1995 год. ФБР больше 15 лет тщетно пытается поймать террориста по прозвищу Унабомбер, который рассылает по почте взрывные устройства, из-за чего погибли 3 человека и десятки получили ранения. Агент Джоэнн Миллер пытается найти зацепки и вычислить преступника, исследуя опубликованный в прессе мани…",
+      "originalName": "Unabomber",
+      "aliases": [
+        "Унабомбер",
+        "Unabomber"
+      ],
+      "genres": [
+        "Биография",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "6.2",
+      "runtime": "101 мин",
+      "card": "cards/8cae23725fef62b2158cadd7d81672eb41db606d5eaf2475cc9fda0726fd894a.json",
+      "sha256": "8cae23725fef62b2158cadd7d81672eb41db606d5eaf2475cc9fda0726fd894a",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt35934755",
+      "ids": [
+        "tt35934755"
+      ],
+      "imdbId": "tt35934755",
+      "name": "Глубина",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/64d33c49efd13a76d7ac07af40b47113883b22da689ffd823f49ebd06cadbead.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fca08849daaa749be038b5fce9c6970401cff2bd923df4d2e440d6e9286f5dee.jpg",
+      "description": "канадский мини-сериал Netflix",
+      "originalName": "Below",
+      "aliases": [
+        "Глубина",
+        "Below"
+      ],
+      "genres": [
+        "Драма",
+        "Ужасы",
+        "Детектив"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "41 мин",
+      "card": "cards/974574257a76adc36a69b7d672aad8daf5424a8290114c9a197cf41670f227c6.json",
+      "sha256": "974574257a76adc36a69b7d672aad8daf5424a8290114c9a197cf41670f227c6",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt15047880",
+      "ids": [
+        "tt15047880"
+      ],
+      "imdbId": "tt15047880",
+      "name": "День разоблачения",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4ca922e06e9bb51cbb0ebf1a4112a37bc6200359e00677ad295a080cc97f9a6b.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5d234190136d3263b5f8b372df0efa1e575257f9c5d6ad8b25629a7aae727d6a.jpg",
+      "description": "Бывший сотрудник секретной правительственной организации Дэниэл Келлнер вместе со своей девушкой бежит от бывших работодателей. Он украл некие секретные материалы и считает, что их содержимое должно быть обнародовано. Тем временем Маргарет Фэйрчайлд, обычная ведущая прогноза погоды на канзасском…",
+      "originalName": "Disclosure Day",
+      "aliases": [
+        "День разоблачения",
+        "Disclosure Day"
+      ],
+      "genres": [
+        "Боевик",
+        "Детектив",
+        "Фантастика"
+      ],
+      "imdbRating": "6.4",
+      "runtime": "146 мин",
+      "card": "cards/4ee53346c93d287f5aceb95dc458ad8464b74896afef59416fe2b1af2fb38070.json",
+      "sha256": "4ee53346c93d287f5aceb95dc458ad8464b74896afef59416fe2b1af2fb38070",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt21097264",
+      "ids": [
+        "tt21097264"
+      ],
+      "imdbId": "tt21097264",
+      "name": "К востоку от Эдема",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b9ac076405e8523e0699d5ae79b5ac3511459607b2abc0c1669943804aec1f8a.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9eda6e77359d3660107027a7477c3e654b1c1d86852beddae3231cfe6114ddfe.jpg",
+      "description": "сериал",
+      "originalName": "East of Eden",
+      "aliases": [
+        "К востоку от Эдема",
+        "East of Eden"
+      ],
+      "genres": [
+        "Драма"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "59 мин",
+      "card": "cards/c6b886e56a8b811f1aaefe0251e1a7fdf86c2e55daaceebeba462b5d4c5aa88e.json",
+      "sha256": "c6b886e56a8b811f1aaefe0251e1a7fdf86c2e55daaceebeba462b5d4c5aa88e",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt0111161",
       "ids": [
@@ -20,8 +1571,8 @@
       "type": "movie",
       "year": "1994",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt0111161/img",
-      "background": "https://images.metahub.space/background/medium/tt0111161/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4b99ca1d6f0ae8b804211a5fa443914a71975f7719a8569f030d176bdf8c0fe2.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/434d4239af77d0765a9f6efe4753140769bc25f05162d98c07e0f2403d2a90fe.jpg",
       "description": "Несправедливо осуждённый банкир ищет способ сохранить надежду и свободу за тюремными стенами.",
       "originalName": "The Shawshank Redemption",
       "aliases": [
@@ -33,8 +1584,8 @@
       ],
       "imdbRating": "9.3",
       "runtime": "142 мин",
-      "card": "cards/6f2f7896e4090f1ee8eac546ee5e7e711de70ab2025b97da32d90f8f9b0bd340.json",
-      "sha256": "6f2f7896e4090f1ee8eac546ee5e7e711de70ab2025b97da32d90f8f9b0bd340",
+      "card": "cards/0f189d7c6a7dc91122ccface2a86efde4b4a1b70fcc4f7475e9169f9a5e38d8d.json",
+      "sha256": "0f189d7c6a7dc91122ccface2a86efde4b4a1b70fcc4f7475e9169f9a5e38d8d",
       "localized": true,
       "provider": "github"
     },
@@ -48,8 +1599,8 @@
       "type": "movie",
       "year": "1997",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt0118767/img",
-      "background": "https://images.metahub.space/background/medium/tt0118767/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0802eb21f5235b6f4ae76da9d9ce8326869f215d5f51306ce4d59898ecdc0b47.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c7d62694bf1b24573dff6f42a5f1fa118517a2f040b607e50a2caf8dd797b610.jpg",
       "description": "Данила Багров приезжает в Петербург к старшему брату и оказывается в центре криминальных разборок.",
       "originalName": "Brother",
       "aliases": [
@@ -63,8 +1614,8 @@
       ],
       "imdbRating": "7.7",
       "runtime": "96 мин",
-      "card": "cards/08a4c01b89a5f87fe335781bd51cc23d2d59fd55109aac6e99d3e97a991811e9.json",
-      "sha256": "08a4c01b89a5f87fe335781bd51cc23d2d59fd55109aac6e99d3e97a991811e9",
+      "card": "cards/f47abfd7dd07bf9302e8c92c6266b3d6ce6c87db4ae237bb76b9ded155acd7db.json",
+      "sha256": "f47abfd7dd07bf9302e8c92c6266b3d6ce6c87db4ae237bb76b9ded155acd7db",
       "localized": true,
       "provider": "github"
     },
@@ -78,8 +1629,8 @@
       "type": "movie",
       "year": "2014",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt0816692/img",
-      "background": "https://images.metahub.space/background/medium/tt0816692/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b7468544f181df17224829a037a985bf52993ddb836209ac06a2d1c3a5f5e429.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fe0aef14277ca9bf2daf411e1a984ee34613a2567b877b4c8af827f11d9367ba.jpg",
       "description": "Пилот отправляется сквозь червоточину на поиски нового дома для человечества, оставляя семью на умирающей Земле.",
       "originalName": "Interstellar",
       "aliases": [
@@ -92,8 +1643,8 @@
       ],
       "imdbRating": "8.7",
       "runtime": "169 мин",
-      "card": "cards/673a7d72d245f3873e0668ab0484e360d97a247cd82be38c3355dbb604317816.json",
-      "sha256": "673a7d72d245f3873e0668ab0484e360d97a247cd82be38c3355dbb604317816",
+      "card": "cards/ac229b507d17e8e649239802d3461d4c1ae88b10dae7051f1d8caed7ccc1fbad.json",
+      "sha256": "ac229b507d17e8e649239802d3461d4c1ae88b10dae7051f1d8caed7ccc1fbad",
       "localized": true,
       "provider": "github"
     },
@@ -107,8 +1658,8 @@
       "type": "movie",
       "year": "1965",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt0059550/img",
-      "background": "https://images.metahub.space/background/medium/tt0059550/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/246baad8dc6f5b42cec68d2d26a3f8dcf3d33a450a3fa4e5231cb930ad5f0ccf.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a046020203e4bed91894ccadfcf374032b8677c62f5c440815a6626397d64bd9.jpg",
       "description": "Три комедийные истории о студенте Шурике: стройка, экзамен и попытка ограбления склада.",
       "originalName": "Operation 'Y' & Other Shurik's Adventures",
       "aliases": [
@@ -122,8 +1673,8 @@
       ],
       "imdbRating": "8.4",
       "runtime": "95 мин",
-      "card": "cards/4a99d01a65e87d79dcfb8183c19a81fa58ac9230d32cf60f115098c95021a66b.json",
-      "sha256": "4a99d01a65e87d79dcfb8183c19a81fa58ac9230d32cf60f115098c95021a66b",
+      "card": "cards/b3c1cf07e52d69faa02d69274313f7c37300d32359d11bf118d3c0645eced0c4.json",
+      "sha256": "b3c1cf07e52d69faa02d69274313f7c37300d32359d11bf118d3c0645eced0c4",
       "localized": true,
       "provider": "github"
     },
@@ -137,8 +1688,8 @@
       "type": "movie",
       "year": "1999",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt0120689/img",
-      "background": "https://images.metahub.space/background/medium/tt0120689/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9f2a31642f7b543cf1fd809c88a8eefebf1d0e97a0f8f1772f01a0cc1f33befd.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c8ddfd27e30e3d04a76dc5a62202f9bc270dd92302cc59bc37adf3dee1bbaa75.jpg",
       "description": "Надзиратель тюрьмы встречает заключённого с необыкновенным даром и начинает сомневаться в справедливости приговора.",
       "originalName": "The Green Mile",
       "aliases": [
@@ -152,8 +1703,8 @@
       ],
       "imdbRating": "8.6",
       "runtime": "189 мин",
-      "card": "cards/8d22bcf6063e57a065bb6e7fb610426d81be8ffbb644b10fe3a1a4d59cecddd0.json",
-      "sha256": "8d22bcf6063e57a065bb6e7fb610426d81be8ffbb644b10fe3a1a4d59cecddd0",
+      "card": "cards/a1dedaa6c74842707cba558b432910f810d2422f4f1f60ad7b640278d676cef4.json",
+      "sha256": "a1dedaa6c74842707cba558b432910f810d2422f4f1f60ad7b640278d676cef4",
       "localized": true,
       "provider": "github"
     },
@@ -167,8 +1718,8 @@
       "type": "movie",
       "year": "1973",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt0070233/img",
-      "background": "https://images.metahub.space/background/medium/tt0070233/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c9b52f153de4061355692684e7f0161d8ae1af46c7652e55d3b3243d74453af7.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fd3ced9cce1e82ad720602197e0b6152504e3c574841311d3a4ec759825a5e9b.jpg",
       "description": "Изобретённая в квартире машина времени меняет местами советского управдома и царя Ивана Грозного.",
       "originalName": "Ivan Vasilyevich Changes His Profession",
       "aliases": [
@@ -182,8 +1733,8 @@
       ],
       "imdbRating": "8.2",
       "runtime": "88 мин",
-      "card": "cards/318f5c47244807e7975da7cf28881e1cb1b2bf8942c4883d3b237f72cfe39e6e.json",
-      "sha256": "318f5c47244807e7975da7cf28881e1cb1b2bf8942c4883d3b237f72cfe39e6e",
+      "card": "cards/17633d04e06628eb3bcdb72ecdf003279aba3d1f0666af725ff0f781954ad35f.json",
+      "sha256": "17633d04e06628eb3bcdb72ecdf003279aba3d1f0666af725ff0f781954ad35f",
       "localized": true,
       "provider": "github"
     },
@@ -197,8 +1748,8 @@
       "type": "movie",
       "year": "2010",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt1375666/img",
-      "background": "https://images.metahub.space/background/medium/tt1375666/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/eee72ea1a546da36fd4e909af44e1fd30b897dfb734f8546a9e627f507ff9c36.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6744fe7911b176c044f1229c1d833367b9755b85ae775d1f2f75de9eda2be417.jpg",
       "description": "Специалист по проникновению в сны берётся внедрить чужую идею, рискуя потерять связь с реальностью.",
       "originalName": "Inception",
       "aliases": [
@@ -212,8 +1763,8 @@
       ],
       "imdbRating": "8.8",
       "runtime": "148 мин",
-      "card": "cards/38c639f205f2eb01e23f05a0f8baf189846aacc9b2ae01c56c3f8fe08b3319c8.json",
-      "sha256": "38c639f205f2eb01e23f05a0f8baf189846aacc9b2ae01c56c3f8fe08b3319c8",
+      "card": "cards/4e8b808203340d826c97dcde76e634d3e0c7bafec243f55d8bbed08c57f14f0e.json",
+      "sha256": "4e8b808203340d826c97dcde76e634d3e0c7bafec243f55d8bbed08c57f14f0e",
       "localized": true,
       "provider": "github"
     },
@@ -227,8 +1778,8 @@
       "type": "movie",
       "year": "1979",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt0079579/img",
-      "background": "https://images.metahub.space/background/medium/tt0079579/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1e594552432d67b9d9e299a627481cdf80b5fa29fdf7c7a6a3c3f68b3b4e7677.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4c37fb07a0f1f111d7a5fb3c3df4350178255fedcd969d5ebe29a31f4e81ae7a.jpg",
       "description": "Три подруги приезжают покорять Москву. Дружба, любовь и профессиональные амбиции проходят проверку временем.",
       "originalName": "Moscow Does Not Believe in Tears",
       "aliases": [
@@ -243,8 +1794,8 @@
       ],
       "imdbRating": "8.0",
       "runtime": "142 мин",
-      "card": "cards/5abf00624f6cae268acd47c973ee5e7a5a1dd93bf1be15a299a922679080758d.json",
-      "sha256": "5abf00624f6cae268acd47c973ee5e7a5a1dd93bf1be15a299a922679080758d",
+      "card": "cards/65c0033ca4e716cd8125d8c1825792da00571234a5a9ce8243d8bb8232e5c572.json",
+      "sha256": "65c0033ca4e716cd8125d8c1825792da00571234a5a9ce8243d8bb8232e5c572",
       "localized": true,
       "provider": "github"
     },
@@ -258,8 +1809,8 @@
       "type": "movie",
       "year": "2011",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt1675434/img",
-      "background": "https://images.metahub.space/background/medium/tt1675434/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f860cf23d00c215877b97bc58d43888a16f71ec5947a5f564a73df28043da45b.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/31743d759f8547b46c97498e54ea03763e3906113a743e5a9ca722c89d4a49ab.jpg",
       "description": "Богатый аристократ нанимает помощником молодого человека из другого мира. Необычный союз меняет жизнь обоих.",
       "originalName": "The Intouchables",
       "aliases": [
@@ -274,8 +1825,8 @@
       ],
       "imdbRating": "8.5",
       "runtime": "113 мин",
-      "card": "cards/0edd76cc8395d57da17dccd397490382707c4e6ab77d03349e4da15a7d66cf35.json",
-      "sha256": "0edd76cc8395d57da17dccd397490382707c4e6ab77d03349e4da15a7d66cf35",
+      "card": "cards/11747113137f5c8fbb74537c8318d33a5772e0959274d38fdb6284e7d187f63c.json",
+      "sha256": "11747113137f5c8fbb74537c8318d33a5772e0959274d38fdb6284e7d187f63c",
       "localized": true,
       "provider": "github"
     },
@@ -289,8 +1840,8 @@
       "type": "movie",
       "year": "1984",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt0087650/img",
-      "background": "https://images.metahub.space/background/medium/tt0087650/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d798fb5697ab931c35718679ab4d800144df9071a08d67cbb43ae5b0f8f2fbb8.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/37341102515083dda97beefd611de5bd0ad74f5880bb335d96bc169e4646694b.jpg",
       "description": "Курортный роман ставит под угрозу семью деревенского любителя голубей. Вернуть близких оказывается непросто.",
       "originalName": "Love and Doves",
       "aliases": [
@@ -304,8 +1855,8 @@
       ],
       "imdbRating": "7.8",
       "runtime": "107 мин",
-      "card": "cards/2698baf1c0a37f02b1e938fd8009b7b3d792d5c1ec5c6f6ec70ecf725424fa14.json",
-      "sha256": "2698baf1c0a37f02b1e938fd8009b7b3d792d5c1ec5c6f6ec70ecf725424fa14",
+      "card": "cards/335bb838039675f6c30aa70e34c42e9b2aef47731cdd45fe3e8f6a6ae73d3d65.json",
+      "sha256": "335bb838039675f6c30aa70e34c42e9b2aef47731cdd45fe3e8f6a6ae73d3d65",
       "localized": true,
       "provider": "github"
     },
@@ -319,8 +1870,8 @@
       "type": "movie",
       "year": "2001",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt0120737/img",
-      "background": "https://images.metahub.space/background/medium/tt0120737/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/edeb0fa3b9b1d7b905a737c5e4d833273bfb91d180b3ff040e1def577705f4c2.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d6f0b72ea57a5afdcaaa248119ac1812ebc931e64217f02a19db8c582e055b81.jpg",
       "description": "Хоббит Фродо и его спутники отправляются уничтожить кольцо, способное подчинить Средиземье тёмному властелину.",
       "originalName": "The Lord of the Rings: The Fellowship of the Ring",
       "aliases": [
@@ -334,8 +1885,8 @@
       ],
       "imdbRating": "8.9",
       "runtime": "179 мин",
-      "card": "cards/7c9e1590e7745ec9f31f24d0b79784b0eb60256295cf4e973e9f9912012923fa.json",
-      "sha256": "7c9e1590e7745ec9f31f24d0b79784b0eb60256295cf4e973e9f9912012923fa",
+      "card": "cards/ef44ed4ae6b0ac5e04ab11cd55cc25f41693bda6a7067d546acf29ae67d60803.json",
+      "sha256": "ef44ed4ae6b0ac5e04ab11cd55cc25f41693bda6a7067d546acf29ae67d60803",
       "localized": true,
       "provider": "github"
     },
@@ -349,8 +1900,8 @@
       "type": "movie",
       "year": "2017",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt5987402/img",
-      "background": "https://images.metahub.space/background/medium/tt5987402/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5bdbd6d7ffd76c812ece37509410b9e1b1583ba64951ae3186b8aaf24a634a0c.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/97886bac474a5da63ded0b66c59e101b7936f0e716e3a5cb0211466ec0e6e0b1.jpg",
       "description": "Советская баскетбольная сборная готовится к олимпийскому финалу против непобедимой команды США.",
       "originalName": "Three Seconds",
       "aliases": [
@@ -364,8 +1915,8 @@
       ],
       "imdbRating": "6.6",
       "runtime": "133 мин",
-      "card": "cards/07050f4695530bfd6c96db54e71eecab9354924aa29219a2c2829bf5cbefa184.json",
-      "sha256": "07050f4695530bfd6c96db54e71eecab9354924aa29219a2c2829bf5cbefa184",
+      "card": "cards/8cde76739ef6d98aef0bac287c2352b2b919f063713109f85c36181e3cd6ec9d.json",
+      "sha256": "8cde76739ef6d98aef0bac287c2352b2b919f063713109f85c36181e3cd6ec9d",
       "localized": true,
       "provider": "github"
     },
@@ -379,8 +1930,8 @@
       "type": "movie",
       "year": "2008",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt0468569/img",
-      "background": "https://images.metahub.space/background/medium/tt0468569/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e44c8ce4e76c942a454ff1b30d69742c9251a906d3f457cda3a71eada6c33099.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/753e90073bb4df495e117150ea90fd8ab1bebdef96adbc0038fbe1eed95ed0f3.jpg",
       "description": "Бэтмен пытается защитить Готэм от Джокера, который превращает борьбу с преступностью в испытание моральных принципов.",
       "originalName": "The Dark Knight",
       "aliases": [
@@ -393,8 +1944,8 @@
       ],
       "imdbRating": "9.1",
       "runtime": "152 мин",
-      "card": "cards/8d6b99cb2b59f1e69e07ade0c5f0b04600bf8fb730020d415e0a6952e75eb182.json",
-      "sha256": "8d6b99cb2b59f1e69e07ade0c5f0b04600bf8fb730020d415e0a6952e75eb182",
+      "card": "cards/e6bb215733068df6e571f4f8817fc26380c24546791aee980429a5c212e2952d.json",
+      "sha256": "e6bb215733068df6e571f4f8817fc26380c24546791aee980429a5c212e2952d",
       "localized": true,
       "provider": "github"
     },
@@ -408,8 +1959,8 @@
       "type": "movie",
       "year": "2013",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt2182001/img",
-      "background": "https://images.metahub.space/background/medium/tt2182001/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b715e78bae3c9be61f9453d6958de40076f683e6d7e3d2f85789d0472c25a520.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/94d8cf48ad00ec975e4142fa9abbb1a2a36c599925ab12523e66cdf48fd28972.jpg",
       "description": "История становления хоккеиста Валерия Харламова и подготовки сборной СССР к встрече с канадскими профессионалами.",
       "originalName": "Legend No. 17",
       "aliases": [
@@ -424,8 +1975,8 @@
       ],
       "imdbRating": "7.4",
       "runtime": "134 мин",
-      "card": "cards/941c6e2d0499bf6da19c1b72f04f3bb98156d7e06c1baf54ab0f7ce5d7d7aeb0.json",
-      "sha256": "941c6e2d0499bf6da19c1b72f04f3bb98156d7e06c1baf54ab0f7ce5d7d7aeb0",
+      "card": "cards/bca4f1b0bdbc08c23543a3570042e2b36f03be92e5a898e6358dfd3632939082.json",
+      "sha256": "bca4f1b0bdbc08c23543a3570042e2b36f03be92e5a898e6358dfd3632939082",
       "localized": true,
       "provider": "github"
     },
@@ -439,8 +1990,8 @@
       "type": "movie",
       "year": "1994",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt0110357/img",
-      "background": "https://images.metahub.space/background/medium/tt0110357/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5d4e4437143202a508f09eea96d6f87b16295a61d37298cb0b222fed0b114d67.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e53fd2678ba65f495ba340c8e1385299ad494455c39e0ef2712c60a06a604ce4.jpg",
       "description": "Львёнок Симба покидает родной прайд после трагедии. Повзрослев, он должен принять ответственность за своё королевство.",
       "originalName": "The Lion King",
       "aliases": [
@@ -454,8 +2005,8 @@
       ],
       "imdbRating": "8.5",
       "runtime": "89 мин",
-      "card": "cards/b196e6c8f66c3da6fdcecaffca85c772e87327ed7968f1cc79e4917615503db6.json",
-      "sha256": "b196e6c8f66c3da6fdcecaffca85c772e87327ed7968f1cc79e4917615503db6",
+      "card": "cards/093d5398b8d05453926061b3de64dab62f57f4b98b36eb010337b721af17ee1a.json",
+      "sha256": "093d5398b8d05453926061b3de64dab62f57f4b98b36eb010337b721af17ee1a",
       "localized": true,
       "provider": "github"
     },
@@ -469,8 +2020,8 @@
       "type": "movie",
       "year": "2014",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt3560686/img",
-      "background": "https://images.metahub.space/background/medium/tt3560686/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ba0d3b165c91f93090cea6b791fae26604658f46123ad1c95fe349eb4be9f2ad.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6373a80a24412eafda664d16beeb9694e7f6e48a06ba92d0d5f3804ae8bc1593.jpg",
       "description": "Сантехник обнаруживает опасную трещину в общежитии и пытается убедить городские власти срочно спасти его жителей.",
       "originalName": "The Fool",
       "aliases": [
@@ -484,8 +2035,8 @@
       ],
       "imdbRating": "7.9",
       "runtime": "116 мин",
-      "card": "cards/f6d9859ffbf092317ae06a22c6ed2943bde402459d7f2649933ca7b8c859aad5.json",
-      "sha256": "f6d9859ffbf092317ae06a22c6ed2943bde402459d7f2649933ca7b8c859aad5",
+      "card": "cards/310d43b48c6333fa6f8185c9b910a517854d93d369ba89ca1e50243cb431f168.json",
+      "sha256": "310d43b48c6333fa6f8185c9b910a517854d93d369ba89ca1e50243cb431f168",
       "localized": true,
       "provider": "github"
     },
@@ -499,8 +2050,8 @@
       "type": "series",
       "year": "2008",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt0903747/img",
-      "background": "https://images.metahub.space/background/medium/tt0903747/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/69ca0983c48cdf89991c66408fe238baa733083373d71e68262cffd199cb287b.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/42f1986c55f0df6aef16edca47f51e348d48920805e10659d4326b9dd77e02aa.jpg",
       "description": "Учитель химии начинает производить наркотики ради семьи, но постепенно превращает новую жизнь в опасную борьбу за власть.",
       "originalName": "Breaking Bad",
       "aliases": [
@@ -514,8 +2065,8 @@
       ],
       "imdbRating": "9.5",
       "runtime": "49 мин",
-      "card": "cards/9392ffb9e2e2974706ebdd8ec0708c5d4a78ad65f1f3232a7e89f9eec9de372d.json",
-      "sha256": "9392ffb9e2e2974706ebdd8ec0708c5d4a78ad65f1f3232a7e89f9eec9de372d",
+      "card": "cards/fc1e266b03ffdeef3bc56cdfc002d9aca19b32237c18bf49a0fdbfe9615aa6cf.json",
+      "sha256": "fc1e266b03ffdeef3bc56cdfc002d9aca19b32237c18bf49a0fdbfe9615aa6cf",
       "localized": true,
       "provider": "github"
     },
@@ -529,8 +2080,8 @@
       "type": "series",
       "year": "2015",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt5135336/img",
-      "background": "https://images.metahub.space/background/medium/tt5135336/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cea1022a19af01645484f56bef2d0ddf404e0e6f57921db85f787b4ba437594d.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1919467cb44f0ca511491382dc7ce980720789424d3c2f2e1dac758c6c661bfd.jpg",
       "description": "Молодая выпускница работает с опытным следователем, чьи нестандартные методы раскрытия убийств скрывают тяжёлое прошлое.",
       "originalName": "The Method",
       "aliases": [
@@ -544,8 +2095,8 @@
       ],
       "imdbRating": "7.2",
       "runtime": "45 мин",
-      "card": "cards/e9a320a942a944f43e08d1c615d91812d17ab761ba2f0925408a6833d26b058d.json",
-      "sha256": "e9a320a942a944f43e08d1c615d91812d17ab761ba2f0925408a6833d26b058d",
+      "card": "cards/e17663c26065908b39808b9fea2af85a59f52801f717603c27e6cb208f4f2f92.json",
+      "sha256": "e17663c26065908b39808b9fea2af85a59f52801f717603c27e6cb208f4f2f92",
       "localized": true,
       "provider": "github"
     },
@@ -559,8 +2110,8 @@
       "type": "series",
       "year": "2011",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt0944947/img",
-      "background": "https://images.metahub.space/background/medium/tt0944947/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d970ab4fec68605490c0213846f40cc16aeef0a3039be5bfd1d48a5d2c59c1b9.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cb4562f07e66f10d4e5d2e03ce1ca53865c6c62bbbd5865d1d64dbafb7bb78f7.jpg",
       "description": "Великие дома борются за Железный трон, пока на севере приближается угроза, способная уничтожить все королевства.",
       "originalName": "Game of Thrones",
       "aliases": [
@@ -573,8 +2124,8 @@
       ],
       "imdbRating": "9.2",
       "runtime": "57 мин",
-      "card": "cards/55562c472cc6ab223b237a14bdd87e45fdd4b323acb0e3295fa329fd252715b9.json",
-      "sha256": "55562c472cc6ab223b237a14bdd87e45fdd4b323acb0e3295fa329fd252715b9",
+      "card": "cards/1f8b2091f93e87406fb223b750bf2f87f087c0368c17f737cf6c84e3f66fb70c.json",
+      "sha256": "1f8b2091f93e87406fb223b750bf2f87f087c0368c17f737cf6c84e3f66fb70c",
       "localized": true,
       "provider": "github"
     },
@@ -588,8 +2139,8 @@
       "type": "series",
       "year": "2012",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt2930610/img",
-      "background": "https://images.metahub.space/background/medium/tt2930610/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4e67d0d1c1facc6982c7dcf0623fa116d2079c35436f3d0e71ad900597ce6101.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e5a25eb56fc30d3510ab38723330ce9b6e34e3ba8578e021f13339aecc9b0f49.jpg",
       "description": "Начинающий повар устраивается в московский ресторан. На кухне сталкиваются амбиции, дружба, любовь и характер шефа.",
       "originalName": "The Kitchen",
       "aliases": [
@@ -601,8 +2152,8 @@
       ],
       "imdbRating": "8.4",
       "runtime": "25 мин",
-      "card": "cards/9cbd48e7165c8e6d6a10faa32dba841f4327a32ab4c8a9ae7577daf385f9b82d.json",
-      "sha256": "9cbd48e7165c8e6d6a10faa32dba841f4327a32ab4c8a9ae7577daf385f9b82d",
+      "card": "cards/07fc807ca9bed84c79d59ab320a62430f0d64746b93384367bcf0e0ad92bfea5.json",
+      "sha256": "07fc807ca9bed84c79d59ab320a62430f0d64746b93384367bcf0e0ad92bfea5",
       "localized": true,
       "provider": "github"
     },
@@ -616,8 +2167,8 @@
       "type": "series",
       "year": "2015",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt3032476/img",
-      "background": "https://images.metahub.space/background/medium/tt3032476/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/67dae4a08c3537e8e043470283e556d3f347dde876a1f30d26e30208cba25f98.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/81fe7378d295d5ea535f23ae8588401554574f61af4d4d7753668ae2f8a58ddb.jpg",
       "description": "Адвокат Джимми Макгилл пытается добиться признания и постепенно становится человеком, известным как Сол Гудман.",
       "originalName": "Better Call Saul",
       "aliases": [
@@ -630,8 +2181,8 @@
       ],
       "imdbRating": "9.0",
       "runtime": "50 мин",
-      "card": "cards/4ef9652332182a618dd93e0e0b3aae1372f3d97dbd45fa09f94d16fd355d47e5.json",
-      "sha256": "4ef9652332182a618dd93e0e0b3aae1372f3d97dbd45fa09f94d16fd355d47e5",
+      "card": "cards/e8403e2eda0f9186929f2ef929e73d309a1c1a8b296f45b4393d77f83d7b0ed6.json",
+      "sha256": "e8403e2eda0f9186929f2ef929e73d309a1c1a8b296f45b4393d77f83d7b0ed6",
       "localized": true,
       "provider": "github"
     },
@@ -645,8 +2196,8 @@
       "type": "series",
       "year": "2018",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt9011124/img",
-      "background": "https://images.metahub.space/background/medium/tt9011124/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0f60727ac5ea752e6c2e5b39f2f4f6c811f3a5bf91ca316f850ef4f324f1a73e.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2acdca88a15cabeee84d0e67768adf6ac9d4e11ae3826d55d5895ddacdda80ff.jpg",
       "description": "Психолог использует провокационные методы, чтобы помогать клиентам, одновременно пытаясь разобраться с собственной жизнью.",
       "originalName": "Trigger",
       "aliases": [
@@ -659,8 +2210,8 @@
       ],
       "imdbRating": "7.4",
       "runtime": "48 мин",
-      "card": "cards/ff32a7e2db18e54e2de9a6f2e5bc9cd4a5b5f955a5cd52971a6626d3cbc7412c.json",
-      "sha256": "ff32a7e2db18e54e2de9a6f2e5bc9cd4a5b5f955a5cd52971a6626d3cbc7412c",
+      "card": "cards/12788b2c19937313d4dcc3bf063175f644a2a8b41f476cf7b2c18da92217460f.json",
+      "sha256": "12788b2c19937313d4dcc3bf063175f644a2a8b41f476cf7b2c18da92217460f",
       "localized": true,
       "provider": "github"
     },
@@ -674,8 +2225,8 @@
       "type": "series",
       "year": "2019",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt7366338/img",
-      "background": "https://images.metahub.space/background/medium/tt7366338/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6a5b73751b5fe301fb35f5a475bb5b2c4f1a2d354cbedf3efa5f7e5b2384ea76.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/59f46289766659eea83276e6d2343e112d6868fd23d17b8983a9fbf68a5db531.jpg",
       "description": "После аварии на атомной станции учёные, спасатели и чиновники пытаются остановить катастрофу и установить её причины.",
       "originalName": "Chernobyl",
       "aliases": [
@@ -689,8 +2240,8 @@
       ],
       "imdbRating": "9.3",
       "runtime": "65 мин",
-      "card": "cards/814dec10c5940858b00def38d8271f976838d09357fe5da702d44c57b7faee08.json",
-      "sha256": "814dec10c5940858b00def38d8271f976838d09357fe5da702d44c57b7faee08",
+      "card": "cards/5bc439857161ea31e8dde468cc97ab016be3a21ac32bcad0066a81aebb2f7d0b.json",
+      "sha256": "5bc439857161ea31e8dde468cc97ab016be3a21ac32bcad0066a81aebb2f7d0b",
       "localized": true,
       "provider": "github"
     },
@@ -704,8 +2255,8 @@
       "type": "series",
       "year": "2014",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt4426042/img",
-      "background": "https://images.metahub.space/background/medium/tt4426042/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/407d0d16f84b465f1787930fc1d63f96f9a18772428a65ff10220fe4781a9dba.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d0cd305a5b02f967e9881c18146e0fd29758f9e3099df7e99f2f6ee245c9cdde.jpg",
       "description": "Сын богатого бизнесмена попадает на службу в полицию и сталкивается с последствиями собственного прошлого.",
       "originalName": "Silver Spoon",
       "aliases": [
@@ -718,8 +2269,8 @@
       ],
       "imdbRating": "7.5",
       "runtime": "60 мин",
-      "card": "cards/b1b54ca97c7f2e4a079c1ad6c3deb5bcfd90c9ce91cf1f590486a182856b59d7.json",
-      "sha256": "b1b54ca97c7f2e4a079c1ad6c3deb5bcfd90c9ce91cf1f590486a182856b59d7",
+      "card": "cards/cf5589b670e492f1f601fd651c70fab250cba1346bdc0a9a2addceef594469b4.json",
+      "sha256": "cf5589b670e492f1f601fd651c70fab250cba1346bdc0a9a2addceef594469b4",
       "localized": true,
       "provider": "github"
     },
@@ -733,8 +2284,8 @@
       "type": "series",
       "year": "2010",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt1475582/img",
-      "background": "https://images.metahub.space/background/medium/tt1475582/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/826774f1a426a03db69c5eda27e1f04446e4d6aa17c914b6ccc7796e71fe1fa6.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cde239fd87d79a17f9805c6b0a72d69790a6170ca48bcbf530fc873e3922d08c.jpg",
       "description": "Шерлок Холмс и доктор Ватсон расследуют необычные преступления в современном Лондоне.",
       "originalName": "Sherlock",
       "aliases": [
@@ -748,8 +2299,8 @@
       ],
       "imdbRating": "9.0",
       "runtime": "88 мин",
-      "card": "cards/755307d7283b33470575c8b0caaa750489f716c39a4de4363483158dddfa31ce.json",
-      "sha256": "755307d7283b33470575c8b0caaa750489f716c39a4de4363483158dddfa31ce",
+      "card": "cards/953497d2b3ef774a86548540274ade874dc543d3292f2fad71b470887a9d5d2f.json",
+      "sha256": "953497d2b3ef774a86548540274ade874dc543d3292f2fad71b470887a9d5d2f",
       "localized": true,
       "provider": "github"
     },
@@ -763,8 +2314,8 @@
       "type": "series",
       "year": "2023",
       "origin": "ru",
-      "poster": "https://live.metahub.space/poster/small/tt28429213/img",
-      "background": "https://live.metahub.space/background/medium/tt28429213/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/836d6c8bd9e38711f346cf4b90b68213b68c31809435e9786a86757f7a7f825f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/aab56e1c67c2555ab9be056fdaaa87c60e988618b23308746c571340123002e2.jpg",
       "description": "Подростки позднего СССР выбирают между семьёй, дружбой и правилами уличных группировок.",
       "originalName": "The Boy's Word: Blood on the Asphalt",
       "aliases": [
@@ -777,8 +2328,8 @@
       ],
       "imdbRating": "7.6",
       "runtime": "52 мин",
-      "card": "cards/07c230ef8b7fcf2b01c698c0d9c8cc99df091cb47216a05b8bd1d8ef7badc8ee.json",
-      "sha256": "07c230ef8b7fcf2b01c698c0d9c8cc99df091cb47216a05b8bd1d8ef7badc8ee",
+      "card": "cards/fae54058fc605b53decc1e9725087f76134591861b29e3a5c302c3818ab9cba4.json",
+      "sha256": "fae54058fc605b53decc1e9725087f76134591861b29e3a5c302c3818ab9cba4",
       "localized": true,
       "provider": "github"
     },
@@ -792,8 +2343,8 @@
       "type": "series",
       "year": "2014",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt2356777/img",
-      "background": "https://images.metahub.space/background/medium/tt2356777/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ac69bbc1013c6129d0caf2c88b266440e28b6358d65e21e896292b0a284bf0a8.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8f55f788958206a106c60853438f27a347ded767ce3517b1c2c17d97403f2d24.jpg",
       "description": "Каждый сезон рассказывает отдельную историю расследования, в котором преступление переплетается с личными драмами детективов.",
       "originalName": "True Detective",
       "aliases": [
@@ -807,8 +2358,8 @@
       ],
       "imdbRating": "8.8",
       "runtime": "61 мин",
-      "card": "cards/680022c705e7a1fb1ae104f8fdb94004e39b33f76658e49b661fcb4f69f6a25c.json",
-      "sha256": "680022c705e7a1fb1ae104f8fdb94004e39b33f76658e49b661fcb4f69f6a25c",
+      "card": "cards/d548f5b95d95aece7b2d410bbba7f2aa7fc25bb0d95983d585bd753029f873fb.json",
+      "sha256": "d548f5b95d95aece7b2d410bbba7f2aa7fc25bb0d95983d585bd753029f873fb",
       "localized": true,
       "provider": "github"
     },
@@ -822,8 +2373,8 @@
       "type": "series",
       "year": "2021",
       "origin": "ru",
-      "poster": "https://live.metahub.space/poster/small/tt10922010/img",
-      "background": "https://live.metahub.space/background/medium/tt10922010/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d7cdf3d79a2df5f3b34172b2e628c5cef7a1ed03a921d3d26e77fc7bf907978d.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/72875f2c53fe6580c33346c0401c87ae51f5ffff0d31e529ea4fe8a598ae0f7e.jpg",
       "description": "Семья смоленских вампиров пытается жить незаметно, но загадочные убийства ставят под угрозу их привычный порядок.",
       "originalName": "The Vampires of Midland",
       "aliases": [
@@ -835,8 +2386,8 @@
         "Комедия"
       ],
       "imdbRating": "7.5",
-      "card": "cards/dbe64b303f9b6cf406abd52c518c6a612e6cf808d0bfb195b750c41f16fa456f.json",
-      "sha256": "dbe64b303f9b6cf406abd52c518c6a612e6cf808d0bfb195b750c41f16fa456f",
+      "card": "cards/2c53c4b4c807ffc43872edcf5543bad21937b1bd867e008a1ee042bec1e9f461.json",
+      "sha256": "2c53c4b4c807ffc43872edcf5543bad21937b1bd867e008a1ee042bec1e9f461",
       "localized": true,
       "provider": "github"
     },
@@ -850,8 +2401,8 @@
       "type": "series",
       "year": "2017",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt5753856/img",
-      "background": "https://images.metahub.space/background/medium/tt5753856/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/39d5fd50e727531bb23094af92f42b3ca7c43ee5626998ff1beca06bd7242cf7.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ea6160c847497880fca0b606d98b25cde58c7bfa645f60440870cd155f6da88d.jpg",
       "description": "Исчезновение ребёнка раскрывает тайны нескольких семей и запутанную связь между прошлым, настоящим и будущим.",
       "originalName": "Dark",
       "aliases": [
@@ -865,8 +2416,8 @@
       ],
       "imdbRating": "8.7",
       "runtime": "56 мин",
-      "card": "cards/958c629b39c0e5749cea8e7cd6ee14b3989ea93fc2c6407c9a32fa481eac7508.json",
-      "sha256": "958c629b39c0e5749cea8e7cd6ee14b3989ea93fc2c6407c9a32fa481eac7508",
+      "card": "cards/a866531ed547587e1b73e779b5483eb485f0474d79225a1aae742c1225c56faf.json",
+      "sha256": "a866531ed547587e1b73e779b5483eb485f0474d79225a1aae742c1225c56faf",
       "localized": true,
       "provider": "github"
     },
@@ -880,8 +2431,8 @@
       "type": "series",
       "year": "2022",
       "origin": "ru",
-      "poster": "https://live.metahub.space/poster/small/tt15527340/img",
-      "background": "https://live.metahub.space/background/medium/tt15527340/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ee31d5d5ae524a3274d9d7e004248b8aac620867735538277381ed85cd0e7484.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3b75a9246c62a9c5ae8f8e2578cb3645f64d654214de6ee6d99d43ee306844a1.jpg",
       "description": "Врачи расследуют вспышку ВИЧ в детской больнице и пытаются остановить распространение инфекции.",
       "originalName": "Patient Zero",
       "aliases": [
@@ -894,8 +2445,8 @@
       ],
       "imdbRating": "7.7",
       "runtime": "48 мин",
-      "card": "cards/7effa58cd9d053237d5cc58f6b15f3eaff84035fe4a7812fa45a27c86235037e.json",
-      "sha256": "7effa58cd9d053237d5cc58f6b15f3eaff84035fe4a7812fa45a27c86235037e",
+      "card": "cards/e071a0f75e43c2ec6244a7a4f8a330d8acb4ff1110b9b796051b8b6084f106dd.json",
+      "sha256": "e071a0f75e43c2ec6244a7a4f8a330d8acb4ff1110b9b796051b8b6084f106dd",
       "localized": true,
       "provider": "github"
     },
@@ -909,8 +2460,8 @@
       "type": "series",
       "year": "2016",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt4574334/img",
-      "background": "https://images.metahub.space/background/medium/tt4574334/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1ac602a9bcdd0b8a2397fadcb1e506000d06afd741b887372e605c6b042ecadf.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8bb34d3bf47b5039250ed9fad5ba41af11db9d40d2a718cb0e80d6f916bd681d.jpg",
       "description": "Исчезновение мальчика в небольшом городе приводит его друзей к секретным экспериментам и опасному параллельному миру.",
       "originalName": "Stranger Things",
       "aliases": [
@@ -924,8 +2475,8 @@
       ],
       "imdbRating": "8.6",
       "runtime": "65 мин",
-      "card": "cards/8d1124499ccf127854bc79e122ef7eeee9c219a4a8ae39ea9661b7f264b3ae99.json",
-      "sha256": "8d1124499ccf127854bc79e122ef7eeee9c219a4a8ae39ea9661b7f264b3ae99",
+      "card": "cards/7cce5ae748a203728aba15b60a6876064470700ec2e38deabae538cc8c1f7d0b.json",
+      "sha256": "7cce5ae748a203728aba15b60a6876064470700ec2e38deabae538cc8c1f7d0b",
       "localized": true,
       "provider": "github"
     },
@@ -939,8 +2490,8 @@
       "type": "series",
       "year": "2007",
       "origin": "ru",
-      "poster": "https://images.metahub.space/poster/small/tt1048097/img",
-      "background": "https://images.metahub.space/background/medium/tt1048097/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f07b6bfd077794620769a246e16192e206c89a7d6466d10402bfe6f0243851ce.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e3559ddd66094afbf22828a953af787a88f283e93ca3075241805354896df3be.jpg",
       "description": "В послевоенной Одессе уголовный розыск ищет организатора банды, связанной с хищениями военного имущества.",
       "originalName": "Liquidation",
       "aliases": [
@@ -954,8 +2505,8 @@
       ],
       "imdbRating": "8.1",
       "runtime": "45 мин",
-      "card": "cards/580495e03f53414522ee4812c777b3700946557455ad030df2a98a475417635e.json",
-      "sha256": "580495e03f53414522ee4812c777b3700946557455ad030df2a98a475417635e",
+      "card": "cards/a88143329028143a42bd3b973bc8fc107207c7cfe0609cc1f46b5a9841238b2c.json",
+      "sha256": "a88143329028143a42bd3b973bc8fc107207c7cfe0609cc1f46b5a9841238b2c",
       "localized": true,
       "provider": "github"
     },
@@ -969,8 +2520,8 @@
       "type": "series",
       "year": "2024",
       "origin": "other",
-      "poster": "https://images.metahub.space/poster/small/tt10466872/img",
-      "background": "https://images.metahub.space/background/medium/tt10466872/img",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/09943c9273016ffe0995e25369a9695ed9c54fea906f04aab95444a9d7ab76fc.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/225f398b617dbd327c0fd6641f14536eea12518441760984c9722af26f967f98.jpg",
       "description": "Сёстры Харконнен укрепляют влияние тайного ордена, которому предстоит стать Бене Гессерит.",
       "originalName": "Dune: Prophecy",
       "aliases": [
@@ -984,8 +2535,8 @@
       ],
       "imdbRating": "7.3",
       "runtime": "65 мин",
-      "card": "cards/d4f06e880e799999e735ac6fee0cc64f7dda5f09c01f4c78919a406b0c5336bb.json",
-      "sha256": "d4f06e880e799999e735ac6fee0cc64f7dda5f09c01f4c78919a406b0c5336bb",
+      "card": "cards/c11a432884c9302254f6a08b9e415e59932de4c7158bc4ca15ccc62021c70ac8.json",
+      "sha256": "c11a432884c9302254f6a08b9e415e59932de4c7158bc4ca15ccc62021c70ac8",
       "localized": true,
       "provider": "github"
     },
@@ -1000,18 +2551,20 @@
       "kind": "show",
       "year": "2024",
       "origin": "ru",
-      "poster": "https://live.metahub.space/poster/small/tt31531192/img",
-      "background": "https://live.metahub.space/background/medium/tt31531192/img",
-      "description": "Участники реалити проходят испытания на выносливость и находчивость, борясь за право остаться в проекте.",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2438ec063e6d307ab421cda5eab3f2c88f97d3acd72a8bd4e6cffca869ccd332.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/74a5fcf6adc3608833b939fbac276092d218b8cc9425da8c8e96c5e3d7b41444.jpg",
+      "description": "Участники реалити проходят испытания на выносливость и находчивость, борясь за право остаться в проекте. Четвёртый сезон — «Легенда Альфа»: звёзды реалити отправляются во Вьетнам и соревнуются за приз в 10 миллионов рублей.",
       "originalName": "Выживалити: Миссия Альфа",
       "aliases": [
         "Выживалити. Миссия Альфа",
-        "Выживалити: Миссия Альфа"
+        "Выживалити: Миссия Альфа",
+        "Выживалити. Легенда Альфа",
+        "Выживалити Легенда Альфа"
       ],
       "genres": [],
       "imdbRating": "6.2",
-      "card": "cards/6dc6503f6e9d6a438675e6a3e696edd6ec5b3abf1d8bda239bf202281b24a303.json",
-      "sha256": "6dc6503f6e9d6a438675e6a3e696edd6ec5b3abf1d8bda239bf202281b24a303",
+      "card": "cards/c53795690a7b8d4137cdba8e9766c5054d585b9fa5072d83423f063a37ec1719.json",
+      "sha256": "c53795690a7b8d4137cdba8e9766c5054d585b9fa5072d83423f063a37ec1719",
       "localized": true,
       "provider": "github"
     }

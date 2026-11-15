@@ -1,0 +1,46 @@
+{
+  "id": "tt0079579",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1e594552432d67b9d9e299a627481cdf80b5fa29fdf7c7a6a3c3f68b3b4e7677.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4c37fb07a0f1f111d7a5fb3c3df4350178255fedcd969d5ebe29a31f4e81ae7a.jpg",
+  "genres": [
+    "Комедия",
+    "Драма",
+    "Мелодрама"
+  ],
+  "runtime": "142 мин",
+  "imdbRating": "8.0",
+  "releaseInfo": "1980",
+  "trailers": [
+    {
+      "source": "a3XiIKqK9KI",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Москва слезам не верит",
+  "origin": "ru",
+  "description": "Три подруги приезжают покорять Москву. Дружба, любовь и профессиональные амбиции проходят проверку временем.",
+  "year": "1979",
+  "aliases": [
+    "Москва слезам не верит",
+    "Moscow Does Not Believe in Tears",
+    "Moskva slezam ne verit"
+  ],
+  "imdbId": "tt0079579",
+  "ids": [
+    "tt0079579"
+  ],
+  "originalName": "Moscow Does Not Believe in Tears",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0079579.json"
+  ],
+  "sources": [],
+  "sourcesUpdatedAt": "2026-10-19T05:58:42Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt0079579/img",
+    "background": "https://images.metahub.space/background/medium/tt0079579/img"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "tt0087650",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d798fb5697ab931c35718679ab4d800144df9071a08d67cbb43ae5b0f8f2fbb8.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/37341102515083dda97beefd611de5bd0ad74f5880bb335d96bc169e4646694b.jpg",
+  "genres": [
+    "Комедия",
+    "Драма",
+    "Мелодрама"
+  ],
+  "runtime": "107 мин",
+  "imdbRating": "7.8",
+  "releaseInfo": "1985",
+  "trailers": [],
+  "name": "Любовь и голуби",
+  "origin": "ru",
+  "description": "Курортный роман ставит под угрозу семью деревенского любителя голубей. Вернуть близких оказывается непросто.",
+  "year": "1984",
+  "imdbId": "tt0087650",
+  "ids": [
+    "tt0087650"
+  ],
+  "originalName": "Love and Doves",
+  "aliases": [
+    "Любовь и голуби",
+    "Love and Doves"
+  ],
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0087650.json"
+  ],
+  "sources": [
+    {
+      "title": "Любовь и голуби (Владимир Меньшов) [1984, СССР, мелодрама, комедия, BDRip 1080p] + Sub Rus + Original Rus",
+      "magnet": "magnet:?xt=urn:btih:03548FCB023687797B3A6663A0F35385254E13F5&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 14452564951,
+      "size": "13.46 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Любовь и голуби (Владимир Меньшов) [1984, СССР, мелодрама, комедия, BDRip 1080p] + Sub Rus + Original Rus"
+    },
+    {
+      "title": "Любовь и голуби (Владимир Меньшов) [1984, СССР, комедия, WEB-DL 1080p] [4:3 версия] + Sub Rus + Original Rus",
+      "magnet": "magnet:?xt=urn:btih:5145AE478828D7D7A943B409989C72A32ED7E02F&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 4241280204,
+      "size": "3.95 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Любовь и голуби (Владимир Меньшов) [1984, СССР, комедия, WEB-DL 1080p] [4:3 версия] + Sub Rus + Original Rus"
+    },
+    {
+      "title": "Любовь и голуби (1984) WEB-DL-HEVC 2160p | 4K | SDR | 4:3 версия",
+      "magnet": "magnet:?xt=urn:btih:5bec089894ff7ce74ae4f35d91ce9208525bfb9a&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · korsars",
+      "bytes": 16159814451,
+      "size": "15.05 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Любовь и голуби (1984) WEB-DL-HEVC 2160p | 4K | SDR | 4:3 версия"
+    },
+    {
+      "title": "Любовь и голуби / 1984 / РУ / WEBRip (2160p)",
+      "magnet": "magnet:?xt=urn:btih:EAB5F7D43EF39849FB6B091092BA61406045C263&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 9545564815,
+      "size": "8.89 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Любовь и голуби / 1984 / РУ / WEBRip (2160p)"
+    },
+    {
+      "title": "Любовь и голуби (1984) BDRip 720p",
+      "magnet": "magnet:?xt=urn:btih:3c07dc17abddd62d87f08aae9b2ec8127bb6f796&dn=Lubov.i.golubi.1984.BDRip.720p_[Youtracker]_by_avproh.mkv&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://opentracker.i2p.rocks:6969/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=udp://tracker.bitsearch.to:1337/announce&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://exodus.desync.com:6969&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://retracker.local/announce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · megapeer",
+      "bytes": 4692251770,
+      "size": "4.37 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Любовь и голуби (1984) BDRip 720p"
+    },
+    {
+      "title": "Любовь и голуби (1984) BDRip 720p | AVC",
+      "magnet": "magnet:?xt=urn:btih:02c2e70f52c5dd622d76a7da4caf00ba652e2c08&dn=Любовь и голуби 1984_BDRip 720p_KORSAR.mkv&tr=udp://shubt.net:2710&tr=http://korsar.tv/tracker/announce.php&tr=http://tracker.filetracker.pl:8089/announce&tr=http://tracker2.wasabii.com.tw:6969/announce&tr=http://tracker.grepler.com:6969/announce&tr=http://125.227.35.196:6969/announce&tr=http://tracker.tiny-vps.com:6969/announce&tr=http://87.248.186.252:8080/announce&tr=http://210.244.71.25:6969/announce&tr=http://46.4.109.148:6969/announce&tr=udp://46.148.18.250:2710&tr=http://tracker.dler.org:6969/announce&tr=udp://[2001:67c:28f8:92::1111:1]:2710&tr=udp://ipv6.leechers-paradise.org:6969&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://code2chicken.nl:6969/announce&tr=udp://discord.heihachi.pw:6969/announce&tr=http://vps02.net.orel.ru:80/announce&tr=http://tracker.files.fm:6969/announce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · bitru",
+      "bytes": 6635724472,
+      "size": "6.18 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Любовь и голуби (1984) BDRip 720p | AVC"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T05:58:42Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt0087650/img",
+    "background": "https://images.metahub.space/background/medium/tt0087650/img"
+  }
+}

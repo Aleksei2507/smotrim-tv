@@ -1,0 +1,91 @@
+{
+  "id": "tt12057168",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/091b3095df69b43b1740f8ac8dc1f38aee607b43aea904985f107a5851f16c4e.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/93d773985eb0c67f2e62117d833b682961602617182f2842213d5919f60aca88.jpg",
+  "genres": [
+    "Драма",
+    "Фэнтези",
+    "Ужасы"
+  ],
+  "runtime": "93 мин",
+  "imdbRating": "4.7",
+  "releaseInfo": "2021",
+  "trailers": [
+    {
+      "source": "kR0RVnMbnOM",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Приворот. Черное венчание",
+  "description": "Женю бросает мужчина, которого она любит больше жизни. Не в силах смириться девушка решается на отчаянный шаг: цыганка рассказывает ей, как провести ритуал черного венчания и сделать приворот на любовь. И Кирилл возвращается! Им еще никогда не было так хорошо вместе, влюбленные не могут оторваться друг от друга, но с каждым днем страсть Кирилла все больше походит на пугающую одержимость.",
+  "origin": "ru",
+  "aliases": [
+    "Приворот. Черное венчание"
+  ],
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/1297221/"
+  ],
+  "imdbId": "tt12057168",
+  "ids": [
+    "tt12057168"
+  ],
+  "originalName": "Dark Spell",
+  "year": "2021",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-24T04:58:00Z",
+  "sources": [
+    {
+      "title": "Приворот. Черное венчание / Dark Spell (Святослав Подгаевский / Svyatoslav Podgaevskiy) [2021, Россия, ужасы, триллер, мелодрама, BDRip 1080p] [USA Transfer] Sub Eng + Original Rus + Eng",
+      "magnet": "magnet:?xt=urn:btih:CB0661B299078A982E5AD4EF4D0141AF558F65B6&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 11864847155,
+      "size": "11.05 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Приворот. Черное венчание / Dark Spell (Святослав Подгаевский / Svyatoslav Podgaevskiy) [2021, Россия, ужасы, триллер, мелодрама, BDRip 1080p] [USA Transfer] Sub Eng + Original Rus + Eng"
+    },
+    {
+      "title": "Приворот. Черное венчание / Dark Spell (Святослав Подгаевский / Svyatoslav Podgaevskiy) [2021, Россия, ужасы, триллер, мелодрама, Blu-ray disc 1080p] [USA Transfer] Sub Eng + Eng + Original Rus",
+      "magnet": "magnet:?xt=urn:btih:EAE3F32F51A90F16C02154810D4A72C97E970F8C&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 32577326940,
+      "size": "30.34 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Приворот. Черное венчание / Dark Spell (Святослав Подгаевский / Svyatoslav Podgaevskiy) [2021, Россия, ужасы, триллер, мелодрама, Blu-ray disc 1080p] [USA Transfer] Sub Eng + Eng + Original Rus"
+    },
+    {
+      "title": "Приворот. Черное венчание / Dark Spell (Святослав Подгаевский / Svyatoslav Podgaevskiy) [2021, Россия, ужасы, BDRip 720p] Sub Eng + Original Rus",
+      "magnet": "magnet:?xt=urn:btih:7343B0B92D0983120B74FC83136FD8DCFCA7AFA8&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 5819680686,
+      "size": "5.42 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Приворот. Черное венчание / Dark Spell (Святослав Подгаевский / Svyatoslav Podgaevskiy) [2021, Россия, ужасы, BDRip 720p] Sub Eng + Original Rus"
+    },
+    {
+      "title": "Приворот. Черное венчание (2021) BDRip 720p от ExKinoRay | US Transfer | Лицензия",
+      "magnet": "magnet:?xt=urn:btih:a2bd9968dff0a2e3f82272ead2ba765a014e2fcc&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 2534030704,
+      "size": "2.36 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Приворот. Черное венчание (2021) BDRip 720p от ExKinoRay | US Transfer | Лицензия"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:34:15Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt12057168/img",
+    "background": "https://images.metahub.space/background/medium/tt12057168/img"
+  },
+  "kpId": 1297221,
+  "metadataProvider": "kinopoisk"
+}

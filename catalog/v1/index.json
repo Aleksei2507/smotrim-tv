@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1794726428,
-  "updatedAt": "2026-11-15T07:07:06Z",
+  "revision": 1794728094,
+  "updatedAt": "2026-11-15T07:34:53Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,38 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt14688458",
+      "ids": [
+        "tt14688458",
+        "kp:4541515"
+      ],
+      "imdbId": "tt14688458",
+      "name": "Укрытие",
+      "type": "series",
+      "year": "2023",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/77f9b74a09be2e917e7da4ef3aa6990932182434d2ed311b85325a6cd6001c84.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3c8d77363b1bbd5e78b0a7ec63b34a839b383ef7cd73a3e5049b3e3a76e7cd5c.jpg",
+      "description": "Жители огромного подземного бункера убеждены, что снаружи мир непригоден для жизни. Инженер Джульетта Николс начинает расследование и сталкивается с тайнами, на которых держится порядок в укрытии.",
+      "originalName": "Silo",
+      "aliases": [
+        "Укрытие",
+        "Silo",
+        "Бункер"
+      ],
+      "genres": [
+        "Приключения",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "51 мин",
+      "card": "cards/7a18ef89783eb361c7a351e4873f7b6a48a01d2950c41742dfd32ff0b0b8b405.json",
+      "sha256": "7a18ef89783eb361c7a351e4873f7b6a48a01d2950c41742dfd32ff0b0b8b405",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt32565993",
       "ids": [

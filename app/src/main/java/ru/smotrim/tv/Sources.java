@@ -114,8 +114,13 @@ public final class Sources {
         return out;
     }
     interface TorrentTransport { String get(String url) throws Exception; }
+    static final class SearchUnavailable extends IOException {
+        SearchUnavailable(String message) { super(message); }
+    }
+    private static volatile TorrentTransport searchTransport = Sources::text;
+    static void setSearchTransport(TorrentTransport transport) { searchTransport = transport; }
     public static JSONObject torrents(String name,String imdb,String year) throws JSONException {
-        return torrents(name,imdb,year,Sources::text);
+        return torrents(name,imdb,year,searchTransport);
     }
     static JSONObject torrents(String name,String imdb,String year,TorrentTransport transport) throws JSONException {
         JSONArray all=new JSONArray(),warnings=new JSONArray();
@@ -129,7 +134,13 @@ public final class Sources {
         String[] providers={"JacRed","JacRed (резерв)","Rutor","APIBay"};
         try {
             List<Future<JSONArray>> results=pool.invokeAll(jobs,28,TimeUnit.SECONDS);
-            for(int i=0;i<results.size();i++)try{JSONArray a=results.get(i).get();successful++;for(int j=0;j<a.length();j++)all.put(a.get(j));}catch(Exception e){failed++;warnings.put(providers[i]+" недоступен");}
+                Set<String> routeWarnings = new HashSet<>();
+                for(int i=0;i<results.size();i++)try{JSONArray a=results.get(i).get();successful++;for(int j=0;j<a.length();j++)all.put(a.get(j));}catch(Exception e){
+                    failed++;
+                    Throwable cause=e instanceof ExecutionException?e.getCause():e;
+                    if(cause instanceof SearchUnavailable){if(routeWarnings.add(cause.getMessage()))warnings.put(cause.getMessage());}
+                    else warnings.put(providers[i]+" недоступен");
+                }
         }catch(InterruptedException e){Thread.currentThread().interrupt();warnings.put("Поиск отменён");}
         finally{pool.shutdownNow();}
         List<JSONObject> items=new ArrayList<>();Set<String> hashes=new HashSet<>();

@@ -520,6 +520,25 @@
         "https://www.kinopoisk.ru/series/5508530/",
         "https://www.tvmaze.com/shows/74556/zvyozdy"
       ]
+    },
+    {
+      "id": "tt14688458",
+      "name": "Укрытие",
+      "type": "series",
+      "origin": "other",
+      "year": "2023",
+      "sourceYearMin": 2023,
+      "searchName": "Укрытие",
+      "aliases": [
+        "Silo",
+        "Бункер"
+      ],
+      "description": "Жители огромного подземного бункера убеждены, что снаружи мир непригоден для жизни. Инженер Джульетта Николс начинает расследование и сталкивается с тайнами, на которых держится порядок в укрытии.",
+      "metadataSources": [
+        "https://www.imdb.com/title/tt14688458/",
+        "https://www.kinopoisk.ru/series/4541515/",
+        "https://www.tvmaze.com/shows/38052/silo"
+      ]
     }
   ]
 }

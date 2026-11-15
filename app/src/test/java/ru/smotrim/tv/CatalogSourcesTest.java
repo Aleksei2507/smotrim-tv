@@ -8,6 +8,37 @@ import java.util.*;
 import static org.junit.Assert.*;
 
 public class CatalogSourcesTest {
+    @Test public void catalogueSearchRejectsOtherTitansBeforeRanking()throws Exception {
+        JSONObject args=new JSONObject().put("id","tt32370407").put("name","Титаны").put("sourceYearMin",2024).put("season",5).put("episode",7)
+                .put("aliases",new JSONArray().put("Титаны. Битва сезонов").put("Titany"));
+        JSONArray rows=new JSONArray();
+        String[] names={"Юные Титаны, вперед! / Teen Titans Go! / Сезон: 1-9 (2013-2025)","Юные Титаны / Teen Titans / Сезон: 5 (2005)",
+                "Титаны / Titans / Сезон: 1-4 (2018-2023)","Титаны [05x01-07] (2026) WEB-DL 720p от Files-x","Титаны. Битва сезонов [S04] (2026) WEBRip 1080p"};
+        for(int i=0;i<names.length;i++)rows.put(new JSONObject().put("title",names[i]).put("magnet","magnet:?xt=urn:btih:"+String.format("%040x",i+1)));
+        JSONObject result=CatalogSources.search(args,true,(name,id,year)->new JSONObject().put("items",rows).put("successfulProviders",1));
+        assertEquals(2,result.getJSONArray("items").length());
+        assertEquals(names[3],result.getJSONArray("items").getJSONObject(0).getString("title"));
+    }
+    @Test public void translatedTitlesAndPunctuationStillMatch()throws Exception {
+        JSONObject args=new JSONObject().put("id","tt10466872").put("name","Дюна: Пророчество")
+                .put("aliases",new JSONArray().put("Dune: Prophecy"));
+        for(String name:new String[]{"Дюна.Пророчество S01E03 1080p", "Dune.Prophecy.S01E03.1080p", "Дюна: Пророчество / Dune: Prophecy (2024)"})
+            assertTrue(name,CatalogSources.matchesTitle(new JSONObject().put("title",name),args,true));
+        assertFalse(CatalogSources.matchesTitle(new JSONObject().put("title","Дюна (2021)"),args,true));
+        assertFalse(CatalogSources.matchesTitle(new JSONObject().put("title","Dune Prophecy Behind the Scenes (2024)"),args,true));
+    }
+    @Test public void movieIdentityDoesNotAcceptSequelsOrWrongYear()throws Exception {
+        JSONObject args=new JSONObject().put("id","tt0110357").put("name","Король Лев").put("year","1994");
+        assertTrue(CatalogSources.matchesTitle(new JSONObject().put("title","Король Лев / The Lion King (1994) BDRip 1080p"),args,false));
+        assertFalse(CatalogSources.matchesTitle(new JSONObject().put("title","Король Лев 2 (1998)"),args,false));
+        assertFalse(CatalogSources.matchesTitle(new JSONObject().put("title","Король Лев (2019)"),args,false));
+    }
+    @Test public void manualTrackerSearchStaysFreeForm()throws Exception {
+        JSONObject args=new JSONObject().put("name","Титаны");JSONObject row=new JSONObject().put("title","Юные Титаны / Teen Titans (2005)");
+        assertTrue(CatalogSources.matchesTitle(row,args,true));
+        args.put("id","tt32370407").put("searchQuery",true);
+        assertTrue(CatalogSources.matchesTitle(row,args,true));
+    }
     @Test public void manualSeasonAndEpisodeSuffixesDoNotHideWholeSeasonPacks()throws Exception {
         for(String suffix:new String[]{" S02E03"," 2 сезон 3 серия"," сезон 2 серия 3"," серия 3"," 2x03"}) {
             List<String> queries=CatalogSources.queries(new JSONObject().put("name","Вспыш и чудо-машинки"+suffix),false);

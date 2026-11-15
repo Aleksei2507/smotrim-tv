@@ -1,0 +1,92 @@
+{
+  "id": "tt2182001",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b715e78bae3c9be61f9453d6958de40076f683e6d7e3d2f85789d0472c25a520.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/94d8cf48ad00ec975e4142fa9abbb1a2a36c599925ab12523e66cdf48fd28972.jpg",
+  "genres": [
+    "Биография",
+    "Драма",
+    "Спорт"
+  ],
+  "runtime": "134 мин",
+  "imdbRating": "7.4",
+  "releaseInfo": "2013",
+  "trailers": [
+    {
+      "source": "BRWyTgdWKZY",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Легенда №17",
+  "origin": "ru",
+  "description": "История становления хоккеиста Валерия Харламова и подготовки сборной СССР к встрече с канадскими профессионалами.",
+  "searchName": "Легенда 17",
+  "aliases": [
+    "Легенда №17",
+    "Legend No. 17",
+    "Легенда 17"
+  ],
+  "imdbId": "tt2182001",
+  "ids": [
+    "tt2182001"
+  ],
+  "originalName": "Legend No. 17",
+  "year": "2013",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T06:57:50Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt2182001.json"
+  ],
+  "sources": [
+    {
+      "title": "Легенда №17 (Николай Лебедев) [2013, Россия, спорт, драма, биография, BDRip 1080p] + Sub Rus + Original Rus",
+      "magnet": "magnet:?xt=urn:btih:F189C10EF9834E97F76B1076FF346BC7E8223D56&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 13292923781,
+      "size": "12.38 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Легенда №17 (Николай Лебедев) [2013, Россия, спорт, драма, биография, BDRip 1080p] + Sub Rus + Original Rus"
+    },
+    {
+      "title": "Легенда №17 / 2013 / РУ / BDRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:5E279B134AAFBCEF472DA3DCC0E880CF62175493&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 8536247500,
+      "size": "7.95 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Легенда №17 / 2013 / РУ / BDRip (1080p)"
+    },
+    {
+      "title": "Легенда №17 / 2013 / РУ / HEVC / BDRip (720p)",
+      "magnet": "magnet:?xt=urn:btih:B3F2EBB0716F5B46BD0E49C0EDABC513FFF80E68&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 1739461754,
+      "size": "1.62 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Легенда №17 / 2013 / РУ / HEVC / BDRip (720p)"
+    },
+    {
+      "title": "Легенда №17 / 2013 / РУ / BDRip (720p)",
+      "magnet": "magnet:?xt=urn:btih:65B0D25ACCD8AAF922602D67CAE7D45E892ED881&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 9846212526,
+      "size": "9.17 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Легенда №17 / 2013 / РУ / BDRip (720p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T05:58:42Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt2182001/img",
+    "background": "https://images.metahub.space/background/medium/tt2182001/img"
+  }
+}

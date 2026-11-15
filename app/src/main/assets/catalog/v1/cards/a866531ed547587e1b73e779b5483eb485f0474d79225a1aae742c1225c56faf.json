@@ -1,0 +1,270 @@
+{
+  "id": "tt5753856",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/39d5fd50e727531bb23094af92f42b3ca7c43ee5626998ff1beca06bd7242cf7.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ea6160c847497880fca0b606d98b25cde58c7bfa645f60440870cd155f6da88d.jpg",
+  "genres": [
+    "Криминал",
+    "Драма",
+    "Детектив"
+  ],
+  "runtime": "56 мин",
+  "imdbRating": "8.7",
+  "releaseInfo": "2017–2020",
+  "trailers": [
+    {
+      "source": "ESEUoa-mz2c",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Тьма",
+  "origin": "other",
+  "description": "Исчезновение ребёнка раскрывает тайны нескольких семей и запутанную связь между прошлым, настоящим и будущим.",
+  "imdbId": "tt5753856",
+  "ids": [
+    "tt5753856"
+  ],
+  "originalName": "Dark",
+  "aliases": [
+    "Тьма",
+    "Dark"
+  ],
+  "year": "2017",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-30T18:50:46Z",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt5753856.json"
+  ],
+  "videos": [
+    {
+      "id": "tt5753856:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2017-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2017-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2017-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2017-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2017-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2017-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2017-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2017-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2017-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:1:10",
+      "season": 1,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2017-12-01T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2019-06-21T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2019-06-21T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2019-06-21T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2019-06-21T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2019-06-21T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2019-06-21T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2019-06-21T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2019-06-21T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2020-06-27T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2020-06-27T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2020-06-27T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2020-06-27T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2020-06-27T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2020-06-27T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2020-06-27T12:00:00.000Z"
+    },
+    {
+      "id": "tt5753856:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2020-06-27T12:00:00.000Z"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    }
+  ],
+  "sources": [],
+  "sourcesUpdatedAt": "2026-10-30T18:50:46Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt5753856/img",
+    "background": "https://images.metahub.space/background/medium/tt5753856/img"
+  }
+}

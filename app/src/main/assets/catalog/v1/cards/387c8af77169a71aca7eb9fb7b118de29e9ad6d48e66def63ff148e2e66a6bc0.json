@@ -1,0 +1,95 @@
+{
+  "id": "tt10872600",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e7c2e4a9a99d64a9703675db3db9f416fdcf5041414a7d67fe895c1daddee6ed.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7d712fac653c36a0a5b1f70fb27478810d05d54539c00fb6043b62fb4bde1955.jpg",
+  "genres": [
+    "Боевик",
+    "Приключения",
+    "Фэнтези"
+  ],
+  "runtime": "148 мин",
+  "imdbRating": "8.1",
+  "releaseInfo": "2021",
+  "trailers": [
+    {
+      "source": "1mTjfMFyPi8",
+      "type": "Trailer"
+    },
+    {
+      "source": "pBvH8hvnJPk",
+      "type": "Trailer"
+    },
+    {
+      "source": "JfVOs4VSpmA",
+      "type": "Trailer"
+    },
+    {
+      "source": "WgU7P6o-GkM",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Человек-паук: Нет пути домой",
+  "year": "2021",
+  "searchName": "Человек паук Нет пути домой",
+  "description": "Личность Человека-паука раскрыта, и жизнь Питера Паркера меняется. Он просит Доктора Стрэнджа исправить ситуацию, но заклинание открывает путь гостям из других миров.",
+  "origin": "other",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt10872600.json",
+    "https://www.imdb.com/title/tt10872600/",
+    "https://www.sonypictures.com/movies/spidermannowayhome"
+  ],
+  "aliases": [
+    "Человек-паук: Нет пути домой",
+    "Spider-Man: No Way Home",
+    "Человек паук Нет пути домой"
+  ],
+  "imdbId": "tt10872600",
+  "ids": [
+    "tt10872600"
+  ],
+  "originalName": "Spider-Man: No Way Home",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-19T08:21:27Z",
+  "sources": [
+    {
+      "title": "Человек-паук: Нет пути домой / Spider-Man: No Way Home (Джон Уоттс / Jon Watts) [2021, США, Фантастика, боевик, приключения, фэнтези, BDRemux 1080p] [Театральная версия / Theatrical Cut] Dub + 2x MVO + Original (Eng) + Sub (rus, ukr, eng)",
+      "magnet": "magnet:?xt=urn:btih:A5592DEC88BA20720992FB517F0EC59ECA9EDB35&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 31739808317,
+      "size": "29.56 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Человек-паук: Нет пути домой / Spider-Man: No Way Home (Джон Уоттс / Jon Watts) [2021, США, Фантастика, боевик, приключения, фэнтези, BDRemux 1080p] [Театральная версия / Theatrical Cut] Dub + 2x MVO + Original (Eng) + Sub (rus, ukr, eng)"
+    },
+    {
+      "title": "Человек-паук: Нет пути домой / Spider-Man: No Way Home (Джон Уоттс / Jon Watts) [2021, США, фантастика, боевик, приключения, фэнтези, WEB-DL 2160p, HDR10] [IMAX] [Bravia Core] [Театральная версия / Theatrical Cut] Dub + 2x MVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:BFA1876C36D34E2AB530AA47FD31FD34687C2994&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 101962523607,
+      "size": "94.96 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Человек-паук: Нет пути домой / Spider-Man: No Way Home (Джон Уоттс / Jon Watts) [2021, США, фантастика, боевик, приключения, фэнтези, WEB-DL 2160p, HDR10] [IMAX] [Bravia Core] [Театральная версия / Theatrical Cut] Dub + 2x MVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Человек-паук: Нет пути домой / Spider-Man: No Way Home (Джон Уоттс / Jon Watts) [2021, США, фантастика, боевик, приключения, фэнтези, WEBRip 2160p, HDR10] [IMAX] [Театральная версия / Theatrical Cut] Dub + 2x MVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:1C1E46AF5022416ECA0C731A0F1827641989BE78&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 32652488867,
+      "size": "30.41 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Человек-паук: Нет пути домой / Spider-Man: No Way Home (Джон Уоттс / Jon Watts) [2021, США, фантастика, боевик, приключения, фэнтези, WEBRip 2160p, HDR10] [IMAX] [Театральная версия / Theatrical Cut] Dub + 2x MVO + Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T08:20:33Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt10872600/img",
+    "background": "https://images.metahub.space/background/medium/tt10872600/img"
+  }
+}

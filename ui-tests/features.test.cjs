@@ -1,4 +1,93 @@
 const {test}=require('node:test');const assert=require('node:assert/strict');const f=require('../app/src/main/assets/ui/features.js');
+test('loading a resumed file does not erase its known duration',()=>{
+ const item={url:'magnet-a',fileIndex:7},history={...item,duration:7980000};
+ assert.equal(f.playbackDuration(item,{duration:0},{duration:7980000},history),7980000);
+ assert.equal(f.playbackDuration(item,{loading:true},undefined,history),7980000);
+ assert.equal(f.playbackDuration(item,{duration:7961000},{duration:7980000},history),7961000);
+ for(const duration of [0,-1,NaN,Infinity,'7980000']){
+  assert.equal(f.playbackDuration(item,{duration},{duration:7980000},history),7980000);
+ }
+});
+test('duration is not copied from another torrent or another file in a season pack',()=>{
+ const item={url:'magnet-a',fileIndex:7};
+ assert.equal(f.playbackDuration(item,{duration:0},undefined,{url:'magnet-b',fileIndex:7,duration:7980000}),0);
+ assert.equal(f.playbackDuration(item,{duration:0},undefined,{url:'magnet-a',fileIndex:8,duration:7980000}),0);
+ assert.equal(f.playbackDuration(item,{duration:0},undefined,undefined),0);
+});
+const introQuery={imdbId:'tt31510819',season:2,episode:7};
+const introResponse={imdb_id:'tt31510819',media_type:'tv',season:2,episode:7,intro:{start_ms:240039,end_ms:300507,confidence:1,submission_count:2}};
+test('segment lookup requires exact identity and episode numbers, never a title guess or a live channel',()=>{
+ const item={kind:'torrent',movie:{id:'kp:5512084',imdbId:'tt31510819',type:'series'},seriesEpisode:{season:2,episode:7}};
+ assert.deepEqual(f.segmentQuery(item),introQuery);
+ assert.equal(f.segmentQuery({...item,kind:'live'}),null);
+ assert.equal(f.segmentQuery({...item,movie:{id:'kp:5512084',type:'series'}}),null);
+ assert.equal(f.segmentQuery({...item,seriesEpisode:{season:2}}),null);
+ assert.equal(f.segmentQuery({...item,seriesEpisode:{season:2,episode:'7'}}),null);
+ assert.deepEqual(f.segmentQuery({...item,movie:{id:'tt31510819',type:'movie'}}),{imdbId:'tt31510819',isMovie:true});
+});
+test('intro data must belong to the current episode and have multiple agreeing submissions',()=>{
+ assert.deepEqual(f.introSegment(introResponse,introQuery),{start:240039,end:300507});
+ for(const change of [{imdb_id:'tt0903747'},{season:1},{episode:8},{media_type:'movie'},{no_intro:true},{intro:null}]){
+  assert.equal(f.introSegment({...introResponse,...change},introQuery),null);
+ }
+ for(const change of [{start_ms:-1},{end_ms:240038},{end_ms:Infinity},{end_ms:600040},{start_ms:'240039'},{confidence:.8},{confidence:'1'},{confidence:2},{submission_count:1}]){
+  assert.equal(f.introSegment({...introResponse,intro:{...introResponse.intro,...change}},introQuery),null);
+ }
+});
+test('confirmed movie intros use exact movie identity and never accept a series response',()=>{
+ const query={imdbId:'tt4154756',isMovie:true},data={imdb_id:query.imdbId,media_type:'movie',is_movie:true,intro:introResponse.intro};
+ assert.deepEqual(f.introSegment(data,query),{start:240039,end:300507});
+ assert.equal(f.introSegment({...data,media_type:'tv'},query),null);
+ assert.equal(f.introSegment({...data,imdb_id:'tt2250912'},query),null);
+ assert.equal(f.introSegment({...data,intro:null},query),null);
+});
+test('intro skip appears only inside the intro of a loaded file with a valid duration',()=>{
+ const segment=f.introSegment(introResponse,introQuery),state={position:240039,duration:3000000,loading:false};
+ assert.equal(f.introTarget(segment,state),300507);
+ assert.equal(f.introTarget(segment,{...state,playing:false,playWhenReady:false}),300507);
+ for(const change of [{position:240038},{position:300507},{position:NaN},{duration:0},{duration:300507},{loading:true}]){
+  assert.equal(f.introTarget(segment,{...state,...change}),null);
+ }
+ assert.equal(f.introTarget(null,state),null);
+});
+test('credits mark an episode complete at credits start only when its file duration matches',()=>{
+ const response={...introResponse,outro:{start_ms:3203100,end_ms:3283100,confidence:1,submission_count:1}};
+ const credits=f.creditsSegment(response,introQuery),state={duration:3283100,position:3203100,loading:false};
+ assert.equal(f.creditsReached(credits,state),true);
+ assert.equal(f.creditsReached(credits,{...state,position:3203099}),false);
+ assert.equal(f.creditsReached(credits,{...state,duration:3600000}),false);
+ assert.equal(f.creditsReached(credits,{...state,loading:true}),false);
+ assert.equal(f.creditsSegment({...response,episode:8},introQuery),null);
+ assert.equal(f.creditsSegment({...response,no_outro:true},introQuery),null);
+});
+test('movie credits allow a final post-credits scene without waiting for it to finish',()=>{
+ const query={imdbId:'tt0110357',isMovie:true};
+ const data={imdb_id:query.imdbId,media_type:'movie',is_movie:true,outro:{start_ms:5000000,end_ms:5200000,confidence:1,submission_count:2},post_credits:{start_ms:5200000,end_ms:5300000,confidence:1,submission_count:2}};
+ assert.equal(f.introSegment(data,query),null);
+ assert.equal(f.creditsReached(f.creditsSegment(data,query),{duration:5300000,position:5000000}),true);
+ assert.equal(f.creditsSegment({...data,imdb_id:'tt0903747'},query),null);
+});
+test('without credits data completion requires 98 percent watched and at most two minutes left',()=>{
+ assert.equal(f.creditsReached(null,{duration:6000000,position:5880000}),true);
+ assert.equal(f.creditsReached(null,{duration:6000000,position:5879999}),false);
+ assert.equal(f.creditsReached(null,{duration:12000000,position:11760000}),false);
+ assert.equal(f.creditsReached(null,{duration:12000000,position:11880000}),true);
+ assert.equal(f.creditsReached(null,{duration:0,position:0}),false);
+ assert.equal(f.creditsReached(null,{duration:Infinity,position:1234}),false);
+});
+test('changing source preserves episode, identity and current position but discards old file indexes',()=>{
+ const item={url:'old',fileIndex:17,files:[{index:17}],movie:{id:'show',type:'series'},sourceMovie:{id:'show'},seriesEpisode:{season:5,episode:7},historyKey:'show:5:7',position:1000,completed:true};
+ const next=f.switchSource(item,{magnet:'new'},{position:842000,playing:false,playWhenReady:true});
+ assert.equal(next.url,'new');assert.equal(next.position,842000);assert.equal(next.paused,false);assert.equal(next.fileIndex,undefined);assert.deepEqual(next.files,[]);
+ assert.deepEqual(next.seriesEpisode,item.seriesEpisode);assert.equal(next.movie,item.movie);assert.equal(next.sourceMovie,item.sourceMovie);assert.equal(next.historyKey,item.historyKey);assert.equal(next.completed,false);
+ assert.equal(item.fileIndex,17);assert.equal(item.url,'old');
+});
+test('changing source preserves a manual pause and allows resume from zero',()=>{
+ assert.equal(f.switchSource({position:9000},{magnet:'new'},{position:0,playWhenReady:false}).paused,true);
+ assert.equal(f.switchSource({position:9000},{magnet:'new'},{position:0,playWhenReady:false}).position,0);
+ assert.equal(f.switchSource({position:9000,paused:true},{magnet:'new'},{}).position,9000);
+ assert.equal(f.switchSource({paused:true},{magnet:'new'},{}).paused,true);
+});
 test('source sizes from Dune use byte values rather than raw display strings',()=>{
  for(const [bytes,label] of [[21582210662,'20,10 ГБ'],[28808493137,'26,83 ГБ'],[89947352596,'83,77 ГБ']])
   assert.equal(f.sourceSize({bytes,size:bytes+' bytes'}),label);

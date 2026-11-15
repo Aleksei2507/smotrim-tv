@@ -46,7 +46,8 @@ public final class TorrentEngine implements AutoCloseable {
             if(diskCache&&root.getUsableSpace()<cacheBytes+TorrentBufferPolicy.DISK_RESERVE)throw new IOException("Недостаточно свободного места для выбранного буфера. Уменьшите его в настройках или выберите оперативную память.");
             JSONObject initial=new JSONObject().put("CacheSize",cacheBytes).put("UseDisk",diskCache).put("TorrentsSavePath",diskCache?new File(root,"pieces").getAbsolutePath():"").put("RemoveCacheOnDrop",true).put("ReaderReadAHead",diskCache?90:50).put("PreloadCache",preloadPercent())
                 .put("EnableDLNA",false).put("EnableBonjour",false).put("EnableLPD",false).put("DisableUPNP",true)
-                .put("StoreSettingsInJson",true).put("ConnectionsLimit",40).put("TorrentDisconnectTimeout",120).put("ResponsiveMode",false);
+                .put("StoreSettingsInJson",true).put("ConnectionsLimit",40).put("UploadRateLimit",256)
+                .put("EnableDebug",false).put("TorrentDisconnectTimeout",120).put("ResponsiveMode",false);
             Files.write(new File(root,"settings.json").toPath(),new JSONObject().put("BitTorr",initial).toString().getBytes(StandardCharsets.UTF_8));
             String password=UUID.randomUUID().toString();
             Files.write(new File(root,"accs.db").toPath(),new JSONObject().put("smotrim",password).toString().getBytes(StandardCharsets.UTF_8));
@@ -65,18 +66,18 @@ public final class TorrentEngine implements AutoCloseable {
             try{settings=api("/settings",new JSONObject().put("action","get"),1000);break;}catch(IOException ignored){sleep();}
         }
         if(settings==null)throw new IOException("Торрент-движок не ответил при запуске");
-        settings.put("CacheSize",cacheBytes).put("UseDisk",diskCache).put("TorrentsSavePath",diskCache?new File(root,"pieces").getAbsolutePath():"").put("RemoveCacheOnDrop",true)
-            .put("ReaderReadAHead",diskCache?90:50).put("PreloadCache",preloadPercent()).put("ConnectionsLimit",40).put("UploadRateLimit",256)
-            .put("EnableDLNA",false).put("EnableBonjour",false).put("EnableLPD",false).put("DisableUPNP",true)
-            .put("EnableDebug",false).put("ResponsiveMode",false).put("TorrentDisconnectTimeout",120);
-        api("/settings",new JSONObject().put("action","set").put("sets",settings),5000);
-        JSONObject confirmed=api("/settings",new JSONObject().put("action","get"),5000);
+        // settings.json is complete before launch. Reapplying it through /settings restarts
+        // the native BT client and can time out during DNS/tracker discovery before add.
+        JSONObject confirmed=settings;
         if(!confirmed.has("UseDisk")||confirmed.optBoolean("UseDisk")!=diskCache||confirmed.optLong("CacheSize")!=cacheBytes||diskCache&&!new File(root,"pieces").getAbsolutePath().equals(confirmed.optString("TorrentsSavePath")))throw new IOException("Не удалось настроить буфер видео");
+        if(confirmed.optLong("UploadRateLimit")!=256||confirmed.optInt("ConnectionsLimit")!=40||confirmed.optBoolean("EnableDebug")||confirmed.optBoolean("EnableDLNA")||confirmed.optBoolean("EnableBonjour")||confirmed.optBoolean("EnableLPD")||!confirmed.optBoolean("DisableUPNP"))throw new IOException("Торрент-движок не применил настройки подключения");
     }
     private int preloadPercent(){return diskCache?(int)Math.max(1,Math.min(5,32*TorrentBufferPolicy.MIB*100/cacheBytes)):5;}
     public JSONArray prepare(String link)throws Exception{
         check();if(link==null||(!link.startsWith("magnet:?")&&!Sources.webUrl(link))||link.length()>16384)throw new IOException("Нужна magnet-ссылка или HTTP-ссылка на .torrent");
-        start();JSONObject info=api("/torrents",new JSONObject().put("action","add").put("link",link).put("save_to_db",false),20000);
+        android.util.Log.i("SmotrimTorrent","Preparing torrent: starting engine");
+        start();android.util.Log.i("SmotrimTorrent","Engine ready: adding torrent");
+        JSONObject info=api("/torrents",new JSONObject().put("action","add").put("link",link).put("save_to_db",false),20000);
         hash=info.optString("hash");if(!hash.matches("(?i)[0-9a-f]{40,64}"))throw new IOException("Не удалось открыть раздачу");
         long until=System.currentTimeMillis()+90000;
         while(System.currentTimeMillis()<until){
@@ -89,6 +90,7 @@ public final class TorrentEngine implements AutoCloseable {
             if(Sources.videoFile(path)&&f.optLong("length")>0)choices.put(new JSONObject().put("index",f.getInt("id")).put("name",new File(path).getName()).put("path",path).put("bytes",f.getLong("length")));
         }
         if(choices.length()==0)throw new IOException("В этой раздаче нет поддерживаемого видео");
+        android.util.Log.i("SmotrimTorrent","Torrent files ready");
         updateStatus(info);
         synchronized(lifecycle){check();poller=Executors.newSingleThreadScheduledExecutor(r->{Thread t=new Thread(r,"torrent-status");t.setDaemon(true);return t;});
             poller.scheduleWithFixedDelay(()->{try{
@@ -129,6 +131,10 @@ public final class TorrentEngine implements AutoCloseable {
             int code=c.getResponseCode();if(code!=200)throw new IOException("Торрент-движок вернул ошибку "+code);
             ByteArrayOutputStream out=new ByteArrayOutputStream();try(InputStream in=c.getInputStream()){byte[] b=new byte[8192];int n;while((n=in.read(b))!=-1){check();out.write(b,0,n);if(out.size()>4*1024*1024)throw new IOException("Слишком большой ответ движка");}}
             String body=out.toString("UTF-8").trim();return body.isEmpty()?new JSONObject():new JSONObject(body);
+        }catch(java.net.SocketTimeoutException e){
+            String action=payload.optString("action");
+            android.util.Log.w("SmotrimTorrent","Timeout stage="+path+":"+action+" budgetMs="+timeout);
+            throw new IOException(path.equals("/settings")?"Торрент-движок не ответил при запуске. Повторите попытку.":"Торрент-движок не успел получить сведения о раздаче. Повторите попытку или выберите другой вариант.",e);
         }finally{requests.remove(c);c.disconnect();}
     }
     private void updateStatus(JSONObject value)throws Exception{cachedStatus=new JSONObject().put("peers",value.optInt("active_peers")).put("rate",value.optDouble("download_speed",0))

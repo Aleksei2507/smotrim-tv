@@ -1,0 +1,103 @@
+{
+  "id": "tt6262770",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/754897f6794aae0597cd76ba7fa113afb97543d3ed4c86190ce850d3c4cb2090.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/06f81167eb14013febeda126610539dba5584627d83bc1457bcb52d4f1621fe8.jpg",
+  "genres": [
+    "Приключения",
+    "Биография",
+    "Драма"
+  ],
+  "runtime": "126 мин",
+  "imdbRating": "7.5",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "KkYCY5YR12U",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Тенцинг",
+  "description": "фильм Дженнифер Пидом (2026)",
+  "origin": "other",
+  "aliases": [
+    "Тенцинг",
+    "Tenzing"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt6262770.json",
+    "https://www.wikidata.org/wiki/Q134386482"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt6262770",
+  "ids": [
+    "tt6262770"
+  ],
+  "originalName": "Tenzing",
+  "year": "2026",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-20T05:12:34Z",
+  "sources": [
+    {
+      "title": "Тенцинг / Tenzing (2026) WEB-DL 1080p от New-Team | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:e950c9d71944a91e28f3726eb08b8d8ee04363c9&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 10458245365,
+      "size": "9.74 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тенцинг / Tenzing (2026) WEB-DL 1080p от New-Team | D, P | HDRezka Studio"
+    },
+    {
+      "title": "Тенцинг / Tenzing (2026) WEB-DL [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:0BED5DA7CC219B71AD1C5F52182F64A2B8974071",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 10511932456,
+      "size": "9.79 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тенцинг / Tenzing (2026) WEB-DL [H.264/1080p] [MVO]"
+    },
+    {
+      "title": "Тенцинг / Tenzing (2026) UHD WEB-DL 2160p | 4K | HDR10+ | Dolby Vision P8 | D, P | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:b70025d09b64159b8dbe2c3422735a6dd4d6f147&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "4K",
+      "source": "JacRed · korsars",
+      "bytes": 24470576168,
+      "size": "22.79 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тенцинг / Tenzing (2026) UHD WEB-DL 2160p | 4K | HDR10+ | Dolby Vision P8 | D, P | HDrezka Studio"
+    },
+    {
+      "title": "Тенцинг / Tenzing (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:98041A5FE5B785371C8909F474F795E6014FAB85",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 24159191040,
+      "size": "22.50 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тенцинг / Tenzing (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] [MVO]"
+    },
+    {
+      "title": "Тенцинг / Tenzing (2026) WEB-DLRip 720p от New-Team | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:49376f2c0bba05325107ad60329c1a651abdb4f5&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 5519032975,
+      "size": "5.14 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Тенцинг / Tenzing (2026) WEB-DLRip 720p от New-Team | D, P | HDRezka Studio"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-20T05:11:43Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt6262770/img",
+    "background": "https://images.metahub.space/background/medium/tt6262770/img"
+  }
+}

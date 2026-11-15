@@ -25,6 +25,7 @@ import java.util.concurrent.*;
 public class MainActivity extends Activity {
     private static final String LOCAL="https://appassets.androidplatform.net/assets/ui/index.html";
     private WebView web;private PlayerView video;private ExoPlayer player;private FrameLayout root;
+    private String videoMode="full";
     private volatile int webGeneration;private AlertDialog recoveryDialog;
     private final Handler ui=new Handler(Looper.getMainLooper());
     private final ExecutorService network=Executors.newFixedThreadPool(4),torrentWork=Executors.newSingleThreadExecutor(),cleanup=Executors.newSingleThreadExecutor();
@@ -55,6 +56,7 @@ public class MainActivity extends Activity {
 
     @Override public void onCreate(Bundle state){
         super.onCreate(state);fullscreen();
+        Sources.setSearchTransport(new SearchVpn(getApplicationContext())::get);
         if(state==null)receiveHomeAction(getIntent());
         else try{String saved=state.getString("home-action");if(saved!=null)pendingHomeAction=new JSONObject(saved);}catch(JSONException ignored){}
         try{githubCatalog=new GithubCatalog(new File(getFilesDir(),"github-catalog"),path->{try(InputStream in=getAssets().open("catalog/v1/"+path)){return readStream(in).getBytes(StandardCharsets.UTF_8);}});}catch(IOException ignored){}
@@ -64,7 +66,9 @@ public class MainActivity extends Activity {
             public void ready(){ui.post(()->{if(!destroyed&&resumed&&now==null)installUpdate();});}
         });
         root=new FrameLayout(this);root.setBackgroundColor(Color.rgb(17,21,27));
-        video=new PlayerView(this);video.setUseController(false);video.setKeepContentOnPlayerReset(false);root.addView(video,new FrameLayout.LayoutParams(-1,-1));
+        video=new PlayerView(this);video.setUseController(false);video.setKeepContentOnPlayerReset(false);video.setFocusable(false);root.addView(video,new FrameLayout.LayoutParams(-1,-1));
+        video.setOnClickListener(v->{if(!videoMode.equals("full"))event("expand-player",true);});
+        root.addOnLayoutChangeListener((v,l,t,r,b,ol,ot,or,ob)->{if(!videoMode.equals("full")&&(r-l!=or-ol||b-t!=ob-ot))layoutVideo();});
         setContentView(root);attachWebView();
         File old=new File(getFilesDir(),"torrents");torrentWork.execute(()->TorrentEngine.deleteTree(old));
         ui.postDelayed(ticker,1000);
@@ -149,6 +153,12 @@ public class MainActivity extends Activity {
                         if(!Arrays.asList("ram","disk").contains(storage)||!(storage.equals("disk")?TorrentBufferPolicy.diskSupported(mb):TorrentBufferPolicy.supported(mb)))throw new IOException("Недопустимый размер буфера");
                         getSharedPreferences("playback",MODE_PRIVATE).edit().putString("torrentBufferStorage",storage).putInt(storage.equals("disk")?"torrentDiskBufferMb":"torrentBufferMb",mb).apply();
                         answer=new JSONObject().put("mb",mb).put("storage",storage);break;
+                    }
+                    case "playback-segments": {
+                        boolean isMovie=a.optBoolean("isMovie");String imdb=a.optString("imdbId");int season=a.optInt("season",-1),episode=a.optInt("episode",0);
+                        if(!imdb.matches("tt\\d{5,12}")||(!isMovie&&(season<0||season>100||episode<1||episode>10000)))throw new IOException("Некорректная серия");
+                        String url="https://api.introdb.app/segments?imdb_id="+imdb+(isMovie?"&is_movie=true":"&season="+season+"&episode="+episode);
+                        answer=new JSONObject(new String(Sources.fetch(url,64*1024),StandardCharsets.UTF_8));break;
                     }
                     case "catalog-state": answer=catalogState();break;
                     case "github-refresh": {boolean changed=githubCatalog!=null&&githubCatalog.refresh(a.optBoolean("force"));answer=new JSONObject().put("changed",changed).put("providers",catalogState());break;}
@@ -331,6 +341,7 @@ public class MainActivity extends Activity {
     }
     private void commandPlayer(String cmd){
         if(cmd.equals("stop")){stopPlayback(true);return;}
+        if(cmd.startsWith("video:")){String mode=cmd.substring(6);if(now!=null&&Arrays.asList("full","mini","hidden").contains(mode))setVideoMode(mode);return;}
         if(cmd.startsWith("sleep:")){try{int minutes=Integer.parseInt(cmd.substring(6));if(now==null)return;sleepTimer.set(minutes,SystemClock.elapsedRealtime());publishSleep();}catch(IllegalArgumentException ignored){}return;}
         if(cmd.startsWith("file:")&&selectingFile&&torrent!=null){try{String[] parts=cmd.split(":");if(parts.length<2||parts.length>3)return;int index=Integer.parseInt(parts[1]);long position=parts.length>2?Math.max(0,Long.parseLong(parts[2])):resumePosition;boolean valid=false;for(int i=0;i<pendingFiles.length();i++)if(pendingFiles.optJSONObject(i).optInt("index")==index)valid=true;if(valid){resumePosition=position;selectingFile=false;selectFile(torrent,index,playbackGeneration);}}catch(NumberFormatException ignored){}return;}
         if(player==null){if(cmd.equals("pause"))resumePlaybackOnForeground=!resumePlaybackOnForeground;return;}
@@ -342,6 +353,17 @@ public class MainActivity extends Activity {
             case "subtitles":chooseTrack(C.TRACK_TYPE_TEXT);break;
             default:if(cmd.startsWith("seek:"))try{player.seekTo(Math.max(0,Math.min(Math.max(0,player.getDuration()-1000),Long.parseLong(cmd.substring(5)))));}catch(NumberFormatException ignored){}
         }
+    }
+    private void setVideoMode(String mode){
+        if(mode.equals(videoMode))return;videoMode=mode;layoutVideo();
+    }
+    private void layoutVideo(){
+        boolean full=videoMode.equals("full");
+        float scale=root.getWidth()/1920f;
+        FrameLayout.LayoutParams params=full?new FrameLayout.LayoutParams(-1,-1):new FrameLayout.LayoutParams(Math.max(1,Math.round(480*scale)),Math.max(1,Math.round(270*scale)),Gravity.BOTTOM|Gravity.RIGHT);
+        if(!full){params.rightMargin=Math.round(48*scale);params.bottomMargin=Math.round(114*scale);}
+        video.setLayoutParams(params);video.setVisibility(videoMode.equals("hidden")?View.INVISIBLE:View.VISIBLE);
+        if(full){if(web!=null)web.bringToFront();}else video.bringToFront();
     }
     private void chooseTrack(int type){
         List<String> labels=new ArrayList<>();List<TrackSelectionOverride> overrides=new ArrayList<>();List<String> languages=new ArrayList<>();languages.add("auto");final ExoPlayer choosing=player;int selected=0;
@@ -399,7 +421,7 @@ public class MainActivity extends Activity {
         TorrentEngine old=torrent;torrent=null;if(old!=null)old.cancel();
         if(player!=null){if(reportPosition)event("position",player.getCurrentPosition());video.setPlayer(null);player.release();player=null;}
         if(old!=null)cleanup.execute(old::close);
-        now=null;getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);if(notify)event("stopped",true);
+        now=null;setVideoMode("full");getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);if(notify)event("stopped",true);
     }
     @Override public boolean dispatchKeyEvent(KeyEvent e){
         String key=switch(e.getKeyCode()){

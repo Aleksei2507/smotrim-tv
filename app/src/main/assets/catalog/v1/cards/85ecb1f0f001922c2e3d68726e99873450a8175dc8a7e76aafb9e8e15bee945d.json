@@ -1,0 +1,103 @@
+{
+  "id": "tt0493464",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cf635a7ebcc4db8f40fe3b3797e28b8b2f4d33e2854287862080fe7d3124ff2a.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/83d7234c5dce7bd1c6ffe367e76beb538ed6f20db53a4a2244d52a0aed6040ee.jpg",
+  "genres": [
+    "Боевик",
+    "Криминал",
+    "Триллер"
+  ],
+  "runtime": "110 мин",
+  "imdbRating": "6.7",
+  "releaseInfo": "2008",
+  "trailers": [
+    {
+      "source": "b9YEdjEKme0",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Особо опасен",
+  "description": "Уэсли Гибсон - зануда и нытик, целыми днями торчащий в офисе. Босс его унижает, подружка ему изменяет. Его жизнь катится в никуда! Обнаружив, что отец, бросивший его в раннем детстве, зверски убит, Уэс оказывается втянут в тайное общество киллеров под названием «Братство». За его обучение берется опытная наставница Фокс, и этот когда-то прикованный к офисному креслу хлюпик развивает молниеносную реакцию и сверхчеловеческую скорость. Однако уже на первом задании Уэсли понимает: есть вещи посложнее, чем вершить судьбы других людей. Это - набраться храбрости и стать хозяином собственной жизни.",
+  "aliases": [
+    "Особо опасен",
+    "Wanted"
+  ],
+  "kpId": 259876,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/259876/"
+  ],
+  "year": "2008",
+  "imdbId": "tt0493464",
+  "ids": [
+    "tt0493464"
+  ],
+  "originalName": "Wanted",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-25T05:11:43Z",
+  "sources": [
+    {
+      "title": "Особо опасен / Wanted (2008) UHD BDRip-HEVC 1080p от RIPS CLUB | D, A",
+      "magnet": "magnet:?xt=urn:btih:c14acc3a00c722f263a0124e8986ef9b4f008c68&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DdiTtwcX9nV",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 13636521164,
+      "size": "12.70 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Особо опасен / Wanted (2008) UHD BDRip-HEVC 1080p от RIPS CLUB | D, A"
+    },
+    {
+      "title": "Особо опасен / Wanted (Тимур Бекмамбетов / Timur Bekmambetov) [2008, Германия, США, боевик, триллер, криминал, BDRip 1080p] Dub + AVO + Original Eng + Sub Rus, Eng",
+      "magnet": "magnet:?xt=urn:btih:9EC34CDA443C6A7030CFF72CC57C85C6CA373868&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 14774687498,
+      "size": "13.76 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Особо опасен / Wanted (Тимур Бекмамбетов / Timur Bekmambetov) [2008, Германия, США, боевик, триллер, криминал, BDRip 1080p] Dub + AVO + Original Eng + Sub Rus, Eng"
+    },
+    {
+      "title": "Особо опасен / Wanted (2008) BDRip [AV1/2160p] [4K, HDR10, 10-bit]",
+      "magnet": "magnet:?xt=urn:btih:3E623FAB1716FC55996AD85B62008EF8D0627892",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 18146236825,
+      "size": "16.90 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Особо опасен / Wanted (2008) BDRip [AV1/2160p] [4K, HDR10, 10-bit]"
+    },
+    {
+      "title": "Особо опасен / Wanted (Тимур Бекмамбетов / Timur Bekmambetov) [2008, Германия, США, боевик, триллер, криминал, BDRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:EC2E187DC7DA147814042FD2039976363A588EA8&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 7967164334,
+      "size": "7.42 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Особо опасен / Wanted (Тимур Бекмамбетов / Timur Bekmambetov) [2008, Германия, США, боевик, триллер, криминал, BDRip 720p]"
+    },
+    {
+      "title": "Особо опасен / Wanted (2008) BDRip [H.264/720p]",
+      "magnet": "magnet:?xt=urn:btih:62B66A69BCEF7942A5A33106C0F0AE5B4648854B",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 6732361236,
+      "size": "6.27 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Особо опасен / Wanted (2008) BDRip [H.264/720p]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-10-19T06:43:16Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt0493464/img",
+    "background": "https://images.metahub.space/background/medium/tt0493464/img"
+  }
+}

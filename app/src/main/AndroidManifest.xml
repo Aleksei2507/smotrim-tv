@@ -3,6 +3,8 @@
     <permission android:name="ru.smotrim.tv.permission.READ_HOME" android:protectionLevel="signature" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="ru.smotrim.vpn.permission.CONTROL_FILTER" />
+    <queries><provider android:authorities="ru.smotrim.vpn.filter" /></queries>
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
     <uses-feature android:name="android.software.leanback" android:required="true" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />

@@ -1646,5 +1646,282 @@
         "minSeason": 3
       }
     ]
+  },
+  "tt14688458": {
+    "episodeSources": [
+      "https://api.tvmaze.com/shows/38052/episodes"
+    ],
+    "videos": [
+      {
+        "id": "tt14688458:1:1",
+        "season": 1,
+        "episode": 1,
+        "title": "Серия 1",
+        "description": "",
+        "released": "2023-05-05",
+        "source": "https://www.tvmaze.com/episodes/2500484/silo-1x01-freedom-day"
+      },
+      {
+        "id": "tt14688458:1:2",
+        "season": 1,
+        "episode": 2,
+        "title": "Серия 2",
+        "description": "",
+        "released": "2023-05-05",
+        "source": "https://www.tvmaze.com/episodes/2500487/silo-1x02-holstons-pick"
+      },
+      {
+        "id": "tt14688458:1:3",
+        "season": 1,
+        "episode": 3,
+        "title": "Серия 3",
+        "description": "",
+        "released": "2023-05-12",
+        "source": "https://www.tvmaze.com/episodes/2500705/silo-1x03-machines"
+      },
+      {
+        "id": "tt14688458:1:4",
+        "season": 1,
+        "episode": 4,
+        "title": "Серия 4",
+        "description": "",
+        "released": "2023-05-19",
+        "source": "https://www.tvmaze.com/episodes/2500706/silo-1x04-truth"
+      },
+      {
+        "id": "tt14688458:1:5",
+        "season": 1,
+        "episode": 5,
+        "title": "Серия 5",
+        "description": "",
+        "released": "2023-05-26",
+        "source": "https://www.tvmaze.com/episodes/2500707/silo-1x05-the-janitors-boy"
+      },
+      {
+        "id": "tt14688458:1:6",
+        "season": 1,
+        "episode": 6,
+        "title": "Серия 6",
+        "description": "",
+        "released": "2023-06-02",
+        "source": "https://www.tvmaze.com/episodes/2500708/silo-1x06-the-relic"
+      },
+      {
+        "id": "tt14688458:1:7",
+        "season": 1,
+        "episode": 7,
+        "title": "Серия 7",
+        "description": "",
+        "released": "2023-06-09",
+        "source": "https://www.tvmaze.com/episodes/2500709/silo-1x07-the-flamekeepers"
+      },
+      {
+        "id": "tt14688458:1:8",
+        "season": 1,
+        "episode": 8,
+        "title": "Серия 8",
+        "description": "",
+        "released": "2023-06-16",
+        "source": "https://www.tvmaze.com/episodes/2500710/silo-1x08-hanna"
+      },
+      {
+        "id": "tt14688458:1:9",
+        "season": 1,
+        "episode": 9,
+        "title": "Серия 9",
+        "description": "",
+        "released": "2023-06-23",
+        "source": "https://www.tvmaze.com/episodes/2500711/silo-1x09-the-getaway"
+      },
+      {
+        "id": "tt14688458:1:10",
+        "season": 1,
+        "episode": 10,
+        "title": "Серия 10",
+        "description": "",
+        "released": "2023-06-30",
+        "source": "https://www.tvmaze.com/episodes/2500712/silo-1x10-outside"
+      },
+      {
+        "id": "tt14688458:2:1",
+        "season": 2,
+        "episode": 1,
+        "title": "Серия 1",
+        "description": "",
+        "released": "2024-11-15",
+        "source": "https://www.tvmaze.com/episodes/2957753/silo-2x01-the-engineer"
+      },
+      {
+        "id": "tt14688458:2:2",
+        "season": 2,
+        "episode": 2,
+        "title": "Серия 2",
+        "description": "",
+        "released": "2024-11-22",
+        "source": "https://www.tvmaze.com/episodes/2957754/silo-2x02-order"
+      },
+      {
+        "id": "tt14688458:2:3",
+        "season": 2,
+        "episode": 3,
+        "title": "Серия 3",
+        "description": "",
+        "released": "2024-11-27",
+        "source": "https://www.tvmaze.com/episodes/2957755/silo-2x03-solo"
+      },
+      {
+        "id": "tt14688458:2:4",
+        "season": 2,
+        "episode": 4,
+        "title": "Серия 4",
+        "description": "",
+        "released": "2024-12-06",
+        "source": "https://www.tvmaze.com/episodes/2957756/silo-2x04-the-harmonium"
+      },
+      {
+        "id": "tt14688458:2:5",
+        "season": 2,
+        "episode": 5,
+        "title": "Серия 5",
+        "description": "",
+        "released": "2024-12-13",
+        "source": "https://www.tvmaze.com/episodes/2957758/silo-2x05-descent"
+      },
+      {
+        "id": "tt14688458:2:6",
+        "season": 2,
+        "episode": 6,
+        "title": "Серия 6",
+        "description": "",
+        "released": "2024-12-20",
+        "source": "https://www.tvmaze.com/episodes/2957759/silo-2x06-barricades"
+      },
+      {
+        "id": "tt14688458:2:7",
+        "season": 2,
+        "episode": 7,
+        "title": "Серия 7",
+        "description": "",
+        "released": "2024-12-27",
+        "source": "https://www.tvmaze.com/episodes/2957760/silo-2x07-the-dive"
+      },
+      {
+        "id": "tt14688458:2:8",
+        "season": 2,
+        "episode": 8,
+        "title": "Серия 8",
+        "description": "",
+        "released": "2025-01-03",
+        "source": "https://www.tvmaze.com/episodes/2957762/silo-2x08-the-book-of-quinn"
+      },
+      {
+        "id": "tt14688458:2:9",
+        "season": 2,
+        "episode": 9,
+        "title": "Серия 9",
+        "description": "",
+        "released": "2025-01-10",
+        "source": "https://www.tvmaze.com/episodes/2957763/silo-2x09-the-safeguard"
+      },
+      {
+        "id": "tt14688458:2:10",
+        "season": 2,
+        "episode": 10,
+        "title": "Серия 10",
+        "description": "",
+        "released": "2025-01-17",
+        "source": "https://www.tvmaze.com/episodes/2957765/silo-2x10-into-the-fire"
+      },
+      {
+        "id": "tt14688458:3:1",
+        "season": 3,
+        "episode": 1,
+        "title": "Серия 1",
+        "description": "",
+        "released": "2026-07-03",
+        "source": "https://www.tvmaze.com/episodes/3599222/silo-3x01-who-are-you"
+      },
+      {
+        "id": "tt14688458:3:2",
+        "season": 3,
+        "episode": 2,
+        "title": "Серия 2",
+        "description": "",
+        "released": "2026-07-10",
+        "source": "https://www.tvmaze.com/episodes/3599620/silo-3x02-its-all-good"
+      },
+      {
+        "id": "tt14688458:3:3",
+        "season": 3,
+        "episode": 3,
+        "title": "Серия 3",
+        "description": "",
+        "released": "2026-07-17",
+        "source": "https://www.tvmaze.com/episodes/3599621/silo-3x03-a-dark-web"
+      },
+      {
+        "id": "tt14688458:3:4",
+        "season": 3,
+        "episode": 4,
+        "title": "Серия 4",
+        "description": "",
+        "released": "2026-07-24",
+        "source": "https://www.tvmaze.com/episodes/3599622/silo-3x04-whatever-you-do-dont-go-home"
+      },
+      {
+        "id": "tt14688458:3:5",
+        "season": 3,
+        "episode": 5,
+        "title": "Серия 5",
+        "description": "",
+        "released": "2026-07-31",
+        "source": "https://www.tvmaze.com/episodes/3599623/silo-3x05-memory"
+      },
+      {
+        "id": "tt14688458:3:6",
+        "season": 3,
+        "episode": 6,
+        "title": "Серия 6",
+        "description": "",
+        "released": "2026-08-07",
+        "source": "https://www.tvmaze.com/episodes/3599624/silo-3x06-the-drive"
+      },
+      {
+        "id": "tt14688458:3:7",
+        "season": 3,
+        "episode": 7,
+        "title": "Серия 7",
+        "description": "",
+        "released": "2026-08-14",
+        "source": "https://www.tvmaze.com/episodes/3599625/silo-3x07-radio"
+      },
+      {
+        "id": "tt14688458:3:8",
+        "season": 3,
+        "episode": 8,
+        "title": "Серия 8",
+        "description": "",
+        "released": "2026-08-21",
+        "source": "https://www.tvmaze.com/episodes/3599626/silo-3x08-gray-goo"
+      },
+      {
+        "id": "tt14688458:3:9",
+        "season": 3,
+        "episode": 9,
+        "title": "Серия 9",
+        "description": "",
+        "released": "2026-08-28",
+        "source": "https://www.tvmaze.com/episodes/3599627/silo-3x09-farewell"
+      },
+      {
+        "id": "tt14688458:3:10",
+        "season": 3,
+        "episode": 10,
+        "title": "Серия 10",
+        "description": "",
+        "released": "2026-09-04",
+        "source": "https://www.tvmaze.com/episodes/3599628/silo-3x10-troy"
+      }
+    ]
   }
 }

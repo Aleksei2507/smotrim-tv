@@ -88,6 +88,46 @@ function sourceScope(text,target){
 function episodeSources(items,target,prefs){return rankedSources(items,prefs).map(s=>({...s,episodeScope:s.catalogSource?(s.season!==target.season||s.episode>0&&s.episode!==target.episode||s.episodeFrom&&(target.episode<s.episodeFrom||target.episode>s.episodeTo)?3:s.episode>0?0:1):sourceScope(s.title,target)})).filter(s=>s.episodeScope!==3).sort((a,b)=>Number(a.seeds===0)-Number(b.seeds===0)||languageRank(b,prefs)-languageRank(a,prefs)||a.episodeScope-b.episodeScope);}
 function readability(value){return {size:['normal','large','largest'].includes(value?.size)?value.size:'normal',contrast:value?.contrast===true,motion:value?.motion===true};}
 
-const api={mediaGenres,genreOptions,sourceSize,searchSelection,audioLanguages,audioLabel,contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,sourceSearchError,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
+function playbackDuration(item,state,savedFile,savedHistory){
+ const previous=savedHistory?.url===item.url&&savedHistory.fileIndex===item.fileIndex?savedHistory.duration:0;
+ return [state?.duration,savedFile?.duration,previous].find(n=>Number.isFinite(n)&&n>0)||0;
+}
+function segmentQuery(item){
+ const imdbId=mediaIds(item?.movie).find(id=>typeof id==='string'&&/^tt\d{5,12}$/.test(id)),season=item?.seriesEpisode?.season,episode=item?.seriesEpisode?.episode;
+ if(item?.kind!=='torrent'||!imdbId)return null;
+ if(item.movie?.type==='movie')return {imdbId,isMovie:true};
+ if(item.movie?.type!=='series'||!Number.isInteger(season)||season<0||season>100||!Number.isInteger(episode)||episode<1||episode>10000)return null;
+ return {imdbId,season,episode};
+}
+function segmentsMatch(data,query){
+ return !!query&&data?.imdb_id===query.imdbId&&(query.isMovie?data.media_type==='movie'&&data.is_movie===true:data.media_type==='tv'&&data.season===query.season&&data.episode===query.episode);
+}
+function verifiedSegment(segment,maxLength,minVotes=1){
+ const start=segment?.start_ms,end=segment?.end_ms;
+ if(!Number.isFinite(start)||!Number.isFinite(end)||start<0||end-start<5000||end-start>maxLength||!Number.isFinite(segment.confidence)||segment.confidence<.9||segment.confidence>1||!Number.isInteger(segment.submission_count)||segment.submission_count<minVotes)return null;
+ return {start:Math.round(start),end:Math.round(end)};
+}
+function introSegment(data,query){return segmentsMatch(data,query)&&!data.no_intro?verifiedSegment(data.intro,300000,2):null;}
+function creditsSegment(data,query){
+ if(!segmentsMatch(data,query)||data.no_outro)return null;
+ const credits=verifiedSegment(data.outro,900000);if(!credits)return null;
+ const postCredits=verifiedSegment(data.post_credits,600000);
+ return {...credits,matchEnd:Math.max(credits.end,postCredits?.end||0)};
+}
+function creditsReached(segment,state){
+ const duration=state?.duration,position=state?.position;
+ if(state?.loading||!Number.isFinite(duration)||duration<=0||!Number.isFinite(position)||position<0)return false;
+ if(segment&&segment.start>=duration/2&&Math.abs(segment.matchEnd-duration)<=15000&&position>=segment.start)return true;
+ // Without matching timestamps, finish only after 98% and at most two minutes remain.
+ return position>=duration*.98&&duration-position<=120000;
+}
+function introTarget(segment,state){
+ if(!segment||state?.loading||!Number.isFinite(state?.duration)||segment.end>=state.duration||!Number.isFinite(state?.position)||state.position<segment.start||state.position>=segment.end)return null;
+ return segment.end;
+}
+function switchSource(item,source,state){
+ return {...item,url:source.magnet,fileIndex:undefined,files:[],position:Math.max(0,state.position??item.position??0),paused:!(state.playWhenReady??state.playing??!item.paused),completed:false};
+}
+const api={playbackDuration,segmentQuery,introSegment,introTarget,creditsSegment,creditsReached,switchSource,mediaGenres,genreOptions,sourceSize,searchSelection,audioLanguages,audioLabel,contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,sourceSearchError,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
 if(typeof module!=='undefined')module.exports=api;else root.TVFeatures=api;
 })(typeof window!=='undefined'?window:globalThis);

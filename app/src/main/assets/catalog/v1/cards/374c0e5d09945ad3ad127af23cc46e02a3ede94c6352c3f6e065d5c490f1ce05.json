@@ -1,0 +1,58 @@
+{
+  "id": "tt15239678",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c89d0600dae59f9404e1a9be4b67807494faf144ae0c491d00373042a60114ea.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3b01e55ea929e1baebbd5f66abf9565d5c49bc3e38e18b6a4da54c2c9a30e6e4.jpg",
+  "genres": [
+    "Боевик",
+    "Приключения",
+    "Драма"
+  ],
+  "runtime": "167 мин",
+  "imdbRating": "8.4",
+  "releaseInfo": "2024",
+  "trailers": [
+    {
+      "source": "U2Qp5pL3ovA",
+      "type": "Trailer"
+    },
+    {
+      "source": "_YUzQa_1RCE",
+      "type": "Trailer"
+    },
+    {
+      "source": "Way9Dexny3w",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Дюна: Часть вторая",
+  "origin": "other",
+  "year": "2024",
+  "searchName": "Дюна Часть вторая",
+  "aliases": [
+    "Дюна: Часть вторая",
+    "Dune: Part Two",
+    "Дюна Часть вторая",
+    "Дюна 2"
+  ],
+  "description": "Пол Атрейдес присоединяется к фрименам Арракиса. Вместе с Чани он готовится противостоять Харконненам, пытаясь изменить будущее, в котором его победа может привести к большой войне.",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt15239678.json",
+    "https://www.imdb.com/title/tt15239678/",
+    "https://www.kinopoisk.ru/film/4540126/"
+  ],
+  "imdbId": "tt15239678",
+  "ids": [
+    "tt15239678"
+  ],
+  "originalName": "Dune: Part Two",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-10-29T14:21:17Z",
+  "sources": [],
+  "sourcesUpdatedAt": "2026-10-29T14:18:43Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt15239678/img",
+    "background": "https://images.metahub.space/background/medium/tt15239678/img"
+  }
+}
