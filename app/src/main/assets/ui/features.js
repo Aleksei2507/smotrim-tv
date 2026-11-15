@@ -128,6 +128,20 @@ function introTarget(segment,state){
 function switchSource(item,source,state){
  return {...item,url:source.magnet,fileIndex:undefined,files:[],position:Math.max(0,state.position??item.position??0),paused:!(state.playWhenReady??state.playing??!item.paused),completed:false};
 }
-const api={playbackDuration,segmentQuery,introSegment,introTarget,creditsSegment,creditsReached,switchSource,mediaGenres,genreOptions,sourceSize,searchSelection,audioLanguages,audioLabel,contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,sourceSearchError,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
+function historyCard(record){
+ const m=record?.movie,id=mediaIds(m).find(id=>/^(?:tt\d{5,12}|kp:\d{1,9}|tmdb:(?:movie|series):\d{1,9})$/.test(id));if(!id)return null;
+ const season=record.seriesEpisode?.season;
+ return {...m,id,selectedEpisode:null,...(Number.isInteger(season)&&season>=0&&season<=999?{browseSeason:season}:{})};
+}
+function castOrder(people,names=[]){
+ const rank=p=>{const i=names.findIndex(n=>[p.name,p.originalName].some(v=>String(v||'').toLowerCase()===String(n).toLowerCase()));return i<0?Infinity:i;};
+ const billing=p=>Number.isInteger(p.billingOrder)&&p.billingOrder>0?p.billingOrder:Infinity;
+ return [...people].sort((a,b)=>{const ar=rank(a),br=rank(b);if(ar!==br)return ar<br?-1:1;const ap=billing(a),bp=billing(b);return ap===bp?0:ap<bp?-1:1;});
+}
+function filmographyNewest(items){
+ const stamp=m=>{const year=String(m.year||m.releaseInfo||m.released||'').match(/^(\d{4})/);if(!year)return '';const date=String(m.released||'').match(/^(\d{4}-\d{2}-\d{2})/);return date&&date[1].startsWith(year[1])?date[1]:year[1]+'-00-00';};
+ return [...items].sort((a,b)=>stamp(b).localeCompare(stamp(a)));
+}
+const api={historyCard,castOrder,filmographyNewest,playbackDuration,segmentQuery,introSegment,introTarget,creditsSegment,creditsReached,switchSource,mediaGenres,genreOptions,sourceSize,searchSelection,audioLanguages,audioLabel,contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,sourceSearchError,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
 if(typeof module!=='undefined')module.exports=api;else root.TVFeatures=api;
 })(typeof window!=='undefined'?window:globalThis);

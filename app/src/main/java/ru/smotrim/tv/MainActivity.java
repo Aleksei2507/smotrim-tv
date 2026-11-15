@@ -171,6 +171,8 @@ public class MainActivity extends Activity {
                         JSONObject selected=a.optJSONObject("item");if(selected==null)selected=new JSONObject().put("id",a.getString("id")).put("type",method.equals("series-detail")?"series":"movie");
                         JSONObject saved=githubCatalog==null?null:githubCatalog.detail(selected);answer=saved==null?mediaCatalog().detail(selected,a.optBoolean("refresh")):saved;break;
                     }
+                    case "title-cast": answer=new PeopleCatalog(new File(getCacheDir(),"people-catalog")).cast(a.getJSONObject("item"),a.optBoolean("refresh"));break;
+                    case "actor-films": answer=new PeopleCatalog(new File(getCacheDir(),"people-catalog")).filmography(a.getString("id"),a.optBoolean("refresh"));break;
                     case "series-season": answer=mediaCatalog().season(a.getJSONObject("item"),a.getInt("season"));break;
                     case "series-torrents": case "torrents": answer=CatalogSources.search(a,method.equals("series-torrents"));break;
                     case "channels": {
@@ -431,7 +433,13 @@ public class MainActivity extends Activity {
             case KeyEvent.KEYCODE_CHANNEL_UP->"ChannelUp";case KeyEvent.KEYCODE_CHANNEL_DOWN->"ChannelDown";case KeyEvent.KEYCODE_LAST_CHANNEL->"LastChannel";
             case KeyEvent.KEYCODE_BACK->"Escape";default->null;
         };
-        if(key!=null){if(key.equals("Enter")&&e.getRepeatCount()>0)return true;if(e.getAction()==KeyEvent.ACTION_DOWN)js("window.tvKey&&window.tvKey("+JSONObject.quote(key)+","+e.getRepeatCount()+")");return true;}
+        if("Enter".equals(key)){
+            if(e.getAction()==KeyEvent.ACTION_DOWN&&e.getRepeatCount()>0)return true;
+            if(e.getAction()==KeyEvent.ACTION_DOWN)js("window.tvOk?window.tvOk(true):window.tvKey&&window.tvKey('Enter')");
+            else if(e.getAction()==KeyEvent.ACTION_UP)js("window.tvOk&&window.tvOk(false,"+e.isCanceled()+")");
+            return true;
+        }
+        if(key!=null){if(e.getAction()==KeyEvent.ACTION_DOWN)js("window.tvKey&&window.tvKey("+JSONObject.quote(key)+","+e.getRepeatCount()+")");return true;}
         if(e.getAction()==KeyEvent.ACTION_DOWN){
             if(e.getKeyCode()==KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE){commandPlayer("pause");return true;}
             if(e.getKeyCode()==KeyEvent.KEYCODE_MEDIA_FAST_FORWARD){commandPlayer("forward");return true;}
@@ -440,6 +448,7 @@ public class MainActivity extends Activity {
         return super.dispatchKeyEvent(e);
     }
     @Override protected void onPause(){
+        js("window.cancelHeldOk&&window.cancelHeldOk()");
         resumed=false;backgrounded=true;
         if(now!=null&&player!=null){resumePlaybackOnForeground=player.getPlayWhenReady();player.pause();event("position",player.getCurrentPosition());}
         super.onPause();
