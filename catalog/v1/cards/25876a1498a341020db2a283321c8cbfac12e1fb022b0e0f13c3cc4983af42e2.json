@@ -1,0 +1,93 @@
+{
+  "id": "tt0482571",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt0482571/img",
+  "background": "https://images.metahub.space/background/medium/tt0482571/img",
+  "genres": [
+    "Драма",
+    "Детектив",
+    "Фантастика"
+  ],
+  "runtime": "131 мин",
+  "imdbRating": "8.5",
+  "releaseInfo": "2006",
+  "trailers": [
+    {
+      "source": "ObGVA1WOqyE",
+      "type": "Trailer"
+    },
+    {
+      "source": "ijXruSzfGEc",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Престиж",
+  "description": "Роберт и Альфред - фокусники-иллюзионисты, которые на рубеже XIX и XX веков соперничали друг с другом в Лондоне. С годами их дружеская конкуренция на профессиональной почве перерастает в настоящую войну.\n\nОни готовы на все, чтобы выведать друг у друга секреты фантастических трюков и сорвать их исполнение. Непримиримая вражда, вспыхнувшая между ними, начинает угрожать жизни окружающих их людей…",
+  "aliases": [
+    "Престиж",
+    "The Prestige"
+  ],
+  "kpId": 195334,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0482571.json",
+    "https://www.kinopoisk.ru/film/195334/"
+  ],
+  "year": "2006",
+  "imdbId": "tt0482571",
+  "ids": [
+    "tt0482571"
+  ],
+  "originalName": "The Prestige",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-15T07:05:44Z",
+  "sources": [
+    {
+      "title": "Престиж / The Prestige (Кристофер Нолан / Christopher Nolan) [2006, США, Великобритания, триллер, фантастика, драма, BDRip 1080p] Dub + DVO + 2x MVO (Ukr) + 4x AVO + Original (Eng) + Sub (rus, ukr, eng) + Comm",
+      "magnet": "magnet:?xt=urn:btih:425C06572CD57925286D5C5BED09BE82B6D9AB43&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 19359565086,
+      "size": "18.03 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Престиж / The Prestige (Кристофер Нолан / Christopher Nolan) [2006, США, Великобритания, триллер, фантастика, драма, BDRip 1080p] Dub + DVO + 2x MVO (Ukr) + 4x AVO + Original (Eng) + Sub (rus, ukr, eng) + Comm"
+    },
+    {
+      "title": "Престиж / The Prestige (Кристофер Нолан / Christopher Nolan) [2006, США, Великобритания, фантастика, триллер, драма, детектив, UHD BDRemux 2160p, HDR10, Dolby Vision] [Hybrid] Dub + DVO + 4x AVO + 2x MVO (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:5C95895FB0F600BB9E30DC31FCE9AEC666905E0F&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 76020921139,
+      "size": "70.80 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Престиж / The Prestige (Кристофер Нолан / Christopher Nolan) [2006, США, Великобритания, фантастика, триллер, драма, детектив, UHD BDRemux 2160p, HDR10, Dolby Vision] [Hybrid] Dub + DVO + 4x AVO + 2x MVO (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Престиж / The Prestige (Кристофер Нолан / Christopher Nolan) [2006, США, Великобритания, фантастика, триллер, драма, детектив, WEB-DL 2160p, HDR10, Dolby Vision] [Hybrid] Dub + MVO + DVO + 4x AVO + 3x Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:DEEC5DECCBF89F6A2DFDB093E934FCB7A2C7DDFB&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 31900869591,
+      "size": "29.71 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Престиж / The Prestige (Кристофер Нолан / Christopher Nolan) [2006, США, Великобритания, фантастика, триллер, драма, детектив, WEB-DL 2160p, HDR10, Dolby Vision] [Hybrid] Dub + MVO + DVO + 4x AVO + 3x Ukr + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Престиж / The Prestige (Кристофер Нолан / Christopher Nolan) [2006, США, Великобритания, триллер, фантастика, драма, BDRip 720p] Dub + DVO + AVO + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:FE3D040BFA7329A493106DC8649A8542B9CDB9F4&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 5561982648,
+      "size": "5.18 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Престиж / The Prestige (Кристофер Нолан / Christopher Nolan) [2006, США, Великобритания, триллер, фантастика, драма, BDRip 720p] Dub + DVO + AVO + Sub Rus, Eng + Original Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-15T07:05:44Z"
+}

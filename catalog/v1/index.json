@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1794723823,
-  "updatedAt": "2026-11-15T06:22:47Z",
+  "revision": 1794726428,
+  "updatedAt": "2026-11-15T07:07:06Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,244 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt32565993",
+      "ids": [
+        "tt32565993"
+      ],
+      "imdbId": "tt32565993",
+      "name": "Следствие ведут овечки",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1bbdcba4bfafdfe7fbd589d20ba214cc9cc9839b87b0a838914a77a52907ec08.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/adfd5906414fa2252f16058bcba48b8e4763e775b87620cd8b6d66c4ebda5a23.jpg",
+      "description": "Каждый вечер пастух Джордж Харди собирает своё стадо и читает им детективные истории в уверенности, что овцы не понимают ни слова. Но однажды утром Джорджа находят мёртвым, и тогда стадо, проникшееся детективными сюжетами, решает взять расследование в свои копыта.",
+      "originalName": "The Sheep Detectives",
+      "aliases": [
+        "Следствие ведут овечки",
+        "The Sheep Detectives"
+      ],
+      "genres": [
+        "Комедия",
+        "Семейный",
+        "Детектив"
+      ],
+      "imdbRating": "7.4",
+      "runtime": "109 мин",
+      "card": "cards/b24a8880b9abe305061490c844af9b76c0b829d4ec63ca68d99dabe49604a8a6.json",
+      "sha256": "b24a8880b9abe305061490c844af9b76c0b829d4ec63ca68d99dabe49604a8a6",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0482571",
+      "ids": [
+        "tt0482571"
+      ],
+      "imdbId": "tt0482571",
+      "name": "Престиж",
+      "type": "movie",
+      "year": "2006",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/dfec7160076a57c1e1fbe3d0f184c9e212d83ccfa6687cbc2c2b6311709fad03.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/44b79d7a7450a711b7d99a47c2f56823e3f443b11dd4ddfe76084c25207aebfc.jpg",
+      "description": "Роберт и Альфред - фокусники-иллюзионисты, которые на рубеже XIX и XX веков соперничали друг с другом в Лондоне. С годами их дружеская конкуренция на профессиональной почве перерастает в настоящую войну.\n\nОни готовы на все, чтобы выведать друг у друга секреты фантастических трюков и сорвать их ис…",
+      "originalName": "The Prestige",
+      "aliases": [
+        "Престиж",
+        "The Prestige"
+      ],
+      "genres": [
+        "Драма",
+        "Детектив",
+        "Фантастика"
+      ],
+      "imdbRating": "8.5",
+      "runtime": "131 мин",
+      "card": "cards/dba8c45aab2a1fbb251e2042568e36a859e6b1b9b8b9f44bf05698a72b33eef4.json",
+      "sha256": "dba8c45aab2a1fbb251e2042568e36a859e6b1b9b8b9f44bf05698a72b33eef4",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt9813792",
+      "ids": [
+        "tt9813792"
+      ],
+      "imdbId": "tt9813792",
+      "name": "Извне",
+      "type": "series",
+      "year": "2022",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/41dc51f0b45776f2c4df4018756b26e2daac758de66eb6001056b3ae20270ab6.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/08959a45b0faa2b0c5f0d9f640853b163f1a9a2583a840f4332fed03e1da3ddd.jpg",
+      "description": "Затерянный в лесу городок пленяет каждого, кому не посчастливилось туда попасть — покинуть это место невозможно. Днем невольные жители пытаются выстроить подобие нормального быта и найти способ выбраться, а по ночам спасаются от страшных лесных обитателей, которые приходят навестить горожан сразу…",
+      "originalName": "From",
+      "aliases": [
+        "Извне",
+        "From"
+      ],
+      "genres": [
+        "Драма",
+        "Ужасы",
+        "Детектив"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "51 мин",
+      "card": "cards/235295aafe9ff0720bee61f16e34e4e8467172ec32c3d3763a4710842f7aa7bd.json",
+      "sha256": "235295aafe9ff0720bee61f16e34e4e8467172ec32c3d3763a4710842f7aa7bd",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt11743610",
+      "ids": [
+        "tt11743610"
+      ],
+      "imdbId": "tt11743610",
+      "name": "Список смертников",
+      "type": "series",
+      "year": "2022",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6d71a84ad532ca6b2e2ea4479d5fcdff37c6e9c4102a5d556f47a2abe672bda8.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/08c1f276ae4dfe1563226880c2bda709450a8330cec0851c329a568675b400a2.jpg",
+      "description": "Во время выполнения секретной миссии отряд спецназа попадает в засаду. Единственный выживший в той бойне командир группы Джеймс Рис вернулся домой и похоронил своих боевых товарищей. Вскоре он начинает подозревать, что засада была частью заговора теневых структур, а ему и его близким грозит смерт…",
+      "originalName": "The Terminal List",
+      "aliases": [
+        "Список смертников",
+        "The Terminal List"
+      ],
+      "genres": [
+        "Боевик",
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "7.9",
+      "runtime": "58 мин",
+      "card": "cards/3490d3bfe673276305acd2352b7505560de294a55d1e10ce255cb6b5b4c1920b.json",
+      "sha256": "3490d3bfe673276305acd2352b7505560de294a55d1e10ce255cb6b5b4c1920b",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt26933824",
+      "ids": [
+        "tt26933824"
+      ],
+      "imdbId": "tt26933824",
+      "name": "Никто этого не хочет",
+      "type": "series",
+      "year": "2024",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e1952d9ea88b30dcc663458335381634f624403a2e2510ba028103ad919d865d.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6e2aa7ac6fe215f8c8005b969ce0419119df2e9935b449971df3d691dbca112e.jpg",
+      "description": "Неверующая ведущая подкаста о сексе и недавно ставший одиноким раввин влюбляются друг в друга.",
+      "originalName": "Nobody Wants This",
+      "aliases": [
+        "Никто этого не хочет",
+        "Nobody Wants This"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма",
+        "Мелодрама"
+      ],
+      "imdbRating": "7.7",
+      "runtime": "27 мин",
+      "card": "cards/3806dd2666a66e758372090fab0a36fd846bc68eb0d848c2f49b6207e5d9ca22.json",
+      "sha256": "3806dd2666a66e758372090fab0a36fd846bc68eb0d848c2f49b6207e5d9ca22",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt7631058",
+      "ids": [
+        "tt7631058"
+      ],
+      "imdbId": "tt7631058",
+      "name": "Властелин колец: Кольца власти",
+      "type": "series",
+      "year": "2022",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d326a0145ac1c627ccf21f8483e3f8d334584c53814a1a312229ad5b491b9284.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/00c9b1f10a7905fef57299a9607b881daa6fa62ca43d1a4bace3de3726ee73f0.jpg",
+      "description": "Несмотря на то, что наступили времена относительного мира, разрозненным королевствам предстоит противостоять возрождению зла в Средиземье.",
+      "originalName": "The Lord of the Rings: The Rings of Power",
+      "aliases": [
+        "Властелин колец: Кольца власти",
+        "The Lord of the Rings: The Rings of Power"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "6.8",
+      "runtime": "68 мин",
+      "card": "cards/1bcb0abb1a97ca1daed381ad4ba709467046d45491047d0d383584bafd4161d8.json",
+      "sha256": "1bcb0abb1a97ca1daed381ad4ba709467046d45491047d0d383584bafd4161d8",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2531336",
+      "ids": [
+        "tt2531336"
+      ],
+      "imdbId": "tt2531336",
+      "name": "Люпен",
+      "type": "series",
+      "year": "2021",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/441bbd456cd6e7e2ff99e19c5d8b1fb9435a3291b1e34b5fa4e9201f35c07884.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b1a242c7b4abd75aecf5cde1764a5cade19b5bd918537217664b497888dde437.jpg",
+      "description": "Сенегальский иммигрант Ассан Диоп планирует похитить выставленное на аукцион в Лувре колье Марии-Антуанетты. 25 лет назад за кражу у богатого семейства именно этой драгоценности был несправедливо осуждён его отец, поэтому Ассаном движет месть. Ещё подростком парень зачитывался приключениями джент…",
+      "originalName": "Lupin",
+      "aliases": [
+        "Люпен",
+        "Lupin"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "7.5",
+      "runtime": "231 мин",
+      "card": "cards/084d2c357c76d293581d57f0dc699b7ed383f11c98f0ed4dbf9d53c3488d600c.json",
+      "sha256": "084d2c357c76d293581d57f0dc699b7ed383f11c98f0ed4dbf9d53c3488d600c",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt23112594",
+      "ids": [
+        "tt23112594"
+      ],
+      "imdbId": "tt23112594",
+      "name": "Квест Вижна",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/068380022dfcbc3f1a93450bd5880eb421ed9dff9273296cca81e6fe69f59b20.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f6b825d8cb64fdedb8e7b0b41b2d617c6c71e44761109f7592d5eea9200acb76.jpg",
+      "description": "Андроид Вижн возвращается к жизни и восстанавливает память, однако его личность претерпевает изменения, а воспоминания теряют былую значимость. Пока на него ведётся охота, Вижн стремится понять, кем он является, и пытается вернуть свою человечность, общаясь с другими видами и проявлениями искусст…",
+      "originalName": "VisionQuest",
+      "aliases": [
+        "Квест Вижна",
+        "VisionQuest"
+      ],
+      "genres": [
+        "Боевик"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "54 мин",
+      "card": "cards/508f1df26e5ee90cd358d82691f724aa510b0bdf4fb148e526bb02f2cbeaee79.json",
+      "sha256": "508f1df26e5ee90cd358d82691f724aa510b0bdf4fb148e526bb02f2cbeaee79",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt34206385",
       "ids": [
@@ -35,8 +273,8 @@
       ],
       "imdbRating": "7.0",
       "runtime": "110 мин",
-      "card": "cards/8d54f2eeccba1d5ded3326e2c35c8e8b328bafc9ec2955fa1e7202dc9227d066.json",
-      "sha256": "8d54f2eeccba1d5ded3326e2c35c8e8b328bafc9ec2955fa1e7202dc9227d066",
+      "card": "cards/7d5dc2b2546b79f12a19b9c01f80891ed49a17142faf6ca218b255718423617d.json",
+      "sha256": "7d5dc2b2546b79f12a19b9c01f80891ed49a17142faf6ca218b255718423617d",
       "localized": true,
       "provider": "github"
     },
@@ -65,8 +303,8 @@
       ],
       "imdbRating": "8.6",
       "runtime": "53 мин",
-      "card": "cards/8ebd1a691b8af8af1bb249dd2123a22b09fcdab5e86440ab061a5183cf2c2c60.json",
-      "sha256": "8ebd1a691b8af8af1bb249dd2123a22b09fcdab5e86440ab061a5183cf2c2c60",
+      "card": "cards/e28dd005ff495d4537657fe14507710211b53c92ec827290588ba673c49bd462.json",
+      "sha256": "e28dd005ff495d4537657fe14507710211b53c92ec827290588ba673c49bd462",
       "localized": true,
       "provider": "github"
     },
@@ -95,8 +333,8 @@
       ],
       "imdbRating": "7.5",
       "runtime": "112 мин",
-      "card": "cards/baaf586b93a91d06da525f7076760d3030c5485ce96825d5b31bf0932250b71e.json",
-      "sha256": "baaf586b93a91d06da525f7076760d3030c5485ce96825d5b31bf0932250b71e",
+      "card": "cards/24e234a594bac3bc723a58699e9b0bddd22eec5748eac460301cf0f553c0f60a.json",
+      "sha256": "24e234a594bac3bc723a58699e9b0bddd22eec5748eac460301cf0f553c0f60a",
       "localized": true,
       "provider": "github"
     },
@@ -125,8 +363,8 @@
       ],
       "imdbRating": "",
       "runtime": "94 мин",
-      "card": "cards/fc264c410f18c9f03723f61a08b0e2f6e73b0967ae6feb62418407561d136627.json",
-      "sha256": "fc264c410f18c9f03723f61a08b0e2f6e73b0967ae6feb62418407561d136627",
+      "card": "cards/02c82fe0e89ddc6163633ddaf5099002a14119dc50e4654985281ae22cb7e779.json",
+      "sha256": "02c82fe0e89ddc6163633ddaf5099002a14119dc50e4654985281ae22cb7e779",
       "localized": true,
       "provider": "github"
     },
@@ -184,8 +422,8 @@
       ],
       "imdbRating": "9.0",
       "runtime": "52 мин",
-      "card": "cards/74c2d6e59c4817f551e274612030cba82a67df15659db39c96a793d99cb77d67.json",
-      "sha256": "74c2d6e59c4817f551e274612030cba82a67df15659db39c96a793d99cb77d67",
+      "card": "cards/19744e450ac42259c9442bcbd67a512ffd6805c3437fa39664fb44c481122a3f.json",
+      "sha256": "19744e450ac42259c9442bcbd67a512ffd6805c3437fa39664fb44c481122a3f",
       "localized": true,
       "provider": "github"
     },
@@ -244,8 +482,8 @@
       ],
       "imdbRating": "7.5",
       "runtime": "24 мин",
-      "card": "cards/17ace9fc78d60b0ddf184ea03121cb226ab4869e5db3c370555714a336c5a7a1.json",
-      "sha256": "17ace9fc78d60b0ddf184ea03121cb226ab4869e5db3c370555714a336c5a7a1",
+      "card": "cards/79c53cd80d56215f9778b3d85b4a31813c639ec6b2bb0cfc0bff5979df86f507.json",
+      "sha256": "79c53cd80d56215f9778b3d85b4a31813c639ec6b2bb0cfc0bff5979df86f507",
       "localized": true,
       "provider": "github"
     },
