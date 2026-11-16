@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1794794523,
-  "updatedAt": "2026-11-16T02:00:32Z",
+  "revision": 1794813162,
+  "updatedAt": "2026-11-16T07:12:40Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,246 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt0068646",
+      "ids": [
+        "tt0068646"
+      ],
+      "imdbId": "tt0068646",
+      "name": "Крестный отец",
+      "type": "movie",
+      "year": "1972",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a163c3aba06ba02b8c05d5e128b8a0092ff36bb07ac30d30033f83bde1c41ea2.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cc094a1c09fc6be1d2d90786832f888f4c7e74837db6cea22429647e8b2d7335.jpg",
+      "description": "Криминальная сага, повествующая о нью-йоркской сицилийской мафиозной семье Корлеоне. Фильм охватывает период 1945-1955 годов.\n\nГлава семьи, Дон Вито Корлеоне, выдаёт замуж свою дочь. В это время со Второй мировой войны возвращается его любимый сын Майкл. Майкл, герой войны, гордость семьи, не выр…",
+      "originalName": "The Godfather",
+      "aliases": [
+        "Крестный отец",
+        "The Godfather"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "9.2",
+      "runtime": "175 мин",
+      "card": "cards/66c34a9904ffb5eaea03ce800b3380d52c6bad9505798e0967de2aa687461e7a.json",
+      "sha256": "66c34a9904ffb5eaea03ce800b3380d52c6bad9505798e0967de2aa687461e7a",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt10545296",
+      "ids": [
+        "tt10545296"
+      ],
+      "imdbId": "tt10545296",
+      "name": "Голодные игры: Баллада о змеях и певчих птицах",
+      "type": "movie",
+      "year": "2023",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/dde99488ae980ff16fd89c491f4685d92edc47d7db12d156f3760bf8b946b6de.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/afffda6fc826aba5a0f2cc4e85a35cd64320997f12b4023258bcd707c13705d9.jpg",
+      "description": "До того как стать деспотичным президентом Панэма, молодой Кориолан Сноу был последней надеждой своего увядающего рода — некогда великой династии, впавшей в немилость послевоенного Капитолия. Накануне десятых ежегодных Голодных игр Сноу назначают наставником Люси Грей Бэйрд — трибута дистрикта 12.…",
+      "originalName": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "aliases": [
+        "Голодные игры: Баллада о змеях и певчих птицах",
+        "The Hunger Games: The Ballad of Songbirds & Snakes"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фантастика"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "157 мин",
+      "card": "cards/0315f003124a23338b938c4dc6c85df784cdfac92e28706347e89243cf7c9fd9.json",
+      "sha256": "0315f003124a23338b938c4dc6c85df784cdfac92e28706347e89243cf7c9fd9",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2560140",
+      "ids": [
+        "tt2560140"
+      ],
+      "imdbId": "tt2560140",
+      "name": "Атака титанов",
+      "type": "series",
+      "year": "2013",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/83eb1cd7598cfcaad8e9bf40b2ad5b88561b6ba041e5cd5b2fb9d04960b31030.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b5687c4431bd4acfd6ccc9be6f1700b62238eb0e6c76dc1881f4eabcf5fce44c.jpg",
+      "description": "Уже многие годы человечество ведёт борьбу с титанами — огромными существами, которые не обладают особым интеллектом, зато едят людей и получают от этого удовольствие. После продолжительной борьбы остатки человечества построили высокую стену, окружившую страну людей, через которую титаны пройти не…",
+      "originalName": "Attack on Titan",
+      "aliases": [
+        "Атака титанов",
+        "Attack on Titan",
+        "Shingeki no kyojin"
+      ],
+      "genres": [
+        "Мультфильм",
+        "Боевик",
+        "Приключения"
+      ],
+      "imdbRating": "9.1",
+      "runtime": "25 мин",
+      "card": "cards/84a2e73abc9eb5b75c1df6490866fdc698fa2738d618771918e2c7bc211c98aa.json",
+      "sha256": "84a2e73abc9eb5b75c1df6490866fdc698fa2738d618771918e2c7bc211c98aa",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt14173636",
+      "ids": [
+        "tt14173636"
+      ],
+      "imdbId": "tt14173636",
+      "name": "Приглашение",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b5e6ca8f20e2713558a532cd081dfbd5e3b050c446e8ac5be3f360c6fc53dda3.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bcd636fc5c7667fde33f2671ab862d6a2a63c5af74e4ebe007e113a6c2162960.jpg",
+      "description": "Джо и Анджела уже давно в браке, и у них 12-летняя дочь. Страсть и понимание в их отношениях давно уступили место ежедневным взаимным колкостям и ссорам. Единственное, что пока ещё сближает супругов — обсуждение Хока и Пины из квартиры этажом выше, ведь почти каждую ночь оттуда доносятся громкие…",
+      "originalName": "The Invite",
+      "aliases": [
+        "Приглашение",
+        "The Invite"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма",
+        "Мелодрама"
+      ],
+      "imdbRating": "7.5",
+      "runtime": "107 мин",
+      "card": "cards/48019b05905bd5a97082d1e3c4ba310403ed23105a492750e95ceb78028580a8.json",
+      "sha256": "48019b05905bd5a97082d1e3c4ba310403ed23105a492750e95ceb78028580a8",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt15314262",
+      "ids": [
+        "tt15314262"
+      ],
+      "imdbId": "tt15314262",
+      "name": "Пчеловод",
+      "type": "movie",
+      "year": "2024",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/51c67cc3499759cb180b35bace022ef39af0d8a57d8ae62ee5e1ac15b2c1924d.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/72a5dd89f2d3581398c5f5339640e83a1ef78e6ecae8efecdba885bf7a96976c.jpg",
+      "description": "Адам Клэй живет в тихом пригороде, занимается разведением пчёл и не распространяется о своей прошлой жизни. Он дружит с пожилой соседкой миссис Паркер, у которой арендует сарай. Однажды миссис Паркер становится жертвой кибермошенников, которые похищают деньги со всех её счетов. Не в силах вынести…",
+      "originalName": "The Beekeeper",
+      "aliases": [
+        "Пчеловод",
+        "The Beekeeper"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Триллер"
+      ],
+      "imdbRating": "6.3",
+      "runtime": "106 мин",
+      "card": "cards/908197fd82e90c48a51f0e1809df11925658e37c2cf73adbe23f1595fb7b76ed.json",
+      "sha256": "908197fd82e90c48a51f0e1809df11925658e37c2cf73adbe23f1595fb7b76ed",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt12042730",
+      "ids": [
+        "tt12042730"
+      ],
+      "imdbId": "tt12042730",
+      "name": "Проект «Конец света»",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/66aa03810c5f48a2cc4f9f7ce87cca2c3577f88e7a7d0d1c659c1009c0ecb741.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f26af8573d88574c514abb235fccfe661d08d4b9c7e8f79fc3854a9506b939ba.jpg",
+      "description": "Микробиолог Райленд Грейс просыпается на космическом корабле, не помня ни себя, ни свою миссию. Мужчина выясняет, что он — единственный выживший из экипажа, отправленного к звезде Тау Кита в поисках спасения от катастрофы на Земле. Чтобы найти решение, Райленду предстоит положиться на свои обширн…",
+      "originalName": "Project Hail Mary",
+      "aliases": [
+        "Проект «Конец света»",
+        "Project Hail Mary"
+      ],
+      "genres": [
+        "Приключения",
+        "Комедия",
+        "Фантастика"
+      ],
+      "imdbRating": "8.2",
+      "runtime": "157 мин",
+      "card": "cards/04f1298c6265c72fe58dc303ce71a4c3956874ca5ead0e27d533b8fabab2416e.json",
+      "sha256": "04f1298c6265c72fe58dc303ce71a4c3956874ca5ead0e27d533b8fabab2416e",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0241527",
+      "ids": [
+        "tt0241527"
+      ],
+      "imdbId": "tt0241527",
+      "name": "Гарри Поттер и философский камень",
+      "type": "movie",
+      "year": "2001",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6bceaaa1c8150c90839daf6adb07842c9ebc63967ebea8548f5b3097a77b272a.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/edbaab13769d2b666efca921ee4c6a72faccfba9281c9a1abe3506bd957c6bb0.jpg",
+      "description": "Жизнь десятилетнего Гарри Поттера нельзя назвать сладкой: родители умерли, едва ему исполнился год, а от дяди и тёти, взявших сироту на воспитание, достаются лишь тычки да подзатыльники. Но в одиннадцатый день рождения Гарри всё меняется. Странный гость, неожиданно появившийся на пороге, приносит…",
+      "originalName": "Harry Potter and the Sorcerer's Stone",
+      "aliases": [
+        "Гарри Поттер и философский камень",
+        "Harry Potter and the Sorcerer's Stone"
+      ],
+      "genres": [
+        "Приключения",
+        "Семейный",
+        "Фэнтези"
+      ],
+      "imdbRating": "7.7",
+      "runtime": "152 мин",
+      "card": "cards/de5d0f7821e8160dea4233f8d0515a6c66a5c04c5b5424d5134af325938e46ab.json",
+      "sha256": "de5d0f7821e8160dea4233f8d0515a6c66a5c04c5b5424d5134af325938e46ab",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2948356",
+      "ids": [
+        "tt2948356"
+      ],
+      "imdbId": "tt2948356",
+      "name": "Зверополис",
+      "type": "movie",
+      "year": "2016",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/42c53a33840307398582a5bd5f9b384eefd4c583922959519af0d0fbad506d58.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c306e91feac098efe5cf84bfbdcb4ad088e021c9b08896c0969e67b71b9c93fd.jpg",
+      "description": "Добро пожаловать в Зверополис – современный город, населенный самыми разными животными, от огромных слонов до крошечных мышек. Зверополис разделен на районы, полностью повторяющие естественную среду обитания разных жителей – здесь есть и элитный район Площадь Сахары и неприветливый Тундратаун. В…",
+      "originalName": "Zootopia",
+      "aliases": [
+        "Зверополис",
+        "Zootopia"
+      ],
+      "genres": [
+        "Мультфильм",
+        "Боевик",
+        "Приключения"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "109 мин",
+      "card": "cards/0cb8121e0c696ae3f6341027192812eafc17aaa7f1e78b0b68180d11e0c000b7.json",
+      "sha256": "0cb8121e0c696ae3f6341027192812eafc17aaa7f1e78b0b68180d11e0c000b7",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt34771210",
       "ids": [
@@ -71,8 +311,8 @@
       ],
       "imdbRating": "8.1",
       "runtime": "51 мин",
-      "card": "cards/4a2276596cdac3f4a6fcf01602acf6af3066c8bc64beab3f20eb08ade836c829.json",
-      "sha256": "4a2276596cdac3f4a6fcf01602acf6af3066c8bc64beab3f20eb08ade836c829",
+      "card": "cards/efb844d71634b47a16d7138f803deab4f4e05fa3951eaf03f0fc5b24e965b3fe.json",
+      "sha256": "efb844d71634b47a16d7138f803deab4f4e05fa3951eaf03f0fc5b24e965b3fe",
       "localized": true,
       "provider": "github"
     },
@@ -161,8 +401,8 @@
       ],
       "imdbRating": "7.8",
       "runtime": "51 мин",
-      "card": "cards/0d3fa0619cdf2cb7103b7d35a1724724183a7db9e0dfea0ae3dbb02f170c021d.json",
-      "sha256": "0d3fa0619cdf2cb7103b7d35a1724724183a7db9e0dfea0ae3dbb02f170c021d",
+      "card": "cards/de75e83d949f77050f200b4bee89622451d5bbbfc605eec45d80b21aa339563d.json",
+      "sha256": "de75e83d949f77050f200b4bee89622451d5bbbfc605eec45d80b21aa339563d",
       "localized": true,
       "provider": "github"
     },
@@ -191,8 +431,8 @@
       ],
       "imdbRating": "7.9",
       "runtime": "58 мин",
-      "card": "cards/eee994a846c47b588c76c470077763f752aa9f32caf1f31849f3b8df242cc21f.json",
-      "sha256": "eee994a846c47b588c76c470077763f752aa9f32caf1f31849f3b8df242cc21f",
+      "card": "cards/c603901beb4a1869cd4bb7334538cd0b8eb0f5d92d033bf1f81a41a79d707ef2.json",
+      "sha256": "c603901beb4a1869cd4bb7334538cd0b8eb0f5d92d033bf1f81a41a79d707ef2",
       "localized": true,
       "provider": "github"
     },
@@ -221,8 +461,8 @@
       ],
       "imdbRating": "7.7",
       "runtime": "27 мин",
-      "card": "cards/3806dd2666a66e758372090fab0a36fd846bc68eb0d848c2f49b6207e5d9ca22.json",
-      "sha256": "3806dd2666a66e758372090fab0a36fd846bc68eb0d848c2f49b6207e5d9ca22",
+      "card": "cards/19816ccfd450a5b4ebbf7cc69f250eef74e13633287cd5651ae4f1e354114efa.json",
+      "sha256": "19816ccfd450a5b4ebbf7cc69f250eef74e13633287cd5651ae4f1e354114efa",
       "localized": true,
       "provider": "github"
     },
@@ -251,8 +491,8 @@
       ],
       "imdbRating": "6.8",
       "runtime": "68 мин",
-      "card": "cards/ffd5aee14f9e40423f19380d3e2c033a51aab43cb03d77ddc584e637255291ec.json",
-      "sha256": "ffd5aee14f9e40423f19380d3e2c033a51aab43cb03d77ddc584e637255291ec",
+      "card": "cards/565353343f6b6e66f0134e99802f14085231d3cd5913fe491f34386c5c02e147.json",
+      "sha256": "565353343f6b6e66f0134e99802f14085231d3cd5913fe491f34386c5c02e147",
       "localized": true,
       "provider": "github"
     },

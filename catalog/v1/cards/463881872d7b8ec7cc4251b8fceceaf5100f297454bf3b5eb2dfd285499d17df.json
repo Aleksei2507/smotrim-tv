@@ -1,0 +1,105 @@
+{
+  "id": "tt12042730",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt12042730/img",
+  "background": "https://images.metahub.space/background/medium/tt12042730/img",
+  "genres": [
+    "Приключения",
+    "Комедия",
+    "Фантастика"
+  ],
+  "runtime": "157 мин",
+  "imdbRating": "8.2",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "NKYea63tQmI",
+      "type": "Trailer"
+    },
+    {
+      "source": "P0XN3-n-2Lo",
+      "type": "Trailer"
+    },
+    {
+      "source": "tvd7UUHzdhA",
+      "type": "Trailer"
+    },
+    {
+      "source": "5VYsnngkS_U",
+      "type": "Trailer"
+    },
+    {
+      "source": "m08TxIsFTRI",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Проект «Конец света»",
+  "description": "Микробиолог Райленд Грейс просыпается на космическом корабле, не помня ни себя, ни свою миссию. Мужчина выясняет, что он — единственный выживший из экипажа, отправленного к звезде Тау Кита в поисках спасения от катастрофы на Земле. Чтобы найти решение, Райленду предстоит положиться на свои обширные научные знания и изобретательность, но, возможно, ему не придётся искать в одиночку.",
+  "aliases": [
+    "Проект «Конец света»",
+    "Project Hail Mary"
+  ],
+  "kpId": 1382256,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt12042730.json",
+    "https://www.kinopoisk.ru/film/1382256/"
+  ],
+  "year": "2026",
+  "imdbId": "tt12042730",
+  "ids": [
+    "tt12042730"
+  ],
+  "originalName": "Project Hail Mary",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-16T07:11:27Z",
+  "sources": [
+    {
+      "title": "Проект «Конец света» / Project Hail Mary (Фил Лорд / Phil Lord, Кристофер Миллер / Christopher Miller) [2026, США, фантастика, комедия, драма, приключения, BDRemux 1080p] [IMAX] Dub (MovieDalen) + 4х MVO + AVO (Сербин) + VO (Яроцкий) + MVO Ukr + Sub (Rus, Ukr, Eng etc.) + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:835DB524D6CACD76CFEA5AC9CDD57DA6B1584CEE&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 42155104010,
+      "size": "39.26 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Проект «Конец света» / Project Hail Mary (Фил Лорд / Phil Lord, Кристофер Миллер / Christopher Miller) [2026, США, фантастика, комедия, драма, приключения, BDRemux 1080p] [IMAX] Dub (MovieDalen) + 4х MVO + AVO (Сербин) + VO (Яроцкий) + MVO Ukr + Sub (Rus, Ukr, Eng etc.) + Original Eng"
+    },
+    {
+      "title": "Проект «Конец света» / Project Hail Mary (2026) WEB-DL 1080p от Scarabey | D, P | MovieDalen, Jaskier, LostFilm, Яроцкий | IMAX",
+      "magnet": "magnet:?xt=urn:btih:b87e7b545e638902b4dc35e281c1ce4bd25b3925&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 15472619683,
+      "size": "14.41 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Проект «Конец света» / Project Hail Mary (2026) WEB-DL 1080p от Scarabey | D, P | MovieDalen, Jaskier, LostFilm, Яроцкий | IMAX"
+    },
+    {
+      "title": "Проект «Конец света» / Project Hail Mary (Фил Лорд / Phil Lord, Кристофер Миллер / Christopher Miller) [2026, США, фантастика, драма, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub (MovieDalen) + 5x MVO + VO (Яроцкий) + MVO (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C1B92C772DAD3A3E8B5F19A045ABC8A7E8F7C772&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 34553011896,
+      "size": "32.18 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Проект «Конец света» / Project Hail Mary (Фил Лорд / Phil Lord, Кристофер Миллер / Christopher Miller) [2026, США, фантастика, драма, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub (MovieDalen) + 5x MVO + VO (Яроцкий) + MVO (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Проект «Конец света» / Project Hail Mary (Фил Лорд / Phil Lord, Кристофер Миллер / Christopher Miller) [2026, США, Фантастика, драма, WEB-DL 2160p, SDR] [IMAX] Dub (MovieDalen) + 5x MVO (AlexFilm, Jaskier, LostFilm, Дубляжная, ЗаКадры) + VO (Яроцкий) + MVO (Ukr) + Original + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:D53CBF7988268ABBE31806528DDBD4DCDE63F5B5&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 29935922053,
+      "size": "27.88 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Проект «Конец света» / Project Hail Mary (Фил Лорд / Phil Lord, Кристофер Миллер / Christopher Miller) [2026, США, Фантастика, драма, WEB-DL 2160p, SDR] [IMAX] Dub (MovieDalen) + 5x MVO (AlexFilm, Jaskier, LostFilm, Дубляжная, ЗаКадры) + VO (Яроцкий) + MVO (Ukr) + Original + Sub (Rus, Ukr, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-16T07:11:27Z"
+}

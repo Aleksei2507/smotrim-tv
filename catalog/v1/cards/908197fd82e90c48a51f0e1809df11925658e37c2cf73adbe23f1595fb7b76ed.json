@@ -1,0 +1,116 @@
+{
+  "id": "tt15314262",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/51c67cc3499759cb180b35bace022ef39af0d8a57d8ae62ee5e1ac15b2c1924d.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/72a5dd89f2d3581398c5f5339640e83a1ef78e6ecae8efecdba885bf7a96976c.jpg",
+  "genres": [
+    "Боевик",
+    "Криминал",
+    "Триллер"
+  ],
+  "runtime": "106 мин",
+  "imdbRating": "6.3",
+  "releaseInfo": "2024",
+  "trailers": [
+    {
+      "source": "CHKn-yDCE2w",
+      "type": "Trailer"
+    },
+    {
+      "source": "iq1HdW5_ZYc",
+      "type": "Trailer"
+    },
+    {
+      "source": "dE0KFHYiQ4s",
+      "type": "Trailer"
+    },
+    {
+      "source": "SzINZZ6iqxY",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Пчеловод",
+  "description": "Адам Клэй живет в тихом пригороде, занимается разведением пчёл и не распространяется о своей прошлой жизни. Он дружит с пожилой соседкой миссис Паркер, у которой арендует сарай. Однажды миссис Паркер становится жертвой кибермошенников, которые похищают деньги со всех её счетов. Не в силах вынести такой удар, женщина сводит счёты с жизнью. Осознав, что закон в данной ситуации бессилен, Адам решает применить все свои боевые навыки, чтобы вычислить преступников и отомстить.",
+  "aliases": [
+    "Пчеловод",
+    "The Beekeeper"
+  ],
+  "kpId": 4626783,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt15314262.json",
+    "https://www.kinopoisk.ru/film/4626783/"
+  ],
+  "year": "2024",
+  "imdbId": "tt15314262",
+  "ids": [
+    "tt15314262"
+  ],
+  "originalName": "The Beekeeper",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-16T07:12:40Z",
+  "sources": [
+    {
+      "title": "Пчеловод / The Beekeeper (2024) WEB-DL [H.264/1080p] [DVO]",
+      "magnet": "magnet:?xt=urn:btih:21643F0EAC1A502AC988FC5C33C27ADEC61643CA",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 7859790151,
+      "size": "7.32 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Пчеловод / The Beekeeper (2024) WEB-DL [H.264/1080p] [DVO]"
+    },
+    {
+      "title": "Пчеловод / The Beekeeper (Дэвид Эйр / David Ayer) [2024, США, Великобритания, боевик, триллер, WEB-DL 1080p] MVO (TVShows) + MVO (Jaskier, 18+) + DVO (ViruseProject, 18+) + Original Eng + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:77E0658106EB1FB61A1BB3A7FFB7F9BAC1318825&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 8514772664,
+      "size": "7.93 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Пчеловод / The Beekeeper (Дэвид Эйр / David Ayer) [2024, США, Великобритания, боевик, триллер, WEB-DL 1080p] MVO (TVShows) + MVO (Jaskier, 18+) + DVO (ViruseProject, 18+) + Original Eng + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Пчеловод / The Beekeeper (Дэвид Эйр) [2024, США, Великобритания, Боевик, триллер, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] DVO (ViruseProject, 18+) + Original Eng + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:4C5BE311E727532B9631F4723E48C105155B8355&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 20401094656,
+      "size": "19.00 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Пчеловод / The Beekeeper (Дэвид Эйр) [2024, США, Великобритания, Боевик, триллер, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] DVO (ViruseProject, 18+) + Original Eng + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Пчеловод / The Beekeeper (2024) WEB-DL [H.265/2160p] [4K, HDR10+, Dolby Vision Profile 8, 10-bit] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:764833FD74899A4D8052C6F251BE2A90CEC160C2",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 21582210662,
+      "size": "20.10 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Пчеловод / The Beekeeper (2024) WEB-DL [H.265/2160p] [4K, HDR10+, Dolby Vision Profile 8, 10-bit] [MVO]"
+    },
+    {
+      "title": "Пчеловод / The Beekeeper (Дэвид Эйр / David Ayer) [2024, США, Великобритания, боевик, триллер, BDRip 720p] 2x MVO (TVShows, Jaskier) + DVO (ViruseProject) + VO (М. Чадов) + Sub (Rus, Eng) + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:D1D4DE7A7044095399A18F2C06F532620EEDE68A&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 5905580032,
+      "size": "5.50 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Пчеловод / The Beekeeper (Дэвид Эйр / David Ayer) [2024, США, Великобритания, боевик, триллер, BDRip 720p] 2x MVO (TVShows, Jaskier) + DVO (ViruseProject) + VO (М. Чадов) + Sub (Rus, Eng) + Original Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-16T07:11:27Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt15314262/img",
+    "background": "https://images.metahub.space/background/medium/tt15314262/img"
+  }
+}
