@@ -1,0 +1,88 @@
+{
+  "id": "tt33714084",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt33714084/img",
+  "background": "https://images.metahub.space/background/medium/tt33714084/img",
+  "genres": [
+    "Драма",
+    "Мелодрама"
+  ],
+  "runtime": "114 мин",
+  "imdbRating": "6.3",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "i36Zw32GfRQ",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Напоминание о нём",
+  "description": "Кенна Роуэн после семи лет заключения возвращается в родной город, чтобы наладить отношения со своей дочерью Диэм. Однако близкие препятствуют ей в этом.",
+  "aliases": [
+    "Напоминание о нём",
+    "Reminders of Him"
+  ],
+  "kpId": 9823847,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt33714084.json",
+    "https://www.kinopoisk.ru/film/9823847/"
+  ],
+  "year": "2026",
+  "imdbId": "tt33714084",
+  "ids": [
+    "tt33714084"
+  ],
+  "originalName": "Reminders of Him",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-17T08:24:54Z",
+  "sources": [
+    {
+      "title": "Напоминание о нем / Reminders of Him (2026) WEB-DL [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:4B53C9732CC85EB1E5B3DBE827771A4BFF4A7096",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 8138963025,
+      "size": "7.58 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Напоминание о нем / Reminders of Him (2026) WEB-DL [H.264/1080p] [MVO]"
+    },
+    {
+      "title": "Напоминание о нем / Reminders of Him (Ванесса Касвиль / Vanessa Caswill) [2026, США, драма, мелодрама, BDRemux 1080p] Dub (Movie Dubbing) + MVO (LE-Production) + Dub Ukr + Sub (Rus, Ukr, Eng etc.) + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:9B36841CBFB606F8649B712F7C292FDBF6AAFFEC&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 31331786424,
+      "size": "29.18 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Напоминание о нем / Reminders of Him (Ванесса Касвиль / Vanessa Caswill) [2026, США, драма, мелодрама, BDRemux 1080p] Dub (Movie Dubbing) + MVO (LE-Production) + Dub Ukr + Sub (Rus, Ukr, Eng etc.) + Original Eng"
+    },
+    {
+      "title": "Напоминание о нем / Reminders of Him (2026) WEB-DL [H.265/2160p] [4K, HDR10, DV 8.1, 10-bit] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:918C3C98DC38F0FCB3265FF7788CACB745279ABE",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 22226455756,
+      "size": "20.70 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Напоминание о нем / Reminders of Him (2026) WEB-DL [H.265/2160p] [4K, HDR10, DV 8.1, 10-bit] [MVO]"
+    },
+    {
+      "title": "Напоминание о нем / Reminders of Him (Ванесса Касвиль / Vanessa Caswill) [2026, США, драма, мелодрама, WEB-DL 720p] MVO (LE-Production) + Sub Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:E6B26E6F71BDD56C6CF8CD8F2F1FA4192CFF6F95&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 4219805368,
+      "size": "3.93 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Напоминание о нем / Reminders of Him (Ванесса Касвиль / Vanessa Caswill) [2026, США, драма, мелодрама, WEB-DL 720p] MVO (LE-Production) + Sub Eng + Original Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-17T08:24:54Z"
+}

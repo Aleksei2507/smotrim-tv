@@ -1,0 +1,890 @@
+{
+  "id": "tt16358384",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fa3a9379fc8dab5f0310611ca6e3e1e7a77bcebb478199487c0ef186ed9e08b3.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6e3ef3621557b885140408d7405b2e41e56fad7d4892d3bde8cea45d38b174ff.jpg",
+  "genres": [
+    "Боевик",
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "41 мин",
+  "imdbRating": "7.9",
+  "releaseInfo": "2022–",
+  "trailers": [
+    {
+      "source": "aaQSScwZPbA",
+      "type": "Trailer"
+    },
+    {
+      "source": "PXd3tO5ITyw",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Король Талсы",
+  "description": "Осужденный нью-йоркский мафиози Дуайт Манфреди по прозвищу Генерал спустя четверть века выходит на свободу. Босс отправляет его в глушь — в Талсу, штат Оклахома — для организации там криминальной сети. Генерал берётся за дело со всей серьёзностью и начинает создавать новую криминальную империю.",
+  "aliases": [
+    "Король Талсы",
+    "Tulsa King"
+  ],
+  "kpId": 4760854,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt16358384.json",
+    "https://www.kinopoisk.ru/film/4760854/"
+  ],
+  "year": "2022",
+  "imdbId": "tt16358384",
+  "ids": [
+    "tt16358384"
+  ],
+  "originalName": "Tulsa King",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-17T08:26:21Z",
+  "videos": [
+    {
+      "id": "tt16358384:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2022-11-13"
+    },
+    {
+      "id": "tt16358384:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2022-11-20"
+    },
+    {
+      "id": "tt16358384:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2022-11-27"
+    },
+    {
+      "id": "tt16358384:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2022-12-04"
+    },
+    {
+      "id": "tt16358384:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2022-12-11"
+    },
+    {
+      "id": "tt16358384:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2022-12-18"
+    },
+    {
+      "id": "tt16358384:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2022-12-25"
+    },
+    {
+      "id": "tt16358384:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2023-01-01"
+    },
+    {
+      "id": "tt16358384:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2023-01-08"
+    },
+    {
+      "id": "tt16358384:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2024-09-15"
+    },
+    {
+      "id": "tt16358384:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2024-09-22"
+    },
+    {
+      "id": "tt16358384:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2024-09-29"
+    },
+    {
+      "id": "tt16358384:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2024-10-06"
+    },
+    {
+      "id": "tt16358384:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2024-10-13"
+    },
+    {
+      "id": "tt16358384:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-10-20"
+    },
+    {
+      "id": "tt16358384:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2024-10-27"
+    },
+    {
+      "id": "tt16358384:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2024-11-03"
+    },
+    {
+      "id": "tt16358384:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2024-11-10"
+    },
+    {
+      "id": "tt16358384:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2024-11-17"
+    },
+    {
+      "id": "tt16358384:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-09-21"
+    },
+    {
+      "id": "tt16358384:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-09-28"
+    },
+    {
+      "id": "tt16358384:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-10-05"
+    },
+    {
+      "id": "tt16358384:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-10-12"
+    },
+    {
+      "id": "tt16358384:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-10-19"
+    },
+    {
+      "id": "tt16358384:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-10-26"
+    },
+    {
+      "id": "tt16358384:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2025-11-02"
+    },
+    {
+      "id": "tt16358384:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2025-11-09"
+    },
+    {
+      "id": "tt16358384:3:9",
+      "season": 3,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2025-11-16"
+    },
+    {
+      "id": "tt16358384:3:10",
+      "season": 3,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2025-11-23"
+    },
+    {
+      "id": "tt16358384:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-10-16"
+    },
+    {
+      "id": "tt16358384:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-10-23T11:00:00.000Z"
+    },
+    {
+      "id": "tt16358384:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-10-30T11:00:00.000Z"
+    },
+    {
+      "id": "tt16358384:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-11-06T11:00:00.000Z"
+    },
+    {
+      "id": "tt16358384:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-11-13T11:00:00.000Z"
+    },
+    {
+      "id": "tt16358384:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-11-20"
+    },
+    {
+      "id": "tt16358384:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-11-27T11:00:00.000Z"
+    },
+    {
+      "id": "tt16358384:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-12-04T11:00:00.000Z"
+    },
+    {
+      "id": "tt16358384:4:9",
+      "season": 4,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2026-12-11"
+    },
+    {
+      "id": "tt16358384:4:10",
+      "season": 4,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2026-12-18T11:00:00.000Z"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Король Талсы / Tulsa King [S01] (2022) WEB-DLRip 1080p | Jaskier, HDrezka Studio, NewComers, Lostfilm",
+      "magnet": "magnet:?xt=urn:btih:3090e7e3d558846822c41f32659bc0537cc17ea9&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 22902913105,
+      "size": "21.33 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King [S01] (2022) WEB-DLRip 1080p | Jaskier, HDrezka Studio, NewComers, Lostfilm"
+    },
+    {
+      "title": "Король Талсы / Tulsa King [01x01 из 10] (2022) WEB-DL 1080p | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:0aa50a93f406875c5f512eb6b1e703391534565c&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 2319282339,
+      "size": "2.16 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King [01x01 из 10] (2022) WEB-DL 1080p | HDrezka Studio"
+    },
+    {
+      "title": "Король Талсы / Tulsa King [01x01-04 из 10] (2022) WEB-DLRip 1080p | Jaskier, HDrezka Studio, NewComers, Lostfilm",
+      "magnet": "magnet:?xt=urn:btih:658f8238c5ef33e92e14febe3c70c0a02e3621c4&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 10200547328,
+      "size": "9.50 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King [01x01-04 из 10] (2022) WEB-DLRip 1080p | Jaskier, HDrezka Studio, NewComers, Lostfilm"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 1 / Серии: 1-9 из 9 (Аллен Култер) [2022, США, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + MVO (HDrezka) + MVO (TVShows) + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:97AADAE80F37607913FD601AD9697C9F07E2CF18&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 22269405429,
+      "size": "20.74 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 1 / Серии: 1-9 из 9 (Аллен Култер) [2022, США, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + MVO (HDrezka) + MVO (TVShows) + Original + Sub (Eng)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King (2022) WEB-DLRip [H.264/1080p] (сезон 1, серии 1-9 из 9) LostFilm, Jaskier, HDrezka, NewComers, TVShows",
+      "magnet": "magnet:?xt=urn:btih:63D3EE19D2EB7BDF8D64D35EED301AA2283775E8",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 23407571763,
+      "size": "21.80 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King (2022) WEB-DLRip [H.264/1080p] (сезон 1, серии 1-9 из 9) LostFilm, Jaskier, HDrezka, NewComers, TVShows"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 1 / Серии: 1-9 из 9 (Аллен Култер, Бенджамин Семанофф) [2022, США, драма, криминал, SDR, WEB-DL 2160p, 4k] 2 x MVO (Jaskier, NewComers) + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:577BF10C0D15C202EE5204147C69886CBB0476AB&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 42112154337,
+      "size": "39.22 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 1 / Серии: 1-9 из 9 (Аллен Култер, Бенджамин Семанофф) [2022, США, драма, криминал, SDR, WEB-DL 2160p, 4k] 2 x MVO (Jaskier, NewComers) + Original + Sub (Eng)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King [S01] (2022) WEB-DL 720p от Scarabey | LostFilm",
+      "magnet": "magnet:?xt=urn:btih:fd0c8df58d1d13fa2b3bca892ae5fe26b3719b0d&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 7849052733,
+      "size": "7.31 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King [S01] (2022) WEB-DL 720p от Scarabey | LostFilm"
+    },
+    {
+      "title": "Король Талсы / Tulsa King [01x01-04 из 10] (2022) WEB-DL 720p от Scarabey | LostFilm",
+      "magnet": "magnet:?xt=urn:btih:0cf258fe025585a1f48d45f8889d99ac4d2591e1&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 3554085437,
+      "size": "3.31 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King [01x01-04 из 10] (2022) WEB-DL 720p от Scarabey | LostFilm"
+    },
+    {
+      "title": "Король Талсы (1 сезон: 1-8 серии из 9) / Tulsa King / 2022-2023 / ПМ (Jaskier, HDrezka Studio, NewComers, LostFilm, TVShows) / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:90D127456B977584DCF507EE7DA2DEB9BE86F806",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 12208444538,
+      "size": "11.37 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы (1 сезон: 1-8 серии из 9) / Tulsa King / 2022-2023 / ПМ (Jaskier, HDrezka Studio, NewComers, LostFilm, TVShows) / WEB-DL (720p)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 1 / Серии: 1-9 из 9 (Аллен Култер, Гай Ферленд, Бенджамин Семанофф) [2022, США, Драма, криминал, WEB-DL 720p] MVO (HDRezka Studio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:FBE906C3CD1C2FDF63BE4A0A6572766C6E321277&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 9685151252,
+      "size": "9.02 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 1 / Серии: 1-9 из 9 (Аллен Култер, Гай Ферленд, Бенджамин Семанофф) [2022, США, Драма, криминал, WEB-DL 720p] MVO (HDRezka Studio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King (2022) WEBRip [H.264/720p] (сезон 1, серии 1-9 из 9) LostFilm",
+      "magnet": "magnet:?xt=urn:btih:D84621C0F6BF7C5CB0250DB329EBEA1A45942AB4",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 11274289152,
+      "size": "10.50 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King (2022) WEBRip [H.264/720p] (сезон 1, серии 1-9 из 9) LostFilm"
+    },
+    {
+      "title": "Король Талсы / Tulsa King [S02] (2024) WEB-DL 1080p | P | Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:170f23b8f0ffe906424d7bce703666ff771eb100&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 20991652659,
+      "size": "19.55 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King [S02] (2024) WEB-DL 1080p | P | Red Head Sound"
+    },
+    {
+      "title": "Король Талсы / Tulsa King [02x01 из 10] (2024) WEB-DL 1080p | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:e907916f202fef514dc2ac444640a9469450b2e9&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 2802466160,
+      "size": "2.61 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King [02x01 из 10] (2024) WEB-DL 1080p | HDrezka Studio"
+    },
+    {
+      "title": "Король Талсы / Tulsa King [02x01-02 из 10] (2024) WEB-DL 1080p | P | Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:91e46d9dac50d747c559e937fe8d81eb1b0a7c7b&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 5304284610,
+      "size": "4.94 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King [02x01-02 из 10] (2024) WEB-DL 1080p | P | Red Head Sound"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 2 / Серии: 1-10 из 10 (Крейг Зиск, Кевин Даулинг) [2024, США, Драма, криминал, комедия, WEB-DL 1080p] 7 x MVO (HDRezka Studio, LostFilm, TVShows, NewComers, Red Head Sound, 1WinStudio, LE-Production) + VO (М. Яроцкий) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:0F20A0BFE44A6779F3E8587CC7DC2EDB0318CCF7&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 31009663877,
+      "size": "28.88 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 2 / Серии: 1-10 из 10 (Крейг Зиск, Кевин Даулинг) [2024, США, Драма, криминал, комедия, WEB-DL 1080p] 7 x MVO (HDRezka Studio, LostFilm, TVShows, NewComers, Red Head Sound, 1WinStudio, LE-Production) + VO (М. Яроцкий) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King (2024) WEB-DL [H.264/1080p] (сезон 2, серии 1-10 из 10) LostFilm, HDRezka, NewComers, Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:F2D02DB011CCB5AAE234A121E4DFFD3A5E8F39D9",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 28024661606,
+      "size": "26.10 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King (2024) WEB-DL [H.264/1080p] (сезон 2, серии 1-10 из 10) LostFilm, HDRezka, NewComers, Red Head Sound"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 2 / Серии: 1-10 из 10 (Крейг Зиск, Кевин Даулинг) [2024, США, Драма, криминал, комедия, SDR, WEB-DL 2160p, 4k] 6 x MVO (NewComers, LostFilm, HDRezka, TVShows, 1WinStudio, Red Head Sound, LE-Production) + Ukr (DniproFilm) + Original + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:A3AD1D80D6327ED17B8403D595F3CA116C45A5DE&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 56757992816,
+      "size": "52.86 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 2 / Серии: 1-10 из 10 (Крейг Зиск, Кевин Даулинг) [2024, США, Драма, криминал, комедия, SDR, WEB-DL 2160p, 4k] 6 x MVO (NewComers, LostFilm, HDRezka, TVShows, 1WinStudio, Red Head Sound, LE-Production) + Ukr (DniproFilm) + Original + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King (2024) WEB-DL [H.265/2160p] [4K, SDR, 8-bit] (сезон 2, серии 1-10 из 10) Lostfilm, HDRezka, TVShows, NewComers, 1WinStudio, LE-Production",
+      "magnet": "magnet:?xt=urn:btih:11561EBFEF6E6031C18D6D298AC6025D1FDCC919",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 53579717017,
+      "size": "49.90 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King (2024) WEB-DL [H.265/2160p] [4K, SDR, 8-bit] (сезон 2, серии 1-10 из 10) Lostfilm, HDRezka, TVShows, NewComers, 1WinStudio, LE-Production"
+    },
+    {
+      "title": "Король Талсы (2 сезон: 10 серии из 10) / Tulsa King / 2024 / ПМ (HDrezka Studio), СТ / 4K, HEVC, SDR / WEB-DL (2160p)",
+      "magnet": "magnet:?xt=urn:btih:EECC53D04D389036EC634370F2EA7E18FCD1A0F4",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 47631187312,
+      "size": "44.36 GB",
+      "episode": 0,
+      "episodeFrom": 10,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы (2 сезон: 10 серии из 10) / Tulsa King / 2024 / ПМ (HDrezka Studio), СТ / 4K, HEVC, SDR / WEB-DL (2160p)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 2 / Серии: 1-10 из 10 (Крейг Зиск) [2024, США, драма, криминал, комедия, WEB-DL 720p] 7 x MVO + VO (М. Яроцкий) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:A9F835DB944B8A7418F6A1A6F2B9500E58E9C42D&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 19359565086,
+      "size": "18.03 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 2 / Серии: 1-10 из 10 (Крейг Зиск) [2024, США, драма, криминал, комедия, WEB-DL 720p] 7 x MVO + VO (М. Яроцкий) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King (2024) WEBRip [H.264/720p] (сезон 2, серии 1-10 из 10) LostFilm",
+      "magnet": "magnet:?xt=urn:btih:D25A25F1E5A8766993787197CCA262DEE20AFC95",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 13314398617,
+      "size": "12.40 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King (2024) WEBRip [H.264/720p] (сезон 2, серии 1-10 из 10) LostFilm"
+    },
+    {
+      "title": "Король Талсы (3 сезон: 1 серия из 10) / Tulsa King / 2025 / ПМ (HDrezka Studio, 1WIN Studio), ЛМ (Coldfilm, LE-Production) / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:BFA04B1DC8EAAF5F31C6247471F8666A4B1E3C17",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 2705829396,
+      "size": "2.52 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы (3 сезон: 1 серия из 10) / Tulsa King / 2025 / ПМ (HDrezka Studio, 1WIN Studio), ЛМ (Coldfilm, LE-Production) / WEB-DL (1080p)"
+    },
+    {
+      "title": "Король Талсы (3 сезон: 1-2 серии из 10) / Tulsa King / 2025 / ПМ (HDRezka, 1winStudio, NewComers, RHS, LostFilm), ЛМ (LE-Production) / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:A82AB00D963A0AC67737919D0919CE327189A590",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 5282809774,
+      "size": "4.92 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы (3 сезон: 1-2 серии из 10) / Tulsa King / 2025 / ПМ (HDRezka, 1winStudio, NewComers, RHS, LostFilm), ЛМ (LE-Production) / WEB-DL (1080p)"
+    },
+    {
+      "title": "Король Талсы (3 сезон: 1-2 серии из 10) / Tulsa King / 2025 / ПМ (HDRezka, 1winStudio, NewComers, RHS, LostFilm), ЛМ (LE-Production) / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:4251900D2FAD0C0DCB8952667A7554C9B4234784",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 5669356830,
+      "size": "5.28 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы (3 сезон: 1-2 серии из 10) / Tulsa King / 2025 / ПМ (HDRezka, 1winStudio, NewComers, RHS, LostFilm), ЛМ (LE-Production) / WEB-DL (1080p)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 3 / Серии: 1-10 из 10 (Кевин Даулинг, Джо Чаппелль, Джим МакКэй) [2025, США, Драма, криминал, комедия, WEB-DL 1080p] 7 x MVO (HDRezka Studio, NewComers, TVShows, LostFilm, Red Head Sound, WStudio, LE-Production) + VO + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:00BD4DED114DBC686A74C183FC9748A1CB0E0D80&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 29581587251,
+      "size": "27.55 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 3 / Серии: 1-10 из 10 (Кевин Даулинг, Джо Чаппелль, Джим МакКэй) [2025, США, Драма, криминал, комедия, WEB-DL 1080p] 7 x MVO (HDRezka Studio, NewComers, TVShows, LostFilm, Red Head Sound, WStudio, LE-Production) + VO + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King (2025) WEB-DL [H.264/1080p] (сезон 3, серии 1-10 из 10) LostFilm, HDRezka, NewComers, RHS, 1win, LE-Production",
+      "magnet": "magnet:?xt=urn:btih:783139100F6A2EE1F15F7FAB8253EB58523F3051",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 28132035788,
+      "size": "26.20 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King (2025) WEB-DL [H.264/1080p] (сезон 3, серии 1-10 из 10) LostFilm, HDRezka, NewComers, RHS, 1win, LE-Production"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 3 / Серии: 1-10 из 10 (Кевин Даулинг, Джо Чаппелль, Джим МакКэй) [2025, США, Драма, криминал, комедия, SDR, WEB-DL 2160p, 4k] 7 x MVO (HDRezka Studio, NewComers, TVShows, LostFilm, Red Head Sound, WStudio, LE-Production) + VO + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:E35A4C10B31B5D8E430A471999AEB8EE9FA4B475&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 57702885621,
+      "size": "53.74 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 3 / Серии: 1-10 из 10 (Кевин Даулинг, Джо Чаппелль, Джим МакКэй) [2025, США, Драма, криминал, комедия, SDR, WEB-DL 2160p, 4k] 7 x MVO (HDRezka Studio, NewComers, TVShows, LostFilm, Red Head Sound, WStudio, LE-Production) + VO + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King (2025) WEB-DL [H.265/2160p] [4K, SDR, 8-bit] (сезон 3, серии 1-10 из 10) HDRezka Studio, NewComers, TVShows, LostFilm, Red Head Sound, WStudio, LE-Production, Яроцкий",
+      "magnet": "magnet:?xt=urn:btih:2585F45F93C440FC8A9338407BA4137306C41B89",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 57659935948,
+      "size": "53.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King (2025) WEB-DL [H.265/2160p] [4K, SDR, 8-bit] (сезон 3, серии 1-10 из 10) HDRezka Studio, NewComers, TVShows, LostFilm, Red Head Sound, WStudio, LE-Production, Яроцкий"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 3 / Серии: 1-10 из 10 (Кевин Даулинг) [2025, США, драма, криминал, комедия, WEB-DL 720p] 7 x MVO + VO (М. Яроцкий) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:31006D85ADA1C65A3BBCB173AE589EC8DACC63A1&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 19295140577,
+      "size": "17.97 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 3 / Серии: 1-10 из 10 (Кевин Даулинг) [2025, США, драма, криминал, комедия, WEB-DL 720p] 7 x MVO + VO (М. Яроцкий) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Король Талсы (3 сезон: 1-10 серии из 10) / Tulsa King / 2025 / ПМ (NewComers, LostFilm, Red Head Sound), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:A0914DB44AF170573C3AF66CAE552BD3F74CDBA6",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 15053860372,
+      "size": "14.02 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы (3 сезон: 1-10 серии из 10) / Tulsa King / 2025 / ПМ (NewComers, LostFilm, Red Head Sound), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 4 / Серии: 1-4 из 10 (Гай Ферленд, Кевин Даулинг, Крейг Зиск) [2026, США, Драма, криминал, комедия, WEB-DL 1080p] 5 x MVO (TVShows, NewComers, HDRezka Studio, Red Head Sound, LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:73164D0F9EF6D9DB18432EBD07BA523DAB610D29&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C%20%D0%A2%D0%B0%D0%BB%D1%81%D1%8B%20%2F%20Tulsa%20King%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%204%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-4%20%D0%B8%D0%B7%2010%20(%D0%93%D0%B0%D0%B9%20%D0%A4%D0%B5%D1%80%D0%BB%D0%B5%D0%BD%D0%B4%2C%20%D0%9A%D0%B5%D0%B2%D0%B8%D0%BD%20%D0%94%D0%B0%D1%83%D0%BB%D0%B8%D0%BD%D0%B3%2C%20%D0%9A%D1%80%D0%B5%D0%B9%D0%B3%20%D0%97%D0%B8%D1%81%D0%BA)%20%5B2026%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%94%D1%80%D0%B0%D0%BC%D0%B0%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F%2C%20WEB-DL%201080p%5D%205",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 10726680821,
+      "size": "9.99 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 4 / Серии: 1-4 из 10 (Гай Ферленд, Кевин Даулинг, Крейг Зиск) [2026, США, Драма, криминал, комедия, WEB-DL 1080p] 5 x MVO (TVShows, NewComers, HDRezka Studio, Red Head Sound, LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Король Талсы (4 сезон: 1-5 серии из 10) / Tulsa King / 2026 / ПМ (HDrezka Studio), СТ / HEVC / WEBRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:526B90B831C76678E937A61DDBE2EB2A671C9F2B",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 3285649981,
+      "size": "3.06 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы (4 сезон: 1-5 серии из 10) / Tulsa King / 2026 / ПМ (HDrezka Studio), СТ / HEVC / WEBRip (1080p)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King / Сезон: 4 / Серии: 1-4 из 10 (Гай Ферленд, Кевин Даулинг, Крейг Зиск) [2026, США, Драма, криминал, комедия, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 5 x MVO + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:6842F3C60577F71CB739FB4D797C246560896967&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C%20%D0%A2%D0%B0%D0%BB%D1%81%D1%8B%20%2F%20Tulsa%20King%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%204%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-4%20%D0%B8%D0%B7%2010%20(%D0%93%D0%B0%D0%B9%20%D0%A4%D0%B5%D1%80%D0%BB%D0%B5%D0%BD%D0%B4%2C%20%D0%9A%D0%B5%D0%B2%D0%B8%D0%BD%20%D0%94%D0%B0%D1%83%D0%BB%D0%B8%D0%BD%D0%B3%2C%20%D0%9A%D1%80%D0%B5%D0%B9%D0%B3%20%D0%97%D0%B8%D1%81%D0%BA)%20%5B2026%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%94%D1%80%D0%B0%D0%BC%D0%B0%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F%2C%20HDR10%2B%2C%20Dolby%20V",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 34746285424,
+      "size": "32.36 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King / Сезон: 4 / Серии: 1-4 из 10 (Гай Ферленд, Кевин Даулинг, Крейг Зиск) [2026, США, Драма, криминал, комедия, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 5 x MVO + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Король Талсы / Tulsa King (2026) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] (сезон 4, серии 1-4 из 10) HDRezka, Lostfilm, NewComers, TVShows, Red Head Sound (обновляемая)",
+      "magnet": "magnet:?xt=urn:btih:FE60B77B97CE42417DE482AB57B001768CDCC283",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 26521423052,
+      "size": "24.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Король Талсы / Tulsa King (2026) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] (сезон 4, серии 1-4 из 10) HDRezka, Lostfilm, NewComers, TVShows, Red Head Sound (обновляемая)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-17T08:24:54Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt16358384/img",
+    "background": "https://images.metahub.space/background/medium/tt16358384/img"
+  }
+}

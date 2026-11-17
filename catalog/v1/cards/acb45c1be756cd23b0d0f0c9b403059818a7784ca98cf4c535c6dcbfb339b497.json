@@ -1,0 +1,281 @@
+{
+  "id": "tt21906238",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f1bd4b47c168f94a60f8d6071b1d79d099cfbbc7a81709fefe4366d073949bf1.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/735263c5ac2cc03bc51f416faf45488ee780ea29cd99d5491c986e7274247e5a.jpg",
+  "genres": [
+    "Комедия",
+    "Драма"
+  ],
+  "runtime": "54 мин",
+  "imdbRating": "7.9",
+  "releaseInfo": "2024–",
+  "trailers": [
+    {
+      "source": "vnoFk7f-Oeo",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Соперники",
+  "description": "Тони Боддингхэм, управляющий независимой британской телекомпанией, и его сосед Руперт Кемпбелл-Блэк, бывший олимпиец, член парламента и ловелас, постоянно соперничают. Чем дольше длится их конфликт, тем опаснее он становится. Вскоре мужчины втягивают в противостояние своих жен, любовниц, коллег и друзей.",
+  "aliases": [
+    "Соперники",
+    "Rivals"
+  ],
+  "kpId": 5941969,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt21906238.json",
+    "https://www.kinopoisk.ru/film/5941969/"
+  ],
+  "year": "2024",
+  "imdbId": "tt21906238",
+  "ids": [
+    "tt21906238"
+  ],
+  "originalName": "Rivals",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-17T08:26:21Z",
+  "videos": [
+    {
+      "id": "tt21906238:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2024-10-18"
+    },
+    {
+      "id": "tt21906238:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2024-10-18"
+    },
+    {
+      "id": "tt21906238:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2024-10-18"
+    },
+    {
+      "id": "tt21906238:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2024-10-18"
+    },
+    {
+      "id": "tt21906238:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2024-10-18"
+    },
+    {
+      "id": "tt21906238:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-10-18"
+    },
+    {
+      "id": "tt21906238:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2024-10-18"
+    },
+    {
+      "id": "tt21906238:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2024-10-18"
+    },
+    {
+      "id": "tt21906238:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:11",
+      "season": 2,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt21906238:2:12",
+      "season": 2,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "",
+      "released": "2025-01-01"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Соперники / Rivals / Сезон: 1 / Серии: 1-8 из 8 (Эллиот Хегарти, Александра Бродский) [2024, США, Великобритания, драма, WEB-DL 1080p] MVO (TVShows) Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:F72469B859F77397B45391E6682123CE6AA8F759&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%D0%A1%D0%BE%D0%BF%D0%B5%D1%80%D0%BD%D0%B8%D0%BA%D0%B8%20%2F%20Rivals%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%201%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-8%20%D0%B8%D0%B7%208%20(%D0%AD%D0%BB%D0%BB%D0%B8%D0%BE%D1%82%20%D0%A5%D0%B5%D0%B3%D0%B0%D1%80%D1%82%D0%B8%2C%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%20%D0%91%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9)%20%5B2024%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F%2C%20%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%2C%20WEB-DL%201080p%5D%20MVO%20(TVShows)%20O",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 19778324398,
+      "size": "18.42 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Соперники / Rivals / Сезон: 1 / Серии: 1-8 из 8 (Эллиот Хегарти, Александра Бродский) [2024, США, Великобритания, драма, WEB-DL 1080p] MVO (TVShows) Original + Sub (Eng)"
+    },
+    {
+      "title": "Соперники / Rivals / Сезон: 1 / Серии: 1-8 из 8 (Эллиот Хегарти, Александра Бродский) [2024, США, Великобритания, драма, SDR, WEB-DL 2160p, 4k] MVO (TVShows) Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:E8A3E7837BB4A620F77E3037044AD4DA3B41DAF7&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 53064320942,
+      "size": "49.42 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Соперники / Rivals / Сезон: 1 / Серии: 1-8 из 8 (Эллиот Хегарти, Александра Бродский) [2024, США, Великобритания, драма, SDR, WEB-DL 2160p, 4k] MVO (TVShows) Original + Sub (Eng)"
+    },
+    {
+      "title": "Соперники / Rivals / Сезон: 2 / Серии: 1-6 из 6 (Эллиот Хегарти, Александра Бродский) [2026, США, Великобритания, драма, WEB-DL 1080p] MVO (NewStudio) Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:4E9DC96CE88678C7C5805BC8A63753E3B51A23DC&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%D0%A1%D0%BE%D0%BF%D0%B5%D1%80%D0%BD%D0%B8%D0%BA%D0%B8%20%2F%20Rivals%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%202%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-6%20%D0%B8%D0%B7%206%20(%D0%AD%D0%BB%D0%BB%D0%B8%D0%BE%D1%82%20%D0%A5%D0%B5%D0%B3%D0%B0%D1%80%D1%82%D0%B8%2C%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%20%D0%91%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9)%20%5B2026%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F%2C%20%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%2C%20WEB-DL%201080p%5D%20MVO%20(NewStudio)",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 13915694039,
+      "size": "12.96 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Соперники / Rivals / Сезон: 2 / Серии: 1-6 из 6 (Эллиот Хегарти, Александра Бродский) [2026, США, Великобритания, драма, WEB-DL 1080p] MVO (NewStudio) Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Соперники / Rivals / Сезон: 2 / Серии: 1-6 из 6 (Эллиот Хегарти, Александра Бродский) [2026, США, Великобритания, драма, Dolby Vision, HDR10, HDR10+, WEB-DL 2160p, 4k] [Hybrid] MVO (NewStudio) Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:5A268BB60E62F0E40FBAA10DBAAF9BC975D06AA0&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%D0%A1%D0%BE%D0%BF%D0%B5%D1%80%D0%BD%D0%B8%D0%BA%D0%B8%20%2F%20Rivals%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%202%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-6%20%D0%B8%D0%B7%206%20(%D0%AD%D0%BB%D0%BB%D0%B8%D0%BE%D1%82%20%D0%A5%D0%B5%D0%B3%D0%B0%D1%80%D1%82%D0%B8%2C%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0%20%D0%91%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9)%20%5B2026%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F%2C%20%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%2C%20Dolby%20Vision%2C%20HDR10%2C%20HDR10%2B%2C%20",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 37946036060,
+      "size": "35.34 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Соперники / Rivals / Сезон: 2 / Серии: 1-6 из 6 (Эллиот Хегарти, Александра Бродский) [2026, США, Великобритания, драма, Dolby Vision, HDR10, HDR10+, WEB-DL 2160p, 4k] [Hybrid] MVO (NewStudio) Original + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-17T08:24:54Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt21906238/img",
+    "background": "https://images.metahub.space/background/medium/tt21906238/img"
+  }
+}

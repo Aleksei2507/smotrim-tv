@@ -1,0 +1,115 @@
+{
+  "id": "tt33071426",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt33071426/img",
+  "background": "https://images.metahub.space/background/medium/tt33071426/img",
+  "genres": [
+    "Комедия",
+    "Драма",
+    "Мелодрама"
+  ],
+  "runtime": "105 мин",
+  "imdbRating": "7.1",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "0ZDzsH3XGFA",
+      "type": "Trailer"
+    },
+    {
+      "source": "6zmKcUa4Xxk",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Вот это драма!",
+  "description": "Чарли и Эмма влюблены и вот-вот поженятся. Место свадьбы выбрано, приглашения разосланы, до долгожданной церемонии остаются считанные дни. Но одно внезапное откровение переворачивает всё — Чарли узнаёт об Эмме то, что предпочёл бы не знать. Теперь на пути к «долго и счастливо» их отношениям предстоит пройти через неожиданную драму.",
+  "aliases": [
+    "Вот это драма!",
+    "The Drama"
+  ],
+  "kpId": 6530127,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt33071426.json",
+    "https://www.kinopoisk.ru/film/6530127/"
+  ],
+  "year": "2026",
+  "imdbId": "tt33071426",
+  "ids": [
+    "tt33071426"
+  ],
+  "originalName": "The Drama",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-17T08:24:54Z",
+  "sources": [
+    {
+      "title": "Вот это драма! / The Drama (Кристоффер Боргли / Kristoffer Borgli) [2026, США, драма, мелодрама, комедия, BDRip 1080p] Dub (Мосфильм-Мастер) + MVO (HDrezka) + Dub (Ukr) + Original Eng + Sub (Rus, Eng, Arm, Aze, Kaz, Kir, Ukr)",
+      "magnet": "magnet:?xt=urn:btih:2998DAD4857647DE855740B0525B8932F98A9375&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 17265768529,
+      "size": "16.08 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Вот это драма! / The Drama (Кристоффер Боргли / Kristoffer Borgli) [2026, США, драма, мелодрама, комедия, BDRip 1080p] Dub (Мосфильм-Мастер) + MVO (HDrezka) + Dub (Ukr) + Original Eng + Sub (Rus, Eng, Arm, Aze, Kaz, Kir, Ukr)"
+    },
+    {
+      "title": "Вот это драма! / The Drama (Кристоффер Боргли / Kristoffer Borgli) [2026, США, Драма, мелодрама, комедия, BDRemux 1080p] Dub (Мосфильм-Мастер) + 2x MVO (HDrezka Studio) + Ukr + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:35AB850EA35998AA795C6C4DF8DAF39CAF237728&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 31664646389,
+      "size": "29.49 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Вот это драма! / The Drama (Кристоффер Боргли / Kristoffer Borgli) [2026, США, Драма, мелодрама, комедия, BDRemux 1080p] Dub (Мосфильм-Мастер) + 2x MVO (HDrezka Studio) + Ukr + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Вот это драма! / The Drama (2026) UHD WEB-DL 2160p | 4K | SDR | P | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:9be581f5d573b9b132d7613c606d9def8dffeb0f&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 17265768529,
+      "size": "16.08 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Вот это драма! / The Drama (2026) UHD WEB-DL 2160p | 4K | SDR | P | HDrezka Studio"
+    },
+    {
+      "title": "Вот это драма! / The Drama (Кристоффер Боргли / Kristoffer Borgli) [2026, США, драма, мелодрама, комедия UHD BDRemux 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub (Мосфильм-Мастер) + MVO (HDrezka) + Dub (Ukr) + Original (Eng) + Sub (Rus, Ukr, Arm, Aze, Kaz, Kir, Eng)",
+      "magnet": "magnet:?xt=urn:btih:25A7513BF94CBF52FE1A3500B8089461B97635D1&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 73014444032,
+      "size": "68.00 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Вот это драма! / The Drama (Кристоффер Боргли / Kristoffer Borgli) [2026, США, драма, мелодрама, комедия UHD BDRemux 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub (Мосфильм-Мастер) + MVO (HDrezka) + Dub (Ukr) + Original (Eng) + Sub (Rus, Ukr, Arm, Aze, Kaz, Kir, Eng)"
+    },
+    {
+      "title": "Вот это драма! / The Drama (2026) WEB-DL 720p от селезень | P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:5A9EAB21DA25216DECB47D80B2ED28AE6A24BCEF&xl=3907761969&dn=The.Drama.2026.720p.AMZN.WEB-DL.DDP5.1.Atmos.H.264.seleZen.mkv.torrent&tr=http%3A%2F%2Fbt.desol.one%3A2710%2Fannounce&tr=udp%3A%2F%2Fopentor.net%3A6969&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.yemekyedim.com%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.gcrenwp.top%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.lilithraws.org%3A443%2Fannounce&tr=https%3A%2F%2Ftrackers.mlsub.net%3A443%2Fannounce&tr=http%3A%2F%2Fbt.desol.one%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.renfei.net%3A8080%2Fannounce&tr=http%3A%2F%2Fbt.okmp3.ru%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · selezen",
+      "bytes": 3908420239,
+      "size": "3.64 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Вот это драма! / The Drama (2026) WEB-DL 720p от селезень | P | HDRezka Studio"
+    },
+    {
+      "title": "Вот это драма! / The Drama (2026) WEB-DLRip 720p от New-Team | P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:ec089e95f7d7d0e858754a60097f6163ce3c25fb&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 4488240824,
+      "size": "4.18 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Вот это драма! / The Drama (2026) WEB-DLRip 720p от New-Team | P | HDRezka Studio"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-17T08:24:54Z"
+}

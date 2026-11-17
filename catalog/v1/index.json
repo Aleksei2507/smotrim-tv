@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1794889789,
-  "updatedAt": "2026-11-17T04:28:26Z",
+  "revision": 1794903982,
+  "updatedAt": "2026-11-17T08:26:21Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,244 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt21906238",
+      "ids": [
+        "tt21906238"
+      ],
+      "imdbId": "tt21906238",
+      "name": "Соперники",
+      "type": "series",
+      "year": "2024",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f1bd4b47c168f94a60f8d6071b1d79d099cfbbc7a81709fefe4366d073949bf1.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/735263c5ac2cc03bc51f416faf45488ee780ea29cd99d5491c986e7274247e5a.jpg",
+      "description": "Тони Боддингхэм, управляющий независимой британской телекомпанией, и его сосед Руперт Кемпбелл-Блэк, бывший олимпиец, член парламента и ловелас, постоянно соперничают. Чем дольше длится их конфликт, тем опаснее он становится. Вскоре мужчины втягивают в противостояние своих жен, любовниц, коллег и…",
+      "originalName": "Rivals",
+      "aliases": [
+        "Соперники",
+        "Rivals"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма"
+      ],
+      "imdbRating": "7.9",
+      "runtime": "54 мин",
+      "card": "cards/acb45c1be756cd23b0d0f0c9b403059818a7784ca98cf4c535c6dcbfb339b497.json",
+      "sha256": "acb45c1be756cd23b0d0f0c9b403059818a7784ca98cf4c535c6dcbfb339b497",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt33071426",
+      "ids": [
+        "tt33071426"
+      ],
+      "imdbId": "tt33071426",
+      "name": "Вот это драма!",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/756047f5ee1cb4aa84413bc96fac66224e670c68a3f38d39036fb8abccfc543f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1534d34efef51b4581b6aa23f7d6a99b6afe7d825a7a97866b88481a232638c6.jpg",
+      "description": "Чарли и Эмма влюблены и вот-вот поженятся. Место свадьбы выбрано, приглашения разосланы, до долгожданной церемонии остаются считанные дни. Но одно внезапное откровение переворачивает всё — Чарли узнаёт об Эмме то, что предпочёл бы не знать. Теперь на пути к «долго и счастливо» их отношениям предс…",
+      "originalName": "The Drama",
+      "aliases": [
+        "Вот это драма!",
+        "The Drama"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма",
+        "Мелодрама"
+      ],
+      "imdbRating": "7.1",
+      "runtime": "105 мин",
+      "card": "cards/2bd3440b591d286f84d00cbf6792ed524783efef43e6d5bb3e24a3110de11199.json",
+      "sha256": "2bd3440b591d286f84d00cbf6792ed524783efef43e6d5bb3e24a3110de11199",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt33714084",
+      "ids": [
+        "tt33714084"
+      ],
+      "imdbId": "tt33714084",
+      "name": "Напоминание о нём",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8ec6a256d23977d202a2bb27e78646a93fbcb9af3a267b34007a283184911958.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fc2a0ad40b4f6247005f33dc5abf09c84bca2af2b4e3038d3eed42809ff1ae7a.jpg",
+      "description": "Кенна Роуэн после семи лет заключения возвращается в родной город, чтобы наладить отношения со своей дочерью Диэм. Однако близкие препятствуют ей в этом.",
+      "originalName": "Reminders of Him",
+      "aliases": [
+        "Напоминание о нём",
+        "Reminders of Him"
+      ],
+      "genres": [
+        "Драма",
+        "Мелодрама"
+      ],
+      "imdbRating": "6.3",
+      "runtime": "114 мин",
+      "card": "cards/3d6ce52bc6297f29533a7c86d4f8f5c98df65b4dacc9960726476da7af5b8344.json",
+      "sha256": "3d6ce52bc6297f29533a7c86d4f8f5c98df65b4dacc9960726476da7af5b8344",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt12747748",
+      "ids": [
+        "tt12747748"
+      ],
+      "imdbId": "tt12747748",
+      "name": "Оставь мир позади",
+      "type": "movie",
+      "year": "2023",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9c4f20b8bc76d0cf46ae4e7f1c17a3bd810d68a0a29b21b6fc63417a5993d300.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/36ebb87509cbd9ad7a0fd182aa4580e405fce82f6ee93f14431b8bc107de0ee8.jpg",
+      "description": "Семья из четырёх человек снимает на выходные шикарный дом с бассейном на побережье недалеко от Нью-Йорка. Расслабленный отдых омрачают некоторые странности: прямо в пляж врезается здоровенный танкер, отключается мобильная связь и интернет, не работает телевидение, а посреди ночи на пороге появляе…",
+      "originalName": "Leave the World Behind",
+      "aliases": [
+        "Оставь мир позади",
+        "Leave the World Behind"
+      ],
+      "genres": [
+        "Драма",
+        "Детектив",
+        "Триллер"
+      ],
+      "imdbRating": "6.4",
+      "runtime": "140 мин",
+      "card": "cards/8d2f2e9ce1a01b0a4146529947359c2a0cbd6dc25e7570a09c7b312947ab87b3.json",
+      "sha256": "8d2f2e9ce1a01b0a4146529947359c2a0cbd6dc25e7570a09c7b312947ab87b3",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt17543592",
+      "ids": [
+        "tt17543592"
+      ],
+      "imdbId": "tt17543592",
+      "name": "Уилл Трент",
+      "type": "series",
+      "year": "2023",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/dc7cca336ee8b339652a108368033d8b628680145259709543618e62a93da5bf.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3d71e18a8f2568490ce3af28a2f4ad9a1008d700c6ede0b4f18700d5b0708bf9.jpg",
+      "description": "Специальный агент Уилл Трент в детстве был брошен своими родителями и рос в приёмной семье. Благодаря этой травме он умеет замечать в некоторых преступлениях то, чего не видят другие полицейские. Выехав на очередное дело, он понимает, что в доме было совершено не только убийство, но и похищен реб…",
+      "originalName": "Will Trent",
+      "aliases": [
+        "Уилл Трент",
+        "Will Trent"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.7",
+      "runtime": "42 мин",
+      "card": "cards/fc92522e52244c94af4bad6892e0fe38951d29339d626e19118174c93ea35cda.json",
+      "sha256": "fc92522e52244c94af4bad6892e0fe38951d29339d626e19118174c93ea35cda",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt13111078",
+      "ids": [
+        "tt13111078"
+      ],
+      "imdbId": "tt13111078",
+      "name": "Спецназ: Львица",
+      "type": "series",
+      "year": "2023",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/452af01ae4d04f21e1414b744e2a7e33a945a23a4e70bc5baa81970010baf37a.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/73d3a07c532f6a19acbc007eea7247274d4c7241da386620dc09769b050d221e.jpg",
+      "description": "Спецотряду женщин-военных необходимо предотвратить теракт на территории США.",
+      "originalName": "Lioness",
+      "aliases": [
+        "Спецназ: Львица",
+        "Lioness",
+        "Special Ops: Lioness"
+      ],
+      "genres": [
+        "Боевик",
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "49 мин",
+      "card": "cards/bca6223f72758b0832e85488f19a1cb102daca9f4d55078c6fa105cefe8f331a.json",
+      "sha256": "bca6223f72758b0832e85488f19a1cb102daca9f4d55078c6fa105cefe8f331a",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt16358384",
+      "ids": [
+        "tt16358384"
+      ],
+      "imdbId": "tt16358384",
+      "name": "Король Талсы",
+      "type": "series",
+      "year": "2022",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fa3a9379fc8dab5f0310611ca6e3e1e7a77bcebb478199487c0ef186ed9e08b3.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6e3ef3621557b885140408d7405b2e41e56fad7d4892d3bde8cea45d38b174ff.jpg",
+      "description": "Осужденный нью-йоркский мафиози Дуайт Манфреди по прозвищу Генерал спустя четверть века выходит на свободу. Босс отправляет его в глушь — в Талсу, штат Оклахома — для организации там криминальной сети. Генерал берётся за дело со всей серьёзностью и начинает создавать новую криминальную империю.",
+      "originalName": "Tulsa King",
+      "aliases": [
+        "Король Талсы",
+        "Tulsa King"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.9",
+      "runtime": "41 мин",
+      "card": "cards/1240104f05aaa371996587d481f03280e92c4b96ec80c4c3b0c153b79c07f224.json",
+      "sha256": "1240104f05aaa371996587d481f03280e92c4b96ec80c4c3b0c153b79c07f224",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt21285562",
+      "ids": [
+        "tt21285562"
+      ],
+      "imdbId": "tt21285562",
+      "name": "Собачьи звёзды",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f9e95c352f1f7c2f745108cc164cc44bbd0c788c20ae990f158fb52c8ddb33e7.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b37c93ef18dd5715e75c772235f8cfc6e81dc7161d626f891785b3d8d8354df3.jpg",
+      "description": "Будущее. Вирус истребил большую часть человечества, и выжившим приходится мириться не только с разрухой, но и с нападениями мародёров. Потерявший жену и всех близких пилот Хиг живёт вместе с собакой и суровым бывшим морпехом Бэнгли в самолётном ангаре на заброшенном аэродроме в Колорадо.",
+      "originalName": "The Dog Stars",
+      "aliases": [
+        "Собачьи звёзды",
+        "The Dog Stars"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "6.5",
+      "runtime": "119 мин",
+      "card": "cards/b2a86f3a7c342a7bf508a2d61c4845df663dc1b5ec7136bac2fc5c70809de1fb.json",
+      "sha256": "b2a86f3a7c342a7bf508a2d61c4845df663dc1b5ec7136bac2fc5c70809de1fb",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt0068646",
       "ids": [
@@ -34,8 +272,8 @@
       ],
       "imdbRating": "9.2",
       "runtime": "175 мин",
-      "card": "cards/66c34a9904ffb5eaea03ce800b3380d52c6bad9505798e0967de2aa687461e7a.json",
-      "sha256": "66c34a9904ffb5eaea03ce800b3380d52c6bad9505798e0967de2aa687461e7a",
+      "card": "cards/90941b7c16c7648c24705850c2087ef7a7c4e634292fa26ffd741b7fbfb9b57f.json",
+      "sha256": "90941b7c16c7648c24705850c2087ef7a7c4e634292fa26ffd741b7fbfb9b57f",
       "localized": true,
       "provider": "github"
     },
@@ -64,8 +302,8 @@
       ],
       "imdbRating": "6.6",
       "runtime": "157 мин",
-      "card": "cards/0315f003124a23338b938c4dc6c85df784cdfac92e28706347e89243cf7c9fd9.json",
-      "sha256": "0315f003124a23338b938c4dc6c85df784cdfac92e28706347e89243cf7c9fd9",
+      "card": "cards/9853106839045a6a327f47912ae7b8a9feef37891f1c52fa250fb3664905ce01.json",
+      "sha256": "9853106839045a6a327f47912ae7b8a9feef37891f1c52fa250fb3664905ce01",
       "localized": true,
       "provider": "github"
     },
@@ -85,7 +323,6 @@
       "originalName": "Attack on Titan",
       "aliases": [
         "Атака титанов",
-        "Attack on Titan",
         "Shingeki no kyojin"
       ],
       "genres": [
@@ -95,8 +332,8 @@
       ],
       "imdbRating": "9.1",
       "runtime": "25 мин",
-      "card": "cards/84a2e73abc9eb5b75c1df6490866fdc698fa2738d618771918e2c7bc211c98aa.json",
-      "sha256": "84a2e73abc9eb5b75c1df6490866fdc698fa2738d618771918e2c7bc211c98aa",
+      "card": "cards/e038638f35462ed2a84e06b6b36f3ada1a9d4f6373a6b7ea8fab6c29e1ab7d2a.json",
+      "sha256": "e038638f35462ed2a84e06b6b36f3ada1a9d4f6373a6b7ea8fab6c29e1ab7d2a",
       "localized": true,
       "provider": "github"
     },
@@ -125,8 +362,8 @@
       ],
       "imdbRating": "7.5",
       "runtime": "107 мин",
-      "card": "cards/48019b05905bd5a97082d1e3c4ba310403ed23105a492750e95ceb78028580a8.json",
-      "sha256": "48019b05905bd5a97082d1e3c4ba310403ed23105a492750e95ceb78028580a8",
+      "card": "cards/12e6022ed0c4c1ffc909724381ca153b3727d404ab6009922bf0e3b68502c10d.json",
+      "sha256": "12e6022ed0c4c1ffc909724381ca153b3727d404ab6009922bf0e3b68502c10d",
       "localized": true,
       "provider": "github"
     },
@@ -521,8 +758,8 @@
       ],
       "imdbRating": "7.5",
       "runtime": "231 мин",
-      "card": "cards/cf4347320f6759242a83304f3a738a02c5e6731a0dc5ab90838d68002f8574cf.json",
-      "sha256": "cf4347320f6759242a83304f3a738a02c5e6731a0dc5ab90838d68002f8574cf",
+      "card": "cards/db570560e36c59c225741a2fa6c0db138fb5dfd4a3eca4b1179a5e02b34f4eed.json",
+      "sha256": "db570560e36c59c225741a2fa6c0db138fb5dfd4a3eca4b1179a5e02b34f4eed",
       "localized": true,
       "provider": "github"
     },
@@ -549,8 +786,8 @@
       ],
       "imdbRating": "7.8",
       "runtime": "54 мин",
-      "card": "cards/cb73f16a856abde963a528af83f32cffce58872fdce5761a22196d8de97f0ead.json",
-      "sha256": "cb73f16a856abde963a528af83f32cffce58872fdce5761a22196d8de97f0ead",
+      "card": "cards/1586bed32c86a74b6518e3f1ebac33e10e835129bd4f35220ad5dce05c2e82fb.json",
+      "sha256": "1586bed32c86a74b6518e3f1ebac33e10e835129bd4f35220ad5dce05c2e82fb",
       "localized": true,
       "provider": "github"
     },

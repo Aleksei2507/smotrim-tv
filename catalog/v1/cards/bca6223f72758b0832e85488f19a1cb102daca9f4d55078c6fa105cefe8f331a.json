@@ -1,0 +1,643 @@
+{
+  "id": "tt13111078",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/452af01ae4d04f21e1414b744e2a7e33a945a23a4e70bc5baa81970010baf37a.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/73d3a07c532f6a19acbc007eea7247274d4c7241da386620dc09769b050d221e.jpg",
+  "genres": [
+    "Боевик",
+    "Драма",
+    "Триллер"
+  ],
+  "runtime": "49 мин",
+  "imdbRating": "7.8",
+  "releaseInfo": "2023–",
+  "trailers": [
+    {
+      "source": "uEjcXhW7CXo",
+      "type": "Trailer"
+    },
+    {
+      "source": "KYoIoCOw-ac",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Спецназ: Львица",
+  "description": "Спецотряду женщин-военных необходимо предотвратить теракт на территории США.",
+  "aliases": [
+    "Спецназ: Львица",
+    "Lioness",
+    "Special Ops: Lioness"
+  ],
+  "kpId": 1412084,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt13111078.json",
+    "https://www.kinopoisk.ru/film/1412084/"
+  ],
+  "year": "2023",
+  "imdbId": "tt13111078",
+  "ids": [
+    "tt13111078"
+  ],
+  "originalName": "Lioness",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-17T08:26:21Z",
+  "videos": [
+    {
+      "id": "tt13111078:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2023-07-23"
+    },
+    {
+      "id": "tt13111078:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2023-07-23"
+    },
+    {
+      "id": "tt13111078:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2023-07-30"
+    },
+    {
+      "id": "tt13111078:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2023-08-06"
+    },
+    {
+      "id": "tt13111078:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2023-08-13"
+    },
+    {
+      "id": "tt13111078:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2023-08-20"
+    },
+    {
+      "id": "tt13111078:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2023-08-27"
+    },
+    {
+      "id": "tt13111078:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2023-09-03"
+    },
+    {
+      "id": "tt13111078:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2024-10-27"
+    },
+    {
+      "id": "tt13111078:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2024-10-27"
+    },
+    {
+      "id": "tt13111078:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2024-11-03"
+    },
+    {
+      "id": "tt13111078:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2024-11-10"
+    },
+    {
+      "id": "tt13111078:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2024-11-17"
+    },
+    {
+      "id": "tt13111078:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-11-24"
+    },
+    {
+      "id": "tt13111078:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2024-12-01"
+    },
+    {
+      "id": "tt13111078:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2024-12-08"
+    },
+    {
+      "id": "tt13111078:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-08-02"
+    },
+    {
+      "id": "tt13111078:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-08-09"
+    },
+    {
+      "id": "tt13111078:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-08-16"
+    },
+    {
+      "id": "tt13111078:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-08-23"
+    },
+    {
+      "id": "tt13111078:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-08-30"
+    },
+    {
+      "id": "tt13111078:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-09-06"
+    },
+    {
+      "id": "tt13111078:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-09-13"
+    },
+    {
+      "id": "tt13111078:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-09-20"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [S01] (2023) WEB-DL 1080p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:a4bd3876cbcc7b05be11bcd1bf0d7d73068caf25&dn=Specnaz-Lvica-Special-Ops-Lioness-S01-2023-WEB-DL-1080p-HDRezka-Studio&xl=24574944438&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/84517/",
+      "quality": "1080p",
+      "source": "JacRed · torrentby",
+      "bytes": 24577950351,
+      "size": "22.89 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [S01] (2023) WEB-DL 1080p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [S01] (2023) BDRip-HEVC 1080p от RIPS CLUB | HDRezka Studio, TVShows",
+      "magnet": "magnet:?xt=urn:btih:6fc0f0f5cc4c2fe2adc486ff307dff2c26910422&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 18758269665,
+      "size": "17.47 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [S01] (2023) BDRip-HEVC 1080p от RIPS CLUB | HDRezka Studio, TVShows"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-02 из 08] (2023) WEB-DL 1080p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:ac547e542aa27b5e9aac50b992c29d6a5ddd734e&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 6066641305,
+      "size": "5.65 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-02 из 08] (2023) WEB-DL 1080p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-03 из 08] (2023) WEB-DL 1080p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:45570b571d683810f15f863ec150c87b5bbabebb&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 9083855831,
+      "size": "8.46 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-03 из 08] (2023) WEB-DL 1080p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-04 из 08] (2023) WEB-DL 1080p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:b28d53fccabc9f56f52a9b5d05c6b83818a7a2a2&dn=Specnaz-Lvica-Special-Ops-Lioness-01h01-04-iz-08-2023-WEB-DL-1080p-HDRezka-Studio&xl=11891832687&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/81192/",
+      "quality": "1080p",
+      "source": "JacRed · torrentby",
+      "bytes": 11897059409,
+      "size": "11.08 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-04 из 08] (2023) WEB-DL 1080p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-06 из 08] (2023) WEB-DL 1080p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:8bd80860c9371e34d207332802bc5eadfbe2719a&dn=Specnaz-Lvica-Special-Ops-Lioness-01h01-06-iz-08-2023-WEB-DL-1080p-HDRezka-Studio&xl=17197039643&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/83026/",
+      "quality": "1080p",
+      "source": "JacRed · torrentby",
+      "bytes": 17201344020,
+      "size": "16.02 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-06 из 08] (2023) WEB-DL 1080p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-07 из 08] (2023) WEB-DL 1080p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:c5e06b6a1e4ea1cb0761c98835ea94471aadf688&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 20755429457,
+      "size": "19.33 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-07 из 08] (2023) WEB-DL 1080p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness / Сезон: 1 / Серии: 1-8 из 8 (Энтони Бирн, Пол Кэмерон, Джон Хиллкоут) [2023, США, Боевик, триллер, драма, WEB-DL 1080p] 2 x MVO (HDrezka Studio, TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:127917A7960CEEA54398E46500544BEB6C9F6BFF&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 26972394618,
+      "size": "25.12 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness / Сезон: 1 / Серии: 1-8 из 8 (Энтони Бирн, Пол Кэмерон, Джон Хиллкоут) [2023, США, Боевик, триллер, драма, WEB-DL 1080p] 2 x MVO (HDrezka Studio, TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness / Сезон: 1 / Серии: 1-8 из 8 (Энтони Бирн, Пол Кэмерон, Джон Хиллкоут) [2023, США, Боевик, триллер, драма, WEB-DL 1080p] MVO (HDrezka Studio) + MVO (TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:47C9502A1C8B650671D8921E64DA63B2C5AE1070&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 26972394618,
+      "size": "25.12 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness / Сезон: 1 / Серии: 1-8 из 8 (Энтони Бирн, Пол Кэмерон, Джон Хиллкоут) [2023, США, Боевик, триллер, драма, WEB-DL 1080p] MVO (HDrezka Studio) + MVO (TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Спецназ: Львица (1 сезон: 1-8 серии из 8) / Special Ops: Lioness / 2023 / ПМ (HDrezka Studio) / 4K, HEVC, SDR / WEB-DL (2160p)",
+      "magnet": "magnet:?xt=urn:btih:159FE4E32978C3AFAB49062672ED25A64CDD6A92",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 25351044464,
+      "size": "23.61 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица (1 сезон: 1-8 серии из 8) / Special Ops: Lioness / 2023 / ПМ (HDrezka Studio) / 4K, HEVC, SDR / WEB-DL (2160p)"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [S01] (2023) WEBRip 720p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:88ea5dc2a6e63a4c47c84e05f878e2f561f7ebe5&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 11993696174,
+      "size": "11.17 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [S01] (2023) WEBRip 720p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-02 из 08] (2023) WEBRip 720p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:7e64abb5fa1850aac677127697e434bef9c74da3&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 2630667468,
+      "size": "2.45 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-02 из 08] (2023) WEBRip 720p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-03 из 08] (2023) WEBRip 720p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:fdcb8ef785e614386698552536d12bdacb7bc584&dn=Specnaz-Lvica-Special-Ops-Lioness-01h01-03-iz-08-2023-WEBRip-720p-HDRezka-Studio&xl=3995709476&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/80453/",
+      "quality": "720p",
+      "source": "JacRed · torrentby",
+      "bytes": 3994319585,
+      "size": "3.72 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-03 из 08] (2023) WEBRip 720p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-04 из 08] (2023) WEBRip 720p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:42a95d1890cf00ff0944d0654b83339c5c0bac3e&dn=Specnaz-Lvica-Special-Ops-Lioness-01h01-04-iz-08-2023-WEBRip-720p-HDRezka-Studio&xl=5257595715&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/81229/",
+      "quality": "720p",
+      "source": "JacRed · torrentby",
+      "bytes": 5261334937,
+      "size": "4.90 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-04 из 08] (2023) WEBRip 720p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-05 из 08] (2023) WEBRip 720p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:810a5187ac11c48b2a131b67b9f19545472c049b&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 6539087708,
+      "size": "6.09 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-05 из 08] (2023) WEBRip 720p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-06 из 08] (2023) WEBRip 720p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:16fd85d2efd2207ae005001aed2c8d8f34a02996&dn=Specnaz-Lvica-Special-Ops-Lioness-01h01-06-iz-08-2023-WEBRip-720p-HDRezka-Studio&xl=7770573770&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/83114/",
+      "quality": "720p",
+      "source": "JacRed · torrentby",
+      "bytes": 7773890805,
+      "size": "7.24 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-06 из 08] (2023) WEBRip 720p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [01х01-07 из 08] (2023) WEBRip 720p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:e2c14649b57b58a2dc2c2a949e655e6be7882ca0&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 10082435727,
+      "size": "9.39 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [01х01-07 из 08] (2023) WEBRip 720p | HDRezka Studio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness / Сезон: 1 / Серии: 1-8 из 8 (Энтони Бирн) [2023, США, боевик, триллер, драма, WEB-DL 720p] MVO (HDrezka) + MVO (TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:6A89DA67E9454344BC97D175073820F15E050919&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 14098230149,
+      "size": "13.13 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness / Сезон: 1 / Серии: 1-8 из 8 (Энтони Бирн) [2023, США, боевик, триллер, драма, WEB-DL 720p] MVO (HDrezka) + MVO (TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [S02] (2024) BDRip-HEVC 1080p от RIPS CLUB | HDRezka Studio, TVShows, WStudio",
+      "magnet": "magnet:?xt=urn:btih:77823918d77b3d0ba0c7d8b095b5cf1d8789b863&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 22247930593,
+      "size": "20.72 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [S02] (2024) BDRip-HEVC 1080p от RIPS CLUB | HDRezka Studio, TVShows, WStudio"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness / Сезон: 2 / Серии: 1-8 из 8 (Стефен Т. Кэй, Майкл Фридман, Тейлор Шеридан) [2024, США, Боевик, триллер, драма, WEB-DL 1080p] 3 x MVO (HDrezka Studio, TVShows, 1WinStudio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:DEC23420F58B6941D4C0DF7474E57A44EA20D915&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 30429843292,
+      "size": "28.34 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness / Сезон: 2 / Серии: 1-8 из 8 (Стефен Т. Кэй, Майкл Фридман, Тейлор Шеридан) [2024, США, Боевик, триллер, драма, WEB-DL 1080p] 3 x MVO (HDrezka Studio, TVShows, 1WinStudio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness / Сезон: 2 / Серии: 1-8 из 8 (Стефен Т. Кэй, Майкл Фридман, Тейлор Шеридан) [2024, США, Боевик, триллер, драма, SDR, WEB-DL 2160p, 4k] 3 x MVO (HDrezka Studio, TVShows, 1WinStudio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:667CD4C2D5B089375B85C8300CD37403EBEC5D06&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 48468705935,
+      "size": "45.14 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness / Сезон: 2 / Серии: 1-8 из 8 (Стефен Т. Кэй, Майкл Фридман, Тейлор Шеридан) [2024, США, Боевик, триллер, драма, SDR, WEB-DL 2160p, 4k] 3 x MVO (HDrezka Studio, TVShows, 1WinStudio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness / Сезон: 2 / Серии: 1-8 из 8 (Джон Хиллкоут) [2024, США, боевик, триллер, драма, WEB-DL 720p] MVO (TVShows) + MVO (HDrezka) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:FE12DE601F55E831A006CC811A9623C5D492B0CD&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 13722420510,
+      "size": "12.78 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness / Сезон: 2 / Серии: 1-8 из 8 (Джон Хиллкоут) [2024, США, боевик, триллер, драма, WEB-DL 720p] MVO (TVShows) + MVO (HDrezka) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [S03] (2026) WEB-DL 1080p | P, L | TVShows, HDRezka, LE-Production",
+      "magnet": "magnet:?xt=urn:btih:de2862337b92efa3d35aede3118ffdcdb8855b3b&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 28840705392,
+      "size": "26.86 GB",
+      "episode": 0,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [S03] (2026) WEB-DL 1080p | P, L | TVShows, HDRezka, LE-Production"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness [03x01-04 из 08] (2026) WEB-DL 1080p | P, L | TVShows, HDRezka, LE-Production",
+      "magnet": "magnet:?xt=urn:btih:4ba6ff330ef694729d62075709a236e531971b5d&dn=Specnaz-Lvica-Special-Ops-Lioness-03x01-04-iz-08-2026-WEB-DL-1080p-P-L-TVShows-HDRezka-LE-Production&xl=14831464549&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/213009/Specnaz-Lvica-Special-Ops-Lioness-03x01-04-iz-08-2026-WEB-DL-1080p-P-L-TVShows-HDRezka-LE-Production",
+      "quality": "1080p",
+      "source": "JacRed · torrentby",
+      "bytes": 14828374589,
+      "size": "13.81 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness [03x01-04 из 08] (2026) WEB-DL 1080p | P, L | TVShows, HDRezka, LE-Production"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness / Сезон: 3 / Серии: 1-2 из 8 (Майкл Фридман, Роберт МакЛаклен) [2026, США, Боевик, триллер, драма, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] MVO (HDrezka Studio, TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:43C540AF182F2769AE653CEB584A5323A0E6C238&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%D0%A1%D0%BF%D0%B5%D1%86%D0%BD%D0%B0%D0%B7%3A%20%D0%9B%D1%8C%D0%B2%D0%B8%D1%86%D0%B0%20%2F%20Special%20Ops%3A%20Lioness%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%203%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-2%20%D0%B8%D0%B7%208%20(%D0%9C%D0%B0%D0%B9%D0%BA%D0%BB%20%D0%A4%D1%80%D0%B8%D0%B4%D0%BC%D0%B0%D0%BD%2C%20%D0%A0%D0%BE%D0%B1%D0%B5%D1%80%D1%82%20%D0%9C%D0%B0%D0%BA%D0%9B%D0%B0%D0%BA%D0%BB%D0%B5%D0%BD)%20%5B2026%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%91%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%2C%20HDR10%2C%20HDR10",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 19767586979,
+      "size": "18.41 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness / Сезон: 3 / Серии: 1-2 из 8 (Майкл Фридман, Роберт МакЛаклен) [2026, США, Боевик, триллер, драма, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] MVO (HDrezka Studio, TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Спецназ: Львица / Special Ops: Lioness (2026) WEB-DL [H.265/2160p] [4K, SDR, 8-bit] (сезон 3, серии 1-8 из 8) HDRezka Studio, TVShows",
+      "magnet": "magnet:?xt=urn:btih:B0974B9993010491DD7FC558203CC94AB606DD7D",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 55941949030,
+      "size": "52.10 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Спецназ: Львица / Special Ops: Lioness (2026) WEB-DL [H.265/2160p] [4K, SDR, 8-bit] (сезон 3, серии 1-8 из 8) HDRezka Studio, TVShows"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-17T08:24:54Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt13111078/img",
+    "background": "https://images.metahub.space/background/medium/tt13111078/img"
+  }
+}
