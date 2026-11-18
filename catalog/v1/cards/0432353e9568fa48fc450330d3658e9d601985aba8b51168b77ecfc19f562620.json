@@ -1,0 +1,773 @@
+{
+  "id": "tt17543592",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/dc7cca336ee8b339652a108368033d8b628680145259709543618e62a93da5bf.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3d71e18a8f2568490ce3af28a2f4ad9a1008d700c6ede0b4f18700d5b0708bf9.jpg",
+  "genres": [
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "42 мин",
+  "imdbRating": "7.7",
+  "releaseInfo": "2023–",
+  "trailers": [
+    {
+      "source": "Iy9PoT19ujk",
+      "type": "Trailer"
+    },
+    {
+      "source": "psuhjtGMfYc",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Уилл Трент",
+  "description": "Специальный агент Уилл Трент в детстве был брошен своими родителями и рос в приёмной семье. Благодаря этой травме он умеет замечать в некоторых преступлениях то, чего не видят другие полицейские. Выехав на очередное дело, он понимает, что в доме было совершено не только убийство, но и похищен ребёнок.",
+  "aliases": [
+    "Уилл Трент",
+    "Will Trent"
+  ],
+  "kpId": 5122430,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/5122430/"
+  ],
+  "year": "2023",
+  "imdbId": "tt17543592",
+  "ids": [
+    "tt17543592"
+  ],
+  "originalName": "Will Trent",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-18T17:14:04Z",
+  "videos": [
+    {
+      "id": "tt17543592:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2023-01-03"
+    },
+    {
+      "id": "tt17543592:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2023-01-10"
+    },
+    {
+      "id": "tt17543592:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2023-01-17"
+    },
+    {
+      "id": "tt17543592:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2023-01-24"
+    },
+    {
+      "id": "tt17543592:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2023-01-31"
+    },
+    {
+      "id": "tt17543592:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2023-02-14"
+    },
+    {
+      "id": "tt17543592:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2023-02-21"
+    },
+    {
+      "id": "tt17543592:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2023-02-28"
+    },
+    {
+      "id": "tt17543592:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2023-03-21"
+    },
+    {
+      "id": "tt17543592:1:10",
+      "season": 1,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2023-03-28"
+    },
+    {
+      "id": "tt17543592:1:11",
+      "season": 1,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "",
+      "released": "2023-04-18"
+    },
+    {
+      "id": "tt17543592:1:12",
+      "season": 1,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "",
+      "released": "2023-04-25"
+    },
+    {
+      "id": "tt17543592:1:13",
+      "season": 1,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "",
+      "released": "2023-05-02"
+    },
+    {
+      "id": "tt17543592:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2024-01-01"
+    },
+    {
+      "id": "tt17543592:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2024-01-01"
+    },
+    {
+      "id": "tt17543592:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2024-01-01"
+    },
+    {
+      "id": "tt17543592:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2024-01-01"
+    },
+    {
+      "id": "tt17543592:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2024-04-03"
+    },
+    {
+      "id": "tt17543592:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-01-01"
+    },
+    {
+      "id": "tt17543592:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2024-01-01"
+    },
+    {
+      "id": "tt17543592:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2024-01-01"
+    },
+    {
+      "id": "tt17543592:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2024-01-01"
+    },
+    {
+      "id": "tt17543592:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2024-01-01"
+    },
+    {
+      "id": "tt17543592:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:9",
+      "season": 3,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:10",
+      "season": 3,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:11",
+      "season": 3,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:12",
+      "season": 3,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:13",
+      "season": 3,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:14",
+      "season": 3,
+      "episode": 14,
+      "title": "Серия 14",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:15",
+      "season": 3,
+      "episode": 15,
+      "title": "Серия 15",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:16",
+      "season": 3,
+      "episode": 16,
+      "title": "Серия 16",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:17",
+      "season": 3,
+      "episode": 17,
+      "title": "Серия 17",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:3:18",
+      "season": 3,
+      "episode": 18,
+      "title": "Серия 18",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:9",
+      "season": 4,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:10",
+      "season": 4,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:11",
+      "season": 4,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:12",
+      "season": 4,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:13",
+      "season": 4,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:14",
+      "season": 4,
+      "episode": 14,
+      "title": "Серия 14",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:15",
+      "season": 4,
+      "episode": 15,
+      "title": "Серия 15",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:16",
+      "season": 4,
+      "episode": 16,
+      "title": "Серия 16",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:17",
+      "season": 4,
+      "episode": 17,
+      "title": "Серия 17",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:4:18",
+      "season": 4,
+      "episode": 18,
+      "title": "Серия 18",
+      "description": "",
+      "released": "2025-01-01"
+    },
+    {
+      "id": "tt17543592:5:1",
+      "season": 5,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2027-01-06T04:00:00.000Z"
+    },
+    {
+      "id": "tt17543592:5:2",
+      "season": 5,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": null
+    },
+    {
+      "id": "tt17543592:5:3",
+      "season": 5,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": null
+    },
+    {
+      "id": "tt17543592:5:4",
+      "season": 5,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": null
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    },
+    {
+      "number": 5,
+      "name": "Сезон 5"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Уилл Трент (1 сезон: 13 серий из 13) / Will Trent / 2023 / ПМ (RuDub), ЛМ (ColdFilm) / WEBRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:548D35E7DD8DCFC785921410A63AE88E30A0583D",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 21689584844,
+      "size": "20.20 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент (1 сезон: 13 серий из 13) / Will Trent / 2023 / ПМ (RuDub), ЛМ (ColdFilm) / WEBRip (1080p)"
+    },
+    {
+      "title": "Уилл Трент (1 сезон: 1-6 серии из 13) / Will Trent / 2023 / ПМ (RuDub) / WEBRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:E5182CB949FE6188842B2CBA2ABA000CF3A5ED57",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 16041702850,
+      "size": "14.94 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент (1 сезон: 1-6 серии из 13) / Will Trent / 2023 / ПМ (RuDub) / WEBRip (1080p)"
+    },
+    {
+      "title": "Уилл Трент / Will Trent / Сезон: 1 / Серии: 1-13 из 13 (Ховард Дойч, Оливер Бокельберг, Патрисия Кардосо) [2023, США, драма, криминал, WEB-DL 1080p] MVO (TVShows) + DVO (Pazl Voice) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:1CD62E07AD2EBCC8939721AA5C15F386CC81CC8B&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 38214471516,
+      "size": "35.59 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент / Will Trent / Сезон: 1 / Серии: 1-13 из 13 (Ховард Дойч, Оливер Бокельберг, Патрисия Кардосо) [2023, США, драма, криминал, WEB-DL 1080p] MVO (TVShows) + DVO (Pazl Voice) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Уилл Трент / Will Trent / Сезон: 2 / Серии: 1-10 из 10 (Ховард Дойч, Оливер Бокельберг, Патрисия Кардосо) [2024, США, драма, криминал, WEB-DL 1080p] MVO (Jaskier) + Original + Sub (Eng)",
+      "magnet": "magnet:?xt=urn:btih:D227BF147C37A8FF4DCC582E1407DFA2437CCBD0&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 34016140984,
+      "size": "31.68 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент / Will Trent / Сезон: 2 / Серии: 1-10 из 10 (Ховард Дойч, Оливер Бокельберг, Патрисия Кардосо) [2024, США, драма, криминал, WEB-DL 1080p] MVO (Jaskier) + Original + Sub (Eng)"
+    },
+    {
+      "title": "Уилл Трент / Will Trent / Сезон: 2 / Серии: 1-10 из 10 (Ховард Дойч, Оливер Бокельберг, Патрисия Кардосо) [2024, США, драма, криминал, WEB-DL 1080p] MVO (TVShows) + DVO (Pazl Voice) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:007C024BEB98501BA1A72BE91B9502BED2CB2689&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 35433480192,
+      "size": "33.00 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент / Will Trent / Сезон: 2 / Серии: 1-10 из 10 (Ховард Дойч, Оливер Бокельберг, Патрисия Кардосо) [2024, США, драма, криминал, WEB-DL 1080p] MVO (TVShows) + DVO (Pazl Voice) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Уилл Трент / Will Trent / Сезон: 3 / Серии: 1-18 из 18 (Ховард Дойч, Оливер Бокельберг, Патрисия Кардосо) [2025, США, драма, криминал, WEB-DL 1080p] 2 x MVO (TVShows, LE-Production) + DVO (Pazl Voice) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:F4C65FA72ADA0C6EAA4052A42973598F4EB3BE28&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 65047279697,
+      "size": "60.58 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 18,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент / Will Trent / Сезон: 3 / Серии: 1-18 из 18 (Ховард Дойч, Оливер Бокельберг, Патрисия Кардосо) [2025, США, драма, криминал, WEB-DL 1080p] 2 x MVO (TVShows, LE-Production) + DVO (Pazl Voice) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Уилл Трент / Will Trent / Сезон: 4 / Серии: 1-18 из 18 (Ховард Дойч, Оливер Бокельберг, Патрисия Кардосо) [2026, США, драма, криминал, WEB-DL 1080p] DVO (Pazl Voice) + 3 x MVO (LE-Production, RuDub, Dragon Money Studio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:F9E6A9DDA3DC3B38BAD32BB87E3B5822FB918770&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 64263448166,
+      "size": "59.85 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 18,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент / Will Trent / Сезон: 4 / Серии: 1-18 из 18 (Ховард Дойч, Оливер Бокельберг, Патрисия Кардосо) [2026, США, драма, криминал, WEB-DL 1080p] DVO (Pazl Voice) + 3 x MVO (LE-Production, RuDub, Dragon Money Studio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Уилл Трент (4 сезон: 1-18 серии из 18) / Will Trent / 2026 / ПМ (RuDub) / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:9DA3BD4B3B6985BFE582468B2F6B6CC31B53844C",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 27756226150,
+      "size": "25.85 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 18,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент (4 сезон: 1-18 серии из 18) / Will Trent / 2026 / ПМ (RuDub) / WEB-DL (1080p)"
+    },
+    {
+      "title": "Уилл Трент (4 сезон: 1-18 серии из 18) / Will Trent / 2026 / ПМ (RuDub) / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:31769CAE9C306F682DEF97E41C0224B8B172DB1F",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 18167711662,
+      "size": "16.92 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 18,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент (4 сезон: 1-18 серии из 18) / Will Trent / 2026 / ПМ (RuDub) / WEB-DL (720p)"
+    },
+    {
+      "title": "Уилл Трент (1-4 сезоны: 1-59 серии из 59) / Will Trent / 2023-2026 / ПМ (TVShows, RuDub) / HEVC / WEB-DLRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:E2BCA9BC0EB8BB2A792BD2A7211E07D7A42691BE",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 30075508490,
+      "size": "28.01 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 59,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент (1-4 сезоны: 1-59 серии из 59) / Will Trent / 2023-2026 / ПМ (TVShows, RuDub) / HEVC / WEB-DLRip (1080p)"
+    },
+    {
+      "title": "Уилл Трент (1-4 сезоны: 1-59 серии из 59) / Will Trent / 2023-2026 / ПМ (TVShows, RuDub) / HEVC / WEB-DLRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:E2BCA9BC0EB8BB2A792BD2A7211E07D7A42691BE",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 30075508490,
+      "size": "28.01 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 59,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент (1-4 сезоны: 1-59 серии из 59) / Will Trent / 2023-2026 / ПМ (TVShows, RuDub) / HEVC / WEB-DLRip (1080p)"
+    },
+    {
+      "title": "Уилл Трент (1-4 сезоны: 1-59 серии из 59) / Will Trent / 2023-2026 / ПМ (TVShows, RuDub) / HEVC / WEB-DLRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:E2BCA9BC0EB8BB2A792BD2A7211E07D7A42691BE",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 30075508490,
+      "size": "28.01 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 59,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент (1-4 сезоны: 1-59 серии из 59) / Will Trent / 2023-2026 / ПМ (TVShows, RuDub) / HEVC / WEB-DLRip (1080p)"
+    },
+    {
+      "title": "Уилл Трент (1-4 сезоны: 1-59 серии из 59) / Will Trent / 2023-2026 / ПМ (TVShows, RuDub) / HEVC / WEB-DLRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:E2BCA9BC0EB8BB2A792BD2A7211E07D7A42691BE",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 30075508490,
+      "size": "28.01 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 59,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Уилл Трент (1-4 сезоны: 1-59 серии из 59) / Will Trent / 2023-2026 / ПМ (TVShows, RuDub) / HEVC / WEB-DLRip (1080p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-18T17:14:04Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt17543592/img",
+    "background": "https://images.metahub.space/background/medium/tt17543592/img"
+  }
+}
