@@ -997,6 +997,15 @@
         "description": "",
         "released": "2026-11-11",
         "source": "https://chef.friday.ru/videos/s4/e12"
+      },
+      {
+        "id": "tt31520694:4:13",
+        "season": 4,
+        "episode": 13,
+        "title": "Выпуск 13",
+        "description": "",
+        "released": "2026-11-18",
+        "source": "https://api.tvmaze.com/shows/63532/episodes"
       }
     ],
     "episodeFeeds": [
