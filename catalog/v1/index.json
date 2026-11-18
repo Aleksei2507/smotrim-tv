@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1794986601,
-  "updatedAt": "2026-11-18T07:22:08Z",
+  "revision": 1794988496,
+  "updatedAt": "2026-11-18T07:54:24Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,241 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt30423684",
+      "ids": [
+        "tt30423684"
+      ],
+      "imdbId": "tt30423684",
+      "name": "Как приручить лису",
+      "type": "series",
+      "year": "2025",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/42bdbc56f9911ae517febf5bf087cfd4f5e7b92ffc20887ada6ca1246498c248.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2d4c7de7b497bed0a6eb2f0f0a25594edb1a79871e7d0f640c923a9df9cecff2.jpg",
+      "description": "Зоопсихолог, занимающийся изучением лисиц, подбирает в лесу странную замкнутую девушку Дину и спасает ей жизнь, но становится подозреваемым в деле об убийстве её подруги. Он вынужден начать самостоятельное расследование, и для этого ему необходимо наладить контакт с далёкой от социальных норм…",
+      "originalName": "How to Tame a Fox",
+      "aliases": [
+        "Как приручить лису",
+        "How to Tame a Fox"
+      ],
+      "genres": [
+        "Драма",
+        "Криминал"
+      ],
+      "imdbRating": "6.5",
+      "card": "cards/a04acf7bde12f289d093a2257a4f4939601069aadd311e5aac982849a6a130ac.json",
+      "sha256": "a04acf7bde12f289d093a2257a4f4939601069aadd311e5aac982849a6a130ac",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt29567915",
+      "ids": [
+        "tt29567915"
+      ],
+      "imdbId": "tt29567915",
+      "name": "Нюрнберг",
+      "type": "movie",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ac0a2f064cbd0329175fa14b1189e6de53b1ba95a4abcecdf6bf1ecb6218bd1e.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8cef02e7fe2484d0bc8c913bded3715e7ed697e46795bccf895095c3bd18496e.jpg",
+      "description": "История о психологическом противостоянии талантливого психиатра Дугласа Келли и рейхсмаршала нацистской Германии Германа Геринга, от результатов которого зависит исход Нюрнбергского процесса.",
+      "originalName": "Nuremberg",
+      "aliases": [
+        "Нюрнберг",
+        "Nuremberg"
+      ],
+      "genres": [
+        "Биография",
+        "Драма",
+        "История"
+      ],
+      "imdbRating": "7.3",
+      "runtime": "149 мин",
+      "card": "cards/d9f628ca2fa6131e5019b0a0ce7463045c3d6ed850ffb3a0b867f25ec0300ca7.json",
+      "sha256": "d9f628ca2fa6131e5019b0a0ce7463045c3d6ed850ffb3a0b867f25ec0300ca7",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0413573",
+      "ids": [
+        "tt0413573"
+      ],
+      "imdbId": "tt0413573",
+      "name": "Анатомия страсти",
+      "type": "series",
+      "year": "2005",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/19f62a482d742ec52a810693914d3488389a37336cf7216e6c9f87130f5187f6.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3e74af747331a6571ced5bf907fadda2404b55e94c619e045e33cd5a66ec021d.jpg",
+      "description": "В центре событий — молодая женщина-хирург Мередит Грей, дочь известного врача Эллис Грей. Она, как и её коллеги — такие же начинающие врачи, как она — работает в городской больнице Сиэтла. Хирурги оперируют и влюбляются, заводят истории болезни и служебные романы, хранят свои врачебные тайны, бор…",
+      "originalName": "Grey's Anatomy",
+      "aliases": [
+        "Анатомия страсти",
+        "Grey's Anatomy"
+      ],
+      "genres": [
+        "Драма",
+        "Мелодрама"
+      ],
+      "imdbRating": "7.6",
+      "runtime": "43 мин",
+      "card": "cards/1ae17c51205d49a8303d912ae7197ec35b097961acc1317ebb80c8ac6fd34b92.json",
+      "sha256": "1ae17c51205d49a8303d912ae7197ec35b097961acc1317ebb80c8ac6fd34b92",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0121955",
+      "ids": [
+        "tt0121955"
+      ],
+      "imdbId": "tt0121955",
+      "name": "Южный Парк",
+      "type": "series",
+      "year": "1997",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4f43f0ec6a6ed7cbfda2afa47d76b678d321637b861545b894bdeaa4a4e29853.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/880fb603b79c1ada33b54a84e84e0692bb873b72133ee994edd4350d19b3f498.jpg",
+      "description": "Приключения четырёх мальчиков и их друзей, живущих в маленьком городке Южный Парк, штат Колорадо.",
+      "originalName": "South Park",
+      "aliases": [
+        "Южный Парк",
+        "South Park"
+      ],
+      "genres": [
+        "Мультфильм",
+        "Комедия"
+      ],
+      "imdbRating": "8.7",
+      "runtime": "22 мин",
+      "card": "cards/c9f55111492087ff6d0916bfe6782b3a3f849b19c45e6f685a87948d2fd0a1a2.json",
+      "sha256": "c9f55111492087ff6d0916bfe6782b3a3f849b19c45e6f685a87948d2fd0a1a2",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt7587890",
+      "ids": [
+        "tt7587890"
+      ],
+      "imdbId": "tt7587890",
+      "name": "Новичок",
+      "type": "series",
+      "year": "2018",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/99ef6e045efda624d6ecfde4dc9552648bcb48643c4cf53730c86dc0c4bbe652.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4c436db74d3444b87796d2f5ac4b5e6e86c532969d8f55bff14eb874a9333671.jpg",
+      "description": "Начинать с чистого листа всегда нелегко, особенно для уроженца маленького городка Джона Нолана, который после перевернувшего его жизнь случая решил воплотить в жизнь давнюю мечту и вступить в ряды полиции Лос-Анджелеса. Возрастного новичка встречают с понятным скептицизмом, однако жизненный опыт,…",
+      "originalName": "The Rookie",
+      "aliases": [
+        "Новичок",
+        "The Rookie"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "44 мин",
+      "card": "cards/0b0702a6b71e9b8ddab867ad6043048758d3d75d6f9c029c51ec77ef3dec4b49.json",
+      "sha256": "0b0702a6b71e9b8ddab867ad6043048758d3d75d6f9c029c51ec77ef3dec4b49",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt26581740",
+      "ids": [
+        "tt26581740"
+      ],
+      "imdbId": "tt26581740",
+      "name": "Орудия",
+      "type": "movie",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/160a4d242e8eca1a38902a97fe28901ad112c5de13e820ca225be9d33159141c.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/08e44516c3677a51b5e590fb35fabec8dd9d6f9867293ca3b323ea2584ca6877.jpg",
+      "description": "Однажды ночью в небольшом городке 17 младшеклассников одновременно убежали из дома и бесследно исчезли. Все они учились в одном классе, и кроме них не пропал только один мальчик. Уже месяц полиция не может найти никаких зацепок, а безутешные родители считают, что с этим как-то связана новая класс…",
+      "originalName": "Weapons",
+      "aliases": [
+        "Орудия",
+        "Weapons"
+      ],
+      "genres": [
+        "Ужасы",
+        "Детектив"
+      ],
+      "imdbRating": "7.4",
+      "runtime": "128 мин",
+      "card": "cards/2cb273dd527b1114176278ebdc4e9edb28d796eea6ad1a4b5dcff5d78b7f9b8f.json",
+      "sha256": "2cb273dd527b1114176278ebdc4e9edb28d796eea6ad1a4b5dcff5d78b7f9b8f",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt9288030",
+      "ids": [
+        "tt9288030"
+      ],
+      "imdbId": "tt9288030",
+      "name": "Джек Ричер",
+      "type": "series",
+      "year": "2022",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/86bc1c29fe9d734b412d989636e1b2bfc5bdb6a43b4839c9f661941c034192a3.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/600725c5900c43280e75ea70d94dfcd77fd6c4c514a3a2a29f87abd26a8878be.jpg",
+      "description": "Джек Ричер, бывший майор военной полиции, посещает небольшой городок, где его арестовывают по подозрению в убийстве. Вскоре местные полицейские понимают, что этот здоровяк с опасной внешностью совсем не тот, кого они ищут, и Ричер предлагает им помощь в поисках настоящих убийц.",
+      "originalName": "Reacher",
+      "aliases": [
+        "Джек Ричер",
+        "Reacher"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "49 мин",
+      "card": "cards/929298c27901e5b2e8daef227f842ac2002593ae76254a26bef5d023a7302a9c.json",
+      "sha256": "929298c27901e5b2e8daef227f842ac2002593ae76254a26bef5d023a7302a9c",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt33332385",
+      "ids": [
+        "tt33332385"
+      ],
+      "imdbId": "tt33332385",
+      "name": "Бухта вдов",
+      "type": "series",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/32f93b36dc830b463111a5eeffa6fad2d589f885d1958bafc8a9141b6fe9ec87.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/95877df3b55c12660888a0d785fd38fb5d4e5e4b4a111b87bd9ec294adbfb932.jpg",
+      "description": "Том Лофтис, мэр города на небольшом острове в Новой Англии, противостоит суеверным местным жителям, которые считают свой остров проклятым. Том всеми силами старается развивать экономику города и привлечь туристов, несмотря на отпор со стороны населения и зловещие стечения обстоятельств.",
+      "originalName": "Widow's Bay",
+      "aliases": [
+        "Бухта вдов",
+        "Widow's Bay"
+      ],
+      "genres": [
+        "Ужасы",
+        "Детектив",
+        "Триллер"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "38 мин",
+      "card": "cards/67d43bb1aa8352563a634d74708849b83f7f18f100e6a8807c1cecae81ac59c3.json",
+      "sha256": "67d43bb1aa8352563a634d74708849b83f7f18f100e6a8807c1cecae81ac59c3",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt21906238",
       "ids": [
@@ -34,8 +269,8 @@
       ],
       "imdbRating": "7.9",
       "runtime": "54 мин",
-      "card": "cards/acb45c1be756cd23b0d0f0c9b403059818a7784ca98cf4c535c6dcbfb339b497.json",
-      "sha256": "acb45c1be756cd23b0d0f0c9b403059818a7784ca98cf4c535c6dcbfb339b497",
+      "card": "cards/00a49a671cb88e79ff740ba245c1147c727e6f8a405dd147e38a08c4155fd281.json",
+      "sha256": "00a49a671cb88e79ff740ba245c1147c727e6f8a405dd147e38a08c4155fd281",
       "localized": true,
       "provider": "github"
     },
@@ -64,8 +299,8 @@
       ],
       "imdbRating": "7.1",
       "runtime": "105 мин",
-      "card": "cards/2bd3440b591d286f84d00cbf6792ed524783efef43e6d5bb3e24a3110de11199.json",
-      "sha256": "2bd3440b591d286f84d00cbf6792ed524783efef43e6d5bb3e24a3110de11199",
+      "card": "cards/98f7c3decb3ce063ab29239b11d112d896cb013a379b2879eb21b60357c1543a.json",
+      "sha256": "98f7c3decb3ce063ab29239b11d112d896cb013a379b2879eb21b60357c1543a",
       "localized": true,
       "provider": "github"
     },
@@ -93,8 +328,8 @@
       ],
       "imdbRating": "6.3",
       "runtime": "114 мин",
-      "card": "cards/3d6ce52bc6297f29533a7c86d4f8f5c98df65b4dacc9960726476da7af5b8344.json",
-      "sha256": "3d6ce52bc6297f29533a7c86d4f8f5c98df65b4dacc9960726476da7af5b8344",
+      "card": "cards/504e1207bf2b84c0b94e86e9220e8a62b1950af217a72f70d89bf263542074f6.json",
+      "sha256": "504e1207bf2b84c0b94e86e9220e8a62b1950af217a72f70d89bf263542074f6",
       "localized": true,
       "provider": "github"
     },
@@ -152,8 +387,8 @@
       ],
       "imdbRating": "7.7",
       "runtime": "42 мин",
-      "card": "cards/59c7ddf9f486cfc9a90c1412b7840d700e3c80937a554c39562cf47c9f866d08.json",
-      "sha256": "59c7ddf9f486cfc9a90c1412b7840d700e3c80937a554c39562cf47c9f866d08",
+      "card": "cards/c551ce7747f4d3ce1623b479f424c97073d8959aea67e3354ae2f10a6aaaad84.json",
+      "sha256": "c551ce7747f4d3ce1623b479f424c97073d8959aea67e3354ae2f10a6aaaad84",
       "localized": true,
       "provider": "github"
     },
@@ -173,7 +408,6 @@
       "originalName": "Lioness",
       "aliases": [
         "Спецназ: Львица",
-        "Lioness",
         "Special Ops: Lioness"
       ],
       "genres": [
@@ -183,8 +417,8 @@
       ],
       "imdbRating": "7.8",
       "runtime": "49 мин",
-      "card": "cards/bca6223f72758b0832e85488f19a1cb102daca9f4d55078c6fa105cefe8f331a.json",
-      "sha256": "bca6223f72758b0832e85488f19a1cb102daca9f4d55078c6fa105cefe8f331a",
+      "card": "cards/c3a6107413a6196abf92ba22daebd8dc7b74a895069d941cf59b9d3d822b4105.json",
+      "sha256": "c3a6107413a6196abf92ba22daebd8dc7b74a895069d941cf59b9d3d822b4105",
       "localized": true,
       "provider": "github"
     },
@@ -213,8 +447,8 @@
       ],
       "imdbRating": "7.9",
       "runtime": "41 мин",
-      "card": "cards/397eeec9520f85118e91ffdd6037aba0815a3b9af33d2f32c9f960ae7828d8ae.json",
-      "sha256": "397eeec9520f85118e91ffdd6037aba0815a3b9af33d2f32c9f960ae7828d8ae",
+      "card": "cards/84168bb4f7abc9eaa5a676b4efb35f9996f597f5121bf13b62196a9ca4659249.json",
+      "sha256": "84168bb4f7abc9eaa5a676b4efb35f9996f597f5121bf13b62196a9ca4659249",
       "localized": true,
       "provider": "github"
     },

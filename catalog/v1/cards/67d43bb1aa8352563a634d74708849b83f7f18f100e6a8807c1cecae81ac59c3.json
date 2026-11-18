@@ -1,0 +1,378 @@
+{
+  "id": "tt33332385",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/32f93b36dc830b463111a5eeffa6fad2d589f885d1958bafc8a9141b6fe9ec87.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/95877df3b55c12660888a0d785fd38fb5d4e5e4b4a111b87bd9ec294adbfb932.jpg",
+  "genres": [
+    "Ужасы",
+    "Детектив",
+    "Триллер"
+  ],
+  "runtime": "38 мин",
+  "imdbRating": "8.1",
+  "releaseInfo": "2026–",
+  "trailers": [
+    {
+      "source": "VcpYPxKeGAc",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Бухта вдов",
+  "description": "Том Лофтис, мэр города на небольшом острове в Новой Англии, противостоит суеверным местным жителям, которые считают свой остров проклятым. Том всеми силами старается развивать экономику города и привлечь туристов, несмотря на отпор со стороны населения и зловещие стечения обстоятельств.",
+  "aliases": [
+    "Бухта вдов",
+    "Widow's Bay"
+  ],
+  "kpId": 6555657,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt33332385.json",
+    "https://www.kinopoisk.ru/film/6555657/"
+  ],
+  "year": "2026",
+  "imdbId": "tt33332385",
+  "ids": [
+    "tt33332385"
+  ],
+  "originalName": "Widow's Bay",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-18T07:54:24Z",
+  "videos": [
+    {
+      "id": "tt33332385:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-04-29"
+    },
+    {
+      "id": "tt33332385:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-04-29"
+    },
+    {
+      "id": "tt33332385:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-05-06"
+    },
+    {
+      "id": "tt33332385:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-05-13"
+    },
+    {
+      "id": "tt33332385:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-05-20"
+    },
+    {
+      "id": "tt33332385:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-05-27"
+    },
+    {
+      "id": "tt33332385:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-05-27"
+    },
+    {
+      "id": "tt33332385:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-06-03"
+    },
+    {
+      "id": "tt33332385:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2026-06-10"
+    },
+    {
+      "id": "tt33332385:1:10",
+      "season": 1,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2026-06-17"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-8 из 10 (Хиро Мурай) [2026, США, Ужасы, драма, комедия, WEB-DL 1080p] 5 x MVO (Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:3F2A97514BB0799396C5203E23D677C13B1EED24&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 28239409971,
+      "size": "26.30 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-8 из 10 (Хиро Мурай) [2026, США, Ужасы, драма, комедия, WEB-DL 1080p] 5 x MVO (Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-10 из 10 (Хиро Мурай) [2026, США, Ужасы, драма, комедия, WEB-DL 1080p] 7 x MVO (HDrezka, NewStudio, NewStudio, LostFilm, Red Head Sound, WinMedia, LE-Production) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:BACA24E18C7382A9E9A44132C8D7DB86C4D319C2&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%D0%91%D1%83%D1%85%D1%82%D0%B0%20%D0%B2%D0%B4%D0%BE%D0%B2%20%2F%20Widow's%20Bay%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%201%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-10%20%D0%B8%D0%B7%2010%20(%D0%A5%D0%B8%D1%80%D0%BE%20%D0%9C%D1%83%D1%80%D0%B0%D0%B9)%20%5B2026%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%A3%D0%B6%D0%B0%D1%81%D1%8B%2C%20%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%2C%20%D0%BA%D0%BE%D0%BC%D0%B5%D0%B4%D0%B8%D1%8F%2C%20WEB-DL%201080p%5D%207%20x%20MVO%20(HDrezka%2C%20NewStudio%2C%20New",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 39384850104,
+      "size": "36.68 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-10 из 10 (Хиро Мурай) [2026, США, Ужасы, драма, комедия, WEB-DL 1080p] 7 x MVO (HDrezka, NewStudio, NewStudio, LostFilm, Red Head Sound, WinMedia, LE-Production) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Бухта вдов (1 сезон: 1-10 серии из 10) / Widow's Bay / 2026 / ДБ (TVShows), 5 x ПМ, ПД (Кубик в Кубе), СТ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:835156F7EACB7F434338A7477CB49C567A4E5A89",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 37226629038,
+      "size": "34.67 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов (1 сезон: 1-10 серии из 10) / Widow's Bay / 2026 / ДБ (TVShows), 5 x ПМ, ПД (Кубик в Кубе), СТ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay [01x01-03 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | Red Head Sound, WinMedia, NewStudio, HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:f59b321b09fbd76cc0e01051e9e33d8de3b4e69a&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 19864223744,
+      "size": "18.50 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay [01x01-03 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | Red Head Sound, WinMedia, NewStudio, HDrezka Studio"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay [01x01-04 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | Red Head Sound, WinMedia, NewStudio, LostFilm,  HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:2b81d68121d71cb9cf0a2c3b43169f91b1b940f1&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 25952339886,
+      "size": "24.17 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay [01x01-04 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | Red Head Sound, WinMedia, NewStudio, LostFilm,  HDrezka Studio"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay [01x01-04 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:9453a8077465d7054561d192b0a0189a134ea765&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 26167088250,
+      "size": "24.37 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay [01x01-04 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay [01x01-05 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | P | Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:87916796eb1ac1f9bc8d466b7e06c2bd70deded7&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 32802812723,
+      "size": "30.55 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay [01x01-05 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | P | Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay [01x01-05 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | P | Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:4937e853c67f87565481b83f715cf4275e85dd4d&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 32684701122,
+      "size": "30.44 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay [01x01-05 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | P | Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay [01x01-07 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | P | Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:8e704428838f889bdea5f05d1c1f03fc60e47027&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 45999099740,
+      "size": "42.84 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay [01x01-07 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | P | Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay [01x01-07 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | P | Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:c8e2fd39458961c0dfa5e1f7a066a800547da001&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 46718506762,
+      "size": "43.51 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay [01x01-07 из 10] (2026) UHD WEB-DL 2160p | 4K | SDR | P | Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-8 из 10 (Хиро Мурай) [2026, США, Ужасы, драма, комедия, HEVC, HDR10+, Dolby Vision P8, WEB-DL 2160p, 4k] 5 x MVO (Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:D21247E3A393FF8E2BA1592044FCA8B965049FFC&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 61654255534,
+      "size": "57.42 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-8 из 10 (Хиро Мурай) [2026, США, Ужасы, драма, комедия, HEVC, HDR10+, Dolby Vision P8, WEB-DL 2160p, 4k] 5 x MVO (Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-8 из 10 (Хиро Мурай) [2026, США, Ужасы, драма, комедия, HEVC, SDR, WEB-DL 2160p, 4k] 5 x MVO (Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:D9125B6CB2643D435AC41F5B4D8DA5AF6B70E393&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 52720723558,
+      "size": "49.10 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-8 из 10 (Хиро Мурай) [2026, США, Ужасы, драма, комедия, HEVC, SDR, WEB-DL 2160p, 4k] 5 x MVO (Red Head Sound, WinMedia, NewStudio, LostFilm, HDrezka Studio) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-10 из 10 (Хиро Мурай) [2026, США, Ужасы, драма, комедия, Dolby Vision, HDR10+ HDR10, WEB-DL 2160p, 4k] 7 x MVO (HDrezka, NewStudio, NewStudio, LostFilm, Red Head Sound, WinMedia, LE-Production) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C2274DCD452A45C48C2801BDEDBE549E7792089F&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 81604378624,
+      "size": "76.00 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-10 из 10 (Хиро Мурай) [2026, США, Ужасы, драма, комедия, Dolby Vision, HDR10+ HDR10, WEB-DL 2160p, 4k] 7 x MVO (HDrezka, NewStudio, NewStudio, LostFilm, Red Head Sound, WinMedia, LE-Production) + DVO (Кубик в Кубе) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-10 из 10 (Хиро Мураи, Эндрю ДеЯнг) [2026, США, Ужасы, драма, комедия, SDR, WEB-DL 2160p, 4k] 7 x MVO (HDRezka Studio, WinMedia, NewStudio, TVShows, LostFilm, Red Head Sound, LE-Production) + DVO (Кубик в Кубе) + Original + Sub (Rus, Ukr, Eng, Heb)",
+      "magnet": "magnet:?xt=urn:btih:AF02437D23984044364913FB9EE57B52605DAF55&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 70340826890,
+      "size": "65.51 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-10 из 10 (Хиро Мураи, Эндрю ДеЯнг) [2026, США, Ужасы, драма, комедия, SDR, WEB-DL 2160p, 4k] 7 x MVO (HDRezka Studio, WinMedia, NewStudio, TVShows, LostFilm, Red Head Sound, LE-Production) + DVO (Кубик в Кубе) + Original + Sub (Rus, Ukr, Eng, Heb)"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-10 из 10 (Хиро Мурай) [2026, США, ужасы, драма, комедия, WEB-DL 720p] 6 x MVO (HDrezka, NewStudio, TVShows, LostFilm, Red Head Sound, WinMedia) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:9AEEE63529AB5F0CEEDF27BEB47F7255A96A76C4&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 16342350561,
+      "size": "15.22 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-10 из 10 (Хиро Мурай) [2026, США, ужасы, драма, комедия, WEB-DL 720p] 6 x MVO (HDrezka, NewStudio, TVShows, LostFilm, Red Head Sound, WinMedia) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-10 из 10 (Хиро Мурай) [2026, США, ужасы, драма, комедия, WEB-DL 720p] DVO (Кубик в Кубе) + 7 x MVO + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:8290D3B1AB5F32457CC37F7F762227270805516C&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 17265768529,
+      "size": "16.08 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Бухта вдов / Widow's Bay / Сезон: 1 / Серии: 1-10 из 10 (Хиро Мурай) [2026, США, ужасы, драма, комедия, WEB-DL 720p] DVO (Кубик в Кубе) + 7 x MVO + Original + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-18T07:52:58Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt33332385/img",
+    "background": "https://images.metahub.space/background/medium/tt33332385/img"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "tt29567915",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt29567915/img",
+  "background": "https://images.metahub.space/background/medium/tt29567915/img",
+  "genres": [
+    "Биография",
+    "Драма",
+    "История"
+  ],
+  "runtime": "149 мин",
+  "imdbRating": "7.3",
+  "releaseInfo": "2025",
+  "trailers": [
+    {
+      "source": "YWlCCVnZ4bo",
+      "type": "Trailer"
+    },
+    {
+      "source": "kl2V5l7H9mw",
+      "type": "Trailer"
+    },
+    {
+      "source": "WvAy9C-bipY",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Нюрнберг",
+  "description": "История о психологическом противостоянии талантливого психиатра Дугласа Келли и рейхсмаршала нацистской Германии Германа Геринга, от результатов которого зависит исход Нюрнбергского процесса.",
+  "aliases": [
+    "Нюрнберг",
+    "Nuremberg"
+  ],
+  "kpId": 5427688,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt29567915.json",
+    "https://www.kinopoisk.ru/film/5427688/"
+  ],
+  "year": "2025",
+  "imdbId": "tt29567915",
+  "ids": [
+    "tt29567915"
+  ],
+  "originalName": "Nuremberg",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-18T07:52:58Z",
+  "sources": [
+    {
+      "title": "Нюрнберг / Nuremberg (Джеймс Вандербилт / James Vanderbilt) [2025, США, Венгрия, триллер, драма, военный, биография, история, BDRemux 1080p] AVO (Сербин) + Dub Ukr + Sub (Ukr, Eng, Fra, Deu, Spa) + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:A754B06765F8F27AA6CD513EA9FC6F5BD8A67541&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 40802189312,
+      "size": "38.00 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Нюрнберг / Nuremberg (Джеймс Вандербилт / James Vanderbilt) [2025, США, Венгрия, триллер, драма, военный, биография, история, BDRemux 1080p] AVO (Сербин) + Dub Ukr + Sub (Ukr, Eng, Fra, Deu, Spa) + Original Eng"
+    },
+    {
+      "title": "Нюрнберг / Nuremberg (2025) WEB-DL [H.264/1080p] [AVO]",
+      "magnet": "magnet:?xt=urn:btih:B0BD4F721B51026D0B27AD3E64BF72C2E7D3D157",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 10640781475,
+      "size": "9.91 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Нюрнберг / Nuremberg (2025) WEB-DL [H.264/1080p] [AVO]"
+    },
+    {
+      "title": "Нюрнберг / Nuremberg (2025) UHD BDRemux [H.265/2160p] [4K, HDR10+, DV 7.6, 10-bit] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:C54542ECBA4A4B5D86D8E194C0D09D30B088FBC2",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 63780264345,
+      "size": "59.40 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Нюрнберг / Nuremberg (2025) UHD BDRemux [H.265/2160p] [4K, HDR10+, DV 7.6, 10-bit] [MVO]"
+    },
+    {
+      "title": "Нюрнберг / Nuremberg (2025) WEB-DL [H.265/2160p] [4K, SDR, 8-bit] [AVO]",
+      "magnet": "magnet:?xt=urn:btih:0293ADADC1CC2AC7186A1F067CFE37AF949CC47D",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 18038862643,
+      "size": "16.80 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Нюрнберг / Nuremberg (2025) WEB-DL [H.265/2160p] [4K, SDR, 8-bit] [AVO]"
+    },
+    {
+      "title": "Нюрнберг / Nuremberg (Джеймс Вандербилт / James Vanderbilt) [2025, США, Венгрия, триллер, драма, военный, биография, история, WEB-DL 720p] AVO (Юрий Сербин) + Sub Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:09F8D12C0F0C2C9732F38D8EB029846C896316D8&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 4123168604,
+      "size": "3.84 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Нюрнберг / Nuremberg (Джеймс Вандербилт / James Vanderbilt) [2025, США, Венгрия, триллер, драма, военный, биография, история, WEB-DL 720p] AVO (Юрий Сербин) + Sub Eng + Original Eng"
+    },
+    {
+      "title": "Нюрнберг / Nuremberg (2025) BDRip [H.264/720p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:3502DD5BD178E7578D74B5C33BB45AC4F1BA78FA",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 6925634764,
+      "size": "6.45 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Нюрнберг / Nuremberg (2025) BDRip [H.264/720p] [MVO]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-18T07:52:58Z"
+}

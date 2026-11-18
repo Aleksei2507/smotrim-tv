@@ -1,0 +1,118 @@
+{
+  "id": "tt26581740",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/160a4d242e8eca1a38902a97fe28901ad112c5de13e820ca225be9d33159141c.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/08e44516c3677a51b5e590fb35fabec8dd9d6f9867293ca3b323ea2584ca6877.jpg",
+  "genres": [
+    "Ужасы",
+    "Детектив"
+  ],
+  "runtime": "128 мин",
+  "imdbRating": "7.4",
+  "releaseInfo": "2025",
+  "trailers": [
+    {
+      "source": "QKHySfXqN0I",
+      "type": "Trailer"
+    },
+    {
+      "source": "OpThntO9ixc",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Орудия",
+  "description": "Однажды ночью в небольшом городке 17 младшеклассников одновременно убежали из дома и бесследно исчезли. Все они учились в одном классе, и кроме них не пропал только один мальчик. Уже месяц полиция не может найти никаких зацепок, а безутешные родители считают, что с этим как-то связана новая классная руководительница.",
+  "aliases": [
+    "Орудия",
+    "Weapons"
+  ],
+  "kpId": 6782779,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt26581740.json",
+    "https://www.kinopoisk.ru/film/6782779/"
+  ],
+  "year": "2025",
+  "imdbId": "tt26581740",
+  "ids": [
+    "tt26581740"
+  ],
+  "originalName": "Weapons",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-18T07:54:24Z",
+  "sources": [
+    {
+      "title": "Орудия / Weapons (2025) WEB-DL 1080p | P | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:d5c71d4f93b76c6aada4407e70ed67858ed80536&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 8579197173,
+      "size": "7.99 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Орудия / Weapons (2025) WEB-DL 1080p | P | HDrezka Studio"
+    },
+    {
+      "title": "Орудия / Weapons (2025) WEB-DLRip 1080p | D, P, A | Movie Dubbing, HDrezka Studio, Сербин",
+      "magnet": "magnet:?xt=urn:btih:592098ca5d4cd845796b09579c17b890740fa0a0&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 17523466567,
+      "size": "16.32 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Орудия / Weapons (2025) WEB-DLRip 1080p | D, P, A | Movie Dubbing, HDrezka Studio, Сербин"
+    },
+    {
+      "title": "Орудия / Weapons (Зак Креггер / Zach Cregger) [2025, США, ужасы, детектив, WEB-DL 2160p, HDR10, Dolby Vision] [Hybrid] Dub (Movie Dubbing, RHS) + 4x MVO (HDRezka, TVShows, LostFilm, LE-Production) + AVO (Сербин) + Dub (Ukr) + DVO (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C0DFBA27291C9EB66535AC8022C4A46830769AB8&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 28636694446,
+      "size": "26.67 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Орудия / Weapons (Зак Креггер / Zach Cregger) [2025, США, ужасы, детектив, WEB-DL 2160p, HDR10, Dolby Vision] [Hybrid] Dub (Movie Dubbing, RHS) + 4x MVO (HDRezka, TVShows, LostFilm, LE-Production) + AVO (Сербин) + Dub (Ukr) + DVO (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Орудия / Weapons (Зак Креггер / Zach Cregger) [2025, США, ужасы, детектив, UHD BDRemux 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] 2x Dub (Movie Dubbing, Red Head Sound) + 4x MVO (TVShows, HDRezka, LostFilm, LE-Production) + AVO (Юрий Сербин) + Dub Ukr + Sub Rus, Ukr, Eng, Multi 15 + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:F02DF9BA3CD00BEE7B7A4BA8AE84D53488DC9564&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 82925081067,
+      "size": "77.23 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Орудия / Weapons (Зак Креггер / Zach Cregger) [2025, США, ужасы, детектив, UHD BDRemux 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] 2x Dub (Movie Dubbing, Red Head Sound) + 4x MVO (TVShows, HDRezka, LostFilm, LE-Production) + AVO (Юрий Сербин) + Dub Ukr + Sub Rus, Ukr, Eng, Multi 15 + Original Eng"
+    },
+    {
+      "title": "Орудия / Weapons (2025) WEB-DL 720p от селезень | P | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:0A79748B2E47CC6166DC8016FE9FFDCAD44140F4&xl=3709215308&dn=Weapons.2025.720p.AMZN.WEB-DL.x264.seleZen.mkv.torrent&tr=http%3A%2F%2Fbt.desol.one%3A2710%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopentor.net%3A6969&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=https%3A%2F%2Ftracker.lilithraws.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.yemekyedim.com%3A443%2Fannounce&tr=https%3A%2F%2Ftrackers.mlsub.net%3A443%2Fannounce&tr=http%3A%2F%2Fbt.desol.one%3A2710%2Fannounce&tr=http%3A%2F%2Fbt.okmp3.ru%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce&tr=http%3A%2F%2Ftracker.renfei.net%3A8080%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · selezen",
+      "bytes": 3704409292,
+      "size": "3.45 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Орудия / Weapons (2025) WEB-DL 720p от селезень | P | HDrezka Studio"
+    },
+    {
+      "title": "Орудия / Weapons (2025) WEB-DL 720p от селезень | D | Movie Dubbing, Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:e599beda17febe30ce39fbc101fd6b6c1a1cbe4f&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 4327179550,
+      "size": "4.03 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Орудия / Weapons (2025) WEB-DL 720p от селезень | D | Movie Dubbing, Red Head Sound"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-18T07:52:58Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt26581740/img",
+    "background": "https://images.metahub.space/background/medium/tt26581740/img"
+  }
+}
