@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795047664,
-  "updatedAt": "2026-11-19T00:19:50Z",
+  "revision": 1795074758,
+  "updatedAt": "2026-11-19T07:52:37Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,210 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt31193180",
+      "ids": [
+        "tt31193180"
+      ],
+      "imdbId": "tt31193180",
+      "name": "Грешники",
+      "type": "movie",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ab5958ec12b70e4e4c8ad915078e06954be099821049bd31bbacf8ebd1cb71bc.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c7ae8b1091771e8577ece88a45df2e0a02935ef2e3b991264f8bc88859b92c83.jpg",
+      "description": "1932 год. После долгих лет отсутствия близнецы Смок и Стэк возвращаются в родной городок в дельте Миссисипи. Они успели повоевать в траншеях Первой мировой, а потом стали гангстерами в Чикаго. Братья выкупают у белого расиста территорию с хозяйственными постройками, чтобы открыть там музыкальный…",
+      "originalName": "Sinners",
+      "aliases": [
+        "Грешники",
+        "Sinners"
+      ],
+      "genres": [
+        "Ужасы"
+      ],
+      "imdbRating": "7.5",
+      "runtime": "138 мин",
+      "card": "cards/374ebaf8aca63978f1c408614a908decf8dc20691b05d861a36a6a86e6366517.json",
+      "sha256": "374ebaf8aca63978f1c408614a908decf8dc20691b05d861a36a6a86e6366517",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt27995113",
+      "ids": [
+        "tt27995113"
+      ],
+      "imdbId": "tt27995113",
+      "name": "Чёрные голуби",
+      "type": "series",
+      "year": "2024",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/043a9b9c73d2ab6901b3b5b2aca8315fcc1d161feb4e1ac589a8dc15d62aa8bc.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2de4a218f558ecec2c16caf3221af7653267ccc702bc7023142a4465073fa8ca.jpg",
+      "description": "Хелен Уэбб — жена, мать и профессиональная шпионка, которая на протяжении 10 лет передает тайны своего мужа-политика секретной организации «Чёрные голуби». Когда её любовника Джейсона убивают, Хелен тоже оказывается под прицелом. Для защиты своего агента глава «Чёрных голубей» отправляет на помощ…",
+      "originalName": "Black Doves",
+      "aliases": [
+        "Чёрные голуби",
+        "Black Doves"
+      ],
+      "genres": [
+        "Боевик",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "7.2",
+      "runtime": "53 мин",
+      "card": "cards/5d2292d487df704709cd3365d48f3aca114015a2ea85e5b82cfa2a2bd5b45702.json",
+      "sha256": "5d2292d487df704709cd3365d48f3aca114015a2ea85e5b82cfa2a2bd5b45702",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt23289160",
+      "ids": [
+        "tt23289160"
+      ],
+      "imdbId": "tt23289160",
+      "name": "Годзилла: Минус один",
+      "type": "movie",
+      "year": "2023",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/12b74815e16dd8630fdda4d408201c377e0c6d791db3531458a00324215bfb35.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0c8eaec138ed0555ec93ed3f180ced0d59489b1c2f6b83a19826dfd67c4a9509.jpg",
+      "description": "В последние дни Второй мировой камикадзе Коити Сикисима посадил самолёт на острове Одо, где располагалась ремонтная база императорской армии Японии. В тот же вечер на них напал непонятно откуда взявшийся огромный ящер Годзилла — именно так называли его местные.\nКоити возвращается в разрушенный бо…",
+      "originalName": "Godzilla Minus One",
+      "aliases": [
+        "Годзилла: Минус один",
+        "Godzilla Minus One",
+        "Gojira -1.0"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "7.6",
+      "runtime": "125 мин",
+      "card": "cards/d56b9885bbc4bea3e220ce70e8d2d8f7aec5b19c9a1051ccfb1326957495b328.json",
+      "sha256": "d56b9885bbc4bea3e220ce70e8d2d8f7aec5b19c9a1051ccfb1326957495b328",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt4406178",
+      "ids": [
+        "tt4406178"
+      ],
+      "imdbId": "tt4406178",
+      "name": "Позолоченный век",
+      "type": "series",
+      "year": "2022",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/501c02c0c9f0eaead505f974d20d64b50d2be44bc79cc0eb64212cf0af835c1b.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8500f06e01f54d9c3f4273f7cf887c6cdafb7fc791723b652f0fcc3daf3f050e.jpg",
+      "description": "XIX век. Молодая девушка Мариан Брук, осиротевшая дочь генерала-южанина, переезжает в Нью-Йорк в дом своих тётушек-традиционалисток. Теперь она должна понять правила этого общества и проложить себе путь в будущее.",
+      "originalName": "The Gilded Age",
+      "aliases": [
+        "Позолоченный век",
+        "The Gilded Age"
+      ],
+      "genres": [
+        "Драма"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "55 мин",
+      "card": "cards/e7caed522293a87df394c39cfdf5fd521c53a7fa6bd193ba4a89a87d1931274c.json",
+      "sha256": "e7caed522293a87df394c39cfdf5fd521c53a7fa6bd193ba4a89a87d1931274c",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0252503",
+      "ids": [
+        "tt0252503"
+      ],
+      "imdbId": "tt0252503",
+      "name": "Грабеж",
+      "type": "movie",
+      "year": "2001",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ec9bc728454111f9c7fc941a6a40a8958d5052a4c55b11c4f7e93457955a30fe.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/56f935a23741a0369a3263e3d9a5b71ce2e1ad3ec1ad160937c65b6d3d3141a6.jpg",
+      "description": "У Джо Мура есть все - красивая молодая жена, деньги и любимая работа. Он - вор. Его работа накрывается медным тазом, когда его застукивают при помощи охранной камеры. Его соперник Бергман шантажирует его, требуя простить долг, а жена уходит к новичку - другу Бергмана. Мур, его партнёр Бобби Блан…",
+      "originalName": "Heist",
+      "aliases": [
+        "Грабеж",
+        "Heist"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "6.5",
+      "runtime": "107 мин",
+      "card": "cards/f13a1d89002b0e0de0f3ef4602f72165881b76c32b6ddac67cb4526e3f7c5c13.json",
+      "sha256": "f13a1d89002b0e0de0f3ef4602f72165881b76c32b6ddac67cb4526e3f7c5c13",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt31710249",
+      "ids": [
+        "tt31710249"
+      ],
+      "imdbId": "tt31710249",
+      "name": "Король гольфа",
+      "type": "series",
+      "year": "2025",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/40043259eb49369459dadf6c4e487db7d7ba0a8f2711d1e3431638d14dd048d5.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f76adcf23eb123099b27a372932c1dbd910a565b0c561860f9ffc1f2163d7c8e.jpg",
+      "description": "Бывший профессиональный гольфист Прайс Кэхилл, чья карьера давным-давно развалилась из-за нервного срыва на поле, помогает юной звезде спорта достичь успехов.",
+      "originalName": "Stick",
+      "aliases": [
+        "Король гольфа",
+        "Stick"
+      ],
+      "genres": [
+        "Комедия",
+        "Спорт"
+      ],
+      "imdbRating": "7.2",
+      "runtime": "33 мин",
+      "card": "cards/26fe6d694e36ee8295c0440d230cc2288e97e423ea673fb9c82a1c368d9a3222.json",
+      "sha256": "26fe6d694e36ee8295c0440d230cc2288e97e423ea673fb9c82a1c368d9a3222",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt36586020",
+      "ids": [
+        "tt36586020"
+      ],
+      "imdbId": "tt36586020",
+      "name": "Чужая мама",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/70f09746e17d8a81b824286ca2adfb8beaec5a38ecfbf2c12718c3d29129cfd4.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e8c8fa76d0a24c373f31f65488480c859444f9defb84e2a664b9de0309b2d780.jpg",
+      "description": "8-летняя Бела замечает проблемы в отношениях между её родителями. Ей начинает являться странная сущность, которая на первый взгляд выглядит как мать девочки и пытается добиться любви и доверия. Чужая мама просит Белу впустить себя в её сердце, но с каждым отказом поведение существа становится всё…",
+      "originalName": "Other Mommy",
+      "aliases": [
+        "Чужая мама",
+        "Other Mommy"
+      ],
+      "genres": [
+        "Ужасы"
+      ],
+      "imdbRating": "",
+      "runtime": "93 мин",
+      "card": "cards/0133940bec492febf62cb1dd729535b1ac73a4f9101aa07fa91458328be6cb43.json",
+      "sha256": "0133940bec492febf62cb1dd729535b1ac73a4f9101aa07fa91458328be6cb43",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt30423684",
       "ids": [
@@ -25,16 +229,15 @@
       "description": "Зоопсихолог, занимающийся изучением лисиц, подбирает в лесу странную замкнутую девушку Дину и спасает ей жизнь, но становится подозреваемым в деле об убийстве её подруги. Он вынужден начать самостоятельное расследование, и для этого ему необходимо наладить контакт с далёкой от социальных норм…",
       "originalName": "How to Tame a Fox",
       "aliases": [
-        "Как приручить лису",
-        "How to Tame a Fox"
+        "Как приручить лису"
       ],
       "genres": [
         "Драма",
         "Криминал"
       ],
       "imdbRating": "6.5",
-      "card": "cards/7394e8fe9f0e18aa98bde284bf004e72fad899c26347729a7d640decd2fcab5a.json",
-      "sha256": "7394e8fe9f0e18aa98bde284bf004e72fad899c26347729a7d640decd2fcab5a",
+      "card": "cards/4f3ae1d3701485f77278e1a9ff63b39a1607538af14a24315653c6933bf24142.json",
+      "sha256": "4f3ae1d3701485f77278e1a9ff63b39a1607538af14a24315653c6933bf24142",
       "localized": true,
       "provider": "github"
     },
@@ -92,8 +295,8 @@
       ],
       "imdbRating": "7.6",
       "runtime": "43 мин",
-      "card": "cards/425e034b448e3c524307555d7aad4db3bb6fd0cc5092ef97d1cb40230a32ae4b.json",
-      "sha256": "425e034b448e3c524307555d7aad4db3bb6fd0cc5092ef97d1cb40230a32ae4b",
+      "card": "cards/4e2fa14bcefab29c4c5acd20227165086d5ecf87b19812962fff5820626dd6a4.json",
+      "sha256": "4e2fa14bcefab29c4c5acd20227165086d5ecf87b19812962fff5820626dd6a4",
       "localized": true,
       "provider": "github"
     },
@@ -121,8 +324,8 @@
       ],
       "imdbRating": "8.7",
       "runtime": "22 мин",
-      "card": "cards/115849d797e7ed94907565d133557c8c962ebbdc1b55e17887a4e81cc6f2d59a.json",
-      "sha256": "115849d797e7ed94907565d133557c8c962ebbdc1b55e17887a4e81cc6f2d59a",
+      "card": "cards/c147724643eac53a80cee54739d90f5008948ddd7862eb037fd332db3aba5bb3.json",
+      "sha256": "c147724643eac53a80cee54739d90f5008948ddd7862eb037fd332db3aba5bb3",
       "localized": true,
       "provider": "github"
     },
@@ -151,8 +354,8 @@
       ],
       "imdbRating": "8.0",
       "runtime": "44 мин",
-      "card": "cards/67bccc0f3d4571d8d37543d06e4657b6cd2d1c2f63f78f6c983b330d01cc39e8.json",
-      "sha256": "67bccc0f3d4571d8d37543d06e4657b6cd2d1c2f63f78f6c983b330d01cc39e8",
+      "card": "cards/090332f12c0afd688e2938b20d89821f871112b1ff3be4a3c8c8040fc6013992.json",
+      "sha256": "090332f12c0afd688e2938b20d89821f871112b1ff3be4a3c8c8040fc6013992",
       "localized": true,
       "provider": "github"
     },
@@ -210,8 +413,8 @@
       ],
       "imdbRating": "8.0",
       "runtime": "49 мин",
-      "card": "cards/540865df26f0770821a3c76c4e11ba9e8aba8232c819dde61fe45340c013d54c.json",
-      "sha256": "540865df26f0770821a3c76c4e11ba9e8aba8232c819dde61fe45340c013d54c",
+      "card": "cards/e5aac724fb77482eb2a6ffefe3c6642dfbb11818055b6cb8dd2bfcd910c0b5b4.json",
+      "sha256": "e5aac724fb77482eb2a6ffefe3c6642dfbb11818055b6cb8dd2bfcd910c0b5b4",
       "localized": true,
       "provider": "github"
     },
@@ -240,8 +443,8 @@
       ],
       "imdbRating": "8.1",
       "runtime": "38 мин",
-      "card": "cards/67d43bb1aa8352563a634d74708849b83f7f18f100e6a8807c1cecae81ac59c3.json",
-      "sha256": "67d43bb1aa8352563a634d74708849b83f7f18f100e6a8807c1cecae81ac59c3",
+      "card": "cards/fcd01098bd6e95c867cc6c3211c73713f994e57d374f0ca2467aaeb84e5fe8ad.json",
+      "sha256": "fcd01098bd6e95c867cc6c3211c73713f994e57d374f0ca2467aaeb84e5fe8ad",
       "localized": true,
       "provider": "github"
     },

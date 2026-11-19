@@ -1,0 +1,103 @@
+{
+  "id": "tt31193180",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt31193180/img",
+  "background": "https://images.metahub.space/background/medium/tt31193180/img",
+  "genres": [
+    "Ужасы"
+  ],
+  "runtime": "138 мин",
+  "imdbRating": "7.5",
+  "releaseInfo": "2025",
+  "trailers": [
+    {
+      "source": "l2h2lC0vlX4",
+      "type": "Trailer"
+    },
+    {
+      "source": "O98jSd24lmA",
+      "type": "Trailer"
+    },
+    {
+      "source": "h-zFEZkoALI",
+      "type": "Trailer"
+    },
+    {
+      "source": "7joulECTx_U",
+      "type": "Trailer"
+    },
+    {
+      "source": "bKGxHflevuk",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Грешники",
+  "description": "1932 год. После долгих лет отсутствия близнецы Смок и Стэк возвращаются в родной городок в дельте Миссисипи. Они успели повоевать в траншеях Первой мировой, а потом стали гангстерами в Чикаго. Братья выкупают у белого расиста территорию с хозяйственными постройками, чтобы открыть там музыкальный бар для рабочих с плантации. Гвоздь программы на открытии — сын пастора, которому близнецы когда-то подарили гитару, и он играет блюз так хорошо, что привлекает внимание оказавшегося поблизости ирландского вампира.",
+  "aliases": [
+    "Грешники",
+    "Sinners"
+  ],
+  "kpId": 5499518,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt31193180.json",
+    "https://www.kinopoisk.ru/film/5499518/"
+  ],
+  "year": "2025",
+  "imdbId": "tt31193180",
+  "ids": [
+    "tt31193180"
+  ],
+  "originalName": "Sinners",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-19T07:50:29Z",
+  "sources": [
+    {
+      "title": "Грешники / Sinners (Райан Куглер / Ryan Coogler) [2025, США, Австралия, Канада, ужасы, музыка, боевик, WEB-DLRip 1080p] Dub (Movie Dubbing) + MVO (TVShows, HDrezka, Red Head Sound, GoLTFilm) + AVO (Гаврилов, Сербин) + VO (Яроцкий) + Dub (Ukr) + Original (Eng) + Sub (Rus, Eng, Chi, Ukr, Multi)",
+      "magnet": "magnet:?xt=urn:btih:D38638D7BEF1E3686A32AF9CE366A276B0E9B414&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 24137716203,
+      "size": "22.48 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Грешники / Sinners (Райан Куглер / Ryan Coogler) [2025, США, Австралия, Канада, ужасы, музыка, боевик, WEB-DLRip 1080p] Dub (Movie Dubbing) + MVO (TVShows, HDrezka, Red Head Sound, GoLTFilm) + AVO (Гаврилов, Сербин) + VO (Яроцкий) + Dub (Ukr) + Original (Eng) + Sub (Rus, Eng, Chi, Ukr, Multi)"
+    },
+    {
+      "title": "Грешники / Sinners (2025) WEB-DL 1080p | D, P | Movie Dubbing, TVShows, HDrezka Studio, Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:74bdae27679f9a8986dfde78aca521ec0e6e3b52&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 11596411699,
+      "size": "10.80 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Грешники / Sinners (2025) WEB-DL 1080p | D, P | Movie Dubbing, TVShows, HDrezka Studio, Red Head Sound"
+    },
+    {
+      "title": "Грешники / Sinners (Райан Куглер / Ryan Coogler) [2025, США, Австралия, Канада, боевик, драма, ужасы, триллер, UHD BDRemux 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] [IMAX] Dub + 4х MVO + DVO + VO + Dub Ukr + MVO Bel + Sub Rus, Ukr, Eng, Multi 11 + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:4470DD67C9E05D997CF1F48DB93B588FC1B35A21&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 73809012981,
+      "size": "68.74 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Грешники / Sinners (Райан Куглер / Ryan Coogler) [2025, США, Австралия, Канада, боевик, драма, ужасы, триллер, UHD BDRemux 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] [IMAX] Dub + 4х MVO + DVO + VO + Dub Ukr + MVO Bel + Sub Rus, Ukr, Eng, Multi 11 + Original Eng"
+    },
+    {
+      "title": "Грешники / Sinners (Райан Куглер / Ryan Coogler) [2025, США, Австралия, Канада, ужасы, триллер, драма, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub + 5x MVO + VO + Dub (Ukr) + Sub (Rus, Eng, Multi) + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:FABF519A33D765F2428B007A1E7441136316BA61&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 29259464704,
+      "size": "27.25 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Грешники / Sinners (Райан Куглер / Ryan Coogler) [2025, США, Австралия, Канада, ужасы, триллер, драма, WEB-DL 2160p, HDR10, HDR10+, Dolby Vision] [Hybrid] Dub + 5x MVO + VO + Dub (Ukr) + Sub (Rus, Eng, Multi) + Original Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-19T07:50:29Z"
+}

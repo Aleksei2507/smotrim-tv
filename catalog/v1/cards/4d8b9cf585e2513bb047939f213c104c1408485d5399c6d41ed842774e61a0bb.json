@@ -1,0 +1,102 @@
+{
+  "id": "tt36586020",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt36586020/img",
+  "background": "https://images.metahub.space/background/medium/tt36586020/img",
+  "genres": [
+    "Ужасы"
+  ],
+  "runtime": "93 мин",
+  "imdbRating": "",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "-mnTITqqiT0",
+      "type": "Trailer"
+    },
+    {
+      "source": "bEpTgowZ1dI",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Чужая мама",
+  "description": "8-летняя Бела замечает проблемы в отношениях между её родителями. Ей начинает являться странная сущность, которая на первый взгляд выглядит как мать девочки и пытается добиться любви и доверия. Чужая мама просит Белу впустить себя в её сердце, но с каждым отказом поведение существа становится всё более опасным и зловещим.",
+  "aliases": [
+    "Чужая мама",
+    "Other Mommy"
+  ],
+  "kpId": 7983281,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt36586020.json",
+    "https://www.kinopoisk.ru/film/7983281/"
+  ],
+  "year": "2026",
+  "imdbId": "tt36586020",
+  "ids": [
+    "tt36586020"
+  ],
+  "originalName": "Other Mommy",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-19T07:50:29Z",
+  "sources": [
+    {
+      "title": "Чужая мама / Other Mommy (2026) WEB-DL 1080p | P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:21918ab63c0e35969c0737cb2534eaa1fd994a5e&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 6818260582,
+      "size": "6.35 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чужая мама / Other Mommy (2026) WEB-DL 1080p | P | HDRezka Studio"
+    },
+    {
+      "title": "Чужая мама / Other Mommy (2026) WEB-DL 1080p от New-Team | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:e2b68eba32c8423bf14dce5f4a1d30df0c66595a&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 6152540651,
+      "size": "5.73 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чужая мама / Other Mommy (2026) WEB-DL 1080p от New-Team | D, P | HDRezka Studio"
+    },
+    {
+      "title": "Чужая мама / Other Mommy (2026) UHD WEB-DL 2160p | 4K | HDR10 | Dolby Vision P8 | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:e69339f07fdbfc5b4aa1272064544e8b33c66523&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 18060337479,
+      "size": "16.82 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чужая мама / Other Mommy (2026) UHD WEB-DL 2160p | 4K | HDR10 | Dolby Vision P8 | D, P | HDRezka Studio"
+    },
+    {
+      "title": "Чужая мама / Other Mommy (2026) UHD WEB-DL 2160p | 4K | HDR10 | Dolby Vision P8 | P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:9a218bdcab67f947ab5b39e144b010942961bfc3&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 17791902023,
+      "size": "16.57 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чужая мама / Other Mommy (2026) UHD WEB-DL 2160p | 4K | HDR10 | Dolby Vision P8 | P | HDRezka Studio"
+    },
+    {
+      "title": "Чужая мама / Other Mommy (2026) WEB-DL 720p от New-Team | D, P | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:3b1f53a4d7e68dc755880a55bc219a55414bfaf8&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 3725884129,
+      "size": "3.47 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чужая мама / Other Mommy (2026) WEB-DL 720p от New-Team | D, P | HDRezka Studio"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-19T07:50:29Z"
+}
