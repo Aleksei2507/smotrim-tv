@@ -333,6 +333,15 @@
         "description": "",
         "released": "2026-11-12",
         "source": "https://survivall.friday.ru/videos/s1/e7"
+      },
+      {
+        "id": "tt31531192:4:8",
+        "season": 4,
+        "episode": 8,
+        "title": "Выпуск 8",
+        "description": "",
+        "released": "2026-11-19",
+        "source": "https://api.tvmaze.com/shows/94659/episodes"
       }
     ],
     "episodeSources": [

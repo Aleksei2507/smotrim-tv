@@ -1,0 +1,466 @@
+{
+  "id": "tt30423684",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/42bdbc56f9911ae517febf5bf087cfd4f5e7b92ffc20887ada6ca1246498c248.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2d4c7de7b497bed0a6eb2f0f0a25594edb1a79871e7d0f640c923a9df9cecff2.jpg",
+  "genres": [
+    "Драма",
+    "Криминал"
+  ],
+  "imdbRating": "6.5",
+  "releaseInfo": "2025–",
+  "trailers": [],
+  "name": "Как приручить лису",
+  "description": "Зоопсихолог, занимающийся изучением лисиц, подбирает в лесу странную замкнутую девушку Дину и спасает ей жизнь, но становится подозреваемым в деле об убийстве её подруги. Он вынужден начать самостоятельное расследование, и для этого ему необходимо наладить контакт с далёкой от социальных норм девушкой, которая ни с кем не разговаривает и не даёт показания.",
+  "aliases": [
+    "Как приручить лису"
+  ],
+  "kpId": 5454707,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/5454707/"
+  ],
+  "year": "2025",
+  "imdbId": "tt30423684",
+  "ids": [
+    "tt30423684"
+  ],
+  "originalName": "How to Tame a Fox",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-19T10:16:33Z",
+  "videos": [
+    {
+      "id": "tt30423684:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-10-10"
+    },
+    {
+      "id": "tt30423684:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-10-10"
+    },
+    {
+      "id": "tt30423684:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-10-17"
+    },
+    {
+      "id": "tt30423684:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-10-24"
+    },
+    {
+      "id": "tt30423684:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-10-31"
+    },
+    {
+      "id": "tt30423684:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-11-07"
+    },
+    {
+      "id": "tt30423684:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2025-11-14"
+    },
+    {
+      "id": "tt30423684:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2025-11-21"
+    },
+    {
+      "id": "tt30423684:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-11-13"
+    },
+    {
+      "id": "tt30423684:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt30423684:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt30423684:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt30423684:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt30423684:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt30423684:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt30423684:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Как приручить лису [01x01-02 из 08] (2025) WEB-DL 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:cdf987858c044a8247fb062e3933770e1ae345bf&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 3972844748,
+      "size": "3.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01x01-02 из 08] (2025) WEB-DL 1080p от ExKinoRay"
+    },
+    {
+      "title": "Как приручить лису [01x01-03 из 08] (2025) WEB-DL 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:32248dc9a97e00d797ad5a8a8bb23509a4512236&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 6259914833,
+      "size": "5.83 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01x01-03 из 08] (2025) WEB-DL 1080p от ExKinoRay"
+    },
+    {
+      "title": "Как приручить лису [01x01-04 из 08] (2025) WEB-DL 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:4b510780ea16bad2d052df44382a808b6be114ec&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 8181912698,
+      "size": "7.62 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01x01-04 из 08] (2025) WEB-DL 1080p от ExKinoRay"
+    },
+    {
+      "title": "Как приручить лису [01x01-05 из 08] (2025) WEB-DL 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:5793c9cd410e520bc21c967a9022514057b37885&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 10415295692,
+      "size": "9.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01x01-05 из 08] (2025) WEB-DL 1080p от ExKinoRay"
+    },
+    {
+      "title": "Как приручить лису [01x01-06 из 08] (2025) WEB-DL 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:078dbf387d2ce9898797ce1c4c24488827c24ea5&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 12509092249,
+      "size": "11.65 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01x01-06 из 08] (2025) WEB-DL 1080p от ExKinoRay"
+    },
+    {
+      "title": "Как приручить лису [01x01-07 из 08] (2025) WEB-DL 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:f35bef72b90859113bc9f405db1839e7ab31aa8e&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 14946486190,
+      "size": "13.92 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01x01-07 из 08] (2025) WEB-DL 1080p от ExKinoRay"
+    },
+    {
+      "title": "Как приручить лису / Сезон: 1 / Серии: 1-8 из 8 (Юлиана Закревская) [2025, Детектив, триллер, криминал, WEBRip 1080p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:2375CC6C9DFB6345CE195D42C5A35863BC94A626&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 16728897617,
+      "size": "15.58 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису / Сезон: 1 / Серии: 1-8 из 8 (Юлиана Закревская) [2025, Детектив, триллер, криминал, WEBRip 1080p] + Sub (Rus)"
+    },
+    {
+      "title": "Как приручить лису (1 сезон) [+8 серия] [Оригинал] [1080p]",
+      "magnet": "magnet:?xt=urn:btih:9634FD3695067311F292D53D52467F28284E3472&xl=22175384963&dn=Kak.priruchit.lisu.S01.2025.WEB-DL.1080p.torrent&tr=http%3A%2F%2Fultradox.studio%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.fatkhoala.org%3A13760%2Fannounce&tr=udp%3A%2F%2Ftracker.tallpenguin.org%3A15790%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · ultradox",
+      "bytes": 22172768665,
+      "size": "20.65 GB",
+      "episode": 0,
+      "episodeFrom": 8,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису (1 сезон) [+8 серия] [Оригинал] [1080p]"
+    },
+    {
+      "title": "Как приручить лису [01х01-02 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR",
+      "magnet": "magnet:?xt=urn:btih:4a627913122d5c019fbd14b75ac6ed72c1b67e39&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 8439610736,
+      "size": "7.86 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 2,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01х01-02 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR"
+    },
+    {
+      "title": "Как приручить лису [01х01-03 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR",
+      "magnet": "magnet:?xt=urn:btih:a1ce1b0ff0d4c908acf665cd9672b6f0fc24ad2f&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 13325136035,
+      "size": "12.41 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01х01-03 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR"
+    },
+    {
+      "title": "Как приручить лису [01х01-04 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR",
+      "magnet": "magnet:?xt=urn:btih:7ebbb05577d9520ecf2eebc27981683287e557f5&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 17416092385,
+      "size": "16.22 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01х01-04 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR"
+    },
+    {
+      "title": "Как приручить лису [01х01-05 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR",
+      "magnet": "magnet:?xt=urn:btih:07599e8cb040c8d08e81e3845c9135e9dc5e6e28&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 22151293829,
+      "size": "20.63 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01х01-05 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR"
+    },
+    {
+      "title": "Как приручить лису [01х01-06 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR",
+      "magnet": "magnet:?xt=urn:btih:a51160bddefa3aaf733ab0f0a423689cd44b27f9&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 26596584980,
+      "size": "24.77 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01х01-06 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR"
+    },
+    {
+      "title": "Как приручить лису [01х01-07 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR",
+      "magnet": "magnet:?xt=urn:btih:a8746ca56c8eb813374746c30d5e9559c3cf4916&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 31772020572,
+      "size": "29.59 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису [01х01-07 из 08] (2025) WEB-DL 2160p от ExKinoRay | 4K | SDR"
+    },
+    {
+      "title": "Как приручить лису / Сезон: 1 / Серии: 1-8 из 8 (Юлиана Закревская) [2025, Детектив, триллер, криминал, SDR, WEBRip 2160p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:7F57D59621D9A84E6E1D08BE7823086FCB926851&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%D0%9A%D0%B0%D0%BA%20%D0%BF%D1%80%D0%B8%D1%80%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BB%D0%B8%D1%81%D1%83%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%201%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-8%20%D0%B8%D0%B7%208%20(%D0%AE%D0%BB%D0%B8%D0%B0%D0%BD%D0%B0%20%D0%97%D0%B0%D0%BA%D1%80%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F)%20%5B2025%2C%20%D0%94%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20SDR%2C%20WEBRip%202160p%5D%20%2B%20Sub%20(Rus)",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 36324685905,
+      "size": "33.83 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису / Сезон: 1 / Серии: 1-8 из 8 (Юлиана Закревская) [2025, Детектив, триллер, криминал, SDR, WEBRip 2160p] + Sub (Rus)"
+    },
+    {
+      "title": "Как приручить лису / Сезон: 1 / Серии: 1-8 из 8 (Юлиана Закревская) [2025, детектив, триллер, криминал, WEBRip 720p] + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:01F3E6511FB16D474DA853D44828817D03D135E6&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 11424613007,
+      "size": "10.64 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису / Сезон: 1 / Серии: 1-8 из 8 (Юлиана Закревская) [2025, детектив, триллер, криминал, WEBRip 720p] + Sub (Rus)"
+    },
+    {
+      "title": "Как приручить лису / Сезон: 2 / Серии: 1 из 8 (Юлиана Закревская) [2026, Россия, детектив, триллер, криминал, WEBRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:208DE39AAA20827F9A6B9F1D51D9A6D821D2437E&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%D0%9A%D0%B0%D0%BA%20%D0%BF%D1%80%D0%B8%D1%80%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BB%D0%B8%D1%81%D1%83%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%202%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201%20%D0%B8%D0%B7%208%20(%D0%AE%D0%BB%D0%B8%D0%B0%D0%BD%D0%B0%20%D0%97%D0%B0%D0%BA%D1%80%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F)%20%5B2026%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20WEBRip%201080p%5D",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 1642824990,
+      "size": "1.53 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису / Сезон: 2 / Серии: 1 из 8 (Юлиана Закревская) [2026, Россия, детектив, триллер, криминал, WEBRip 1080p]"
+    },
+    {
+      "title": "Как приручить лису (2 сезон) [+1 серия] [Оригинал] [1080p]",
+      "magnet": "magnet:?xt=urn:btih:E197ABDF81F267FF79ED950716932716AD7E4108&xl=1878932310&dn=Kak.priruchit.lisu.S02.WEB-DL.1080p.torrent&tr=http%3A%2F%2Fultradox.studio%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.fatkhoala.org%3A13760%2Fannounce&tr=udp%3A%2F%2Ftracker.tallpenguin.org%3A15790%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · ultradox",
+      "bytes": 1879048192,
+      "size": "1.75 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису (2 сезон) [+1 серия] [Оригинал] [1080p]"
+    },
+    {
+      "title": "Как приручить лису / Сезон: 2 / Серии: 1 из 8 (Юлиана Закревская) [2026, Россия, детектив, триллер, криминал, SDR, WEBRip 2160p]",
+      "magnet": "magnet:?xt=urn:btih:DFDA417EA7B178CCEFF6D4F810435316F6477223&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet&dn=%D0%9A%D0%B0%D0%BA%20%D0%BF%D1%80%D0%B8%D1%80%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BB%D0%B8%D1%81%D1%83%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%202%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201%20%D0%B8%D0%B7%208%20(%D0%AE%D0%BB%D0%B8%D0%B0%D0%BD%D0%B0%20%D0%97%D0%B0%D0%BA%D1%80%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F)%20%5B2026%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%B4%D0%B5%D1%82%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20SDR%2C%20WEBRip%202160p%5D",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 4219805368,
+      "size": "3.93 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Как приручить лису / Сезон: 2 / Серии: 1 из 8 (Юлиана Закревская) [2026, Россия, детектив, триллер, криминал, SDR, WEBRip 2160p]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-19T07:50:29Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt30423684/img",
+    "background": "https://live.metahub.space/background/medium/tt30423684/img"
+  }
+}
