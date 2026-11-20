@@ -55,25 +55,83 @@ def title_matches(title, names, year, movie):
             return not movie or bool(re.search(r'(?<!\d)' + re.escape(year) + r'(?!\d)', title))
     return False
 
-def season_scope(title):
-    # Parse number-before-word first: "1 сезон: 1-6 серии" is season 1, not seasons 1-6.
-    match = re.search(r'(?i)(?<!\d)(\d{1,2})(?:\s*[-–]\s*(\d{1,2}))?\s+сезон', title)
-    if not match:
-        match = re.search(r'(?i)(?:сезон(?:ы)?|season(?:s)?)\s*[:№]?\s*(\d{1,2})(?:\s*[-–]\s*(\d{1,2}))?', title)
-    if not match:
-        match = re.search(r'(?i)(?<![a-z0-9])s(\d{1,2})(?:\s*[-–]\s*s?(\d{1,2}))?', title)
-    cross = re.search(r'(?i)(?<!\d)(\d{1,2})[xх](\d{1,3})(?:[-–](\d{1,3}))?', title)
-    if not match and not cross: return []
-    first = int(match[1] if match else cross[1]); last = int(match[2] or first) if match else first
-    if first < 1 or last < first or last-first > 30: return []
-    episode = re.search(r'(?i)(?<![a-z0-9])s\d{1,2}[ ._-]*e(\d{1,3})(?!\d)', title)
-    span = re.search(r'(?i)(?:сери(?:и|я)|выпуски?)\s*[:№]?\s*(\d{1,3})(?:\s*[-–]\s*(\d{1,3}))?', title)
-    if not span:
-        span = re.search(r'(?i)(?<!\d)(\d{1,3})(?:\s*[-–]\s*(\d{1,3}))?\s*(?:серии|серия|выпуски?)', title)
-    scope = {'episode': int(episode[1]) if episode else 0}
-    if cross: scope.update(episodeFrom=int(cross[2]), episodeTo=int(cross[3] or cross[2]))
-    elif span: scope.update(episodeFrom=int(span[1]), episodeTo=int(span[2] or span[1]))
-    return [dict(scope, season=s) for s in range(first, last+1)]
+_SEASON_RANGE = r'\d{1,2}(?:\s*[-–]\s*\d{1,2})?'
+_SEASON_LIST = _SEASON_RANGE + r'(?:\s*,\s*' + _SEASON_RANGE + r')*'
+_SEASON = re.compile(
+    r'(?<!\d)(' + _SEASON_LIST + r')\s+сезон(?:а|ы|ов)?\b'
+    r'|\b(?:сезон(?:а|ы|ов)?|seasons?)\s*[:№]?\s*(' + _SEASON_LIST + r')(?!\d)'
+    r'|(?<![a-z0-9])s(\d{1,2}(?:\s*[-–]\s*s?\d{1,2})?)(?!\d)'
+    r'|(?<![a-zа-я0-9])(\d{1,2})[xх](?=\d{1,3}(?!\d))', re.I)
+_EPISODES = r'(?:сери[ияй]|выпуск(?:и|ов)?)'
+_RANGE = r'(\d{1,4})(?:\s*[-–]\s*(\d{1,4}))?(?!\d)'
+
+def season_lengths(videos):
+    by_season = {}
+    for video in videos:
+        by_season.setdefault(video['season'], set()).add(video['episode'])
+    return {season: len(numbers) for season, numbers in by_season.items()
+            if numbers == set(range(1, len(numbers) + 1))}
+
+def _season_numbers(match):
+    seasons = []
+    for part in next(value for value in match.groups() if value).split(','):
+        bounds = [int(n) for n in re.findall(r'\d+', part)]
+        first, last = bounds[0], bounds[-1]
+        if not 1 <= first <= last or last - first > 30 or (seasons and first <= seasons[-1]):
+            return []
+        seasons.extend(range(first, last + 1))
+    return seasons
+
+def season_scope(title, lengths=None, default_season=None):
+    matches = list(_SEASON.finditer(title))
+    if not matches and default_season and re.search(r'(?i)серии|\[\d+-\d+', title):
+        return [{'season': default_season, 'episode': 0}]
+    scopes = []
+    for index, match in enumerate(matches):
+        seasons = _season_numbers(match)
+        if not seasons:
+            continue
+        tail = title[match.end():matches[index + 1].start() if index + 1 < len(matches) else len(title)]
+        episode = re.match(r'[ ._-]*e(\d{1,3})(?!\d)', tail, re.I) if match[3] else None
+        span = re.match(_RANGE, tail) if match[4] else re.search(_EPISODES + r'\s*[:№]?\s*' + _RANGE, tail, re.I)
+        if not span:
+            span = re.search(r'(?<!\d)' + _RANGE + r'\s*' + _EPISODES, tail, re.I)
+        if len(seasons) == 1 or not (span or episode):
+            scope = {'episode': int(episode[1]) if episode else 0}
+            if span:
+                scope.update(episodeFrom=int(span[1]), episodeTo=int(span[2] or span[1]))
+            scopes.extend(dict(scope, season=season) for season in seasons)
+            continue
+        if not span or not lengths or any(s not in lengths for s in seasons):
+            continue
+        # A numbered range for several seasons is cumulative. Only split it when the
+        # stated total agrees with a complete, contiguous episode list for this pack.
+        begin, end = int(span[1]), int(span[2] or span[1])
+        total = sum(lengths[s] for s in seasons)
+        count = re.match(r'\s*(?:из\s+|\()(\d{1,4})(?!\d)', tail[span.end():], re.I)
+        if not 1 <= begin <= end <= total or (int(count[1]) if count else end) != total:
+            continue
+        offset = 0
+        for season in seasons:
+            lo, hi = max(1, begin - offset), min(lengths[season], end - offset)
+            if lo <= hi:
+                scopes.append({'season': season, 'episode': 0, 'episodeFrom': lo, 'episodeTo': hi})
+            offset += lengths[season]
+    return scopes
+
+def repair_pack_scopes(sources, lengths):
+    repaired = []
+    for source in sources:
+        title = source['title']
+        # Older catalogues copied the cumulative bounds into every season.
+        if not source.get('episode') and any(len(_season_numbers(m)) > 1 for m in _SEASON.finditer(title)):
+            scope = next((s for s in season_scope(title, lengths) if s['season'] == source['season']), None)
+            if scope is None:
+                continue
+            if 'episodeFrom' in scope:
+                source = {**source, **scope}
+        repaired.append(source)
+    return repaired
 
 def source_scope_key(source):
     episode=source.get('episode',0)
@@ -81,7 +139,7 @@ def source_scope_key(source):
     last=episode or source.get('episodeTo',first)
     return (source.get('season',0),source['quality'],first,last)
 
-def variants(seed, metadata, rows):
+def variants(seed, metadata, rows, lengths=None):
     aliases = [seed['name'], metadata.get('name', ''), *seed.get('aliases', [])]
     year = str(seed.get('year', metadata.get('releaseInfo', '')))[:4]
     buckets = {}; seen = set()
@@ -105,8 +163,7 @@ def variants(seed, metadata, rows):
         # Prefer a compatible SDR/HDR10 release over Dolby-Vision-only variants.
         if re.search(r'(?i)dolby\s*vision|\bDV\b', title) and not re.search(r'(?i)HDR10|Hybrid|гибрид', title):
             continue
-        scopes = season_scope(title) if seed['type']=='series' else [{}]
-        if not scopes and seed.get('defaultSeason') and re.search(r'(?i)серии|\[\d+-\d+',title):scopes=[{'season':seed['defaultSeason'],'episode':0}]
+        scopes = season_scope(title, lengths, seed.get('defaultSeason')) if seed['type']=='series' else [{}]
         for scope in scopes:
             key=source_scope_key(dict(scope,quality=quality))
             identity=(scope.get('season', 0), match[1].lower())
@@ -140,7 +197,7 @@ def make_card(seed, meta, rows, override, stamp):
     episodes=override.get('videos',episodes)
     if seed['type']=='series':
         card.update(videos=sorted(episodes,key=lambda e:(e['season'],e['episode'])),episodeProvider='github',seasons=[{'number':s,'name':'Сезон '+str(s)} for s in sorted({e['season'] for e in episodes})])
-    card['sources']=variants(seed,meta,rows);card['sourcesUpdatedAt']=stamp
+    card['sources']=variants(seed,meta,rows,season_lengths(episodes));card['sourcesUpdatedAt']=stamp
     if seed['type']=='series':card['sources']=[s for s in card['sources'] if any(v['season']==s['season'] for v in episodes)]
     return card
 

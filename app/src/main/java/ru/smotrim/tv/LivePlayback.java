@@ -1,8 +1,9 @@
 package ru.smotrim.tv;
 
-import android.os.Handler;
 import android.os.Looper;
 import androidx.media3.common.*;
+import androidx.media3.common.util.Clock;
+import androidx.media3.common.util.HandlerWrapper;
 import androidx.media3.datasource.*;
 import androidx.media3.exoplayer.ExoPlayer;
 import androidx.media3.exoplayer.source.DefaultMediaSourceFactory;
@@ -23,12 +24,15 @@ public final class LivePlayback implements AutoCloseable,Player.Listener {
     private final ExoPlayer player;
     private final List<JSONObject> streams;
     private final Listener listener;
-    private final Handler handler=new Handler(Looper.getMainLooper());
+    private final HandlerWrapper handler;
     private int index,retries,attempt;
     private boolean closed,pending;
     private Throwable lastError;
     public LivePlayback(ExoPlayer player,List<JSONObject> streams,Listener listener){
-        this.player=player;this.streams=streams;this.listener=listener;player.addListener(this);
+        this(player,streams,listener,Clock.DEFAULT.createHandler(Looper.getMainLooper(),null));
+    }
+    LivePlayback(ExoPlayer player,List<JSONObject> streams,Listener listener,HandlerWrapper handler){
+        this.player=player;this.streams=streams;this.listener=listener;this.handler=handler;player.addListener(this);
     }
     public void start(){
         start(true);
@@ -40,7 +44,7 @@ public final class LivePlayback implements AutoCloseable,Player.Listener {
         open();
     }
     private void open(){
-        if(closed)return;pending=false;int token=++attempt;
+        if(closed)return;pending=false;attempt++;
         JSONObject stream=streams.get(index);Map<String,String> headers=LiveChannels.headers(stream);
         String agent=headers.remove("User-Agent");
         DefaultHttpDataSource.Factory http=new DefaultHttpDataSource.Factory()
@@ -56,7 +60,20 @@ public final class LivePlayback implements AutoCloseable,Player.Listener {
         };
         player.setMediaSource(new DefaultMediaSourceFactory(http).setLoadErrorHandlingPolicy(policy).createMediaSource(MediaItem.fromUri(stream.optString("url"))));
         player.prepare();
-        handler.postDelayed(()->{if(!closed&&!pending&&token==attempt&&player.getPlaybackState()!=Player.STATE_READY)recover(new IOException("Сервер не начал передачу за 15 секунд"),false);},15000);
+        updateBufferTimeout();
+    }
+    private void updateBufferTimeout(){
+        if(closed||pending)return;
+        handler.removeCallbacksAndMessages(null);
+        if(!player.getPlayWhenReady()||player.getPlaybackState()==Player.STATE_READY)return;
+        int token=attempt;
+        handler.postDelayed(()->{
+            if(!closed&&!pending&&token==attempt&&player.getPlayWhenReady()&&player.getPlaybackState()!=Player.STATE_READY)
+                recover(new IOException("Эфир не загружается уже 15 секунд"),false);
+        },15000);
+    }
+    @Override public void onPlayWhenReadyChanged(boolean playWhenReady,int reason){
+        if(player.getPlaybackState()==Player.STATE_BUFFERING)updateBufferTimeout();
     }
     @Override public void onPlayerError(PlaybackException error){
         int status=httpStatus(error);
@@ -66,6 +83,7 @@ public final class LivePlayback implements AutoCloseable,Player.Listener {
     @Override public void onPlaybackStateChanged(int state){
         if(closed||pending)return;
         if(state==Player.STATE_READY){handler.removeCallbacksAndMessages(null);listener.playing(streams.get(index).optString("url"));}
+        else if(state==Player.STATE_BUFFERING)updateBufferTimeout();
         else if(state==Player.STATE_ENDED)recover(new IOException("Источник завершил эфир"),false);
     }
     private void recover(Throwable error,boolean retry){

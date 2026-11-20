@@ -25,6 +25,25 @@ class CatalogSelectionTest(unittest.TestCase):
         self.assertEqual([s['season'] for s in c.season_scope('Show Сезоны: 1-3')], [1,2,3])
         self.assertEqual(c.season_scope('Show [01-07]'), [])
 
+    def test_complete_and_partial_multi_season_ranges_are_season_relative(self):
+        kitchen = 'Кухня / Сезон: 1-6 / Серии: 1-120 из 120'
+        self.assertEqual(c.season_scope(kitchen, dict.fromkeys(range(1, 7), 20)),
+                         [dict(season=s, episode=0, episodeFrom=1, episodeTo=20) for s in range(1, 7)])
+        partial = 'Шоу (1-3 сезоны: 5-8 серии из 12)'
+        self.assertEqual(c.season_scope(partial, {1: 3, 2: 4, 3: 5}),
+                         [dict(season=2, episode=0, episodeFrom=2, episodeTo=4),
+                          dict(season=3, episode=0, episodeFrom=1, episodeTo=1)])
+        for lengths in ({1: 3, 3: 5}, {1: 3, 2: 4, 3: 7}, {}):
+            self.assertEqual(c.season_scope(partial, lengths, default_season=1), [])
+
+    def test_mixed_pack_keeps_explicit_seasons_and_separate_ranges(self):
+        mixed = 'Шоу / Сезоны: 1,3 / Серии: 1-4 из 4 + Сезон: 4 / Серия: 5'
+        self.assertEqual(c.season_scope(mixed, {1: 2, 2: 8, 3: 2, 4: 9}),
+                         [dict(season=1, episode=0, episodeFrom=1, episodeTo=2),
+                          dict(season=3, episode=0, episodeFrom=1, episodeTo=2),
+                          dict(season=4, episode=0, episodeFrom=5, episodeTo=5)])
+        self.assertEqual(c.season_lengths([{'season': 1, 'episode': n} for n in (1, 3)]), {})
+
     def test_separate_episodes_are_not_limited_to_two_per_season(self):
         seed={'name':'Выживалити. Легенда Альфа','origin':'ru','type':'series'}
         rows=[{'title':f'Выживалити. Легенда Альфа [04x{episode:02}] (2026) HDTV 1080p',

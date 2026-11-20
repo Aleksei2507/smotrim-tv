@@ -261,11 +261,13 @@ def refresh_card(old,meta,raw_rows,override,stamp):
             rebuilt['videos']=sorted(episodes.values(),key=lambda e:(e['season'],e['episode']))
         fresh['videos']=rebuilt['videos']
         fresh['seasons']=[{'number':s,'name':'Сезон '+str(s)} for s in sorted({e['season'] for e in fresh['videos']})]
-    sources=build.variants(old,meta,raw_rows)
+    lengths=build.season_lengths(fresh.get('videos', []))
+    previous=build.repair_pack_scopes(old.get('sources', []), lengths) if old['type']=='series' else old.get('sources', [])
+    sources=build.variants(old,meta,raw_rows,lengths)
     if old['type']=='series':sources=[s for s in sources if any(v['season']==s['season'] for v in fresh.get('videos',[]))]
     # A release for one episode must not erase other episodes in the same season.
     buckets={build.source_scope_key(s) for s in sources}
-    fresh['sources']=sources+[s for s in old.get('sources',[]) if build.source_scope_key(s) not in buckets]
+    fresh['sources']=sources+[s for s in previous if build.source_scope_key(s) not in buckets]
     if same_payload(old,fresh):return old
     fresh['sourcesUpdatedAt']=stamp;fresh['updatedAt']=stamp
     return fresh

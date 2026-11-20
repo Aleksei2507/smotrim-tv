@@ -3,7 +3,7 @@ const show={id:'tt31510819',name:'Гангстерленд',type:'series',videos
 const files=[{index:7,name:'MobLand.S02E07.mkv'},{index:8,name:'MobLand.S02E08.mkv'}];
 const pendingMode=new URLSearchParams(location.search).has('pending');
 const replies=[],commands=[],introRequests=[];
-const response=q=>({imdb_id:q.imdbId,media_type:'tv',season:q.season,episode:q.episode,intro:{start_ms:240039,end_ms:q.episode===8?310507:300507,confidence:1,submission_count:2},outro:{start_ms:2800000,end_ms:3000000,confidence:1,submission_count:1}});
+const response=q=>({imdb_id:q.imdbId,media_type:'tv',season:q.season,episode:q.episode,intro:{start_ms:240039,end_ms:q.episode===8?310507:300507,confidence:1,submission_count:1},outro:{start_ms:2800000,end_ms:3000000,confidence:1,submission_count:1}});
 window.Native={
  publishHome(){},homeReady(){},
  request(id,method,json){

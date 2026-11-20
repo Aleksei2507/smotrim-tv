@@ -66,6 +66,21 @@ class SeriesCatalogTest(unittest.TestCase):
         fresh = series.refresh(old, incoming, [row], NOW)
         self.assertEqual({r['episode'] for r in fresh['sources']}, {1, 2})
 
+    def test_new_and_cached_pack_scopes_are_repaired_on_both_schedules(self):
+        old = card(kind='series')
+        old['videos'] = [episode(n, season=s) for s, length in [(1, 3), (2, 2)] for n in range(1, length + 1)]
+        row = dict(torrent('series'), title='Тестовый фильм / Сезон: 1-2 / Серии: 1-5 из 5 RUS 1080p')
+        template = dict(old['sources'][0], title=row['title'], languageEvidence=row['title'])
+        legacy = [dict(template, season=s, episode=0, episodeFrom=1, episodeTo=5) for s in (1, 2)]
+        for schedule in (lambda c, rows: series.refresh(c, [], rows, NOW),
+                         lambda c, rows: auto.refresh_card(c, c, rows, {}, '2026-11-12T20:00:00Z')):
+            for previous, fetched in (([], [row]), (legacy, []), (legacy, [row])):
+                with self.subTest(previous=len(previous), fetched=len(fetched)):
+                    fresh = schedule(dict(old, sources=previous), fetched)
+                    bounds = [(s['season'], s['episodeFrom'], s['episodeTo']) for s in fresh['sources']]
+                    self.assertEqual(bounds, [(1, 1, 3), (2, 1, 2)])
+                    self.assertEqual(schedule(fresh, [])['sources'], fresh['sources'])
+
     def test_all_series_are_checked_and_manual_list_is_extended(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp); directory = root / 'catalog/v1'

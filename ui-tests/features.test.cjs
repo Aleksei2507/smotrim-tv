@@ -25,13 +25,21 @@ test('segment lookup requires exact identity and episode numbers, never a title 
  assert.equal(f.segmentQuery({...item,seriesEpisode:{season:2,episode:'7'}}),null);
  assert.deepEqual(f.segmentQuery({...item,movie:{id:'tt31510819',type:'movie'}}),{imdbId:'tt31510819',isMovie:true});
 });
-test('intro data must belong to the current episode and have multiple agreeing submissions',()=>{
+test('intro data must belong to the current episode and have a high-confidence submitted timestamp',()=>{
  assert.deepEqual(f.introSegment(introResponse,introQuery),{start:240039,end:300507});
  for(const change of [{imdb_id:'tt0903747'},{season:1},{episode:8},{media_type:'movie'},{no_intro:true},{intro:null}]){
   assert.equal(f.introSegment({...introResponse,...change},introQuery),null);
  }
- for(const change of [{start_ms:-1},{end_ms:240038},{end_ms:Infinity},{end_ms:600040},{start_ms:'240039'},{confidence:.8},{confidence:'1'},{confidence:2},{submission_count:1}]){
+ for(const change of [{start_ms:-1},{end_ms:240038},{end_ms:Infinity},{end_ms:600040},{start_ms:'240039'},{confidence:.8},{confidence:'1'},{confidence:2},{submission_count:0},{submission_count:-1},{submission_count:1.5},{submission_count:'1'}]){
   assert.equal(f.introSegment({...introResponse,intro:{...introResponse.intro,...change}},introQuery),null);
+ }
+});
+test('one high-confidence live submission works for the observed I Will Find You and MobLand timestamps',()=>{
+ for(const [imdbId,start,end] of [['tt34771210',81379,171379],['tt31510819',340000,400000]]){
+  const query={imdbId,season:1,episode:1},data={imdb_id:imdbId,media_type:'tv',season:1,episode:1,intro:{start_ms:start,end_ms:end,confidence:1,submission_count:1}};
+  assert.deepEqual(f.introSegment(data,query),{start,end});
+  assert.equal(f.introTarget(f.introSegment(data,query),{position:start,duration:3000000,loading:false}),end);
+  assert.equal(f.introSegment({...data,intro:{...data.intro,confidence:.89}},query),null);
  }
 });
 test('confirmed movie intros use exact movie identity and never accept a series response',()=>{

@@ -30,6 +30,45 @@ public class GithubCatalogTest {
         GithubCatalog c=open(first,(p,e,l)->{etags.add(e);return new GithubCatalog.Response(etags.size()==1?200:304,bytes(next),"etag-2");});
         assertTrue(c.refresh(true));assertFalse(c.refresh(false));assertEquals(1,etags.size());assertFalse(c.refresh(true));assertEquals("etag-2",etags.get(1));assertEquals(2,c.state().getInt("revision"));
     }
+    @Test public void seriesRefreshGetsNewIndexAndEpisodeEvenJustAfterAutomaticCheck()throws Exception{
+        JSONObject series=card("tt10466872","series").put("videos",new JSONArray());
+        JSONObject first=index(series,1);
+        series.getJSONArray("videos").put(new JSONObject().put("season",1).put("episode",2));
+        JSONObject next=index(series,2);
+        String path=next.getJSONArray("items").getJSONObject(0).getString("card");
+        byte[] remote=bundle.remove(path);
+        List<String> calls=new ArrayList<>();
+        GithubCatalog c=open(first,(p,e,l)->{
+            calls.add(p);
+            if(p.equals(path))return new GithubCatalog.Response(200,remote,"");
+            assertEquals("index.json",p);
+            return calls.size()==1?new GithubCatalog.Response(200,bytes(first),"v1")
+                    :new GithubCatalog.Response(200,bytes(next),"v2");
+        });
+        assertFalse(c.refresh(false));
+        JSONObject old=c.detail(selected());
+        assertEquals(0,old.getJSONArray("videos").length());
+        JSONObject fresh=c.refreshSeriesDetail(old);
+        assertEquals(2,fresh.getJSONArray("videos").getJSONObject(0).getInt("episode"));
+        assertEquals(Arrays.asList("index.json","index.json",path),calls);
+    }
+    @Test public void seriesRefreshKeepsEpisodesOfflineAndClearsWarningOnRecovery()throws Exception{
+        JSONObject series=card("tt10466872","series").put("videos",new JSONArray().put(new JSONObject().put("season",1).put("episode",1)));
+        boolean[] available={false};
+        GithubCatalog c=open(index(series,1),(p,e,l)->{
+            if(!available[0])throw new IOException("offline");
+            return new GithubCatalog.Response(304,new byte[0],"");
+        });
+        JSONObject saved=c.refreshSeriesDetail(selected());
+        assertTrue(saved.getBoolean("stale"));
+        assertEquals(1,saved.getJSONArray("videos").length());
+        assertTrue(saved.getJSONArray("metadataWarnings").length()>0);
+        available[0]=true;
+        JSONObject recovered=c.refreshSeriesDetail(saved);
+        assertFalse(recovered.optBoolean("stale"));
+        assertFalse(recovered.has("metadataWarnings"));
+        assertEquals("ДЮНА",recovered.getString("searchHint"));
+    }
     @Test public void rollbackAndInvalidManifestKeepLastGoodIndex()throws Exception{
         JSONObject first=index(card("tt10466872","series"),2),old=index(card("tt10466872","series"),1);
         GithubCatalog c=open(first,(p,e,l)->new GithubCatalog.Response(200,bytes(old),""));assertFalse(c.refresh(true));assertEquals(2,c.state().getLong("revision"));

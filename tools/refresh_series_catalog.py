@@ -121,8 +121,10 @@ def refresh(card, incoming, rows, now):
         if date and date <= today:
             aired[episode['season']] = max(aired.get(episode['season'], 0), episode['episode'])
     meta = {'name': card.get('originalName', card['name']), 'releaseInfo': card.get('year', '')}
+    lengths = build.season_lengths(fresh['videos'])
+    previous = build.repair_pack_scopes(card['sources'], lengths)
     sources = []
-    for source in build.variants(card, meta, rows):
+    for source in build.variants(card, meta, rows, lengths):
         season = source['season']
         last = source.get('episode') or source.get('episodeTo', 0)
         if season not in aired or (last and last > aired[season]):
@@ -131,15 +133,18 @@ def refresh(card, incoming, rows, now):
         if year and str(card.get('year', '')).isdigit() and int(year[1]) < int(card['year']):
             continue
         sources.append(source)
-    old_by_hash = {(s['season'], re.search(r'(?i)btih:([a-f0-9]{40})', s['magnet'])[1].lower()): s for s in card['sources']}
+    old_by_hash = {(s['season'], re.search(r'(?i)btih:([a-f0-9]{40})', s['magnet'])[1].lower()): s for s in previous}
     buckets = {build.source_scope_key(s) for s in sources}
-    combined = sources + [s for s in card['sources'] if build.source_scope_key(s) not in buckets]
+    combined = sources + [s for s in previous if build.source_scope_key(s) not in buckets]
     fresh['sources'] = []
     seen = set()
     for source in combined:
         key = (source['season'], re.search(r'(?i)btih:([a-f0-9]{40})', source['magnet'])[1].lower())
         if key not in seen:
-            fresh['sources'].append(copy.deepcopy(old_by_hash.get(key, source)))
+            cached = old_by_hash.get(key)
+            if cached and build.source_scope_key(cached) == build.source_scope_key(source):
+                source = cached
+            fresh['sources'].append(copy.deepcopy(source))
             seen.add(key)
     if catalog.same_payload(card, fresh):
         return card

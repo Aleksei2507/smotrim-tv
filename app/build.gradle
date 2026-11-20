@@ -1,4 +1,11 @@
 plugins { id 'com.android.application' }
+def localConfig = new Properties()
+def localConfigFile = rootProject.file('local.properties')
+if (localConfigFile.isFile()) localConfigFile.withInputStream { localConfig.load(it) }
+def torrentAbis = ['armeabi-v7a', 'arm64-v8a']
+def torrentLibraries = localConfig.getProperty('smotrim.torrserver.dir')
+        ? rootProject.file(localConfig.getProperty('smotrim.torrserver.dir')) : file('src/main/jniLibs')
+
 android {
     namespace 'ru.smotrim.tv'
     compileSdk 35
@@ -7,10 +14,10 @@ android {
         applicationId 'ru.smotrim.tv'
         minSdk 28
         targetSdk 35
-        versionCode = (project.findProperty('smotrimVersionCode') ?: '35').toInteger()
-        versionName = (project.findProperty('smotrimVersionName') ?: '0.6.20')
+        versionCode = (project.findProperty('smotrimVersionCode') ?: '37').toInteger()
+        versionName = (project.findProperty('smotrimVersionName') ?: '0.6.22')
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
-        ndk { abiFilters 'armeabi-v7a', 'arm64-v8a' }
+        ndk { abiFilters.addAll(torrentAbis) }
     }
     compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
     signingConfigs {
@@ -26,8 +33,17 @@ android {
     buildTypes { release { minifyEnabled true; proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'); signingConfig signingConfigs.release }; debug { signingConfig signingConfigs.release } }
     packaging { resources { excludes += ['META-INF/DEPENDENCIES','META-INF/INDEX.LIST'] }; jniLibs { useLegacyPackaging true; keepDebugSymbols += '**/libtorrserver.so' } }
     testOptions { unitTests.returnDefaultValues = true }
-    sourceSets { test.java.srcDir 'src/testShared/java'; androidTest.java.srcDir 'src/testShared/java' }
+    sourceSets { main.jniLibs.srcDirs = [torrentLibraries]; test.java.srcDir 'src/testShared/java'; androidTest.java.srcDir 'src/testShared/java' }
 }
+def verifyTorrentLibraries = tasks.register('verifyTorrentLibraries') {
+    doLast {
+        torrentAbis.each { abi ->
+            def binary = new File(torrentLibraries, "${abi}/libtorrserver.so")
+            if (!binary.isFile() || binary.length() == 0) throw new GradleException("Missing TorrServer library: ${binary}")
+        }
+    }
+}
+tasks.named('preBuild').configure { dependsOn(verifyTorrentLibraries) }
 dependencies {
     implementation 'androidx.webkit:webkit:1.12.1'
     implementation 'androidx.media3:media3-exoplayer:1.5.1'

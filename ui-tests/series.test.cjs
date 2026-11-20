@@ -4,6 +4,21 @@ test('future episodes are not offered as the next episode',()=>{const m={videos:
 test('source filtering accepts target episodes and season packs, excludes other seasons',()=>{const t={season:2,episode:3};for(const text of ['Show S02E03','Show 2x03'])assert.equal(F.sourceScope(text,t),0,text);for(const text of ['Show S02','Show S01-S03','Шоу Сезон: 2 / Серии: 1-10','Шоу 1-3 сезоны','Шоу S02E01-E06'])assert.equal(F.sourceScope(text,t),1,text);for(const text of ['Show S01E03','Show S02E04','Шоу 3 сезон','Выживалити. Миссия Альфа (3 сезон: 1-11 выпуски из 11)','Шоу Сезон: 2 / Серии: 4-8'])assert.equal(F.sourceScope(text,t),3,text);assert.equal(F.sourceScope('Unknown 1080p',t),2);});
 test('ambiguous files remain ambiguous and wrong episodes never auto match',()=>{const rows=[{name:'Show.S02E03.mkv',index:1},{name:'Show.S02E04.mkv',index:2},{name:'Show.S02E03.alternative.mkv',index:3},{name:'trailer.mkv',index:4}];assert.deepEqual(F.matchingFiles(rows,{season:2,episode:3}).map(f=>f.index),[3,1]);assert.equal(F.matchingFiles(rows,{season:3,episode:3}).length,0);});
 test('series identity survives title and torrent changes',()=>{assert.equal(F.seriesId({movie:{id:'tt1234567',type:'series'},url:'a'},{episode:1,seriesName:'English'}),F.seriesId({movie:{id:'tt1234567',type:'series'},url:'b'},{episode:2,seriesName:'Русский'}));});
+test('season packs use the selected season for unmarked episodes, including specials',()=>{
+ const rows=[{index:1,name:'Episode 07.mkv'},{index:2,name:'08.mkv'},{index:3,name:'Трейлер.mkv'}];
+ assert.deepEqual(F.matchingFiles(rows,{season:5,episode:7}).map(f=>f.index),[1]);
+ assert.deepEqual(F.files(rows,5).map(f=>[f.season,f.episode]),[[5,7],[5,8],[null,null]]);
+ assert.equal(F.matchingFiles(rows,{season:0,episode:7})[0].season,0);
+ assert.equal(F.episode(rows[0]).season,1);
+ assert.equal(F.episode(rows[1]).episode,null);
+});
+test('explicit season wins and changing episode does not relabel a season pack',()=>{
+ const rows=[{index:1,name:'Episode 07.mkv'},{index:2,name:'Episode 07.mkv',path:'Season 1/Season 4/Episode 07.mkv'},{index:3,name:'Show.S03E07.mkv',path:'Season 5/Show.S03E07.mkv'}];
+ assert.deepEqual(F.files(rows,5).map(f=>[f.index,f.season]),[[3,3],[2,4],[1,5]]);
+ assert.deepEqual(F.matchingFiles(rows,{season:4,episode:7},5).map(f=>f.index),[2]);
+ assert.deepEqual(F.matchingFiles(rows,{season:6,episode:7},5),[]);
+ assert.equal(F.switchSource({seriesEpisode:{season:4,episode:7},torrentSeason:5},{magnet:'new'},{}).torrentSeason,4);
+});
 test('known episode and seeded season outrank unknown and dead exact source',()=>{const out=F.episodeSources([{title:'Unknown',seeds:10},{title:'Show S02',seeds:5},{title:'Show S02E03',seeds:0},{title:'Show S01E03',seeds:99}],{season:2,episode:3},{quality:'auto',language:'auto'});assert.deepEqual(out.map(s=>s.title),['Show S02','Unknown','Show S02E03']);});
 test('readability values are bounded and preserve independent options',()=>{assert.deepEqual(F.readability({size:'huge',contrast:'true',motion:1}),{size:'normal',contrast:false,motion:false});assert.deepEqual(F.readability({size:'largest',contrast:true,motion:true}),{size:'largest',contrast:true,motion:true});});
 test('comma-separated season packs stay visible and sparse episodes retain gaps',()=>{

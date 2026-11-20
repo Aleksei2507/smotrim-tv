@@ -20,18 +20,23 @@ function sourceSize(source){
  if(formatted)return formatted[1].replace('.',',')+' '+({K:'К',M:'М',G:'Г',T:'Т'}[formatted[2][0].toUpperCase()]||formatted[2][0].toUpperCase())+'Б';
  return 'Размер неизвестен';
 }
-function episode(file){
- const path=String(file.path||file.name||''),name=String(file.name||path.split('/').pop());
+function episode(file,seasonHint){
+ const path=String(file.path||file.name||''),parts=path.split(/[\\/]/),name=String(file.name||parts[parts.length-1]);
+ const fallback=Number.isInteger(seasonHint)&&seasonHint>=0?seasonHint:null;
  let m=name.match(/(?:^|[^a-z0-9])s(\d{1,2})[ ._-]*e(\d{1,3})(?:[ ._-]*e?(\d{1,3}))?/i),season=null,number=null,prefix='';
  if(m){season=+m[1];number=+m[2];prefix=name.slice(0,m.index);}
  if(!m){m=name.match(/(?:^|\D)(\d{1,2})x(\d{1,3})(?!\d)/i);if(m){season=+m[1];number=+m[2];prefix=name.slice(0,m.index);}}
- if(number===null){const sm=path.match(/(?:season|сезон|(?:^|[ /_.-])s)[ ._-]*(\d{1,2})(?!\d)/i)||path.match(/(\d{1,2})[ ._-]*сезон/i);if(sm)season=+sm[1];
+ if(number===null){
+  for(const part of [name,...parts.reverse()]){
+   const sm=part.match(/(?:season|сезон|(?:^|[ ._-])s)[ ._:-]*(\d{1,2})(?!\d)/i)||part.match(/(\d{1,2})[ ._-]*сезон/i);
+   if(sm){season=+sm[1];break;}
+  }
   const em=name.match(/(?:серия|эпизод|episode|(?:^|[ ._-])e)[ ._-]*(\d{1,3})(?!\d)/i)||name.match(/(?:^|\D)(\d{1,3})[ ._-]*(?:серия|эпизод)/i);
-  if(em){number=+em[1];prefix=name.slice(0,em.index);}else if(season!==null){const leading=name.match(/^(\d{1,3})(?:[ ._-]|\.[a-z]{2,4}$)/i);if(leading)number=+leading[1];}}
- if(number!==null&&season===null)season=1;
+  if(em){number=+em[1];prefix=name.slice(0,em.index);}else if(season!==null||fallback!==null){const leading=name.match(/^(\d{1,3})(?:[ ._-]|\.[a-z]{2,4}$)/i);if(leading)number=+leading[1];}}
+ if(number!==null&&season===null)season=fallback??1;
  return {...file,season,episode:number,seriesName:clean(prefix).replace(/[()\[\]-]+$/,'').trim(),label:number===null?name:`Серия ${number}`};
 }
-function files(items){return items.map(episode).sort((a,b)=>(a.season??999)-(b.season??999)||(a.episode??9999)-(b.episode??9999)||a.name.localeCompare(b.name,'ru',{numeric:true}));}
+function files(items,seasonHint){return items.map(file=>episode(file,seasonHint)).sort((a,b)=>(a.season??999)-(b.season??999)||(a.episode??9999)-(b.episode??9999)||a.name.localeCompare(b.name,'ru',{numeric:true}));}
 function nextFile(items,index){const list=files(items),current=list.find(f=>f.index===index);if(!current||current.episode===null)return null;return list.find(f=>f.episode!==null&&(f.season>current.season||f.season===current.season&&f.episode>current.episode))||null;}
 const contentId=m=>m?.historyId||m?.imdbId||m?.id;
 const mediaIds=m=>[m?.id,m?.imdbId,m?.historyId,...(Array.isArray(m?.ids)?m.ids:[])].filter(Boolean);
@@ -69,7 +74,7 @@ function seekTarget(position,duration,direction,repeats){const step=repeats>=12?
 function catalogueEpisodes(meta){const seen=new Set();return (Array.isArray(meta?.videos)?meta.videos:[]).filter(v=>{const key=v.season+':'+v.episode;return Number.isInteger(v.season)&&v.season>=0&&Number.isInteger(v.episode)&&v.episode>0&&!seen.has(key)&&seen.add(key);}).map(v=>({...v,title:v.title||v.name||'Серия '+v.episode})).sort((a,b)=>a.season-b.season||a.episode-b.episode);}
 function futureEpisode(v,now=Date.now()){const t=Date.parse(v?.released);return Number.isFinite(t)&&t>now;}
 function nextCatalogueEpisode(meta,current,now=Date.now()){if(!current)return null;const v=catalogueEpisodes(meta).find(v=>v.season>current.season||v.season===current.season&&v.episode>current.episode);return v&&!futureEpisode(v,now)?v:null;}
-function matchingFiles(items,target){return files(items).filter(f=>f.season===target?.season&&f.episode===target?.episode);}
+function matchingFiles(items,target,seasonHint=target?.season){return files(items,seasonHint).filter(f=>f.season===target?.season&&f.episode===target?.episode);}
 function sourceScope(text,target){
  const s=String(text||'').replace(/[–—]/g,'-');
  const season=s.match(/\bs(\d{1,3})(?:\s*-\s*s?(\d{1,3}))?/i)||s.match(/(\d{1,3})(?:\s*-\s*(\d{1,3}))?\s*сезон/i)||s.match(/(?:сезон[ыа]?|seasons?)\s*[:.]?\s*(\d{1,3})(?:\s*-\s*(\d{1,3}))?/i)||s.match(/\b(\d{1,3})x\d/i);
@@ -107,7 +112,7 @@ function verifiedSegment(segment,maxLength,minVotes=1){
  if(!Number.isFinite(start)||!Number.isFinite(end)||start<0||end-start<5000||end-start>maxLength||!Number.isFinite(segment.confidence)||segment.confidence<.9||segment.confidence>1||!Number.isInteger(segment.submission_count)||segment.submission_count<minVotes)return null;
  return {start:Math.round(start),end:Math.round(end)};
 }
-function introSegment(data,query){return segmentsMatch(data,query)&&!data.no_intro?verifiedSegment(data.intro,300000,2):null;}
+function introSegment(data,query){return segmentsMatch(data,query)&&!data.no_intro?verifiedSegment(data.intro,300000,1):null;}
 function creditsSegment(data,query){
  if(!segmentsMatch(data,query)||data.no_outro)return null;
  const credits=verifiedSegment(data.outro,900000);if(!credits)return null;
@@ -126,7 +131,7 @@ function introTarget(segment,state){
  return segment.end;
 }
 function switchSource(item,source,state){
- return {...item,url:source.magnet,fileIndex:undefined,files:[],position:Math.max(0,state.position??item.position??0),paused:!(state.playWhenReady??state.playing??!item.paused),completed:false};
+ return {...item,url:source.magnet,torrentSeason:item.seriesEpisode?.season,fileIndex:undefined,files:[],position:Math.max(0,state.position??item.position??0),paused:!(state.playWhenReady??state.playing??!item.paused),completed:false};
 }
 function historyCard(record){
  const m=record?.movie,id=mediaIds(m).find(id=>/^(?:tt\d{5,12}|kp:\d{1,9}|tmdb:(?:movie|series):\d{1,9})$/.test(id));if(!id)return null;

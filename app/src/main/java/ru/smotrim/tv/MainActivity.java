@@ -169,7 +169,11 @@ public class MainActivity extends Activity {
                     }
                     case "detail": case "series-detail": {
                         JSONObject selected=a.optJSONObject("item");if(selected==null)selected=new JSONObject().put("id",a.getString("id")).put("type",method.equals("series-detail")?"series":"movie");
-                        JSONObject saved=githubCatalog==null?null:githubCatalog.detail(selected);answer=saved==null?mediaCatalog().detail(selected,a.optBoolean("refresh")):saved;break;
+                        boolean refresh=a.optBoolean("refresh");
+                        JSONObject saved=null;
+                        if(githubCatalog!=null)saved=refresh&&method.equals("series-detail")
+                                ?githubCatalog.refreshSeriesDetail(selected):githubCatalog.detail(selected);
+                        answer=saved==null?mediaCatalog().detail(selected,refresh):saved;break;
                     }
                     case "title-cast": answer=new PeopleCatalog(new File(getCacheDir(),"people-catalog")).cast(a.getJSONObject("item"),a.optBoolean("refresh"));break;
                     case "actor-films": answer=new PeopleCatalog(new File(getCacheDir(),"people-catalog")).filmography(a.getString("id"),a.optBoolean("refresh"));break;

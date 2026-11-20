@@ -79,12 +79,9 @@ public final class TorrentEngine implements AutoCloseable {
         start();android.util.Log.i("SmotrimTorrent","Engine ready: adding torrent");
         JSONObject info=api("/torrents",new JSONObject().put("action","add").put("link",link).put("save_to_db",false),20000);
         hash=info.optString("hash");if(!hash.matches("(?i)[0-9a-f]{40,64}"))throw new IOException("Не удалось открыть раздачу");
-        long until=System.currentTimeMillis()+90000;
-        while(System.currentTimeMillis()<until){
-            check();files=info.optJSONArray("file_stats");if(files!=null&&files.length()>0)break;
-            sleep();info=api("/torrents",new JSONObject().put("action","get").put("hash",hash),5000);
-        }
-        if(files==null||files.length()==0)throw new IOException("Раздающие не ответили. Попробуйте раздачу с большим числом сидов.");
+        JSONObject getMetadata=new JSONObject().put("action","get").put("hash",hash);
+        info=awaitMetadata(info,90000,timeout->api("/torrents",getMetadata,timeout));
+        files=info.getJSONArray("file_stats");
         JSONArray choices=new JSONArray();
         for(int i=0;i<files.length();i++){JSONObject f=files.getJSONObject(i);String path=f.getString("path");Sources.safeFile(root,path);
             if(Sources.videoFile(path)&&f.optLong("length")>0)choices.put(new JSONObject().put("index",f.getInt("id")).put("name",new File(path).getName()).put("path",path).put("bytes",f.getLong("length")));
@@ -98,6 +95,20 @@ public final class TorrentEngine implements AutoCloseable {
                 updateStatus(api("/torrents",new JSONObject().put("action","get").put("hash",hash),1500));
             }catch(Exception ignored){}},1,1,TimeUnit.SECONDS);}
         return choices;
+    }
+    interface MetadataPoll { JSONObject get(int timeoutMs) throws Exception; }
+    JSONObject awaitMetadata(JSONObject info,int budgetMs,MetadataPoll poll)throws Exception {
+        long deadline=System.nanoTime()+TimeUnit.MILLISECONDS.toNanos(budgetMs);
+        for(;;){
+            check();
+            JSONArray available=info.optJSONArray("file_stats");
+            if(available!=null&&available.length()>0)return info;
+            sleep();
+            long remaining=TimeUnit.NANOSECONDS.toMillis(deadline-System.nanoTime());
+            if(remaining<=0)throw new IOException("Раздающие не ответили. Попробуйте раздачу с большим числом сидов.");
+            try{info=poll.get((int)Math.min(5000,remaining));}
+            catch(SocketTimeoutException timeout){check();}
+        }
     }
     public void select(int id)throws Exception{
         check();if(files!=null)for(int i=0;i<files.length();i++){JSONObject f=files.getJSONObject(i);if(f.getInt("id")==id&&Sources.videoFile(f.getString("path"))){
@@ -120,7 +131,14 @@ public final class TorrentEngine implements AutoCloseable {
             }catch(IOException e){closeReader();throw e;}
         }
         InputStream input=stream;if(input==null)throw new InterruptedIOException("Просмотр остановлен");
-        int count=input.read(buffer,offset,(int)Math.min(length,fileSize-position));check();if(count>0)streamPosition+=count;return count;
+        int count=input.read(buffer,offset,(int)Math.min(length,fileSize-position));
+        check();
+        if(count<0){
+            closeReader();
+            throw new EOFException("Передача прервалась до конца видеофайла");
+        }
+        streamPosition+=count;
+        return count;
     }
     public void closeReader(){HttpURLConnection c=streamConnection;streamConnection=null;stream=null;streamPosition=-1;if(c!=null)c.disconnect();}
     private JSONObject api(String path,JSONObject payload,int timeout)throws Exception{
@@ -134,7 +152,9 @@ public final class TorrentEngine implements AutoCloseable {
         }catch(java.net.SocketTimeoutException e){
             String action=payload.optString("action");
             android.util.Log.w("SmotrimTorrent","Timeout stage="+path+":"+action+" budgetMs="+timeout);
-            throw new IOException(path.equals("/settings")?"Торрент-движок не ответил при запуске. Повторите попытку.":"Торрент-движок не успел получить сведения о раздаче. Повторите попытку или выберите другой вариант.",e);
+            SocketTimeoutException timeoutError=new SocketTimeoutException(path.equals("/settings")?"Торрент-движок не ответил при запуске. Повторите попытку.":"Торрент-движок не успел получить сведения о раздаче. Повторите попытку или выберите другой вариант.");
+            timeoutError.initCause(e);
+            throw timeoutError;
         }finally{requests.remove(c);c.disconnect();}
     }
     private void updateStatus(JSONObject value)throws Exception{cachedStatus=new JSONObject().put("peers",value.optInt("active_peers")).put("rate",value.optDouble("download_speed",0))

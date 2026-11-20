@@ -58,6 +58,18 @@ public final class GithubCatalog {
         if(selected==null)return null;Set<String> ids=new HashSet<>();ids.add(selected.optString("id"));ids.add(selected.optString("imdbId"));JSONArray aliases=selected.optJSONArray("ids");if(aliases!=null)for(int i=0;i<aliases.length();i++)ids.add(aliases.optString(i));ids.remove("");
         JSONArray rows=index.optJSONArray("items");for(int i=0;i<rows.length();i++){JSONObject row=rows.optJSONObject(i);if(ids.contains(row.optString("id")))return row;JSONArray other=row.optJSONArray("ids");if(other!=null)for(int n=0;n<other.length();n++)if(ids.contains(other.optString(n)))return row;}return null;
     }
+    public synchronized JSONObject refreshSeriesDetail(JSONObject selected)throws Exception {
+        if(!contains(selected))return null;
+        refresh(true);
+        JSONObject selection=new JSONObject(selected.toString());
+        for(String key:new String[]{"stale","metadataWarnings","videos","seasons","loadedSeasons","sources"})selection.remove(key);
+        JSONObject card=detail(selection);
+        if(card!=null&&!error.isEmpty()){
+            card.put("stale",true);
+            card.put("metadataWarnings",new JSONArray().put(error));
+        }
+        return card;
+    }
     public synchronized JSONObject detail(JSONObject selected)throws Exception {
         JSONObject row=entry(selected);if(row==null)return null;
         String path=row.getString("card"),hash=row.getString("sha256");File file=new File(directory,hash+".json");byte[] data=null;
