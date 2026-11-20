@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795139269,
-  "updatedAt": "2026-11-20T01:46:23Z",
+  "revision": 1795160562,
+  "updatedAt": "2026-11-20T07:41:53Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -33,8 +33,8 @@
       ],
       "imdbRating": "7.5",
       "runtime": "138 мин",
-      "card": "cards/374ebaf8aca63978f1c408614a908decf8dc20691b05d861a36a6a86e6366517.json",
-      "sha256": "374ebaf8aca63978f1c408614a908decf8dc20691b05d861a36a6a86e6366517",
+      "card": "cards/3cc5a26d7bffbc6ca95541a68cb3a2580399f26205f6e972a9d7f92d04abdc34.json",
+      "sha256": "3cc5a26d7bffbc6ca95541a68cb3a2580399f26205f6e972a9d7f92d04abdc34",
       "localized": true,
       "provider": "github"
     },
@@ -63,8 +63,8 @@
       ],
       "imdbRating": "7.2",
       "runtime": "53 мин",
-      "card": "cards/5d2292d487df704709cd3365d48f3aca114015a2ea85e5b82cfa2a2bd5b45702.json",
-      "sha256": "5d2292d487df704709cd3365d48f3aca114015a2ea85e5b82cfa2a2bd5b45702",
+      "card": "cards/0a61021996833d551364b50eeb591af6557ed9b589ab747d39148941a1b6e96a.json",
+      "sha256": "0a61021996833d551364b50eeb591af6557ed9b589ab747d39148941a1b6e96a",
       "localized": true,
       "provider": "github"
     },
@@ -84,7 +84,6 @@
       "originalName": "Godzilla Minus One",
       "aliases": [
         "Годзилла: Минус один",
-        "Godzilla Minus One",
         "Gojira -1.0"
       ],
       "genres": [
@@ -94,8 +93,8 @@
       ],
       "imdbRating": "7.6",
       "runtime": "125 мин",
-      "card": "cards/d56b9885bbc4bea3e220ce70e8d2d8f7aec5b19c9a1051ccfb1326957495b328.json",
-      "sha256": "d56b9885bbc4bea3e220ce70e8d2d8f7aec5b19c9a1051ccfb1326957495b328",
+      "card": "cards/17a0324da48364d3b6893bb1a5c0683a02985b452dab14240a7d5c2bcc26bbd8.json",
+      "sha256": "17a0324da48364d3b6893bb1a5c0683a02985b452dab14240a7d5c2bcc26bbd8",
       "localized": true,
       "provider": "github"
     },
@@ -122,8 +121,8 @@
       ],
       "imdbRating": "8.1",
       "runtime": "55 мин",
-      "card": "cards/6236b97e1b8c686cc00a449d5a284e0bc3d36a41ea362a3604e7029875c4a8d5.json",
-      "sha256": "6236b97e1b8c686cc00a449d5a284e0bc3d36a41ea362a3604e7029875c4a8d5",
+      "card": "cards/0235fec79811e5debdafa561747ed63e7a3b00bfa74e9fa4adfd519083c02293.json",
+      "sha256": "0235fec79811e5debdafa561747ed63e7a3b00bfa74e9fa4adfd519083c02293",
       "localized": true,
       "provider": "github"
     },
@@ -152,8 +151,8 @@
       ],
       "imdbRating": "6.5",
       "runtime": "107 мин",
-      "card": "cards/f13a1d89002b0e0de0f3ef4602f72165881b76c32b6ddac67cb4526e3f7c5c13.json",
-      "sha256": "f13a1d89002b0e0de0f3ef4602f72165881b76c32b6ddac67cb4526e3f7c5c13",
+      "card": "cards/b1a915bc89ca4d0d09ec86387f53e5e6612f86476a4d732610b8084833b64987.json",
+      "sha256": "b1a915bc89ca4d0d09ec86387f53e5e6612f86476a4d732610b8084833b64987",
       "localized": true,
       "provider": "github"
     },
@@ -181,8 +180,8 @@
       ],
       "imdbRating": "7.2",
       "runtime": "33 мин",
-      "card": "cards/26fe6d694e36ee8295c0440d230cc2288e97e423ea673fb9c82a1c368d9a3222.json",
-      "sha256": "26fe6d694e36ee8295c0440d230cc2288e97e423ea673fb9c82a1c368d9a3222",
+      "card": "cards/d3d56fce4111b1c4ce24d1583fca4f49aafe4951239d5e84f695fc99334b7ae2.json",
+      "sha256": "d3d56fce4111b1c4ce24d1583fca4f49aafe4951239d5e84f695fc99334b7ae2",
       "localized": true,
       "provider": "github"
     },

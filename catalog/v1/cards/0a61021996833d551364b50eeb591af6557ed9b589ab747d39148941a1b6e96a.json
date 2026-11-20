@@ -1,0 +1,204 @@
+{
+  "id": "tt27995113",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/043a9b9c73d2ab6901b3b5b2aca8315fcc1d161feb4e1ac589a8dc15d62aa8bc.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2de4a218f558ecec2c16caf3221af7653267ccc702bc7023142a4465073fa8ca.jpg",
+  "genres": [
+    "Боевик",
+    "Драма",
+    "Детектив"
+  ],
+  "runtime": "53 мин",
+  "imdbRating": "7.2",
+  "releaseInfo": "2024–",
+  "trailers": [
+    {
+      "source": "shzJzjVscno",
+      "type": "Trailer"
+    },
+    {
+      "source": "1R0d2jW7a-I",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Чёрные голуби",
+  "description": "Хелен Уэбб — жена, мать и профессиональная шпионка, которая на протяжении 10 лет передает тайны своего мужа-политика секретной организации «Чёрные голуби». Когда её любовника Джейсона убивают, Хелен тоже оказывается под прицелом. Для защиты своего агента глава «Чёрных голубей» отправляет на помощь Хелен её старого друга Сэма. Расследуя смерть Джейсона, они узнают о масштабном заговоре, связывающем криминальный мир Лондона и грядущий геополитический кризис.",
+  "aliases": [
+    "Чёрные голуби",
+    "Black Doves"
+  ],
+  "kpId": 6154219,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/6154219/"
+  ],
+  "year": "2024",
+  "imdbId": "tt27995113",
+  "ids": [
+    "tt27995113"
+  ],
+  "originalName": "Black Doves",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-20T07:41:53Z",
+  "videos": [
+    {
+      "id": "tt27995113:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2024-12-05"
+    },
+    {
+      "id": "tt27995113:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2024-12-05"
+    },
+    {
+      "id": "tt27995113:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2024-12-05"
+    },
+    {
+      "id": "tt27995113:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2024-12-05"
+    },
+    {
+      "id": "tt27995113:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2024-12-05"
+    },
+    {
+      "id": "tt27995113:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-12-05"
+    },
+    {
+      "id": "tt27995113:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-11-05"
+    },
+    {
+      "id": "tt27995113:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-11-05"
+    },
+    {
+      "id": "tt27995113:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-11-05"
+    },
+    {
+      "id": "tt27995113:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-11-05"
+    },
+    {
+      "id": "tt27995113:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-11-05"
+    },
+    {
+      "id": "tt27995113:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-11-05"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Чёрные голуби / Black Doves [S01] (2024) WEB-DL 1080p | HDrezka Studio, Кубик в Кубе, TVShows, LE-Production, ViruseProject",
+      "magnet": "magnet:?xt=urn:btih:7151fd7356d45aa18c1d7b846bf011f955949ab5&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 20068234690,
+      "size": "18.69 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Чёрные голуби / Black Doves [S01] (2024) WEB-DL 1080p | HDrezka Studio, Кубик в Кубе, TVShows, LE-Production, ViruseProject"
+    },
+    {
+      "title": "Черные голуби / Black Doves / Сезон: 1 / Серии: 1-6 из 6 (Алекс Габасси, Лиза Ганнинг) [2024, Великобритания, боевик, триллер, драма, WEB-DL 1080p] Dub (Videofilm Int.) 4 x MVO (HDrezka Studio, TVShows, WStudio, LE-Production) + DVO (ViruseProject) + Dub (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:89A0D6026E854204CD574DEEADB8B3886548FB07&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 23149873725,
+      "size": "21.56 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Черные голуби / Black Doves / Сезон: 1 / Серии: 1-6 из 6 (Алекс Габасси, Лиза Ганнинг) [2024, Великобритания, боевик, триллер, драма, WEB-DL 1080p] Dub (Videofilm Int.) 4 x MVO (HDrezka Studio, TVShows, WStudio, LE-Production) + DVO (ViruseProject) + Dub (Ukr) + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Черные голуби / Black Doves / Сезон: 1 / Серии: 1-6 из 6 (Алекс Габасси) [2024, Великобритания, боевик, триллер, драма, HDR10, Dolby Vision, WEB-DL 2160p, 4k] Dub (Videofilm) + 4 x MVO (HDRezka, TVShows, 1WinStudio, LE-Production) + DVO (Viruse Project) + Ukr + Original + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:73E74561BD07DDC0BB8EF23DD02D27FA3225288A&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 54234699530,
+      "size": "50.51 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Черные голуби / Black Doves / Сезон: 1 / Серии: 1-6 из 6 (Алекс Габасси) [2024, Великобритания, боевик, триллер, драма, HDR10, Dolby Vision, WEB-DL 2160p, 4k] Dub (Videofilm) + 4 x MVO (HDRezka, TVShows, 1WinStudio, LE-Production) + DVO (Viruse Project) + Ukr + Original + Sub (Rus, Ukr, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-19T07:50:29Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt27995113/img",
+    "background": "https://images.metahub.space/background/medium/tt27995113/img"
+  }
+}

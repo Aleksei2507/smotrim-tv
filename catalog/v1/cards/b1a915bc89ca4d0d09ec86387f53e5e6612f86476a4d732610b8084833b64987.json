@@ -1,0 +1,70 @@
+{
+  "id": "tt0252503",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ec9bc728454111f9c7fc941a6a40a8958d5052a4c55b11c4f7e93457955a30fe.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/56f935a23741a0369a3263e3d9a5b71ce2e1ad3ec1ad160937c65b6d3d3141a6.jpg",
+  "genres": [
+    "Боевик",
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "107 мин",
+  "imdbRating": "6.5",
+  "releaseInfo": "2001",
+  "trailers": [
+    {
+      "source": "Yjmy0TcpDtA",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Грабеж",
+  "description": "У Джо Мура есть все - красивая молодая жена, деньги и любимая работа. Он - вор. Его работа накрывается медным тазом, когда его застукивают при помощи охранной камеры. Его соперник Бергман шантажирует его, требуя простить долг, а жена уходит к новичку - другу Бергмана. Мур, его партнёр Бобби Блан и их связной Пинки Пинкус вынуждены собрать команду, которая сделает ограбление по заказу Бергмана, и которое станет последним в карьере Мура.",
+  "aliases": [
+    "Грабеж",
+    "Heist"
+  ],
+  "kpId": 696,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/696/"
+  ],
+  "year": "2001",
+  "imdbId": "tt0252503",
+  "ids": [
+    "tt0252503"
+  ],
+  "originalName": "Heist",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-20T07:41:53Z",
+  "sources": [
+    {
+      "title": "Грабеж / Heist (Дэвид Мэмет / David Mamet) [2001, Канада, США, боевик, триллер, драма, криминал, BDRemux 1080p] 2x MVO (DDV + Карусель) + DVO (Premier Digital) + AVO (Юрий Живов) + VO + Sub (Rus, Eng) + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:28D71B608D3D8D7004B273BBD0930EAE34E892E5&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 28615219609,
+      "size": "26.65 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Грабеж / Heist (Дэвид Мэмет / David Mamet) [2001, Канада, США, боевик, триллер, драма, криминал, BDRemux 1080p] 2x MVO (DDV + Карусель) + DVO (Premier Digital) + AVO (Юрий Живов) + VO + Sub (Rus, Eng) + Original Eng"
+    },
+    {
+      "title": "Грабеж / Heist (Дэвид Мэмет / David Mamet) [2001, Канада, США, боевик, триллер, драма, криминал, BDRip 720p] DVO + AVO + VO + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:42FABFDCF45822A9E2C3E5AA65467FF03583103B&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 8955006812,
+      "size": "8.34 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Грабеж / Heist (Дэвид Мэмет / David Mamet) [2001, Канада, США, боевик, триллер, драма, криминал, BDRip 720p] DVO + AVO + VO + Sub Rus, Eng + Original Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-19T07:50:29Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt0252503/img",
+    "background": "https://images.metahub.space/background/medium/tt0252503/img"
+  }
+}
