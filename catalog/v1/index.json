@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795199866,
-  "updatedAt": "2026-11-20T18:36:09Z",
+  "revision": 1795224685,
+  "updatedAt": "2026-11-21T01:29:15Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -649,8 +649,8 @@
       ],
       "imdbRating": "7.9",
       "runtime": "41 мин",
-      "card": "cards/ead564436228e571bc1c558f9dd2185066abcdb7e3b2ed202e2455fd13b286f9.json",
-      "sha256": "ead564436228e571bc1c558f9dd2185066abcdb7e3b2ed202e2455fd13b286f9",
+      "card": "cards/93e7b690a11a5ed6a988409f648e9c3946a624e989624a33599fe856bff6c20f.json",
+      "sha256": "93e7b690a11a5ed6a988409f648e9c3946a624e989624a33599fe856bff6c20f",
       "localized": true,
       "provider": "github"
     },
@@ -1164,8 +1164,8 @@
       ],
       "imdbRating": "6.8",
       "runtime": "68 мин",
-      "card": "cards/8992b4c789697fee4316bfb791a37461b259a1bbf5d538d4f6be2e359f22dd7e.json",
-      "sha256": "8992b4c789697fee4316bfb791a37461b259a1bbf5d538d4f6be2e359f22dd7e",
+      "card": "cards/53228875b608b7bff751098e90d2e8b215ba3bb0f04203cecd8bc7a1b6ae9d4a.json",
+      "sha256": "53228875b608b7bff751098e90d2e8b215ba3bb0f04203cecd8bc7a1b6ae9d4a",
       "localized": true,
       "provider": "github"
     },
@@ -3793,8 +3793,8 @@
       ],
       "imdbRating": "9.5",
       "runtime": "49 мин",
-      "card": "cards/91332cfbe51a717354c4a063df65b311d3c2560b64d8ee4a16c505976f50b8c3.json",
-      "sha256": "91332cfbe51a717354c4a063df65b311d3c2560b64d8ee4a16c505976f50b8c3",
+      "card": "cards/665f0f3fa857a566407a0c526f70a5e3f19b4f4eab96ab9c2f95cc16f5002459.json",
+      "sha256": "665f0f3fa857a566407a0c526f70a5e3f19b4f4eab96ab9c2f95cc16f5002459",
       "localized": true,
       "provider": "github"
     },
@@ -4056,8 +4056,8 @@
       ],
       "imdbRating": "7.6",
       "runtime": "52 мин",
-      "card": "cards/2d5f9c558758e320760e7982dee7bb28b415ed1c0b767adad63747ba1eef23cb.json",
-      "sha256": "2d5f9c558758e320760e7982dee7bb28b415ed1c0b767adad63747ba1eef23cb",
+      "card": "cards/861688d58d7c09ff971413b2cd8a5e3dec70b9bba18f539d021b9ad9b2615af0.json",
+      "sha256": "861688d58d7c09ff971413b2cd8a5e3dec70b9bba18f539d021b9ad9b2615af0",
       "localized": true,
       "provider": "github"
     },
@@ -4203,8 +4203,8 @@
       ],
       "imdbRating": "8.6",
       "runtime": "65 мин",
-      "card": "cards/875686b3523380f9ee0ed4d9224ce8dd36591908484be02a331e416761fa9021.json",
-      "sha256": "875686b3523380f9ee0ed4d9224ce8dd36591908484be02a331e416761fa9021",
+      "card": "cards/d4338de99c229f336a150d5c1598b712ea518e0f19123c509bca0bcc1494c44d.json",
+      "sha256": "d4338de99c229f336a150d5c1598b712ea518e0f19123c509bca0bcc1494c44d",
       "localized": true,
       "provider": "github"
     },
