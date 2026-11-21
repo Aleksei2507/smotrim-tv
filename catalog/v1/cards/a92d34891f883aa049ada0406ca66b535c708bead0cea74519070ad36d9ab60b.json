@@ -1,0 +1,67 @@
+{
+  "id": "tt0110719",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt0110719/img",
+  "background": "https://images.metahub.space/background/medium/tt0110719/img",
+  "genres": [
+    "Комедия",
+    "Драма",
+    "Фэнтези"
+  ],
+  "runtime": "112 мин",
+  "imdbRating": "7.3",
+  "releaseInfo": "1995",
+  "trailers": [
+    {
+      "source": "S-fO805VDqI",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Окно в Париж",
+  "description": "После изрядного подпития обитатели питерской коммуналки открывают окно… в Париж. С этого момента начинаются прогулки по городу грёз, а также злоключения французских «гостей» на берегах Невы.",
+  "aliases": [
+    "Окно в Париж",
+    "Window to Paris"
+  ],
+  "kpId": 40882,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0110719.json",
+    "https://www.kinopoisk.ru/film/40882/"
+  ],
+  "year": "1993",
+  "imdbId": "tt0110719",
+  "ids": [
+    "tt0110719"
+  ],
+  "originalName": "Window to Paris",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-21T07:38:37Z",
+  "sources": [
+    {
+      "title": "Окно в Париж (Юрий Мамин) [1993, Россия, Франция, фантастика, комедия, HDTVRip 1080p] Original Rus",
+      "magnet": "magnet:?xt=urn:btih:44CB8F604008D3AA2F5A9A21D7C23451993636E1&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 8718783610,
+      "size": "8.12 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Окно в Париж (Юрий Мамин) [1993, Россия, Франция, фантастика, комедия, HDTVRip 1080p] Original Rus"
+    },
+    {
+      "title": "Окно в Париж / 1993 / РУ / WEBRip (720p)",
+      "magnet": "magnet:?xt=urn:btih:F04FCB423E1FC1D60E5D52310BA680AD2228210C",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 7741678551,
+      "size": "7.21 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Окно в Париж / 1993 / РУ / WEBRip (720p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-21T07:38:37Z"
+}

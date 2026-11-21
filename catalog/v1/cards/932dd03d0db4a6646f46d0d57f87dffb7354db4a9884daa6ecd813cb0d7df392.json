@@ -1,0 +1,83 @@
+{
+  "id": "tt11390180",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt11390180/img",
+  "background": "https://images.metahub.space/background/medium/tt11390180/img",
+  "genres": [
+    "Приключения",
+    "Фэнтези"
+  ],
+  "runtime": "100 мин",
+  "imdbRating": "5.7",
+  "releaseInfo": "2021",
+  "trailers": [],
+  "name": "Конёк-Горбунок",
+  "description": "Иван — не царевич, не богатырь, не красавец, а старшие братья и вовсе его дураком считают. Но всё меняется, когда у Ивана появляется друг и верный помощник — Конёк-Горбунок. Пусть он ростом невелик, зато умный и смелый. С таким другом никакой враг не страшен. Ну, почти никакой. С таким помощником и ничего невозможного нет. Ну, почти, нет. Ивану с Коньком предстоит проверить свою дружбу на прочность, столкнуться с коварным противником, преодолеть невероятные испытания и встретить такую любовь, ради которой стоит рискнуть всем. Ну, почти всем.",
+  "aliases": [
+    "Конёк-Горбунок",
+    "Upon the Magic Roads"
+  ],
+  "kpId": 1045583,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt11390180.json",
+    "https://www.kinopoisk.ru/film/1045583/"
+  ],
+  "year": "2021",
+  "imdbId": "tt11390180",
+  "ids": [
+    "tt11390180"
+  ],
+  "originalName": "Upon the Magic Roads",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-21T07:38:37Z",
+  "sources": [
+    {
+      "title": "Конек-Горбунок (2021) BDRip 1080p | GER Transfer | Лицензия",
+      "magnet": "magnet:?xt=urn:btih:29db62b7b1b8ea7396b734e52836d32a7dd761f5&dn=konek-gorbunok-2021-bdrip-1080p-ger-transfer-licenziya&xl=8511802470&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/13142/",
+      "quality": "1080p",
+      "source": "JacRed · torrentby",
+      "bytes": 8514772664,
+      "size": "7.93 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Конек-Горбунок (2021) BDRip 1080p | GER Transfer | Лицензия"
+    },
+    {
+      "title": "Конек-Горбунок (Олег Погодин) [2021, Россия, приключения, фэнтези, комедия, WEB-DL 1080p]",
+      "magnet": "magnet:?xt=urn:btih:5434A33ED621FC963C4184122E7A54FF7B7BC3F2&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 4520453079,
+      "size": "4.21 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Конек-Горбунок (Олег Погодин) [2021, Россия, приключения, фэнтези, комедия, WEB-DL 1080p]"
+    },
+    {
+      "title": "Конек-Горбунок (2021) BDRip 720p | GER Transfer | Лицензия",
+      "magnet": "magnet:?xt=urn:btih:5348b3246ef02ee80e9311df1b1c92ede777dc9c&dn=konek-gorbunok-2021-bdrip-720p-ger-transfer-licenziya&xl=3563400964&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/13099/",
+      "quality": "720p",
+      "source": "JacRed · torrentby",
+      "bytes": 3564822855,
+      "size": "3.32 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Конек-Горбунок (2021) BDRip 720p | GER Transfer | Лицензия"
+    },
+    {
+      "title": "Конек-Горбунок (2021) WEBRip 720p | AVC",
+      "magnet": "magnet:?xt=urn:btih:415d3ae2f934068511d9bf24b3e7874e9057dd32&dn=Конёк-Горбунок.(2021)_WEB-DLRip.mkv&tr=http://bt02.nnm-club.cc:2710/00bfa9ce182e8c3eb299c14298a49f88/announce&tr=http://bt02.nnm-club.info:2710/00bfa9ce182e8c3eb299c14298a49f88/announce&tr=http://[2001:470:25:482::2]:2710/00bfa9ce182e8c3eb299c14298a49f88/announce&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://code2chicken.nl:6969/announce&tr=udp://discord.heihachi.pw:6969/announce&tr=http://vps02.net.orel.ru:80/announce&tr=http://tracker.files.fm:6969/announce",
+      "quality": "720p",
+      "source": "JacRed · bitru",
+      "bytes": 3081639034,
+      "size": "2.87 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Конек-Горбунок (2021) WEBRip 720p | AVC"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-21T07:38:37Z"
+}

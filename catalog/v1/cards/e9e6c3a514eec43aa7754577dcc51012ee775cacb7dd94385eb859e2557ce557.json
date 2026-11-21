@@ -1,0 +1,119 @@
+{
+  "id": "tt6218010",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt6218010/img",
+  "background": "https://images.metahub.space/background/medium/tt6218010/img",
+  "genres": [
+    "Боевик",
+    "Приключения",
+    "Фэнтези"
+  ],
+  "runtime": "121 мин",
+  "imdbRating": "4.8",
+  "releaseInfo": "2020",
+  "trailers": [
+    {
+      "source": "1fc4fk7QaZE",
+      "type": "Trailer"
+    },
+    {
+      "source": "ZeNzcSHfF2w",
+      "type": "Trailer"
+    },
+    {
+      "source": "ncL4nNCz8Ec",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Тайна печати дракона",
+  "description": "Английский путешественник Джонатан Грин получает от Петра I заказ на изготовление карт Дальнего Востока России. Ему вновь предстоит долгий путь, полный невероятных приключений, который приведет его в Китай. Картограф столкнется с массой головокружительных открытий, неожиданных встреч с диковинными существами, китайскими принцессами, мастерами смертоносных боевых искусств и самим Лун-Ван, Царем всех драконов. Что может быть опаснее, чем посмотреть в глаза Вию? Разве что встретиться с ним вновь. Что на этот раз окажется сильнее – непоколебимый скептицизм ученого или древняя черная магия, уже давно захватившая власть в Восточных землях?",
+  "aliases": [
+    "Тайна печати дракона",
+    "Iron Mask"
+  ],
+  "kpId": 840758,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt6218010.json",
+    "https://www.kinopoisk.ru/film/840758/"
+  ],
+  "year": "2019",
+  "imdbId": "tt6218010",
+  "ids": [
+    "tt6218010"
+  ],
+  "originalName": "Iron Mask",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-21T07:38:37Z",
+  "sources": [
+    {
+      "title": "Тайна печати дракона / 2019 / ДБ / BDRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:EE6DF2EF08FFACF851DD4A8FD80E3ECDB3FA2ED4",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 18822694174,
+      "size": "17.53 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Тайна печати дракона / 2019 / ДБ / BDRip (1080p)"
+    },
+    {
+      "title": "Тайна печати дракона / 2019 / ДБ, СТ / US Transfer / HEVC / BDRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:C2DB6B5B87FE9AB6664F35595BC9607637208BBB",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 10823317585,
+      "size": "10.08 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Тайна печати дракона / 2019 / ДБ, СТ / US Transfer / HEVC / BDRip (1080p)"
+    },
+    {
+      "title": "Тайна печати дракона (2019) WEBRip [H.265/2160p] [4K, SDR, 8-bit]",
+      "magnet": "magnet:?xt=urn:btih:E0C6991F664F44FECB09BC3F566AF2F6D42B0106",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 10952166604,
+      "size": "10.20 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Тайна печати дракона (2019) WEBRip [H.265/2160p] [4K, SDR, 8-bit]"
+    },
+    {
+      "title": "Тайна печати дракона / 2019 / ДБ / 4K, HDR / Blu-Ray Remux (2160p)",
+      "magnet": "magnet:?xt=urn:btih:42FA099ECC03D9CB00C5E2C7F8CCC465FA13AE6D",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 57241176637,
+      "size": "53.31 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Тайна печати дракона / 2019 / ДБ / 4K, HDR / Blu-Ray Remux (2160p)"
+    },
+    {
+      "title": "Тайна печати дракона (2019) BDRip 720p | AVC",
+      "magnet": "magnet:?xt=urn:btih:c3bcca8682bde46760ee5e0a38d63ec6ed52e1c4&dn=Tajna.pechati.Drakona.BDRip.720p.mkv&tr=http://bt01.nnm-club.cc:2710/ffffffffdbf9a0eda65921702f8e87c8/announce&tr=http://bt01.nnm-club.info:2710/ffffffffdbf9a0eda65921702f8e87c8/announce&tr=http://[2001:470:25:482::2]:2710/ffffffffdbf9a0eda65921702f8e87c8/announce&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://code2chicken.nl:6969/announce&tr=udp://discord.heihachi.pw:6969/announce&tr=http://vps02.net.orel.ru:80/announce&tr=http://tracker.files.fm:6969/announce",
+      "quality": "720p",
+      "source": "JacRed · bitru",
+      "bytes": 10898479513,
+      "size": "10.15 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Тайна печати дракона (2019) BDRip 720p | AVC"
+    },
+    {
+      "title": "Тайна печати дракона (2019) BDRip [H.264/720p-LQ] [US Transfer]",
+      "magnet": "magnet:?xt=urn:btih:4A7534BDF81A26452E274C904370215D2509E10C",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 5132485918,
+      "size": "4.78 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Тайна печати дракона (2019) BDRip [H.264/720p-LQ] [US Transfer]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-21T07:38:37Z"
+}

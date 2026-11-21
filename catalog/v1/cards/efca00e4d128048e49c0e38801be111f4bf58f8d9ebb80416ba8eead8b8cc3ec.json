@@ -1,0 +1,93 @@
+{
+  "id": "tt1569364",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ea28e4cbce1c2c95cbb60310cd09ca752e0ae40cbc560ba8cdfe9c965a79c30c.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6ba3bd54ddd0e4192b257e14abcfc5d51d1ebc75cfae6dca50276349a74d2400.jpg",
+  "genres": [
+    "Боевик",
+    "Фантастика",
+    "Триллер"
+  ],
+  "runtime": "102 мин",
+  "imdbRating": "5.7",
+  "releaseInfo": "2009",
+  "trailers": [
+    {
+      "source": "jzhQnJo-D-0",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Чёрная Молния",
+  "description": "Двадцатилетний Дима Майков получает в подарок от отца старенький автомобиль ГАЗ-21 «Волга» и внезапно обнаруживает, что его машина летает, как настоящий истребитель. Дима  активно включается в бизнес по доставке цветов, проносясь над столичными пробками и наслаждаясь полётами, пока однажды беда не заставляет его по-другому взглянуть на мир. \n\nТеперь ему предстоит встать на защиту тех, кем он дорожит, и сразиться со Злом в небе над новогодней Москвой.",
+  "aliases": [
+    "Чёрная Молния",
+    "Black Lightning"
+  ],
+  "kpId": 439906,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt1569364.json",
+    "https://www.kinopoisk.ru/film/439906/"
+  ],
+  "year": "2009",
+  "imdbId": "tt1569364",
+  "ids": [
+    "tt1569364"
+  ],
+  "originalName": "Black Lightning",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-21T07:39:45Z",
+  "sources": [
+    {
+      "title": "Черная молния (Александр Войтинский, Дмитрий Киселев) [2009, Россия, фантастика, боевик, приключения, BDRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:EA8954115A5404CD4A2462FC3C88B035D7902E3A&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 10737418240,
+      "size": "10.00 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Черная молния (Александр Войтинский, Дмитрий Киселев) [2009, Россия, фантастика, боевик, приключения, BDRip 1080p]"
+    },
+    {
+      "title": "Черная молния / 2009 / РУ / BDRip (1080p)",
+      "magnet": "magnet:?xt=urn:btih:58076F6B20A446DA372D0EF84BD3B78D0BCC6215",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 10737418240,
+      "size": "10.00 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Черная молния / 2009 / РУ / BDRip (1080p)"
+    },
+    {
+      "title": "Черная молния (Александр Войтинский, Дмитрий Киселев) [2009, Россия, фантастика, боевик, приключения, BDRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:83CA32335F5B2318948748823FFDE5F5C419F801&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 4692251770,
+      "size": "4.37 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Черная молния (Александр Войтинский, Дмитрий Киселев) [2009, Россия, фантастика, боевик, приключения, BDRip 720p]"
+    },
+    {
+      "title": "Черная молния (2009) BDRip 720p | AVC | от LORDKILL",
+      "magnet": "magnet:?xt=urn:btih:712b48017eef064fe33056b4cd57e408e6d640d1&dn=Чёрная молния.mkv&tr=http://bt02.nnm-club.cc:2710/00ae0dc60239e0f0a9d2e2eb8a1c81f5/announce&tr=http://bt02.nnm-club.info:2710/00ae0dc60239e0f0a9d2e2eb8a1c81f5/announce&tr=http://bt02.ipv6.nnm-club.cc:2710/00ae0dc60239e0f0a9d2e2eb8a1c81f5/announce&tr=http://bt02.ipv6.nnm-club.info:2710/00ae0dc60239e0f0a9d2e2eb8a1c81f5/announce&tr=http://[2001:470:25:482::2]:2710/00ae0dc60239e0f0a9d2e2eb8a1c81f5/announce&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://code2chicken.nl:6969/announce&tr=udp://discord.heihachi.pw:6969/announce&tr=http://vps02.net.orel.ru:80/announce&tr=http://tracker.files.fm:6969/announce",
+      "quality": "720p",
+      "source": "JacRed · bitru",
+      "bytes": 3768833802,
+      "size": "3.51 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Черная молния (2009) BDRip 720p | AVC | от LORDKILL"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-21T07:38:37Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt1569364/img",
+    "background": "https://images.metahub.space/background/medium/tt1569364/img"
+  }
+}

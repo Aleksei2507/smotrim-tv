@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795224685,
-  "updatedAt": "2026-11-21T01:29:15Z",
+  "revision": 1795246786,
+  "updatedAt": "2026-11-21T07:39:45Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,245 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt15547806",
+      "ids": [
+        "tt15547806"
+      ],
+      "imdbId": "tt15547806",
+      "name": "Финник",
+      "type": "movie",
+      "year": "2022",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/65f0e441989528b052477ef5b757d276e11c8a07953ae60b5035fcaf41518ca0.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ba760c8fd7e89c4df97e1ac6d147834d9754fde26bf58cc7434ab0bfc0fe6993.jpg",
+      "description": "Мало кто знает, но в каждом доме живет… свой домовой! Это забавное мохнатое существо тайно обитает в мире людей и хранит домашний очаг. Домовой Финник — добрый, озорной, но немного вредный. Он любит подшутить над жильцами своего дома, поэтому ни одна семья не задерживается в его владениях надолго…",
+      "originalName": "Finnick",
+      "aliases": [
+        "Финник",
+        "Finnick"
+      ],
+      "genres": [
+        "Мультфильм",
+        "Приключения",
+        "Комедия"
+      ],
+      "imdbRating": "5.8",
+      "runtime": "85 мин",
+      "card": "cards/e4f94bc07958c076749a8b740f38aaeba3891d1c3b3a7ac058aee2801a4e155f.json",
+      "sha256": "e4f94bc07958c076749a8b740f38aaeba3891d1c3b3a7ac058aee2801a4e155f",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0110719",
+      "ids": [
+        "tt0110719"
+      ],
+      "imdbId": "tt0110719",
+      "name": "Окно в Париж",
+      "type": "movie",
+      "year": "1993",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/52d46511e9f473d7ca15752b9b8c6fcd5631d5c08c185e9833812cf6b7a57d05.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8710de0a0a28b4cd66c66205efca3cd4c728f844fc49cece9ae2f66b628b2c7d.jpg",
+      "description": "После изрядного подпития обитатели питерской коммуналки открывают окно… в Париж. С этого момента начинаются прогулки по городу грёз, а также злоключения французских «гостей» на берегах Невы.",
+      "originalName": "Window to Paris",
+      "aliases": [
+        "Окно в Париж",
+        "Window to Paris"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма",
+        "Фэнтези"
+      ],
+      "imdbRating": "7.3",
+      "runtime": "112 мин",
+      "card": "cards/74aef5658adde8d5c5f12b4fb8e8b368d32ea3d8378bd202ab548a400e1b2bc6.json",
+      "sha256": "74aef5658adde8d5c5f12b4fb8e8b368d32ea3d8378bd202ab548a400e1b2bc6",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2522082",
+      "ids": [
+        "tt2522082"
+      ],
+      "imdbId": "tt2522082",
+      "name": "В ожидании моря",
+      "type": "movie",
+      "year": "2012",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/132dc3e651b28aaa9f7c748d3fb54bc98cee32546ed2c18bc305b119edc79fb3.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5cce866a75590d7bbafa8d2c671ac0d4f230099e30e158318ec72430a8ee4060.jpg",
+      "description": "Фильм об ушедшем море, о рыбаках, которые остались без воды. Марат, капитан рыболовецкого судна, попадает в тюрьму на десять лет. А когда он возвращается домой - аула уже нет, нет и моря, только голая степь.",
+      "originalName": "Waiting for the Sea",
+      "aliases": [
+        "В ожидании моря",
+        "Waiting for the Sea"
+      ],
+      "genres": [
+        "Драма",
+        "Фэнтези"
+      ],
+      "imdbRating": "6.4",
+      "runtime": "109 мин",
+      "card": "cards/c512455590379b932d177e3c7157151ff1e11d05637cbd2b4c69e9f0e4a880a3.json",
+      "sha256": "c512455590379b932d177e3c7157151ff1e11d05637cbd2b4c69e9f0e4a880a3",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1569364",
+      "ids": [
+        "tt1569364"
+      ],
+      "imdbId": "tt1569364",
+      "name": "Чёрная Молния",
+      "type": "movie",
+      "year": "2009",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ea28e4cbce1c2c95cbb60310cd09ca752e0ae40cbc560ba8cdfe9c965a79c30c.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6ba3bd54ddd0e4192b257e14abcfc5d51d1ebc75cfae6dca50276349a74d2400.jpg",
+      "description": "Двадцатилетний Дима Майков получает в подарок от отца старенький автомобиль ГАЗ-21 «Волга» и внезапно обнаруживает, что его машина летает, как настоящий истребитель. Дима  активно включается в бизнес по доставке цветов, проносясь над столичными пробками и наслаждаясь полётами, пока однажды беда н…",
+      "originalName": "Black Lightning",
+      "aliases": [
+        "Чёрная Молния",
+        "Black Lightning"
+      ],
+      "genres": [
+        "Боевик",
+        "Фантастика",
+        "Триллер"
+      ],
+      "imdbRating": "5.7",
+      "runtime": "102 мин",
+      "card": "cards/efca00e4d128048e49c0e38801be111f4bf58f8d9ebb80416ba8eead8b8cc3ec.json",
+      "sha256": "efca00e4d128048e49c0e38801be111f4bf58f8d9ebb80416ba8eead8b8cc3ec",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6218010",
+      "ids": [
+        "tt6218010"
+      ],
+      "imdbId": "tt6218010",
+      "name": "Тайна печати дракона",
+      "type": "movie",
+      "year": "2019",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/39fe28eee72612178877af837120d1b17e27a5e68390a29c9d7502fe1926ebfb.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1599e1e85c65a127db678b9ea167a1e3c74cd7084b727dcc31287efcbc4f59ff.jpg",
+      "description": "Английский путешественник Джонатан Грин получает от Петра I заказ на изготовление карт Дальнего Востока России. Ему вновь предстоит долгий путь, полный невероятных приключений, который приведет его в Китай. Картограф столкнется с массой головокружительных открытий, неожиданных встреч с диковинным…",
+      "originalName": "Iron Mask",
+      "aliases": [
+        "Тайна печати дракона",
+        "Iron Mask"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фэнтези"
+      ],
+      "imdbRating": "4.8",
+      "runtime": "121 мин",
+      "card": "cards/7bc10c46acd1ffb57f9229267aa16de83bfcec0b647716322993e9be174f5610.json",
+      "sha256": "7bc10c46acd1ffb57f9229267aa16de83bfcec0b647716322993e9be174f5610",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1192431",
+      "ids": [
+        "tt1192431"
+      ],
+      "imdbId": "tt1192431",
+      "name": "Мы из будущего",
+      "type": "movie",
+      "year": "2008",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cdbaf72386722ee7587e9e18e76ddd8ffde4712e7af0efa57ed3da0f9bbcb6a8.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/bb379a0e822190d43ccba201a460b9bb912bb704c53492f9812767606a40c5f4.jpg",
+      "description": "фантастический фильм 2008 года о путешествии во времени",
+      "originalName": "We Are from the Future",
+      "aliases": [
+        "Мы из будущего",
+        "We Are from the Future",
+        "Black Hunters",
+        "Back in Time",
+        "We Are From the Future"
+      ],
+      "genres": [
+        "Военный",
+        "Боевик",
+        "Приключения"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "110 мин",
+      "card": "cards/f1add8433c61a28b4c57fe9309df13293114d0786553c43c3571508cac547b3b.json",
+      "sha256": "f1add8433c61a28b4c57fe9309df13293114d0786553c43c3571508cac547b3b",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt2969516",
+      "ids": [
+        "tt2969516"
+      ],
+      "imdbId": "tt2969516",
+      "name": "Охотники за караванами",
+      "type": "movie",
+      "year": "2010",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/88ed7643854dff9bfc3b2386c2d1b52de238bbf936b7f852b48d1a1f74cf9e17.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/976874984214b0ff8a1b169773deaec04ef326d4e285db8170d50bba0632706a.jpg",
+      "description": "российский сериал 2010 года",
+      "originalName": "Охотники за караванами",
+      "aliases": [
+        "Охотники за караванами"
+      ],
+      "genres": [
+        "Драма",
+        "Военный"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "180 мин",
+      "card": "cards/c338217aa8418aa51c10a156f4e920d5c2f2cff6df80859205d6139f1bf532a9.json",
+      "sha256": "c338217aa8418aa51c10a156f4e920d5c2f2cff6df80859205d6139f1bf532a9",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt11390180",
+      "ids": [
+        "tt11390180"
+      ],
+      "imdbId": "tt11390180",
+      "name": "Конёк-Горбунок",
+      "type": "movie",
+      "year": "2021",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/a99b2cba7bcf2577fae55674897fc8c8a04e8c4c10e30a20f9c4a165d8ea29b0.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/def737705a3db1d91764a8408645aadb232ccf4ff60bf21d8194625d7226df60.jpg",
+      "description": "Иван — не царевич, не богатырь, не красавец, а старшие братья и вовсе его дураком считают. Но всё меняется, когда у Ивана появляется друг и верный помощник — Конёк-Горбунок. Пусть он ростом невелик, зато умный и смелый. С таким другом никакой враг не страшен. Ну, почти никакой. С таким помощником…",
+      "originalName": "Upon the Magic Roads",
+      "aliases": [
+        "Конёк-Горбунок",
+        "Upon the Magic Roads"
+      ],
+      "genres": [
+        "Приключения",
+        "Фэнтези"
+      ],
+      "imdbRating": "5.7",
+      "runtime": "100 мин",
+      "card": "cards/10ac77b3589b904e777a599cb75340a5279ad340ea07b2aa4d39d6d5c1f8214e.json",
+      "sha256": "10ac77b3589b904e777a599cb75340a5279ad340ea07b2aa4d39d6d5c1f8214e",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt31193180",
       "ids": [
@@ -208,8 +447,8 @@
       ],
       "imdbRating": "",
       "runtime": "93 мин",
-      "card": "cards/0133940bec492febf62cb1dd729535b1ac73a4f9101aa07fa91458328be6cb43.json",
-      "sha256": "0133940bec492febf62cb1dd729535b1ac73a4f9101aa07fa91458328be6cb43",
+      "card": "cards/f8a4d692d106143af2b2b1c60d0f2fbf657d601ab9472f6b76019916d154bde5.json",
+      "sha256": "f8a4d692d106143af2b2b1c60d0f2fbf657d601ab9472f6b76019916d154bde5",
       "localized": true,
       "provider": "github"
     },
@@ -265,8 +504,8 @@
       ],
       "imdbRating": "7.3",
       "runtime": "149 мин",
-      "card": "cards/d9f628ca2fa6131e5019b0a0ce7463045c3d6ed850ffb3a0b867f25ec0300ca7.json",
-      "sha256": "d9f628ca2fa6131e5019b0a0ce7463045c3d6ed850ffb3a0b867f25ec0300ca7",
+      "card": "cards/aede7a9c943ce9e2a189e2a4a19914a6d267fbe78f9324412910ceecd8236f96.json",
+      "sha256": "aede7a9c943ce9e2a189e2a4a19914a6d267fbe78f9324412910ceecd8236f96",
       "localized": true,
       "provider": "github"
     },
@@ -382,8 +621,8 @@
       ],
       "imdbRating": "7.4",
       "runtime": "128 мин",
-      "card": "cards/2cb273dd527b1114176278ebdc4e9edb28d796eea6ad1a4b5dcff5d78b7f9b8f.json",
-      "sha256": "2cb273dd527b1114176278ebdc4e9edb28d796eea6ad1a4b5dcff5d78b7f9b8f",
+      "card": "cards/a84503fc4a55f8710f20dc9dc99072be315671a21669ad878aa7a22f488095bf.json",
+      "sha256": "a84503fc4a55f8710f20dc9dc99072be315671a21669ad878aa7a22f488095bf",
       "localized": true,
       "provider": "github"
     },
@@ -560,8 +799,8 @@
       ],
       "imdbRating": "6.4",
       "runtime": "140 мин",
-      "card": "cards/8d2f2e9ce1a01b0a4146529947359c2a0cbd6dc25e7570a09c7b312947ab87b3.json",
-      "sha256": "8d2f2e9ce1a01b0a4146529947359c2a0cbd6dc25e7570a09c7b312947ab87b3",
+      "card": "cards/95ffde994c309505a07dcce61971e1bb96f33bff79825c0b0453df2169970403.json",
+      "sha256": "95ffde994c309505a07dcce61971e1bb96f33bff79825c0b0453df2169970403",
       "localized": true,
       "provider": "github"
     },
@@ -679,8 +918,8 @@
       ],
       "imdbRating": "6.5",
       "runtime": "119 мин",
-      "card": "cards/b2a86f3a7c342a7bf508a2d61c4845df663dc1b5ec7136bac2fc5c70809de1fb.json",
-      "sha256": "b2a86f3a7c342a7bf508a2d61c4845df663dc1b5ec7136bac2fc5c70809de1fb",
+      "card": "cards/ff0b1315ffa5ac0bb94140d46487bd3b7dd525581a5691658a642bcb8a221090.json",
+      "sha256": "ff0b1315ffa5ac0bb94140d46487bd3b7dd525581a5691658a642bcb8a221090",
       "localized": true,
       "provider": "github"
     },
@@ -828,8 +1067,8 @@
       ],
       "imdbRating": "6.3",
       "runtime": "106 мин",
-      "card": "cards/908197fd82e90c48a51f0e1809df11925658e37c2cf73adbe23f1595fb7b76ed.json",
-      "sha256": "908197fd82e90c48a51f0e1809df11925658e37c2cf73adbe23f1595fb7b76ed",
+      "card": "cards/74050c74d4ebf83352c9d092ed2276d63e99fceca5d0c5b31d48e33b82487b04.json",
+      "sha256": "74050c74d4ebf83352c9d092ed2276d63e99fceca5d0c5b31d48e33b82487b04",
       "localized": true,
       "provider": "github"
     },

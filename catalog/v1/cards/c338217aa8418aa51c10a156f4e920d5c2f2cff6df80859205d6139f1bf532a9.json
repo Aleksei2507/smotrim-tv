@@ -1,0 +1,85 @@
+{
+  "id": "tt2969516",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/88ed7643854dff9bfc3b2386c2d1b52de238bbf936b7f852b48d1a1f74cf9e17.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/976874984214b0ff8a1b169773deaec04ef326d4e285db8170d50bba0632706a.jpg",
+  "genres": [
+    "Драма",
+    "Военный"
+  ],
+  "runtime": "180 мин",
+  "imdbRating": "6.6",
+  "releaseInfo": "2010",
+  "trailers": [],
+  "name": "Охотники за караванами",
+  "description": "российский сериал 2010 года",
+  "origin": "ru",
+  "aliases": [
+    "Охотники за караванами"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt2969516.json",
+    "https://www.wikidata.org/wiki/Q65132365"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt2969516",
+  "ids": [
+    "tt2969516"
+  ],
+  "originalName": "Охотники за караванами",
+  "year": "2010",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-21T07:39:45Z",
+  "sources": [
+    {
+      "title": "Охотники за караванами / Серии: 1-4 из 4 (Сергей Чекалов) [2010, Драма, военный, WEBRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:3FE0F28496458372A370CDF1D672D3FEDCCF3932&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 5841155522,
+      "size": "5.44 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Охотники за караванами / Серии: 1-4 из 4 (Сергей Чекалов) [2010, Драма, военный, WEBRip 1080p]"
+    },
+    {
+      "title": "Охотники за караванами (2010) WEBRip [AV1/1080p] (сезон 1, серии 4 из 4)",
+      "magnet": "magnet:?xt=urn:btih:004A4EE425EA41B93C4DC09C0B3CFA1F8C076DE7",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 2555505541,
+      "size": "2.38 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Охотники за караванами (2010) WEBRip [AV1/1080p] (сезон 1, серии 4 из 4)"
+    },
+    {
+      "title": "Охотники за караванами [01-04 из 04] (2010) WEB-DL 720p от MediaClub",
+      "magnet": "magnet:?xt=urn:btih:f7e4f67cf9d740d701028630b397e0487570491f&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 2770253905,
+      "size": "2.58 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Охотники за караванами [01-04 из 04] (2010) WEB-DL 720p от MediaClub"
+    },
+    {
+      "title": "Охотники за караванами / Серии: 1-4 из 4 ( Сергей Чекалов) [2010, Военный, HDTVRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:43982160E5B7D961C7036BB6C7BD232527C42631&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 4660039516,
+      "size": "4.34 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Охотники за караванами / Серии: 1-4 из 4 ( Сергей Чекалов) [2010, Военный, HDTVRip 720p]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-21T07:38:37Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt2969516/img",
+    "background": "https://live.metahub.space/background/medium/tt2969516/img"
+  }
+}
