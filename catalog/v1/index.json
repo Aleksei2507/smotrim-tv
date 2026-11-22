@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795364275,
-  "updatedAt": "2026-11-22T16:15:23Z",
+  "revision": 1795384170,
+  "updatedAt": "2026-11-22T21:46:22Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -1398,8 +1398,8 @@
       ],
       "imdbRating": "6.8",
       "runtime": "68 мин",
-      "card": "cards/502f6ca4d41421d389fa09f23b24396cb143419b189eb4ba0617b1131f8d9ab4.json",
-      "sha256": "502f6ca4d41421d389fa09f23b24396cb143419b189eb4ba0617b1131f8d9ab4",
+      "card": "cards/577a6e79302fd4babc1fd1e12a3739dcfdd99b30f4f486f9fa6e9460ab569186.json",
+      "sha256": "577a6e79302fd4babc1fd1e12a3739dcfdd99b30f4f486f9fa6e9460ab569186",
       "localized": true,
       "provider": "github"
     },
@@ -1516,8 +1516,8 @@
       ],
       "imdbRating": "8.6",
       "runtime": "53 мин",
-      "card": "cards/855c9a360eda2daf15739ce4737d57cc5af44af1761427b5750478052498c025.json",
-      "sha256": "855c9a360eda2daf15739ce4737d57cc5af44af1761427b5750478052498c025",
+      "card": "cards/c10ed5d61e4a1704dd0c25846f7e49091e7b90a6e024925ed0eeb536beae2a49.json",
+      "sha256": "c10ed5d61e4a1704dd0c25846f7e49091e7b90a6e024925ed0eeb536beae2a49",
       "localized": true,
       "provider": "github"
     },
@@ -2090,8 +2090,8 @@
         "Реалити-шоу",
         "Телеигра"
       ],
-      "card": "cards/7136e26d6cc0ce8b7fc6ddfa58d504767ad47c230ea20c40de6ac3954fc2dcd4.json",
-      "sha256": "7136e26d6cc0ce8b7fc6ddfa58d504767ad47c230ea20c40de6ac3954fc2dcd4",
+      "card": "cards/fc5968528792feab05fc78d821fa9f948d7f474cda47b0e38d391c9e4494e100.json",
+      "sha256": "fc5968528792feab05fc78d821fa9f948d7f474cda47b0e38d391c9e4494e100",
       "localized": true,
       "provider": "github"
     },
