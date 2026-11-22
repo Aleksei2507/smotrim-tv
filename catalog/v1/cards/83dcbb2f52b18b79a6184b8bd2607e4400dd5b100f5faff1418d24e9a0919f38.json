@@ -1,0 +1,95 @@
+{
+  "id": "tt15547806",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/65f0e441989528b052477ef5b757d276e11c8a07953ae60b5035fcaf41518ca0.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ba760c8fd7e89c4df97e1ac6d147834d9754fde26bf58cc7434ab0bfc0fe6993.jpg",
+  "genres": [
+    "Мультфильм",
+    "Приключения",
+    "Комедия"
+  ],
+  "runtime": "85 мин",
+  "imdbRating": "5.8",
+  "releaseInfo": "2022",
+  "trailers": [
+    {
+      "source": "a-sytoNk9Ac",
+      "type": "Trailer"
+    },
+    {
+      "source": "o6Cdeo8IQd4",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Финник",
+  "description": "Мало кто знает, но в каждом доме живет… свой домовой! Это забавное мохнатое существо тайно обитает в мире людей и хранит домашний очаг. Домовой Финник — добрый, озорной, но немного вредный. Он любит подшутить над жильцами своего дома, поэтому ни одна семья не задерживается в его владениях надолго. Но все меняется, когда в дом въезжают находчивая девочка Кристина и ее родители: на них уловки домового совсем не действуют! Вскоре Кристина знакомится с Финником и узнает тайны жизни домовых. Тем временем, в их городке начинают происходить странные и пугающие события… Отважной девочке и домовому придется стать командой, чтобы разобраться в происходящем и спасти город.",
+  "aliases": [
+    "Финник"
+  ],
+  "kpId": 4742512,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/4742512/"
+  ],
+  "year": "2022",
+  "imdbId": "tt15547806",
+  "ids": [
+    "tt15547806"
+  ],
+  "originalName": "Finnick",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-22T07:21:58Z",
+  "sources": [
+    {
+      "title": "Финник (2022) WEB-DL 1080p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:63b15df18dcae6741a78a0dc5b863d02b0da45a7&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 4048006676,
+      "size": "3.77 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Финник (2022) WEB-DL 1080p от ExKinoRay"
+    },
+    {
+      "title": "Финник (Денис Чернов) [2022, Россия, мультфильм, приключения, детский, WEB-DL 1080p]",
+      "magnet": "magnet:?xt=urn:btih:482169AD4DAFEC001B9A38FE1056E2C802D6C883&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 4048006676,
+      "size": "3.77 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Финник (Денис Чернов) [2022, Россия, мультфильм, приключения, детский, WEB-DL 1080p]"
+    },
+    {
+      "title": "Финник (2022) BDRip 720p от MegaPeer | GER Transfer",
+      "magnet": "magnet:?xt=urn:btih:1c02967121418e22eda1d786b52cbacffb841346&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 2523293286,
+      "size": "2.35 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Финник (2022) BDRip 720p от MegaPeer | GER Transfer"
+    },
+    {
+      "title": "Финник (2022) WEB-DL 720p от ExKinoRay",
+      "magnet": "magnet:?xt=urn:btih:092285b7c3f0b8152ac3f3f92238e8f89ab5cf6e&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 2738041651,
+      "size": "2.55 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Финник (2022) WEB-DL 720p от ExKinoRay"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-21T07:38:37Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt15547806/img",
+    "background": "https://images.metahub.space/background/medium/tt15547806/img"
+  }
+}

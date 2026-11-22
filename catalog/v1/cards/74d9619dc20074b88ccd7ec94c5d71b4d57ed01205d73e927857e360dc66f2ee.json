@@ -1,0 +1,63 @@
+{
+  "id": "tt2522082",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/132dc3e651b28aaa9f7c748d3fb54bc98cee32546ed2c18bc305b119edc79fb3.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5cce866a75590d7bbafa8d2c671ac0d4f230099e30e158318ec72430a8ee4060.jpg",
+  "genres": [
+    "Драма",
+    "Фэнтези"
+  ],
+  "runtime": "109 мин",
+  "imdbRating": "6.4",
+  "releaseInfo": "2012",
+  "trailers": [],
+  "name": "В ожидании моря",
+  "description": "Фильм об ушедшем море, о рыбаках, которые остались без воды. Марат, капитан рыболовецкого судна, попадает в тюрьму на десять лет. А когда он возвращается домой - аула уже нет, нет и моря, только голая степь.",
+  "aliases": [
+    "В ожидании моря"
+  ],
+  "kpId": 468206,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/468206/"
+  ],
+  "year": "2012",
+  "imdbId": "tt2522082",
+  "ids": [
+    "tt2522082"
+  ],
+  "originalName": "Waiting for the Sea",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-22T07:21:58Z",
+  "sources": [
+    {
+      "title": "В ожидании моря (Бахтиер Худойназаров) [2012, Россия, Германия, Франция, Бельгия, Казахстан, Украина, драма, WEB-DL 1080p] Original (Rus) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:53480834E201CF1BADC53B9EDF14B3135358489C&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 10071698309,
+      "size": "9.38 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "В ожидании моря (Бахтиер Худойназаров) [2012, Россия, Германия, Франция, Бельгия, Казахстан, Украина, драма, WEB-DL 1080p] Original (Rus) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "В ожидании моря / В ожидании моря (Бахтиер Худойназаров /) [2012, Россия, Германия, Франция, Бельгия, Казахстан, Украина, драма, WEB-DL 1080p] Original (Rus) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:95A287D1D2809C3C5EB160E0B7BD9CE4BB3425A9&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 10694468567,
+      "size": "9.96 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "В ожидании моря / В ожидании моря (Бахтиер Худойназаров /) [2012, Россия, Германия, Франция, Бельгия, Казахстан, Украина, драма, WEB-DL 1080p] Original (Rus) + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-21T07:38:37Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt2522082/img",
+    "background": "https://live.metahub.space/background/medium/tt2522082/img"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795329805,
-  "updatedAt": "2026-11-22T06:41:51Z",
+  "revision": 1795332194,
+  "updatedAt": "2026-11-22T07:21:58Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -25,8 +25,7 @@
       "description": "Мало кто знает, но в каждом доме живет… свой домовой! Это забавное мохнатое существо тайно обитает в мире людей и хранит домашний очаг. Домовой Финник — добрый, озорной, но немного вредный. Он любит подшутить над жильцами своего дома, поэтому ни одна семья не задерживается в его владениях надолго…",
       "originalName": "Finnick",
       "aliases": [
-        "Финник",
-        "Finnick"
+        "Финник"
       ],
       "genres": [
         "Мультфильм",
@@ -35,8 +34,8 @@
       ],
       "imdbRating": "5.8",
       "runtime": "85 мин",
-      "card": "cards/e4f94bc07958c076749a8b740f38aaeba3891d1c3b3a7ac058aee2801a4e155f.json",
-      "sha256": "e4f94bc07958c076749a8b740f38aaeba3891d1c3b3a7ac058aee2801a4e155f",
+      "card": "cards/83dcbb2f52b18b79a6184b8bd2607e4400dd5b100f5faff1418d24e9a0919f38.json",
+      "sha256": "83dcbb2f52b18b79a6184b8bd2607e4400dd5b100f5faff1418d24e9a0919f38",
       "localized": true,
       "provider": "github"
     },
@@ -55,8 +54,7 @@
       "description": "После изрядного подпития обитатели питерской коммуналки открывают окно… в Париж. С этого момента начинаются прогулки по городу грёз, а также злоключения французских «гостей» на берегах Невы.",
       "originalName": "Window to Paris",
       "aliases": [
-        "Окно в Париж",
-        "Window to Paris"
+        "Окно в Париж"
       ],
       "genres": [
         "Комедия",
@@ -65,8 +63,8 @@
       ],
       "imdbRating": "7.3",
       "runtime": "112 мин",
-      "card": "cards/74aef5658adde8d5c5f12b4fb8e8b368d32ea3d8378bd202ab548a400e1b2bc6.json",
-      "sha256": "74aef5658adde8d5c5f12b4fb8e8b368d32ea3d8378bd202ab548a400e1b2bc6",
+      "card": "cards/462eab52a04957c8c8c97765be0b07ed5ee6c3686ccc090081718fa236762f03.json",
+      "sha256": "462eab52a04957c8c8c97765be0b07ed5ee6c3686ccc090081718fa236762f03",
       "localized": true,
       "provider": "github"
     },
@@ -85,8 +83,7 @@
       "description": "Фильм об ушедшем море, о рыбаках, которые остались без воды. Марат, капитан рыболовецкого судна, попадает в тюрьму на десять лет. А когда он возвращается домой - аула уже нет, нет и моря, только голая степь.",
       "originalName": "Waiting for the Sea",
       "aliases": [
-        "В ожидании моря",
-        "Waiting for the Sea"
+        "В ожидании моря"
       ],
       "genres": [
         "Драма",
@@ -94,8 +91,8 @@
       ],
       "imdbRating": "6.4",
       "runtime": "109 мин",
-      "card": "cards/c512455590379b932d177e3c7157151ff1e11d05637cbd2b4c69e9f0e4a880a3.json",
-      "sha256": "c512455590379b932d177e3c7157151ff1e11d05637cbd2b4c69e9f0e4a880a3",
+      "card": "cards/74d9619dc20074b88ccd7ec94c5d71b4d57ed01205d73e927857e360dc66f2ee.json",
+      "sha256": "74d9619dc20074b88ccd7ec94c5d71b4d57ed01205d73e927857e360dc66f2ee",
       "localized": true,
       "provider": "github"
     },
@@ -114,8 +111,7 @@
       "description": "Двадцатилетний Дима Майков получает в подарок от отца старенький автомобиль ГАЗ-21 «Волга» и внезапно обнаруживает, что его машина летает, как настоящий истребитель. Дима  активно включается в бизнес по доставке цветов, проносясь над столичными пробками и наслаждаясь полётами, пока однажды беда н…",
       "originalName": "Black Lightning",
       "aliases": [
-        "Чёрная Молния",
-        "Black Lightning"
+        "Чёрная Молния"
       ],
       "genres": [
         "Боевик",
@@ -124,8 +120,8 @@
       ],
       "imdbRating": "5.7",
       "runtime": "102 мин",
-      "card": "cards/efca00e4d128048e49c0e38801be111f4bf58f8d9ebb80416ba8eead8b8cc3ec.json",
-      "sha256": "efca00e4d128048e49c0e38801be111f4bf58f8d9ebb80416ba8eead8b8cc3ec",
+      "card": "cards/20d7e17eafa2d996ada6fa4c09ee8b6eb90e3b19830b4727301d7e3febb8998d.json",
+      "sha256": "20d7e17eafa2d996ada6fa4c09ee8b6eb90e3b19830b4727301d7e3febb8998d",
       "localized": true,
       "provider": "github"
     },
@@ -144,8 +140,7 @@
       "description": "Английский путешественник Джонатан Грин получает от Петра I заказ на изготовление карт Дальнего Востока России. Ему вновь предстоит долгий путь, полный невероятных приключений, который приведет его в Китай. Картограф столкнется с массой головокружительных открытий, неожиданных встреч с диковинным…",
       "originalName": "Iron Mask",
       "aliases": [
-        "Тайна печати дракона",
-        "Iron Mask"
+        "Тайна печати дракона"
       ],
       "genres": [
         "Боевик",
@@ -154,8 +149,8 @@
       ],
       "imdbRating": "4.8",
       "runtime": "121 мин",
-      "card": "cards/7bc10c46acd1ffb57f9229267aa16de83bfcec0b647716322993e9be174f5610.json",
-      "sha256": "7bc10c46acd1ffb57f9229267aa16de83bfcec0b647716322993e9be174f5610",
+      "card": "cards/6cfea5052dfea9715a90bd4158af9aadd2b3a0ad53dbe64f6fd2ef317026fd1b.json",
+      "sha256": "6cfea5052dfea9715a90bd4158af9aadd2b3a0ad53dbe64f6fd2ef317026fd1b",
       "localized": true,
       "provider": "github"
     },
