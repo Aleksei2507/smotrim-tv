@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795401829,
-  "updatedAt": "2026-11-23T02:42:35Z",
+  "revision": 1795421295,
+  "updatedAt": "2026-11-23T08:08:14Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,36 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt35856037",
+      "ids": [
+        "tt35856037"
+      ],
+      "imdbId": "tt35856037",
+      "name": "Твоя мать, твоя мать, твоя мать",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fc5686fb641387d8276dcf8083afabf015c13fa0c02576b5c33f9c6afd1040ab.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8c2f922aaf4803d6ada6e1b4fc6ee822e46f9c3dd67deea4eec4cbb8612a8e62.jpg",
+      "description": "После смерти жены Латиф, наёмный убийца-мусульманин, остаётся с тремя детьми: дочерью-подростком, десятилетним сыном и дочерью-младенцем, которая отказывается переходить на детские смеси. Пока мужчина по всему городу ищет грудное молоко, от его постоянного заказчика Майка поступает новое задание…",
+      "originalName": "Your Mother Your Mother Your Mother",
+      "aliases": [
+        "Твоя мать, твоя мать, твоя мать",
+        "Your Mother Your Mother Your Mother"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "",
+      "runtime": "112 мин",
+      "card": "cards/512c7e3b187d97b67aeaaa04c0585bf15d10d93538e671e6a6d34125f93d03b7.json",
+      "sha256": "512c7e3b187d97b67aeaaa04c0585bf15d10d93538e671e6a6d34125f93d03b7",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt15547806",
       "ids": [
@@ -230,8 +260,7 @@
       "description": "Иван — не царевич, не богатырь, не красавец, а старшие братья и вовсе его дураком считают. Но всё меняется, когда у Ивана появляется друг и верный помощник — Конёк-Горбунок. Пусть он ростом невелик, зато умный и смелый. С таким другом никакой враг не страшен. Ну, почти никакой. С таким помощником…",
       "originalName": "Upon the Magic Roads",
       "aliases": [
-        "Конёк-Горбунок",
-        "Upon the Magic Roads"
+        "Конёк-Горбунок"
       ],
       "genres": [
         "Приключения",
@@ -239,8 +268,8 @@
       ],
       "imdbRating": "5.7",
       "runtime": "100 мин",
-      "card": "cards/10ac77b3589b904e777a599cb75340a5279ad340ea07b2aa4d39d6d5c1f8214e.json",
-      "sha256": "10ac77b3589b904e777a599cb75340a5279ad340ea07b2aa4d39d6d5c1f8214e",
+      "card": "cards/82007dfcf6f4f6b422043b4343c1cfaa14aff10a8942e1e8e1d20f53af9379c7.json",
+      "sha256": "82007dfcf6f4f6b422043b4343c1cfaa14aff10a8942e1e8e1d20f53af9379c7",
       "localized": true,
       "provider": "github"
     },
@@ -1092,8 +1121,8 @@
       ],
       "imdbRating": "8.2",
       "runtime": "157 мин",
-      "card": "cards/04f1298c6265c72fe58dc303ce71a4c3956874ca5ead0e27d533b8fabab2416e.json",
-      "sha256": "04f1298c6265c72fe58dc303ce71a4c3956874ca5ead0e27d533b8fabab2416e",
+      "card": "cards/dcd01b9d0d9c41b669b9850903348b6d15b8f2ff0008931b00727fcee64842de.json",
+      "sha256": "dcd01b9d0d9c41b669b9850903348b6d15b8f2ff0008931b00727fcee64842de",
       "localized": true,
       "provider": "github"
     },
@@ -1122,8 +1151,8 @@
       ],
       "imdbRating": "7.7",
       "runtime": "152 мин",
-      "card": "cards/de5d0f7821e8160dea4233f8d0515a6c66a5c04c5b5424d5134af325938e46ab.json",
-      "sha256": "de5d0f7821e8160dea4233f8d0515a6c66a5c04c5b5424d5134af325938e46ab",
+      "card": "cards/136201dd874d41066dc108de4c177e99e964a1d49824ebdd06f29fb50d718afb.json",
+      "sha256": "136201dd874d41066dc108de4c177e99e964a1d49824ebdd06f29fb50d718afb",
       "localized": true,
       "provider": "github"
     },
@@ -1152,8 +1181,8 @@
       ],
       "imdbRating": "8.0",
       "runtime": "109 мин",
-      "card": "cards/0cb8121e0c696ae3f6341027192812eafc17aaa7f1e78b0b68180d11e0c000b7.json",
-      "sha256": "0cb8121e0c696ae3f6341027192812eafc17aaa7f1e78b0b68180d11e0c000b7",
+      "card": "cards/3ecccd6dbe3a86de242fc085a785750c3fb46ce429428630c7dad495c58c2690.json",
+      "sha256": "3ecccd6dbe3a86de242fc085a785750c3fb46ce429428630c7dad495c58c2690",
       "localized": true,
       "provider": "github"
     },
@@ -1248,8 +1277,8 @@
       ],
       "imdbRating": "7.4",
       "runtime": "109 мин",
-      "card": "cards/b24a8880b9abe305061490c844af9b76c0b829d4ec63ca68d99dabe49604a8a6.json",
-      "sha256": "b24a8880b9abe305061490c844af9b76c0b829d4ec63ca68d99dabe49604a8a6",
+      "card": "cards/60c66665358858febbf0a7c7553b9e07e31f1cb7b66d3a5faec4839a703277f4.json",
+      "sha256": "60c66665358858febbf0a7c7553b9e07e31f1cb7b66d3a5faec4839a703277f4",
       "localized": true,
       "provider": "github"
     },

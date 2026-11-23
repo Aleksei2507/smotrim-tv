@@ -1,0 +1,74 @@
+{
+  "id": "tt32565993",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1bbdcba4bfafdfe7fbd589d20ba214cc9cc9839b87b0a838914a77a52907ec08.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/adfd5906414fa2252f16058bcba48b8e4763e775b87620cd8b6d66c4ebda5a23.jpg",
+  "genres": [
+    "Комедия",
+    "Семейный",
+    "Детектив"
+  ],
+  "runtime": "109 мин",
+  "imdbRating": "7.4",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "826SRt1CFbg",
+      "type": "Trailer"
+    },
+    {
+      "source": "pyZI5oM6hWk",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Следствие ведут овечки",
+  "description": "Каждый вечер пастух Джордж Харди собирает своё стадо и читает им детективные истории в уверенности, что овцы не понимают ни слова. Но однажды утром Джорджа находят мёртвым, и тогда стадо, проникшееся детективными сюжетами, решает взять расследование в свои копыта.",
+  "aliases": [
+    "Следствие ведут овечки",
+    "The Sheep Detectives"
+  ],
+  "kpId": 6447742,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/6447742/"
+  ],
+  "year": "2026",
+  "imdbId": "tt32565993",
+  "ids": [
+    "tt32565993"
+  ],
+  "originalName": "The Sheep Detectives",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-23T08:06:10Z",
+  "sources": [
+    {
+      "title": "Следствие ведут овечки / The Sheep Detectives (Кайл Балда / Kyle Balda) [2026, Ирландия, Великобритания, США, детектив, комедия, фэнтези, BDRip 1080p] Dub (MovieDalen) + MVO (TVShows) + Dub (Ukr) + Original Eng + Sub (Rus, Eng, Chi, Deu, Heb, Ron, Ukr, Multi)",
+      "magnet": "magnet:?xt=urn:btih:F20799939A4F3697DC4C4B143911FC1DEEADE5B2&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 15333033246,
+      "size": "14.28 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Следствие ведут овечки / The Sheep Detectives (Кайл Балда / Kyle Balda) [2026, Ирландия, Великобритания, США, детектив, комедия, фэнтези, BDRip 1080p] Dub (MovieDalen) + MVO (TVShows) + Dub (Ukr) + Original Eng + Sub (Rus, Eng, Chi, Deu, Heb, Ron, Ukr, Multi)"
+    },
+    {
+      "title": "Следствие ведут овечки / The Sheep Detectives (Кайл Балда / Kyle Balda) [2026, Ирландия, Великобритания, США, детектив, комедия, фэнтези, BDRemux 1080p] Dub (MovieDalen) + MVO (TVShows) + Dub Ukr + Sub (Rus, Ukr, Eng etc.) + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:4204B3E577C1BA88DDD91993A0DDA3908FE0A91B&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 28078348697,
+      "size": "26.15 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Следствие ведут овечки / The Sheep Detectives (Кайл Балда / Kyle Balda) [2026, Ирландия, Великобритания, США, детектив, комедия, фэнтези, BDRemux 1080p] Dub (MovieDalen) + MVO (TVShows) + Dub Ukr + Sub (Rus, Ukr, Eng etc.) + Original Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-23T08:06:10Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt32565993/img",
+    "background": "https://images.metahub.space/background/medium/tt32565993/img"
+  }
+}

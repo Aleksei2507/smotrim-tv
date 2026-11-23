@@ -1,0 +1,85 @@
+{
+  "id": "tt2948356",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/42c53a33840307398582a5bd5f9b384eefd4c583922959519af0d0fbad506d58.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c306e91feac098efe5cf84bfbdcb4ad088e021c9b08896c0969e67b71b9c93fd.jpg",
+  "genres": [
+    "Мультфильм",
+    "Боевик",
+    "Приключения"
+  ],
+  "runtime": "109 мин",
+  "imdbRating": "8.0",
+  "releaseInfo": "2016",
+  "trailers": [
+    {
+      "source": "jWM0ct-OLsM",
+      "type": "Trailer"
+    },
+    {
+      "source": "bY73vFGhSVk",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Зверополис",
+  "description": "Добро пожаловать в Зверополис – современный город, населенный самыми разными животными, от огромных слонов до крошечных мышек. Зверополис разделен на районы, полностью повторяющие естественную среду обитания разных жителей – здесь есть и элитный район Площадь Сахары и неприветливый Тундратаун. В этом городе появляется новый офицер полиции, жизнерадостная зайчиха Джуди Хоппс, которая с первых дней работы понимает, как сложно быть маленькой и пушистой среди больших и сильных полицейских. Джуди хватается за первую же возможность проявить себя, несмотря на то, что ее партнером будет болтливый хитрый лис Ник Уайлд. Вдвоем им предстоит раскрыть сложное дело, от которого будет зависеть судьба всех обитателей Зверополиса.",
+  "aliases": [
+    "Зверополис",
+    "Zootopia"
+  ],
+  "kpId": 775276,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/775276/"
+  ],
+  "year": "2016",
+  "imdbId": "tt2948356",
+  "ids": [
+    "tt2948356"
+  ],
+  "originalName": "Zootopia",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-23T08:06:10Z",
+  "sources": [
+    {
+      "title": "Зверополис / Zootopia (Байрон Ховард, Рич Мур, Джаред Буш / Jared Bush, Byron Howard, Rich Moore) [2016, США, мультфильм, комедия, приключения, BDRip 1080p] [Оригинальный видеоряд] Dub + AVO (Сербин) + Ukr Dub + Original Eng + Sub Rus, Ukr, Eng, Fra",
+      "magnet": "magnet:?xt=urn:btih:6C993B015E58511F119157060CB0D5D403C077A6&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 14216341749,
+      "size": "13.24 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зверополис / Zootopia (Байрон Ховард, Рич Мур, Джаред Буш / Jared Bush, Byron Howard, Rich Moore) [2016, США, мультфильм, комедия, приключения, BDRip 1080p] [Оригинальный видеоряд] Dub + AVO (Сербин) + Ukr Dub + Original Eng + Sub Rus, Ukr, Eng, Fra"
+    },
+    {
+      "title": "Зверополис / Zootopia (Байрон Ховард, Рич Мур, Джаред Буш / Jared Bush, Byron Howard, Rich Moore) [2016, США, мультфильм, комедия, приключения, BDRemux 1080p] [Оригинальный видеоряд] Dub + AVO (Сербин) + Ukr Dub + Original Eng + Sub Rus, Ukr, Eng",
+      "magnet": "magnet:?xt=urn:btih:88DF7588801BEF0D1D3259744BBFEDF1AD251FA7&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 31353261260,
+      "size": "29.20 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зверополис / Zootopia (Байрон Ховард, Рич Мур, Джаред Буш / Jared Bush, Byron Howard, Rich Moore) [2016, США, мультфильм, комедия, приключения, BDRemux 1080p] [Оригинальный видеоряд] Dub + AVO (Сербин) + Ukr Dub + Original Eng + Sub Rus, Ukr, Eng"
+    },
+    {
+      "title": "Зверополис / Zootopia (Байрон Ховард, Рич Мур, Джаред Буш / Jared Bush, Byron Howard, Rich Moore) [2016, США, комедия, приключения, семейный, BDRip 720p] [Оригинальный видеоряд] Dub + AVO (Сербин) + Ukr Dub + Original Eng + Sub Rus, Ukr, Eng",
+      "magnet": "magnet:?xt=urn:btih:F9325C2871A4D0F53E53B088009891A1C2950AD6&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 5068061409,
+      "size": "4.72 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Зверополис / Zootopia (Байрон Ховард, Рич Мур, Джаред Буш / Jared Bush, Byron Howard, Rich Moore) [2016, США, комедия, приключения, семейный, BDRip 720p] [Оригинальный видеоряд] Dub + AVO (Сербин) + Ukr Dub + Original Eng + Sub Rus, Ukr, Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-16T07:11:27Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt2948356/img",
+    "background": "https://images.metahub.space/background/medium/tt2948356/img"
+  }
+}

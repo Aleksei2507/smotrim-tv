@@ -1,0 +1,67 @@
+{
+  "id": "tt35856037",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt35856037/img",
+  "background": "https://images.metahub.space/background/medium/tt35856037/img",
+  "genres": [
+    "Боевик",
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "112 мин",
+  "imdbRating": "",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "uEcoV-ngH38",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Твоя мать, твоя мать, твоя мать",
+  "description": "После смерти жены Латиф, наёмный убийца-мусульманин, остаётся с тремя детьми: дочерью-подростком, десятилетним сыном и дочерью-младенцем, которая отказывается переходить на детские смеси. Пока мужчина по всему городу ищет грудное молоко, от его постоянного заказчика Майка поступает новое задание — убрать эксцентричного христианского проповедника, чудом выжившего в Ираке и объявившего охоту на племянника Майка.",
+  "aliases": [
+    "Твоя мать, твоя мать, твоя мать",
+    "Your Mother Your Mother Your Mother"
+  ],
+  "kpId": 13002779,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt35856037.json",
+    "https://www.kinopoisk.ru/film/13002779/"
+  ],
+  "year": "2026",
+  "imdbId": "tt35856037",
+  "ids": [
+    "tt35856037"
+  ],
+  "originalName": "Your Mother Your Mother Your Mother",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-23T08:06:10Z",
+  "sources": [
+    {
+      "title": "Твоя мать, твоя мать, твоя мать / Your Mother Your Mother Your Mother (2026) WEB-DL [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:8A09D23B4FB644ABFC25DB2D136FF544C22DDE20",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 9663676416,
+      "size": "9.00 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Твоя мать, твоя мать, твоя мать / Your Mother Your Mother Your Mother (2026) WEB-DL [H.264/1080p] [MVO]"
+    },
+    {
+      "title": "Твоя мать, твоя мать, твоя мать / Your Mother Your Mother Your Mother (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:76926BFAF1008F04A3AE48CA655265F9278123C5",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 14173392076,
+      "size": "13.20 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Твоя мать, твоя мать, твоя мать / Your Mother Your Mother Your Mother (2026) WEB-DL [H.265/2160p] [4K, HDR10+, DV 8.1, 10-bit] [MVO]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-23T08:06:10Z"
+}
