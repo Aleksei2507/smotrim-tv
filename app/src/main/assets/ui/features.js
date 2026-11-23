@@ -8,7 +8,7 @@ function mediaGenres(item,translations={}){
  return [...new Set(values.filter(g=>typeof g==='string').map(g=>g.trim().replace(/\s+/g,' ')).filter(Boolean).map(g=>labels.get(g.toLocaleLowerCase('ru'))||g[0].toLocaleUpperCase('ru')+g.slice(1).toLocaleLowerCase('ru')))];
 }
 function genreOptions(items,translations={}){return ['Все',...[...new Set(items.flatMap(item=>mediaGenres(item,translations)))].filter(g=>g!=='Все').sort((a,b)=>a.localeCompare(b,'ru'))];}
-function sourceSize(source){
+function sourceSize(source,unknown='Размер неизвестен'){
  const raw=String(source?.size??'').trim();let bytes=Number(source?.bytes);
  if(!Number.isFinite(bytes)||bytes<=0){const m=raw.match(/^(\d+(?:[.,]\d+)?)\s*(?:bytes?|байт(?:а|ов)?)?$/i);bytes=m?Number(m[1].replace(',','.')):0;}
  if(Number.isFinite(bytes)&&bytes>0){
@@ -18,7 +18,41 @@ function sourceSize(source){
  }
  const formatted=raw.match(/^(\d+(?:[.,]\d+)?)\s*(KB|MB|GB|TB|KiB|MiB|GiB|TiB|КБ|МБ|ГБ|ТБ)$/i);
  if(formatted)return formatted[1].replace('.',',')+' '+({K:'К',M:'М',G:'Г',T:'Т'}[formatted[2][0].toUpperCase()]||formatted[2][0].toUpperCase())+'Б';
- return 'Размер неизвестен';
+ return unknown;
+}
+function torrentSizeKey(url){
+ if(!url)return '';
+ const hash=/^magnet:\?/i.test(url)&&url.match(/[?&]xt=urn:btih:([a-f0-9]{40}|[a-z2-7]{32})(?:&|$)/i);
+ return hash?hash[1].toLowerCase():url;
+}
+function viewingFile(record,target,isSeries){
+ const selected=record.files.find(file=>file.index===record.fileIndex);
+ if(!target)return isSeries?null:selected;
+ if(selected&&record.seriesEpisode?.season===target.season&&record.seriesEpisode?.episode===target.episode)return selected;
+ const season=record.torrentSeason===undefined?record.seriesEpisode?.season??null:record.torrentSeason;
+ const matches=matchingFiles(record.files,target,season);
+ return matches.length===1?matches[0]:null;
+}
+function sourceSizeLabels(media,records){
+ const byTorrent=new Map();
+ for(const record of records){
+  if(!record?.url||!record.files?.length)continue;
+  const sameQuery=media.searchQuery&&record.sourceMovie?.searchQuery&&media.name===record.sourceMovie.name;
+  if(!sameQuery&&!sameMedia(media,record.movie)&&!sameMedia(media,record.sourceMovie))continue;
+  const key=torrentSizeKey(record.url);
+  if(!byTorrent.has(key))byTorrent.set(key,[]);
+  byTorrent.get(key).push(record);
+ }
+ return source=>{
+  const total=sourceSize(source,''),target=media.selectedEpisode;
+  for(const record of byTorrent.get(torrentSizeKey(source.magnet))||[]){
+   const file=viewingFile(record,target,media.type==='series');
+   if(!(Number(file?.bytes)>0&&Number.isFinite(Number(file.bytes))))continue;
+   const size=sourceSize(file),label=(target?'Серия ':'Файл ')+size;
+   return total&&total!==size?label+' · Вся раздача '+total:label;
+  }
+  return total?'Вся раздача '+total:'Размер раздачи неизвестен';
+ };
 }
 function episode(file,seasonHint){
  const path=String(file.path||file.name||''),parts=path.split(/[\\/]/),name=String(file.name||parts[parts.length-1]);
@@ -147,6 +181,6 @@ function filmographyNewest(items){
  const stamp=m=>{const year=String(m.year||m.releaseInfo||m.released||'').match(/^(\d{4})/);if(!year)return '';const date=String(m.released||'').match(/^(\d{4}-\d{2}-\d{2})/);return date&&date[1].startsWith(year[1])?date[1]:year[1]+'-00-00';};
  return [...items].sort((a,b)=>stamp(b).localeCompare(stamp(a)));
 }
-const api={historyCard,castOrder,filmographyNewest,playbackDuration,segmentQuery,introSegment,introTarget,creditsSegment,creditsReached,switchSource,mediaGenres,genreOptions,sourceSize,searchSelection,audioLanguages,audioLabel,contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,sourceSearchError,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
+const api={historyCard,castOrder,filmographyNewest,playbackDuration,segmentQuery,introSegment,introTarget,creditsSegment,creditsReached,switchSource,mediaGenres,genreOptions,sourceSize,sourceSizeLabels,searchSelection,audioLanguages,audioLabel,contentId,mediaIds,sameMedia,uniqueMedia,filterMedia,bufferAhead,bufferingLabel,catalogueEpisodes,futureEpisode,nextCatalogueEpisode,matchingFiles,sourceScope,episodeSources,readability,episode,files,nextFile,seriesId,rankedSources,sourceSearchError,diagnosis,channelKey,orderedChannels,moveItem,seekTarget};
 if(typeof module!=='undefined')module.exports=api;else root.TVFeatures=api;
 })(typeof window!=='undefined'?window:globalThis);

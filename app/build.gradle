@@ -14,8 +14,8 @@ android {
         applicationId 'ru.smotrim.tv'
         minSdk 28
         targetSdk 35
-        versionCode = (project.findProperty('smotrimVersionCode') ?: '37').toInteger()
-        versionName = (project.findProperty('smotrimVersionName') ?: '0.6.22')
+        versionCode = (project.findProperty('smotrimVersionCode') ?: '38').toInteger()
+        versionName = (project.findProperty('smotrimVersionName') ?: '0.6.23')
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         ndk { abiFilters.addAll(torrentAbis) }
     }

@@ -112,6 +112,36 @@ test('invalid source sizes never display NaN or negative file sizes',()=>{
  for(const s of [{},{bytes:0},{bytes:-1},{bytes:Infinity},{size:'NaN bytes'},{size:'-4 GB'}])
   assert.equal(f.sourceSize(s),'Размер неизвестен');
 });
+test('season pack shows its total until the requested episode file is identified',()=>{
+ const gib=1024**3,show={id:'show',type:'series'},target={season:2,episode:3};
+ const hash='ab'.repeat(20),url='magnet:?xt=urn:btih:'+hash;
+ const source={magnet:url+'&tr=new',bytes:88*gib};
+ const record={movie:show,url:'magnet:?tr=old&xt=urn:btih:'+hash.toUpperCase(),torrentSeason:2,
+  seriesEpisode:{season:2,episode:2},fileIndex:0,files:[
+   {index:0,name:'02.mkv',bytes:7*gib},{index:4,name:'03.mkv',bytes:8*gib}]};
+ const label=(records,episode=target)=>f.sourceSizeLabels({...show,selectedEpisode:episode},records)(source);
+ assert.equal(label([]),'Вся раздача 88,00 ГБ');
+ assert.equal(label([record]),'Серия 8,00 ГБ · Вся раздача 88,00 ГБ');
+ assert.equal(label([record],{season:1,episode:3}),'Вся раздача 88,00 ГБ');
+ const ambiguous={...record,files:[...record.files,{index:5,name:'03-alt.mkv',bytes:5*gib}]};
+ assert.equal(label([ambiguous]),'Вся раздача 88,00 ГБ');
+ assert.equal(label([{...ambiguous,seriesEpisode:target,fileIndex:5}]),'Серия 5,00 ГБ · Вся раздача 88,00 ГБ');
+ assert.equal(label([{...record,movie:{id:'different',type:'series'}}]),'Вся раздача 88,00 ГБ');
+ assert.equal(label([{...record,url:'another torrent'}]),'Вся раздача 88,00 ГБ');
+});
+test('multi-film torrents show the selected movie file, including legacy size-only rows',()=>{
+ const gib=1024**3,movie={id:'film-2'},source={magnet:'bundle',size:'88 GB'};
+ const files=[{index:6,name:'Part I.mkv',bytes:20*gib},{index:0,name:'Part II.mkv',bytes:8*gib}];
+ const other={movie:{id:'film-1'},url:'bundle',fileIndex:6,files},record={movie,url:'bundle',fileIndex:0,files};
+ const label=(records,s=source)=>f.sourceSizeLabels(movie,records)(s);
+ assert.equal(label([other]),'Вся раздача 88 ГБ');
+ assert.equal(label([other,record]),'Файл 8,00 ГБ · Вся раздача 88 ГБ');
+ assert.equal(label([{...record,fileIndex:undefined}]),'Вся раздача 88 ГБ');
+ assert.equal(label([{...record,files:[{index:0,bytes:0}]}]),'Вся раздача 88 ГБ');
+ assert.equal(label([record],{magnet:'bundle',bytes:8*gib}),'Файл 8,00 ГБ');
+ assert.equal(label([record],{magnet:'bundle'}),'Файл 8,00 ГБ');
+ assert.equal(label([],{}),'Размер раздачи неизвестен');
+});
 test('episode conventions, folders and numeric order',()=>{
  assert.equal(f.episode({name:'Show.S02E10.mkv'}).season,2);assert.equal(f.episode({name:'Show.2x03.mkv'}).episode,3);
  assert.equal(f.episode({name:'01.mkv',path:'Show/Сезон 3/01.mkv'}).season,3);
