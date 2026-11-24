@@ -1,0 +1,1073 @@
+{
+  "id": "tt13795610",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/caa93695bcb488252479eb0a492131dfdcd1d0ad08dcdbd4211a0c375c1f30dc.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2e0aadb338371f3be6cab09b58452635b98010e3aaf0c80c75c38e172793ef63.jpg",
+  "genres": [
+    "Комедия"
+  ],
+  "imdbRating": "6.1",
+  "releaseInfo": "2019–",
+  "trailers": [],
+  "name": "Полярный",
+  "description": "Известный в середине 90-х бандит Витя Мясник, давно отошедший от дел и владеющий  экофермой, по просьбе бывшего подельника согласился передержать на своём офшорном банковском счёте воровской общак. Когда же пришло время возвращать деньги, волей обстоятельств Витя забыл пароль от счёта. Понимая, что ему никто не поверит, он бежит и случайно попадает в расположенный на Севере город Полярный.",
+  "aliases": [
+    "Полярный",
+    "The Territory"
+  ],
+  "kpId": 1207237,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt13795610.json",
+    "https://www.kinopoisk.ru/film/1207237/"
+  ],
+  "year": "2019",
+  "imdbId": "tt13795610",
+  "ids": [
+    "tt13795610"
+  ],
+  "originalName": "The Territory",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-24T10:22:31Z",
+  "videos": [
+    {
+      "id": "tt13795610:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "Бывший бандит Витя забывает пароль от счёта, где лежат воровские деньги. Он бежит из Москвы и попадает в городок Полярный.",
+      "released": "2019-10-28"
+    },
+    {
+      "id": "tt13795610:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "Витя просит свою новую знакомую Полину помочь ему вспомнить код. На гостя ведёт охоту рэкетир Болт и его подручные Коля и Толя.",
+      "released": "2019-10-28"
+    },
+    {
+      "id": "tt13795610:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "Витя заставляет начальника котельной Зюзина вернуть горячую воду в дома. Подруга Полины, Люба, хочет устроить её личную жизнь.",
+      "released": "2019-10-29"
+    },
+    {
+      "id": "tt13795610:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "Полина и Болт пытаются помочь задержанному Вите. Начальник отдела полиции Немоляев выпивает слишком много настойки из мухоморов.",
+      "released": "2019-10-30"
+    },
+    {
+      "id": "tt13795610:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "В магазине видеопроката, где работает Полина, происходит кража. Капитан Нуждин предлагает Коле и Толе ограбить банк.",
+      "released": "2019-10-31"
+    },
+    {
+      "id": "tt13795610:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "Болт догадывается, что его возлюбленная Анжела встречается с Витей. Сын Полины, Костя, даёт отпор хулиганам в школе.",
+      "released": "2019-11-05"
+    },
+    {
+      "id": "tt13795610:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "Мэр Новиков лишает население пенсий. Болт собирается похитить деньги, которые предназначились старикам, и зовёт Витю на дело.",
+      "released": "2019-11-06"
+    },
+    {
+      "id": "tt13795610:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "Витя не может уехать на поезде в Оленегорск: неизвестные украли рельсы. Болт готовит сюрприз на годовщину отношений с Анжелой.",
+      "released": "2019-11-07"
+    },
+    {
+      "id": "tt13795610:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "Полина делает первый шаг, чтобы сблизиться с Витей. Коля и Толя случайно узнают о криминальном прошлом столичного гостя.",
+      "released": "2019-11-11"
+    },
+    {
+      "id": "tt13795610:1:10",
+      "season": 1,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "Нуждин принимает подельников Артура за московских оперов. Болт готовит страшную месть для любовника Анжелы.",
+      "released": "2019-11-12"
+    },
+    {
+      "id": "tt13795610:1:11",
+      "season": 1,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "Витя пытается вызволить бандита Депутата из тюрьмы. Толя и Коля отправляются грабить ювелирный магазин и попадают в неприятности.",
+      "released": "2019-11-13"
+    },
+    {
+      "id": "tt13795610:1:12",
+      "season": 1,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "Авторитет Артур спешит в Полярный. Толя и Коля организуют мальчишник для Болта, а Витя боится, что Полина тоже хочет замуж.",
+      "released": "2019-11-14"
+    },
+    {
+      "id": "tt13795610:1:13",
+      "season": 1,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "После аварии Артур частично теряет память и считает, что на дворе 1990-е. Анжелу похищают в день свадьбы.",
+      "released": "2019-11-18"
+    },
+    {
+      "id": "tt13795610:1:14",
+      "season": 1,
+      "episode": 14,
+      "title": "Серия 14",
+      "description": "Витя узнаёт, что воровские деньги достались мэру Новикову. Преступник Хриплый держит в заложниках Анжелу, Болта и других гостей.",
+      "released": "2019-11-19"
+    },
+    {
+      "id": "tt13795610:1:15",
+      "season": 1,
+      "episode": 15,
+      "title": "Серия 15",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "В Полярный приезжает кризис-менеджер Раиса. Она готова на всё, чтобы на месте Витиной фермы «Мечта» построили мусорный полигон.",
+      "released": "2021-11-08"
+    },
+    {
+      "id": "tt13795610:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "Вите нужно продать навоз, и он убеждает чиновников, что там спрятаны алмазы. Анжела и Болт знакомятся с парой свингеров.",
+      "released": "2021-11-08"
+    },
+    {
+      "id": "tt13795610:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "Болт и Анжела въезжают в старый дом по соседству с Витей. Нуждин везёт зарплату егерю, а Полина не может снять латексный костюм.",
+      "released": "2021-11-09"
+    },
+    {
+      "id": "tt13795610:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "Люба предлагает друзьям сыграть в «Я никогда не...», чтобы разговорить Витю. Нуждин и Раиса остаются наедине во время бурана.",
+      "released": "2021-11-09"
+    },
+    {
+      "id": "tt13795610:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "Болт решает заработать на разведении животных. Люба отправляется на рыбалку со своим партнёром Славой, но это хобби не для него.",
+      "released": "2021-11-10"
+    },
+    {
+      "id": "tt13795610:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "Насмотревшись телевизора, Коля начинает верить в рептилоидов. Болт обыскивает номер Раисы в гостинице и застревает в унитазе.",
+      "released": "2021-11-10"
+    },
+    {
+      "id": "tt13795610:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "В доме престарелых нет отопления, и дед Ильич приглашает пенсионеров в «Мечту». Люба готовится к паломнической поездке в Грецию.",
+      "released": "2021-11-11"
+    },
+    {
+      "id": "tt13795610:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "Раиса подговаривает секс-работниц сделать компрометирующие фото с Витей. Хоккейная команда Новикова должна проиграть соперникам.",
+      "released": "2021-11-11"
+    },
+    {
+      "id": "tt13795610:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "Противники Вити делают поддельную справку, что у животных на ферме бешенство. Анжела задумывается о беременности, но Болт против.",
+      "released": "2021-11-15"
+    },
+    {
+      "id": "tt13795610:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "Раиса просит чиновника Альберта приехать в Полярный. Коллеги ищут ушедшего в запой Немоляева, а Коля и Толя крадут обезьяну.",
+      "released": "2021-11-15"
+    },
+    {
+      "id": "tt13795610:2:11",
+      "season": 2,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "У Вити новая проблема: ферма становится местом для складирования снега со всего городка. После гипноза Немоляев перестаёт пить.",
+      "released": "2021-11-16"
+    },
+    {
+      "id": "tt13795610:2:12",
+      "season": 2,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "Новиков верит, что ему звонит президент, и просит оставить ферму в покое. Свидание Толи срывает его бывшая одноклассница Ирка.",
+      "released": "2021-11-16"
+    },
+    {
+      "id": "tt13795610:2:13",
+      "season": 2,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "Витя собирается сделать Полине предложение во время пельменной ярмарки. Альберт обращается к киллеру.",
+      "released": "2021-11-17"
+    },
+    {
+      "id": "tt13795610:2:14",
+      "season": 2,
+      "episode": 14,
+      "title": "Серия 14",
+      "description": "Витя знакомится с мужем Полины — Олегом. Немоляев на учениях встречает свою давнюю любовь Свету и заклятого врага Алексея.",
+      "released": "2021-11-17"
+    },
+    {
+      "id": "tt13795610:2:15",
+      "season": 2,
+      "episode": 15,
+      "title": "Серия 15",
+      "description": "Витя пытается организовать пышную свадьбу, но лимузин занял Новиков. Праздник внезапно прерывает Раиса с неприятным сюрпризом.",
+      "released": "2021-11-18"
+    },
+    {
+      "id": "tt13795610:2:16",
+      "season": 2,
+      "episode": 16,
+      "title": "Серия 16",
+      "description": "Раиса просыпается в Финляндии в одной постели с Нуждиным. Витя неожиданно получает последний шанс сохранить ферму.",
+      "released": "2021-11-18"
+    },
+    {
+      "id": "tt13795610:2:17",
+      "season": 2,
+      "episode": 17,
+      "title": "Серия 17",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "Новиков тонет в проруби. Полина готовится к приезду своей строгой матери Антонины, а Витя знакомится с бизнесменом Ломаевым.",
+      "released": "2023-11-20"
+    },
+    {
+      "id": "tt13795610:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "Витя становится мэром Полярного, а Раиса — его помощницей. Они узнают, что из бюджета пропало 300 миллионов рублей.",
+      "released": "2023-11-20"
+    },
+    {
+      "id": "tt13795610:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "Новиков намерен сделать поддельный паспорт. Слава продаёт машину, чтобы отдать долг коллекторам, а Ирка пытается разыграть Толю.",
+      "released": "2023-11-21"
+    },
+    {
+      "id": "tt13795610:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "Витя хочет выиграть грант на проведение в городе Кубка России по биатлону. Немоляев придумывает, как удивить Антонину на свидании.",
+      "released": "2023-11-21"
+    },
+    {
+      "id": "tt13795610:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "Чиновники объединяются с Ломаевым, чтобы насолить Вите. Врач сообщает Анжеле, что у неё остался год, чтобы завести ребёнка.",
+      "released": "2023-11-22"
+    },
+    {
+      "id": "tt13795610:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "Витя обеспокоен тем, что его сын Федя увлекается балетом. Коля собирается заработать на отцовской овчарке.",
+      "released": "2023-11-22"
+    },
+    {
+      "id": "tt13795610:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "Люба подозревает, что Слава ей изменяет. Немоляев с подчинёнными пытается пройти переаттестацию у ревнивой Лены.",
+      "released": "2023-11-23"
+    },
+    {
+      "id": "tt13795610:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "Ломаев подкупает блогера Шмеля, и тот выпускает якобы разоблачительное видео про Витю. Новиков вспоминает, где спрятал заначку.",
+      "released": "2023-11-23"
+    },
+    {
+      "id": "tt13795610:3:9",
+      "season": 3,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "В Полярный едет проверяющий Селивёрстов — Раиса хочет дать ему взятку, но Витя против. В квартире Толи и Ирки заводятся клопы.",
+      "released": "2023-11-27"
+    },
+    {
+      "id": "tt13795610:3:10",
+      "season": 3,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "Коренные жители Севера не дают Вите строить трассу на своей земле. Коля решает фотографировать желающих вместе со змеёй.",
+      "released": "2023-11-27"
+    },
+    {
+      "id": "tt13795610:3:11",
+      "season": 3,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "Болт меняет витамины Анжелы на противозачаточные таблетки. Слава не может смириться с тем, что у Любы одна нога короче другой.",
+      "released": "2023-11-28"
+    },
+    {
+      "id": "tt13795610:3:12",
+      "season": 3,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "Коля обижается на Толю за то, что тот проводит с ним мало времени. Антонина в ярости: известный актёр выступает пьяным на сцене.",
+      "released": "2023-11-29"
+    },
+    {
+      "id": "tt13795610:3:13",
+      "season": 3,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "Витя с семьёй участвует в шоу с ведущей Идой Галич. Новиков берёт кредит на Зюзина, и того избивают коллекторы.",
+      "released": "2023-11-30"
+    },
+    {
+      "id": "tt13795610:3:14",
+      "season": 3,
+      "episode": 14,
+      "title": "Серия 14",
+      "description": "Полина хочет помирить Анжелу и Болта и просит их посидеть с Федей. Нуждин пытается понравиться психологу Алесе.",
+      "released": "2023-12-04"
+    },
+    {
+      "id": "tt13795610:3:15",
+      "season": 3,
+      "episode": 15,
+      "title": "Серия 15",
+      "description": "Раиса приглашает комика Демиса Карибидиса на торжественное событие в городе. Вместо этого гость попадает на свадьбу Любы и Славы.",
+      "released": "2023-12-05"
+    },
+    {
+      "id": "tt13795610:3:16",
+      "season": 3,
+      "episode": 16,
+      "title": "Серия 16",
+      "description": "Новиков возвращается на пост мэра. Администрация выселяет жителей из домов, а Витя и Полина собираются бежать из Полярного.",
+      "released": "2023-12-06"
+    },
+    {
+      "id": "tt13795610:3:17",
+      "season": 3,
+      "episode": 17,
+      "title": "Серия 17",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "В Полярном открывается китайский автомобильный завод. В день рождения Полины её навещает давний приятель — орнитолог Кирилл.",
+      "released": "2024-12-02"
+    },
+    {
+      "id": "tt13795610:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "Витя подозревает, что к похищению Толи и Коли причастна китайская банда «Чёрный дракон». Новиков подменяет Раису на посту мэра.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "Витя и полицейская Лю собирают собственную группировку — «Полярные олени». Из школы пропадают новые компьютеры.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "Мафиози планируют завезти в город некий товар — Витя, Лю и Болт пытаются сорвать их планы. Полина и Анжела выслеживают мужей.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "«Чёрный дракон» оставляет грозное послание «Полярным оленям». Полина едет в отпуск без Вити, а Новиков ищет новую работу.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "Витя, Болт и Лю выясняют, почему в городе нет электричества, и находят майнинговую ферму. Полина собирается развестись.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "Авторитет Олег просит Витю и Болта притвориться его друзьями перед женой. Антонина и Немоляев приходят на сеанс к Полине.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "Полицейский Пилипчук уверен, что в Полярном орудует банда. Анжела и Болт спорят, как назвать сына: Эдуард или Саша.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:9",
+      "season": 4,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "Лю задерживают, и Витя пытается её выручить. Кирилл намерен очаровать Полину, а Слава — добыть деньги, чтобы сохранить бар.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:10",
+      "season": 4,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "Новиков соглашается украсть мыло с завода. Витя и Болт специально злят Славу, чтобы подготовить его к стрелке с китайцами.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:11",
+      "season": 4,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "Коля и Толя заперты в кузове грузовика, который перевозит мыло. Болт ищет клубнику для Анжелы, а Слава теряет веру в себя.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:12",
+      "season": 4,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "Витя с компанией хотят выяснить, где находится лаборатория «Чёрного дракона». Антонина придумывает, как свести Полину и Кирилла.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:13",
+      "season": 4,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "Мафиози предлагают Вите украсть у Раисы флешку в обмен на встречу с боссом. Толя прибирается к приезду Ирки, но Коля ему мешает.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:14",
+      "season": 4,
+      "episode": 14,
+      "title": "Серия 14",
+      "description": "Лю делится с «Полярными оленями» своей тайной. Раиса вынуждена покинуть пост мэра, а Витя — скрываться от полиции.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:15",
+      "season": 4,
+      "episode": 15,
+      "title": "Серия 15",
+      "description": "Болту приходит в голову идея, как вывезти Витю из Полярного, но без помощи Анжелы не обойтись. Нуждин сжигает паспорт Раисы.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:16",
+      "season": 4,
+      "episode": 16,
+      "title": "Серия 16",
+      "description": "Новиков встречает первую любовь Свету, которая верит, что он честный человек. Витя замечает в Салехарде бандитов.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:4:17",
+      "season": 4,
+      "episode": 17,
+      "title": "Серия 17",
+      "description": "Артур делает вид, что хочет купить товар китайской мафии, но появление Нуждина всё портит. Босс «Чёрного дракона» похищает Полину.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:1",
+      "season": 5,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "В Полярном начинается строительство кластера «Царь горы». К Вите внезапно приезжают его бывшая возлюбленная Марина и сын Макс.",
+      "released": "2025-12-01"
+    },
+    {
+      "id": "tt13795610:5:2",
+      "season": 5,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "Витя сомневается, что Макс — его сын. Марина признаётся, что бандит Барабуля выходит из тюрьмы и собирается им мстить.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:3",
+      "season": 5,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "Барабуля и его подельник Лёша прибывают в город. Витя пытается отстоять кластер перед чиновником, а Толя — убедить Колю съехать.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:4",
+      "season": 5,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "У Вити проблемы: семья остаётся без жилья, а Барабуля требует миллиард рублей. Коля застревает в старом холодильнике.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:5",
+      "season": 5,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "Раиса просит влюблённого Макса купить ей необычное «Птичье молоко». Антонина проводит диктант для сотрудников полиции.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:6",
+      "season": 5,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "Витя убеждает всех, что Раиса погибла. Коля выдаёт себя за многодетного отца, чтобы получить пособие.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:7",
+      "season": 5,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "У бара Любы и Славы появляется конкурент — ресторан «Полярная звезда». Новиков предлагает Барабуле занять пост мэра.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:8",
+      "season": 5,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "Барабуля хочет закрыть стационар в городе. Люба и Марина верят, что Полине приснился вещий сон, и ведут её к экстрасенсу.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:9",
+      "season": 5,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "Пилипчук считает себя супергероем Прокуратором и пытается бороться с преступностью. Толя и Коля сообщают Вите важную информацию.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:10",
+      "season": 5,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "Макс втирается в доверие к Барабуле. Люба и Слава отдают крупную сумму незнакомцу, а у Коли во рту застревает лампочка.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:11",
+      "season": 5,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "Витя просит Барабулю не впутывать Макса в криминальные дела. Коля и Толя становятся поставщиками льда для Славиного бара.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:5:12",
+      "season": 5,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "Витя и остальные жители эвакуируются: Полярный может накрыть лавина. Барабуля собирается взломать банкоматы в пустом городе.",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:1",
+      "season": 6,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:2",
+      "season": 6,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:3",
+      "season": 6,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:4",
+      "season": 6,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:5",
+      "season": 6,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:6",
+      "season": 6,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:7",
+      "season": 6,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:8",
+      "season": 6,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:9",
+      "season": 6,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:10",
+      "season": 6,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:11",
+      "season": 6,
+      "episode": 11,
+      "title": "Серия 11",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:12",
+      "season": 6,
+      "episode": 12,
+      "title": "Серия 12",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:13",
+      "season": 6,
+      "episode": 13,
+      "title": "Серия 13",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:14",
+      "season": 6,
+      "episode": 14,
+      "title": "Серия 14",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:15",
+      "season": 6,
+      "episode": 15,
+      "title": "Серия 15",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt13795610:6:16",
+      "season": 6,
+      "episode": 16,
+      "title": "Серия 16",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    },
+    {
+      "number": 5,
+      "name": "Сезон 5"
+    },
+    {
+      "number": 6,
+      "name": "Сезон 6"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Полярный 3 сезон (2023) WEB-DL 1080p | AVC | WEBRip,",
+      "magnet": "magnet:?xt=urn:btih:e95ee0b007dbf5bbf2b45e81b25ed5d37f6aa595&dn=Polyarnyj.S03.WEB-DL.1080p.MrMittens&tr=udp://opentor.net:6969&tr=udp://tracker.openbittorrent.com:6969&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://opentracker.i2p.rocks:6969/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://exodus.desync.com:6969&tr=http://tracker.grepler.com:6969/announce&tr=udp://tracker.dler.com:6969/announce&tr=http://h4.trakx.nibba.trade:80/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.bitsearch.to:1337/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://explodie.org:6969/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://code2chicken.nl:6969/announce&tr=udp://discord.heihachi.pw:6969/announce&tr=http://vps02.net.orel.ru:80/announce&tr=http://tracker.files.fm:6969/announce",
+      "quality": "1080p",
+      "source": "JacRed · bitru",
+      "bytes": 1653562408,
+      "size": "1.54 GB",
+      "episode": 0,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный 3 сезон (2023) WEB-DL 1080p | AVC | WEBRip,"
+    },
+    {
+      "title": "Полярный [S03] (2023) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:e7e085fb013ff8c368c650643692262d558c3813&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 12799002542,
+      "size": "11.92 GB",
+      "episode": 0,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный [S03] (2023) WEBRip 1080p"
+    },
+    {
+      "title": "Полярный [03x01-04 из 16] (2023) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:d398867d84767b3c8d1e7bee29c6f4fd6145ec8a&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 3242700308,
+      "size": "3.02 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный [03x01-04 из 16] (2023) WEBRip 1080p"
+    },
+    {
+      "title": "Полярный [03x01-06 из 16] (2023) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:2fe1bfc75aad3d94b3baf242ef3d2df089f4a02d&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 4842575626,
+      "size": "4.51 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный [03x01-06 из 16] (2023) WEBRip 1080p"
+    },
+    {
+      "title": "Полярный [03x01-11 из 16] (2023) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:aa4ec9994b7ba6db89808d36e406c1cfc7440b7e&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 8665096519,
+      "size": "8.07 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 11,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный [03x01-11 из 16] (2023) WEBRip 1080p"
+    },
+    {
+      "title": "Полярный [03x01-12 из 16] (2023) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:97d53a3ae148a6c1a15007fd680f20ddc4ca8df1&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 9502615142,
+      "size": "8.85 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 12,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный [03x01-12 из 16] (2023) WEBRip 1080p"
+    },
+    {
+      "title": "Полярный [03х01-13 из 16] (2023) HDTV 1080p  от Generalfilm",
+      "magnet": "magnet:?xt=urn:btih:eb299f37cb39ae3f85d8cb04fad4977b4e6cc36f&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 15708842885,
+      "size": "14.63 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 13,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный [03х01-13 из 16] (2023) HDTV 1080p  от Generalfilm"
+    },
+    {
+      "title": "Полярный / Полярный-17 [3 сезон: 1-16 серии из 16] (2023) HDTV 1080p от Files-x",
+      "magnet": "magnet:?xt=urn:btih:23ceb6ece9275b3fc417950bb660485de1eea5a6&dn=Polyarnyy-Polyarnyy-17-3-sezon-1-16-serii-iz-16-2023-HDTV-1080p-ot-Files-x&xl=19469486424&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/95380/",
+      "quality": "1080p",
+      "source": "JacRed · torrentby",
+      "bytes": 19466939269,
+      "size": "18.13 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 16,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный / Полярный-17 [3 сезон: 1-16 серии из 16] (2023) HDTV 1080p от Files-x"
+    },
+    {
+      "title": "Полярный [03х01-04 из 16] (2023) WEBRip 720p от Files-x",
+      "magnet": "magnet:?xt=urn:btih:06161adfe06757cf808b71496826d5f06c92adc6&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 2201170739,
+      "size": "2.05 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный [03х01-04 из 16] (2023) WEBRip 720p от Files-x"
+    },
+    {
+      "title": "Полярный [04x01-04] (2024) HDTV 1080p от Files-x",
+      "magnet": "magnet:?xt=urn:btih:8e723c0006d977172dce35b940b78c01d02822fe&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 4907000135,
+      "size": "4.57 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный [04x01-04] (2024) HDTV 1080p от Files-x"
+    },
+    {
+      "title": "Полярный [04x01-06 из 17] (2024) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:5064659e8b7f110e9793e31da329e1a5277bfa0b&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 4896262717,
+      "size": "4.56 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный [04x01-06 из 17] (2024) WEBRip 1080p"
+    },
+    {
+      "title": "Полярный [04x01-08 из 17] (2024) WEBRip 1080p",
+      "magnet": "magnet:?xt=urn:btih:f39c30f62838e2cf7b17dc6f66e0470599e28158&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 6496138035,
+      "size": "6.05 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный [04x01-08 из 17] (2024) WEBRip 1080p"
+    },
+    {
+      "title": "Полярный / Сезон: 4 / Серии: 1-17 из 17 (Радик Рахимов) [2024, Россия, комедия, криминал, WEBRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:38F88B3DA60F628A66E7530CAA571FD832A6A86D&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 9373766123,
+      "size": "8.73 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 17,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный / Сезон: 4 / Серии: 1-17 из 17 (Радик Рахимов) [2024, Россия, комедия, криминал, WEBRip 720p]"
+    },
+    {
+      "title": "Полярный / Сезон: 5 / Серии: 1-12 из 12 (Авет Оганесян) [2025, Россия, комедия, криминал, WEBRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:04FBE60B5D37587FE94260558126A4F501AD510F&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 11918534246,
+      "size": "11.10 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 12,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный / Сезон: 5 / Серии: 1-12 из 12 (Авет Оганесян) [2025, Россия, комедия, криминал, WEBRip 1080p]"
+    },
+    {
+      "title": "Полярный (Полярный-17) / Сезон: 5 / Серии: 1-12 из 12 (Авет Оганесян) [2025, Комедия, HDTV 1080p]",
+      "magnet": "magnet:?xt=urn:btih:A4BA708A353DC1A5F16C5C316C7A6495F42A405A&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 14957223608,
+      "size": "13.93 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 12,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный (Полярный-17) / Сезон: 5 / Серии: 1-12 из 12 (Авет Оганесян) [2025, Комедия, HDTV 1080p]"
+    },
+    {
+      "title": "Полярный (5 сезон) [+12 серия] [Оригинал] [1080p]",
+      "magnet": "magnet:?xt=urn:btih:F59F3191329E51C0E0E3E220E742EF56C2614535&xl=16726166735&dn=Polyarnyy.S05.WEB-DL.1080p.torrent&tr=http%3A%2F%2Fultradox.studio%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.fatkhoala.org%3A13760%2Fannounce&tr=udp%3A%2F%2Ftracker.tallpenguin.org%3A15790%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce",
+      "quality": "1080p",
+      "source": "JacRed · ultradox",
+      "bytes": 16728897617,
+      "size": "15.58 GB",
+      "episode": 0,
+      "episodeFrom": 12,
+      "episodeTo": 12,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный (5 сезон) [+12 серия] [Оригинал] [1080p]"
+    },
+    {
+      "title": "Полярный (Полярный-17) (5 сезон: 1-12 серии из 12) / 2025 / РУ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:5722ABDDFFC6A2B46DB1CD192B6F9A10BC01A9FC",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 7838315315,
+      "size": "7.30 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 12,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Полярный (Полярный-17) (5 сезон: 1-12 серии из 12) / 2025 / РУ / WEB-DL (720p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-24T10:21:08Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt13795610/img",
+    "background": "https://live.metahub.space/background/medium/tt13795610/img"
+  }
+}

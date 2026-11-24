@@ -1,0 +1,86 @@
+{
+  "id": "tt6952604",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e2d64f12adae71b1627f205457327c30a1e74ad5d775263089830d5c74b2c636.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4411875d26828d71e4bbab35f8372a239b79f395afb0d710b241c85fcb7da71b.jpg",
+  "genres": [
+    "Драма"
+  ],
+  "runtime": "116 мин",
+  "imdbRating": "7.4",
+  "releaseInfo": "2017",
+  "trailers": [],
+  "name": "Аритмия",
+  "description": "Олег — талантливый врач скорой помощи, который отдаёт все силы работе. Его жена Катя — тоже врач, она работает в приёмном отделении больницы. Постепенно супруги отдаляются, Олег начинает злоупотреблять алкоголем из-за стресса, и Катя решает развестись. Вскоре у мужчины начинаются проблемы на работе из-за нового начальника, который печётся только о статистике и правилах.",
+  "aliases": [
+    "Аритмия",
+    "Arrhythmia"
+  ],
+  "kpId": 992605,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt6952604.json",
+    "https://www.kinopoisk.ru/film/992605/"
+  ],
+  "year": "2017",
+  "imdbId": "tt6952604",
+  "ids": [
+    "tt6952604"
+  ],
+  "originalName": "Arrhythmia",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-24T10:22:31Z",
+  "sources": [
+    {
+      "title": "Аритмия (Борис Хлебников) [2017, Россия, мелодрама, драма, WEB-DL 1080p]",
+      "magnet": "magnet:?xt=urn:btih:AD658EA291749F18F79192FB26C8FDB9725DB7C3&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 7902739824,
+      "size": "7.36 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Аритмия (Борис Хлебников) [2017, Россия, мелодрама, драма, WEB-DL 1080p]"
+    },
+    {
+      "title": "Аритмия (Борис Хлебников) [2017, Россия, мелодрама, драма, WEB-DL 1080p]",
+      "magnet": "magnet:?xt=urn:btih:856FF5C3931021074E13D44F15C154CF1DA73634&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 4810363371,
+      "size": "4.48 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Аритмия (Борис Хлебников) [2017, Россия, мелодрама, драма, WEB-DL 1080p]"
+    },
+    {
+      "title": "Аритмия (Борис Хлебников) [2017, Россия, мелодрама, драма, WEB-DL 720p] Original Rus",
+      "magnet": "magnet:?xt=urn:btih:E7CC3DB6F4F6E7BFAF43F96B9AD04FA19998EA44&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 3843995729,
+      "size": "3.58 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Аритмия (Борис Хлебников) [2017, Россия, мелодрама, драма, WEB-DL 720p] Original Rus"
+    },
+    {
+      "title": "Аритмия / 2017 / РУ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:1FD39F0560B7B67214011BD38F06A1CE9A768337",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 3843995729,
+      "size": "3.58 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Аритмия / 2017 / РУ / WEB-DL (720p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-24T10:21:08Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt6952604/img",
+    "background": "https://images.metahub.space/background/medium/tt6952604/img"
+  }
+}

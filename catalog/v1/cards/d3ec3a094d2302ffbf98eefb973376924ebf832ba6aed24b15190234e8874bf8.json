@@ -1,0 +1,76 @@
+{
+  "id": "tt14129116",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4410046f6940ecb1cf1a3fdebcb21077069b3e2546ff739b5a1ad38503add208.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/43e096bca7cfe7b6deb2ae4936ed55365e78db8ee1b1907b650da9c9dcb782fc.jpg",
+  "genres": [
+    "Биография",
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "106 мин",
+  "imdbRating": "",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "2AMYg6UmmjM",
+      "type": "Trailer"
+    },
+    {
+      "source": "IzFgGhFrx0o",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Последнее убийство мистера Рипли",
+  "description": "фильм Антона Корбейна (2026)",
+  "origin": "other",
+  "aliases": [
+    "Последнее убийство мистера Рипли",
+    "A Talent for Murder",
+    "Талант к убийству",
+    "Switzerland"
+  ],
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt14129116.json",
+    "https://www.wikidata.org/wiki/Q131935663"
+  ],
+  "metadataLicense": "CC0 (Wikidata labels and descriptions)",
+  "imdbId": "tt14129116",
+  "ids": [
+    "tt14129116"
+  ],
+  "originalName": "A Talent for Murder",
+  "year": "2026",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-24T10:22:31Z",
+  "sources": [
+    {
+      "title": "Последнее убийство мистера Рипли / A Talent for Murder (2026) WEB-DL [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:8973022CF02B001BF6D2CEDA2A5634BDDFD66955",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 8203387535,
+      "size": "7.64 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Последнее убийство мистера Рипли / A Talent for Murder (2026) WEB-DL [H.264/1080p] [MVO]"
+    },
+    {
+      "title": "Последнее убийство мистера Рипли / A Talent for Murder (2026) WEB-DL [H.264/720p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:D0D31F4F6CFBF3C8BCD3BAF320CDC644E9386058",
+      "quality": "720p",
+      "source": "JacRed · nnmclub",
+      "bytes": 4713726607,
+      "size": "4.39 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Последнее убийство мистера Рипли / A Talent for Murder (2026) WEB-DL [H.264/720p] [MVO]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-24T10:21:08Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt14129116/img",
+    "background": "https://images.metahub.space/background/medium/tt14129116/img"
+  }
+}

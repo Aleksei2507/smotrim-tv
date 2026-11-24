@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795488914,
-  "updatedAt": "2026-11-24T02:53:46Z",
+  "revision": 1795515752,
+  "updatedAt": "2026-11-24T10:22:31Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,182 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt6952604",
+      "ids": [
+        "tt6952604"
+      ],
+      "imdbId": "tt6952604",
+      "name": "Аритмия",
+      "type": "movie",
+      "year": "2017",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e2d64f12adae71b1627f205457327c30a1e74ad5d775263089830d5c74b2c636.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4411875d26828d71e4bbab35f8372a239b79f395afb0d710b241c85fcb7da71b.jpg",
+      "description": "Олег — талантливый врач скорой помощи, который отдаёт все силы работе. Его жена Катя — тоже врач, она работает в приёмном отделении больницы. Постепенно супруги отдаляются, Олег начинает злоупотреблять алкоголем из-за стресса, и Катя решает развестись. Вскоре у мужчины начинаются проблемы на рабо…",
+      "originalName": "Arrhythmia",
+      "aliases": [
+        "Аритмия",
+        "Arrhythmia"
+      ],
+      "genres": [
+        "Драма"
+      ],
+      "imdbRating": "7.4",
+      "runtime": "116 мин",
+      "card": "cards/bb83bc05330b672979969092c642f831ce154796a9f92628ff792376600a07a6.json",
+      "sha256": "bb83bc05330b672979969092c642f831ce154796a9f92628ff792376600a07a6",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt13795610",
+      "ids": [
+        "tt13795610"
+      ],
+      "imdbId": "tt13795610",
+      "name": "Полярный",
+      "type": "series",
+      "year": "2019",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/caa93695bcb488252479eb0a492131dfdcd1d0ad08dcdbd4211a0c375c1f30dc.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/2e0aadb338371f3be6cab09b58452635b98010e3aaf0c80c75c38e172793ef63.jpg",
+      "description": "Известный в середине 90-х бандит Витя Мясник, давно отошедший от дел и владеющий  экофермой, по просьбе бывшего подельника согласился передержать на своём офшорном банковском счёте воровской общак. Когда же пришло время возвращать деньги, волей обстоятельств Витя забыл пароль от счёта. Понимая, ч…",
+      "originalName": "The Territory",
+      "aliases": [
+        "Полярный",
+        "The Territory"
+      ],
+      "genres": [
+        "Комедия"
+      ],
+      "imdbRating": "6.1",
+      "card": "cards/38d105583ff2fcc9c4042ae016cec7efcc2d489c7b1610dfdfeba8b70935eea4.json",
+      "sha256": "38d105583ff2fcc9c4042ae016cec7efcc2d489c7b1610dfdfeba8b70935eea4",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt12324366",
+      "ids": [
+        "tt12324366"
+      ],
+      "imdbId": "tt12324366",
+      "name": "Перси Джексон и Олимпийцы",
+      "type": "series",
+      "year": "2023",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/78d3346e41acc8e925cff83d85d0fab2521b2fa13b3552480971c56411b5f4e9.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c6a5a3b3b2cc910059bb70f2a723fe20a2eec5d16dd2d9a6996ba451a826a591.jpg",
+      "description": "Греческий бог Зевс обвиняет двенадцатилетнего полубога Перси Джексона в похищении молний.",
+      "originalName": "Percy Jackson and the Olympians",
+      "aliases": [
+        "Перси Джексон и Олимпийцы",
+        "Percy Jackson and the Olympians"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Семейный"
+      ],
+      "imdbRating": "7.0",
+      "runtime": "40 мин",
+      "card": "cards/8b6b93ced910e3311d79ca068ab5e9f9b21ed3d7c7412989da4a6211fc11c870.json",
+      "sha256": "8b6b93ced910e3311d79ca068ab5e9f9b21ed3d7c7412989da4a6211fc11c870",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1951264",
+      "ids": [
+        "tt1951264"
+      ],
+      "imdbId": "tt1951264",
+      "name": "Голодные игры: И вспыхнет пламя",
+      "type": "movie",
+      "year": "2013",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/321b73a98f3c0c0d73aa5509958afc3bb8606d9a48cf5f6d4e44a9b769c05f0d.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/724c9a00635d558fb08d6e389ec16ccf20bbebd628a421b2045b3e6522a5a734.jpg",
+      "description": "Сумев выжить на безжалостных Голодных играх, Китнисс Эвердин и Пит Мелларк возвращаются домой. Но теперь они в еще большей опасности, так как своим отказом играть по правилам на Арене бросили вызов Капитолию. По традиции следующие, юбилейные, Голодные игры должны стать особенными, и в этот раз в…",
+      "originalName": "The Hunger Games: Catching Fire",
+      "aliases": [
+        "Голодные игры: И вспыхнет пламя",
+        "The Hunger Games: Catching Fire"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Мелодрама"
+      ],
+      "imdbRating": "7.5",
+      "runtime": "146 мин",
+      "card": "cards/4675a52388c68b753b71771f0353e92887a863473ede6b5083e78e8ebd21d447.json",
+      "sha256": "4675a52388c68b753b71771f0353e92887a863473ede6b5083e78e8ebd21d447",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt37849978",
+      "ids": [
+        "tt37849978"
+      ],
+      "imdbId": "tt37849978",
+      "name": "Дополнительное время",
+      "type": "movie",
+      "year": "2026",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/343ef2cb9c3cdd637c0603dc30d74863358fecbb3b9a00a30b6e961c66d22c23.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e4451eb5125e8610bf9d26b180b6d8fa2ee2c19d5fc3111f80fc0f89963528df.jpg",
+      "description": "Сводные братья Женька и Тёма недолюбливают друг друга, несмотря на игру в одной хоккейной команде и жизнь под одной крышей. Профессор Максим Муромцев, он же отец Тёмы, работает над машиной времени. Оказавшись в его лаборатории, ребята случайно переносятся в 1999 год, где встречают 12-летнего Вади…",
+      "originalName": "Extra Time",
+      "aliases": [
+        "Дополнительное время",
+        "Extra Time"
+      ],
+      "genres": [
+        "Семейный",
+        "Приключения"
+      ],
+      "imdbRating": "4.5",
+      "runtime": "92 мин",
+      "card": "cards/9da81529a1204b27bdbaab2128dad16032771dda1bf93c4f26f1cc305784a8f4.json",
+      "sha256": "9da81529a1204b27bdbaab2128dad16032771dda1bf93c4f26f1cc305784a8f4",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt14129116",
+      "ids": [
+        "tt14129116"
+      ],
+      "imdbId": "tt14129116",
+      "name": "Последнее убийство мистера Рипли",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4410046f6940ecb1cf1a3fdebcb21077069b3e2546ff739b5a1ad38503add208.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/43e096bca7cfe7b6deb2ae4936ed55365e78db8ee1b1907b650da9c9dcb782fc.jpg",
+      "description": "фильм Антона Корбейна (2026)",
+      "originalName": "A Talent for Murder",
+      "aliases": [
+        "Последнее убийство мистера Рипли",
+        "A Talent for Murder",
+        "Талант к убийству",
+        "Switzerland"
+      ],
+      "genres": [
+        "Биография",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "",
+      "runtime": "106 мин",
+      "card": "cards/d3ec3a094d2302ffbf98eefb973376924ebf832ba6aed24b15190234e8874bf8.json",
+      "sha256": "d3ec3a094d2302ffbf98eefb973376924ebf832ba6aed24b15190234e8874bf8",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt35856037",
       "ids": [
@@ -35,8 +211,8 @@
       ],
       "imdbRating": "",
       "runtime": "112 мин",
-      "card": "cards/512c7e3b187d97b67aeaaa04c0585bf15d10d93538e671e6a6d34125f93d03b7.json",
-      "sha256": "512c7e3b187d97b67aeaaa04c0585bf15d10d93538e671e6a6d34125f93d03b7",
+      "card": "cards/07c9a81646f3b6c2e184101c56e77834a894b5bdc5dfea3a450c6019c3e26065.json",
+      "sha256": "07c9a81646f3b6c2e184101c56e77834a894b5bdc5dfea3a450c6019c3e26065",
       "localized": true,
       "provider": "github"
     },
@@ -1307,8 +1483,8 @@
       ],
       "imdbRating": "8.5",
       "runtime": "131 мин",
-      "card": "cards/dba8c45aab2a1fbb251e2042568e36a859e6b1b9b8b9f44bf05698a72b33eef4.json",
-      "sha256": "dba8c45aab2a1fbb251e2042568e36a859e6b1b9b8b9f44bf05698a72b33eef4",
+      "card": "cards/6c74b5704a1c3c3d2727d4555eb5af70a9d62d861e37319702967f4635aa5692.json",
+      "sha256": "6c74b5704a1c3c3d2727d4555eb5af70a9d62d861e37319702967f4635aa5692",
       "localized": true,
       "provider": "github"
     },
@@ -1634,8 +1810,8 @@
       ],
       "imdbRating": "7.7",
       "runtime": "91 мин",
-      "card": "cards/5481a0622b5b429298ced3e1e80f851bb73d972fd258117e52a8c0121d801952.json",
-      "sha256": "5481a0622b5b429298ced3e1e80f851bb73d972fd258117e52a8c0121d801952",
+      "card": "cards/19b2ace5c624bb10ea4b49cf2f0fce7c54fc9da41de049a25981cdb34edfe109.json",
+      "sha256": "19b2ace5c624bb10ea4b49cf2f0fce7c54fc9da41de049a25981cdb34edfe109",
       "localized": true,
       "provider": "github"
     },
@@ -1694,8 +1870,8 @@
       ],
       "imdbRating": "",
       "runtime": "117 мин",
-      "card": "cards/8d4fa710a1a5bdf06fa9faf7333e003e39b1e65326af334e628fb8bb219e88e1.json",
-      "sha256": "8d4fa710a1a5bdf06fa9faf7333e003e39b1e65326af334e628fb8bb219e88e1",
+      "card": "cards/671c408e9adf80100a8ef8e865ffee0881197e4aff63e34c51b023878f7eb28c.json",
+      "sha256": "671c408e9adf80100a8ef8e865ffee0881197e4aff63e34c51b023878f7eb28c",
       "localized": true,
       "provider": "github"
     },
@@ -1904,8 +2080,8 @@
       ],
       "imdbRating": "6.5",
       "runtime": "100 мин",
-      "card": "cards/b02f4be384cb14c68a7826c529c7f6f084720d2969e478768b5fe5577ba523d9.json",
-      "sha256": "b02f4be384cb14c68a7826c529c7f6f084720d2969e478768b5fe5577ba523d9",
+      "card": "cards/926f483d11a1049564a935f80f8e0f3ac87aeea083ad3edc9a5e7590586d3510.json",
+      "sha256": "926f483d11a1049564a935f80f8e0f3ac87aeea083ad3edc9a5e7590586d3510",
       "localized": true,
       "provider": "github"
     },
@@ -1963,8 +2139,8 @@
       ],
       "imdbRating": "7.4",
       "runtime": "92 мин",
-      "card": "cards/21f8b8c197f2354647d418dd52c3345eb76b78586c61aea12fe29297af9cc0dc.json",
-      "sha256": "21f8b8c197f2354647d418dd52c3345eb76b78586c61aea12fe29297af9cc0dc",
+      "card": "cards/3200a980dda7ab8da00ecfc7ba35ba217c862e3050a11d8e1b8ee853c4479c79.json",
+      "sha256": "3200a980dda7ab8da00ecfc7ba35ba217c862e3050a11d8e1b8ee853c4479c79",
       "localized": true,
       "provider": "github"
     },

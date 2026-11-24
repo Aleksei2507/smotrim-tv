@@ -1,0 +1,65 @@
+{
+  "id": "tt37849978",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/343ef2cb9c3cdd637c0603dc30d74863358fecbb3b9a00a30b6e961c66d22c23.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e4451eb5125e8610bf9d26b180b6d8fa2ee2c19d5fc3111f80fc0f89963528df.jpg",
+  "genres": [
+    "Семейный",
+    "Приключения"
+  ],
+  "runtime": "92 мин",
+  "imdbRating": "4.5",
+  "releaseInfo": "2026",
+  "trailers": [],
+  "name": "Дополнительное время",
+  "description": "Сводные братья Женька и Тёма недолюбливают друг друга, несмотря на игру в одной хоккейной команде и жизнь под одной крышей. Профессор Максим Муромцев, он же отец Тёмы, работает над машиной времени. Оказавшись в его лаборатории, ребята случайно переносятся в 1999 год, где встречают 12-летнего Вадима Шипачёва — будущего звёздного хоккеиста и главного кумира Женьки. Теперь ребята должны успеть помочь Вадиму поверить в себя и следовать мечте до того, как они смогут вернуться в настоящее, чтобы привести свою команду к победе.",
+  "aliases": [
+    "Дополнительное время",
+    "Extra Time"
+  ],
+  "kpId": 8655014,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt37849978.json",
+    "https://www.kinopoisk.ru/film/8655014/"
+  ],
+  "year": "2026",
+  "imdbId": "tt37849978",
+  "ids": [
+    "tt37849978"
+  ],
+  "originalName": "Extra Time",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-24T10:22:31Z",
+  "sources": [
+    {
+      "title": "Дополнительное время / 2026 / РУ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:6060656640C524560AE8C8D07D9D582D270898CE",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 3285649981,
+      "size": "3.06 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Дополнительное время / 2026 / РУ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Дополнительное время (Руслан Бальтцер) [2026, Россия, семейный, приключения, спорт, фантастика, WEB-DL 1080p] Original Rus",
+      "magnet": "magnet:?xt=urn:btih:39CE68B97C76BED808391CA1F4C7032BD77F23B5&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 3017214525,
+      "size": "2.81 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Дополнительное время (Руслан Бальтцер) [2026, Россия, семейный, приключения, спорт, фантастика, WEB-DL 1080p] Original Rus"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-24T10:21:08Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt37849978/img",
+    "background": "https://live.metahub.space/background/medium/tt37849978/img"
+  }
+}
