@@ -1,0 +1,901 @@
+{
+  "id": "tt9288030",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/86bc1c29fe9d734b412d989636e1b2bfc5bdb6a43b4839c9f661941c034192a3.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/600725c5900c43280e75ea70d94dfcd77fd6c4c514a3a2a29f87abd26a8878be.jpg",
+  "genres": [
+    "Боевик",
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "49 мин",
+  "imdbRating": "8.0",
+  "releaseInfo": "2022–",
+  "trailers": [
+    {
+      "source": "GSycMV-_Csw",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Джек Ричер",
+  "description": "Джек Ричер, бывший майор военной полиции, посещает небольшой городок, где его арестовывают по подозрению в убийстве. Вскоре местные полицейские понимают, что этот здоровяк с опасной внешностью совсем не тот, кого они ищут, и Ричер предлагает им помощь в поисках настоящих убийц.",
+  "aliases": [
+    "Джек Ричер",
+    "Reacher"
+  ],
+  "kpId": 1209839,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/1209839/"
+  ],
+  "year": "2022",
+  "imdbId": "tt9288030",
+  "ids": [
+    "tt9288030"
+  ],
+  "originalName": "Reacher",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-24T02:53:46Z",
+  "videos": [
+    {
+      "id": "tt9288030:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Добро пожаловать в Маргрейв",
+      "description": "",
+      "released": "2022-02-04"
+    },
+    {
+      "id": "tt9288030:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Первый танец",
+      "description": "",
+      "released": "2022-02-04"
+    },
+    {
+      "id": "tt9288030:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Полная ложка",
+      "description": "",
+      "released": "2022-02-04"
+    },
+    {
+      "id": "tt9288030:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "В дереве",
+      "description": "",
+      "released": "2022-02-04"
+    },
+    {
+      "id": "tt9288030:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Без извинений",
+      "description": "",
+      "released": "2022-02-04"
+    },
+    {
+      "id": "tt9288030:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Бумага",
+      "description": "",
+      "released": "2022-02-04"
+    },
+    {
+      "id": "tt9288030:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Ричер ничего не сказал",
+      "description": "",
+      "released": "2022-02-04"
+    },
+    {
+      "id": "tt9288030:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Пирог",
+      "description": "",
+      "released": "2022-02-04"
+    },
+    {
+      "id": "tt9288030:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2023-12-15"
+    },
+    {
+      "id": "tt9288030:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2023-12-15"
+    },
+    {
+      "id": "tt9288030:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2023-12-15"
+    },
+    {
+      "id": "tt9288030:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2023-12-22"
+    },
+    {
+      "id": "tt9288030:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2023-12-29"
+    },
+    {
+      "id": "tt9288030:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-01-05"
+    },
+    {
+      "id": "tt9288030:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2024-01-12"
+    },
+    {
+      "id": "tt9288030:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2024-01-19"
+    },
+    {
+      "id": "tt9288030:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-02-20"
+    },
+    {
+      "id": "tt9288030:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-02-20"
+    },
+    {
+      "id": "tt9288030:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-02-20"
+    },
+    {
+      "id": "tt9288030:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-02-27"
+    },
+    {
+      "id": "tt9288030:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-03-06"
+    },
+    {
+      "id": "tt9288030:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-03-13"
+    },
+    {
+      "id": "tt9288030:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2025-03-20"
+    },
+    {
+      "id": "tt9288030:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2025-03-27"
+    },
+    {
+      "id": "tt9288030:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-08-12"
+    },
+    {
+      "id": "tt9288030:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-08-12"
+    },
+    {
+      "id": "tt9288030:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-08-12"
+    },
+    {
+      "id": "tt9288030:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-08-19"
+    },
+    {
+      "id": "tt9288030:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-08-26"
+    },
+    {
+      "id": "tt9288030:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-09-02"
+    },
+    {
+      "id": "tt9288030:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-09-09"
+    },
+    {
+      "id": "tt9288030:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-09-16"
+    },
+    {
+      "id": "tt9288030:5:1",
+      "season": 5,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2027-01-01"
+    },
+    {
+      "id": "tt9288030:6:1",
+      "season": 6,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    },
+    {
+      "number": 5,
+      "name": "Сезон 5"
+    },
+    {
+      "number": 6,
+      "name": "Сезон 6"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Джек Ричер / Reacher [S01] (2022) BDRip 1080p | HDrezka Studio, LostFilm",
+      "magnet": "magnet:?xt=urn:btih:e7899cb8718ae4c3ee4a1e532a0ddab8c925fd05&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 29871497543,
+      "size": "27.82 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher [S01] (2022) BDRip 1080p | HDrezka Studio, LostFilm"
+    },
+    {
+      "title": "Джек Ричер / Reacher [S01] (2022) WEB-DL 1080p | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:3f4070e736e4b316263d83e15f050ca88137069c&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 28464895754,
+      "size": "26.51 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher [S01] (2022) WEB-DL 1080p | HDrezka Studio"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 1 / Серии: 1-8 из 8 (Норберто Барба, М. Дж. Бассетт, Сэм Хилл) [2022, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] 2 x MVO (LostFilm, HDRezka Studio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:051BA1F62B632E93EACA8CBA307B36F77886800D&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 29592324669,
+      "size": "27.56 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 1 / Серии: 1-8 из 8 (Норберто Барба, М. Дж. Бассетт, Сэм Хилл) [2022, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] 2 x MVO (LostFilm, HDRezka Studio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 1 / Серии: 1-8 из 8 (Норберто Барба) [2022, США, боевик, триллер, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:EC9319DB2D2EE7AC9CE2DA5FB2B50D4223334D68&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 29033978920,
+      "size": "27.04 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 1 / Серии: 1-8 из 8 (Норберто Барба) [2022, США, боевик, триллер, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher [S01] (2022) WEB-DL-HEVC 2160p | 4K | HDR | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:009965681ee995b3b713a964416765008c432800&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 44860933406,
+      "size": "41.78 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher [S01] (2022) WEB-DL-HEVC 2160p | 4K | HDR | HDrezka Studio"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 1 / Серии: 1-8 из 8 (Норберто Барба, М. Дж. Бассетт, Сэм Хилл, Омар Мадха, Кристин Мур) [2022, США, боевик, триллер, драма, криминал, HDR10, WEB-DL 2160p, 4k] 2 x MVO (LostFilm, HDrezka Studio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:18631BCED3EDA1BE8FCDD4E16C486FDBE0D0CBB8&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 45988362321,
+      "size": "42.83 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 1 / Серии: 1-8 из 8 (Норберто Барба, М. Дж. Бассетт, Сэм Хилл, Омар Мадха, Кристин Мур) [2022, США, боевик, триллер, драма, криминал, HDR10, WEB-DL 2160p, 4k] 2 x MVO (LostFilm, HDrezka Studio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher (2022) UHD WEB-DLRip [AV1/2160p] [4K, HDR10, DV Profile 10.1, 10-bit] (сезон 1, серии 1-8 из 8) HDRezka",
+      "magnet": "magnet:?xt=urn:btih:B3B3FA092217756C85BBD9F329E18A09F21DDCD6",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 11489037516,
+      "size": "10.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher (2022) UHD WEB-DLRip [AV1/2160p] [4K, HDR10, DV Profile 10.1, 10-bit] (сезон 1, серии 1-8 из 8) HDRezka"
+    },
+    {
+      "title": "Джек Ричер / Jack Reacher [S01] (2022) WEB-DL 720p | BaibaKo",
+      "magnet": "magnet:?xt=urn:btih:2bd65dca0898458701070f39954e47ced0188932&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 10952166604,
+      "size": "10.20 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Jack Reacher [S01] (2022) WEB-DL 720p | BaibaKo"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 1 / Серии: 1-8 из 8 (Норберто Барба) [2022, США, боевик, триллер, драма, криминал, WEB-DL 720p] MVO (HDrezka Studio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:971F2455416E157784D752F2538262A21413185C&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 13024488325,
+      "size": "12.13 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 1 / Серии: 1-8 из 8 (Норберто Барба) [2022, США, боевик, триллер, драма, криминал, WEB-DL 720p] MVO (HDrezka Studio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 1 / Серии: 1-8 из 8 (Норберто Барба) [2022, США, боевик, триллер, драма, криминал, WEB-DL 720p] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:437DC307E87CF433067735BB8154BD1583A1516D&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 12831214796,
+      "size": "11.95 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 1 / Серии: 1-8 из 8 (Норберто Барба) [2022, США, боевик, триллер, драма, криминал, WEB-DL 720p] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher [S02] (2023) WEB-DL 1080p | P | LostFilm, HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:b385015aac7c7810018e7454c7adda34f389864e&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 26124138577,
+      "size": "24.33 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher [S02] (2023) WEB-DL 1080p | P | LostFilm, HDRezka Studio"
+    },
+    {
+      "title": "Джек Ричер / Reacher [S02] (2023) BDRip-HEVC 1080p | TVShows, HDrezka Studio, LostFilm",
+      "magnet": "magnet:?xt=urn:btih:719042eb2cc35197cc00c3340ff9b5e6d062feed&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 18897856102,
+      "size": "17.60 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher [S02] (2023) BDRip-HEVC 1080p | TVShows, HDrezka Studio, LostFilm"
+    },
+    {
+      "title": "Джек Ричер / Reacher [02x01-03 из 08] (2023) WEB-DL 1080p | P, L | HDRezka Studio, ColdFilm",
+      "magnet": "magnet:?xt=urn:btih:7115d09bbdd72f2cced59300898ce60c3f3a4913&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 9932111872,
+      "size": "9.25 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher [02x01-03 из 08] (2023) WEB-DL 1080p | P, L | HDRezka Studio, ColdFilm"
+    },
+    {
+      "title": "Джек Ричер (Ричер) (2 сезон: 1-3 серии из 8) / Reacher (Jack Reacher) / 2023 / ПМ (LostFilm, HDRezka), ЛМ (ColdFilm), СТ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:FB31FC1AE994A54748D368BC92CB0B47B1C36F02",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 10232759582,
+      "size": "9.53 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер (Ричер) (2 сезон: 1-3 серии из 8) / Reacher (Jack Reacher) / 2023 / ПМ (LostFilm, HDRezka), ЛМ (ColdFilm), СТ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Джек Ричер / Reacher [02x01-04 из 08] (2023) WEB-DL 1080p | P, L | LostFilm, HDRezka Studio, TVShows, ColdFilm",
+      "magnet": "magnet:?xt=urn:btih:3f1947a82d79564945e964e60c6450732eef5754&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 14291503677,
+      "size": "13.31 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 4,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher [02x01-04 из 08] (2023) WEB-DL 1080p | P, L | LostFilm, HDRezka Studio, TVShows, ColdFilm"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 2 / Серии: 1-8 из 8 (Сэм Хилл, Омар Мадха, Кэрол Бенкер) [2023, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] 3 x MVO (HDrezka Studio, LostFilm, TVShows) + Original + Sub (Rus, Ukr, Eng, Heb)",
+      "magnet": "magnet:?xt=urn:btih:E855098F7CBBAD5EF4BDF59605BD15BC3FDFC3E8&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 25082609008,
+      "size": "23.36 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 2 / Серии: 1-8 из 8 (Сэм Хилл, Омар Мадха, Кэрол Бенкер) [2023, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] 3 x MVO (HDrezka Studio, LostFilm, TVShows) + Original + Sub (Rus, Ukr, Eng, Heb)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 2 / Серии: 1-8 из 8 (Сэм Хилл, Омар Мадха, Кэрол Бенкер) [2023, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:8F27A4D9971B4C6CEC0B05A9EF3E3D7366FB229B&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 23998129766,
+      "size": "22.35 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 2 / Серии: 1-8 из 8 (Сэм Хилл, Омар Мадха, Кэрол Бенкер) [2023, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер 2 сезон (1-8 из 8) / Ричер / Reacher / Jack Reacher (2023) WEB-DL 2160p | HEVC | SDR, 8-bit | от Atla22® @ TVShows, HDRezka и др.",
+      "magnet": "magnet:?xt=urn:btih:1d7609202cf35f849e707c11ace79d52b8bab7a5&dn=Джек Ричер. 2 сезон. 2023 (HEVC.SDR.WEB-DL 2160p)&tr=http://bt02.nnm-club.cc:2710/00ae0dc6d2d1a3c84bdeeb33359b366d/announce&tr=http://bt02.nnm-club.info:2710/00ae0dc6d2d1a3c84bdeeb33359b366d/announce&tr=http://[2a01:d0:a580:1::2]:2710/00ae0dc6d2d1a3c84bdeeb33359b366d/announce&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:6969/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=http://bvarf.tracker.sh:2086/announce&tr=http://open.acgnxtracker.com:80/announce&tr=http://tracker.files.fm:6969/announce&tr=https://tracker.tamersunion.org:443/announce",
+      "quality": "4K",
+      "source": "JacRed · bitru",
+      "bytes": 44001939947,
+      "size": "40.98 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер 2 сезон (1-8 из 8) / Ричер / Reacher / Jack Reacher (2023) WEB-DL 2160p | HEVC | SDR, 8-bit | от Atla22® @ TVShows, HDRezka и др."
+    },
+    {
+      "title": "Джек Ричер (Ричер) (2 сезон: 1-3 серии из 8) / Reacher (Jack Reacher) / 2023 / ПМ (HDRezka Studio), СТ / 4K, HEVC, HDR, HDR10+, DV P8 / WEB-DL (2160p)",
+      "magnet": "magnet:?xt=urn:btih:14D2DF0C2B6EB938C7BF26D6EB2EF0079283C50C",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 16524886671,
+      "size": "15.39 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер (Ричер) (2 сезон: 1-3 серии из 8) / Reacher (Jack Reacher) / 2023 / ПМ (HDRezka Studio), СТ / 4K, HEVC, HDR, HDR10+, DV P8 / WEB-DL (2160p)"
+    },
+    {
+      "title": "Джек Ричер (Ричер) (2 сезон: 1-3 серии из 8) / Reacher (Jack Reacher) / 2023 / ПМ (HDRezka Studio), СТ / 4K, HEVC, SDR / WEB-DL (2160p)",
+      "magnet": "magnet:?xt=urn:btih:DF4CC21419B7AE6920798C3C7669883FBCE92D3B",
+      "quality": "4K",
+      "source": "JacRed · kinozal",
+      "bytes": 16642998272,
+      "size": "15.50 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер (Ричер) (2 сезон: 1-3 серии из 8) / Reacher (Jack Reacher) / 2023 / ПМ (HDRezka Studio), СТ / 4K, HEVC, SDR / WEB-DL (2160p)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 2 / Серии: 1-8 из 8 (Сэм Хилл, Омар Мадха, Кэрол Бенкер) [2023, США, Боевик, триллер, драма, криминал, Dolby Vision, HDR10+, HDR10, WEB-DL 2160p, 4k] [Hybrid] 3 x MVO (LostFilm, HDRezka, TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:2D3EE351606F2FED98A63B1A4D63013E747608B3&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 42316165283,
+      "size": "39.41 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 2 / Серии: 1-8 из 8 (Сэм Хилл, Омар Мадха, Кэрол Бенкер) [2023, США, Боевик, триллер, драма, криминал, Dolby Vision, HDR10+, HDR10, WEB-DL 2160p, 4k] [Hybrid] 3 x MVO (LostFilm, HDRezka, TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 2 / Серии: 1-8 из 8 (Сэм Хилл, Омар Мадха, Кэрол Бенкер) [2023, США, Боевик, триллер, драма, криминал, SDR, WEB-DL 2160p, 4k] 3 x MVO (LostFilm, HDRezka, TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C58F3B4E052B2ED1B13E39D85C9434DB998B03A2&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 42627550412,
+      "size": "39.70 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 2 / Серии: 1-8 из 8 (Сэм Хилл, Омар Мадха, Кэрол Бенкер) [2023, США, Боевик, триллер, драма, криминал, SDR, WEB-DL 2160p, 4k] 3 x MVO (LostFilm, HDRezka, TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер 2 сезон (1-8 из 8) / Ричер / Reacher / Jack Reacher (2023) WEB-DL 720p | AVC @ HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:cf32abd731e460e30432e04048956bbb1e250ff3&dn=Reacher.S02.720p&tr=http://tr0.torrent4me.com/ann?uk=mBpuZmTLii&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:6969/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=http://bvarf.tracker.sh:2086/announce&tr=http://open.acgnxtracker.com:80/announce&tr=http://tracker.files.fm:6969/announce&tr=https://tracker.tamersunion.org:443/announce",
+      "quality": "720p",
+      "source": "JacRed · bitru",
+      "bytes": 10608569221,
+      "size": "9.88 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер 2 сезон (1-8 из 8) / Ричер / Reacher / Jack Reacher (2023) WEB-DL 720p | AVC @ HDRezka Studio"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 2 / Серии: 1-8 из 8 (Сэм Хилл) [2023, США, боевик, триллер, драма, криминал, WEB-DL 720p] MVO (LostFilm) + MVO (TVShows) + MVO (HDRezka) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:69C667AA2C6A5A42E0CDE8A8C98572A5214879F7&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 12229919375,
+      "size": "11.39 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 2 / Серии: 1-8 из 8 (Сэм Хилл) [2023, США, боевик, триллер, драма, криминал, WEB-DL 720p] MVO (LostFilm) + MVO (TVShows) + MVO (HDRezka) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер (Ричер) (1-3 сезоны: 1-24 серии из 24) / Reacher (Jack Reacher) / 2022-2025 / ПМ (LostFilm), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:7D41393390C71D016ED1EDD05D2BA2E6450851CF",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 34617436405,
+      "size": "32.24 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер (Ричер) (1-3 сезоны: 1-24 серии из 24) / Reacher (Jack Reacher) / 2022-2025 / ПМ (LostFilm), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Джек Ричер / Reacher [S03] (2025) WEB-DL 1080p от Scarabey | P | Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:130a01f62fd49330a6f354ea1a38a30d7bd985d8&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 29259464704,
+      "size": "27.25 GB",
+      "episode": 0,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher [S03] (2025) WEB-DL 1080p от Scarabey | P | Red Head Sound"
+    },
+    {
+      "title": "Джек Ричер / Reacher [03x01-03 из 08] (2025) WEB-DL 1080p от Scarabey | P | Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:1a22fc2f28b547510596a11435f6756d8952fc99&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 10984378859,
+      "size": "10.23 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher [03x01-03 из 08] (2025) WEB-DL 1080p от Scarabey | P | Red Head Sound"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 3 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2025, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] 5 x MVO (HDrezka Studio, LostFilm, TVShows, Red Head Sound, WStudio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:2B87A23D5588E56E3FBD47E008DDB1BCA5C6BC02&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 33736968110,
+      "size": "31.42 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 3 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2025, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] 5 x MVO (HDrezka Studio, LostFilm, TVShows, Red Head Sound, WStudio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 3 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2025, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:815AC29D0C9FC2F8B240B52EEF25A78892A1D6FE&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 29839285288,
+      "size": "27.79 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 3 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2025, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 3 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2025, США, Боевик, триллер, драма, криминал, HDR10, HDR10+ Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 5 x MVO (HDrezka, LostFilm, TVShows, WStudio, Red Head Sound) Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:71C75E78989412FC6062FA868FA16207CA56B5CE&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 49714246451,
+      "size": "46.30 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 3 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2025, США, Боевик, триллер, драма, криминал, HDR10, HDR10+ Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 5 x MVO (HDrezka, LostFilm, TVShows, WStudio, Red Head Sound) Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 3 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2025, США, Боевик, триллер, драма, криминал, SDR, WEB-DL 2160p, 4k] 5x MVO (HDrezka, LostFilm, TVShows, WStudio, Red Head Sound) Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:1C2E843ED0F43A3453375EE7EAAD3B26AD59C13B&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 49864570306,
+      "size": "46.44 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 3 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2025, США, Боевик, триллер, драма, криминал, SDR, WEB-DL 2160p, 4k] 5x MVO (HDrezka, LostFilm, TVShows, WStudio, Red Head Sound) Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 3 / Серии: 1-8 из 8 (Сэм Хилл) [2025, США, боевик, детектив, криминал, WEB-DL 720p] MVO (LostFilm) + MVO (HDrezka) + MVO (TVShows) + MVO (Red Head Sound) + MVO (WStudio) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:05EA39BC5F3C3A67A968B7DB11413C2A0EE40C51&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 18060337479,
+      "size": "16.82 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 3 / Серии: 1-8 из 8 (Сэм Хилл) [2025, США, боевик, детектив, криминал, WEB-DL 720p] MVO (LostFilm) + MVO (HDrezka) + MVO (TVShows) + MVO (Red Head Sound) + MVO (WStudio) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер (Ричер) (1-3 сезоны: 1-24 серии из 24) / Reacher (Jack Reacher) / 2022-2025 / ПМ (LostFilm), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:7D41393390C71D016ED1EDD05D2BA2E6450851CF",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 34617436405,
+      "size": "32.24 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер (Ричер) (1-3 сезоны: 1-24 серии из 24) / Reacher (Jack Reacher) / 2022-2025 / ПМ (LostFilm), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 4 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2026, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] 5x MVO (HDrezka, Red Head Sound, LostFilm, TVShows, Syncmer) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:536955CCA20564DD28C6186646E177BE04F134CD&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%D0%94%D0%B6%D0%B5%D0%BA%20%D0%A0%D0%B8%D1%87%D0%B5%D1%80%20%2F%20Reacher%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%204%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-8%20%D0%B8%D0%B7%208%20(%D0%A1%D1%8D%D0%BC%20%D0%A5%D0%B8%D0%BB%D0%BB%2C%20%D0%93%D1%8D%D1%80%D0%B8%20%D0%A4%D0%BB%D0%B5%D0%B4%D0%B5%D1%80)%20%5B2026%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%91%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20WEB-DL%201080p%5D%205x%20MVO%20(HDrezka%2C",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 29452738232,
+      "size": "27.43 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 4 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2026, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] 5x MVO (HDrezka, Red Head Sound, LostFilm, TVShows, Syncmer) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 4 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2026, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:35666E1E42D9CA077ED60C775991B8AE40160FE7&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 26768383672,
+      "size": "24.93 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 4 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2026, США, Боевик, триллер, драма, криминал, WEB-DL 1080p] MVO (LostFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 4 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2026, США, Боевик, триллер, драма, криминал, HDR10, HDR10+ Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 5x MVO (HDrezka, Red Head Sound, LostFilm, TVShows, Syncmer) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:7ED795FE278FCC50F8C8E5264539ABA539D00F8A&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%D0%94%D0%B6%D0%B5%D0%BA%20%D0%A0%D0%B8%D1%87%D0%B5%D1%80%20%2F%20Reacher%20%2F%20%D0%A1%D0%B5%D0%B7%D0%BE%D0%BD%3A%204%20%2F%20%D0%A1%D0%B5%D1%80%D0%B8%D0%B8%3A%201-8%20%D0%B8%D0%B7%208%20(%D0%A1%D1%8D%D0%BC%20%D0%A5%D0%B8%D0%BB%D0%BB%2C%20%D0%93%D1%8D%D1%80%D0%B8%20%D0%A4%D0%BB%D0%B5%D0%B4%D0%B5%D1%80)%20%5B2026%2C%20%D0%A1%D0%A8%D0%90%2C%20%D0%91%D0%BE%D0%B5%D0%B2%D0%B8%D0%BA%2C%20%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%2C%20%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%2C%20%D0%BA%D1%80%D0%B8%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%2C%20HDR10%2C%20HDR10%2B%20Dolby%20Vision%2C%20WE",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 56833154744,
+      "size": "52.93 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 4 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2026, США, Боевик, триллер, драма, криминал, HDR10, HDR10+ Dolby Vision, WEB-DL 2160p, 4k] [Hybrid] 5x MVO (HDrezka, Red Head Sound, LostFilm, TVShows, Syncmer) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 4 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2026, США, Боевик, триллер, драма, криминал, SDR, WEB-DL 2160p, 4k] 5x MVO (HDrezka, Red Head Sound, LostFilm, TVShows, Syncmer) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:F0D2A46945256280B5B41C34CDE710D3B4DF4026&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 48704929136,
+      "size": "45.36 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 4 / Серии: 1-8 из 8 (Сэм Хилл, Гэри Фледер) [2026, США, Боевик, триллер, драма, криминал, SDR, WEB-DL 2160p, 4k] 5x MVO (HDrezka, Red Head Sound, LostFilm, TVShows, Syncmer) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Джек Ричер / Reacher / Сезон: 4 / Серии: 1-8 из 8 (Сэм Хилл) [2026, США, боевик, детектив, криминал, WEB-DL 720p] 5 х MVO + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:6B90FAA146F80045E241F82B4BBCC83D1E165108&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 15000173281,
+      "size": "13.97 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Джек Ричер / Reacher / Сезон: 4 / Серии: 1-8 из 8 (Сэм Хилл) [2026, США, боевик, детектив, криминал, WEB-DL 720p] 5 х MVO + Original + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-24T02:53:46Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt9288030/img",
+    "background": "https://images.metahub.space/background/medium/tt9288030/img"
+  }
+}
