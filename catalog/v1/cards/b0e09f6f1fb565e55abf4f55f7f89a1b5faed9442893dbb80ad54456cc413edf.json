@@ -1,0 +1,111 @@
+{
+  "id": "tt0075148",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d68a5e1257677df710ac2c3dc9005639ca671c4e2357ca33562893ee92e56c13.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/225d5934762096362a9219689bf3ce028023038519802af0e86198fec138305d.jpg",
+  "genres": [
+    "Драма",
+    "Спорт"
+  ],
+  "runtime": "119 мин",
+  "imdbRating": "8.1",
+  "releaseInfo": "1976",
+  "trailers": [
+    {
+      "source": "dmd9tEt9F30",
+      "type": "Trailer"
+    },
+    {
+      "source": "-Hk-LYcavrw",
+      "type": "Trailer"
+    },
+    {
+      "source": "3VUblDwa648",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Рокки",
+  "description": "Филадельфия. Рокки Бальбоа — молодой боксёр, который живёт в захудалой квартирке и еле сводит концы с концами, занимаясь выбиванием долгов для своего босса Тони Гаццо и периодически участвуя в боях. Каждый его унылый день похож на предыдущий, и особо радужных перспектив не наблюдается. Но однажды удача наконец улыбается парню, когда ему поступает неожиданное предложение выступить против действующего чемпиона Аполло Крида.",
+  "aliases": [
+    "Рокки",
+    "Rocky"
+  ],
+  "kpId": 6462,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0075148.json",
+    "https://www.kinopoisk.ru/film/6462/"
+  ],
+  "year": "1976",
+  "imdbId": "tt0075148",
+  "ids": [
+    "tt0075148"
+  ],
+  "originalName": "Rocky",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-25T09:03:19Z",
+  "sources": [
+    {
+      "title": "Рокки / Rocky (Джон Г. Эвилдсен / John G. Avildsen) [1976, США, драма, спорт, BDRip 1080p] 6x MVO + DVO + 3x AVO + VO + Original Eng + Ukr + Sub (rus, eng)",
+      "magnet": "magnet:?xt=urn:btih:10AF0098E2C7BC3FA272CE488A6AD26F6FF120F2&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 22430466703,
+      "size": "20.89 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Рокки / Rocky (Джон Г. Эвилдсен / John G. Avildsen) [1976, США, драма, спорт, BDRip 1080p] 6x MVO + DVO + 3x AVO + VO + Original Eng + Ukr + Sub (rus, eng)"
+    },
+    {
+      "title": "Рокки / Rocky (Джон Г. Эвилдсен / John G. Avildsen) [1976, США, боевик, драма, BDRemux 1080p] 2x MVO + AVO + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:2FEECBF13F5AC167E1527C12D035D2D5C9050320&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 23343147253,
+      "size": "21.74 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Рокки / Rocky (Джон Г. Эвилдсен / John G. Avildsen) [1976, США, боевик, драма, BDRemux 1080p] 2x MVO + AVO + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Рокки / Rocky (Джон Г. Эвилдсен / John G. Avildsen) [1976, США, Драма, спорт, Blu-ray disc] [Mastered in 4K EUR] MVO + Sub Rus, Eng + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:FE18C1065A4D6013D13E080F6312F0261B3BE92F&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 46611132579,
+      "size": "43.41 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Рокки / Rocky (Джон Г. Эвилдсен / John G. Avildsen) [1976, США, Драма, спорт, Blu-ray disc] [Mastered in 4K EUR] MVO + Sub Rus, Eng + Original Eng"
+    },
+    {
+      "title": "Рокки / Rocky (Джон Г. Эвилдсен / John G. Avildsen) [1976, США, боевик, драма, BDRip 720p] 2x MVO + AVO + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:309ACDA272DD5083718AFD5FD3BF022BE3A821A2&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 9481140305,
+      "size": "8.83 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Рокки / Rocky (Джон Г. Эвилдсен / John G. Avildsen) [1976, США, боевик, драма, BDRip 720p] 2x MVO + AVO + Original Eng"
+    },
+    {
+      "title": "Рокки / Rocky (Джон Г. Эвилдсен / John G. Avildsen) [1976, США, боевик, драма, HDTVRip 720p] MVO + Original Eng",
+      "magnet": "magnet:?xt=urn:btih:0F5BAF6E78E8CA5EA5AF87423D6C43B51ADF20F3&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 4692251770,
+      "size": "4.37 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Рокки / Rocky (Джон Г. Эвилдсен / John G. Avildsen) [1976, США, боевик, драма, HDTVRip 720p] MVO + Original Eng"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-25T09:02:19Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt0075148/img",
+    "background": "https://images.metahub.space/background/medium/tt0075148/img"
+  }
+}

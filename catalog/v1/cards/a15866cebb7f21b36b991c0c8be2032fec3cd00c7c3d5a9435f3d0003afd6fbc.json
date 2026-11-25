@@ -1,0 +1,934 @@
+{
+  "id": "tt11691774",
+  "type": "series",
+  "poster": "https://images.metahub.space/poster/small/tt11691774/img",
+  "background": "https://images.metahub.space/background/medium/tt11691774/img",
+  "genres": [
+    "Комедия",
+    "Криминал",
+    "Драма"
+  ],
+  "runtime": "35 мин",
+  "imdbRating": "8.0",
+  "releaseInfo": "2021–",
+  "trailers": [
+    {
+      "source": "dKyX8rocAB8",
+      "type": "Trailer"
+    },
+    {
+      "source": "aaifwVfAf4E",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Убийства в одном здании",
+  "description": "Трое жителей высотного дома на Манхэттене обожают криминальные рассказы и неожиданно оказываются втянуты в расследование убийства, произошедшего прямо у них под носом.",
+  "aliases": [
+    "Убийства в одном здании",
+    "Only Murders in the Building"
+  ],
+  "kpId": 4295380,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/series/tt11691774.json",
+    "https://www.kinopoisk.ru/film/4295380/"
+  ],
+  "year": "2021",
+  "imdbId": "tt11691774",
+  "ids": [
+    "tt11691774"
+  ],
+  "originalName": "Only Murders in the Building",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-25T09:02:19Z",
+  "videos": [
+    {
+      "id": "tt11691774:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2021-08-31"
+    },
+    {
+      "id": "tt11691774:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2021-08-31"
+    },
+    {
+      "id": "tt11691774:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2021-08-31"
+    },
+    {
+      "id": "tt11691774:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2021-09-07"
+    },
+    {
+      "id": "tt11691774:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2021-09-14"
+    },
+    {
+      "id": "tt11691774:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2021-09-21"
+    },
+    {
+      "id": "tt11691774:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2021-09-28"
+    },
+    {
+      "id": "tt11691774:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2021-10-05"
+    },
+    {
+      "id": "tt11691774:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2021-10-12"
+    },
+    {
+      "id": "tt11691774:1:10",
+      "season": 1,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2021-10-19"
+    },
+    {
+      "id": "tt11691774:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2022-06-28"
+    },
+    {
+      "id": "tt11691774:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2022-06-28"
+    },
+    {
+      "id": "tt11691774:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2022-07-05"
+    },
+    {
+      "id": "tt11691774:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2022-07-12"
+    },
+    {
+      "id": "tt11691774:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2022-07-19"
+    },
+    {
+      "id": "tt11691774:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2022-07-26"
+    },
+    {
+      "id": "tt11691774:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2022-08-02"
+    },
+    {
+      "id": "tt11691774:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2022-08-09"
+    },
+    {
+      "id": "tt11691774:2:9",
+      "season": 2,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2022-08-16"
+    },
+    {
+      "id": "tt11691774:2:10",
+      "season": 2,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2022-08-23"
+    },
+    {
+      "id": "tt11691774:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2023-08-08"
+    },
+    {
+      "id": "tt11691774:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2023-08-08"
+    },
+    {
+      "id": "tt11691774:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2023-08-15"
+    },
+    {
+      "id": "tt11691774:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2023-08-22"
+    },
+    {
+      "id": "tt11691774:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2023-08-29"
+    },
+    {
+      "id": "tt11691774:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2023-09-05"
+    },
+    {
+      "id": "tt11691774:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2023-09-12"
+    },
+    {
+      "id": "tt11691774:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2023-09-19"
+    },
+    {
+      "id": "tt11691774:3:9",
+      "season": 3,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2023-09-26"
+    },
+    {
+      "id": "tt11691774:3:10",
+      "season": 3,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2023-10-03"
+    },
+    {
+      "id": "tt11691774:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2024-08-27"
+    },
+    {
+      "id": "tt11691774:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2024-09-03"
+    },
+    {
+      "id": "tt11691774:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2024-09-10"
+    },
+    {
+      "id": "tt11691774:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2024-09-17"
+    },
+    {
+      "id": "tt11691774:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2024-09-24"
+    },
+    {
+      "id": "tt11691774:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-10-01"
+    },
+    {
+      "id": "tt11691774:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2024-10-08"
+    },
+    {
+      "id": "tt11691774:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2024-10-15"
+    },
+    {
+      "id": "tt11691774:4:9",
+      "season": 4,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2024-10-22"
+    },
+    {
+      "id": "tt11691774:4:10",
+      "season": 4,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2024-10-29"
+    },
+    {
+      "id": "tt11691774:5:1",
+      "season": 5,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-09-09"
+    },
+    {
+      "id": "tt11691774:5:2",
+      "season": 5,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-09-09"
+    },
+    {
+      "id": "tt11691774:5:3",
+      "season": 5,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-09-09"
+    },
+    {
+      "id": "tt11691774:5:4",
+      "season": 5,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-09-16"
+    },
+    {
+      "id": "tt11691774:5:5",
+      "season": 5,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-09-23"
+    },
+    {
+      "id": "tt11691774:5:6",
+      "season": 5,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2025-09-30"
+    },
+    {
+      "id": "tt11691774:5:7",
+      "season": 5,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2025-10-07"
+    },
+    {
+      "id": "tt11691774:5:8",
+      "season": 5,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2025-10-14"
+    },
+    {
+      "id": "tt11691774:5:9",
+      "season": 5,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2025-10-21"
+    },
+    {
+      "id": "tt11691774:5:10",
+      "season": 5,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2025-10-28"
+    },
+    {
+      "id": "tt11691774:6:1",
+      "season": 6,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-12-08T08:00:00.000Z"
+    },
+    {
+      "id": "tt11691774:6:2",
+      "season": 6,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-12-08T08:00:00.000Z"
+    },
+    {
+      "id": "tt11691774:6:3",
+      "season": 6,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-12-15T08:00:00.000Z"
+    },
+    {
+      "id": "tt11691774:6:4",
+      "season": 6,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-12-15T08:00:00.000Z"
+    },
+    {
+      "id": "tt11691774:6:5",
+      "season": 6,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-12-22T08:00:00.000Z"
+    },
+    {
+      "id": "tt11691774:6:6",
+      "season": 6,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-12-29T08:00:00.000Z"
+    },
+    {
+      "id": "tt11691774:6:7",
+      "season": 6,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2027-01-05T08:00:00.000Z"
+    },
+    {
+      "id": "tt11691774:6:8",
+      "season": 6,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2027-01-26T08:00:00.000Z"
+    },
+    {
+      "id": "tt11691774:6:9",
+      "season": 6,
+      "episode": 9,
+      "title": "Серия 9",
+      "description": "",
+      "released": "2027-02-02T08:00:00.000Z"
+    },
+    {
+      "id": "tt11691774:6:10",
+      "season": 6,
+      "episode": 10,
+      "title": "Серия 10",
+      "description": "",
+      "released": "2027-02-09T08:00:00.000Z"
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    },
+    {
+      "number": 5,
+      "name": "Сезон 5"
+    },
+    {
+      "number": 6,
+      "name": "Сезон 6"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building [S01] (2021) WEB-DL 1080p | LostFilm",
+      "magnet": "magnet:?xt=urn:btih:454f7592a350045c2c4baabab50bdefc874f4d00&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 11789685227,
+      "size": "10.98 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building [S01] (2021) WEB-DL 1080p | LostFilm"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building [1 сезон] (2021) WEB-DL 1080p | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:627bbad0bca5c31430162810a2ec790f5b76ea9b&dn=Only.Murders.in.the.Building.S01.WEB-DL.1080p.HDr_RUTOR&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://opentracker.i2p.rocks:6969/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=udp://tracker.bitsearch.to:1337/announce&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://exodus.desync.com:6969&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · megapeer",
+      "bytes": 11478300098,
+      "size": "10.69 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building [1 сезон] (2021) WEB-DL 1080p | HDrezka Studio"
+    },
+    {
+      "title": "Убийства в одном здании (1 сезон: 1-7 серии из 10) / Only Murders in the Building / 2021 / ПМ (LostFilm) / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:4375933E3CD1D5B468D875E7B7144374FE72DC8D",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 8364448808,
+      "size": "7.79 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании (1 сезон: 1-7 серии из 10) / Only Murders in the Building / 2021 / ПМ (LostFilm) / WEB-DL (1080p)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 1 / Серии: 1-10 из 10 (Джеми Бэббит ) [2021, США, детектив, комедия, криминал, WEB-DL 1080p] MVO (Lostfilm, Jaskier, TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:B9B58E1ED4EB526E9831B42BCED5144699E3F31F&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 19960860508,
+      "size": "18.59 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 1 / Серии: 1-10 из 10 (Джеми Бэббит ) [2021, США, детектив, комедия, криминал, WEB-DL 1080p] MVO (Lostfilm, Jaskier, TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 1 / Серии: 1-10 (10) (Джеми Бэббит, Шерин Дабис, Джиллиан Робеспьер) [2021, США, Детектив, комедия, криминал, WEB-DL 1080p] MVO (AlexFilm) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:8630BEFC5E44D665E8EA53D6135CA70F4C592284&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 18135499407,
+      "size": "16.89 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 1 / Серии: 1-10 (10) (Джеми Бэббит, Шерин Дабис, Джиллиан Робеспьер) [2021, США, Детектив, комедия, криминал, WEB-DL 1080p] MVO (AlexFilm) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 1 / Серии: 1-10 из 10 (Джеми Бэббит, Шерин Дабис, Джиллиан Робеспьер) [2021, США, детектив, комедия, криминал, HEVC, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4K] 5x MVO + Original (Eng)+ Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:8481B7486C23F6472C72A7F9017BDE0647233050&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 21238613278,
+      "size": "19.78 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 1 / Серии: 1-10 из 10 (Джеми Бэббит, Шерин Дабис, Джиллиан Робеспьер) [2021, США, детектив, комедия, криминал, HEVC, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4K] 5x MVO + Original (Eng)+ Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building (2021) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] (сезон 1, серии 1-10 из 10) TVShows, AlexFilm, HDRezka, Jaskier, DniproFilm",
+      "magnet": "magnet:?xt=urn:btih:C2F19CDB37CF85AF468B2AD7FA6FF4C942DCB172",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 41446434406,
+      "size": "38.60 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building (2021) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] (сезон 1, серии 1-10 из 10) TVShows, AlexFilm, HDRezka, Jaskier, DniproFilm"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building [2 сезон] (2021) WEB-DL 1080p | P | LostFilm, Jaskier, HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:b9132b64518d904668c6a52a8732e25f24940237&dn=Only.Murders.in.the.Building.S02.1080p.WEBDL.Rus.Eng&tr=udp://exodus.desync.com:6969&tr=http://bt.piratbit.club/fffffffff0ca8bcf84d4c8ba3769bb91/announce&tr=udp://explodie.org:6969&tr=udp://tracker.torrent.eu.org:451/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://tracker.dler.org:6969/announce",
+      "quality": "1080p",
+      "source": "JacRed · megapeer",
+      "bytes": 15719580303,
+      "size": "14.64 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building [2 сезон] (2021) WEB-DL 1080p | P | LostFilm, Jaskier, HDrezka Studio"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building [S02] (2022) WEB-DL 1080p | AlexFilm",
+      "magnet": "magnet:?xt=urn:btih:8cb3265b2c1ed47c7d7d907ae512d518ca245900&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 17512729149,
+      "size": "16.31 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building [S02] (2022) WEB-DL 1080p | AlexFilm"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building [02x01 из 10] (2022) WEB-DL 1080p | AlexFilm",
+      "magnet": "magnet:?xt=urn:btih:4b711685890a849ef1f3571c28bf3dfbc1389581&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 1868310773,
+      "size": "1.74 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building [02x01 из 10] (2022) WEB-DL 1080p | AlexFilm"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building (2022) WEB-DL [H.264/1080p] (сезон 2, серии 1-10 из 10) AlexFilm",
+      "magnet": "magnet:?xt=urn:btih:2BDE1B2017598BFBC7EFD26BA4B2B7318ACFEA6D",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 17501991731,
+      "size": "16.30 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building (2022) WEB-DL [H.264/1080p] (сезон 2, серии 1-10 из 10) AlexFilm"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 2 / Серии: 1-10 из 10 (Джеми Бэббит, Шерин Дабис, Джиллиан Робеспьер) [2022, США, детектив, комедия, криминал, HEVC, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4K] 4x MVO + Ukr + Original (Eng)+ Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:5B2B7F972035ABFEF5ACF9B8D4D90060F8D6B037&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 27434103603,
+      "size": "25.55 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 2 / Серии: 1-10 из 10 (Джеми Бэббит, Шерин Дабис, Джиллиан Робеспьер) [2022, США, детектив, комедия, криминал, HEVC, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4K] 4x MVO + Ukr + Original (Eng)+ Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building [3 сезон] (2023) WEB-DL 1080p | P | LostFilm, Jaskier, HDrezka Studio, TVShows",
+      "magnet": "magnet:?xt=urn:btih:24fe671d590a762f9e4570920ebd8ed7c4fdf23e&dn=Only.Murders.in.the.Building.S03.1080p.WEBDL.Rus.Eng&tr=udp://exodus.desync.com:6969&tr=http://bt.piratbit.club/fffffffff0ca8bcf84d4c8ba3769bb91/announce&tr=udp://explodie.org:6969&tr=udp://tracker.torrent.eu.org:451/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://tracker.dler.org:6969/announce",
+      "quality": "1080p",
+      "source": "JacRed · megapeer",
+      "bytes": 21367462297,
+      "size": "19.90 GB",
+      "episode": 0,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building [3 сезон] (2023) WEB-DL 1080p | P | LostFilm, Jaskier, HDrezka Studio, TVShows"
+    },
+    {
+      "title": "Убийства в одном здании (3 сезон: 1-3 серии из 10) / Only Murders in the Building / 2023 / ПМ (TVShows, Jaskier, HDRezka Studio), СТ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:8AFA07788CF7DE351633CC758F73F7E6774D4B61",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 5325759447,
+      "size": "4.96 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании (3 сезон: 1-3 серии из 10) / Only Murders in the Building / 2023 / ПМ (TVShows, Jaskier, HDRezka Studio), СТ / WEB-DL (1080p)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building (2023) WEB-DL [H.264/1080p] (сезон 3, серии 1-10 из 10) TVShows, Jaskier, HDRezka",
+      "magnet": "magnet:?xt=urn:btih:0296BB76639D95B1D53B015E68000EC44CA8CC6A",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 17394617548,
+      "size": "16.20 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building (2023) WEB-DL [H.264/1080p] (сезон 3, серии 1-10 из 10) TVShows, Jaskier, HDRezka"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 3 / Серии: 1-7 из 10 (Джеми Бэббит, Шерин Дабис, Джиллиан Робеспьер) [2023, США, детектив, комедия, криминал, HEVC, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4K] 4x MVO + Ukr + Original (Eng)+ Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:57763832CA29E692516161118C5F43BFE500F8FC&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 33865817128,
+      "size": "31.54 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 7,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 3 / Серии: 1-7 из 10 (Джеми Бэббит, Шерин Дабис, Джиллиан Робеспьер) [2023, США, детектив, комедия, криминал, HEVC, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4K] 4x MVO + Ukr + Original (Eng)+ Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 3 / Серии: 1-10 из 10 (Шерин Дабис, Джеми Бэббит , Джон Хоффман) [2023, США, детектив, комедия, криминал, HEVC, SDR, WEB-DL 2160p, 4k] 3 x MVO (Jaskier, LostFilm, TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:B6DA3705C829A2A7A714AEDC6F641BF866D4EE6A&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 47115791237,
+      "size": "43.88 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 3 / Серии: 1-10 из 10 (Шерин Дабис, Джеми Бэббит , Джон Хоффман) [2023, США, детектив, комедия, криминал, HEVC, SDR, WEB-DL 2160p, 4k] 3 x MVO (Jaskier, LostFilm, TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 3 / Серии: 1-10 из 10 (Джеми Бэббит, Шерин Дабис, Джиллиан Робеспьер) [2023, США, детектив, комедия, криминал, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] 4x MVO + Ukr + Original (Eng)+ Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:03777D31AA7DBD88FE9D937109F5BAC73903681B&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 48984102010,
+      "size": "45.62 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 3 / Серии: 1-10 из 10 (Джеми Бэббит, Шерин Дабис, Джиллиан Робеспьер) [2023, США, детектив, комедия, криминал, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] 4x MVO + Ukr + Original (Eng)+ Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании 4 сезон (1-3 из 10) / Only Murders in the Building (2024) WEB-DL 1080p | AVC | от Atla22® @ TVShows, Lostfilm и др.",
+      "magnet": "magnet:?xt=urn:btih:9bb19ee82f740844a45aa908ea825fe32b0a4cff&dn=Убийства в одном здании. 4 сезон. 2024 (WEB-DL 1080p)&tr=http://bt02.nnm-club.cc:2710/00ae0dc6da27766b0edcab24c8bff657/announce&tr=http://bt02.nnm-club.info:2710/00ae0dc6da27766b0edcab24c8bff657/announce&tr=http://[2a01:d0:a580:1::2]:2710/00ae0dc6da27766b0edcab24c8bff657/announce&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:6969/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://tracker.dler.com:6969/announce&tr=http://open.acgnxtracker.com:80/announce&tr=http://tracker.files.fm:6969/announce&tr=https://tracker.tamersunion.org:443/announce",
+      "quality": "1080p",
+      "source": "JacRed · bitru",
+      "bytes": 5723043921,
+      "size": "5.33 GB",
+      "episode": 0,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании 4 сезон (1-3 из 10) / Only Murders in the Building (2024) WEB-DL 1080p | AVC | от Atla22® @ TVShows, Lostfilm и др."
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 4 / Серии: 1-10 из 10 (Джон Хоффман, Крис Кох, Джессика Ю) [2024, США, детектив, комедия, криминал, WEB-DL 1080p] 7 x MVO (HDRezka Studio, LostFilm, Jaskier, TVShows, 1WinStudio, RHS, LE-Production) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C8BBD38CCFE27CF72368AE31092CE7CF32AE7B14&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 21120501678,
+      "size": "19.67 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 4 / Серии: 1-10 из 10 (Джон Хоффман, Крис Кох, Джессика Ю) [2024, США, детектив, комедия, криминал, WEB-DL 1080p] 7 x MVO (HDRezka Studio, LostFilm, Jaskier, TVShows, 1WinStudio, RHS, LE-Production) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 4 / Серии: 1-10 из 10 (Джон Хоффман) [2024, США, Детектив, комедия, криминал, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] 5x MVO + 2x Ukr + Original (Eng)+ Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:B1E94114D163507777F591B09AB1FF17CB14F366&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 49306224558,
+      "size": "45.92 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 4 / Серии: 1-10 из 10 (Джон Хоффман) [2024, США, Детектив, комедия, криминал, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] 5x MVO + 2x Ukr + Original (Eng)+ Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 4 / Серии: 1-10 из 10 (Джон Хоффман) [2024, США, Детектив, комедия, криминал, HDR10, Dolby Vision, WEB-DL 2160p, 4k] 6 x MVO (HDRezka Studio, LostFilm, TVShows, Jaskier, Red Head Sound, LE-Production) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:806017AEBD70E5C38F9EF6E5F8932721714F5A21&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 44173738639,
+      "size": "41.14 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 4 / Серии: 1-10 из 10 (Джон Хоффман) [2024, США, Детектив, комедия, криминал, HDR10, Dolby Vision, WEB-DL 2160p, 4k] 6 x MVO (HDRezka Studio, LostFilm, TVShows, Jaskier, Red Head Sound, LE-Production) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building [S05] (2025) WEB-DL 1080p от Scarabey | P | Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:710237bad100cdc11ce5ff1d715eb92f6169b15c&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 15461882265,
+      "size": "14.40 GB",
+      "episode": 0,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building [S05] (2025) WEB-DL 1080p от Scarabey | P | Red Head Sound"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 5 / Серии: 1-10 из 10 (Джон Хоффман, Крис Кох) [2025, США, детектив, комедия, криминал, WEB-DL 1080p] 8 x MVO (HDRezka Studio, Jaskier, TVShows, LostFilm, WStudio, Red Head Sound, заКАДРЫ, LE-Production) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:59F7EC860650333C498891F839135D6F7E82B3C4&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 21184926187,
+      "size": "19.73 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 5 / Серии: 1-10 из 10 (Джон Хоффман, Крис Кох) [2025, США, детектив, комедия, криминал, WEB-DL 1080p] 8 x MVO (HDRezka Studio, Jaskier, TVShows, LostFilm, WStudio, Red Head Sound, заКАДРЫ, LE-Production) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 5 / Серии: 1-10 из 10 (Джон Хоффман) [2025, США, детектив, комедия, криминал, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] MVO (Jaskier, HDrezka, LostFilm, Red Head Sound, WStudio, TVShows, LE, заКАДРЫ) Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:0EE6DD015A7985EEA221BC0C0B51899A0EA11B1E&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 45526653337,
+      "size": "42.40 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 5 / Серии: 1-10 из 10 (Джон Хоффман) [2025, США, детектив, комедия, криминал, HDR10, HDR10+, Dolby Vision, WEB-DL 2160p, 4k] MVO (Jaskier, HDrezka, LostFilm, Red Head Sound, WStudio, TVShows, LE, заКАДРЫ) Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Убийства в одном здании / Only Murders in the Building / Сезон: 5 / Серии: 1-10 из 10 (Джон Хоффман) [2025, США, детектив, комедия, криминал, SDR, WEB-DL 2160p, 4k] 7 x MVO (Jaskier, HDrezka, LostFilm, Red Head Sound, WStudio, TVShows, LE-Production, заКАДРЫ) Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:8AB3079E42D383225314B76D91A37C10546B8B87&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 34885871861,
+      "size": "32.49 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 10,
+      "season": 5,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Убийства в одном здании / Only Murders in the Building / Сезон: 5 / Серии: 1-10 из 10 (Джон Хоффман) [2025, США, детектив, комедия, криминал, SDR, WEB-DL 2160p, 4k] 7 x MVO (Jaskier, HDrezka, LostFilm, Red Head Sound, WStudio, TVShows, LE-Production, заКАДРЫ) Original + Sub (Rus, Eng)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-25T09:02:19Z"
+}

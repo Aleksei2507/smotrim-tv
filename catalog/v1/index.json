@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795567341,
-  "updatedAt": "2026-11-25T00:40:49Z",
+  "revision": 1795597400,
+  "updatedAt": "2026-11-25T09:03:19Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,244 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt13016388",
+      "ids": [
+        "tt13016388"
+      ],
+      "imdbId": "tt13016388",
+      "name": "Задача трёх тел",
+      "type": "series",
+      "year": "2024",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ea3fdd90e3164a67a233274bafe649273278f566173e995e91d8e192ba5e7e41.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6fd952a257d1e59f36168ef10ff01ab8482404d7b5243eca7c2131bcd46732c0.jpg",
+      "description": "В 1967 году девушка-астрофизик — классовый враг и дочь насмерть забитого хунвэйбинами профессора — начинает работать в сверхсекретной лаборатории во Внутренней Монголии, где пытаются отправлять сигналы возможным внеземным цивилизациям.\n2024 год. Ускорители частиц по всему миру показывают результа…",
+      "originalName": "3 Body Problem",
+      "aliases": [
+        "Задача трёх тел",
+        "3 Body Problem"
+      ],
+      "genres": [
+        "Приключения",
+        "Драма",
+        "Фэнтези"
+      ],
+      "imdbRating": "7.5",
+      "runtime": "55 мин",
+      "card": "cards/dd87bba52de282a2d857131e6cb79de8d9a47ca1df922d6aecdde34ce5190cf8.json",
+      "sha256": "dd87bba52de282a2d857131e6cb79de8d9a47ca1df922d6aecdde34ce5190cf8",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1951265",
+      "ids": [
+        "tt1951265"
+      ],
+      "imdbId": "tt1951265",
+      "name": "Голодные игры: Сойка-пересмешница. Часть I",
+      "type": "movie",
+      "year": "2014",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8edbc54ea324188a6d1987135b8c121fade82a58649161541d9625aaccb67925.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3ec488736d89154da4054085c9d905aab5fa8d0f6732b5e7760f6709fc3c34e2.jpg",
+      "description": "75-ые Голодные игры изменили все. Китнисс нарушила правила, и непоколебимое до той поры деспотичное правление Капитолия пошатнулось. У людей появилась надежда, и ее символ – Сойка-пересмешница. Теперь, чтобы освободить захваченного в плен Пита и защитить своих близких, Китнисс придется  сражаться…",
+      "originalName": "The Hunger Games: Mockingjay - Part 1",
+      "aliases": [
+        "Голодные игры: Сойка-пересмешница. Часть I",
+        "The Hunger Games: Mockingjay - Part 1"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фантастика"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "123 мин",
+      "card": "cards/a334367d7eb242e85a42a14a59aef8139ae9bd7398888b44fb93d1904a69b6d4.json",
+      "sha256": "a334367d7eb242e85a42a14a59aef8139ae9bd7398888b44fb93d1904a69b6d4",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt37020296",
+      "ids": [
+        "tt37020296"
+      ],
+      "imdbId": "tt37020296",
+      "name": "Нежный монстр",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/defea269bfbe1a0a56a5bb4cfd0a7f531dcaf5b035a3f9fa71e884b78ae52e00.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0e5eb6c3aea38c61c7b855959fd5203005fbb00f9510167357f51496b332bd15.jpg",
+      "description": "Люси, успешная пианистка, переезжает с семьёй из Мюнхена за город, чтобы поддержать своего мужа Филиппа после профессионального выгорания, жертвуя при этом собственной карьерой. Спокойная жизнь семьи рушится, когда однажды на пороге появляются полицейские, разыскивающие Филиппа.\nДело ведёт Эльза,…",
+      "originalName": "Gentle Monster",
+      "aliases": [
+        "Нежный монстр",
+        "Gentle Monster"
+      ],
+      "genres": [
+        "Драма",
+        "Триллер"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "115 мин",
+      "card": "cards/504fc08cf53e894984729c9330cb234e79ff161ef993a56cd9ab43cb037a9bc7.json",
+      "sha256": "504fc08cf53e894984729c9330cb234e79ff161ef993a56cd9ab43cb037a9bc7",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt17677860",
+      "ids": [
+        "tt17677860"
+      ],
+      "imdbId": "tt17677860",
+      "name": "Презумпция невиновности",
+      "type": "series",
+      "year": "2024",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/24cf0cef3ddbda3381b1f025a65709ef07d6cef3d547947582574eded7e833e4.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8129188f535db847cff993b6090eb66cd94682a6de53cc2e22840ac2b133f2c5.jpg",
+      "description": "Расти Сабич работает окружным прокурором в Чикаго. Несмотря на то, что у него есть жена, мужчина заводит тайный роман со своей коллегой, Каролин Полхемус. Его жизнь переворачивается с ног на голову, когда в прокуратуру поступает дело об ужасающем убийстве Каролин, и Расти поручают его расследован…",
+      "originalName": "Presumed Innocent",
+      "aliases": [
+        "Презумпция невиновности",
+        "Presumed Innocent"
+      ],
+      "genres": [
+        "Криминал",
+        "Драма",
+        "Детектив"
+      ],
+      "imdbRating": "7.7",
+      "runtime": "43 мин",
+      "card": "cards/968beccc40265082dc287591fcb02952a416f1448e3ef2afd7b83be0c9c24978.json",
+      "sha256": "968beccc40265082dc287591fcb02952a416f1448e3ef2afd7b83be0c9c24978",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1951266",
+      "ids": [
+        "tt1951266"
+      ],
+      "imdbId": "tt1951266",
+      "name": "Голодные игры: Сойка-пересмешница. Часть II",
+      "type": "movie",
+      "year": "2015",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b65499ef60d672ab2b69fd6011de441edcc5937d5adf5f2f2c4f967b7f2d67c5.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/da5be56828c1bcd7d7995ae3fda100e73a2362e79144921d807bd4ee81f07a4b.jpg",
+      "description": "Китнисс Эвердин и своенравный Пит Мелларк пытаются выиграть гражданскую войну между самодержавным Капитолием и истерзанными войной районами Панема...",
+      "originalName": "The Hunger Games: Mockingjay - Part 2",
+      "aliases": [
+        "Голодные игры: Сойка-пересмешница. Часть II",
+        "The Hunger Games: Mockingjay - Part 2"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Фантастика"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "137 мин",
+      "card": "cards/4767844f048a1c026312eb101ba143529fc60d74b79f951df3b4ec80e4b27a82.json",
+      "sha256": "4767844f048a1c026312eb101ba143529fc60d74b79f951df3b4ec80e4b27a82",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0381061",
+      "ids": [
+        "tt0381061"
+      ],
+      "imdbId": "tt0381061",
+      "name": "Казино Рояль",
+      "type": "movie",
+      "year": "2006",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/0de705f54691e3152d5a86bd2664f699d2dbd011ebb13c905ae5d1bd82336447.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fe8aadfba7d2ffeb3f191e786d03cd5ad36dd181e2428f35867e1e4ea2588d1f.jpg",
+      "description": "Используя богатый шпионский арсенал, Джеймс Бонд вступает в поединок с финансовым гением преступного мира Ле Шиффром. Но генеральное сражение против него можно выиграть лишь силой ума, и не на поле боя, а на зеленом сукне казино «Рояль».",
+      "originalName": "Casino Royale",
+      "aliases": [
+        "Казино Рояль",
+        "Casino Royale"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Триллер"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "144 мин",
+      "card": "cards/e8bb075751b01d49e722f19206004fde892ba72379b38ce0d3bf7c7775dc0f15.json",
+      "sha256": "e8bb075751b01d49e722f19206004fde892ba72379b38ce0d3bf7c7775dc0f15",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt11691774",
+      "ids": [
+        "tt11691774"
+      ],
+      "imdbId": "tt11691774",
+      "name": "Убийства в одном здании",
+      "type": "series",
+      "year": "2021",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/06d7c411cb7d5e0aa651644e8454039c482d3fe337c3ecdb5739c7f87a254cdd.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d80ced1ff777cb20898ae40562bf646f6b4f87e3308010f56329a266093349df.jpg",
+      "description": "Трое жителей высотного дома на Манхэттене обожают криминальные рассказы и неожиданно оказываются втянуты в расследование убийства, произошедшего прямо у них под носом.",
+      "originalName": "Only Murders in the Building",
+      "aliases": [
+        "Убийства в одном здании",
+        "Only Murders in the Building"
+      ],
+      "genres": [
+        "Комедия",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "8.0",
+      "runtime": "35 мин",
+      "card": "cards/5d3f34b2eb14eab4ecaccd0143db847387b66c9eb8ead6210fbe1d0ed202fa36.json",
+      "sha256": "5d3f34b2eb14eab4ecaccd0143db847387b66c9eb8ead6210fbe1d0ed202fa36",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0075148",
+      "ids": [
+        "tt0075148"
+      ],
+      "imdbId": "tt0075148",
+      "name": "Рокки",
+      "type": "movie",
+      "year": "1976",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d68a5e1257677df710ac2c3dc9005639ca671c4e2357ca33562893ee92e56c13.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/225d5934762096362a9219689bf3ce028023038519802af0e86198fec138305d.jpg",
+      "description": "Филадельфия. Рокки Бальбоа — молодой боксёр, который живёт в захудалой квартирке и еле сводит концы с концами, занимаясь выбиванием долгов для своего босса Тони Гаццо и периодически участвуя в боях. Каждый его унылый день похож на предыдущий, и особо радужных перспектив не наблюдается. Но однажды…",
+      "originalName": "Rocky",
+      "aliases": [
+        "Рокки",
+        "Rocky"
+      ],
+      "genres": [
+        "Драма",
+        "Спорт"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "119 мин",
+      "card": "cards/b0e09f6f1fb565e55abf4f55f7f89a1b5faed9442893dbb80ad54456cc413edf.json",
+      "sha256": "b0e09f6f1fb565e55abf4f55f7f89a1b5faed9442893dbb80ad54456cc413edf",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt6952604",
       "ids": [
@@ -25,16 +263,15 @@
       "description": "Олег — талантливый врач скорой помощи, который отдаёт все силы работе. Его жена Катя — тоже врач, она работает в приёмном отделении больницы. Постепенно супруги отдаляются, Олег начинает злоупотреблять алкоголем из-за стресса, и Катя решает развестись. Вскоре у мужчины начинаются проблемы на рабо…",
       "originalName": "Arrhythmia",
       "aliases": [
-        "Аритмия",
-        "Arrhythmia"
+        "Аритмия"
       ],
       "genres": [
         "Драма"
       ],
       "imdbRating": "7.4",
       "runtime": "116 мин",
-      "card": "cards/bb83bc05330b672979969092c642f831ce154796a9f92628ff792376600a07a6.json",
-      "sha256": "bb83bc05330b672979969092c642f831ce154796a9f92628ff792376600a07a6",
+      "card": "cards/7244ae17aae53cfb1a12afe30acd79e6fd32d2c14f2a57bbb63071bea5e7fb9e.json",
+      "sha256": "7244ae17aae53cfb1a12afe30acd79e6fd32d2c14f2a57bbb63071bea5e7fb9e",
       "localized": true,
       "provider": "github"
     },
@@ -53,15 +290,14 @@
       "description": "Известный в середине 90-х бандит Витя Мясник, давно отошедший от дел и владеющий  экофермой, по просьбе бывшего подельника согласился передержать на своём офшорном банковском счёте воровской общак. Когда же пришло время возвращать деньги, волей обстоятельств Витя забыл пароль от счёта. Понимая, ч…",
       "originalName": "The Territory",
       "aliases": [
-        "Полярный",
-        "The Territory"
+        "Полярный"
       ],
       "genres": [
         "Комедия"
       ],
       "imdbRating": "6.1",
-      "card": "cards/9954a83518a6fba0069b6c7bd2824548c680840c72753e1d928e69ef67ed531f.json",
-      "sha256": "9954a83518a6fba0069b6c7bd2824548c680840c72753e1d928e69ef67ed531f",
+      "card": "cards/0e5d170b57d7c1497c84b91cf1550542d5c6b1010de5fba083089f0a57965f19.json",
+      "sha256": "0e5d170b57d7c1497c84b91cf1550542d5c6b1010de5fba083089f0a57965f19",
       "localized": true,
       "provider": "github"
     },
@@ -90,8 +326,8 @@
       ],
       "imdbRating": "7.0",
       "runtime": "40 мин",
-      "card": "cards/477943149f27ec96909d7517b1a9ec5a5ff62687ccb37810ae1e0844640ab6ce.json",
-      "sha256": "477943149f27ec96909d7517b1a9ec5a5ff62687ccb37810ae1e0844640ab6ce",
+      "card": "cards/6ea9452c287c5df38db4567907480a2f82d6c0135053af0f7a9d9dfcc9cbc598.json",
+      "sha256": "6ea9452c287c5df38db4567907480a2f82d6c0135053af0f7a9d9dfcc9cbc598",
       "localized": true,
       "provider": "github"
     },
@@ -120,8 +356,8 @@
       ],
       "imdbRating": "7.5",
       "runtime": "146 мин",
-      "card": "cards/4675a52388c68b753b71771f0353e92887a863473ede6b5083e78e8ebd21d447.json",
-      "sha256": "4675a52388c68b753b71771f0353e92887a863473ede6b5083e78e8ebd21d447",
+      "card": "cards/4dc18ce241a86b90778dde89a013aec19ecf5bafbda6240450bdbe2c1c70deb5.json",
+      "sha256": "4dc18ce241a86b90778dde89a013aec19ecf5bafbda6240450bdbe2c1c70deb5",
       "localized": true,
       "provider": "github"
     },
@@ -140,8 +376,7 @@
       "description": "Сводные братья Женька и Тёма недолюбливают друг друга, несмотря на игру в одной хоккейной команде и жизнь под одной крышей. Профессор Максим Муромцев, он же отец Тёмы, работает над машиной времени. Оказавшись в его лаборатории, ребята случайно переносятся в 1999 год, где встречают 12-летнего Вади…",
       "originalName": "Extra Time",
       "aliases": [
-        "Дополнительное время",
-        "Extra Time"
+        "Дополнительное время"
       ],
       "genres": [
         "Семейный",
@@ -149,8 +384,8 @@
       ],
       "imdbRating": "4.5",
       "runtime": "92 мин",
-      "card": "cards/9da81529a1204b27bdbaab2128dad16032771dda1bf93c4f26f1cc305784a8f4.json",
-      "sha256": "9da81529a1204b27bdbaab2128dad16032771dda1bf93c4f26f1cc305784a8f4",
+      "card": "cards/b2060170651eddb869c6216dc03057c45bba3a87262a95cf7167898eaae9c5bc.json",
+      "sha256": "b2060170651eddb869c6216dc03057c45bba3a87262a95cf7167898eaae9c5bc",
       "localized": true,
       "provider": "github"
     },

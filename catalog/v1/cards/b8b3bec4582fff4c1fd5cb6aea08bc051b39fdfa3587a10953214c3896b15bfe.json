@@ -1,0 +1,66 @@
+{
+  "id": "tt37020296",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt37020296/img",
+  "background": "https://images.metahub.space/background/medium/tt37020296/img",
+  "genres": [
+    "Драма",
+    "Триллер"
+  ],
+  "runtime": "115 мин",
+  "imdbRating": "6.6",
+  "releaseInfo": "2026",
+  "trailers": [
+    {
+      "source": "VZNH5XSIgD4",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Нежный монстр",
+  "description": "Люси, успешная пианистка, переезжает с семьёй из Мюнхена за город, чтобы поддержать своего мужа Филиппа после профессионального выгорания, жертвуя при этом собственной карьерой. Спокойная жизнь семьи рушится, когда однажды на пороге появляются полицейские, разыскивающие Филиппа.\nДело ведёт Эльза, следователь по особо важным делам, и однажды она узнаёт, что её отец, страдающий деменцией, пристаёт к сиделке. Обе женщины вынуждены взглянуть в лицо тёмным сторонам мужчин в своей жизни.",
+  "aliases": [
+    "Нежный монстр",
+    "Gentle Monster"
+  ],
+  "kpId": 9158968,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt37020296.json",
+    "https://www.kinopoisk.ru/film/9158968/"
+  ],
+  "year": "2026",
+  "imdbId": "tt37020296",
+  "ids": [
+    "tt37020296"
+  ],
+  "originalName": "Gentle Monster",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-25T09:02:19Z",
+  "sources": [
+    {
+      "title": "Нежный монстр / Gentle Monster (2026) WEB-DL [H.264/1080p] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:B38BA373B5A9827EB165AFCE21A1FEF33E144122",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 7720203714,
+      "size": "7.19 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Нежный монстр / Gentle Monster (2026) WEB-DL [H.264/1080p] [MVO]"
+    },
+    {
+      "title": "Нежный монстр / Gentle Monster (2026) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] [MVO]",
+      "magnet": "magnet:?xt=urn:btih:457250B404969B45CC3B192DA15796CD4A097FDA",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 21045339750,
+      "size": "19.60 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Нежный монстр / Gentle Monster (2026) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] [MVO]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-25T09:02:19Z"
+}
