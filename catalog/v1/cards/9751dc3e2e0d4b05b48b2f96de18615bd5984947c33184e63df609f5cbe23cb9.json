@@ -1,0 +1,437 @@
+{
+  "id": "tt12324366",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/78d3346e41acc8e925cff83d85d0fab2521b2fa13b3552480971c56411b5f4e9.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c6a5a3b3b2cc910059bb70f2a723fe20a2eec5d16dd2d9a6996ba451a826a591.jpg",
+  "genres": [
+    "Боевик",
+    "Приключения",
+    "Семейный"
+  ],
+  "runtime": "40 мин",
+  "imdbRating": "7.0",
+  "releaseInfo": "2023–",
+  "trailers": [
+    {
+      "source": "yT1ng2tiwLA",
+      "type": "Trailer"
+    },
+    {
+      "source": "YbBAb0FxDbU",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Перси Джексон и Олимпийцы",
+  "description": "Греческий бог Зевс обвиняет двенадцатилетнего полубога Перси Джексона в похищении молний.",
+  "aliases": [
+    "Перси Джексон и Олимпийцы",
+    "Percy Jackson and the Olympians"
+  ],
+  "kpId": 1384617,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/1384617/"
+  ],
+  "year": "2023",
+  "imdbId": "tt12324366",
+  "ids": [
+    "tt12324366"
+  ],
+  "originalName": "Percy Jackson and the Olympians",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-25T11:14:16Z",
+  "videos": [
+    {
+      "id": "tt12324366:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2023-12-19"
+    },
+    {
+      "id": "tt12324366:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2023-12-19"
+    },
+    {
+      "id": "tt12324366:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2023-12-26"
+    },
+    {
+      "id": "tt12324366:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2024-01-02"
+    },
+    {
+      "id": "tt12324366:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2024-01-09"
+    },
+    {
+      "id": "tt12324366:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-01-16"
+    },
+    {
+      "id": "tt12324366:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2024-01-23"
+    },
+    {
+      "id": "tt12324366:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2024-01-30"
+    },
+    {
+      "id": "tt12324366:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2025-12-10"
+    },
+    {
+      "id": "tt12324366:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2025-12-10"
+    },
+    {
+      "id": "tt12324366:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2025-12-17"
+    },
+    {
+      "id": "tt12324366:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2025-12-24"
+    },
+    {
+      "id": "tt12324366:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2025-12-31"
+    },
+    {
+      "id": "tt12324366:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-01-07"
+    },
+    {
+      "id": "tt12324366:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-01-14"
+    },
+    {
+      "id": "tt12324366:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-01-21"
+    },
+    {
+      "id": "tt12324366:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt12324366:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-11-20"
+    },
+    {
+      "id": "tt12324366:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt12324366:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt12324366:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt12324366:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt12324366:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": ""
+    },
+    {
+      "id": "tt12324366:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-5 из 8 (Андерс Энгстрем) [2023, США, Фэнтези, боевик, приключения, семейный, WEB-DL 1080p] MVO (HDRezka Studio) + MVO (LostFilm) + MVO (NewStudio) + MVO (TVShows) + MVO (NewComers) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:5FAB002AF890DE004E88AC4148297CE0D6010CA2&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 11671573626,
+      "size": "10.87 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-5 из 8 (Андерс Энгстрем) [2023, США, Фэнтези, боевик, приключения, семейный, WEB-DL 1080p] MVO (HDRezka Studio) + MVO (LostFilm) + MVO (NewStudio) + MVO (TVShows) + MVO (NewComers) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-8 из 8 (Андерс Энгстрем) [2023, США, Фэнтези, боевик, приключения, семейный, WEB-DL 1080p] 4 x MVO (HDRezka Studio, LostFilm, TVShows, NewComers) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:8CD65924213053736B2C77A1436B3DC61E932C6F&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 17555678822,
+      "size": "16.35 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-8 из 8 (Андерс Энгстрем) [2023, США, Фэнтези, боевик, приключения, семейный, WEB-DL 1080p] 4 x MVO (HDRezka Studio, LostFilm, TVShows, NewComers) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-5 из 8 (Андерс Энгстрем) [2023, США, Фэнтези, боевик, приключения, семейный, HEVC, Dolby Vision, HDR10, WEB-DL 2160p, 4k] [Hybrid] 5 x MVO (NewStudio, LostFilm, HDRezka, TVShows, NewComers) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:F6617D0DD4F45E920B2E4B7D35FAB3A2F01057C8&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 22505628631,
+      "size": "20.96 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-5 из 8 (Андерс Энгстрем) [2023, США, Фэнтези, боевик, приключения, семейный, HEVC, Dolby Vision, HDR10, WEB-DL 2160p, 4k] [Hybrid] 5 x MVO (NewStudio, LostFilm, HDRezka, TVShows, NewComers) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-8 из 8 (Андерс Энгстрем) [2023, США, Фэнтези, боевик, приключения, семейный, Dolby Vision, HDR10, WEB-DL 2160p, 4k] [Hybrid] 4 x MVO (HDRezka, LostFilm, TVShows, NewComers) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:E2040298AA201207D0341C6FB98E974C9F00A2A0&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 34520799641,
+      "size": "32.15 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-8 из 8 (Андерс Энгстрем) [2023, США, Фэнтези, боевик, приключения, семейный, Dolby Vision, HDR10, WEB-DL 2160p, 4k] [Hybrid] 4 x MVO (HDRezka, LostFilm, TVShows, NewComers) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-8 из 8 (Андерс Энгстрем) [2023, США, Фэнтези, боевик, приключения, семейный, SDR, WEB-DL 2160p, 4k] 4 x MVO (HDRezka, LostFilm, TVShows, NewComers) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:31D979661B8100C9F452950AA8AD7ACBB08D4EFC&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 34434900295,
+      "size": "32.07 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-8 из 8 (Андерс Энгстрем) [2023, США, Фэнтези, боевик, приключения, семейный, SDR, WEB-DL 2160p, 4k] 4 x MVO (HDRezka, LostFilm, TVShows, NewComers) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians [S01] (2023) WEB-DL 720p | MVO",
+      "magnet": "magnet:?xt=urn:btih:eba0e81a131e8ed3f3ff1a56211ff15effc96205&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 11693048463,
+      "size": "10.89 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians [S01] (2023) WEB-DL 720p | MVO"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-5 из 8 (Андерс Энгстрем) [2023, США, фэнтези, боевик, приключения, семейный, WEB-DL 720p] MVO (LostFilm) + MVO (NewStudio) + MVO (TVShows) + MVO (HDRezka) + MVO (NewComers) + Original (Eng) + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:D2E52C0E1C6C74823876DEAA17B697DC661B96A8&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 7763153387,
+      "size": "7.23 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 5,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 1 / Серии: 1-5 из 8 (Андерс Энгстрем) [2023, США, фэнтези, боевик, приключения, семейный, WEB-DL 720p] MVO (LostFilm) + MVO (NewStudio) + MVO (TVShows) + MVO (HDRezka) + MVO (NewComers) + Original (Eng) + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians [S02] (2025) WEB-DL 1080p | P | Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:548462adeb1afa7cd9c08177ba905be5849f5131&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "1080p",
+      "source": "JacRed · korsars",
+      "bytes": 14474039787,
+      "size": "13.48 GB",
+      "episode": 0,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians [S02] (2025) WEB-DL 1080p | P | Red Head Sound"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 2 / Серии: 1-8 из 8 (Андерс Энгстрем) [2025, США, Фэнтези, боевик, приключения, семейный, WEB-DL 1080p] MVO (NewComers, HDRezka, LostFilm, Red Head Sound, WStudio, LE-Production) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:804171161D977CD6F1B5D233F96B2F36DED7C79C&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 18887118684,
+      "size": "17.59 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 2 / Серии: 1-8 из 8 (Андерс Энгстрем) [2025, США, Фэнтези, боевик, приключения, семейный, WEB-DL 1080p] MVO (NewComers, HDRezka, LostFilm, Red Head Sound, WStudio, LE-Production) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians (2025) WEB-DL [H.264/1080p] (сезон 2, серии 1-8 из 8) NewComers, HDRezka, LostFilm, RHS, WStudio, LE-Production, Dragon Money",
+      "magnet": "magnet:?xt=urn:btih:9223971ED28FDE05E508EB4A501733D620A2528B",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 18897856102,
+      "size": "17.60 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians (2025) WEB-DL [H.264/1080p] (сезон 2, серии 1-8 из 8) NewComers, HDRezka, LostFilm, RHS, WStudio, LE-Production, Dragon Money"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 2 / Серии: 1-8 из 8 (Андерс Энгстрем) [2025, США, Фэнтези, боевик, приключения, семейный, Dolby Vision, HDR10, WEB-DL 2160p, 4k] MVO (NewComers, HDRezka, LostFilm, RHS, WStudio, LE-Production) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:DE8AC819BA0F4E503445BB5A90B9C442E87416A0&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 35873714339,
+      "size": "33.41 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians / Сезон: 2 / Серии: 1-8 из 8 (Андерс Энгстрем) [2025, США, Фэнтези, боевик, приключения, семейный, Dolby Vision, HDR10, WEB-DL 2160p, 4k] MVO (NewComers, HDRezka, LostFilm, RHS, WStudio, LE-Production) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians (2025) WEB-DL [H.265/2160p] [4K, HDR10, DV Profile 8, 10-bit] (сезон 2, серии 1-8 из 8) NewComers, HDRezka, LostFilm, RHS, WStudio, LE-Pr ...",
+      "magnet": "magnet:?xt=urn:btih:2E6CC996B58E51AA91B96E871668389103CD8CB5",
+      "quality": "4K",
+      "source": "JacRed · nnmclub",
+      "bytes": 35862976921,
+      "size": "33.40 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Перси Джексон и Олимпийцы / Percy Jackson and the Olympians (2025) WEB-DL [H.265/2160p] [4K, HDR10, DV Profile 8, 10-bit] (сезон 2, серии 1-8 из 8) NewComers, HDRezka, LostFilm, RHS, WStudio, LE-Pr ..."
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-25T09:02:19Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt12324366/img",
+    "background": "https://images.metahub.space/background/medium/tt12324366/img"
+  }
+}

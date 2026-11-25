@@ -1,0 +1,594 @@
+{
+  "id": "tt4406178",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/501c02c0c9f0eaead505f974d20d64b50d2be44bc79cc0eb64212cf0af835c1b.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8500f06e01f54d9c3f4273f7cf887c6cdafb7fc791723b652f0fcc3daf3f050e.jpg",
+  "genres": [
+    "Драма"
+  ],
+  "runtime": "55 мин",
+  "imdbRating": "8.1",
+  "releaseInfo": "2022–",
+  "trailers": [
+    {
+      "source": "wKj1cMz3yfI",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Позолоченный век",
+  "description": "XIX век. Молодая девушка Мариан Брук, осиротевшая дочь генерала-южанина, переезжает в Нью-Йорк в дом своих тётушек-традиционалисток. Теперь она должна понять правила этого общества и проложить себе путь в будущее.",
+  "aliases": [
+    "Позолоченный век",
+    "The Gilded Age"
+  ],
+  "kpId": 1140676,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/1140676/"
+  ],
+  "year": "2022",
+  "imdbId": "tt4406178",
+  "ids": [
+    "tt4406178"
+  ],
+  "originalName": "The Gilded Age",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-25T11:14:16Z",
+  "videos": [
+    {
+      "id": "tt4406178:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Никогда не было нового",
+      "description": "Нувориши Расселы вселяются в новый дом в Нью-Йорке. К их соседкам приезжает племянница-сирота Мэриэн с новой подругой Пегги.",
+      "released": "2022-01-24"
+    },
+    {
+      "id": "tt4406178:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Деньги - это еще не все",
+      "description": "Джордж Рассел планирует построить в городе новый железнодорожный вокзал. Мэриэн навещает юрист её отца Том Рейкс.",
+      "released": "2022-01-31"
+    },
+    {
+      "id": "tt4406178:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Расплачиваться за поступки",
+      "description": "У юной Глэдис Рассел появляется тайна, а её папа узнаёт из газет о махинациях олдерменов. Мэриэн поступает неожиданное предложение.",
+      "released": "2022-02-07"
+    },
+    {
+      "id": "tt4406178:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Длинная лестница",
+      "description": "Джордж находит способ ввести жену в светское общество. Пегги приглашена на встречу с редактором городской газеты.",
+      "released": "2022-02-14"
+    },
+    {
+      "id": "tt4406178:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Благотворительность выполняет две функции",
+      "description": "Глэдис сталкивается с предательством, а Джордж получает плохую весть. Пегги застаёт подругу в щекотливой ситуации.",
+      "released": "2022-02-21"
+    },
+    {
+      "id": "tt4406178:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Головы рубили и за меньшее",
+      "description": "Пегги добивается успехов на поприще журналистики. Джордж пытается выяснить причину аварии на железной дороге и спасти бизнес.",
+      "released": "2022-02-28"
+    },
+    {
+      "id": "tt4406178:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Непреодолимое изменение",
+      "description": "Сын Расселов Ларри признаётся, что не хочет идти по стопам отца. Джорджу грозит обвинение по делу об аварии.",
+      "released": "2022-03-07"
+    },
+    {
+      "id": "tt4406178:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Нега в Ньюпорте",
+      "description": "Джорджу предстоит слушание в суде. Секрет из прошлого Пегги выходит на поверхность. Мэриэн и Том решают тайно пожениться.",
+      "released": "2022-03-14"
+    },
+    {
+      "id": "tt4406178:1:9",
+      "season": 1,
+      "episode": 9,
+      "title": "Да начнётся турнир",
+      "description": "Бал в честь Глэдис оказывается под угрозой отмены. Пегги узнаёт о неприглядном поступке отца, а Мэриэн рискует своей репутацией.",
+      "released": "2022-03-21"
+    },
+    {
+      "id": "tt4406178:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Ты даже не любишь оперу",
+      "description": "Расселы устраивают приём в поддержку Метрополитен-оперы. Глэдис получает предложение руки и сердца от состоятельного джентльмена.",
+      "released": "2023-10-29"
+    },
+    {
+      "id": "tt4406178:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "И в чем здесь подвох?",
+      "description": "Джордж отговаривает Глэдис от брака по расчёту. Пегги находит работу, а Ларри увлекается вдовой Сюзан Блэйн, которая старше него.",
+      "released": "2023-11-05"
+    },
+    {
+      "id": "tt4406178:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Одновременно",
+      "description": "Жена Джорджа, Берта, объявляет дату открытия театрального сезона. Она подозревает мужа в измене с их бывшей горничной Тёрнер.",
+      "released": "2023-11-12"
+    },
+    {
+      "id": "tt4406178:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Его светлость герцог",
+      "description": "Берта узнаёт о финансовых трудностях в Метрополитен-опере. Она вызывает Сюзан на разговор, чтобы заставить её отказаться от Ларри.",
+      "released": "2023-11-19"
+    },
+    {
+      "id": "tt4406178:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Так близко, что можно прикоснуться",
+      "description": "Берта готовит торжество в честь герцога Бекингема. Тётя Мэриэн, Агнес, препятствует браку своей сестры Ады со священником.",
+      "released": "2023-11-26"
+    },
+    {
+      "id": "tt4406178:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Предупредительные выстрелы",
+      "description": "Джордж едет в Питтсбург, где затевается забастовка рабочих. Вдовец Дэшил делает Мэриэн предложение, а Ада узнаёт о болезни мужа.",
+      "released": "2023-12-03"
+    },
+    {
+      "id": "tt4406178:2:7",
+      "season": 2,
+      "episode": 7,
+      "title": "Чудеса никогда не прекращаются",
+      "description": "Нью-Йорк празднует открытие Бруклинского моста. Мэриэн готовится к свадьбе, а Ада переживает потерю близкого человека.",
+      "released": "2023-12-10"
+    },
+    {
+      "id": "tt4406178:2:8",
+      "season": 2,
+      "episode": 8,
+      "title": "С точки зрения победы и поражения",
+      "description": "Пегги пытается предотвратить закрытие школ для цветных. Мэриэн принимает решение о своём замужестве, а Ада получает наследство.",
+      "released": "2023-12-17"
+    },
+    {
+      "id": "tt4406178:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Кто здесь главный?",
+      "description": "Джордж прибывает в Аризону, а Ада организует собрание общества трезвости. Глэдис скрывает от матери роман с ухажёром Билли.",
+      "released": "2025-06-22"
+    },
+    {
+      "id": "tt4406178:3:2",
+      "season": 3,
+      "episode": 2,
+      "title": "Что пишут в газетах",
+      "description": "Доктор Киркленд лечит захворавшую Пегги. Когда в прессе выходят статьи о помолвке Глэдис и Бекингема, Билли решает действовать.",
+      "released": "2025-06-29"
+    },
+    {
+      "id": "tt4406178:3:3",
+      "season": 3,
+      "episode": 3,
+      "title": "Любовь — это всегда непросто",
+      "description": "Джордж делает герцогу щедрое предложение. Киркленд навещает Пегги в Ньюпорте, а Ларри и лакей Троттер встречаются с инвесторами.",
+      "released": "2025-07-06"
+    },
+    {
+      "id": "tt4406178:3:4",
+      "season": 3,
+      "episode": 4,
+      "title": "Брак — это азартная игра",
+      "description": "Перед свадьбой Глэдис одолевают сомнения, а Берта недовольна приездом сестры Моники. Ларри и Троттер продают патент на часы.",
+      "released": "2025-07-13"
+    },
+    {
+      "id": "tt4406178:3:5",
+      "season": 3,
+      "episode": 5,
+      "title": "Другой мир",
+      "description": "У Киркленда появляется наглый конкурент, а Ларри просит руки Мэриэн. В Англии Глэдис подвергается травле со стороны золовки Сары.",
+      "released": "2025-07-20"
+    },
+    {
+      "id": "tt4406178:3:6",
+      "season": 3,
+      "episode": 6,
+      "title": "Нельзя приготовить яичницу, не разбив яиц",
+      "description": "Берта помогает дочери поставить Сару на место. Мэриэн оскорблена поступком Ларри, а её тёти узнают об истинном богатстве Троттера.",
+      "released": "2025-07-27"
+    },
+    {
+      "id": "tt4406178:3:7",
+      "season": 3,
+      "episode": 7,
+      "title": "Отлучённый",
+      "description": "Выход романа о бомонде Нью-Йорка производит эффект разорвавшейся бомбы. Джордж уверен: Ларри спас семью от финансового краха.",
+      "released": "2025-08-03"
+    },
+    {
+      "id": "tt4406178:3:8",
+      "season": 3,
+      "episode": 8,
+      "title": "Я уже всё решил",
+      "description": "Киркленд экстренно оперирует Джорджа, а Ларри отдаляется от Мэриэн. Берта, вопреки правилам, приглашает на бал разведённых дам.",
+      "released": "2025-08-10"
+    },
+    {
+      "id": "tt4406178:4:1",
+      "season": 4,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-11-01"
+    },
+    {
+      "id": "tt4406178:4:2",
+      "season": 4,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2026-11-08"
+    },
+    {
+      "id": "tt4406178:4:3",
+      "season": 4,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2026-11-15"
+    },
+    {
+      "id": "tt4406178:4:4",
+      "season": 4,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2026-11-22"
+    },
+    {
+      "id": "tt4406178:4:5",
+      "season": 4,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2026-11-29"
+    },
+    {
+      "id": "tt4406178:4:6",
+      "season": 4,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2026-12-06"
+    },
+    {
+      "id": "tt4406178:4:7",
+      "season": 4,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2026-12-13"
+    },
+    {
+      "id": "tt4406178:4:8",
+      "season": 4,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2026-12-20"
+    },
+    {
+      "id": "tt4406178:5:1",
+      "season": 5,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    },
+    {
+      "number": 4,
+      "name": "Сезон 4"
+    },
+    {
+      "number": 5,
+      "name": "Сезон 5"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Позолоченный век / The Gilded Age [S01] (2022) WEB-DL 1080p | AlexFilm",
+      "magnet": "magnet:?xt=urn:btih:363a27d89e1be11cf16fcb86cde613e3b63161ce&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 33694018437,
+      "size": "31.38 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age [S01] (2022) WEB-DL 1080p | AlexFilm"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age [1 сезон] (2022) WEB-DLRip 1080p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:58f2beef255757a2bb4321d22fab52f35c4847b3&dn=The.Gilded.Age.2022.S01.WEB-DLRip.1080p.HMAX.HDREZKA.STUDIO&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://opentracker.i2p.rocks:6969/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=udp://tracker.bitsearch.to:1337/announce&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://exodus.desync.com:6969&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · megapeer",
+      "bytes": 33940979056,
+      "size": "31.61 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age [1 сезон] (2022) WEB-DLRip 1080p | HDRezka Studio"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age / Сезон: 1 / Серии: 1-9 из 9 (Майкл Энглер, Салли Ричардсон-Уитфилд) [2022, США, Драма, WEB-DL 1080p] MVO (Novamedia) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:AED51DD437461D7149BD8B4C113344038611EEEA&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 33694018437,
+      "size": "31.38 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age / Сезон: 1 / Серии: 1-9 из 9 (Майкл Энглер, Салли Ричардсон-Уитфилд) [2022, США, Драма, WEB-DL 1080p] MVO (Novamedia) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age / Сезон: 1 / Серии: 1-9 из 9 (Майкл Энглер, Салли Ричардсон-Уитфилд) [2022, США, Драма, WEB-DL 1080p] 4 x MVO (AlexFilm, HDrezka, Novamedia, TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:E251425B55334DBCCE90ED4E5406221BB9E4DA71&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 41478646661,
+      "size": "38.63 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age / Сезон: 1 / Серии: 1-9 из 9 (Майкл Энглер, Салли Ричардсон-Уитфилд) [2022, США, Драма, WEB-DL 1080p] 4 x MVO (AlexFilm, HDrezka, Novamedia, TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age / Сезон: 1 / Серии: 1-9 из 9 (Майкл Энглер, Салли Ричардсон-Уитфилд) [2022, США, Драма, Dolby Vision, HDR10, WEB-DL 2160p, 4k] [Hybrid] 4 x MVO (AlexFilm, HDrezka, Novamedia, TVShows) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:FBDDCCB4C6BB7117F195D31744DFAADEAD5E4896&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 88862873354,
+      "size": "82.76 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age / Сезон: 1 / Серии: 1-9 из 9 (Майкл Энглер, Салли Ричардсон-Уитфилд) [2022, США, Драма, Dolby Vision, HDR10, WEB-DL 2160p, 4k] [Hybrid] 4 x MVO (AlexFilm, HDrezka, Novamedia, TVShows) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Позолоченный век (1 сезон: 1-9 серии из 9) / The Gilded Age / 2022 / ПМ (AlexFilm), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:B8082695E39250ECE8863C228E6D0762F0B20B22",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 15698105466,
+      "size": "14.62 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век (1 сезон: 1-9 серии из 9) / The Gilded Age / 2022 / ПМ (AlexFilm), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Позолоченный век (1 сезон: 1-9 серии из 9) / The Gilded Age / 2022 / ПМ (HDRezka Studio) / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:143C0510C2CD13E3E2C2CF0F30328DF9BE801DD1",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 15805479649,
+      "size": "14.72 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 9,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век (1 сезон: 1-9 серии из 9) / The Gilded Age / 2022 / ПМ (HDRezka Studio) / WEB-DL (720p)"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age [02x01-06 из 08] (2023) WEB-DLRip 1080p | HDRezka Studio",
+      "magnet": "magnet:?xt=urn:btih:bcc3bcf2a2b4f3b4240d1a4c0f3ffc512470baf2&dn=Pozolochennyy-vek-The-Gilded-Age-02x01-06-iz-08-2023-WEB-DLRip-1080p-HDRezka-Studio&xl=20201489008&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/96177/",
+      "quality": "1080p",
+      "source": "JacRed · torrentby",
+      "bytes": 20197083709,
+      "size": "18.81 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 6,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age [02x01-06 из 08] (2023) WEB-DLRip 1080p | HDRezka Studio"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age / Сезон: 2 / Серии: 1-8 из 8 (Майкл Энглер) [2023, США, Драма, WEB-DL 1080p] MVO (TVShows) + MVO (Iyuno-SDI Group) + MVO (HDRezka) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C261C63675B459ED334D368C17D3AC4ECA9012F1&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 30376156200,
+      "size": "28.29 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age / Сезон: 2 / Серии: 1-8 из 8 (Майкл Энглер) [2023, США, Драма, WEB-DL 1080p] MVO (TVShows) + MVO (Iyuno-SDI Group) + MVO (HDRezka) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age / Сезон: 2 / Серии: 1-8 из 8 (Майкл Энглер) [2023, США, Драма, WEB-DL 1080p] 3 x MVO (TVShows, Iyuno-SDI Group, HDRezka) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:CFF9890C8A3EE72BC661F39F4FED71BE7307CA72&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 30376156200,
+      "size": "28.29 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age / Сезон: 2 / Серии: 1-8 из 8 (Майкл Энглер) [2023, США, Драма, WEB-DL 1080p] 3 x MVO (TVShows, Iyuno-SDI Group, HDRezka) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age / Сезон: 2 / Серии: 1-8 из 8 (Майкл Энглер) [2023, США, Драма, Dolby Vision, HDR10, WEB-DL 2160p, 4k] [Hybrid] 3 x MVO (Iyuno-SDI Group, TVShows, HDRezka) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:B5965A5EC06CBC01FC28D4E514CA41D114DEBE75&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 75312251535,
+      "size": "70.14 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age / Сезон: 2 / Серии: 1-8 из 8 (Майкл Энглер) [2023, США, Драма, Dolby Vision, HDR10, WEB-DL 2160p, 4k] [Hybrid] 3 x MVO (Iyuno-SDI Group, TVShows, HDRezka) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Позолоченный век (2 сезон: 1-8 серии из 8) / The Gilded Age / 2023 / ПМ (HDRezka, Iyuno-SDI Group, TVShows), СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:759353506D00FF1A625EB4C472E7E50755A30799",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 15612206120,
+      "size": "14.54 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 2,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век (2 сезон: 1-8 серии из 8) / The Gilded Age / 2023 / ПМ (HDRezka, Iyuno-SDI Group, TVShows), СТ / WEB-DL (720p)"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age / Сезон: 3 / Серии: 1-8 из 8 (Майкл Энглер) [2025, США, драма, WEB-DL 1080p] MVO (Syncmer) + Original + Sub (Rus, Eng, Chi, Fra, Rom)",
+      "magnet": "magnet:?xt=urn:btih:7AF5037B3FD37ED63256AE07354CB6A58E229314&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 35841502085,
+      "size": "33.38 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age / Сезон: 3 / Серии: 1-8 из 8 (Майкл Энглер) [2025, США, драма, WEB-DL 1080p] MVO (Syncmer) + Original + Sub (Rus, Eng, Chi, Fra, Rom)"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age / Сезон: 3 / Серии: 1-8 из 8 (Майкл Энглер) [2025, США, Драма, WEB-DL 1080p] 6 x MVO (Syncmer, HDrezka, WStudio, TVShows, Novamedia LE-Production) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:39CB637EB99C2A17F5DFE74B7440220532AC2426&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 40898826076,
+      "size": "38.09 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age / Сезон: 3 / Серии: 1-8 из 8 (Майкл Энглер) [2025, США, Драма, WEB-DL 1080p] 6 x MVO (Syncmer, HDrezka, WStudio, TVShows, Novamedia LE-Production) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age / Сезон: 3 / Серии: 1-8 из 8 (Майкл Энглер) [2025, США, Драма, Dolby Vision, HDR10, WEB-DL 2160p, 4k] [Hybrid] 5 x MVO (Syncmer, HDrezka, WStudio, TVShows, Novamedia, LE-Production) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:562E5FFC5E8651B9278653D96BD613A4175EDA9E&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 80229989089,
+      "size": "74.72 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 3,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age / Сезон: 3 / Серии: 1-8 из 8 (Майкл Энглер) [2025, США, Драма, Dolby Vision, HDR10, WEB-DL 2160p, 4k] [Hybrid] 5 x MVO (Syncmer, HDrezka, WStudio, TVShows, Novamedia, LE-Production) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Позолоченный век / The Gilded Age / Сезон: 4 / Серии: 1-3 из 8 (Салли Ричардсон-Уитфилд, Аня Адамс, Джон Камерон, Дженнифер Гетцингер) [2026, США, Драма, WEB-DL 1080p] MVO (Syncmer, TVShows, HDRezka Studio) + Ukr MVO + Original + Sub (Rus, Eng, Heb)",
+      "magnet": "magnet:?xt=urn:btih:4FFB90EC00FA4C0DC145CD5F6F4115D70BCECE02&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 12981538652,
+      "size": "12.09 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век / The Gilded Age / Сезон: 4 / Серии: 1-3 из 8 (Салли Ричардсон-Уитфилд, Аня Адамс, Джон Камерон, Дженнифер Гетцингер) [2026, США, Драма, WEB-DL 1080p] MVO (Syncmer, TVShows, HDRezka Studio) + Ukr MVO + Original + Sub (Rus, Eng, Heb)"
+    },
+    {
+      "title": "Позолоченный век (4 сезон: 1-3 серии из 8) / The Gilded Age / 2026 / ПМ (Syncmer, TVShows, HDrezka Studio), СТ / WEB-DL (1080p)",
+      "magnet": "magnet:?xt=urn:btih:B6523B819402D9A9A959BE723D79AE113F580A6A",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 12981538652,
+      "size": "12.09 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 3,
+      "season": 4,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Позолоченный век (4 сезон: 1-3 серии из 8) / The Gilded Age / 2026 / ПМ (Syncmer, TVShows, HDrezka Studio), СТ / WEB-DL (1080p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-25T11:14:16Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt4406178/img",
+    "background": "https://images.metahub.space/background/medium/tt4406178/img"
+  }
+}
