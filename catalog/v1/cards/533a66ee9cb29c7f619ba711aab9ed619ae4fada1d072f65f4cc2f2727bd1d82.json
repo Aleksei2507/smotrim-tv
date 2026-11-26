@@ -1,0 +1,370 @@
+{
+  "id": "tt13016388",
+  "type": "series",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ea3fdd90e3164a67a233274bafe649273278f566173e995e91d8e192ba5e7e41.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6fd952a257d1e59f36168ef10ff01ab8482404d7b5243eca7c2131bcd46732c0.jpg",
+  "genres": [
+    "Приключения",
+    "Драма",
+    "Фэнтези"
+  ],
+  "runtime": "55 мин",
+  "imdbRating": "7.5",
+  "releaseInfo": "2024–",
+  "trailers": [
+    {
+      "source": "SdvzhCL7vIA",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Задача трёх тел",
+  "description": "В 1967 году девушка-астрофизик — классовый враг и дочь насмерть забитого хунвэйбинами профессора — начинает работать в сверхсекретной лаборатории во Внутренней Монголии, где пытаются отправлять сигналы возможным внеземным цивилизациям.\n2024 год. Ускорители частиц по всему миру показывают результаты, которые опровергают известные законы физики, а также происходит серия загадочных самоубийств учёных. Расследованием занимается лондонский детектив, который ведёт пристальное наблюдение за учениками покончившей с собой сотрудницы Оксфордского университета. Одна из них, занимающаяся разработками нановолокна, начинает видеть цифры обратного отсчёта, а другая забирает у матери погибшей загадочный высокотехнологичный шлем виртуальной реальности и запускает видеоигру, в которой нужно спасти от гибели цивилизацию, решив задачу трёх тел — трёх вращающихся вокруг планеты солнц.",
+  "aliases": [
+    "Задача трёх тел",
+    "3 Body Problem"
+  ],
+  "kpId": 4693201,
+  "origin": "other",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/4693201/"
+  ],
+  "year": "2024",
+  "imdbId": "tt13016388",
+  "ids": [
+    "tt13016388"
+  ],
+  "originalName": "3 Body Problem",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-26T13:51:31Z",
+  "videos": [
+    {
+      "id": "tt13016388:1:1",
+      "season": 1,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2024-03-21"
+    },
+    {
+      "id": "tt13016388:1:2",
+      "season": 1,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2024-03-21"
+    },
+    {
+      "id": "tt13016388:1:3",
+      "season": 1,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2024-03-21"
+    },
+    {
+      "id": "tt13016388:1:4",
+      "season": 1,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2024-03-21"
+    },
+    {
+      "id": "tt13016388:1:5",
+      "season": 1,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2024-03-21"
+    },
+    {
+      "id": "tt13016388:1:6",
+      "season": 1,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2024-03-21"
+    },
+    {
+      "id": "tt13016388:1:7",
+      "season": 1,
+      "episode": 7,
+      "title": "Серия 7",
+      "description": "",
+      "released": "2024-03-21"
+    },
+    {
+      "id": "tt13016388:1:8",
+      "season": 1,
+      "episode": 8,
+      "title": "Серия 8",
+      "description": "",
+      "released": "2024-03-21"
+    },
+    {
+      "id": "tt13016388:2:1",
+      "season": 2,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": "2026-01-01"
+    },
+    {
+      "id": "tt13016388:2:2",
+      "season": 2,
+      "episode": 2,
+      "title": "Серия 2",
+      "description": "",
+      "released": "2027-01-14T03:00:00.000Z"
+    },
+    {
+      "id": "tt13016388:2:3",
+      "season": 2,
+      "episode": 3,
+      "title": "Серия 3",
+      "description": "",
+      "released": "2027-01-14T03:00:00.000Z"
+    },
+    {
+      "id": "tt13016388:2:4",
+      "season": 2,
+      "episode": 4,
+      "title": "Серия 4",
+      "description": "",
+      "released": "2027-01-14T03:00:00.000Z"
+    },
+    {
+      "id": "tt13016388:2:5",
+      "season": 2,
+      "episode": 5,
+      "title": "Серия 5",
+      "description": "",
+      "released": "2027-01-14T03:00:00.000Z"
+    },
+    {
+      "id": "tt13016388:2:6",
+      "season": 2,
+      "episode": 6,
+      "title": "Серия 6",
+      "description": "",
+      "released": "2027-01-14T03:00:00.000Z"
+    },
+    {
+      "id": "tt13016388:3:1",
+      "season": 3,
+      "episode": 1,
+      "title": "Серия 1",
+      "description": "",
+      "released": ""
+    }
+  ],
+  "episodeProvider": "github",
+  "seasons": [
+    {
+      "number": 1,
+      "name": "Сезон 1"
+    },
+    {
+      "number": 2,
+      "name": "Сезон 2"
+    },
+    {
+      "number": 3,
+      "name": "Сезон 3"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Задача трёх тел / 3 Body Problem [1 сезон] (2024) WEB-DL 1080p | HDRezka Studio, LostFilm, TVShows, Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:aa5131d427587ac2764373b8f7a793ef0b153d78&dn=3 Body Problem (Season 1) WEB-DL 1080p&tr=udp://exodus.desync.com:6969&tr=http://bt.piratbit.club/fffffffff0ca8bcf84d4c8ba3769bb91/announce&tr=udp://explodie.org:6969&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://opentracker.i2p.rocks:6969/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://tracker.dler.org:6969/announce",
+      "quality": "1080p",
+      "source": "JacRed · megapeer",
+      "bytes": 25619479920,
+      "size": "23.86 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трёх тел / 3 Body Problem [1 сезон] (2024) WEB-DL 1080p | HDRezka Studio, LostFilm, TVShows, Red Head Sound"
+    },
+    {
+      "title": "Задача трёх тел / 3 Body Problem [S01] (2024) WEB-DL 1080p | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:9497f08f503e1ba31b6553e430dfce47dbe8999d&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 21195663605,
+      "size": "19.74 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трёх тел / 3 Body Problem [S01] (2024) WEB-DL 1080p | HDrezka Studio"
+    },
+    {
+      "title": "Задача трёх тел / 3 Body Problem [01x01 из 08] (2024) WEB-DL 1080p | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:73eb65f84863cc09512e4ef0a5b0be7b815bd95c&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 2576980377,
+      "size": "2.40 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трёх тел / 3 Body Problem [01x01 из 08] (2024) WEB-DL 1080p | HDrezka Studio"
+    },
+    {
+      "title": "Задача трех тел / 3 Body Problem / Сезон: 1 / Серии: 1-8 из 8 (Минки Спиро, Джереми Подесва) [2024, Великобритания, США, Китай, Фантастика, фэнтези, драма, детектив, WEB-DL 1080p] 4 x MVO (HDRezka Studio, LostFilm, TVShows, Red Head Sound) + Ukr Dub (Postmodern) + Original + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:C5571042EDEDE34D63A0DD19B327986A963717BA&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 25619479920,
+      "size": "23.86 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трех тел / 3 Body Problem / Сезон: 1 / Серии: 1-8 из 8 (Минки Спиро, Джереми Подесва) [2024, Великобритания, США, Китай, Фантастика, фэнтези, драма, детектив, WEB-DL 1080p] 4 x MVO (HDRezka Studio, LostFilm, TVShows, Red Head Sound) + Ukr Dub (Postmodern) + Original + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Задача трех тел / 3 Body Problem / Сезон: 1 / Серии: 1-8 из 8 (Минки Спиро, Джереми Подесва, Дерек Цан) [2024, Великобритания, США, Китай, фантастика, фэнтези, драма, детектив, WEB-DL 1080p] MVO (Jaskier) + Original + Sub (Rus, Eng)",
+      "magnet": "magnet:?xt=urn:btih:2BBC07974A767921CFF539F9B548F67DC0E59A46&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 19423989596,
+      "size": "18.09 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трех тел / 3 Body Problem / Сезон: 1 / Серии: 1-8 из 8 (Минки Спиро, Джереми Подесва, Дерек Цан) [2024, Великобритания, США, Китай, фантастика, фэнтези, драма, детектив, WEB-DL 1080p] MVO (Jaskier) + Original + Sub (Rus, Eng)"
+    },
+    {
+      "title": "Задача трёх тел / 3 Body Problem [S01] (2024) WEB-DL-HEVC 2160p | 4K | HDR | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:a3e783d311f8dfa7e26b51062875a1a880b121e6&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 38343320535,
+      "size": "35.71 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трёх тел / 3 Body Problem [S01] (2024) WEB-DL-HEVC 2160p | 4K | HDR | HDrezka Studio"
+    },
+    {
+      "title": "Задача трёх тел / 3 Body Problem [S01] (2024) WEB-DL-HEVC 2160p | 4K | HDR | HDrezka Studio, LostFilm, Jaskier, Red Head Sound",
+      "magnet": "magnet:?xt=urn:btih:107dcfb326270fb8fd1b816a270b6b69c2b51ec9&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 40737764802,
+      "size": "37.94 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трёх тел / 3 Body Problem [S01] (2024) WEB-DL-HEVC 2160p | 4K | HDR | HDrezka Studio, LostFilm, Jaskier, Red Head Sound"
+    },
+    {
+      "title": "Задача трёх тел / 3 Body Problem [01x01 из 08] (2024) WEB-DL-HEVC 2160p | 4K | HDR | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:534c123333633115d247055d2944f985b79aab49&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "4K",
+      "source": "JacRed · rutor",
+      "bytes": 5680094248,
+      "size": "5.29 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 1,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трёх тел / 3 Body Problem [01x01 из 08] (2024) WEB-DL-HEVC 2160p | 4K | HDR | HDrezka Studio"
+    },
+    {
+      "title": "Задача трех тел / 3 Body Problem / Сезон: 1 / Серии: 1-8 из 8 (Минки Спиро) [2024, Великобритания, США, Китай, фантастика, фэнтези, HDR10, Dolby Vision, WEB-DL 2160p, 4k] 5 x MVO (LostFilm, Jaskier, HDRezka Studio, TVShows, Red Head Sound) + Ukr Dub + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:29ABA0807C459F0EE120D20620957ADA1ACD57B5&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 43486543872,
+      "size": "40.50 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трех тел / 3 Body Problem / Сезон: 1 / Серии: 1-8 из 8 (Минки Спиро) [2024, Великобритания, США, Китай, фантастика, фэнтези, HDR10, Dolby Vision, WEB-DL 2160p, 4k] 5 x MVO (LostFilm, Jaskier, HDRezka Studio, TVShows, Red Head Sound) + Ukr Dub + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Задача трех тел / 3 Body Problem / Сезон: 1 / Серии: 1-8 из 8 (Минки Спиро) [2024, Великобритания, США, Китай, фантастика, фэнтези, SDR, WEB-DL 2160p, 4k] 5 x MVO (LostFilm, Jaskier, HDRezka Studio, TVShows, Red Head Sound) + DVO (ViruseProject) + Ukr Dub + Original (Eng) + Sub (Rus, Ukr, Eng)",
+      "magnet": "magnet:?xt=urn:btih:9B16F0066DA82D5ABEC6D86F4D421FD4CF11A3C7&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "4K",
+      "source": "JacRed · rutracker",
+      "bytes": 59281286103,
+      "size": "55.21 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трех тел / 3 Body Problem / Сезон: 1 / Серии: 1-8 из 8 (Минки Спиро) [2024, Великобритания, США, Китай, фантастика, фэнтези, SDR, WEB-DL 2160p, 4k] 5 x MVO (LostFilm, Jaskier, HDRezka Studio, TVShows, Red Head Sound) + DVO (ViruseProject) + Ukr Dub + Original (Eng) + Sub (Rus, Ukr, Eng)"
+    },
+    {
+      "title": "Задача трёх тел / 3 Body Problem [S01] (2024) WEB-DL 720p | HDrezka Studio",
+      "magnet": "magnet:?xt=urn:btih:bd3b6fbc591350ab0647f6bba6fafb2474ea02d0&tr=http%3A%2F%2Fkorsars.pro%2Fbt%2Fannounce.php%3Fuk%3DRm2prGZuq2",
+      "quality": "720p",
+      "source": "JacRed · korsars",
+      "bytes": 10114647982,
+      "size": "9.42 GB",
+      "episode": 0,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трёх тел / 3 Body Problem [S01] (2024) WEB-DL 720p | HDrezka Studio"
+    },
+    {
+      "title": "Задача трех тел (1 сезон: 1-8 серии из 8) / 3 Body Problem / 2024 / ПМ (HDrezka Studio, Jaskier, LostFilm, Red Head Sound), СТ / WEB-DLRip (720p)",
+      "magnet": "magnet:?xt=urn:btih:C111F39AEC0F15AF4F37851F8ABF9CCA04850B8E",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 15923591249,
+      "size": "14.83 GB",
+      "episode": 0,
+      "episodeFrom": 1,
+      "episodeTo": 8,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трех тел (1 сезон: 1-8 серии из 8) / 3 Body Problem / 2024 / ПМ (HDrezka Studio, Jaskier, LostFilm, Red Head Sound), СТ / WEB-DLRip (720p)"
+    },
+    {
+      "title": "Задача трех тел / San Ti / The Three-Body Problem / Сезон: 1 / Серии: 15 из 15 [2022, фантастика, детектив, триллер, WEB-DL 1080p] MVO",
+      "magnet": "magnet:?xt=urn:btih:461560C9C6EBD0A82C83D275154BDEE4F3FC07CB&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 11360188497,
+      "size": "10.58 GB",
+      "episode": 0,
+      "episodeFrom": 15,
+      "episodeTo": 15,
+      "season": 1,
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Задача трех тел / San Ti / The Three-Body Problem / Сезон: 1 / Серии: 15 из 15 [2022, фантастика, детектив, триллер, WEB-DL 1080p] MVO"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-26T13:51:31Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt13016388/img",
+    "background": "https://images.metahub.space/background/medium/tt13016388/img"
+  }
+}
