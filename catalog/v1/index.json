@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795701193,
-  "updatedAt": "2026-11-26T13:51:31Z",
+  "revision": 1795734011,
+  "updatedAt": "2026-11-26T22:58:07Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -1141,8 +1141,8 @@
         "Криминал"
       ],
       "imdbRating": "6.5",
-      "card": "cards/b6e772eef90009985ce95b5bbfbef762fadf47d215416d7929f5d316d99f702f.json",
-      "sha256": "b6e772eef90009985ce95b5bbfbef762fadf47d215416d7929f5d316d99f702f",
+      "card": "cards/6611f2dc35f5ff18500be0e75f3b947b7342686a2748dbb2aa3a413747df2dfc.json",
+      "sha256": "6611f2dc35f5ff18500be0e75f3b947b7342686a2748dbb2aa3a413747df2dfc",
       "localized": true,
       "provider": "github"
     },
