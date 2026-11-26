@@ -1,0 +1,49 @@
+{
+  "id": "tt0108338",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt0108338/img",
+  "background": "https://images.metahub.space/background/medium/tt0108338/img",
+  "genres": [
+    "Драма"
+  ],
+  "runtime": "77 мин",
+  "imdbRating": "6.9",
+  "releaseInfo": "1994",
+  "trailers": [],
+  "name": "Тихие страницы",
+  "description": "Экзистенциальная драма по мотивам русской прозы XIX века, в частности, «Преступления и наказания» Ф. М. Достоевского. Режиссер переводит в зрительный ряд атмосферу романа, не касаясь его интриги. Герой в сомнамбулическом состоянии бродит по безмолвному Петербургу…",
+  "aliases": [
+    "Тихие страницы",
+    "Whispering Pages"
+  ],
+  "kpId": 40759,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0108338.json",
+    "https://www.kinopoisk.ru/film/40759/"
+  ],
+  "year": "1994",
+  "imdbId": "tt0108338",
+  "ids": [
+    "tt0108338"
+  ],
+  "originalName": "Whispering Pages",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-26T08:50:28Z",
+  "sources": [
+    {
+      "title": "Тихие страницы (Александр Сокуров) [1994, Россия, Германия, драма, Blu-ray disc 1080p]",
+      "magnet": "magnet:?xt=urn:btih:1CB8063EF14E8F202BA20A2513CB96FA811E852E&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 29506425323,
+      "size": "27.48 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Тихие страницы (Александр Сокуров) [1994, Россия, Германия, драма, Blu-ray disc 1080p]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-26T08:50:28Z"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "tt9876160",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt9876160/img",
+  "background": "https://images.metahub.space/background/medium/tt9876160/img",
+  "genres": [
+    "Драма",
+    "Военный"
+  ],
+  "runtime": "140 мин",
+  "imdbRating": "5.6",
+  "releaseInfo": "2019",
+  "trailers": [
+    {
+      "source": "Fs2FWdfDmI4",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Коридор бессмертия",
+  "description": "Вчерашняя ленинградская школьница Маша Яблочкина после лютой блокадной зимы 1941-1942 года приходит на железнодорожные курсы в надежде выжить и набраться сил. Оттуда девушку отправляют на строительство Шлиссельбургской магистрали, соединяющей город с Большой землей и находящейся в прямой видимости немецкой артиллерии. Так героиня попадает в 48-ю паровозную колонну особого резерва НКПС, которой ценой смертельного риска предстоит доставить в Ленинград 75% всех грузов и военного снаряжения.",
+  "aliases": [
+    "Коридор бессмертия",
+    "Convoy 48"
+  ],
+  "kpId": 893835,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt9876160.json",
+    "https://www.kinopoisk.ru/film/893835/"
+  ],
+  "year": "2019",
+  "imdbId": "tt9876160",
+  "ids": [
+    "tt9876160"
+  ],
+  "originalName": "Convoy 48",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-26T08:50:28Z",
+  "sources": [
+    {
+      "title": "Коридор бессмертия (Федор Попов) [2019, Россия, драма, военный, история, BDRip 1080p] Original Rus + Sub Rus, Eng",
+      "magnet": "magnet:?xt=urn:btih:529A5B0D104FCB0579826AE8D87CEF490FF80092&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 12369505812,
+      "size": "11.52 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Коридор бессмертия (Федор Попов) [2019, Россия, драма, военный, история, BDRip 1080p] Original Rus + Sub Rus, Eng"
+    },
+    {
+      "title": "Коридор бессмертия (Федор Попов) [2019, Россия, Драма, военный, история, BDRemux 1080p] Original (Rus) + Sub (rus)",
+      "magnet": "magnet:?xt=urn:btih:6E9EC91E42932D45248D5987BC95AA1A0228C8BC&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 18983755448,
+      "size": "17.68 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Коридор бессмертия (Федор Попов) [2019, Россия, Драма, военный, история, BDRemux 1080p] Original (Rus) + Sub (rus)"
+    },
+    {
+      "title": "Коридор бессмертия (2019) BDRip 720p | AVC | GER Transfer | от LORDKILL @ Лицензия",
+      "magnet": "magnet:?xt=urn:btih:da577b66b0bc352bd7a4dc9edb8ff7421d04edbe&dn=Коридор бессмертия.BDRip 720p.mkv&tr=http://bt01.nnm-club.cc:2710/ffffffff935ba2d09e9dc1a5db5253ce/announce&tr=http://bt01.nnm-club.info:2710/ffffffff935ba2d09e9dc1a5db5253ce/announce&tr=http://[2001:470:25:482::2]:2710/ffffffff935ba2d09e9dc1a5db5253ce/announce&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://code2chicken.nl:6969/announce&tr=udp://discord.heihachi.pw:6969/announce&tr=http://vps02.net.orel.ru:80/announce&tr=http://tracker.files.fm:6969/announce",
+      "quality": "720p",
+      "source": "JacRed · bitru",
+      "bytes": 3768833802,
+      "size": "3.51 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Коридор бессмертия (2019) BDRip 720p | AVC | GER Transfer | от LORDKILL @ Лицензия"
+    },
+    {
+      "title": "Коридор бессмертия (2019) WEB-DL 720p | AVC | от ELEKTRIЧKA @ iTunes",
+      "magnet": "magnet:?xt=urn:btih:656235277fee511fef72bfb7a48215a6bf85b252&dn=Koridor.bessmertiya.2019.WEB-DL.720p.ELEKTRI4KA.UNIONGANG.mkv&tr=udp://opentor.org:2710&tr=udp://tracker.coppersurfer.tk:6969&tr=udp://tracker.opentrackr.org:1337&tr=udp://zephir.monocul.us:6969&tr=udp://tracker.tiny-vps.com:6969&tr=udp://tracker.leechers-paradise.org:6969&tr=udp://open.stealth.si:80&tr=udp://exodus.desync.com:6969&tr=udp://46.148.18.250:2710&tr=udp://explodie.org:6969&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://code2chicken.nl:6969/announce&tr=udp://discord.heihachi.pw:6969/announce&tr=http://vps02.net.orel.ru:80/announce&tr=http://tracker.files.fm:6969/announce",
+      "quality": "720p",
+      "source": "JacRed · bitru",
+      "bytes": 4638564679,
+      "size": "4.32 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Коридор бессмертия (2019) WEB-DL 720p | AVC | от ELEKTRIЧKA @ iTunes"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-26T08:50:28Z"
+}

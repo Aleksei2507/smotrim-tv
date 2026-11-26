@@ -1,0 +1,54 @@
+{
+  "id": "tt0207639",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt0207639/img",
+  "background": "https://images.metahub.space/background/medium/tt0207639/img",
+  "genres": [
+    "Мультфильм"
+  ],
+  "runtime": "20 мин",
+  "imdbRating": "8.1",
+  "releaseInfo": "1999",
+  "trailers": [
+    {
+      "source": "OQfwyNGf5D0",
+      "type": "Clip"
+    }
+  ],
+  "name": "Старик и море",
+  "description": "История дружбы между маленьким деревенским мальчишкой и старым рыбаком. Сантьяго, сильный и гордый человек, он не может смириться с неумолимым течением времени, отнимающем физические силы.\n\nУже много недель он возвращается с моря без улова. Наконец он принимает решение - уйти за добычей далеко-далеко в море и без улова не возвращаться. Только так старый рыбак может вернуть себе уверенность и самоуважение.\n\nРано утром он прощается со своим маленьким другом, с родным берегом, который видит, возможно, в последний раз, и растворяется в темноте морских вод. И все же удача приходит к рыбаку. В его снасти попадается гигантская рыба.\n\nДвое суток в море продолжается их поединок, но рыба не сдается и тянет Сантьяго все дальше и дальше в море. Но старый рыбак убедил себя в том, что упорство и сила духа - это то, что принесет ему победу…",
+  "aliases": [
+    "Старик и море",
+    "The Old Man and the Sea"
+  ],
+  "kpId": 26270,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0207639.json",
+    "https://www.kinopoisk.ru/film/26270/"
+  ],
+  "year": "1999",
+  "imdbId": "tt0207639",
+  "ids": [
+    "tt0207639"
+  ],
+  "originalName": "The Old Man and the Sea",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-26T08:50:28Z",
+  "sources": [
+    {
+      "title": "Старик и море (1999) DVDRip [H.265/1080p] [handmade Upscale AI]",
+      "magnet": "magnet:?xt=urn:btih:10DB05CF98CE510930C57AFFBA25CB6466CFE572",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 2534030704,
+      "size": "2.36 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Старик и море (1999) DVDRip [H.265/1080p] [handmade Upscale AI]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-26T08:50:28Z"
+}

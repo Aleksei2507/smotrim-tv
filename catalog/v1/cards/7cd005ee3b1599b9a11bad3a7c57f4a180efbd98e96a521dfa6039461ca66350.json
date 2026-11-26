@@ -1,0 +1,72 @@
+{
+  "id": "tt7623230",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt7623230/img",
+  "background": "https://images.metahub.space/background/medium/tt7623230/img",
+  "genres": [
+    "Комедия",
+    "Мелодрама"
+  ],
+  "runtime": "90 мин",
+  "imdbRating": "5.4",
+  "releaseInfo": "2017",
+  "trailers": [],
+  "name": "Любовь в городе ангелов",
+  "description": "В Лос Анджелесе, в самом романтичном городе в мире, встретились два самых неромантичных человека - она на первом свидании выбросила его букет в помойку, а он поил ее самым невкусным кофе в городе. Она пришла на второе свидание в одном нижнем белье, а он обманул ее, так и не решившись безрассудно своровать для нее платье в магазине. И тем не менее, это были самые красивые несколько дней в жизни каждого из них. \n\nБудет ли у этих отношений продолжение, ведь он даже имени ее не знает? В этом городе, на песочном берегу, конечно, возможно все. Океан нашепчет им мелодию любви и где, как не в Городе Ангелов поверить в настоящую любовь. Пусть даже и на несколько дней.",
+  "aliases": [
+    "Любовь в городе ангелов",
+    "Lyubov v Gorode Angelov"
+  ],
+  "kpId": 1045551,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt7623230.json",
+    "https://www.kinopoisk.ru/film/1045551/"
+  ],
+  "year": "2017",
+  "imdbId": "tt7623230",
+  "ids": [
+    "tt7623230"
+  ],
+  "originalName": "Lyubov v Gorode Angelov",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-26T08:50:28Z",
+  "sources": [
+    {
+      "title": "Любовь в городе ангелов (Сарик Андреасян) [2017, Россия, комедия, Blu-ray disc 1080p] [Deu Transfer] Original Rus",
+      "magnet": "magnet:?xt=urn:btih:021CFBF2F6F30D5583E2F84111A888B55682F0AF&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 17287243366,
+      "size": "16.10 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Любовь в городе ангелов (Сарик Андреасян) [2017, Россия, комедия, Blu-ray disc 1080p] [Deu Transfer] Original Rus"
+    },
+    {
+      "title": "Любовь в городе ангелов / 2017 / РУ / GER Transfer / Blu-Ray EUR (1080p)",
+      "magnet": "magnet:?xt=urn:btih:E160C563328F16C4BFFD41F64DFB2E1A8F96FE5B",
+      "quality": "1080p",
+      "source": "JacRed · kinozal",
+      "bytes": 17287243366,
+      "size": "16.10 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Любовь в городе ангелов / 2017 / РУ / GER Transfer / Blu-Ray EUR (1080p)"
+    },
+    {
+      "title": "Любовь в городе ангелов (2017) (Оригинал) [WEB-DL] [720p]",
+      "magnet": "magnet:?xt=urn:btih:0C0D06B85E60C2BEA9D3E38126C244AC7DF6C389&xl=2757821610&dn=lyubov-v-gorode-angelov.2O17.O.WEB-DL.72Op_KOSHARA.mkv.torrent&tr=http%3A%2F%2Fultradox.studio%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2960%2Fannounce&tr=http%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce",
+      "quality": "720p",
+      "source": "JacRed · ultradox",
+      "bytes": 2759516487,
+      "size": "2.57 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Любовь в городе ангелов (2017) (Оригинал) [WEB-DL] [720p]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-26T08:50:28Z"
+}

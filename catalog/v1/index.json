@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795666209,
-  "updatedAt": "2026-11-26T04:08:40Z",
+  "revision": 1795683159,
+  "updatedAt": "2026-11-26T08:52:37Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,238 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt2386588",
+      "ids": [
+        "tt2386588"
+      ],
+      "imdbId": "tt2386588",
+      "name": "Мешок без дна",
+      "type": "movie",
+      "year": "2017",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5ef01222551b69f9fcee743395b2ea0d81d8cade35971ecb9c7f625d5fbdd806.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cd1c5699cbea62dd9d03cd4eb45882840e5c79680ed84e9f6945fb7014c55e4c.jpg",
+      "description": "Времена правления императора Александра II. Чтобы отвлечь великого князя от меланхолии и алкоголизма, новая фрейлина-чтица рассказывает ему сказку, которая происходит в XIII веке и повествует о загадочном убийстве царевича в лесу. Участники истории и свидетели этого преступления рассказывают разн…",
+      "originalName": "Meshok bez dna",
+      "aliases": [
+        "Мешок без дна",
+        "Meshok bez dna"
+      ],
+      "genres": [
+        "Драма",
+        "История",
+        "Детектив"
+      ],
+      "imdbRating": "6.2",
+      "runtime": "107 мин",
+      "card": "cards/a642e8d3ea31a22fcda50bf3e0b558fd69f458d9fa3fe37f9e5a2ab12db96793.json",
+      "sha256": "a642e8d3ea31a22fcda50bf3e0b558fd69f458d9fa3fe37f9e5a2ab12db96793",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0207639",
+      "ids": [
+        "tt0207639"
+      ],
+      "imdbId": "tt0207639",
+      "name": "Старик и море",
+      "type": "movie",
+      "year": "1999",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/e69d799766e63f45f2466f2789e4940d89d8725441853b490bc26f7e0c1a85f2.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6d69b255abec604c411a3682098330e71a817c5c407a86c1078f04b249ced821.jpg",
+      "description": "История дружбы между маленьким деревенским мальчишкой и старым рыбаком. Сантьяго, сильный и гордый человек, он не может смириться с неумолимым течением времени, отнимающем физические силы.\n\nУже много недель он возвращается с моря без улова. Наконец он принимает решение - уйти за добычей далеко-да…",
+      "originalName": "The Old Man and the Sea",
+      "aliases": [
+        "Старик и море",
+        "The Old Man and the Sea"
+      ],
+      "genres": [
+        "Мультфильм"
+      ],
+      "imdbRating": "8.1",
+      "runtime": "20 мин",
+      "card": "cards/a955a6d04af7b5f0fa5b0e2859d5f77165ab6f8340b536758762cfe9b040e7ad.json",
+      "sha256": "a955a6d04af7b5f0fa5b0e2859d5f77165ab6f8340b536758762cfe9b040e7ad",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1699202",
+      "ids": [
+        "tt1699202"
+      ],
+      "imdbId": "tt1699202",
+      "name": "4 дня в мае",
+      "type": "movie",
+      "year": "2011",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5f9f147ae99f3cc6d21ad80f1b7e56ce80d066960e8d0d92ff0c125eae40352b.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4d3f4bc4b8e6f28b65ef7f67690a74a900528ac5838ab8ab6a7d5863e6668f01.jpg",
+      "description": "Группу русских солдат отправляют в Северную Германию в конце Второй мировой войны, где они занимают детский дом в непосредственной близости от большой немецкой части. Несмотря на все разногласия здесь формируется дружба между немецким сиротой и бездетным советским капитаном.",
+      "originalName": "4 Days in May",
+      "aliases": [
+        "4 дня в мае",
+        "4 Days in May"
+      ],
+      "genres": [
+        "Драма",
+        "Военный"
+      ],
+      "imdbRating": "6.4",
+      "runtime": "94 мин",
+      "card": "cards/89e7cbe05d58382b1aedbc9b405890f9e4efc1bfe4b5f7c70696033f4f0c9425.json",
+      "sha256": "89e7cbe05d58382b1aedbc9b405890f9e4efc1bfe4b5f7c70696033f4f0c9425",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0277327",
+      "ids": [
+        "tt0277327"
+      ],
+      "imdbId": "tt0277327",
+      "name": "Побег из Гулага",
+      "type": "movie",
+      "year": "2001",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/309a7658fd1c3cd80804778c2198aa23614c1a0b06b84dbbfa44251c83342a1b.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b0a284e17a87387c7969687f1b74acc6176dcf011cd2e4ae52096bbc75201097.jpg",
+      "description": "Немецкий военнопленный Клеменс Форелль был приговорен к заключению на Колыме. Проработав четыре года на шахтах, он в 1949 году бежал из лагеря.\n\nПо пятам преследуемый НКВД, осознавая, что каждый следующий шаг может стать для него последним, он шел через всю Сибирь и Среднюю Азию к иранской границ…",
+      "originalName": "As Far as My Feet Will Carry Me",
+      "aliases": [
+        "Побег из Гулага",
+        "As Far as My Feet Will Carry Me",
+        "So weit die Füße tragen"
+      ],
+      "genres": [
+        "Боевик",
+        "Приключения",
+        "Драма"
+      ],
+      "imdbRating": "7.3",
+      "runtime": "158 мин",
+      "card": "cards/dd330d0595a2e8d6cc6152059042255762cd3c75a8161b18e1e820fe91a01d02.json",
+      "sha256": "dd330d0595a2e8d6cc6152059042255762cd3c75a8161b18e1e820fe91a01d02",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt7623230",
+      "ids": [
+        "tt7623230"
+      ],
+      "imdbId": "tt7623230",
+      "name": "Любовь в городе ангелов",
+      "type": "movie",
+      "year": "2017",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4c49021e3f451aa7ce5605057c920b0dc82f32388a9f6d4c372f4c219a822251.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/66ef11492ced77322000178311ec9b1891a60c74ae6b97bef14845e949e3a2fa.jpg",
+      "description": "В Лос Анджелесе, в самом романтичном городе в мире, встретились два самых неромантичных человека - она на первом свидании выбросила его букет в помойку, а он поил ее самым невкусным кофе в городе. Она пришла на второе свидание в одном нижнем белье, а он обманул ее, так и не решившись безрассудно…",
+      "originalName": "Lyubov v Gorode Angelov",
+      "aliases": [
+        "Любовь в городе ангелов",
+        "Lyubov v Gorode Angelov"
+      ],
+      "genres": [
+        "Комедия",
+        "Мелодрама"
+      ],
+      "imdbRating": "5.4",
+      "runtime": "90 мин",
+      "card": "cards/9a6ccacbf8545bee359b81bdd6d17711b1b975ed128e490ad201b32cb6df3030.json",
+      "sha256": "9a6ccacbf8545bee359b81bdd6d17711b1b975ed128e490ad201b32cb6df3030",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt27868137",
+      "ids": [
+        "tt27868137"
+      ],
+      "imdbId": "tt27868137",
+      "name": "За нас с вами",
+      "type": "movie",
+      "year": "2023",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/66bd5e175ab6a4e8e2c1c9a2bc0e3518adabbf4d5982cf91ae972d842cd6e727.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9e020bf48c2b4349b4cefb79095c1f2024969d07b7ca22f68c27c91adc307cc3.jpg",
+      "description": "Москва, 1952 год. Коммунальная квартира на Большой Пироговке. В одной из комнат живёт семейство Петкевичей: сотрудница издательства Дина, её сын-школьник, муж-метростроевец Борис, отец-профессор философии Павел Казимирович и мать Ангелина Федоровна. Дина выделяется красотой и статью, но её волную…",
+      "originalName": "Here's to You and Us!",
+      "aliases": [
+        "За нас с вами",
+        "Here's to You and Us!"
+      ],
+      "genres": [
+        "Драма"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "151 мин",
+      "card": "cards/7318f229038b1cb6d67b7036e39ac3a541c9c6573ba8b4bc9d9f8cf0a7f1853e.json",
+      "sha256": "7318f229038b1cb6d67b7036e39ac3a541c9c6573ba8b4bc9d9f8cf0a7f1853e",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0108338",
+      "ids": [
+        "tt0108338"
+      ],
+      "imdbId": "tt0108338",
+      "name": "Тихие страницы",
+      "type": "movie",
+      "year": "1994",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/76f81e31210368d1137047f4143bfcbc538b1a648fff8142d60f59e26bd49862.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/23c78e3c36a0814ab299207a9a6c0be9c0ee7451e80c2d3621a45186aabb5401.jpg",
+      "description": "Экзистенциальная драма по мотивам русской прозы XIX века, в частности, «Преступления и наказания» Ф. М. Достоевского. Режиссер переводит в зрительный ряд атмосферу романа, не касаясь его интриги. Герой в сомнамбулическом состоянии бродит по безмолвному Петербургу…",
+      "originalName": "Whispering Pages",
+      "aliases": [
+        "Тихие страницы",
+        "Whispering Pages"
+      ],
+      "genres": [
+        "Драма"
+      ],
+      "imdbRating": "6.9",
+      "runtime": "77 мин",
+      "card": "cards/0ec9d477bf60a989225d2ac87c2d90e0051dde3101d88ee626ecfa9951763106.json",
+      "sha256": "0ec9d477bf60a989225d2ac87c2d90e0051dde3101d88ee626ecfa9951763106",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt9876160",
+      "ids": [
+        "tt9876160"
+      ],
+      "imdbId": "tt9876160",
+      "name": "Коридор бессмертия",
+      "type": "movie",
+      "year": "2019",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3a085e1be214c8b6a28d1973ee1743a59f7d4b0424e145f4b79cad579db9c2d0.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/10cc7da3fd9e30f8c8ebcc4c5f8c9563bdb8f02eb8ffb149a01b7ce55adf4bcd.jpg",
+      "description": "Вчерашняя ленинградская школьница Маша Яблочкина после лютой блокадной зимы 1941-1942 года приходит на железнодорожные курсы в надежде выжить и набраться сил. Оттуда девушку отправляют на строительство Шлиссельбургской магистрали, соединяющей город с Большой землей и находящейся в прямой видимост…",
+      "originalName": "Convoy 48",
+      "aliases": [
+        "Коридор бессмертия",
+        "Convoy 48"
+      ],
+      "genres": [
+        "Драма",
+        "Военный"
+      ],
+      "imdbRating": "5.6",
+      "runtime": "140 мин",
+      "card": "cards/fc290cda9bf472198abb79ac33f7f04a51c4f6eeb9481e6af6baaf6239bfd127.json",
+      "sha256": "fc290cda9bf472198abb79ac33f7f04a51c4f6eeb9481e6af6baaf6239bfd127",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt13016388",
       "ids": [
@@ -35,8 +267,8 @@
       ],
       "imdbRating": "7.5",
       "runtime": "55 мин",
-      "card": "cards/9f0bcda8ee3284c323e0c4cdc85b1717d10992608765f3d1cef45f0e49c16407.json",
-      "sha256": "9f0bcda8ee3284c323e0c4cdc85b1717d10992608765f3d1cef45f0e49c16407",
+      "card": "cards/06044edeeb8a1978dc519f0936edbe8b3eeb200fee98d44fc915ca1b7b08c095.json",
+      "sha256": "06044edeeb8a1978dc519f0936edbe8b3eeb200fee98d44fc915ca1b7b08c095",
       "localized": true,
       "provider": "github"
     },
@@ -65,8 +297,8 @@
       ],
       "imdbRating": "6.6",
       "runtime": "123 мин",
-      "card": "cards/a334367d7eb242e85a42a14a59aef8139ae9bd7398888b44fb93d1904a69b6d4.json",
-      "sha256": "a334367d7eb242e85a42a14a59aef8139ae9bd7398888b44fb93d1904a69b6d4",
+      "card": "cards/232e182f25e0c4b9b85da87dcf41092e034793b1aca53db5781833791beb8556.json",
+      "sha256": "232e182f25e0c4b9b85da87dcf41092e034793b1aca53db5781833791beb8556",
       "localized": true,
       "provider": "github"
     },
@@ -94,8 +326,8 @@
       ],
       "imdbRating": "6.6",
       "runtime": "115 мин",
-      "card": "cards/504fc08cf53e894984729c9330cb234e79ff161ef993a56cd9ab43cb037a9bc7.json",
-      "sha256": "504fc08cf53e894984729c9330cb234e79ff161ef993a56cd9ab43cb037a9bc7",
+      "card": "cards/e33086285577e25f20f55c03721eae88ff5aa79ccc7c30cb89bae2e289ea2f77.json",
+      "sha256": "e33086285577e25f20f55c03721eae88ff5aa79ccc7c30cb89bae2e289ea2f77",
       "localized": true,
       "provider": "github"
     },
@@ -124,8 +356,8 @@
       ],
       "imdbRating": "7.7",
       "runtime": "43 мин",
-      "card": "cards/968beccc40265082dc287591fcb02952a416f1448e3ef2afd7b83be0c9c24978.json",
-      "sha256": "968beccc40265082dc287591fcb02952a416f1448e3ef2afd7b83be0c9c24978",
+      "card": "cards/0b238e7124de24a795867427db07e46cbaa0902116c8febb27c28372645e8407.json",
+      "sha256": "0b238e7124de24a795867427db07e46cbaa0902116c8febb27c28372645e8407",
       "localized": true,
       "provider": "github"
     },
@@ -154,8 +386,8 @@
       ],
       "imdbRating": "6.6",
       "runtime": "137 мин",
-      "card": "cards/4767844f048a1c026312eb101ba143529fc60d74b79f951df3b4ec80e4b27a82.json",
-      "sha256": "4767844f048a1c026312eb101ba143529fc60d74b79f951df3b4ec80e4b27a82",
+      "card": "cards/7f61d3212085204fea4eb72d98b8af68dc7612fd9b102a480f8e4c22735c5efa.json",
+      "sha256": "7f61d3212085204fea4eb72d98b8af68dc7612fd9b102a480f8e4c22735c5efa",
       "localized": true,
       "provider": "github"
     },
@@ -214,8 +446,8 @@
       ],
       "imdbRating": "8.0",
       "runtime": "35 мин",
-      "card": "cards/5d3f34b2eb14eab4ecaccd0143db847387b66c9eb8ead6210fbe1d0ed202fa36.json",
-      "sha256": "5d3f34b2eb14eab4ecaccd0143db847387b66c9eb8ead6210fbe1d0ed202fa36",
+      "card": "cards/d5dd1c25a7a772c72781387b80ac07698cafc04303f4ba6fa12d2bcfdadd09c7.json",
+      "sha256": "d5dd1c25a7a772c72781387b80ac07698cafc04303f4ba6fa12d2bcfdadd09c7",
       "localized": true,
       "provider": "github"
     },
