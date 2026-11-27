@@ -1,0 +1,88 @@
+{
+  "id": "tt1693830",
+  "type": "movie",
+  "poster": "https://images.metahub.space/poster/small/tt1693830/img",
+  "background": "https://images.metahub.space/background/medium/tt1693830/img",
+  "genres": [
+    "Драма",
+    "Мелодрама"
+  ],
+  "runtime": "77 мин",
+  "imdbRating": "6.6",
+  "releaseInfo": "2010",
+  "trailers": [
+    {
+      "source": "zajWwRNxFSE",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Овсянки",
+  "description": "Мирон Алексеевич - директор бумажно-целлюлозного комбината - едет хоронить жену Таню в те места, где они когда-то проводили медовый месяц. Едет не один, а с фотографом по имени Аист, которому по дороге рассказывает трогательные подробности своей жизни с Таней. В повествование вплетаются воспоминания героев, а также обряды и верования народа мери — малочисленного финского племени, когда-то жившего в Северном Поволжье и растворившегося среди русских.",
+  "aliases": [
+    "Овсянки",
+    "Silent Souls"
+  ],
+  "kpId": 521527,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt1693830.json",
+    "https://www.kinopoisk.ru/film/521527/"
+  ],
+  "year": "2010",
+  "imdbId": "tt1693830",
+  "ids": [
+    "tt1693830"
+  ],
+  "originalName": "Silent Souls",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-27T08:59:24Z",
+  "sources": [
+    {
+      "title": "Овсянки (Алексей Федорченко) [2010, Россия, драма, мелодрама, Blu-ray disc 1080p]",
+      "magnet": "magnet:?xt=urn:btih:52B26050D158AF409C6C75104A813C547483E4F5&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 22548578304,
+      "size": "21.00 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Овсянки (Алексей Федорченко) [2010, Россия, драма, мелодрама, Blu-ray disc 1080p]"
+    },
+    {
+      "title": "Овсянки (Алексей Федорченко) [2010, Россия, драма, мелодрама, BDRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:28A84663A92EFB75C7E38C3A8BC13B6C35A7B0B3&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 8418135900,
+      "size": "7.84 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Овсянки (Алексей Федорченко) [2010, Россия, драма, мелодрама, BDRip 1080p]"
+    },
+    {
+      "title": "Овсянки (Алексей Федорченко) [2010, Россия, драма, мелодрама, BDRip, 720p]",
+      "magnet": "magnet:?xt=urn:btih:BC312B12FBCA865865133FEC4D2EBFE53FFABC51&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 4660039516,
+      "size": "4.34 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Овсянки (Алексей Федорченко) [2010, Россия, драма, мелодрама, BDRip, 720p]"
+    },
+    {
+      "title": "Овсянки (2010) BDRip 720p от StarbirS",
+      "magnet": "magnet:?xt=urn:btih:bcfa304a36653a1846e75722f547226f130b84c5&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 2308544921,
+      "size": "2.15 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Овсянки (2010) BDRip 720p от StarbirS"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-27T08:59:24Z"
+}

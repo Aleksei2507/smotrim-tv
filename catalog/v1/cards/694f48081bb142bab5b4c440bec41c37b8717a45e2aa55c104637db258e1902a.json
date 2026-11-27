@@ -1,0 +1,53 @@
+{
+  "id": "tt0312378",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7ca3592fed72188fccb87f1b29b324c247caa3bbac4a77140c20dbe5a8446f6f.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7ca3592fed72188fccb87f1b29b324c247caa3bbac4a77140c20dbe5a8446f6f.jpg",
+  "genres": [
+    "Фантастика"
+  ],
+  "runtime": "80 мин",
+  "imdbRating": "5.0",
+  "releaseInfo": "1992",
+  "trailers": [],
+  "name": "Ариэль",
+  "description": "За высокими стенами старого индийского монастыря некие дельцы организовали закрытую школу оккультных наук. Самый способный ученик — юноша Ариэль — обладающий способностями к левитации, однажды решает бежать из неволи. Но на него начинается охота...",
+  "aliases": [
+    "Ариэль",
+    "Ariel"
+  ],
+  "kpId": 41016,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt0312378.json",
+    "https://www.kinopoisk.ru/film/41016/"
+  ],
+  "year": "1992",
+  "imdbId": "tt0312378",
+  "ids": [
+    "tt0312378"
+  ],
+  "originalName": "Ariel",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-27T09:00:41Z",
+  "sources": [
+    {
+      "title": "Ариэль (1992) WEBRip [H.264/1080p]",
+      "magnet": "magnet:?xt=urn:btih:C6F543F544F2DF8EAC6B952652477A17A4C47BD7",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 3489660928,
+      "size": "3.25 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Ариэль (1992) WEBRip [H.264/1080p]"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-27T08:59:24Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt0312378/img",
+    "background": "https://images.metahub.space/background/medium/tt0312378/img"
+  }
+}

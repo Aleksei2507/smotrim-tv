@@ -1,0 +1,90 @@
+{
+  "id": "tt1699202",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5f9f147ae99f3cc6d21ad80f1b7e56ce80d066960e8d0d92ff0c125eae40352b.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4d3f4bc4b8e6f28b65ef7f67690a74a900528ac5838ab8ab6a7d5863e6668f01.jpg",
+  "genres": [
+    "Драма",
+    "Военный"
+  ],
+  "runtime": "94 мин",
+  "imdbRating": "6.4",
+  "releaseInfo": "2011",
+  "trailers": [
+    {
+      "source": "cf2SjsWAcl0",
+      "type": "Trailer"
+    }
+  ],
+  "name": "4 дня в мае",
+  "description": "Группу русских солдат отправляют в Северную Германию в конце Второй мировой войны, где они занимают детский дом в непосредственной близости от большой немецкой части. Несмотря на все разногласия здесь формируется дружба между немецким сиротой и бездетным советским капитаном.",
+  "aliases": [
+    "4 дня в мае"
+  ],
+  "kpId": 542494,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/542494/"
+  ],
+  "year": "2011",
+  "imdbId": "tt1699202",
+  "ids": [
+    "tt1699202"
+  ],
+  "originalName": "4 Days in May",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-27T08:59:24Z",
+  "sources": [
+    {
+      "title": "4 дня в мае / 4 Tage im Mai (Ахим фон Боррис / Achim von Borries) [2011, Германия, Россия, Украина, драма, военный, Blu-ray disc 1080p]",
+      "magnet": "magnet:?xt=urn:btih:4166F109DEFA79B92A347F63812D3DE0BE76809D&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 29592324669,
+      "size": "27.56 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "4 дня в мае / 4 Tage im Mai (Ахим фон Боррис / Achim von Borries) [2011, Германия, Россия, Украина, драма, военный, Blu-ray disc 1080p]"
+    },
+    {
+      "title": "4 дня в мае / 4 Tage im Mai (Ахим фон Боррис / Achim von Borries) [2011, Германия, Россия, Украина, драма, военный, BDRemux 1080p] Original Rus",
+      "magnet": "magnet:?xt=urn:btih:D50CE1C220665F5B8108A8FC190AFED92D49FD25&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 24169928458,
+      "size": "22.51 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "4 дня в мае / 4 Tage im Mai (Ахим фон Боррис / Achim von Borries) [2011, Германия, Россия, Украина, драма, военный, BDRemux 1080p] Original Rus"
+    },
+    {
+      "title": "4 дня в мае / 4 Tage im Mai (Ахим фон Боррис / Achim von Borries) [2011, Германия, Россия, Украина, драма, военный, BDRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:7C0376C10E1E7D92273D47DA0375AF2EE6AE6F1D&tr=http%3A%2F%2Fbt.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 7043746365,
+      "size": "6.56 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "4 дня в мае / 4 Tage im Mai (Ахим фон Боррис / Achim von Borries) [2011, Германия, Россия, Украина, драма, военный, BDRip 720p]"
+    },
+    {
+      "title": "4 дня в мае / 2011 / РУ / BDRip (720p)",
+      "magnet": "magnet:?xt=urn:btih:AA667F113F75E9959193CC78414C4ACD7FFECBB4",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 7043746365,
+      "size": "6.56 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "4 дня в мае / 2011 / РУ / BDRip (720p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-26T08:50:28Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt1699202/img",
+    "background": "https://live.metahub.space/background/medium/tt1699202/img"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795767823,
-  "updatedAt": "2026-11-27T08:22:03Z",
+  "revision": 1795770043,
+  "updatedAt": "2026-11-27T09:00:41Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,242 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt0312378",
+      "ids": [
+        "tt0312378"
+      ],
+      "imdbId": "tt0312378",
+      "name": "Ариэль",
+      "type": "movie",
+      "year": "1992",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7ca3592fed72188fccb87f1b29b324c247caa3bbac4a77140c20dbe5a8446f6f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7ca3592fed72188fccb87f1b29b324c247caa3bbac4a77140c20dbe5a8446f6f.jpg",
+      "description": "За высокими стенами старого индийского монастыря некие дельцы организовали закрытую школу оккультных наук. Самый способный ученик — юноша Ариэль — обладающий способностями к левитации, однажды решает бежать из неволи. Но на него начинается охота...",
+      "originalName": "Ariel",
+      "aliases": [
+        "Ариэль",
+        "Ariel"
+      ],
+      "genres": [
+        "Фантастика"
+      ],
+      "imdbRating": "5.0",
+      "runtime": "80 мин",
+      "card": "cards/694f48081bb142bab5b4c440bec41c37b8717a45e2aa55c104637db258e1902a.json",
+      "sha256": "694f48081bb142bab5b4c440bec41c37b8717a45e2aa55c104637db258e1902a",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1437357",
+      "ids": [
+        "tt1437357"
+      ],
+      "imdbId": "tt1437357",
+      "name": "Фауст",
+      "type": "movie",
+      "year": "2011",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/671b214d86036f1650318aa60ffd984dc7a8107033d97ef4f76a42a1c7a34f99.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/58683717e1730985bf3411fe519c6df4003942eb7127e9fc806a996b06a92eaf.jpg",
+      "description": "Учёный Фауст озабочен вопросами познания. Распотрошив человеческое тело, он не находит в нём души. Его униженный друг Вагнер пытается вырастить в пробирке идеального человека — гомункулуса.",
+      "originalName": "Faust",
+      "aliases": [
+        "Фауст",
+        "Faust"
+      ],
+      "genres": [
+        "Драма",
+        "Фэнтези",
+        "Детектив"
+      ],
+      "imdbRating": "6.5",
+      "runtime": "140 мин",
+      "card": "cards/fbc0feb1f14fb7b5a19ac0386005725751f70ee27e76bb8c25532f17c1348d8a.json",
+      "sha256": "fbc0feb1f14fb7b5a19ac0386005725751f70ee27e76bb8c25532f17c1348d8a",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1693830",
+      "ids": [
+        "tt1693830"
+      ],
+      "imdbId": "tt1693830",
+      "name": "Овсянки",
+      "type": "movie",
+      "year": "2010",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/ab6b96e88ec0f79ac4ce8c31a599ed194f0c9abcad6b8de95c3630d2ca5ff56f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/3cff5bdd438d963286c4bd558b752247854c566c98ed363681940dba4efe733a.jpg",
+      "description": "Мирон Алексеевич - директор бумажно-целлюлозного комбината - едет хоронить жену Таню в те места, где они когда-то проводили медовый месяц. Едет не один, а с фотографом по имени Аист, которому по дороге рассказывает трогательные подробности своей жизни с Таней. В повествование вплетаются воспомина…",
+      "originalName": "Silent Souls",
+      "aliases": [
+        "Овсянки",
+        "Silent Souls"
+      ],
+      "genres": [
+        "Драма",
+        "Мелодрама"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "77 мин",
+      "card": "cards/f7d5e416fbb34a8aaf2bf4548eaa20c730edab61907e471eb931032734f06d55.json",
+      "sha256": "f7d5e416fbb34a8aaf2bf4548eaa20c730edab61907e471eb931032734f06d55",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt27775514",
+      "ids": [
+        "tt27775514"
+      ],
+      "imdbId": "tt27775514",
+      "name": "Баба Яга спасает мир",
+      "type": "movie",
+      "year": "2023",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1fd064901e253b64ba58a5dbb49ad42a0b4e7cdf57b8dc2e809b0917c40f6207.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cd094bfce3125adad8fa6d815190d4ce63826327a0b7444d8fed817d7dc8535d.jpg",
+      "description": "Любопытный школьник Сенька каким-то чудом попадает в сказочный древний лес. Он скрыт от людских глаз мощным заклятием Бабы Яги, призванным защитить людей и весь мир от дремлющих там темных сил. В лесу явно творится что-то неладное. Тревожные сигналы возвещают, что заклятие больше не действует, и…",
+      "originalName": "Baba Yaga Saves The World",
+      "aliases": [
+        "Баба Яга спасает мир",
+        "Baba Yaga Saves The World"
+      ],
+      "genres": [
+        "Комедия",
+        "Семейный",
+        "Приключения"
+      ],
+      "imdbRating": "4.7",
+      "runtime": "90 мин",
+      "card": "cards/e3797c6efaf63311a591db92f3aaf626e5d7b49eac7afb03d157b6d39deaacec.json",
+      "sha256": "e3797c6efaf63311a591db92f3aaf626e5d7b49eac7afb03d157b6d39deaacec",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt30225556",
+      "ids": [
+        "tt30225556"
+      ],
+      "imdbId": "tt30225556",
+      "name": "Каждый мечтает о собаке",
+      "type": "movie",
+      "year": "2024",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cf0f30282176672a29af95357fccc52c5ea0322613360f3bbd624ec78c283642.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/eda6590a558eca09e7efd5dcb3866d0cf8a1496d0793feca3ec201647054ad43.jpg",
+      "description": "российский детский фильм 2024 года",
+      "originalName": "Everyone Dreams of a Dog",
+      "aliases": [
+        "Каждый мечтает о собаке",
+        "Everyone Dreams of a Dog"
+      ],
+      "genres": [
+        "Семейный",
+        "Приключения"
+      ],
+      "imdbRating": "4.8",
+      "runtime": "89 мин",
+      "card": "cards/c64fe0af640faac9d261e9ddbf28441b1253779974f8a0fda825c6de4f5df713.json",
+      "sha256": "c64fe0af640faac9d261e9ddbf28441b1253779974f8a0fda825c6de4f5df713",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt7672068",
+      "ids": [
+        "tt7672068"
+      ],
+      "imdbId": "tt7672068",
+      "name": "Папа, сдохни",
+      "type": "movie",
+      "year": "2018",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/27d3b93a27e4c280d63d4b3dd3374793a586de142832467002113aa7198b31cc.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9bee7b830e60fb24bfb50ad6ac0dcfec2be7e92b38e314ecae9f73f39465ce78.jpg",
+      "description": "Самый гнусный отец в мире, опер Андрей Геннадьевич, собирает у себя в квартире компанию отъявленных мерзавцев: мстительную дочь-актрису, озлобленного хулигана и обманутого мента. У каждого из них есть свои причины для мести.",
+      "originalName": "Why Don't You Just Die!",
+      "aliases": [
+        "Папа, сдохни",
+        "Why Don't You Just Die!"
+      ],
+      "genres": [
+        "Боевик",
+        "Комедия",
+        "Криминал"
+      ],
+      "imdbRating": "6.8",
+      "runtime": "94 мин",
+      "card": "cards/14c6a6c635f6fe6b023b13ef180cc2be968b65e219f02697028d0bb40aa5044d.json",
+      "sha256": "14c6a6c635f6fe6b023b13ef180cc2be968b65e219f02697028d0bb40aa5044d",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt7131622",
+      "ids": [
+        "tt7131622"
+      ],
+      "imdbId": "tt7131622",
+      "name": "Однажды в… Голливуде",
+      "type": "movie",
+      "year": "2019",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/f4cb28f828d4bb468dc7a69b5b16db5be2339e048e9376af9edfd8e172005b6f.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/fba9d6814ecc4141df1ba6c04d3a8daa1b424b7d390b1b7f739fc9ab79b78fc2.jpg",
+      "description": "1969 год, золотой век Голливуда уже закончился. Известный актёр Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.",
+      "originalName": "Once Upon a Time in... Hollywood",
+      "aliases": [
+        "Однажды в… Голливуде",
+        "Once Upon a Time in... Hollywood",
+        "Once Upon a Time in...  Hollywood"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма"
+      ],
+      "imdbRating": "7.6",
+      "runtime": "162 мин",
+      "card": "cards/2c1ef051acb12f7cd0e559d2698ffe411061f45ee3568eaa6ad8eeba33eb75eb.json",
+      "sha256": "2c1ef051acb12f7cd0e559d2698ffe411061f45ee3568eaa6ad8eeba33eb75eb",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6723592",
+      "ids": [
+        "tt6723592"
+      ],
+      "imdbId": "tt6723592",
+      "name": "Довод",
+      "type": "movie",
+      "year": "2020",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/7aae983e5c09a939bfc656e7d1b00a65d34c640b0f18a66722094cc9605fd4ab.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/176c54db7fb1b52d5a177d2ad918b8037a5036f1464adb89d4e25433725a0dc9.jpg",
+      "description": "После теракта в киевском оперном театре агент ЦРУ объединяется с британской разведкой, чтобы противостоять русскому олигарху, который сколотил состояние на торговле оружием. Для этого агенты используют инверсию времени — технологию будущего, позволяющую времени идти вспять.",
+      "originalName": "Tenet",
+      "aliases": [
+        "Довод",
+        "Tenet"
+      ],
+      "genres": [
+        "Боевик",
+        "Фантастика",
+        "Триллер"
+      ],
+      "imdbRating": "7.3",
+      "runtime": "150 мин",
+      "card": "cards/57811f41d67c5773ba4b2209801adba9ffcf161044611a6feab75dab66db9071.json",
+      "sha256": "57811f41d67c5773ba4b2209801adba9ffcf161044611a6feab75dab66db9071",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt2386588",
       "ids": [
@@ -25,8 +261,7 @@
       "description": "Времена правления императора Александра II. Чтобы отвлечь великого князя от меланхолии и алкоголизма, новая фрейлина-чтица рассказывает ему сказку, которая происходит в XIII веке и повествует о загадочном убийстве царевича в лесу. Участники истории и свидетели этого преступления рассказывают разн…",
       "originalName": "Meshok bez dna",
       "aliases": [
-        "Мешок без дна",
-        "Meshok bez dna"
+        "Мешок без дна"
       ],
       "genres": [
         "Драма",
@@ -35,8 +270,8 @@
       ],
       "imdbRating": "6.2",
       "runtime": "107 мин",
-      "card": "cards/a642e8d3ea31a22fcda50bf3e0b558fd69f458d9fa3fe37f9e5a2ab12db96793.json",
-      "sha256": "a642e8d3ea31a22fcda50bf3e0b558fd69f458d9fa3fe37f9e5a2ab12db96793",
+      "card": "cards/f7a4d21083a1e77faaf43bce1baa0fafcb0b37b3d80e611f72589bc378899e04.json",
+      "sha256": "f7a4d21083a1e77faaf43bce1baa0fafcb0b37b3d80e611f72589bc378899e04",
       "localized": true,
       "provider": "github"
     },
@@ -63,8 +298,8 @@
       ],
       "imdbRating": "8.1",
       "runtime": "20 мин",
-      "card": "cards/a955a6d04af7b5f0fa5b0e2859d5f77165ab6f8340b536758762cfe9b040e7ad.json",
-      "sha256": "a955a6d04af7b5f0fa5b0e2859d5f77165ab6f8340b536758762cfe9b040e7ad",
+      "card": "cards/cf6cc7e91f73dd8f0688522379645d68ec6da5a1b477c2fda4332a976330b6bf.json",
+      "sha256": "cf6cc7e91f73dd8f0688522379645d68ec6da5a1b477c2fda4332a976330b6bf",
       "localized": true,
       "provider": "github"
     },
@@ -83,8 +318,7 @@
       "description": "Группу русских солдат отправляют в Северную Германию в конце Второй мировой войны, где они занимают детский дом в непосредственной близости от большой немецкой части. Несмотря на все разногласия здесь формируется дружба между немецким сиротой и бездетным советским капитаном.",
       "originalName": "4 Days in May",
       "aliases": [
-        "4 дня в мае",
-        "4 Days in May"
+        "4 дня в мае"
       ],
       "genres": [
         "Драма",
@@ -92,8 +326,8 @@
       ],
       "imdbRating": "6.4",
       "runtime": "94 мин",
-      "card": "cards/89e7cbe05d58382b1aedbc9b405890f9e4efc1bfe4b5f7c70696033f4f0c9425.json",
-      "sha256": "89e7cbe05d58382b1aedbc9b405890f9e4efc1bfe4b5f7c70696033f4f0c9425",
+      "card": "cards/0b66214fe7f08e4d75983f0bf86879ce4172608220817e467485d478fff30c2a.json",
+      "sha256": "0b66214fe7f08e4d75983f0bf86879ce4172608220817e467485d478fff30c2a",
       "localized": true,
       "provider": "github"
     },
@@ -113,7 +347,6 @@
       "originalName": "As Far as My Feet Will Carry Me",
       "aliases": [
         "Побег из Гулага",
-        "As Far as My Feet Will Carry Me",
         "So weit die Füße tragen"
       ],
       "genres": [
@@ -123,8 +356,8 @@
       ],
       "imdbRating": "7.3",
       "runtime": "158 мин",
-      "card": "cards/dd330d0595a2e8d6cc6152059042255762cd3c75a8161b18e1e820fe91a01d02.json",
-      "sha256": "dd330d0595a2e8d6cc6152059042255762cd3c75a8161b18e1e820fe91a01d02",
+      "card": "cards/dc9f945947c5fcc582aa2bd0a663d37347721aa3f9f69746ad3036e84509a6b9.json",
+      "sha256": "dc9f945947c5fcc582aa2bd0a663d37347721aa3f9f69746ad3036e84509a6b9",
       "localized": true,
       "provider": "github"
     },
@@ -143,8 +376,7 @@
       "description": "В Лос Анджелесе, в самом романтичном городе в мире, встретились два самых неромантичных человека - она на первом свидании выбросила его букет в помойку, а он поил ее самым невкусным кофе в городе. Она пришла на второе свидание в одном нижнем белье, а он обманул ее, так и не решившись безрассудно…",
       "originalName": "Lyubov v Gorode Angelov",
       "aliases": [
-        "Любовь в городе ангелов",
-        "Lyubov v Gorode Angelov"
+        "Любовь в городе ангелов"
       ],
       "genres": [
         "Комедия",
@@ -152,8 +384,8 @@
       ],
       "imdbRating": "5.4",
       "runtime": "90 мин",
-      "card": "cards/9a6ccacbf8545bee359b81bdd6d17711b1b975ed128e490ad201b32cb6df3030.json",
-      "sha256": "9a6ccacbf8545bee359b81bdd6d17711b1b975ed128e490ad201b32cb6df3030",
+      "card": "cards/16615480118508d06412fbf7e41a42016f18a7baabb8d3118a685b41a020cfe5.json",
+      "sha256": "16615480118508d06412fbf7e41a42016f18a7baabb8d3118a685b41a020cfe5",
       "localized": true,
       "provider": "github"
     },
@@ -172,16 +404,15 @@
       "description": "Москва, 1952 год. Коммунальная квартира на Большой Пироговке. В одной из комнат живёт семейство Петкевичей: сотрудница издательства Дина, её сын-школьник, муж-метростроевец Борис, отец-профессор философии Павел Казимирович и мать Ангелина Федоровна. Дина выделяется красотой и статью, но её волную…",
       "originalName": "Here's to You and Us!",
       "aliases": [
-        "За нас с вами",
-        "Here's to You and Us!"
+        "За нас с вами"
       ],
       "genres": [
         "Драма"
       ],
       "imdbRating": "6.6",
       "runtime": "151 мин",
-      "card": "cards/7318f229038b1cb6d67b7036e39ac3a541c9c6573ba8b4bc9d9f8cf0a7f1853e.json",
-      "sha256": "7318f229038b1cb6d67b7036e39ac3a541c9c6573ba8b4bc9d9f8cf0a7f1853e",
+      "card": "cards/e32d9725cc47d229fb81eecd438ce20a4016d56dce9b95d765ecf239f604d8b5.json",
+      "sha256": "e32d9725cc47d229fb81eecd438ce20a4016d56dce9b95d765ecf239f604d8b5",
       "localized": true,
       "provider": "github"
     },

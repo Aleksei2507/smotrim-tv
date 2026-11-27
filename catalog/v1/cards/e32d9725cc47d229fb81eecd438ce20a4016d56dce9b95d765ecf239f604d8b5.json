@@ -1,0 +1,84 @@
+{
+  "id": "tt27868137",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/66bd5e175ab6a4e8e2c1c9a2bc0e3518adabbf4d5982cf91ae972d842cd6e727.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/9e020bf48c2b4349b4cefb79095c1f2024969d07b7ca22f68c27c91adc307cc3.jpg",
+  "genres": [
+    "Драма"
+  ],
+  "runtime": "151 мин",
+  "imdbRating": "6.6",
+  "releaseInfo": "2023",
+  "trailers": [],
+  "name": "За нас с вами",
+  "description": "Москва, 1952 год. Коммунальная квартира на Большой Пироговке. В одной из комнат живёт семейство Петкевичей: сотрудница издательства Дина, её сын-школьник, муж-метростроевец Борис, отец-профессор философии Павел Казимирович и мать Ангелина Федоровна. Дина выделяется красотой и статью, но её волнуют обычные проблемы — где достать продукты получше и отремонтировать папино радио. А времена нынче беспокойные, назревает дело врачей, и прийти могут за каждым.",
+  "aliases": [
+    "За нас с вами"
+  ],
+  "kpId": 4856092,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/4856092/"
+  ],
+  "year": "2023",
+  "imdbId": "tt27868137",
+  "ids": [
+    "tt27868137"
+  ],
+  "originalName": "Here's to You and Us!",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-27T08:59:24Z",
+  "sources": [
+    {
+      "title": "За нас с вами (Андрей Смирнов) [2023, Россия, драма, WEB-DL 1080p] Sub Rus + Original Rus",
+      "magnet": "magnet:?xt=urn:btih:78F8ACB14E31459B72EC617B605FEDB0D12E80CA&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 6957847019,
+      "size": "6.48 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "За нас с вами (Андрей Смирнов) [2023, Россия, драма, WEB-DL 1080p] Sub Rus + Original Rus"
+    },
+    {
+      "title": "За нас с вами (2023) WEB-DL [H.264/1080p]",
+      "magnet": "magnet:?xt=urn:btih:94DD4FA12D5CB8E807EC31B986D94C4EB3BCBDBA",
+      "quality": "1080p",
+      "source": "JacRed · nnmclub",
+      "bytes": 6979321856,
+      "size": "6.50 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "За нас с вами (2023) WEB-DL [H.264/1080p]"
+    },
+    {
+      "title": "За нас с вами (2023) WEB-DLRip 720p от DoMiNo | КиноПоиск HD",
+      "magnet": "magnet:?xt=urn:btih:5885daa282860a5c3a11ce839ddb880f25f198d0&dn=Za-nas-s-vami-2023-WEB-DLRip-720p-ot-DoMiNo-KinoPoisk-HD&xl=2249636991&tr=http://retracker.local/announce&tr=udp://torrent.by:2710&tr=udp://tracker.torrent.eu.org:451&tr=udp://opentor.net:6969&comment=https://torrent.by/73668/",
+      "quality": "720p",
+      "source": "JacRed · torrentby",
+      "bytes": 2254857830,
+      "size": "2.10 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "За нас с вами (2023) WEB-DLRip 720p от DoMiNo | КиноПоиск HD"
+    },
+    {
+      "title": "За нас с вами / 2023 / РУ, СТ / WEB-DL (720p)",
+      "magnet": "magnet:?xt=urn:btih:79EF55EE80AF9B9CE897067EC2AFF8E38A7D4718",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 4069481512,
+      "size": "3.79 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "За нас с вами / 2023 / РУ, СТ / WEB-DL (720p)"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-26T08:50:28Z",
+  "artworkSources": {
+    "poster": "https://live.metahub.space/poster/small/tt27868137/img",
+    "background": "https://live.metahub.space/background/medium/tt27868137/img"
+  }
+}

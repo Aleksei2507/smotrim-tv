@@ -1,0 +1,58 @@
+{
+  "id": "tt2386588",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5ef01222551b69f9fcee743395b2ea0d81d8cade35971ecb9c7f625d5fbdd806.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/cd1c5699cbea62dd9d03cd4eb45882840e5c79680ed84e9f6945fb7014c55e4c.jpg",
+  "genres": [
+    "Драма",
+    "История",
+    "Детектив"
+  ],
+  "runtime": "107 мин",
+  "imdbRating": "6.2",
+  "releaseInfo": "2017",
+  "trailers": [
+    {
+      "source": "6eOqqbndnWk",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Мешок без дна",
+  "description": "Времена правления императора Александра II. Чтобы отвлечь великого князя от меланхолии и алкоголизма, новая фрейлина-чтица рассказывает ему сказку, которая происходит в XIII веке и повествует о загадочном убийстве царевича в лесу. Участники истории и свидетели этого преступления рассказывают разные версии произошедшего.",
+  "aliases": [
+    "Мешок без дна"
+  ],
+  "kpId": 1046009,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/1046009/"
+  ],
+  "year": "2017",
+  "imdbId": "tt2386588",
+  "ids": [
+    "tt2386588"
+  ],
+  "originalName": "Meshok bez dna",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-27T08:59:24Z",
+  "sources": [
+    {
+      "title": "Мешок без дна (Рустам Хамдамов) [2017, Россия, драма, WEB-DL 1080p] + Original Rus",
+      "magnet": "magnet:?xt=urn:btih:C2A91EDE9C18755B8DC7936FD60DBD54DC5A83E2&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 4133906022,
+      "size": "3.85 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Мешок без дна (Рустам Хамдамов) [2017, Россия, драма, WEB-DL 1080p] + Original Rus"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-26T08:50:28Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt2386588/img",
+    "background": "https://images.metahub.space/background/medium/tt2386588/img"
+  }
+}
