@@ -1,0 +1,93 @@
+{
+  "id": "tt6324614",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4fff528f2e6cab95d78035174c688880bcac4720a7a70b8d0d754d7644c9023c.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6c8b724a494dd4ea295a66ea46d68a09d0638049165ad45c5447f587066b68ad.jpg",
+  "genres": [
+    "Драма",
+    "История",
+    "Триллер"
+  ],
+  "runtime": "110 мин",
+  "imdbRating": "6.4",
+  "releaseInfo": "2019",
+  "trailers": [
+    {
+      "source": "-hBacXWZrfM",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Собибор",
+  "description": "В октябре 1943 года заключённые лагеря Собибор во главе с лейтенантом Красной армии Александром Печерским поднимают восстание — единственное успешное восстание в нацистском лагере смерти.",
+  "aliases": [
+    "Собибор",
+    "Sobibor"
+  ],
+  "kpId": 905031,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt6324614.json",
+    "https://www.kinopoisk.ru/film/905031/"
+  ],
+  "year": "2018",
+  "imdbId": "tt6324614",
+  "ids": [
+    "tt6324614"
+  ],
+  "originalName": "Sobibor",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-28T08:22:39Z",
+  "sources": [
+    {
+      "title": "Собибор (2018) BDRip 1080p | AVC @ iTunes",
+      "magnet": "magnet:?xt=urn:btih:af7158754dc20d2b1db31314e8d40168ba0a7075&dn=Sobibor.2018.BDRip.1080p.ExKinoRay.mkv&tr=http://tracker.filetracker.pl:8089/announce&tr=http://tracker2.wasabii.com.tw:6969/announce&tr=http://tracker.grepler.com:6969/announce&tr=http://125.227.35.196:6969/announce&tr=http://tracker.tiny-vps.com:6969/announce&tr=http://87.248.186.252:8080/announce&tr=http://210.244.71.25:6969/announce&tr=http://46.4.109.148:6969/announce&tr=udp://46.148.18.250:2710&tr=http://tracker.dler.org:6969/announce&tr=udp://[2001:67c:28f8:92::1111:1]:2710&tr=udp://ipv6.leechers-paradise.org:6969&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://code2chicken.nl:6969/announce&tr=udp://discord.heihachi.pw:6969/announce&tr=http://vps02.net.orel.ru:80/announce&tr=http://tracker.files.fm:6969/announce",
+      "quality": "1080p",
+      "source": "JacRed · bitru",
+      "bytes": 4552665333,
+      "size": "4.24 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Собибор (2018) BDRip 1080p | AVC @ iTunes"
+    },
+    {
+      "title": "Собибор (2018) BDRip-HEVC 1080p | Rus Transfer | Лицензия",
+      "magnet": "magnet:?xt=urn:btih:b40ad98a508d9f3a6551a81f092d1b0583f154cc&dn=Sobibor (2018) BDRip 1080p  [HEVC] 10bit.mkv&tr=udp://exodus.desync.com:6969&tr=http://bt.piratbit.club/fffffffff0ca8bcf84d4c8ba3769bb91/announce&tr=udp://explodie.org:6969&tr=udp://tracker.torrent.eu.org:451/announce&tr=http://bt02.nnm-club.cc:2710/announce&tr=udp://opentor.net:6969&tr=http://bt4.t-ru.org/ann&tr=http://bt3.t-ru.org/ann&tr=http://bt2.t-ru.org/ann&tr=http://bt.t-ru.org/ann&tr=udp://tracker.opentrackr.org:1337/announce&tr=http://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80&tr=udp://tracker.dler.org:6969/announce",
+      "quality": "1080p",
+      "source": "JacRed · megapeer",
+      "bytes": 4370129223,
+      "size": "4.07 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Собибор (2018) BDRip-HEVC 1080p | Rus Transfer | Лицензия"
+    },
+    {
+      "title": "Собибор / 2018 / РУ / RUS Transfer / BDRip (720p)",
+      "magnet": "magnet:?xt=urn:btih:43D8AA8F04494FD1B1736C8D4DA34E6EF1F5E257",
+      "quality": "720p",
+      "source": "JacRed · kinozal",
+      "bytes": 7569879859,
+      "size": "7.05 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Собибор / 2018 / РУ / RUS Transfer / BDRip (720p)"
+    },
+    {
+      "title": "Собибор (2018) BDRip 720p | AVC",
+      "magnet": "magnet:?xt=urn:btih:e2d9e62b0d5620aa984227253ce6bff316f3b9cd&dn=Собибор.2018. BDRip (720p).mkv&tr=udp://opentor.org:2710&tr=http://tracker.filetracker.pl:8089/announce&tr=http://tracker2.wasabii.com.tw:6969/announce&tr=http://tracker.grepler.com:6969/announce&tr=http://125.227.35.196:6969/announce&tr=http://tracker.tiny-vps.com:6969/announce&tr=http://87.248.186.252:8080/announce&tr=http://210.244.71.25:6969/announce&tr=http://46.4.109.148:6969/announce&tr=udp://46.148.18.250:2710&tr=http://tracker.dler.org:6969/announce&tr=udp://[2001:67c:28f8:92::1111:1]:2710&tr=udp://ipv6.leechers-paradise.org:6969&tr=udp://explodie.org:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=udp://tracker.moeking.me:6969/announce&tr=udp://code2chicken.nl:6969/announce&tr=udp://discord.heihachi.pw:6969/announce&tr=http://vps02.net.orel.ru:80/announce&tr=http://tracker.files.fm:6969/announce",
+      "quality": "720p",
+      "source": "JacRed · bitru",
+      "bytes": 3886945402,
+      "size": "3.62 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Собибор (2018) BDRip 720p | AVC"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-28T08:21:41Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt6324614/img",
+    "background": "https://images.metahub.space/background/medium/tt6324614/img"
+  }
+}

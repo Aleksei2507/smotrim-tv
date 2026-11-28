@@ -1,0 +1,88 @@
+{
+  "id": "tt1101026",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/80e8133151cb7952d0d344d3c78e2b9be0aec5ebd98720e79a5e574e14303624.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c7ef009628e65bbab5daa2848511a416878b5adeaf59b3c68bf6f662ce88361b.jpg",
+  "genres": [
+    "Биография",
+    "Драма",
+    "История"
+  ],
+  "runtime": "123 мин",
+  "imdbRating": "6.6",
+  "releaseInfo": "2008",
+  "trailers": [],
+  "name": "Адмиралъ",
+  "description": "Фильм, рассказывающий о жизни и любви выдающегося боевого офицера военно-морского флота, полярного исследователя, а затем ставшего адмиралом, верховного правителя России - Александра Васильевича Колчака и Анны Тимиревой. События разворачиваются в период 1916-1920 годов на фоне крушения Российской империи, двух революций и Гражданской войны.",
+  "aliases": [
+    "Адмиралъ",
+    "Admiral"
+  ],
+  "kpId": 280938,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt1101026.json",
+    "https://www.kinopoisk.ru/film/280938/"
+  ],
+  "year": "2008",
+  "imdbId": "tt1101026",
+  "ids": [
+    "tt1101026"
+  ],
+  "originalName": "Admiral",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-28T08:22:39Z",
+  "sources": [
+    {
+      "title": "Адмиралъ (Андрей Кравчук) [2008, Россия, драма, история, BDRip 1080p]",
+      "magnet": "magnet:?xt=urn:btih:AB2685DE78C0488F119A281E494DC008C79ED47D&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 13196287016,
+      "size": "12.29 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Адмиралъ (Андрей Кравчук) [2008, Россия, драма, история, BDRip 1080p]"
+    },
+    {
+      "title": "Адмиралъ (Андрей Кравчук) [2008, Россия, драма, история, Blu-Ray disc 1080p] [RUS]",
+      "magnet": "magnet:?xt=urn:btih:4E690EAA908EE8923D4FE6143646111FAAC43AD4&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 24427626496,
+      "size": "22.75 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Адмиралъ (Андрей Кравчук) [2008, Россия, драма, история, Blu-Ray disc 1080p] [RUS]"
+    },
+    {
+      "title": "Адмиралъ (Андрей Кравчук) [2008, Россия, исторический, драма, BDRip 720p]",
+      "magnet": "magnet:?xt=urn:btih:30AEB5FB05B3BD8E10DFE754B002739C821251A0&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 7022271528,
+      "size": "6.54 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Адмиралъ (Андрей Кравчук) [2008, Россия, исторический, драма, BDRip 720p]"
+    },
+    {
+      "title": "Адмиралъ (2008) BDRip 720p",
+      "magnet": "magnet:?xt=urn:btih:9cc8643e26615496f75d2df1b2569d0e3b6cc279&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 4692251770,
+      "size": "4.37 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Адмиралъ (2008) BDRip 720p"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-28T08:21:41Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt1101026/img",
+    "background": "https://images.metahub.space/background/medium/tt1101026/img"
+  }
+}

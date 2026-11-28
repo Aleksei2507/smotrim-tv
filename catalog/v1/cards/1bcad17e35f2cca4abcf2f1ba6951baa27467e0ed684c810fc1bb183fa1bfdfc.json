@@ -1,0 +1,66 @@
+{
+  "id": "tt14141754",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1478be7d0e3007fa8ba473d2ee008f62378e8e6d54697cc7ba937973cade6c4d.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/471266944d43618a43e0a8224b3ca0ed5be1b4085de472c7f80a1f95cc8206f2.jpg",
+  "genres": [
+    "Комедия",
+    "Драма",
+    "Мелодрама"
+  ],
+  "runtime": "104 мин",
+  "imdbRating": "6.3",
+  "releaseInfo": "2021",
+  "trailers": [],
+  "name": "Пара из будущего",
+  "description": "2040 год. Евгений и Александра уже 20 лет в браке, их отношения похожи на высохший урюк. Развестись у них тоже не получается, поскольку расторжение брака — очень дорогая процедура. Но судьба дает им шанс: Евгений и Александра попадают в прошлое, в тот самый день 20 лет назад, когда влюбленный Женя сделал предложение прелестной Саше. Теперь пара из будущего решает разлучить самих себя в молодости, но это будет непросто, так как молодые отстаивают свою любовь.",
+  "aliases": [
+    "Пара из будущего",
+    "Couple from the Future"
+  ],
+  "kpId": 1405926,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://v3-cinemeta.strem.io/meta/movie/tt14141754.json",
+    "https://www.kinopoisk.ru/film/1405926/"
+  ],
+  "year": "2021",
+  "imdbId": "tt14141754",
+  "ids": [
+    "tt14141754"
+  ],
+  "originalName": "Couple from the Future",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-28T08:22:39Z",
+  "sources": [
+    {
+      "title": "Пара из будущего (2021) WEB-DL 1080p от ELEKTRI4KA | iTunes",
+      "magnet": "magnet:?xt=urn:btih:f2c455ce1d7b80b1cd4713a0368551502a9ac9cd&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "1080p",
+      "source": "JacRed · rutor",
+      "bytes": 3843995729,
+      "size": "3.58 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Пара из будущего (2021) WEB-DL 1080p от ELEKTRI4KA | iTunes"
+    },
+    {
+      "title": "Пара из будущего (2021) WEB-DL 720p | iTunes",
+      "magnet": "magnet:?xt=urn:btih:a17104ca8858bcb3b2f89615ad9d2a2472fa7413&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 3038689361,
+      "size": "2.83 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Пара из будущего (2021) WEB-DL 720p | iTunes"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-28T08:21:41Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt14141754/img",
+    "background": "https://images.metahub.space/background/medium/tt14141754/img"
+  }
+}

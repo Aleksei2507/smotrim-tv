@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1795833763,
-  "updatedAt": "2026-11-28T02:40:38Z",
+  "revision": 1795854160,
+  "updatedAt": "2026-11-28T08:22:39Z",
   "selectionNote": "Редакционная подборка популярных и высокооценённых фильмов и сериалов; не официальный рейтинг по местам.",
   "references": [
     "https://www.kinopoisk.ru/lists/movies/top250/",
@@ -10,6 +10,247 @@
     "https://www.imdb.com/chart/toptv/"
   ],
   "items": [
+    {
+      "id": "tt14141754",
+      "ids": [
+        "tt14141754"
+      ],
+      "imdbId": "tt14141754",
+      "name": "Пара из будущего",
+      "type": "movie",
+      "year": "2021",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/1478be7d0e3007fa8ba473d2ee008f62378e8e6d54697cc7ba937973cade6c4d.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/471266944d43618a43e0a8224b3ca0ed5be1b4085de472c7f80a1f95cc8206f2.jpg",
+      "description": "2040 год. Евгений и Александра уже 20 лет в браке, их отношения похожи на высохший урюк. Развестись у них тоже не получается, поскольку расторжение брака — очень дорогая процедура. Но судьба дает им шанс: Евгений и Александра попадают в прошлое, в тот самый день 20 лет назад, когда влюбленный Жен…",
+      "originalName": "Couple from the Future",
+      "aliases": [
+        "Пара из будущего",
+        "Couple from the Future"
+      ],
+      "genres": [
+        "Комедия",
+        "Драма",
+        "Мелодрама"
+      ],
+      "imdbRating": "6.3",
+      "runtime": "104 мин",
+      "card": "cards/1bcad17e35f2cca4abcf2f1ba6951baa27467e0ed684c810fc1bb183fa1bfdfc.json",
+      "sha256": "1bcad17e35f2cca4abcf2f1ba6951baa27467e0ed684c810fc1bb183fa1bfdfc",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt1101026",
+      "ids": [
+        "tt1101026"
+      ],
+      "imdbId": "tt1101026",
+      "name": "Адмиралъ",
+      "type": "movie",
+      "year": "2008",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/80e8133151cb7952d0d344d3c78e2b9be0aec5ebd98720e79a5e574e14303624.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c7ef009628e65bbab5daa2848511a416878b5adeaf59b3c68bf6f662ce88361b.jpg",
+      "description": "Фильм, рассказывающий о жизни и любви выдающегося боевого офицера военно-морского флота, полярного исследователя, а затем ставшего адмиралом, верховного правителя России - Александра Васильевича Колчака и Анны Тимиревой. События разворачиваются в период 1916-1920 годов на фоне крушения Российской…",
+      "originalName": "Admiral",
+      "aliases": [
+        "Адмиралъ",
+        "Admiral"
+      ],
+      "genres": [
+        "Биография",
+        "Драма",
+        "История"
+      ],
+      "imdbRating": "6.6",
+      "runtime": "123 мин",
+      "card": "cards/f2e86d8319e08de2dbd3e12c99646ab7d9df023a9aa2fc0a33425687d4e5b22b.json",
+      "sha256": "f2e86d8319e08de2dbd3e12c99646ab7d9df023a9aa2fc0a33425687d4e5b22b",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt5242684",
+      "ids": [
+        "tt5242684"
+      ],
+      "imdbId": "tt5242684",
+      "name": "Танцы насмерть",
+      "type": "movie",
+      "year": "2017",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d8f77df36670abf5044f2888331cc916b6b45ede81cc393ad5667e3cfbf1cf80.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/41e6cb6328118ad9d9b6e4a0330d7d4e87ffaeee7ec9608560a24d81ced1f66a.jpg",
+      "description": "российский фантастический фильм 2017 года режиссёра Андрея Волгина",
+      "originalName": "Dance to Death",
+      "aliases": [
+        "Танцы насмерть",
+        "Dance to Death",
+        "Tantsy nasmert"
+      ],
+      "genres": [
+        "Боевик",
+        "Драма",
+        "Фантастика"
+      ],
+      "imdbRating": "2.8",
+      "runtime": "90 мин",
+      "card": "cards/9fb0b1ced9ef823e6fb70b40ed93855049c2eb402d96b8cd345ad000eb317f5f.json",
+      "sha256": "9fb0b1ced9ef823e6fb70b40ed93855049c2eb402d96b8cd345ad000eb317f5f",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt4075322",
+      "ids": [
+        "tt4075322"
+      ],
+      "imdbId": "tt4075322",
+      "name": "Савва. Сердце воина",
+      "type": "movie",
+      "year": "2015",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8eb9fadde155d581a86865481528821b3fa755ff668a146d8700447b39010b8e.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/c871f3573f57e165c9d801f39b16befe8ab8633ef37482bf0f5a38097370e3ee.jpg",
+      "description": "История о мальчике Савве десяти лет, который живёт в маленькой лесной деревне. Когда-то деревню от врагов защищали благородные белые волки. Но однажды волки исчезли и на деревню напала банда свирепых Гиен. Савве удаётся сбежать в лес, где он знакомится с  Ангой - последним белым волком. \n\nАнга ра…",
+      "originalName": "A Warrior's Tail",
+      "aliases": [
+        "Савва. Сердце воина",
+        "A Warrior's Tail"
+      ],
+      "genres": [
+        "Мультфильм",
+        "Приключения",
+        "Фэнтези"
+      ],
+      "imdbRating": "4.4",
+      "runtime": "85 мин",
+      "card": "cards/9f5c963f7b5bf6b4d985d5f5b718f8dc091461e060866253b98b421cb7f0d7cf.json",
+      "sha256": "9f5c963f7b5bf6b4d985d5f5b718f8dc091461e060866253b98b421cb7f0d7cf",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt32393988",
+      "ids": [
+        "tt32393988"
+      ],
+      "imdbId": "tt32393988",
+      "name": "Астрал 6: Они уже здесь",
+      "type": "movie",
+      "year": "2026",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4b346465cb2070bbeabc853f67fd86213ee73f640e7750bc6c3126933c1a3227.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/b2fe2a6907f945d35da8ca1788635b992ce5e461577ba114366ed8b89f5bd810.jpg",
+      "description": "В детстве Джемма стала свидетелем жуткой смерти матери, которая уже долгое время была не в себе. 20 лет спустя она работает стоматологом, живёт в том же доме и воспитывает дочь-младшеклассницу. Внезапно женщину начинают мучать реалистичные страшные сны и преследовать троица жутких стариков. Когда…",
+      "originalName": "Insidious: Out of the Further",
+      "aliases": [
+        "Астрал 6: Они уже здесь",
+        "Insidious: Out of the Further"
+      ],
+      "genres": [
+        "Ужасы",
+        "Детектив",
+        "Триллер"
+      ],
+      "imdbRating": "6.0",
+      "runtime": "106 мин",
+      "card": "cards/8f9c30afaae6af3da23a72d5efb027f24abd47d7f0ac02cb5c3e879af8f0b602.json",
+      "sha256": "8f9c30afaae6af3da23a72d5efb027f24abd47d7f0ac02cb5c3e879af8f0b602",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt11041332",
+      "ids": [
+        "tt11041332"
+      ],
+      "imdbId": "tt11041332",
+      "name": "Шершни",
+      "type": "series",
+      "year": "2021",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/97f127258c4e0dda2a919a45e895be05f4f9926b8374124a416f8958174ec47d.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/5051cff9e0b1cbaa977354555f422630486c11099d955c3039e0c8f4bc862f7f.jpg",
+      "description": "Женская школьная команда по футболу терпит крушение на самолёте в лесах Онтарио. Пока идут поиски, с выживших медленно слезает налёт цивилизации. Из слаженной команды они превращаются в разрозненные кланы каннибалов.",
+      "originalName": "Yellowjackets",
+      "aliases": [
+        "Шершни",
+        "Yellowjackets"
+      ],
+      "genres": [
+        "Драма",
+        "Ужасы",
+        "Детектив"
+      ],
+      "imdbRating": "7.7",
+      "runtime": "57 мин",
+      "card": "cards/22179513588e9a747aa82e99a6ef81781c63167b3b5fb5412b175aea4ae28cd2.json",
+      "sha256": "22179513588e9a747aa82e99a6ef81781c63167b3b5fb5412b175aea4ae28cd2",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt0364845",
+      "ids": [
+        "tt0364845"
+      ],
+      "imdbId": "tt0364845",
+      "name": "Морская полиция: Спецотдел",
+      "type": "series",
+      "year": "2003",
+      "origin": "other",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/d929906a5ada0af48af6a626f1df0ea5ca97a28e8cbf22016ab4e6668adb0fe2.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/8d1aa2757fcb8085fe806ba6631763f95f37d7eeffd637cfd7b275a7b65fc7ff.jpg",
+      "description": "Сериал о приключениях команды профессиональных спецагентов. Их миссия - расследовать преступления, которые каким-то образом связаны со служащими морской пехоты. Группу следователей возглавляет специальный агент Гиббс. Его команда — это экс-детектив Энтони ДиНоззо, выхоженка из Моссад — Зива Давид…",
+      "originalName": "NCIS",
+      "aliases": [
+        "Морская полиция: Спецотдел",
+        "NCIS"
+      ],
+      "genres": [
+        "Боевик",
+        "Криминал",
+        "Драма"
+      ],
+      "imdbRating": "7.8",
+      "runtime": "45 мин",
+      "card": "cards/34ea2b8d6dd63fde1742f83c7d28a793761ef8eda3cd9bc1d762a5f381652649.json",
+      "sha256": "34ea2b8d6dd63fde1742f83c7d28a793761ef8eda3cd9bc1d762a5f381652649",
+      "localized": true,
+      "provider": "github"
+    },
+    {
+      "id": "tt6324614",
+      "ids": [
+        "tt6324614"
+      ],
+      "imdbId": "tt6324614",
+      "name": "Собибор",
+      "type": "movie",
+      "year": "2018",
+      "origin": "ru",
+      "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/4fff528f2e6cab95d78035174c688880bcac4720a7a70b8d0d754d7644c9023c.jpg",
+      "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/6c8b724a494dd4ea295a66ea46d68a09d0638049165ad45c5447f587066b68ad.jpg",
+      "description": "В октябре 1943 года заключённые лагеря Собибор во главе с лейтенантом Красной армии Александром Печерским поднимают восстание — единственное успешное восстание в нацистском лагере смерти.",
+      "originalName": "Sobibor",
+      "aliases": [
+        "Собибор",
+        "Sobibor"
+      ],
+      "genres": [
+        "Драма",
+        "История",
+        "Триллер"
+      ],
+      "imdbRating": "6.4",
+      "runtime": "110 мин",
+      "card": "cards/e4e412736ed2176fd999f6ee6184767367ef8649c17428d101b6d53fb16a78c2.json",
+      "sha256": "e4e412736ed2176fd999f6ee6184767367ef8649c17428d101b6d53fb16a78c2",
+      "localized": true,
+      "provider": "github"
+    },
     {
       "id": "tt0312378",
       "ids": [
@@ -25,16 +266,15 @@
       "description": "За высокими стенами старого индийского монастыря некие дельцы организовали закрытую школу оккультных наук. Самый способный ученик — юноша Ариэль — обладающий способностями к левитации, однажды решает бежать из неволи. Но на него начинается охота...",
       "originalName": "Ariel",
       "aliases": [
-        "Ариэль",
-        "Ariel"
+        "Ариэль"
       ],
       "genres": [
         "Фантастика"
       ],
       "imdbRating": "5.0",
       "runtime": "80 мин",
-      "card": "cards/694f48081bb142bab5b4c440bec41c37b8717a45e2aa55c104637db258e1902a.json",
-      "sha256": "694f48081bb142bab5b4c440bec41c37b8717a45e2aa55c104637db258e1902a",
+      "card": "cards/ddaabe764e45db3c433d942e5d308f304663e02b5e74d86ed5639d792cfaa5ec.json",
+      "sha256": "ddaabe764e45db3c433d942e5d308f304663e02b5e74d86ed5639d792cfaa5ec",
       "localized": true,
       "provider": "github"
     },
@@ -53,8 +293,7 @@
       "description": "Учёный Фауст озабочен вопросами познания. Распотрошив человеческое тело, он не находит в нём души. Его униженный друг Вагнер пытается вырастить в пробирке идеального человека — гомункулуса.",
       "originalName": "Faust",
       "aliases": [
-        "Фауст",
-        "Faust"
+        "Фауст"
       ],
       "genres": [
         "Драма",
@@ -63,8 +302,8 @@
       ],
       "imdbRating": "6.5",
       "runtime": "140 мин",
-      "card": "cards/fbc0feb1f14fb7b5a19ac0386005725751f70ee27e76bb8c25532f17c1348d8a.json",
-      "sha256": "fbc0feb1f14fb7b5a19ac0386005725751f70ee27e76bb8c25532f17c1348d8a",
+      "card": "cards/231a0fc2001afb62b469ee6a82bab635aecccdd253cb26adc9c86a39f0dca8a9.json",
+      "sha256": "231a0fc2001afb62b469ee6a82bab635aecccdd253cb26adc9c86a39f0dca8a9",
       "localized": true,
       "provider": "github"
     },
@@ -83,8 +322,7 @@
       "description": "Мирон Алексеевич - директор бумажно-целлюлозного комбината - едет хоронить жену Таню в те места, где они когда-то проводили медовый месяц. Едет не один, а с фотографом по имени Аист, которому по дороге рассказывает трогательные подробности своей жизни с Таней. В повествование вплетаются воспомина…",
       "originalName": "Silent Souls",
       "aliases": [
-        "Овсянки",
-        "Silent Souls"
+        "Овсянки"
       ],
       "genres": [
         "Драма",
@@ -92,8 +330,8 @@
       ],
       "imdbRating": "6.6",
       "runtime": "77 мин",
-      "card": "cards/f7d5e416fbb34a8aaf2bf4548eaa20c730edab61907e471eb931032734f06d55.json",
-      "sha256": "f7d5e416fbb34a8aaf2bf4548eaa20c730edab61907e471eb931032734f06d55",
+      "card": "cards/489f1648d5ce4ef804967e07e54156a392e009e90ed91ced5293f1b5739d37ff.json",
+      "sha256": "489f1648d5ce4ef804967e07e54156a392e009e90ed91ced5293f1b5739d37ff",
       "localized": true,
       "provider": "github"
     },
@@ -112,8 +350,7 @@
       "description": "Любопытный школьник Сенька каким-то чудом попадает в сказочный древний лес. Он скрыт от людских глаз мощным заклятием Бабы Яги, призванным защитить людей и весь мир от дремлющих там темных сил. В лесу явно творится что-то неладное. Тревожные сигналы возвещают, что заклятие больше не действует, и…",
       "originalName": "Baba Yaga Saves The World",
       "aliases": [
-        "Баба Яга спасает мир",
-        "Baba Yaga Saves The World"
+        "Баба Яга спасает мир"
       ],
       "genres": [
         "Комедия",
@@ -122,8 +359,8 @@
       ],
       "imdbRating": "4.7",
       "runtime": "90 мин",
-      "card": "cards/e3797c6efaf63311a591db92f3aaf626e5d7b49eac7afb03d157b6d39deaacec.json",
-      "sha256": "e3797c6efaf63311a591db92f3aaf626e5d7b49eac7afb03d157b6d39deaacec",
+      "card": "cards/c86b5b73f6d58d31fac8844fdf1f8c4863f311209ed35d7c6dab5e81c5902d7e.json",
+      "sha256": "c86b5b73f6d58d31fac8844fdf1f8c4863f311209ed35d7c6dab5e81c5902d7e",
       "localized": true,
       "provider": "github"
     },
@@ -171,8 +408,7 @@
       "description": "Самый гнусный отец в мире, опер Андрей Геннадьевич, собирает у себя в квартире компанию отъявленных мерзавцев: мстительную дочь-актрису, озлобленного хулигана и обманутого мента. У каждого из них есть свои причины для мести.",
       "originalName": "Why Don't You Just Die!",
       "aliases": [
-        "Папа, сдохни",
-        "Why Don't You Just Die!"
+        "Папа, сдохни"
       ],
       "genres": [
         "Боевик",
@@ -181,8 +417,8 @@
       ],
       "imdbRating": "6.8",
       "runtime": "94 мин",
-      "card": "cards/14c6a6c635f6fe6b023b13ef180cc2be968b65e219f02697028d0bb40aa5044d.json",
-      "sha256": "14c6a6c635f6fe6b023b13ef180cc2be968b65e219f02697028d0bb40aa5044d",
+      "card": "cards/0ee28b50c4ab2becee2295422d443ef7b195a412b97dcfae8405163e833891b7.json",
+      "sha256": "0ee28b50c4ab2becee2295422d443ef7b195a412b97dcfae8405163e833891b7",
       "localized": true,
       "provider": "github"
     },

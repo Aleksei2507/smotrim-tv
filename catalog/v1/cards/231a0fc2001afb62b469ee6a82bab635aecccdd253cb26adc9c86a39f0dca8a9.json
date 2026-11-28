@@ -1,0 +1,80 @@
+{
+  "id": "tt1437357",
+  "type": "movie",
+  "poster": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/671b214d86036f1650318aa60ffd984dc7a8107033d97ef4f76a42a1c7a34f99.jpg",
+  "background": "https://raw.githubusercontent.com/Aleksei2507/smotrim-tv/main/catalog/v1/images/58683717e1730985bf3411fe519c6df4003942eb7127e9fc806a996b06a92eaf.jpg",
+  "genres": [
+    "Драма",
+    "Фэнтези",
+    "Детектив"
+  ],
+  "runtime": "140 мин",
+  "imdbRating": "6.5",
+  "releaseInfo": "2011",
+  "trailers": [
+    {
+      "source": "en41_BCdAmk",
+      "type": "Trailer"
+    }
+  ],
+  "name": "Фауст",
+  "description": "Учёный Фауст озабочен вопросами познания. Распотрошив человеческое тело, он не находит в нём души. Его униженный друг Вагнер пытается вырастить в пробирке идеального человека — гомункулуса.",
+  "aliases": [
+    "Фауст"
+  ],
+  "kpId": 439733,
+  "origin": "ru",
+  "metadataProvider": "kinopoisk",
+  "metadataSources": [
+    "https://www.kinopoisk.ru/film/439733/"
+  ],
+  "year": "2011",
+  "imdbId": "tt1437357",
+  "ids": [
+    "tt1437357"
+  ],
+  "originalName": "Faust",
+  "localized": true,
+  "ratingSource": "IMDb",
+  "updatedAt": "2026-11-28T08:21:41Z",
+  "sources": [
+    {
+      "title": "Фауст / Faust (Александр Сокуров) [2011, США, Россия, Германия, Франция, Япония, Великобритания, Италия, драма, BDRemux 1080p] AVO (Александр Сокуров) + Original (Deu) + Sub (Rus)",
+      "magnet": "magnet:?xt=urn:btih:8617A7540F4337113C693D72FC40A5530A95B15F&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann%3Fmagnet",
+      "quality": "1080p",
+      "source": "JacRed · rutracker",
+      "bytes": 28464895754,
+      "size": "26.51 GB",
+      "audioLanguage": "ru",
+      "label": "Русская озвучка · по описанию раздачи",
+      "languageEvidence": "Фауст / Faust (Александр Сокуров) [2011, США, Россия, Германия, Франция, Япония, Великобритания, Италия, драма, BDRemux 1080p] AVO (Александр Сокуров) + Original (Deu) + Sub (Rus)"
+    },
+    {
+      "title": "Фауст / Faust (Александр Сокуров) [2011, США, Россия, Германия, Франция, Япония, Великобритания, Италия, фэнтези, драма, BDRip 720p] [ITA Transfer]",
+      "magnet": "magnet:?xt=urn:btih:0F21B1815C0D42BA79E64E85A26C8BCDA98713FE&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet",
+      "quality": "720p",
+      "source": "JacRed · rutracker",
+      "bytes": 6871947673,
+      "size": "6.40 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фауст / Faust (Александр Сокуров) [2011, США, Россия, Германия, Франция, Япония, Великобритания, Италия, фэнтези, драма, BDRip 720p] [ITA Transfer]"
+    },
+    {
+      "title": "Фауст / Faust (2011) BDRip 720p от Element team",
+      "magnet": "magnet:?xt=urn:btih:f1913183ba9e14ae363539237e2a8bfbb29e3a8a&dn=rutor.info&tr=udp://opentor.net:6969&tr=http://retracker.local/announce",
+      "quality": "720p",
+      "source": "JacRed · rutor",
+      "bytes": 4660039516,
+      "size": "4.34 GB",
+      "audioLanguage": "ru",
+      "label": "Оригинальный русский звук",
+      "languageEvidence": "Фауст / Faust (2011) BDRip 720p от Element team"
+    }
+  ],
+  "sourcesUpdatedAt": "2026-11-27T08:59:24Z",
+  "artworkSources": {
+    "poster": "https://images.metahub.space/poster/small/tt1437357/img",
+    "background": "https://images.metahub.space/background/medium/tt1437357/img"
+  }
+}
