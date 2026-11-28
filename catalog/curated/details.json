@@ -1692,6 +1692,15 @@
         "description": "",
         "released": "2026-09-19",
         "source": "https://www.tvmaze.com/episodes/3750232/zvezdy-3x03-vypusk-3-festival"
+      },
+      {
+        "id": "tt31712367:3:4",
+        "season": 3,
+        "episode": 4,
+        "title": "Выпуск 4. Дуэль",
+        "description": "",
+        "released": "2026-11-28",
+        "source": "https://api.tvmaze.com/shows/74556/episodes"
       }
     ],
     "episodeFeeds": [
